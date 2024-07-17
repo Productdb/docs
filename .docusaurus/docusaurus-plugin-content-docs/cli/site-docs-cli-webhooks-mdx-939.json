@@ -1,0 +1,25 @@
+{
+  "id": "webhooks",
+  "title": "Webhooks",
+  "description": "Leverage Dyte CLI's webhook capabilities for real-time event notifications. Integrate webhooks into your applications.",
+  "source": "@site/docs/cli/webhooks.mdx",
+  "sourceDirName": ".",
+  "slug": "/webhooks",
+  "permalink": "/cli/webhooks",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dyte-io/docs/tree/main/docs/cli/webhooks.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134098000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "description": "Leverage Dyte CLI's webhook capabilities for real-time event notifications. Integrate webhooks into your applications."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plugins",
+    "permalink": "/cli/plugins"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "getting-started",
+  "title": "Getting started",
+  "description": "Get started with Dyte CLI using our comprehensive guide. Follow step-by-step instructions for a smooth development.",
+  "source": "@site/docs/cli/getting-started.mdx",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/cli/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dyte-io/docs/tree/main/docs/cli/getting-started.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134098000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "Get started with Dyte CLI using our comprehensive guide. Follow step-by-step instructions for a smooth development."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dyte CLI",
+    "permalink": "/cli/"
+  },
+  "next": {
+    "title": "Meetings",
+    "permalink": "/cli/meetings"
+  }
+}
