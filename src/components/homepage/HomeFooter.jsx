@@ -391,13 +391,6 @@ export default function Footer() {
               Terms of Service
             </Link>
             &bull;
-            <Link
-              href="https://dyte.io/website-terms-of-use"
-              className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
-            >
-              Website Terms of Use
-            </Link>
-            &bull;
             <span className="text-inherit dark:text-[#999]">
               &copy; {new Date().getFullYear()} ProductDB.
             </span>
@@ -405,13 +398,13 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/dyte-io"
-              aria-label="Dyte's GitHub Organization"
+              href="https://github.com/Productdb"
+              aria-label="ProductDB's GitHub Organization"
             >
               <Github className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://linkedin.com/company/dyteio"
+              href="https://linkedin.com/company/Productdb"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
@@ -420,8 +413,8 @@ export default function Footer() {
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://youtube.com/company/dyteio"
-              aria-label="Dyte YouTube Channel"
+              href="https://youtube.com/company/productDB"
+              aria-label="Productdb's YouTube Channel"
             >
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
