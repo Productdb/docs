@@ -7,7 +7,7 @@
   <h2 align="center">ProductDB Docs</h3>
 
   <p align="center">
-    Dyte's documentation portal, built with Docusaurus.
+    ProductDB's documentation portal, built with Docusaurus.
     <br />
     <a href="https://productdb.dev"><strong>Explore the docs »</strong></a>
     <br />
