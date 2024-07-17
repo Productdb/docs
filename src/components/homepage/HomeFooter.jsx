@@ -8,11 +8,11 @@ import ThemedImage from '@theme/ThemedImage';
 
 const products = [
   {
-    name: 'Live Video',
-    href: 'https://dyte.io/video-sdk',
+    name: 'Classification',
+    href: 'https://productdb.io/product/classification',
   },
   {
-    name: 'Voice Conferencing',
+    name: 'Marketing',
     href: 'https://dyte.io/voice-sdk',
   },
   {
@@ -274,7 +274,7 @@ function Status({ className }) {
 
   return (
     <Link
-      href="https://status.dyte.io"
+      href="https://status.productdb.io"
       className={clsx(
         'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-gray-500 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline dark:hover:bg-[#474747]',
         className
@@ -378,14 +378,14 @@ export default function Footer() {
 
           <div className="flex flex-wrap gap-2 text-sm text-gray-500">
             <Link
-              href="https://dyte.io/privacy-policy"
+              href="https://productdb.io/legal/privacy-policy"
               className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
             >
               Privacy Policy
             </Link>
             &bull;
             <Link
-              href="https://dyte.io/terms-of-service"
+              href="https://productdb.io/legal/terms-of-service"
               className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
             >
               Terms of Service
@@ -399,7 +399,7 @@ export default function Footer() {
             </Link>
             &bull;
             <span className="text-inherit dark:text-[#999]">
-              &copy; {new Date().getFullYear()} Dyte Inc.
+              &copy; {new Date().getFullYear()} ProductDB.
             </span>
           </div>
 
