@@ -9,14 +9,14 @@
   <p align="center">
     Dyte's documentation portal, built with Docusaurus.
     <br />
-    <a href="https://docs.dyte.io"><strong>Explore the docs »</strong></a>
+    <a href="https://productdb.dev"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://app.dyte.io">View Demo</a>
+    <a href="https://app.productdb.io">View Demo</a>
     ·
-    <a href="https://github.com/dyte-io/docs/issues">Report Bug</a>
+    <a href="https://github.com/Productdb/docs/issues">Report Bug</a>
     ·
-    <a href="https://github.com/dyte-io/docs/issues">Request Feature</a>
+    <a href="https://github.com/Productdb/docs/issues">Request Feature</a>
   </p>
 </p>
 
