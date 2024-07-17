@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="https://dyte.io">
-    <img src="https://assets.dyte.io/logo-outlined.png" alt="Logo" width="120">
+    <img src="https://test.productdb.io/images/logo/logo-light.svg" alt="Logo" width="120">
   </a>
 
   <h2 align="center">Dyte Docs</h3>
