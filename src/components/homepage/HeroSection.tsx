@@ -11,33 +11,33 @@ import clsx from 'clsx';
 
 const PRODUCTS = [
   {
-    title: 'Live Video',
-    link: '/guides/live-video/intro-video-conf',
+    title: 'Classification',
+    link: '/guides/classification/intro-video-conf',
     icon: VideoRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
     text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
   },
   {
-    title: 'Voice',
-    link: '/guides/voice-conf/intro-voice-conf',
+    title: 'Apps',
+    link: '/guides/apps/intro-apps',
     icon: MicRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
     darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
     text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
   },
   {
-    title: 'Interactive Live Streaming',
-    link: '/guides/livestream/livestream-overview',
+    title: 'Themes',
+    link: '/guides/themes/themes-overview',
     icon: LiveRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
     text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
   },
   {
-    title: 'Chat',
+    title: 'Content',
     beta: true,
-    link: '/guides/realtime-chat/intro-chat',
+    link: '/guides/content/intro-content',
     icon: ChatMultipleRegular,
     lightImage: '/static/landing-page/hero/chat-graphic.png',
     darkImage: '/static/landing-page/hero/chat-graphic-dark.png',
@@ -96,8 +96,8 @@ export default function HeroSection() {
             Build with Dyte
           </h2>
           <p className="max-w-xl text-center text-text-400">
-            At Dyte, we're building the future of real-time communication.
-            Integrate programmable, and easily customizable live video and voice
+            At ProductDB, we're building the future of real-time product information.
+            Integrate programmable, and easily customizable productdata
             into your web, mobile, and desktop applications with just a few
             lines of code.
           </p>
