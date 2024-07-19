@@ -8,6 +8,7 @@ import {
 CartRegular,
 ClassificationRegular,
 ContentViewRegular,
+CubeTreeRegular,
 } from '@fluentui/react-icons';
 import ThemedImage from '@theme/ThemedImage';
 import clsx from 'clsx';
@@ -16,7 +17,7 @@ const PRODUCTS = [
   {
     title: 'Classification',
     link: '/guides/live-video/intro-video-conf',
-    icon: ClassificationRegular,
+    icon: CubeTreeRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
     text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
