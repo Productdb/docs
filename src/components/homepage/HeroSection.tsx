@@ -5,6 +5,9 @@ import {
   LiveRegular,
   MicRegular,
   VideoRegular,
+CartRegular,
+ClassificationRegular,
+ContentViewRegular,
 } from '@fluentui/react-icons';
 import ThemedImage from '@theme/ThemedImage';
 import clsx from 'clsx';
@@ -13,7 +16,7 @@ const PRODUCTS = [
   {
     title: 'Classification',
     link: '/guides/live-video/intro-video-conf',
-    icon: VideoRegular,
+    icon: ClassificationRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
     text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
@@ -21,7 +24,7 @@ const PRODUCTS = [
   {
     title: 'Commerce',
     link: '/guides/voice-conf/intro-voice-conf',
-    icon: MicRegular,
+    icon: CartRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
     darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
     text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
@@ -29,7 +32,7 @@ const PRODUCTS = [
   {
     title: 'Content',
     link: '/guides/livestream/livestream-overview',
-    icon: LiveRegular,
+    icon: ContentViewRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
     text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
