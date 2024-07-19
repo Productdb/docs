@@ -378,24 +378,10 @@ export default function Footer() {
 
           <div className="flex flex-wrap gap-2 text-sm text-gray-500">
             <Link
-              href="https://productdb.io/legal/privacy-policy"
+              href="https://productdb.io/legal/"
               className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
             >
-              Privacy Policy
-            </Link>
-            &bull;
-            <Link
-              href="https://productdb.io/legal/terms-of-service"
-              className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
-            >
-              Terms of Service
-            </Link>
-            &bull;
-            <Link
-              href="https://dyte.io/website-terms-of-use"
-              className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
-            >
-              Website Terms of Use
+              Legal
             </Link>
             &bull;
             <span className="text-inherit dark:text-[#999]">
