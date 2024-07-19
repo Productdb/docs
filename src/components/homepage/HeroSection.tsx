@@ -19,7 +19,7 @@ const PRODUCTS = [
     text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
   },
   {
-    title: 'Voice',
+    title: 'Commerce',
     link: '/guides/voice-conf/intro-voice-conf',
     icon: MicRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
@@ -27,7 +27,7 @@ const PRODUCTS = [
     text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
   },
   {
-    title: 'Interactive Live Streaming',
+    title: 'Content',
     link: '/guides/livestream/livestream-overview',
     icon: LiveRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
@@ -35,7 +35,7 @@ const PRODUCTS = [
     text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
   },
   {
-    title: 'Chat',
+    title: 'Communication',
     beta: true,
     link: '/guides/realtime-chat/intro-chat',
     icon: ChatMultipleRegular,
