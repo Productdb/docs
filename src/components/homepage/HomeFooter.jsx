@@ -342,7 +342,7 @@ export default function Footer() {
       <div className="mx-auto flex w-full max-w-[1080px] flex-col px-6 py-12">
         <div className="mb-12 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <ThemedImage
-            alt="Dyte"
+            alt="ProductDB"
             className="h-9 w-fit lg:h-12"
             sources={{
               light: '/logo/dyte.svg',
@@ -391,13 +391,13 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/dyte-io"
-              aria-label="Dyte's GitHub Organization"
+              href="https://github.com/productdb"
+              aria-label="ProductDB's GitHub Organization"
             >
               <Github className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://linkedin.com/company/dyteio"
+              href="https://linkedin.com/company/productdb"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
@@ -406,8 +406,8 @@ export default function Footer() {
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://youtube.com/company/dyteio"
-              aria-label="Dyte YouTube Channel"
+              href="https://youtube.com/company/productdb"
+              aria-label="ProductDB's YouTube Channel"
             >
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
