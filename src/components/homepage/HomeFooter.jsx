@@ -12,15 +12,15 @@ const products = [
     href: 'https://productdb.io/product/classification',
   },
   {
-    name: 'Marketing',
+    name: 'Commerce',
     href: 'https://dyte.io/voice-sdk',
   },
   {
-    name: 'Live Streaming',
+    name: 'Content',
     href: 'https://dyte.io/live-streaming-sdk',
   },
   {
-    name: 'Chat SDK',
+    name: 'Communication',
     href: 'https://dyte.io/chat-sdk',
   },
   {
@@ -82,7 +82,7 @@ const developers = [
   },
   {
     name: 'Documentation',
-    href: 'https://docs.dyte.io',
+    href: 'https://productdb.dev',
   },
   {
     name: 'Showcase',
@@ -140,15 +140,14 @@ const usecases = [
 ];
 
 const company = [
-  { name: 'About Us', href: 'https://dyte.io/about' },
-  { name: 'Customers', href: 'https://dyte.io/customers' },
-  { name: 'Blog', href: 'https://dyte.io/blog' },
-  { name: 'Careers', href: 'https://jobs.lever.co/dyte-io' },
+  { name: 'About Us', href: 'https://productdb.io/about' },
+  { name: 'Customers', href: 'https://productdb.io/customers' },
+  { name: 'Blog', href: 'https://productdb.io/blog' },
+  { name: 'Careers', href: 'https://productdb.io/careers' },
   { name: 'Community', href: 'https://dyte.io/community' },
   { name: 'Startup Program', href: 'https://dyte.io/startups' },
   { name: 'Contact Us', href: 'https://dyte.io/contact' },
   { name: 'FAQ', href: '/faq' },
-  { name: 'Guide on Video SDK', href: 'https://dyte.io/blog/video-sdk/' },
 ];
 
 const comparisons = [
