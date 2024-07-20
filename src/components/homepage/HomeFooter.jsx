@@ -227,6 +227,14 @@ const comparisons = [
 
 function Safety({ className }) {
   return (
+<Link
+      href="https://productdb.io/safety"
+      className={clsx(
+        'flex max-w-[418px] flex-row overflow-clip rounded-2xl bg-white dark:bg-[#474747] sm:flex-col sm:pr-0 sm:pb-8 lg:flex-row lg:pr-16 lg:pb-0,
+        className
+      )}
+      target="_blank"
+    >
     <div
       className={clsx(
         'flex max-w-[418px] flex-row overflow-clip rounded-2xl bg-white dark:bg-[#474747] sm:flex-col sm:pr-0 sm:pb-8 lg:flex-row lg:pr-16 lg:pb-0',
@@ -248,6 +256,7 @@ function Safety({ className }) {
         />
       </div>
     </div>
+</Link>
   );
 }
 
