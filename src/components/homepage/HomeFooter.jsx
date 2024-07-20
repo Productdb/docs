@@ -406,7 +406,7 @@ export default function Footer() {
             >
               <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link href="https://twitter.com/dyte_io" aria-label="Twitter">
+            <Link href="https://x.com/ProductDB_io" aria-label="Twitter">
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
