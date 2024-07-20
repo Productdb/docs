@@ -502,7 +502,7 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Documentation | Dyte Docs',
+          alt: 'ProductDB Documentation | ProductDB Docs',
           height: '40px',
           width: '101px',
         },
@@ -542,7 +542,7 @@ const config = {
           },
           {
             label: 'Support',
-            to: 'https://dyte.io/contact?type=docs',
+            to: 'https://productdb.io/contact?type=docs',
           },
 
           {
@@ -551,7 +551,7 @@ const config = {
           },
           {
             label: 'Book a demo',
-            href: 'https://dyte.io/schedule-demo',
+            href: 'https://productdb.io/schedule-demo',
             position: 'right',
             className: 'navbar-book-demo',
           },
@@ -577,15 +577,15 @@ const config = {
             items: [
               {
                 label: 'Demo',
-                href: 'https://app.dyte.io',
+                href: 'https://app.productdb.io',
               },
               {
                 label: 'Developer Portal',
-                href: 'https://dev.dyte.io',
+                href: 'https://productdb.dev',
               },
               {
                 label: 'Pricing',
-                href: 'https://dyte.io/#pricing',
+                href: 'https://productdb.io/#pricing',
               },
             ],
           },
@@ -594,7 +594,7 @@ const config = {
             items: [
               {
                 label: 'About Us',
-                href: 'https://dyte.io',
+                href: 'https://productdb.io',
               },
               {
                 label: 'Join Us',
@@ -602,11 +602,11 @@ const config = {
               },
               {
                 label: 'Privacy Policy',
-                href: 'https://dyte.io/privacy-policy',
+                href: 'https://productdb.io/legal/privacy-policy',
               },
               {
                 label: 'Contact Us',
-                href: 'https://dyte.io/contact',
+                href: 'https://productdb.io/contact',
               },
             ],
           },
@@ -619,16 +619,16 @@ const config = {
               },
               {
                 label: 'Blog',
-                href: 'https://dyte.io/blog',
+                href: 'https://productdb.io/blog',
               },
               {
                 label: 'Community',
-                href: 'https://community.dyte.io',
+                href: 'https://community.productdb.io',
               },
             ],
           },
         ],
-        copyright: 'Copyright © Dyte since 2023. All rights reserved.',
+        copyright: 'Copyright © ProductDB. All rights reserved.',
       },
       prism: {
         theme: code_themes.light,
@@ -657,8 +657,8 @@ const config = {
         ],
       },
       algolia: {
-        appId: 'HL0HSV62RK',
-        apiKey: '72ebf02146698733b7114c7b36da0945',
+        appId: 'XV1GSY5JTU',
+        apiKey: 'f7e26fc3cf3dcec27bae28d939fc702b',
         indexName: 'docs',
         contextualSearch: true,
         searchParameters: {},

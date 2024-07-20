@@ -40,6 +40,7 @@
     "@headlessui/react": "^1.7.14",
     "@radix-ui/react-select": "^2.0.0",
     "@stoplight/elements": "^8.0.2",
+    "algoliasearch": "^4.24.0",
     "clsx": "^1.2.1",
     "nanoid": "^5.0.6",
     "param-case": "^3.0.4",
