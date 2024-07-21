@@ -16,7 +16,7 @@ import clsx from 'clsx';
 const PRODUCTS = [
   {
     title: 'Classification',
-    link: '/guides/live-video/intro-video-conf',
+    link: '/guides/classification/intro-classification',
     icon: CubeTreeRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
@@ -24,7 +24,7 @@ const PRODUCTS = [
   },
   {
     title: 'Commerce',
-    link: '/guides/voice-conf/intro-voice-conf',
+    link: '/guides/commerce/intro-commerce',
     icon: CartRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
     darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
@@ -32,7 +32,7 @@ const PRODUCTS = [
   },
   {
     title: 'Content',
-    link: '/guides/livestream/livestream-overview',
+    link: '/guides/content/content-overview',
     icon: ContentViewRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
@@ -41,7 +41,7 @@ const PRODUCTS = [
   {
     title: 'Communication',
     beta: true,
-    link: '/guides/realtime-chat/intro-chat',
+    link: '/guides/communication/intro-communication',
     icon: ChatMultipleRegular,
     lightImage: '/static/landing-page/hero/chat-graphic.png',
     darkImage: '/static/landing-page/hero/chat-graphic-dark.png',
