@@ -410,7 +410,7 @@ export default function Footer() {
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://youtube.com/company/productdb"
+              href="https://www.youtube.com/@productdb"
               aria-label="ProductDB's YouTube Channel"
             >
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
