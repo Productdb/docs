@@ -157,7 +157,7 @@ export default function GuidesAndSamples() {
           <h3 className="m-0">Popular sample apps</h3>
 
           <Link
-            to="https://github.com/dyte-io"
+            to="https://github.com/productdb"
             className="font-jakarta text-sm font-semibold"
           >
             All apps <ArrowRightFilled className="ml-1" />
