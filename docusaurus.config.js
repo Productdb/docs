@@ -551,7 +551,7 @@ const config = {
           },
           {
             label: 'Book a demo',
-            href: 'productdb.io/contact-sales',
+            href: 'https://productdb.io/contact-sales',
             position: 'right',
             className: 'navbar-book-demo',
           },
