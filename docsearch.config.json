@@ -3,81 +3,81 @@
   "sitemap_urls": ["https://docs.dyte.io/sitemap.xml"],
   "start_urls": [
     {
-      "url": "https://docs.dyte.io/guides",
+      "url": "https://productdb.dev/guides",
       "tags": "guides",
       "selectors_key": "guides"
     },
     {
-      "url": "https://docs.dyte.io/cli",
+      "url": "https://productdb.dev/cli",
       "tags": "cli",
       "selectors_key": "cli"
     },
     {
-      "url": "https://docs.dyte.io/react-ui-kit",
+      "url": "https://productdb.dev/react-ui-kit",
       "tags": "react-ui-kit",
       "selectors_key": "react-ui-kit"
     },
     {
-      "url": "https://docs.dyte.io/ui-kit",
+      "url": "https://productdb.dev/ui-kit",
       "tags": "ui-kit",
       "selectors_key": "ui-kit"
     },
     {
-      "url": "https://docs.dyte.io/angular-ui-kit",
+      "url": "https://productdb.dev/angular-ui-kit",
       "tags": "angular-ui-kit",
       "selectors_key": "angular-ui-kit"
     },
     {
-      "url": "https://docs.dyte.io/vue-ui-kit",
+      "url": "https://productdb.dev/vue-ui-kit",
       "tags": "vue-ui-kit",
       "selectors_key": "vue-ui-kit"
     },
     {
-      "url": "https://docs.dyte.io/web-core",
+      "url": "https://productdb.dev/web-core",
       "tags": "web-core",
       "selectors_key": "web-core"
     },
     {
-      "url": "https://docs.dyte.io/react-native",
+      "url": "https://productdb.dev/react-native",
       "tags": "react-native",
       "selectors_key": "react-native"
     },
     {
-      "url": "https://docs.dyte.io/android",
+      "url": "https://productdb.dev/android",
       "tags": "android",
       "selectors_key": "android"
     },
     {
-      "url": "https://docs.dyte.io/ios",
+      "url": "https://productdb.dev/ios",
       "tags": "ios",
       "selectors_key": "ios"
     },
     {
-      "url": "https://docs.dyte.io/ios-core",
+      "url": "https://productdb.dev/ios-core",
       "tags": "ios-core",
       "selectors_key": "ios-core"
     },
     {
-      "url": "https://docs.dyte.io/flutter",
+      "url": "https://productdb.dev/flutter",
       "tags": "flutter",
       "selectors_key": "flutter"
     },
     {
-      "url": "https://docs.dyte.io/flutter-core",
+      "url": "https://productdb.dev/flutter-core",
       "tags": "flutter-core",
       "selectors_key": "flutter-core"
     },
     {
-      "url": "https://docs.dyte.io/rn-core",
+      "url": "https://productdb.dev/rn-core",
       "tags": "rn-core",
       "selectors_key": "rn-core"
     },
     {
-      "url": "https://docs.dyte.io/android-core",
+      "url": "https://productdb.dev/android-core",
       "tags": "android-core",
       "selectors_key": "android-core"
     },
-    "https://docs.dyte.io/"
+    "https://productdb.dev/"
   ],
   "stop_urls": [],
 
