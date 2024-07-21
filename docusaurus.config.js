@@ -542,7 +542,7 @@ const config = {
           },
           {
             label: 'Support',
-            to: 'https://productdb.io/contact?type=docs',
+            to: 'https://support.productdb.io/',
           },
 
           {
@@ -551,13 +551,13 @@ const config = {
           },
           {
             label: 'Book a demo',
-            href: 'https://productdb.io/schedule-demo',
+            href: 'productdb.io/contact-sales',
             position: 'right',
             className: 'navbar-book-demo',
           },
           {
             label: 'Sign Up',
-            href: 'https://dev.dyte.io/register',
+            href: 'https://accounts.productdb.io/register#dev',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
           },
