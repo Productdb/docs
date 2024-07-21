@@ -32,7 +32,7 @@ const PRODUCTS = [
   },
   {
     title: 'Content',
-    link: '/guides/content/content-overview',
+    link: '/guides/content/intro-content',
     icon: ContentViewRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
