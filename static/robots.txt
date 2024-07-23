@@ -1,3 +1,5 @@
+# Algolia-Crawler-Verif: D025C2A68DE1BF1B
+
 User-agent: *
 Disallow: /tags/
 Sitemap: https://productdb.io/sitemap.xml
