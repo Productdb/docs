@@ -659,7 +659,7 @@ const config = {
       algolia: {
         appId: 'SJH8R94RSV',
         apiKey: 'fcc26a138de452c3195da9dca4e89831',
-        indexName: 'docs',
+        indexName: 'productdb',
         contextualSearch: true,
         searchParameters: {},
       },
