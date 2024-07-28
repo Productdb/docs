@@ -264,7 +264,7 @@ function Status({ className }) {
   useEffect(() => {
     if (typeof StatusPage !== 'undefined') {
       // eslint-disable-next-line no-undef
-      var sp = new StatusPage.page({ page: 'wjlxrzb5h09l' });
+      var sp = new StatusPage.page({ page: 'hsx6f1r97yvq' });
       sp.status({
         success: function (data) {
           setStatus({
