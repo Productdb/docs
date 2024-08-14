@@ -487,7 +487,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '/img/dyte-docs-card.png',
+      image: '/img/productdb-docs-card.png',
       colorMode: {
         defaultMode: 'light',
       },
@@ -568,7 +568,7 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Documentation | Dyte Docs',
+          alt: 'ProductDB Documentation | ProductDB Docs',
           height: '36px',
         },
         links: [
