@@ -151,11 +151,11 @@ const company = [
 ];
 
 const comparisons = [
-  { name: 'Dyte vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
-  { name: 'Dyte vs Agora', href: 'https://dyte.io/agora-competitor' },
-  { name: 'Dyte vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
-  { name: 'Dyte vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
-  { name: 'Dyte vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
+  { name: 'ProductDB vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
+  { name: 'ProductDB vs Agora', href: 'https://dyte.io/agora-competitor' },
+  { name: 'ProductDB vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
+  { name: 'ProductDB vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
+  { name: 'ProductDB vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
   {
     name: 'View 14 more',
     isAccordion: true,

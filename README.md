@@ -174,8 +174,8 @@ Distributed under the Apache License, Version 2.0. See [`LICENSE`](./LICENSE) fo
 
 ## About
 
-`docs` is created & maintained by Dyte, Inc. You can find us on Twitter - [@dyte_io](https://twitter.com/dyte_io) or write to us at `dev [at] dyte.io`.
+`docs` is created & maintained by ProductDB, Inc. You can find us on Twitter - [@dyte_io](https://twitter.com/dyte_io) or write to us at `dev [at] dyte.io`.
 
-The names and logos for Dyte are trademarks of Dyte, Inc.
+The names and logos for ProductDB are trademarks of ProductDB, Inc.
 
 We love open source software! See [our other projects](https://github.com/dyte-io) and [our products](https://dyte.io).

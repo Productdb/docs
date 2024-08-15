@@ -172,7 +172,7 @@ const SECTION_GROUPS: SectionsGroup[][] = [
     {
       name: 'Plugin SDK for Web',
       section: 'plugin-sdk',
-      description: 'Build real-time collaborative apps using Dyte.',
+      description: 'Build real-time collaborative apps using ProductDB.',
     },
   ],
 ];

@@ -247,7 +247,7 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
                   }
                 >
                   <DyteAISearchIcon className="h-5 w-5" />
-                  Dyte AI
+                  ProductDB AI
                   <span className="text-[9px] uppercase text-primary-100">
                     Beta
                   </span>

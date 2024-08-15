@@ -8,7 +8,7 @@ export default function GuidesSection({ title, className }) {
   return (
     <Section title={title} className={className}>
       <Card
-        title="Dyte Embed"
+        title="ProductDB Embed"
         description="Embed a dyte meeting easily"
         to="/guides/embed"
       />
@@ -35,7 +35,7 @@ export default function GuidesSection({ title, className }) {
       />
       <Card
         title="Livestreaming any RTMP input"
-        description="Dyte allows livestreaming, via RTMP as well as HLS, for all Dyte meetings."
+        description="ProductDB allows livestreaming, via RTMP as well as HLS, for all ProductDB meetings."
         to="/guides/integrating-with-webhooks"
       />
       <Card
