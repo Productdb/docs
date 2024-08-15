@@ -18,13 +18,13 @@ You can subscribe to events for all participants using
 Triggered when the View mode changes
 
 ```ts
-const viewMode = useProductDBSelector((meeting) => meeting.participants.viewMode);
+const viewMode = useDyteSelector((meeting) => meeting.participants.viewMode);
 ```
 
 ### Page change
 
 ```ts
-const pageChanged = useProductDBSelector(
+const pageChanged = useDyteSelector(
   (meeting) => meeting.participants.pageCount
 );
 ```
@@ -35,7 +35,7 @@ This event is triggered when a participant becomes `active` when they starts to
 speak.
 
 ```ts
-const activeSpeaker = useProductDBSelector(
+const activeSpeaker = useDyteSelector(
   (meeting) => meeting.participants.lastActiveSpeaker
 );
 ```
@@ -54,7 +54,7 @@ so by subscribing to `meetings.participants.active.on('participantJoined')`
 Trigger an event when any participant joins the meeting.
 
 ```ts
-const joinedParticipants = useProductDBSelector(
+const joinedParticipants = useDyteSelector(
   (meeting) => meeting.participants.joined
 );
 ```
@@ -64,7 +64,7 @@ const joinedParticipants = useProductDBSelector(
 Trigger an event when a participant is pinned / unpinned.
 
 ```ts
-const pinnedParticipants = useProductDBSelector(
+const pinnedParticipants = useDyteSelector(
   (meeting) => meeting.participants.pinned
 );
 ```
@@ -74,7 +74,7 @@ const pinnedParticipants = useProductDBSelector(
 Trigger an event when the target participant starts / stops video.
 
 ```ts
-const videoEnabled = useProductDBSelector(
+const videoEnabled = useDyteSelector(
   (m) => m.participants.joined.get(participantId).videoEnabled
 );
 ```
@@ -86,7 +86,7 @@ const videoEnabled = useProductDBSelector(
 Trigger an event when the target participant starts / stops audio.
 
 ```ts
-const audioEnabled = useProductDBSelector((m) =>
+const audioEnabled = useDyteSelector((m) =>
   m.participants.joined.get(participantId).audioEnabled
 );
 ````
@@ -96,7 +96,7 @@ const audioEnabled = useProductDBSelector((m) =>
 Trigger an event when the target participant starts / stops screen share.
 
 ```ts
-const screenShareEnabled = useProductDBSelector(
+const screenShareEnabled = useDyteSelector(
   (m) => m.participants.joined.get(participantId).screenShareEnabled
 );
 ```
@@ -104,7 +104,7 @@ const screenShareEnabled = useProductDBSelector(
 Trigger an event when any participant starts / stops screen share.
 
 ```ts
-const screensharingParticipant = useProductDBSelector((m) =>
+const screensharingParticipant = useDyteSelector((m) =>
   m.participants.joined.toArray().find((p) => p.screenShareEnabled)
 );
 ```

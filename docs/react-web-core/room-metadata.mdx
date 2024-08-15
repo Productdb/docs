@@ -38,19 +38,19 @@ when the local user has successfully joined the room, and for the `disconnected`
 event to find out if the local user's connection has dropped.
 
 ```ts
-const meetingconnected = useProductDBSelector(
+const meetingconnected = useDyteSelector(
   (meeting) => meeting.meta.socketConnected
 );
 useEffect(() => {
   console.log('I got meetingconnected as: ', meetingconnected);
 }, [meetingconnected]);
 
-const meetingTitle = useProductDBSelector((meeting) => meeting.meta.meetingTitle);
+const meetingTitle = useDyteSelector((meeting) => meeting.meta.meetingTitle);
 useEffect(() => {
   console.log('I got meetingTitle as: ', meetingTitle);
 }, [meetingTitle]);
 
-const meetingStartedTimestamp = useProductDBSelector(
+const meetingStartedTimestamp = useDyteSelector(
   (meeting) => meeting.meta.meetingStartedTimestamp
 );
 useEffect(() => {

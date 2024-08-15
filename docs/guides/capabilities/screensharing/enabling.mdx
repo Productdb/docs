@@ -30,7 +30,7 @@ You can also define defaults for screen sharing during the client initialisation
 <TabItem value="react" label="React">
 
 ```jsx
-const { meeting } = useProductDBMeeting();
+const { meeting } = useDyteMeeting();
 
 // Enable Screenshare
 await meeting.self.enableScreenShare();
@@ -45,7 +45,7 @@ You can also define defaults for screen sharing during the client initialization
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-const { meeting } = useProductDBMeeting();
+const { meeting } = useDyteMeeting();
 
 // Enable Screenshare
 await meeting.self.enableScreenShare();
@@ -125,9 +125,9 @@ meeting.self.on(
 <TabItem value="react" label="React">
 
 ```jsx
-const { meeting } = useProductDBMeeting();
+const { meeting } = useDyteMeeting();
 
-const screenshareEnabled = useProductDBSelector((m) => m.self.screenShareEnabled);
+const screenshareEnabled = useDyteSelector((m) => m.self.screenShareEnabled);
 
 // or using traditional event listeners
 meeting.self.on(
@@ -146,9 +146,9 @@ meeting.self.on(
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-const { meeting } = useProductDBMeeting();
+const { meeting } = useDyteMeeting();
 
-const screenshareEnabled = useProductDBSelector((m) => m.self.screenShareEnabled);
+const screenshareEnabled = useDyteSelector((m) => m.self.screenShareEnabled);
 
 // or using traditional event listeners
 meeting.self.on(

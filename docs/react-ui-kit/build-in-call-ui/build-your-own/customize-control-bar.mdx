@@ -20,7 +20,7 @@ hide={[{start:1, end: 5}, {start:44, end: 241}]}
 highlight={[{start:6, end: 42}]}
 file={`
 import { defaultConfig, generateConfig, ProductDBBreakoutRoomsToggle, ProductDBCameraToggle, ProductDBChatToggle, ProductDBControlbar, ProductDBControlbarButton, ProductDBDebuggerToggle, ProductDBFullscreenToggle, ProductDBLeaveButton, ProductDBMicToggle, ProductDBMoreToggle, ProductDBMuteAllButton, ProductDBParticipantsToggle, ProductDBPipToggle, ProductDBPluginsToggle, ProductDBPoll, ProductDBPollsToggle, ProductDBRecordingToggle, ProductDBScreenShareToggle, ProductDBSettingsToggle, ProductDBStageToggle } from '@dytesdk/react-ui-kit';
-import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
 import { useEffect, useState } from 'react';
 
 function ControlBarWithCustomUI({
@@ -62,7 +62,7 @@ function ControlBarWithCustomUI({
 }
 
 export default function Meeting() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
   const [config, setConfig] = useState(defaultConfig);
   /**
   * We need setStates method to add custom functionalities,

@@ -13,8 +13,8 @@ video tile grid components
 
 ```jsx live
 function Meeting() {
-  const { meeting } = useProductDBMeeting();
-  const activeParticipants = useProductDBSelector(
+  const { meeting } = useDyteMeeting();
+  const activeParticipants = useDyteSelector(
     (meeting) => meeting.participants.active
   );
 
@@ -91,7 +91,7 @@ Try editing the `aspectRatio` and `gap` props.
 
 ```jsx live
 function Example() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   return (
     <div style={{ width: '100%', height: '400px' }}>
@@ -138,7 +138,7 @@ If you just want to render `self` twice in a SimpleGrid:
 
 ```jsx live
 function Example() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
   const [count, setCount] = useState(2);
 
   if (!meeting) return null;

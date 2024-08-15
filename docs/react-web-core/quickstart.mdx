@@ -42,8 +42,8 @@ To start, we need to initialize the libraries and wrap the application in the `<
 The `<ProductDBProvider />` provides the necessary context for the various hooks to consume the `meeting` object as per their purpose. ProductDB provides the following built-in hooks for your usage:
 
 - `useDyteClient()`
-- `useProductDBMeeting()`
-- `useProductDBSelector()`
+- `useDyteMeeting()`
+- `useDyteSelector()`
 
 For more information on hooks, see [Use Web Core Hooks](/react-ui-kit/using-hooks).
 
@@ -68,26 +68,26 @@ export default function App() {
 
   return (
     <ProductDBProvider value={meeting}>
-      {/* Render your UI here. Subcomponents can now use the `useProductDBMeeting` and `useProductDBSelector` hooks */}
+      {/* Render your UI here. Subcomponents can now use the `useDyteMeeting` and `useDyteSelector` hooks */}
     </ProductDBProvider>
   );
 }
 ```
 
-You can now use the `useProductDBMeeting` and `useProductDBSelector` hooks as required.
+You can now use the `useDyteMeeting` and `useDyteSelector` hooks as required.
 
 ## Step 3: Connect to the Meeting
 
 Now, you have established the connection with the ProductDB meeting server successfully. Next step is to join the room and leave the room once the meeting is over.
 
 ```jsx
-import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
 import { useEffect } from 'react';
 import Room from './Room';
 
 export default function AudioRoom() {
-  const { meeting } = useProductDBMeeting();
-  const roomJoined = useProductDBSelector((meeting) => meeting.self.roomJoined);
+  const { meeting } = useDyteMeeting();
+  const roomJoined = useDyteSelector((meeting) => meeting.self.roomJoined);
 
   useEffect(() => {
     meeting.self.on('roomLeft', () => {
@@ -103,16 +103,16 @@ export default function AudioRoom() {
 ## Example
 
 ```jsx
-import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
 
 const Meeting = () => {
   // in case you want to use the whole meeting object
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   // in case you just want to use a `slice` of a meeting object
   // these are optimized so that re-renders only occur when the selected slice changes
-  const messages = useProductDBSelector((meeting) => meeting.chat.messages);
-  const activeParticipants = useProductDBSelector(
+  const messages = useDyteSelector((meeting) => meeting.chat.messages);
+  const activeParticipants = useDyteSelector(
     (meeting) => meeting.participants.active
   );
 

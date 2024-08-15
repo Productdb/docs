@@ -40,10 +40,10 @@ import {
   ProductDBParticipantTile, ProductDBAvatar,ProductDBNameTag,
   ProductDBAudioVisualizer, ProductDBMicToggle, ProductDBCameraToggle, ProductDBButton,
 } from '@dytesdk/react-ui-kit';
-import { useProductDBMeeting } from '@dytesdk/react-web-core';
+import { useDyteMeeting } from '@dytesdk/react-web-core';
 
 export default function CustomMeetingPreview() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   return (
     <div

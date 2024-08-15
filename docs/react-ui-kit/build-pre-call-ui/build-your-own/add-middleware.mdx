@@ -37,8 +37,8 @@ const effectsSVG =
 
 export default function CustomMeetingPreview() {
   const [participantName, setParticipantName] = useState('');
-  const { meeting } = useProductDBMeeting();
-  const permissions = useProductDBSelector((m) => m.self.permissions);
+  const { meeting } = useDyteMeeting();
+  const permissions = useDyteSelector((m) => m.self.permissions);
 
   useEffect(() => {
     if (!meeting) {

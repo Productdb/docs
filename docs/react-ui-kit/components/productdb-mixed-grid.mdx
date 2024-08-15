@@ -11,8 +11,8 @@ A grid component which handles screenshares, plugins and participants.
 
 ```jsx live
 function CustomGrid() {
-  const active = useProductDBSelector((m) => m.participants.active).toArray();
-  const { meeting } = useProductDBMeeting();
+  const active = useDyteSelector((m) => m.participants.active).toArray();
+  const { meeting } = useDyteMeeting();
 
   return (
     <ProductDBMixedGrid

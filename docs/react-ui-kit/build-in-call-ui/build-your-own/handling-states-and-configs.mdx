@@ -26,11 +26,11 @@ hide={[{start:1, end: 5}]}
 highlight={[{start:9, end: 16}, {start:20, end: 30}, {start:32, end: 37}, {start:40, end: 40}, {start:57, end: 64}]}
 file={`
 import { defaultConfig, generateConfig } from '@dytesdk/react-ui-kit';
-import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
 import { useEffect, useState } from 'react';
 
 export default function Meeting() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
   const [config, setConfig] = useState(defaultConfig);
   /**
   * We need setStates method to add custom functionalities,

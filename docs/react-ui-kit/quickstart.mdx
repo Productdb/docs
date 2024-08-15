@@ -101,8 +101,8 @@ export default function App() {
 
 ## Step 3: Use `ProductDBMeeting` component
 
-In the following example, a meeting is created using the `useProductDBMeeting`
-component. `useProductDBMeeting` essentially returns the meeting object you passed to
+In the following example, a meeting is created using the `useDyteMeeting`
+component. `useDyteMeeting` essentially returns the meeting object you passed to
 the `ProductDBProvider`.
 
 `ProductDBMeeting` renders the entire meeting UI. It loads your preset and renders
@@ -119,10 +119,10 @@ highlight={[{start: 9, end: 9}]}
 hide={[{start:1, end: 3}]}
 file={`
 import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
-import { useProductDBMeeting } from '@dytesdk/react-web-core';
+import { useDyteMeeting } from '@dytesdk/react-web-core';
 
 export default function MyMeetingUI() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
 return (
 <ProductDBMeeting mode="fill" meeting={meeting} showSetupScreen={false} />

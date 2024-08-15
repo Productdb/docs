@@ -20,11 +20,11 @@ ProductDB provides the `provideProductDBDesignSystem()` utility to programmatica
 configure the design system of UI Kit components with a few lines of code.
 
 ```jsx
-import { useProductDBMeeting } from '@dytesdk/react-native-core';
+import { useDyteMeeting } from '@dytesdk/react-native-core';
 import { ProductDBMeeting, ProductDBUIProvider } from '@dytesdk/react-native-ui-kit';
 
 function Example() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   useEffect(() => {
     // provideProductDBDesignSystem(designTokens)

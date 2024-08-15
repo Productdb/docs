@@ -97,7 +97,7 @@ export default function App() {
 
   return (
     <ProductDBProvider value={meeting} fallback={<i>Loading...</i>}>
-      {/* Render your UI here. Subcomponents can now use the `useProductDBMeeting` and `useProductDBSelector` hooks */}
+      {/* Render your UI here. Subcomponents can now use the `useDyteMeeting` and `useDyteSelector` hooks */}
     </ProductDBProvider>
   );
 }
@@ -133,7 +133,7 @@ export default function App() {
 
   return (
     <ProductDBProvider value={meeting} fallback={<i>Loading...</i>}>
-      {/* Render your UI here. Subcomponents can now use the `useProductDBMeeting` and `useProductDBSelector` hooks */}
+      {/* Render your UI here. Subcomponents can now use the `useDyteMeeting` and `useDyteSelector` hooks */}
       <MyMeeting />
     </ProductDBProvider>
   );
@@ -151,7 +151,7 @@ For more information on the other props of `ProductDBMeeting`, see [ProductDBMee
 ```jsx
 import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
 function MyMeeting() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   return (
     <div style={{ height: '480px' }}>
@@ -169,7 +169,7 @@ If you require additional customizations, you can choose specific components and
 import { ProductDBGrid, ProductDBMicToggle } from '@dytesdk/react-ui-kit';
 
 function MyMeeting() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   return (
     <div style={{ height: '480px' }}>

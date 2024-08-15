@@ -16,7 +16,7 @@ tags:
 Trigger an update when the local user joins / leave a room.
 
 ```ts
-const roomJoined = useProductDBSelector((meeting) => meeting.self.roomJoined);
+const roomJoined = useDyteSelector((meeting) => meeting.self.roomJoined);
 ```
 
 ## Video update
@@ -25,8 +25,8 @@ Triggered when the user starts / stops the video using `enableVideo` or
 `disableVideo`
 
 ```ts
-const videoEnabled = useProductDBSelector((meeting) => meeting.self.videoEnabled);
-const videoTrack = useProductDBSelector((meeting) => meeting.self.videoTrack);
+const videoEnabled = useDyteSelector((meeting) => meeting.self.videoEnabled);
+const videoTrack = useDyteSelector((meeting) => meeting.self.videoTrack);
 
 useEffect(() => {
   const videoElem = document.getElementById('my-video');
@@ -45,8 +45,8 @@ Triggered when the user starts / stops the audio using `enableAudio` or
 `disableAudio`
 
 ```ts
-const audioEnabled = useProductDBSelector((meeting) => meeting.self.audioEnabled);
-const audioTrack = useProductDBSelector((meeting) => meeting.self.audioTrack);
+const audioEnabled = useDyteSelector((meeting) => meeting.self.audioEnabled);
+const audioTrack = useDyteSelector((meeting) => meeting.self.audioTrack);
 
 useEffect(() => {
   const audioElem = document.getElementById('my-audio');
@@ -65,10 +65,10 @@ Triggered when the user starts / stops the screen share using
 `enableScreenShare()` or `disableScreenShare()`.
 
 ```ts
-const screenShareEnabled = useProductDBSelector(
+const screenShareEnabled = useDyteSelector(
   (meeting) => meeting.self.screenShareEnabled
 );
-const screenShareTrack = useProductDBSelector(
+const screenShareTrack = useDyteSelector(
   (meeting) => meeting.self.screenShareTrack
 );
 ```

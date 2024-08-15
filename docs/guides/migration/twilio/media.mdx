@@ -129,7 +129,7 @@ But you don't need this event to render remote participants, the `productdb-part
 It is even easier in React, here is how to render every participant
 
 ```tsx
-const participants = useProductDBSelector((m) => m.participants.active);
+const participants = useDyteSelector((m) => m.participants.active);
 
 return (<div>
       {

@@ -17,10 +17,10 @@ hide={[{start:1, end: 3}]}
 minHeight='300px'
 file={`
 import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@dytesdk/react-ui-kit";
-import { useProductDBMeeting } from "@dytesdk/react-web-core";
+import { useDyteMeeting } from "@dytesdk/react-web-core";
 
 export default function MyMeetingUI() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
   return (
     <ProductDBParticipantTile participant={meeting.self}>
       <ProductDBNameTag participant={meeting.self}>
@@ -47,10 +47,10 @@ additionalDecorators={[{
 minHeight='300px'
 file={`
 import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@dytesdk/react-ui-kit";
-import { useProductDBMeeting } from "@dytesdk/react-web-core";
+import { useDyteMeeting } from "@dytesdk/react-web-core";
 
 export default function MyMeetingUI() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
   return (
     <ProductDBParticipantTile participant={meeting.self} nameTagPosition="bottom-center">
       <ProductDBNameTag participant={meeting.self}>
@@ -69,10 +69,10 @@ highlight={[{start:12, end: 12}]}
 minHeight='300px'
 file={`
 import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@dytesdk/react-ui-kit";
-import { useProductDBMeeting } from "@dytesdk/react-web-core";
+import { useDyteMeeting } from "@dytesdk/react-web-core";
 
 export default function MyMeetingUI() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   return (
     <ProductDBParticipantTile

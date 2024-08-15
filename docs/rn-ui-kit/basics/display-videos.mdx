@@ -12,8 +12,8 @@ video tile grid components
 
 ```jsx
 function Meeting() {
-  const { meeting } = useProductDBMeeting();
-  const activeParticipants = useProductDBSelector(
+  const { meeting } = useDyteMeeting();
+  const activeParticipants = useDyteSelector(
     (meeting) => meeting.participants.active
   );
 
@@ -79,7 +79,7 @@ which is passed to it. By default it will use the default UI Config.
 
 ```jsx
 function Example() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   return (
     <Row style={{ width: '100%', height: '400' }}>
@@ -126,7 +126,7 @@ If you just want to render `self` twice in a SimpleGrid:
 
 ```jsx
 function Example() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
   const [count, setCount] = useState(2);
 
   if (!meeting) return null;

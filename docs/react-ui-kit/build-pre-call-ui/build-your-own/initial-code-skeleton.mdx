@@ -31,8 +31,8 @@ import { CustomStates, SetState } from './types';
 import CustomMeetingPreview from './CustomMeetingPreview';
 
 function MyMeeting() {
-  const { meeting } = useProductDBMeeting();
-  const roomState = useProductDBSelector((m) => m.self.roomState);
+  const { meeting } = useDyteMeeting();
+  const roomState = useDyteSelector((m) => m.self.roomState);
 
   return (
     <div style={{ height: '480px' }}>
@@ -64,11 +64,11 @@ function MyMeeting() {
 highlight={[{start: 12, end: 12}, {start: 18, end: 18}]}
 hide={[{start: 1, end: 3}]}
 file={`
-import { useProductDBMeeting } from "@dytesdk/react-web-core";
+import { useDyteMeeting } from "@dytesdk/react-web-core";
 import { ProductDBButton } from "@dytesdk/react-ui-kit";
 
 export default function CustomMeetingPreview() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
   return (
     <div
       className="flex flex-col items-center justify-center"

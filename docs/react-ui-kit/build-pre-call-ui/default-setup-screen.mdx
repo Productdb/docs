@@ -20,11 +20,11 @@ highlight={[{start: 11, end: 11}]}
 hide={[{start:1, end: 3}]}
 file={`
 import { ProductDBSetupScreen } from '@dytesdk/react-ui-kit';
-import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
 
 export default function MyMeeting() {
-  const { meeting } = useProductDBMeeting();
-  const roomState = useProductDBSelector((m) => m.self.roomState);
+  const { meeting } = useDyteMeeting();
+  const roomState = useDyteSelector((m) => m.self.roomState);
 
   return (
     <div className="flex w-full h-full">

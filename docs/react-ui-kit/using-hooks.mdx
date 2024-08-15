@@ -15,8 +15,8 @@ your React project. You can simply import the package from
 This page lists all the built-in Hooks in ProductDB.
 
 - `<ProductDBProvider />`
-- `useProductDBMeeting()`
-- `useProductDBSelector()`
+- `useDyteMeeting()`
+- `useDyteSelector()`
 
 ## `<ProductDBProvider />`
 
@@ -53,10 +53,10 @@ specific purpose.
 
 These are:
 
-- `useProductDBMeeting()`
-- `useProductDBSelector()`
+- `useDyteMeeting()`
+- `useDyteSelector()`
 
-## `useProductDBMeeting()`
+## `useDyteMeeting()`
 
 This hook essentially returns the `meeting` object you passed to the
 `ProductDBProvider`.
@@ -65,10 +65,10 @@ The value returned doesn't re-render always whenever properties inside the
 object change.
 
 ```jsx
-import { useProductDBSelector, useProductDBMeeting } from '@dytesdk/';
+import { useDyteSelector, useDyteMeeting } from '@dytesdk/';
 
 function Meeting() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   /*
     use join() method or the setup screen component
@@ -83,7 +83,7 @@ function Meeting() {
 }
 ```
 
-## `useProductDBSelector()`
+## `useDyteSelector()`
 
 If you're familiar with Redux's
 [useSelector](https://react-redux.js.org/api/hooks#useselector) hook, this hook
@@ -98,7 +98,7 @@ changes.
 Here is how you can get all the joined participants data:
 
 ```jsx
-const joinedParticipants = useProductDBSelector(
+const joinedParticipants = useDyteSelector(
   (meeting) => meeting.participants.joined
 );
 ```
@@ -110,12 +110,12 @@ the various properties of the `meeting` object.
 
 ```jsx
 import React from 'react';
-import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
 import { ProductDBGrid, ProductDBButton } from '@dytesdk/react-ui-kit';
 
 function Meeting() {
-  const { meeting } = useProductDBMeeting();
-  const roomJoined = useProductDBSelector((m) => m.self.roomJoined);
+  const { meeting } = useDyteMeeting();
+  const roomJoined = useDyteSelector((m) => m.self.roomJoined);
 
   if (!roomJoined) {
     return (

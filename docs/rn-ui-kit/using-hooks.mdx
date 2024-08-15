@@ -15,8 +15,8 @@ This page lists all the built-in Hooks in ProductDB.
 
 - `<ProductDBProvider />`
 - `<ProductDBUIProvider />`
-- `useProductDBMeeting()`
-- `useProductDBSelector()`
+- `useDyteMeeting()`
+- `useDyteSelector()`
 
 ## `<ProductDBProvider />`
 
@@ -91,10 +91,10 @@ specific purpose.
 
 These are:
 
-- `useProductDBMeeting()`
-- `useProductDBSelector()`
+- `useDyteMeeting()`
+- `useDyteSelector()`
 
-## `useProductDBMeeting()`
+## `useDyteMeeting()`
 
 This hook essentially returns the `meeting` object you passed to the
 `ProductDBProvider`.
@@ -103,10 +103,10 @@ The value returned doesn't re-render always whenever properties inside the
 object change.
 
 ```jsx
-import { useProductDBSelector, useProductDBMeeting } from '@dytesdk/react-native-core';
+import { useDyteSelector, useDyteMeeting } from '@dytesdk/react-native-core';
 
 function Meeting() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   /*
     use joinRoom() method or the setup screen component
@@ -121,7 +121,7 @@ function Meeting() {
 }
 ```
 
-## `useProductDBSelector()`
+## `useDyteSelector()`
 
 If you're familiar with Redux's
 [useSelector](https://react-redux.js.org/api/hooks#useselector) hook, this hook
@@ -136,7 +136,7 @@ changes.
 Here is how you can get all the joined participants data:
 
 ```jsx
-const joinedParticipants = useProductDBSelector(
+const joinedParticipants = useDyteSelector(
   (meeting) => meeting.participants.joined
 );
 ```
@@ -149,12 +149,12 @@ the various properties of the `meeting` object.
 ```jsx
 import React from 'react';
 import { View } from 'react-native';
-import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-native-core';
+import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-native-core';
 import { ProductDBGrid, ProductDBButton, ProductDBText } from '@dytesdk/react-ui-kit';
 
 function Meeting() {
-  const { meeting } = useProductDBMeeting();
-  const roomJoined = useProductDBSelector((m) => m.self.roomJoined);
+  const { meeting } = useDyteMeeting();
+  const roomJoined = useDyteSelector((m) => m.self.roomJoined);
 
   if (!roomJoined) {
     return (

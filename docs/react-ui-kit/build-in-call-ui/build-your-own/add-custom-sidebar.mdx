@@ -17,7 +17,7 @@ hide={[{start:1, end: 5}, {start:98, end: 268}]}
 highlight={[{start:6, end: 64}, {start:85, end: 98}]}
 file={`
 import { ProductDBStage, ProductDBGrid, ProductDBNotifications, ProductDBSidebar, ProductDBControlbar, ProductDBParticipantsAudio, ProductDBDialogManager, ProductDBControlbarButton, ProductDBSidebarUi, defaultIconPack, defaultConfig, generateConfig } from '@dytesdk/react-ui-kit';
-import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
 import { useEffect, useState } from 'react';
 
 function SidebarWithCustomUI({
@@ -117,7 +117,7 @@ return (
 ); }
 
 export default function Meeting() {
-const { meeting } = useProductDBMeeting();
+const { meeting } = useDyteMeeting();
 const [config, setConfig] = useState(defaultConfig);
 const [states, setStates] = useState<CustomStates>({
   meeting: 'setup',

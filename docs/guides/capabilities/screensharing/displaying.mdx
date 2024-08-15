@@ -23,10 +23,10 @@ meeting.participants.joined.on('screenShareUpdate', (participant) => {
 <TabItem value="react" label="React">
 
 ```jsx
-const { meeting } = useProductDBMeeting();
+const { meeting } = useDyteMeeting();
 
 // Array of participants having their screenshare on
-const ssParticipants = useProductDBSelector((m) =>
+const ssParticipants = useDyteSelector((m) =>
   m.participant.joined.toArray().filter((p) => p.screenShareEnabled)
 );
 
@@ -63,10 +63,10 @@ void onScreenShareEnded(ProductDBJoinedMeetingParticipant participant) {
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-const { meeting } = useProductDBMeeting();
+const { meeting } = useDyteMeeting();
 
 // Array of participants having their screenshare on
-const ssParticipants = useProductDBSelector((m) =>
+const ssParticipants = useDyteSelector((m) =>
   m.participant.joined.toArray().filter((p) => p.screenShareEnabled)
 );
 

@@ -7,7 +7,7 @@ To let the user choose between multiple available input / output devices, you ca
 
 ```tsx
 function DeviceSettings({ open, onClose }) {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
   return (
     <SomeDialogComponent open={open} onClose={onClose}>
       <ProductDBSettings meeting={meeting} />
@@ -22,7 +22,7 @@ Extending the last code sample with device selector.
 
 ```tsx live showLineNumbers
 function CustomMeetingPreview() {
-  const { meeting } = useProductDBMeeting();
+  const { meeting } = useDyteMeeting();
 
   return (
     <div
