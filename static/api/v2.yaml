@@ -7093,4 +7093,21 @@ components:
     OrgBearer:
       type: http
       scheme: bearer
-      description: Provide auth token obtained from 
+      description: Provide auth token obtained from ProductDB CLI
+tags:
+  - name: Meetings
+  - name: Presets
+  - name: Sessions
+  - name: Recordings
+  - name: Webhooks
+  - name: Active session
+  - name: Live streams
+  - name: Analytics
+  - name: Organizations
+  - name: Chat
+externalDocs:
+  url: 'https://productdb.dev'
+  description: ''
+security:
+  - Authorization: []
+x-internal: false

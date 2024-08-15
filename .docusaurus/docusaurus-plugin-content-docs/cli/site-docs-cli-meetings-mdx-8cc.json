@@ -1,0 +1,29 @@
+{
+  "id": "meetings",
+  "title": "Meetings",
+  "description": "\"Explore ProductDB CLI's capabilities for managing meetings from the command line. Learn how to create",
+  "source": "@site/docs/cli/meetings.mdx",
+  "sourceDirName": ".",
+  "slug": "/meetings",
+  "permalink": "/cli/meetings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ProductDB-io/docs/tree/main/docs/cli/meetings.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134098000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "description": "\"Explore ProductDB CLI's capabilities for managing meetings from the command line. Learn how to create"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting started",
+    "permalink": "/cli/getting-started"
+  },
+  "next": {
+    "title": "Recordings",
+    "permalink": "/cli/recording"
+  }
+}

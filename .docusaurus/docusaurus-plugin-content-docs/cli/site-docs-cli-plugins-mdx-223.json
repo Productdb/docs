@@ -1,0 +1,29 @@
+{
+  "id": "plugins",
+  "title": "Plugins",
+  "description": "Extend the functionality of ProductDB CLI with our plugin documentation. Discover a variety of plugins and integration steps.",
+  "source": "@site/docs/cli/plugins.mdx",
+  "sourceDirName": ".",
+  "slug": "/plugins",
+  "permalink": "/cli/plugins",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ProductDB-io/docs/tree/main/docs/cli/plugins.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134098000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "description": "Extend the functionality of ProductDB CLI with our plugin documentation. Discover a variety of plugins and integration steps."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recordings",
+    "permalink": "/cli/recording"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/cli/webhooks"
+  }
+}

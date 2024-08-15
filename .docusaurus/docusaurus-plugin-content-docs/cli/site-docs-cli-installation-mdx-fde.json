@@ -1,0 +1,26 @@
+{
+  "id": "installation",
+  "title": "ProductDB CLI",
+  "description": "Learn about ProductDB's Command Line Interface (CLI) and its powerful commands. Streamline your workflow with our CLI tools.",
+  "source": "@site/docs/cli/installation.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/cli/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ProductDB-io/docs/tree/main/docs/cli/installation.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134098000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/",
+    "description": "Learn about ProductDB's Command Line Interface (CLI) and its powerful commands. Streamline your workflow with our CLI tools."
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Getting started",
+    "permalink": "/cli/getting-started"
+  }
+}
