@@ -9,7 +9,7 @@ tags:
   - livestream
 ---
 
-`DyteLivestream` object obtained by `dyteMobileClient.livestream` method. The objects and methods it contains are defined below.
+`ProductDBLivestream` object obtained by `dyteMobileClient.livestream` method. The objects and methods it contains are defined below.
 
 ## Objects
 
@@ -28,7 +28,7 @@ The current status of the livestream, possible values can be: <br/>
 - `LiveStreamState.STOPPED`
 - `LiveStreamState.ERRORED`
 
-### Stage Requests [List&ltDyteLiveStreamStageRequestPeer&gt]
+### Stage Requests [List&ltProductDBLiveStreamStageRequestPeer&gt]
 
 Object accessed via `dyteMobileClient.livestream.stageRequestPeers` contains the list of requests to join the stage. Each request contains 3 properties:<br />
 
@@ -46,7 +46,7 @@ ProductDB's stage management APIs allow hosts to receive and manage stage reques
 
 ### Accept request
 
-This method lets the host accept a request to join the stage. It takes the _DyteLiveStreamStageRequestPeer.id_ as an argument whose request has to be accepted.
+This method lets the host accept a request to join the stage. It takes the _ProductDBLiveStreamStageRequestPeer.id_ as an argument whose request has to be accepted.
 
 ```kotlin
 dyteMobileClient.livestream.acceptRequest(peer.id);
@@ -54,7 +54,7 @@ dyteMobileClient.livestream.acceptRequest(peer.id);
 
 ### Reject request
 
-This method lets the host reject a request to join the stage. It takes the _DyteLiveStreamStageRequestPeer.id_ as an argument whose request has to be rejected.
+This method lets the host reject a request to join the stage. It takes the _ProductDBLiveStreamStageRequestPeer.id_ as an argument whose request has to be rejected.
 
 ```kotlin
 dyteMobileClient.livestream.rejectRequest(peer.id);

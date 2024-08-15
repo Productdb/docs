@@ -14,21 +14,21 @@ tags:
 
 Before you start integrating ProductDB into your application, make sure you've read
 the [Getting Started with ProductDB](/getting-started) topic and completed the steps
-in the [Integrate ProductDB](/getting-started#integrate-dyte) section.
+in the [Integrate ProductDB](/getting-started#integrate-productdb) section.
 
 :::
 
-The DyteClient is the root class of the SDK. It is the main entry point of the
+The ProductDBClient is the root class of the SDK. It is the main entry point of the
 SDK. It is the only class that you need to instantiate in order to use the SDK.
 
-To instantiate DyteClient, you can run the following command:
+To instantiate ProductDBClient, you can run the following command:
 
 ```js
 import React from 'react';
-import { useDyteClient, DyteProvider } from '@dytesdk/react-native-core';
+import { useProductDBClient, ProductDBProvider } from '@dytesdk/react-native-core';
 
 export default function App() {
-  const [meeting, initMeeting] = useDyteClient();
+  const [meeting, initMeeting] = useProductDBClient();
   React.useEffect(() => {
     const init = async () => {
       const meetingOptions = {
@@ -46,16 +46,16 @@ export default function App() {
 
   if (meeting)
     return (
-      <DyteProvider value={meeting}>
+      <ProductDBProvider value={meeting}>
         {/* Render you Components here*/}
-        {/* Components rendered inside DyteProvider can access DyteClient object using useDyteClient() hook */}
-      </DyteProvider>
+        {/* Components rendered inside ProductDBProvider can access ProductDBClient object using useProductDBClient() hook */}
+      </ProductDBProvider>
     );
 }
 ```
 
 You can get the authToken using our backend APIs and then pass it
-to the init method of DyteClient.
+to the init method of ProductDBClient.
 
 :::info
 

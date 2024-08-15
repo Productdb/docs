@@ -16,9 +16,9 @@ import { MavenLatestInstallation } from '@site/src/components/LatestInstallation
 </span>
 
 You can also checkout our
-[sample code](https://github.com/dyte-io/android-samples/tree/main/samples/android-ui-kit-sample-kotlin) for Android. You can clone
+[sample code](https://github.com/productdb-io/android-samples/tree/main/samples/android-ui-kit-sample-kotlin) for Android. You can clone
 and run a sample application from the
-[Android Samples GitHub repository](https://github.com/dyte-io/android-samples/).
+[Android Samples GitHub repository](https://github.com/productdb-io/android-samples/).
 
 
 ## Before Getting Started
@@ -51,7 +51,7 @@ dependencies {
 
 ## Step 2: Initialisation configuration
 
-Set the properties in the `DyteMeetingInfoV2` class. You just need to provide
+Set the properties in the `ProductDBMeetingInfoV2` class. You just need to provide
 the participant's `authToken`.
 
 | Name        | Description                                                                                                                                                                                                                                                                                                               |
@@ -59,22 +59,22 @@ the participant's `authToken`.
 | `authToken` | After you've created the meeting, <br/> add each participant to the meeting <br/> using the [Add Participant API](/api?v=v2#/operations/add_participant)<br/> (The presetName created earlier <br/> must be passed in the body <br/> of the Add Participant API request) <br/> The API response contains the `authToken`. |
 
 ```kotlin
-val meetingInfo = DyteMeetingInfoV2(
+val meetingInfo = ProductDBMeetingInfoV2(
                     authToken = '<auth_token>',
                   )
 ```
 
 ## Step 3: Initialize the SDK
 
-The `DyteUIKitBuilder` is the main class of the SDK. It is the entry point and
+The `ProductDBUIKitBuilder` is the main class of the SDK. It is the entry point and
 the only class required to initialize ProductDB SDK.
 
 ```kotlin
-val dyteUIKitInfo = DyteUIKitInfo(
+val dyteUIKitInfo = ProductDBUIKitInfo(
   activity = this,
   dyteMeetingInfo = meetingInfo
 )
-val dyteUIKit = DyteUIKitBuilder.build(dyteUIKitInfo)
+val dyteUIKit = ProductDBUIKitBuilder.build(dyteUIKitInfo)
 ```
 
 ## Step 4: Launch the meeting UI

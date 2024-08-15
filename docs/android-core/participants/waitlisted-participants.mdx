@@ -9,7 +9,7 @@ tags:
   - waiting room
 ---
 
-Participants in the waiting room are represented by `DyteWaitlistedParticipant` objects. If the local user has the permission to 
+Participants in the waiting room are represented by `ProductDBWaitlistedParticipant` objects. If the local user has the permission to 
 accept waiting room requests (`selfPermissions.host.canAcceptRequests` is true), you can manage pending waiting room requests, 
 accepting or rejecting them as needed.
 You can access the list of waitlisted participants via the `meeting.participants.waitlisted` property. 
@@ -18,7 +18,7 @@ You can access the list of waitlisted participants via the `meeting.participants
 
 ### Accepting Requests
 
-To accept a waiting room request, use the acceptWaitListedRequest() method on a `DyteWaitlistedParticipant` object:
+To accept a waiting room request, use the acceptWaitListedRequest() method on a `ProductDBWaitlistedParticipant` object:
 
 ```kotlin
 val waitlistedParticipant = meeting.participants.waitlisted[0]
@@ -27,7 +27,7 @@ waitlistedParticipant.acceptWaitListedRequest()
 
 ### Rejecting Requests
 
-To deny a waiting room request, use the `rejectWaitListedRequest()` method on a `DyteWaitlistedParticipant` object:
+To deny a waiting room request, use the `rejectWaitListedRequest()` method on a `ProductDBWaitlistedParticipant` object:
 
 ```kotlin
 val waitlistedParticipant = meeting.participants.waitlisted[0]
@@ -36,23 +36,23 @@ waitlistedParticipant.rejectWaitListedRequest()
 
 ### Waiting Room Events
 
-Implement the `DyteWaitlistEventsListener` interface to listen for events related to the waiting room:
+Implement the `ProductDBWaitlistEventsListener` interface to listen for events related to the waiting room:
 
 ```kotlin
-meeting.addWaitlistEventsListener(object: DyteWaitlistEventsListener {
-    override fun onWaitListParticipantJoined(participant: DyteWaitlistedParticipant) {
+meeting.addWaitlistEventsListener(object: ProductDBWaitlistEventsListener {
+    override fun onWaitListParticipantJoined(participant: ProductDBWaitlistedParticipant) {
         // Triggered when a new participant joins the waiting room
     }
 
-    override fun onWaitListParticipantAccepted(participant: DyteWaitlistedParticipant) {
+    override fun onWaitListParticipantAccepted(participant: ProductDBWaitlistedParticipant) {
         // Triggered when a waitlisted participant is accepted into the meeting
     }
 
-    override fun onWaitListParticipantRejected(participant: DyteWaitlistedParticipant) {
+    override fun onWaitListParticipantRejected(participant: ProductDBWaitlistedParticipant) {
         // Triggered when a waitlisted participant is denied entry into the meeting
     }
 
-    override fun onWaitListParticipantClosed(participant: DyteWaitlistedParticipant) {
+    override fun onWaitListParticipantClosed(participant: ProductDBWaitlistedParticipant) {
         // Triggered when a waitlisted participant leaves the waiting room
     }
 })

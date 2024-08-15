@@ -8,7 +8,7 @@ description: >-
 # Plugins
 
 You may create, manage, and host your own custom plugins with the help of the
-`dyte plugins` subcommand.
+`productdb plugins` subcommand.
 
 ## Overview
 
@@ -17,26 +17,26 @@ client-side code for plugins, the backend for a plugin (if any) **will not** be
 hosted by ProductDB. Therefore, server-side templating is not supported in plugins.
 
 Every functional ProductDB plugin requires a configuration file, which is named
-`dyte-config.json` by default. This contains details about the plugin such as
+`productdb-config.json` by default. This contains details about the plugin such as
 the `pluginId`, `name`, `version`, `description`, etc. This file is
-auto-generated upon running the `dyte plugins create` command, which is
-explained in detail later. You can know more about the `dyte-config.json` file
+auto-generated upon running the `productdb plugins create` command, which is
+explained in detail later. You can know more about the `productdb-config.json` file
 in the description for the `publish` subcommand.
 
 ## TL;DR
 
 In order to create and publish a plugin, you need to do the following.
 
-1. Run `dyte plugins create`, and enter the details. This should create a
-   `dyte-config.json` file.
-2. Copy the `dyte-config.json` into the folder containing the `index.html` file
+1. Run `productdb plugins create`, and enter the details. This should create a
+   `productdb-config.json` file.
+2. Copy the `productdb-config.json` into the folder containing the `index.html` file
    of your plugin. If you're using a frontend library like React, this would be
    the build folder.
 3. Change your directory to the folder containing the `index.html` and
-   `dyte-config.json` files.
-4. Modify the `dyte-config.json` file to update the version and the files that
+   `productdb-config.json` files.
+4. Modify the `productdb-config.json` file to update the version and the files that
    will be included and excluded while generating the plugin archive.
-5. Run `dyte plugins publish -l` or `dyte plugins publish --latest` to upload
+5. Run `productdb plugins publish -l` or `productdb plugins publish --latest` to upload
    and serve your plugin on ProductDB.
 
 ## Usage
@@ -45,11 +45,11 @@ In order to create and publish a plugin, you need to do the following.
 
 You can use the following subcommand to create a new ProductDB plugin. This sends an
 API request to register a new plugin under your organization. Additionally, it
-creates a file called `dyte-config.json`, which is essential for the plugin to
+creates a file called `productdb-config.json`, which is essential for the plugin to
 function properly.
 
 ```shell
-dyte plugins create
+productdb plugins create
 ```
 
 ### Listing your plugins
@@ -58,7 +58,7 @@ The `list | ls` subcommand can be used to list the names and IDs of all plugins
 that were created by your organization.
 
 ```shell
-dyte plugins ls
+productdb plugins ls
 ```
 
 ### Viewing plugin details
@@ -67,7 +67,7 @@ The `describe` subcommand logs the details of a plugin. The `pluginId` is
 required.
 
 ```shell
-dyte plugins describe -p <plugin id>
+productdb plugins describe -p <plugin id>
 ```
 
 ### Deleting a plugin
@@ -76,7 +76,7 @@ With the help of the `delete | rm` subcommand, you can delete an existing
 plugin. The `pluginId` is required.
 
 ```shell
-dyte plugins rm -p <plugin id>
+productdb plugins rm -p <plugin id>
 ```
 
 ### Updating a plugin
@@ -85,7 +85,7 @@ To update the details of a plugin, you can use the `update` subcommand. The
 `pluginId` is required.
 
 ```shell
-dyte plugins update -p <plugin id>
+productdb plugins update -p <plugin id>
 ```
 
 ## Releasing plugins
@@ -93,29 +93,29 @@ dyte plugins update -p <plugin id>
 ### Packaging a plugin
 
 In order to publish a plugin, a `.dyt` archive is created with all the
-client-side source code and the `dyte-config.json` file. This file is required
+client-side source code and the `productdb-config.json` file. This file is required
 by the `publish` subcommand, which also internally generates this archive. You
 can use the `pack` command if you just want to generate the archive, but do not
 want to publish it.
 
 ```shell
-dyte plugins pack
+productdb plugins pack
 ```
 
 ### Publishing a plugin
 
 The `publish` subcommand handles publishing a plugin on ProductDB. You must run this
-command in the directory where the `dyte-config.json` and the `index.html` files
-of your plugin are present. In the `dyte-config.json`, you can also describe the
+command in the directory where the `productdb-config.json` and the `index.html` files
+of your plugin are present. In the `productdb-config.json`, you can also describe the
 files you want to include in and exclude from the archive. In order to publish a
 plugin, you must follow these steps:
 
-1. Copy the `dyte-config.json` (which was created by the `dyte plugins create`
+1. Copy the `productdb-config.json` (which was created by the `productdb plugins create`
    command) into the folder containing your `index.html` file. In case you're
-   using a frontend library like React, you must copy `dyte-config.json` into
+   using a frontend library like React, you must copy `productdb-config.json` into
    the `build` folder.
-2. Update the plugin version in `dyte-config.json`.
-3. Run `dyte plugins publish -l`.
+2. Update the plugin version in `productdb-config.json`.
+3. Run `productdb plugins publish -l`.
 
 The `-l` or `--latest` option is **required** if you want your plugin's new
 version to be deployed. If the `-l` option is absent, the new version of the
@@ -125,7 +125,7 @@ if you want to upload your code to the storage bucket but you do not want to
 serve it.
 
 ```shell
-dyte plugins publish -l
+productdb plugins publish -l
 ```
 
 ### Unpublishing a plugin
@@ -134,7 +134,7 @@ The `unpublish` subcommand can be used if you want do not want your plugin to
 show up on the ProductDB plugins panel. The `pluginId` is required.
 
 ```shell
-dyte plugins unpublish
+productdb plugins unpublish
 ```
 
 :::caution Note that the plugin and its code will not be deleted, it will just
@@ -150,7 +150,7 @@ required for each of these subcommands.
 `version list` can be used to list all versions of your ProductDB plugin.
 
 ```shell
-dyte plugins version list
+productdb plugins version list
 ```
 
 ### Delete
@@ -159,7 +159,7 @@ dyte plugins version list
 This accepts the version you want to delete with the help of the `-v` option.
 
 ```shell
-dyte plugins version delete -v <version>
+productdb plugins version delete -v <version>
 ```
 
 ### Change latest
@@ -169,7 +169,7 @@ served. This accepts the version you want to serve with the help of the `-v`
 option.
 
 ```shell
-dyte plugins version change-latest -v <version>
+productdb plugins version change-latest -v <version>
 ```
 
 <head>

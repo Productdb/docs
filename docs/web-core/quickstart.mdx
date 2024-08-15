@@ -30,7 +30,7 @@ You'll learn how to:
 - Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
   and completed the following steps:
 
-  - Create a [ProductDB Developer Account](https://dev.dyte.io/)
+  - Create a [ProductDB Developer Account](https://dev.productdb.io/)
   - Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
@@ -84,7 +84,7 @@ Add the following script tag in the head of your HTML file.
 | `authToken` | After you've created the meeting, add each participant to the meeting using the [Add Participant API](/api#/operations/add_participant). The API response contains the authToken. |
 
 ```js
-const meeting = await DyteClient.init({
+const meeting = await ProductDBClient.init({
   authToken,
 });
 ```
@@ -96,7 +96,7 @@ successfully. Next step is to join the room.
 
 ### Join the room
 
-To join the meeting room, call join() method on the DyteClient instance as
+To join the meeting room, call join() method on the ProductDBClient instance as
 shown below.
 
 ```js

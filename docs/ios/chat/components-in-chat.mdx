@@ -1,5 +1,5 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-chat.svg
+image: /static/ui-kit/1.x.x/components/productdb-chat.svg
 sidebar_position: 2
 description: >-
   Learn how to use and customize the CustomChatViewController component in ProductDB's iOS UiKit with
@@ -17,12 +17,12 @@ A custom chat view controller used to show chat screen with image & file upload.
 Listen to chat message updates using `meeting.addChatEventsListener(chatEventsListener: self)` & get callbacks:
 
 ```swift
-extension ChatViewController: DyteChatEventsListener {
-    public func onNewChatMessage(message: DyteChatMessage) {
+extension ChatViewController: ProductDBChatEventsListener {
+    public func onNewChatMessage(message: ProductDBChatMessage) {
        //This can be used to show local notifications
     }
 
-    public  func onChatUpdates(messages: [DyteChatMessage]) {
+    public  func onChatUpdates(messages: [ProductDBChatMessage]) {
         loadChatMessages()
     }
 }
@@ -31,11 +31,11 @@ extension ChatViewController: DyteChatEventsListener {
 Creating a custom chat screen, you need following things:
 
 ```swift
-var messages: [DyteChatMessage]?
+var messages: [ProductDBChatMessage]?
 let messageTableView = UITableView()
-let sendFileButton = DyteButton(style: .iconOnly(icon: DyteImage(image: sendFileImageIcon)), dyteButtonState: .focus)
-let sendImageButton = DyteButton(style: .iconOnly(icon: DyteImage(image: sendImageIcon)), dyteButtonState: .active)
-let sendMessageButton = DyteButton(style: .iconOnly(icon: DyteImage(image: sendMessageIcon)), dyteButtonState: .active)
+let sendFileButton = ProductDBButton(style: .iconOnly(icon: ProductDBImage(image: sendFileImageIcon)), dyteButtonState: .focus)
+let sendImageButton = ProductDBButton(style: .iconOnly(icon: ProductDBImage(image: sendImageIcon)), dyteButtonState: .active)
+let sendMessageButton = ProductDBButton(style: .iconOnly(icon: ProductDBImage(image: sendMessageIcon)), dyteButtonState: .active)
 var documentsViewController: DocumentsViewController?
 let imagePicker = UIImagePickerController()
 let messageTextView = UITextView()
@@ -122,7 +122,7 @@ public extension UITableView {
 }
 ```
 
-`DyteChatMessage` can be of type `DyteTextMessage`, `DyteFileMessage` or `DyteImageMessage`.
+`ProductDBChatMessage` can be of type `ProductDBTextMessage`, `ProductDBFileMessage` or `ProductDBImageMessage`.
 
 <head>
   <title>iOS CustomChatViewController</title>

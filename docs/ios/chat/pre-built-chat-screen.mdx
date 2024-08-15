@@ -1,8 +1,8 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-chat.svg
+image: /static/ui-kit/1.x.x/components/productdb-chat.svg
 sidebar_position: 1
 description: >-
-  Learn how to use and customize the DyteChatViewController component in ProductDB's iOS UiKit with
+  Learn how to use and customize the ProductDBChatViewController component in ProductDB's iOS UiKit with
   our detailed documentation.
 ---
 
@@ -45,7 +45,7 @@ add it inside a view of sub `ViewController`, following example shows how to sho
 private var splitContentViewController: UIViewController?
 private let splitContentBaseView = UIView()
 
-func chatClick(button: DyteControlBarButton) {
+func chatClick(button: ProductDBControlBarButton) {
     if button.isSelected {
         let controller = ChatViewController(dyteMobileClient: self.meeting)
         self.splitContentBaseView.addSubview(controller.view)
@@ -60,5 +60,5 @@ func chatClick(button: DyteControlBarButton) {
 meeting: Current ongoing meeting object.
 
 <head>
-  <title>iOS DyteChatViewController</title>
+  <title>iOS ProductDBChatViewController</title>
 </head>

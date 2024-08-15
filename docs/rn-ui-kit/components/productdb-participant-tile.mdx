@@ -1,0 +1,52 @@
+---
+image: /static/ui-kit/1.x.x/components/productdb-participant-tile.svg
+description: >-
+  Learn how to use and customize the ProductDBParticipantTile component in ProductDB's
+  React Native UI Kit with our detailed documentation.
+---
+
+# ProductDBParticipantTile
+
+A component which plays a participants video and allows for placement of
+components like `productdb-name-tag`, `productdb-audio-visualizer` or any other component.
+
+```jsx
+<ProductDBParticipantTile participant={meeting.self}>
+  <ProductDBNameTag participant={meeting.self}>
+    <ProductDBAudioVisualizer slot="start" />
+  </ProductDBNameTag>
+</ProductDBParticipantTile>
+```
+
+You can change the `name-tag-position` to any of the supported values and change
+the placement of audio-visualizer in name-tag as well.
+
+```jsx
+<ProductDBParticipantTile participant={meeting.self} nameTagPosition="bottom-center">
+  <ProductDBNameTag participant={meeting.self}>
+    <ProductDBAudioVisualizer slot="end" />
+  </ProductDBNameTag>
+</ProductDBParticipantTile>
+```
+
+It also has a few variants.
+
+```jsx
+<ProductDBParticipantTile
+  participant={meeting.self}
+  nameTagPosition="bottom-center"
+  variant="gradient"
+>
+  <ProductDBNameTag participant={meeting.self}>
+    <ProductDBAudioVisualizer slot="start" />
+  </ProductDBNameTag>
+</ProductDBParticipantTile>
+```
+
+## Props
+
+<PropsTable of="productdb-participant-tile" />
+
+<head>
+  <title>React Native UI Kit ProductDBParticipantTile</title>
+</head>

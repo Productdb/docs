@@ -1,0 +1,30 @@
+---
+image: /static/ui-kit/1.x.x/components/productdb-spotlight-grid.svg
+description: >-
+  Learn how to use and customize the ProductDBSpotlightGrid component in ProductDB's React
+  Native UI Kit with our detailed documentation.
+---
+
+# ProductDBSpotlightGrid
+
+A grid component that renders two lists of participants: `pinnedParticipants`
+and `participants`.
+
+- Participants from `pinnedParticipants[]` are rendered inside a larger grid.
+- Participants from `participants[]` array are rendered in a smaller grid.
+
+```jsx
+<ProductDBSpotlightGrid
+  participants={[meeting.self]}
+  pinnedParticipants={[meeting.self]}
+  style={{ height: '360px', width: '100%' }}
+/>
+```
+
+## Props
+
+<PropsTable of="productdb-spotlight-grid" />
+
+<head>
+  <title>React Native UI Kit ProductDBSpotlightGrid</title>
+</head>

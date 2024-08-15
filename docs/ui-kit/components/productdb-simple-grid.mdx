@@ -1,0 +1,34 @@
+---
+image: /static/ui-kit/1.x.x/components/productdb-simple-grid.svg
+description: >-
+  Learn how to use and customize the productdb-simple-grid component in ProductDB's UI Kit
+  with our detailed documentation.
+---
+
+# productdb-simple-grid
+
+A grid component which renders only the participants in a simple grid.
+
+```html
+<productdb-simple-grid id="productdb-el"></productdb-simple-grid>
+
+<script>
+  const el = document.getElementBydId('productdb-el');
+  el.participants = [meeting.self];
+</script>
+
+<style>
+  productdb-simple-grid {
+    height: 360px;
+    width: 100%;
+  }
+</style>
+```
+
+## Props
+
+<PropsTable of="productdb-simple-grid" />
+
+<head>
+  <title>UI Kit productdb-simple-grid</title>
+</head>

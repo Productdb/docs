@@ -70,7 +70,7 @@ const PluginView = (activatedPlugin) => {
 
 ```jsx
 const Meeting = () => {
-  const activatedPlugins = useDyteSelector((m) => m.plugins.active);
+  const activatedPlugins = useProductDBSelector((m) => m.plugins.active);
   return (
     {
       activatedPlugins.toArray()

@@ -66,7 +66,7 @@ meeting.self.enableVideo();
 To render the video, use our web component library
 
 ```tsx
-<dyte-participant-tile participant={meeting.self} />
+<productdb-participant-tile participant={meeting.self} />
 ```
 
 ### Turn the camera off
@@ -120,21 +120,21 @@ meeting.participants.active.on('videoUpdate', (participant) => {
 });
 ```
 
-But you don't need this event to render remote participants, the `dyte-participant-tile` component sets up this listener on its own and will render the video on its own
+But you don't need this event to render remote participants, the `productdb-participant-tile` component sets up this listener on its own and will render the video on its own
 
 ```tsx
-<dyte-participant-tile participant={remoteParticipant} />
+<productdb-participant-tile participant={remoteParticipant} />
 ```
 
 It is even easier in React, here is how to render every participant
 
 ```tsx
-const participants = useDyteSelector((m) => m.participants.active);
+const participants = useProductDBSelector((m) => m.participants.active);
 
 return (<div>
       {
           participants
-             .map((p) => (<DyteParticipantTile participant={p} />)
+             .map((p) => (<ProductDBParticipantTile participant={p} />)
       }
    </div>);
 ```

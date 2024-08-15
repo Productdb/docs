@@ -15,7 +15,7 @@ const REFERENCE_PROPS = {
   },
   t: {
     path: '../reference/#dytei18n',
-    name: 'DyteI18n',
+    name: 'ProductDBI18n',
   },
   // participant: {
   //   path: '../reference/participant',
@@ -34,19 +34,19 @@ const REFERENCE_PROPS = {
   //   name: 'Poll',
   // },
   plugins: {
-    path: '/web-core/reference/DytePlugin',
-    name: 'DytePlugin[]',
+    path: '/web-core/reference/ProductDBPlugin',
+    name: 'ProductDBPlugin[]',
   },
   plugin: {
-    path: '/web-core/reference/DytePlugin',
-    name: 'DytePlugin',
+    path: '/web-core/reference/ProductDBPlugin',
+    name: 'ProductDBPlugin',
   },
 };
 
 const WEB_CORE_TYPE_REFERENCES = {
-  DyteClient: {
-    path: '/web-core/reference/DyteClient',
-    name: 'DyteClient',
+  ProductDBClient: {
+    path: '/web-core/reference/ProductDBClient',
+    name: 'ProductDBClient',
   },
 };
 
@@ -55,10 +55,10 @@ function PropType({ prop }) {
     return (
       <pre className={styles.propType}>
         <code>
-          <Link href="/web-core/reference/DyteParticipant">
-            DyteParticipant
+          <Link href="/web-core/reference/ProductDBParticipant">
+            ProductDBParticipant
           </Link>{' '}
-          | <Link href="/web-core/reference/DyteSelf">DyteSelf</Link>
+          | <Link href="/web-core/reference/ProductDBSelf">ProductDBSelf</Link>
         </code>
       </pre>
     );
@@ -69,10 +69,10 @@ function PropType({ prop }) {
       <pre className={styles.propType}>
         <code>
           (
-          <Link href="/web-core/reference/DyteParticipant">
-            DyteParticipant
+          <Link href="/web-core/reference/ProductDBParticipant">
+            ProductDBParticipant
           </Link>{' '}
-          | <Link href="/web-core/reference/DyteSelf">DyteSelf</Link>)[]
+          | <Link href="/web-core/reference/ProductDBSelf">ProductDBSelf</Link>)[]
         </code>
       </pre>
     );

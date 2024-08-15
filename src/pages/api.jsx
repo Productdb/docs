@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import { DyteSpinner } from '@dytesdk/react-ui-kit';
+import { ProductDBSpinner } from '@dytesdk/react-ui-kit';
 import { useHistory } from '@docusaurus/router';
 import clsx from 'clsx';
 
@@ -18,7 +18,7 @@ function APIElement({ layout = 'sidebar', currentVersion = 'v1' }) {
     <BrowserOnly
       fallback={
         <div className="loading-container">
-          <DyteSpinner />
+          <ProductDBSpinner />
         </div>
       }
     >
@@ -51,7 +51,7 @@ export default function Home() {
   const location = router.location;
 
   const url = new URL(
-    `https://docs.dyte.io${location.pathname}${location.search}`
+    `https://docs.productdb.io${location.pathname}${location.search}`
   );
 
   const currentVersion = url.searchParams.get('v') || 'v2';

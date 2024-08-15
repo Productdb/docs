@@ -27,7 +27,7 @@ export const MavenLatestInstallation = ({ pkg }) => {
       <CodeBlock language="groovy">
         {`dependencies {
     // (other dependencies)
-    implementation 'io.dyte:${pkg}:${version}'
+    implementation 'io.productdb:${pkg}:${version}'
 }`}
       </CodeBlock>
     </div>
@@ -71,7 +71,7 @@ export const WebCoreCDNInstallation = () => {
 
   return (
     <CodeBlock language="html">
-      {`<script src="https://cdn.dyte.in/core/dyte${version}.js" />`}
+      {`<script src="https://cdn.productdb.in/core/productdb${version}.js" />`}
     </CodeBlock>
   );
 };
@@ -98,14 +98,14 @@ export const HTMLUIKitInstallation = () => {
       defineCustomElements();
   </script>
   <!-- Import Web Core via CDN too -->
-  <script src="https://cdn.dyte.in/core/dyte${webCoreVersion}.js"></script>
+  <script src="https://cdn.productdb.in/core/productdb${webCoreVersion}.js"></script>
 </head>`}
     </CodeBlock>
   );
 };
 
 export const HTMLUIKitUtilsInstallation = ({
-  modules = ['provideDyteDesignSystem', 'extendConfig,'],
+  modules = ['provideProductDBDesignSystem', 'extendConfig,'],
 }) => {
   const [uikitVersion, setUIKitVersion] = useState('');
 

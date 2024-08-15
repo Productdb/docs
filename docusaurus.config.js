@@ -515,12 +515,12 @@ const config = {
           {
             label: 'SDKs',
             type: 'dropdown',
-            className: 'dyte-dropdown',
+            className: 'productdb-dropdown',
             items: [
               {
                 type: 'html',
                 value: sdksHTML,
-                className: 'dyte-dropdown',
+                className: 'productdb-dropdown',
               },
             ],
           },
@@ -531,12 +531,12 @@ const config = {
           {
             label: 'Resources',
             type: 'dropdown',
-            className: 'dyte-dropdown resources-dropdown',
+            className: 'productdb-dropdown resources-dropdown',
             items: [
               {
                 type: 'html',
                 value: resourcesHTML,
-                className: 'dyte-dropdown',
+                className: 'productdb-dropdown',
               },
             ],
           },
@@ -598,7 +598,7 @@ const config = {
               },
               {
                 label: 'Join Us',
-                href: 'https://dyte.freshteam.com/jobs',
+                href: 'https://productdb.freshteam.com/jobs',
               },
               {
                 label: 'Privacy Policy',

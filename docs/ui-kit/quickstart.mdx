@@ -14,15 +14,15 @@ video and audio to your web applications with minimal coding and a variety of
 meeting UI customization options.
 
 For getting started quickly, you can use our
-[sample code](https://github.com/dyte-io/html-samples#samples). You can clone
+[sample code](https://github.com/productdb-io/html-samples#samples). You can clone
 and run a sample application from the
-[HTML UI Kit GitHub repository](https://github.com/dyte-io/html-samples).
+[HTML UI Kit GitHub repository](https://github.com/productdb-io/html-samples).
 
 ## Before Getting Started
 
 - Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
   and completed the following steps:
-  - Create a [ProductDB Developer Account](https://dev.dyte.io/)
+  - Create a [ProductDB Developer Account](https://dev.productdb.io/)
   - Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
@@ -109,13 +109,13 @@ file={`<head>
       defineCustomElements();
   </script>
   <!-- Import Web Core via CDN too -->
-  <!-- <script src="https://cdn.dyte.in/core/dyte.js"></script> -->
+  <!-- <script src="https://cdn.productdb.in/core/productdb.js"></script> -->
 </head>
 <body>
-  <dyte-meeting id="my-meeting"></dyte-meeting>
+  <productdb-meeting id="my-meeting"></productdb-meeting>
   <script>
     const init = async () => {
-      const meeting = await DyteClient.init({
+      const meeting = await ProductDBClient.init({
         // Add your own auth token here
         authToken: yourAuthToken,
         defaults: {

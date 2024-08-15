@@ -1,5 +1,5 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-grid.svg
+image: /static/ui-kit/1.x.x/components/productdb-grid.svg
 sidebar_position: 2
 description: >-
   Learn how to create a custom grid view component in ProductDB's iOS UIKit with our detailed documentation.
@@ -30,7 +30,7 @@ and methods to manage the arrangement and presentation of child views within the
 ### Example Usage:
 
 ```swift
-let tile = DyteParticipantTileView(mobileClient: meeting,
+let tile = ProductDBParticipantTileView(mobileClient: meeting,
                                     participant: participant,
                                     isForLocalUser: false,
                                     showScreenShareVideoView: false)
@@ -43,29 +43,29 @@ Remove tile from view using `tileView?.removeFromSuperview()`
 
 ## Integrating Participant Tile Views
 
-To display video views within the `GridView`, you can utilize the `DyteParticipantTileContainerView` and
-`DyteParticipantTileView` classes provided by ProductDB's iOS UIKit. These classes encapsulate the logic for
+To display video views within the `GridView`, you can utilize the `ProductDBParticipantTileContainerView` and
+`ProductDBParticipantTileView` classes provided by ProductDB's iOS UIKit. These classes encapsulate the logic for
 rendering video streams of meeting participants.
 
-### `DyteParticipantTileContainerView`
+### `ProductDBParticipantTileContainerView`
 
-The `DyteParticipantTileContainerView` is a UIView subclass designed to contain a single `DyteParticipantTileView`.
+The `ProductDBParticipantTileContainerView` is a UIView subclass designed to contain a single `ProductDBParticipantTileView`.
 It provides methods for preparing the view for reuse and setting the participant whose video stream should be displayed.
 
 #### Example Usage:
 
 ```swift
-let tileContainerView = DyteParticipantTileContainerView()
+let tileContainerView = ProductDBParticipantTileContainerView()
 tileContainerView.setParticipant(meeting: myMeetingClient,
                              participant: meetingParticipant)
 ```
 
-### DyteParticipantTileView
+### ProductDBParticipantTileView
 
-The [DyteParticipantTileView](/ios/components/dyte-participant-tile-view) class represents a single tile
+The [ProductDBParticipantTileView](/ios/components/productdb-participant-tile-view) class represents a single tile
 within the grid view, displaying the video stream of a meeting participant.
 It manages the layout and presentation of the participant's video view, along with
 additional features such as participant name tags and pin indicators.
 
-You can add instances of DyteParticipantTileView to the GridView to render multiple video streams within the grid,
+You can add instances of ProductDBParticipantTileView to the GridView to render multiple video streams within the grid,
 providing a comprehensive view of meeting participants during video conferences.

@@ -39,7 +39,7 @@ export const initialNodes = [
     },
   },
   {
-    id: "dyte",
+    id: "productdb",
     type: "logo",
     position: { x: 400, y: 50 },
     data: { active: false },
@@ -86,7 +86,7 @@ export function gotoStepNodes(nodes: Node[], step: number) {
         "cust-server": {
           active: true,
         },
-        dyte: {
+        productdb: {
           active: true,
         },
       };
@@ -97,7 +97,7 @@ export function gotoStepNodes(nodes: Node[], step: number) {
         "cust-server": {
           active: true,
         },
-        dyte: {
+        productdb: {
           active: true,
         },
       };
@@ -130,7 +130,7 @@ export function gotoStepNodes(nodes: Node[], step: number) {
         "cust-server": {
           active: true,
         },
-        dyte: {
+        productdb: {
           active: true,
         },
         "cust-db": {
@@ -144,7 +144,7 @@ export function gotoStepNodes(nodes: Node[], step: number) {
         "cust-server": {
           active: true,
         },
-        dyte: {
+        productdb: {
           active: true,
         },
         "cust-db": {

@@ -1,0 +1,29 @@
+---
+image: /static/ui-kit/1.x.x/components/productdb-switch.svg
+description: >-
+  Learn how to use and customize the productdb-switch component in ProductDB's UI Kit with
+  our detailed documentation.
+---
+
+# productdb-switch
+
+A switch component which follows ProductDB's Design System.
+
+```html
+<productdb-switch id="productdb-el"></productdb-switch>
+
+<script>
+  const el = document.getElementById('productdb-el');
+  el.addEventListener('dyteChange', (e) => {
+    alert('New switch value:', e.detail);
+  });
+</script>
+```
+
+## Props
+
+<PropsTable of="productdb-switch" />
+
+<head>
+  <title>UI Kit productdb-switch</title>
+</head>

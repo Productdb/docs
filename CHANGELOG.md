@@ -486,8 +486,8 @@
 
 ### Bug Fixes
 
-* add dyte-logo in footer, navbar enhancements ([33e4541](https://github.com/Productdb/docs/commit/33e4541d778cbed3e33b93f0e8550d649de52080))
-* add dyte.io link to footer logo ([94c02d6](https://github.com/Productdb/docs/commit/94c02d69c7794910685fe18fb70eac470dc67dc0))
+* add productdb-logo in footer, navbar enhancements ([33e4541](https://github.com/Productdb/docs/commit/33e4541d778cbed3e33b93f0e8550d649de52080))
+* add productdb.io link to footer logo ([94c02d6](https://github.com/Productdb/docs/commit/94c02d69c7794910685fe18fb70eac470dc67dc0))
 * **api:** glitch when navigating to /api/ from navbar ([dd891c7](https://github.com/Productdb/docs/commit/dd891c75d734f200752c4101a405c8255fdbe092))
 * **api:** remove url so support link points to email ([e97aeed](https://github.com/Productdb/docs/commit/e97aeed892f46ff99fbf59a2238fe09996d4704b))
 * **api:** response codes starting with `4` have a red color ([0be9e00](https://github.com/Productdb/docs/commit/0be9e00ff44b351be2f918eba4d104619f8384be))
@@ -507,7 +507,7 @@
 * docsearch final config, updated /api/ path ([e8f730d](https://github.com/Productdb/docs/commit/e8f730df196ac974ebaeeebbdbb078c090b33afe))
 * **docs:** home description meta tag set properly now ([d9c76f9](https://github.com/Productdb/docs/commit/d9c76f98b592d06f04042928ed706eb81648d9c1))
 * **docs:** sidebar parity for `docs` and `guides` ([2b9623f](https://github.com/Productdb/docs/commit/2b9623f96a20f5aa68d788553fb2a9527eae64e9))
-* **docs:** update how-dyte-works.png image 🚀 ([c9cfd6c](https://github.com/Productdb/docs/commit/c9cfd6c6d7ec39cf05aa1404ef8e98fea9394cc9))
+* **docs:** update how-productdb-works.png image 🚀 ([c9cfd6c](https://github.com/Productdb/docs/commit/c9cfd6c6d7ec39cf05aa1404ef8e98fea9394cc9))
 * **docs:** update meeting-ui images for mobile, add preview image ([8c3c6d3](https://github.com/Productdb/docs/commit/8c3c6d3b3646e1ac3bc2be1885106fe041a587ad))
 * **docs:** update mobile meeting-ui diagram ([cf12279](https://github.com/Productdb/docs/commit/cf1227957c526a1287cf1e88430eadadf44ae82b))
 * **docs:** updated images and fixed metadata content ([d7bd790](https://github.com/Productdb/docs/commit/d7bd790d4c438763eb811ba65c283c8a42363600))
@@ -515,7 +515,7 @@
 * **flutter:** meeting mdx table methods intendation ([83be068](https://github.com/Productdb/docs/commit/83be06823cf6dd0dcfad04bbf22743c83ae1f8bd))
 * **flutter:** meeting.mdx methods intendation ([3853f43](https://github.com/Productdb/docs/commit/3853f43cb51529d7d140c7f3699dc54e273f99d3))
 * **footer:** updated footer text and replaced form with sign up link ([e0f299f](https://github.com/Productdb/docs/commit/e0f299fb8c1ac63485669c923d7192c04c42688b))
-* **link:** update demo app link to `app.dyte.in` ([24a85f7](https://github.com/Productdb/docs/commit/24a85f7c45ca0684db55756ef15330fc095313cf))
+* **link:** update demo app link to `app.productdb.in` ([24a85f7](https://github.com/Productdb/docs/commit/24a85f7c45ca0684db55756ef15330fc095313cf))
 * lint issues ([e9f9284](https://github.com/Productdb/docs/commit/e9f928473afe3ca1de3ea68ef2c7217341d0c75f))
 * make docsearch detect subsections with selectors ([ac55d1d](https://github.com/Productdb/docs/commit/ac55d1df6ea2053a4a329f2d5fc6b4221ee64dba))
 * make sidebars not collapsible in react, flutter ([2729ddb](https://github.com/Productdb/docs/commit/2729ddb6f57ea3640463882c8275f31e225f0101))
@@ -669,8 +669,8 @@
 
 ### Bug Fixes
 
-* add dyte-logo in footer, navbar enhancements ([33e4541](https://github.com/Productdb/docs/commit/33e4541d778cbed3e33b93f0e8550d649de52080))
-* add dyte.io link to footer logo ([94c02d6](https://github.com/Productdb/docs/commit/94c02d69c7794910685fe18fb70eac470dc67dc0))
+* add productdb-logo in footer, navbar enhancements ([33e4541](https://github.com/Productdb/docs/commit/33e4541d778cbed3e33b93f0e8550d649de52080))
+* add productdb.io link to footer logo ([94c02d6](https://github.com/Productdb/docs/commit/94c02d69c7794910685fe18fb70eac470dc67dc0))
 * **api:** glitch when navigating to /api/ from navbar ([51d97ac](https://github.com/Productdb/docs/commit/51d97ac1e50dcdd33d7d77ff265e96168e66a027))
 * **api:** remove url so support link points to email ([b79beea](https://github.com/Productdb/docs/commit/b79beea3114a0b8e768974f894f64dd3397a3b02))
 * **api:** response codes starting with `4` have a red color ([8d2499a](https://github.com/Productdb/docs/commit/8d2499ad09bc5274059c37f657acb30b10aea8b4))
@@ -690,7 +690,7 @@
 * docsearch final config, updated /api/ path ([93bc744](https://github.com/Productdb/docs/commit/93bc74458fec1b0dd3ad377182b3241cf592860d))
 * **docs:** home description meta tag set properly now ([a4f6d69](https://github.com/Productdb/docs/commit/a4f6d699ddd48d3323225917515c5c9e32f7991c))
 * **docs:** sidebar parity for `docs` and `guides` ([2e82ffd](https://github.com/Productdb/docs/commit/2e82ffd9f5eac0342b9b45aafb15b7a1c93ec358))
-* **docs:** update how-dyte-works.png image 🚀 ([ced66d0](https://github.com/Productdb/docs/commit/ced66d044082467236c298324a6ab3a5ed7fc546))
+* **docs:** update how-productdb-works.png image 🚀 ([ced66d0](https://github.com/Productdb/docs/commit/ced66d044082467236c298324a6ab3a5ed7fc546))
 * **docs:** update meeting-ui images for mobile, add preview image ([0449a72](https://github.com/Productdb/docs/commit/0449a72066c930b230e534e5a7377f611426b023))
 * **docs:** update mobile meeting-ui diagram ([d92138b](https://github.com/Productdb/docs/commit/d92138bac6052717895d118614a80cde0dcda061))
 * **docs:** updated images and fixed metadata content ([e54cc7a](https://github.com/Productdb/docs/commit/e54cc7a35c055867ed73907f73d9290a0ecf4a9b))
@@ -698,7 +698,7 @@
 * **flutter:** meeting mdx table methods intendation ([c3d8fbf](https://github.com/Productdb/docs/commit/c3d8fbfa01c0b24755047baeec6cf4deda485c2f))
 * **flutter:** meeting.mdx methods intendation ([336c8be](https://github.com/Productdb/docs/commit/336c8bee42ec214813d2682f0099a74ebce5cd9d))
 * **footer:** updated footer text and replaced form with sign up link ([e7aa701](https://github.com/Productdb/docs/commit/e7aa701d0a4438c38ba84f303df98d9326b16e79))
-* **link:** update demo app link to `app.dyte.in` ([1164181](https://github.com/Productdb/docs/commit/1164181a1e0712fbfac529bbbd076a2795364205))
+* **link:** update demo app link to `app.productdb.in` ([1164181](https://github.com/Productdb/docs/commit/1164181a1e0712fbfac529bbbd076a2795364205))
 * make docsearch detect subsections with selectors ([2872783](https://github.com/Productdb/docs/commit/2872783011f95a40e15222ea2509d39062f1dfef))
 * make sidebars not collapsible in react, flutter ([4fd70e0](https://github.com/Productdb/docs/commit/4fd70e0d67cd17b6a3f76c2bf5bdd5606fed1f59))
 * mobile ContextSwitcher uses tailwindcss, refactor ([f665dcf](https://github.com/Productdb/docs/commit/f665dcfeeaae99e8ece033309895f2d93cbbcc8e))

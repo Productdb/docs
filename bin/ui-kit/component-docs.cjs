@@ -79,14 +79,14 @@ function generateFile(component, framework = 'core') {
 for (const component of components) {
   const { tag } = component;
 
-  if (tag.startsWith('dyte-breakout') || tag.startsWith('dyte-ai')) {
+  if (tag.startsWith('productdb-breakout') || tag.startsWith('productdb-ai')) {
     continue;
   }
 
   /** If there is no readme, skip component */
   if (
     (!component || component.docs.trim() === '') &&
-    component.tag !== 'dyte-clock'
+    component.tag !== 'productdb-clock'
   ) {
     continue;
   }

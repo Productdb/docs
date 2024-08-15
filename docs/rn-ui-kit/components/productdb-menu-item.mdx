@@ -1,0 +1,40 @@
+---
+description: >-
+  Learn how to use and customize the ProductDBMenuItem component in ProductDB's React
+  Native UI Kit with our detailed documentation.
+---
+
+# ProductDBMenuItem
+
+A menu item component.
+
+```jsx
+<Row style={{ padding: '52px 0 0 0' }}>
+  <ProductDBMenu placement="top">
+    <ProductDBButton slot="trigger">Top Menu</ProductDBButton>
+    <ProductDBMenuList>
+      <ProductDBMenuItem onClick={() => alert('You clicked: alert()')}>
+        alert()
+      </ProductDBMenuItem>
+    </ProductDBMenuList>
+  </ProductDBMenu>
+
+  {/* This menu will be placed at top due to less space */}
+  <ProductDBMenu placement="bottom">
+    <ProductDBButton slot="trigger">Bottom Menu</ProductDBButton>
+    <ProductDBMenuList>
+      <ProductDBMenuItem onClick={() => alert('You clicked: alert()')}>
+        alert()
+      </ProductDBMenuItem>
+    </ProductDBMenuList>
+  </ProductDBMenu>
+</Row>
+```
+
+## Props
+
+<PropsTable of="productdb-menu-item" />
+
+<head>
+  <title>React Native UI Kit ProductDBMenuItem</title>
+</head>

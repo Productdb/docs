@@ -11,8 +11,8 @@
     "version": "0.3.9",
     "createdAt": 1719167400,
     "features": [
-      "Parsed all design tokens from preset via `DyteDesignTokens` classes, returned from `DyteDataEventsListner`'s `onMetaUpdate` callback.",
-      "Introduced `resetValue()` function to reset `designToken`, the instance of `DyteDesignTokens`"
+      "Parsed all design tokens from preset via `ProductDBDesignTokens` classes, returned from `ProductDBDataEventsListner`'s `onMetaUpdate` callback.",
+      "Introduced `resetValue()` function to reset `designToken`, the instance of `ProductDBDesignTokens`"
     ],
     "fixes": [
       "Fixed iOS Screenshare crashing after 3-4 sec due to memory limitation.",
@@ -38,8 +38,8 @@
       "Removed `onMeetingRoomConnectionError` callback, introduced `onMeetingEnded`, `onActiveTabUpdateCallback`."
     ],
     "features": [
-      "Introduced `DyteActiveTab` class",
-      "Added `onPermissionsUpdate()` callback in `DyteSelfEventsListener`."
+      "Introduced `ProductDBActiveTab` class",
+      "Added `onPermissionsUpdate()` callback in `ProductDBSelfEventsListener`."
     ],
     "breaking-changes": []
   },
@@ -47,7 +47,7 @@
     "version": "0.3.6",
     "createdAt": 1714588200,
     "fixes": [
-      "Added `cleanAllNativeListeners()` method which needs to be called when you're done with current session of dyte meeting to cleanly remove listeners."
+      "Added `cleanAllNativeListeners()` method which needs to be called when you're done with current session of productdb meeting to cleanly remove listeners."
     ],
     "breaking-changes": []
   },
@@ -63,7 +63,7 @@
     "createdAt": 1713205800,
     "fixes": [
       "Fixed `onMeetingInitFailed()` issue.",
-      "Populates error details log on `onMeetingInitFailed()`/`onMeetingRoomJoinedFailed()`, it returns exception, user needs to type-cast it to DyteError",
+      "Populates error details log on `onMeetingInitFailed()`/`onMeetingRoomJoinedFailed()`, it returns exception, user needs to type-cast it to ProductDBError",
       "Introduced async `release()` method, returns a _bool_, true -> if release is successful, false -> if release is failure"
     ],
     "breaking-changes": []
@@ -79,7 +79,7 @@
   {
     "version": "0.3.3",
     "createdAt": 1709663400,
-    "features": ["Exposed _stageStatus_ property for DyteParticipant object."],
+    "features": ["Exposed _stageStatus_ property for ProductDBParticipant object."],
     "fixes": ["Fixes for Webinar callback."],
     "breaking-changes": []
   },
@@ -87,7 +87,7 @@
     "version": "0.3.2",
     "createdAt": 1709663399,
     "features": [
-      "Added `onMeetingRecordingPauseError()` and `onMeetingRecordingResumeError()` methods in `DyteRecordingEventsListener`."
+      "Added `onMeetingRecordingPauseError()` and `onMeetingRecordingResumeError()` methods in `ProductDBRecordingEventsListener`."
     ],
     "fixes": [
       "Changed the `release()` method api introduced in 0.3.1 to `releaseMeeting()`."
@@ -112,7 +112,7 @@
     "version": "0.2.3+1",
     "createdAt": 1704306600,
     "fixes": [
-      "Updated `onPluginMessage` callback to return a `DytePlugin`, `eventName` and `data`."
+      "Updated `onPluginMessage` callback to return a `ProductDBPlugin`, `eventName` and `data`."
     ],
     "breaking-changes": []
   },
@@ -131,7 +131,7 @@
   {
     "version": "0.2.1",
     "createdAt": 1695753000,
-    "fixes": ["Remove DyteFlutterEngine instance cache."]
+    "fixes": ["Remove ProductDBFlutterEngine instance cache."]
   },
   {
     "version": "0.2.0",
@@ -142,7 +142,7 @@
       "Added host controls forlivestream."
     ],
     "fixes": [
-      "Updated `switchCamera(), no `DyteVideoDevice` parameter required."
+      "Updated `switchCamera(), no `ProductDBVideoDevice` parameter required."
     ]
   }
 ]

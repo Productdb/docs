@@ -1,0 +1,29 @@
+---
+image: /static/ui-kit/1.x.x/components/productdb-emoji-picker.svg
+description: >-
+  Learn how to use and customize the productdb-emoji-picker component in ProductDB's UI
+  Kit with our detailed documentation.
+---
+
+# productdb-emoji-picker
+
+A very simple emoji picker component.
+
+```html
+<productdb-emoji-picker id="productdb-el"></productdb-emoji-picker>
+<script>
+  const el = document.getElementById('productdb-el');
+
+  el.addEventListener('dyteEmojiClicked', (e) => {
+    console.log('selected:', e.detail);
+  });
+</script>
+```
+
+## Props
+
+<PropsTable of="productdb-emoji-picker" />
+
+<head>
+  <title>UI Kit productdb-emoji-picker</title>
+</head>

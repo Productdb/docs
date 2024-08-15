@@ -13,7 +13,7 @@ This documentation explains how to create and utilize a "More" menu for host con
 To create the More menu, use the following code:
 
 ```swift
-private func createMoreMenu(participantListener: DyteParticipantUpdateEventListener, indexPath: IndexPath) -> Bool {
+private func createMoreMenu(participantListener: ProductDBParticipantUpdateEventListener, indexPath: IndexPath) -> Bool {
     var menus = [MenuType]()
     let participant = participantListener.participant
     let hostPermission = self.viewModel.mobileClient.localUser.permissions.host
@@ -43,7 +43,7 @@ private func createMoreMenu(participantListener: DyteParticipantUpdateEventListe
     }
     menus.append(contentsOf: [.cancel])
 
-    let moreMenu = DyteMoreMenu(title: participant.name, features: menus, onSelect: { [weak self] menuType in
+    let moreMenu = ProductDBMoreMenu(title: participant.name, features: menus, onSelect: { [weak self] menuType in
         guard let self = self else { return }
         switch menuType {
         case .pin:

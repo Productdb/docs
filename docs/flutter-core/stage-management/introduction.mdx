@@ -21,7 +21,7 @@ permissions, and kicking participants from the stage. These APIs are accessible 
 
 ### Stage Status
 
-In meetings where stage management is enabled, a user's stage status can change within the values represented by the `DyteStageStatus`
+In meetings where stage management is enabled, a user's stage status can change within the values represented by the `ProductDBStageStatus`
 enum. These status values include:
 
 - `onStage`: Indicates that the user is currently on the stage and is allowed to publish media.
@@ -37,7 +37,7 @@ The `dyteMobileClient.stage.status` property provides the current stage status o
 ### Viewers
 
 You can retrieve a list of off-stage participants (viewers) in a stage-enabled meeting by accessing the `meeting.stage.viewers`
-property. This property provides a list of `DyteJoinedMeetingParticipant` objects whose stage status is not `onStage`.
+property. This property provides a list of `ProductDBJoinedMeetingParticipant` objects whose stage status is not `onStage`.
 
 ### Joining the Stage
 
@@ -59,11 +59,11 @@ dyteClient.stage.leave();
 
 ### List of Stage Events
 
-The `DyteStageEventListener` interface provides callback methods for various stage events. Implement these callbacks to handle
+The `ProductDBStageEventListener` interface provides callback methods for various stage events. Implement these callbacks to handle
 stage-related events in your application:
 
 ```dart
-class StageEventListener extends DyteStageEventsListener {
+class StageEventListener extends ProductDBStageEventsListener {
   @override
   void onAddedToStage() {
     // Called when the local user successfully joins the stage.
@@ -71,17 +71,17 @@ class StageEventListener extends DyteStageEventsListener {
 
   @override
   void onParticipantRemovedFromStage(
-      DyteJoinedMeetingParticipant participant) {
+      ProductDBJoinedMeetingParticipant participant) {
       // Called when a participant is removed from the stage by the host.
   }
 
   @override
-  void onPresentRequestAdded(DyteJoinedMeetingParticipant participant) {
+  void onPresentRequestAdded(ProductDBJoinedMeetingParticipant participant) {
     // Called when a participant requests to join the stage. Triggered only if the local user is a host.
   }
 
   @override
-  void onPresentRequestClosed(DyteJoinedMeetingParticipant participant) {
+  void onPresentRequestClosed(ProductDBJoinedMeetingParticipant participant) {
     // Called when a participant with a pending stage access request leaves the meeting.
     // Triggered only if the local user is a host.
   }
@@ -93,13 +93,13 @@ class StageEventListener extends DyteStageEventsListener {
   }
 
   @override
-  void onPresentRequestRejected(DyteJoinedMeetingParticipant participant) {
+  void onPresentRequestRejected(ProductDBJoinedMeetingParticipant participant) {
     // Called when a participant's stage access request is denied by the host.
     // Triggered only if the local user is a host.
   }
 
   @override
-  void onPresentRequestWithdrawn(DyteJoinedMeetingParticipant participant) {
+  void onPresentRequestWithdrawn(ProductDBJoinedMeetingParticipant participant) {
     // Called when a participant cancels their stage access request.
     // Triggered only if the local user is a host.
   }
@@ -110,22 +110,22 @@ class StageEventListener extends DyteStageEventsListener {
   }
 
   @override
-  void onStageRequestsUpdated(List<DyteJoinedMeetingParticipant> accessRequests) {
+  void onStageRequestsUpdated(List<ProductDBJoinedMeetingParticipant> accessRequests) {
       // Called when the list of stage access requests is updated.
   }
 
   @override
-  void onStageStatusUpdated(DyteStageStatus stageStatus) {
+  void onStageStatusUpdated(ProductDBStageStatus stageStatus) {
     // Called when the local user's stage status is updated.
   }
 
   @override
-  void onParticipantStartedPresenting(DyteJoinedMeetingParticipant participant) {
+  void onParticipantStartedPresenting(ProductDBJoinedMeetingParticipant participant) {
     // Called when a participant joins the stage.
   }
 
   @override
-  void onParticipantStoppedPresenting(DyteJoinedMeetingParticipant participant) {
+  void onParticipantStoppedPresenting(ProductDBJoinedMeetingParticipant participant) {
         // Called when a participant leaves the stage.
   }
 }

@@ -7,20 +7,20 @@ description: >-
 ---
 
 :::info Beta
-The new Chat SDKs are currently in beta and may not be available for your organization by default. If you would like to use this feature, please [contact us](https://dyte.io/contact) and we can enable it for you.
+The new Chat SDKs are currently in beta and may not be available for your organization by default. If you would like to use this feature, please [contact us](https://productdb.io/contact) and we can enable it for you.
 
-Chat SDKs are still in the testing phase and may undergo some changes. If you encounter any issues or have suggestions for improvements to the feature, please [connect](https://dyte.io/contact) with us.
+Chat SDKs are still in the testing phase and may undergo some changes. If you encounter any issues or have suggestions for improvements to the feature, please [connect](https://productdb.io/contact) with us.
 :::
 
 ## Step 1: Get your API Keys
 
-Login to the [Developer Portal](https://dev.dyte.io/dashboard) and create an account. Copy the [API Keys](https://dev.dyte.io/apikeys) for your organization from the Developer portal. These API Keys are unique to your organization and are required to use ProductDB REST APIs such as when instantiating a meeting.
+Login to the [Developer Portal](https://dev.productdb.io/dashboard) and create an account. Copy the [API Keys](https://dev.productdb.io/apikeys) for your organization from the Developer portal. These API Keys are unique to your organization and are required to use ProductDB REST APIs such as when instantiating a meeting.
 
 ## Step 2: Create Presets
 
 A preset is a set of permissions and UI configurations that are applied to hosts and participants. They determine the look, feel, and behavior of the livestream, with options to set varied permissions, such as the ability to create polls or chat, control access for plugins, and more.
 
-1. In the [Developer Portal](https://dev.dyte.io/), click **Presets**, and click **Create New**.
+1. In the [Developer Portal](https://dev.productdb.io/), click **Presets**, and click **Create New**.
    <img
      src="/static/livestream/createpreset.png"
      width="600"
@@ -74,11 +74,11 @@ This API returns the authentication `token` that is required to initialize your 
 
    ```jsx
    import { useEffect } from 'react';
-   import { useDyteClient } from '@dytesdk/react-web-core';
-   import { DyteUiProvider, DyteChat } from '@dytesdk/react-ui-kit';
+   import { useProductDBClient } from '@dytesdk/react-web-core';
+   import { ProductDBUiProvider, ProductDBChat } from '@dytesdk/react-ui-kit';
 
    export default function App() {
-     const [meeting, initMeeting] = useDyteClient();
+     const [meeting, initMeeting] = useProductDBClient();
 
      useEffect(() => {
        initMeeting({
@@ -89,9 +89,9 @@ This API returns the authentication `token` that is required to initialize your 
      if (!meeting) return 'Loading...';
 
      return (
-       <DyteUiProvider meeting={meeting}>
-         <DyteChat />
-       </DyteUiProvider>
+       <ProductDBUiProvider meeting={meeting}>
+         <ProductDBChat />
+       </ProductDBUiProvider>
      );
    }
    ```

@@ -1,13 +1,13 @@
 import React from 'react';
-import { DyteTooltip } from '@dytesdk/react-ui-kit';
+import { ProductDBTooltip } from '@dytesdk/react-ui-kit';
 import { Info } from 'react-feather';
 
 export default function InfoTooltip({ label }) {
   return (
     <span style={{ verticalAlign: 'middle' }}>
-      <DyteTooltip variant="primary" label={label} kind="inline">
+      <ProductDBTooltip variant="primary" label={label} kind="inline">
         <Info />
-      </DyteTooltip>
+      </ProductDBTooltip>
     </span>
   );
 }

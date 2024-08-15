@@ -1,6 +1,6 @@
 ---
-id: DyteNotificationsAudio
-title: 'Class: DyteNotificationsAudio'
+id: ProductDBNotificationsAudio
+title: 'Class: ProductDBNotificationsAudio'
 custom_edit_url: null
 ---
 
@@ -10,7 +10,7 @@ Handles notification sounds in a meeting
 
 ### constructor
 
-• **new DyteNotificationsAudio**()
+• **new ProductDBNotificationsAudio**()
 
 ## Properties
 
@@ -58,6 +58,6 @@ ___
 `Promise`\<`void`\>
 
 <head>
-	<title>React Native UI Kit Class: DyteNotificationsAudio</title>
+	<title>React Native UI Kit Class: ProductDBNotificationsAudio</title>
 	<meta name="description" content="Dive into ProductDB's React Native Notifications Audio documentation to implement and customize audio notifications seamlessly. Enhance your app's user experience."/>
 </head>

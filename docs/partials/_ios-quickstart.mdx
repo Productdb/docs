@@ -16,9 +16,9 @@ import { CocoaPodInstallation } from '@site/src/components/LatestInstallation';
 </span>
 
 You can also checkout our
-[sample code](https://github.com/dyte-io/ios-samples) for iOS. You can clone
+[sample code](https://github.com/productdb-io/ios-samples) for iOS. You can clone
 and run a sample application from the
-[iOS Samples GitHub repository](https://github.com/dyte-io/ios-samples).
+[iOS Samples GitHub repository](https://github.com/productdb-io/ios-samples).
 
 ## Before Getting Started
 
@@ -28,7 +28,7 @@ and run a sample application from the
 
 1. Add the following line to your `Podfile`
 
-<CocoaPodInstallation pkg="DyteUiKit" path="9/b/8/DyteUiKit" />
+<CocoaPodInstallation pkg="ProductDBUiKit" path="9/b/8/ProductDBUiKit" />
 
 2. Install the client SDK as CocoaPods dependency
 
@@ -55,7 +55,7 @@ pod install
 
 ## Step 2: Configure and Launch UI
 
-To set the initialization properties in the `DyteUiKitEngine` class, simply initialize `DyteMeetingInfoV2` and provide the participant's `authToken`.
+To set the initialization properties in the `ProductDBUiKitEngine` class, simply initialize `ProductDBMeetingInfoV2` and provide the participant's `authToken`.
 
 Try this in `viewDidAppear()`
 
@@ -64,8 +64,8 @@ Try this in `viewDidAppear()`
 | `authToken` | After you've created the meeting, <br/> add each participant to the meeting <br/> using the [Add Participant API](/api?v=v2#/operations/add_participant)<br/> (The presetName created earlier <br/> must be passed in the body <br/> of the Add Participant API request) <br/> The API response contains the `authToken`. |
 
 ```swift
-import DyteUiKit
-import DyteiOSCore
+import ProductDBUiKit
+import ProductDBiOSCore
 
 class ViewController: UIViewController {
 
@@ -75,12 +75,12 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        DyteUiKitEngine.setupV2(DyteMeetingInfoV2(authToken: authToken,
+        ProductDBUiKitEngine.setupV2(ProductDBMeetingInfoV2(authToken: authToken,
                                                 enableAudio: true,
                                                 enableVideo: true,
                                                 baseUrl: baseUrl))
 
-        let controller = DyteUiKitEngine.shared.getInitialController { [weak self] in
+        let controller = ProductDBUiKitEngine.shared.getInitialController { [weak self] in
             guard let self = self else {return}
             self.dismiss(animated: true)
         }

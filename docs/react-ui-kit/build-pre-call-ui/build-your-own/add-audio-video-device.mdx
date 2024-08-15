@@ -3,26 +3,26 @@ title: Audio/video - Device Selection
 sidebar_position: 4
 ---
 
-To let the user choose between multiple available input / output devices, you can use the `<DyteSettings >` component
+To let the user choose between multiple available input / output devices, you can use the `<ProductDBSettings >` component
 
 ```tsx
 function DeviceSettings({ open, onClose }) {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
   return (
     <SomeDialogComponent open={open} onClose={onClose}>
-      <DyteSettings meeting={meeting} />
+      <ProductDBSettings meeting={meeting} />
     </SomeDialogComponent>
   );
 }
 ```
 
-If you added `DyteDialogManager` as suggested in the [Basic Structure](/react-ui-kit/build-pre-call-ui/build-your-own/initial-code-skeleton#file-meetingtsx) guide, you can also use `<DyteSettingsToggle>` component to trigger the inbuilt Dialog.
+If you added `ProductDBDialogManager` as suggested in the [Basic Structure](/react-ui-kit/build-pre-call-ui/build-your-own/initial-code-skeleton#file-meetingtsx) guide, you can also use `<ProductDBSettingsToggle>` component to trigger the inbuilt Dialog.
 
 Extending the last code sample with device selector.
 
 ```tsx live showLineNumbers
 function CustomMeetingPreview() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
 
   return (
     <div
@@ -30,14 +30,14 @@ function CustomMeetingPreview() {
       style={{ minHeight: '400px' }}
     >
       {/* Do not re-add this, if already added in the parent component */}
-      <DyteDialogManager meeting={meeting} />
+      <ProductDBDialogManager meeting={meeting} />
       <div className="flex w-full items-center justify-around p-[10%]">
         <div className="relative">
-          <DyteParticipantTile meeting={meeting} participant={meeting.self}>
-            <DyteAvatar participant={meeting.self} />
-            <DyteNameTag participant={meeting.self}>
-              <DyteAudioVisualizer participant={meeting.self} slot="start" />
-            </DyteNameTag>
+          <ProductDBParticipantTile meeting={meeting} participant={meeting.self}>
+            <ProductDBAvatar participant={meeting.self} />
+            <ProductDBNameTag participant={meeting.self}>
+              <ProductDBAudioVisualizer participant={meeting.self} slot="start" />
+            </ProductDBNameTag>
             <div
               className="absolute flex"
               style={{
@@ -45,7 +45,7 @@ function CustomMeetingPreview() {
                 right: '8px',
               }}
             >
-              <DyteSettingsToggle meeting={meeting} size="sm" />
+              <ProductDBSettingsToggle meeting={meeting} size="sm" />
             </div>
             <div
               id="user-actions"
@@ -55,16 +55,16 @@ function CustomMeetingPreview() {
                 right: '8px',
               }}
             >
-              <DyteMicToggle meeting={meeting} size="sm" />
-              <DyteCameraToggle meeting={meeting} size="sm" />
+              <ProductDBMicToggle meeting={meeting} size="sm" />
+              <ProductDBCameraToggle meeting={meeting} size="sm" />
             </div>
-          </DyteParticipantTile>
+          </ProductDBParticipantTile>
         </div>
         <div className="flex w-1/4 flex-col justify-between">
           <div className="flex flex-col items-center">
             <p>Joining as {meeting.self.name}</p>
           </div>
-          <DyteButton
+          <ProductDBButton
             kind="wide"
             size="lg"
             onClick={async () => {
@@ -72,7 +72,7 @@ function CustomMeetingPreview() {
             }}
           >
             Join
-          </DyteButton>
+          </ProductDBButton>
         </div>
       </div>
     </div>

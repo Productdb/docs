@@ -1,0 +1,38 @@
+---
+description: >-
+  Learn how to use and customize the ProductDBAudioButtonControlBar component in ProductDB's
+  iOS UiKit with our detailed documentation.
+---
+
+# ProductDBAudioButtonControlBar
+## Overview
+Subclass of [ProductDBControlBarButton](/ios/components/productdb-controlbar-button)
+This button is use to implement the action for mute/unmute microphone for the ongoing meeting. 
+
+### Topics:
+
+### Creating a Audio control button which you mostly add inside Control Bar
+
+```swift
+init(meeting: ProductDBMobileClient, onClick:((ProductDBAudioButtonControlBar)->Void)? = nil, appearance: ProductDBControlBarButtonAppearance = AppTheme.shared.controlBarButtonAppearance)
+```
+Creates a `ProductDBAudioButtonControlBar` with multiple parameters. 
+
+#### Parameters:
+*Required*   
+**meeting:** Current ongoing meeting object.   
+*Optional*  
+**onClick:** Closure that you passed to get callback when user click this button.  
+**appearance:** Any type which conforms to protocol `ProductDBControlBarButtonAppearance`   
+
+
+### Override the onClick action. 
+```swift 
+open func onClick(button: ProductDBAudioButtonControlBar) 
+```
+You can override this method inside the subclass of `ProductDBAudioButtonControlBar` to customize the functionality when user presses this button. 
+
+
+<head>
+  <title>iOS ProductDBAudioButtonControlBar</title>
+</head>

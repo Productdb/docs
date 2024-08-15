@@ -1,0 +1,45 @@
+# ProductDBParticipantTile
+
+A comprehensive widget designed to display a participant's video or avatar within a ProductDB meeting environment. This widget is part of the ProductDB UI Kit and is optimized for showing participant information, including live video feed, name, and audio status.
+
+:::info
+
+[`ProductDBProvider`](./productdb-provider.mdx) needs to be added above `ProductDBParticipantTile` which will manage productdb client object for polls screen by itself.
+
+:::
+
+
+## Usage
+
+Below is an example of how to use the `ProductDBParticipantTile` in your Flutter application:
+
+```dart
+ProductDBParticipantTile(
+  participant,
+  designToken: yourDesignToken,
+  height: 240,
+  width: 180,
+)
+```
+
+## Properties
+
+- `participant`: (**Required**) An instance of `ProductDBMeetingParticipant`. This represents the participant whose information and video are to be displayed.
+- `designToken`: (Optional) An instance of `ProductDBDesignTokens` for customizing the appearance according to the ProductDB Design System. If not specified, the widget will use the global design tokens.
+- `height`: (Optional) The height of the tile. Default is `240`.
+- `width`: (Optional) The width of the tile. Default is `180`.
+
+
+## Features
+
+- **Video or Avatar Display**: Automatically displays the participant's video feed if available; otherwise, shows the participant's avatar.
+- **Dynamic Resizing**: Adapts size based on the constraints provided by the parent widget.
+- **Pinned Status**: Indicates if the participant is pinned in the meeting.
+- **Audio Status**: Shows an icon indicating whether the participant's audio is on or off.
+- **Name Tag**: Displays the participant's name and, if applicable, indicates if they are the local user with a "You" tag.
+
+
+
+## Screenshot
+
+<img src="/static/mobile/flutter/flutter-participant-tile.png" width="250px"/>

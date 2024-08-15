@@ -59,18 +59,18 @@ yarn add @dytesdk/ui-kit @dytesdk/web-core
 
 2.  Create a meeting room using the [Create Meeting API](/api#/operations/create_meeting).
 3.  Generate an `authToken` using the [Add Participant API](/api#/operations/add_participant). An `authToken` is a unique token that is used to identify a user in the meeting.
-4.  Initialize the ProductDB client using the `DyteClient.init({ authToken })`. It returns the meeting object.
+4.  Initialize the ProductDB client using the `ProductDBClient.init({ authToken })`. It returns the meeting object.
 5.  Pass the meeting object to the UI Kit.
 
-The `dyte-meeting` component generates the default UI experience. Read more about how to customize the UI [here](/ui-kit/basics/components-basics).
+The `productdb-meeting` component generates the default UI experience. Read more about how to customize the UI [here](/ui-kit/basics/components-basics).
 
 ```html
 <body>
-  <dyte-meeting id="my-meeting"></dyte-meeting>
+  <productdb-meeting id="my-meeting"></productdb-meeting>
 
   <script>
     const init = async () => {
-      const meeting = await DyteClient.init({
+      const meeting = await ProductDBClient.init({
         authToken: '',
         defaults: {
           audio: true,
@@ -92,17 +92,17 @@ The `dyte-meeting` component generates the default UI experience. Read more abou
 
 Now that you've integrated ProductDB SDK into your application successfully, let's quickly understand how you can customize the icon set for your application.
 
-ProductDB's default icon set is available at [icons.dyte.io](https://icons.dyte.io/). You can modify and generate your custom icon set from here.
+ProductDB's default icon set is available at [icons.productdb.io](https://icons.productdb.io/). You can modify and generate your custom icon set from here.
 
-In order to replace ProductDB's default icon set with your own, you can pass the link to your icon set in the `dyte-meeting` component like so.
+In order to replace ProductDB's default icon set with your own, you can pass the link to your icon set in the `productdb-meeting` component like so.
 
 ```html
 <body>
-  <dyte-meeting id="my-meeting"></dyte-meeting>
+  <productdb-meeting id="my-meeting"></productdb-meeting>
 
   <script>
     const init = async () => {
-      const meeting = await DyteClient.init({
+      const meeting = await ProductDBClient.init({
         authToken: '',
         defaults: {
           audio: true,

@@ -1,0 +1,36 @@
+---
+description: >-
+  Learn how to use and customize the productdb-settings-video component in ProductDB's UI
+  Kit with our detailed documentation.
+---
+
+# productdb-settings-video
+
+A component which lets to manage your camera devices and your video preferences.
+
+Emits `dyteStateUpdate` event with data for toggling mirroring of self video:
+
+```ts
+{
+  prefs: {
+    mirrorVideo: boolean;
+  }
+}
+```
+
+```html
+<productdb-settings-video id="productdb-el"></productdb-settings-video>
+
+<script>
+  const el = document.getElementById('productdb-el');
+  el.meeting = meeting;
+</script>
+```
+
+## Props
+
+<PropsTable of="productdb-settings-video" />
+
+<head>
+  <title>UI Kit productdb-settings-video</title>
+</head>

@@ -10,16 +10,16 @@ description: >-
 ## Audio/Video config options while joining meeting.
 
 ```kotlin {3,4,8,11}
-val meetingInfo = DyteMeetingInfoV2(
+val meetingInfo = ProductDBMeetingInfoV2(
   authToken = state.authToken,
   enableAudio = true,
   enableVideo = true
 )
-val config = DyteUIKitConfig(
+val config = ProductDBUIKitConfig(
   activity = this,
   dyteMeetingInfo = meetingInfo,
 )
-val dyteUIKit = DyteUIKitBuilder.build(config)
+val dyteUIKit = ProductDBUIKitBuilder.build(config)
 ```
 
 ## Control the meeting, and take meeting & participant actions

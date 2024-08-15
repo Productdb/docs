@@ -29,7 +29,7 @@ const guides: Guide[] = [
     title: 'Migrate from Twilio',
     icon: VideoRegular,
     text: 'Migration simplified. Refer the guide.',
-    link: '/guides/migration/twilio/concepts-twilio-vs-dyte',
+    link: '/guides/migration/twilio/concepts-twilio-vs-productdb',
   },
   {
     title: 'Create a Breakout Room',
@@ -51,23 +51,23 @@ const samples: Sample[] = [
   {
     title: 'Code Sharing Platform',
     platform: 'React',
-    source: 'https://github.com/dyte-io/blog-live-code-sharing',
-    blog: 'https://dyte.io/blog/live-code-sharing-platform/',
-    demo: 'https://dyte-code-editor.herokuapp.com/room/bbbf8c1f-5eee-4548-90e6-54c1301711cb',
+    source: 'https://github.com/productdb-io/blog-live-code-sharing',
+    blog: 'https://productdb.io/blog/live-code-sharing-platform/',
+    demo: 'https://productdb-code-editor.herokuapp.com/room/bbbf8c1f-5eee-4548-90e6-54c1301711cb',
   },
   {
     title: 'Async Interview Platform',
     platform: 'React',
-    blog: 'https://dyte.io/blog/async-interview-platform/',
-    source: 'https://github.com/dyte-io/async-interview',
-    demo: 'https://dyte-async-interview.vercel.app',
+    blog: 'https://productdb.io/blog/async-interview-platform/',
+    source: 'https://github.com/productdb-io/async-interview',
+    demo: 'https://productdb-async-interview.vercel.app',
   },
   {
     title: 'Live Proctoring System',
     platform: 'React',
-    blog: 'https://dyte.io/blog/live-proctoring-system/',
-    source: 'https://github.com/dyte-io/proctored-live-interviews',
-    demo: 'https://dyte-multi-faces.netlify.app/',
+    blog: 'https://productdb.io/blog/live-proctoring-system/',
+    source: 'https://github.com/productdb-io/proctored-live-interviews',
+    demo: 'https://productdb-multi-faces.netlify.app/',
   },
 ];
 

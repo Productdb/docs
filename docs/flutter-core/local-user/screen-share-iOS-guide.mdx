@@ -11,7 +11,7 @@ This document explains how to setup screen sharing on a Flutter iOS App using Pr
 
 1. Add a new Broadcast Upload Extension to your project.
 2. Setup app groups
-3. Have your SampleHandler class initialize DyteBroadcastHandler and proxy a few methods.
+3. Have your SampleHandler class initialize ProductDBBroadcastHandler and proxy a few methods.
 4. Update Info.plist
 
 ### Add a new Broadcast Upload Extension to your project.
@@ -37,11 +37,11 @@ Add your extension to an app group by going to your extension's target in the pr
 
 
 import ReplayKit
-import DyteiOSCore
+import ProductDBiOSCore
 
 class SampleHandler: RPBroadcastSampleHandler {
 
-    let dyteBroadcast: DyteBroadcastHandler  = DyteBroadcastHandler();
+    let dyteBroadcast: ProductDBBroadcastHandler  = ProductDBBroadcastHandler();
 
     override init() {
         super.init()

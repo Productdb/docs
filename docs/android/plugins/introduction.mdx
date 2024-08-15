@@ -18,10 +18,10 @@ The meeting plugins can be accessed from the `meeting.plugins` object, it expose
 | active   | List | All plugins that are currently in use. |
 | all      | List | All plugins the meeting has access to. |
 
-Each plugin in the list is of type `DytePlugin` which has the following public fields and methods:
+Each plugin in the list is of type `ProductDBPlugin` which has the following public fields and methods:
 
 ```kotlin
-class DytePlugin {
+class ProductDBPlugin {
     val id: String
     val name: String
     val description: String
@@ -36,7 +36,7 @@ class DytePlugin {
     fun activate()
     fun deactivate()
     fun getPluginView(): WebView
-    fun uploadFile(file: DytePluginFile)
+    fun uploadFile(file: ProductDBPluginFile)
     fun sendData(eventName: String, data: Any?)
 }
 ```

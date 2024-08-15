@@ -14,9 +14,9 @@ sidebar_position: 1
 Further down this guide we also explain how ProductDB's UI component library can help to build your UI faster with components specially made for Live Video applications.
 
 For getting started quickly, you can use our
-[sample code](https://github.com/dyte-io/react-samples). You can clone and run a
+[sample code](https://github.com/productdb-io/react-samples). You can clone and run a
 sample application from the
-[React UI Kit GitHub repository](https://github.com/dyte-io/react-samples).
+[React UI Kit GitHub repository](https://github.com/productdb-io/react-samples).
 
 ## Before Getting Started
 
@@ -50,15 +50,15 @@ Here's a series of steps that you need to perform:
 
 ### Initialize the ProductDB client
 
-- Use the `useDyteClient()` hook and `initMeeting`
+- Use the `useProductDBClient()` hook and `initMeeting`
 - Provide the `authToken` that you fetched from your server-side
 
 ```jsx
 import { useEffect } from 'react';
-import { useDyteClient } from '@dytesdk/react-web-core';
+import { useProductDBClient } from '@dytesdk/react-web-core';
 
 export default function Meeting({ authToken }) {
-  const [meeting, initMeeting] = useDyteClient();
+  const [meeting, initMeeting] = useProductDBClient();
 
   useEffect(() => {
     initMeeting({
@@ -74,16 +74,16 @@ export default function Meeting({ authToken }) {
 }
 ```
 
-### Set up `DyteProvider`
+### Set up `ProductDBProvider`
 
-You need it to import the `DyteProvider` from the `@dytesdk/react-web-core`. `DyteProvider` basically is a hook wrapper on `dytesdk/web-core`. This provides a meeting object to child components.
+You need it to import the `ProductDBProvider` from the `@dytesdk/react-web-core`. `ProductDBProvider` basically is a hook wrapper on `dytesdk/web-core`. This provides a meeting object to child components.
 
 ```jsx {2,17-21}
 import { useEffect } from 'react';
-import { useDyteClient, DyteProvider } from '@dytesdk/react-web-core';
+import { useProductDBClient, ProductDBProvider } from '@dytesdk/react-web-core';
 
 export default function App() {
-  const [meeting, initMeeting] = useDyteClient();
+  const [meeting, initMeeting] = useProductDBClient();
 
   useEffect(() => {
     initMeeting({
@@ -96,9 +96,9 @@ export default function App() {
   }, []);
 
   return (
-    <DyteProvider value={meeting} fallback={<i>Loading...</i>}>
-      {/* Render your UI here. Subcomponents can now use the `useDyteMeeting` and `useDyteSelector` hooks */}
-    </DyteProvider>
+    <ProductDBProvider value={meeting} fallback={<i>Loading...</i>}>
+      {/* Render your UI here. Subcomponents can now use the `useProductDBMeeting` and `useProductDBSelector` hooks */}
+    </ProductDBProvider>
   );
 }
 ```
@@ -111,15 +111,15 @@ The `meeting` object serves as the link between web-core and UI Kit, allowing
 them to communicate with one another. Once the UI Kit has the meeting object,
 it can join and leave meetings, and so on.
 
-Create a `MyMeeting` component and render it within `DyteProvider`.
+Create a `MyMeeting` component and render it within `ProductDBProvider`.
 
 ```jsx {3,21}
 import { useEffect } from 'react';
-import { useDyteClient, DyteProvider } from '@dytesdk/react-web-core';
+import { useProductDBClient, ProductDBProvider } from '@dytesdk/react-web-core';
 import MyMeeting from './my-meeting';
 
 export default function App() {
-  const [meeting, initMeeting] = useDyteClient();
+  const [meeting, initMeeting] = useProductDBClient();
 
   useEffect(() => {
     initMeeting({
@@ -132,30 +132,30 @@ export default function App() {
   }, []);
 
   return (
-    <DyteProvider value={meeting} fallback={<i>Loading...</i>}>
-      {/* Render your UI here. Subcomponents can now use the `useDyteMeeting` and `useDyteSelector` hooks */}
+    <ProductDBProvider value={meeting} fallback={<i>Loading...</i>}>
+      {/* Render your UI here. Subcomponents can now use the `useProductDBMeeting` and `useProductDBSelector` hooks */}
       <MyMeeting />
-    </DyteProvider>
+    </ProductDBProvider>
   );
 }
 ```
 
 ### UI Kit
 
-`DyteMeeting` renders the entire meeting UI. It loads your preset and renders
+`ProductDBMeeting` renders the entire meeting UI. It loads your preset and renders
 the UI based on it. With this component, you don't have to handle all the
 states, dialogs, and other smaller bits of managing the application.
 
-For more information on the other props of `DyteMeeting`, see [DyteMeeting](/react-ui-kit/components/dyte-meeting).
+For more information on the other props of `ProductDBMeeting`, see [ProductDBMeeting](/react-ui-kit/components/productdb-meeting).
 
 ```jsx
-import { DyteMeeting } from '@dytesdk/react-ui-kit';
+import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
 function MyMeeting() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
 
   return (
     <div style={{ height: '480px' }}>
-      <DyteMeeting mode="fill" meeting={meeting} />
+      <ProductDBMeeting mode="fill" meeting={meeting} />
     </div>
   );
 }
@@ -166,16 +166,16 @@ function MyMeeting() {
 If you require additional customizations, you can choose specific components and utilize the low-level APIs offered by our [core SDK](/web-core/) to construct the rest of the UI according to your specific needs.
 
 ```jsx
-import { DyteGrid, DyteMicToggle } from '@dytesdk/react-ui-kit';
+import { ProductDBGrid, ProductDBMicToggle } from '@dytesdk/react-ui-kit';
 
 function MyMeeting() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
 
   return (
     <div style={{ height: '480px' }}>
-      <DyteGrid meeting={meeting} />
+      <ProductDBGrid meeting={meeting} />
       <div className="controlbar">
-        <DyteMicToggle meeting={meeting} />
+        <ProductDBMicToggle meeting={meeting} />
       </div>
     </div>
   );

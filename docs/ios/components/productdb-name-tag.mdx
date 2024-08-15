@@ -1,0 +1,49 @@
+---
+image: /static/ui-kit/1.x.x/components/productdb-name-tag.svg
+description: >-
+  Learn how to use and customize the ProductDBMeetingNameTag component in ProductDB's iOS UiKit
+  with our detailed documentation.
+---
+
+# ProductDBMeetingNameTag
+## Overview
+This view is use show participant name followed by mic image (mute/unmute).
+
+
+### Topics:
+
+### Creating a meeting tag. 
+
+```swift
+init(meeting: ProductDBMobileClient, participant: ProductDBMeetingParticipant, appearance: ProductDBNameTagAppearance = AppTheme.shared.nameTagAppearance)
+```
+
+#### Parameters:
+*Required*  
+**meeting:** Current ongoing meeting object.   
+**participant:** Participant object for which you want to show name and Mic state enabled/disbaled.   
+*Optional*  
+**appearance:** Any type which conforms to protocol "ProductDBNameTagAppearance"  
+
+### Explicit update the participant object for this view to show. 
+
+```swift
+func set(participant: ProductDBMeetingParticipant)
+```
+Update Meeting tag view with recent participant object. 
+#### Parameters:
+**participant:** Participant object for which you want to show name and Mic state enabled/disbaled. 
+
+
+### Refreshing ProductDBMeetingNameTag with latest values.
+
+```swift
+func refresh()
+```
+Call this method to refresh the view. 
+For example if someone update the participant name. Then call this to show latest values.
+
+
+<head>
+  <title>iOS ProductDBMeetingNameTag</title>
+</head>

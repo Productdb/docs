@@ -15,14 +15,14 @@ The meeting chat object is stored in `meeting.chat`, which has methods for sendi
 
 The `meeting.chat.messages` array contains all the messages that have been sent
 in the chat. This is an array of objects, where each object is of type
-`DyteChatMessage`.
+`ProductDBChatMessage`.
 
 We support three types of chat messages, they are as follows
 
 - Text Message
 
 ```kotlin
-class DyteTextMessage(
+class ProductDBTextMessage(
   userId: String,
   displayName: String,
   read: Boolean,
@@ -36,7 +36,7 @@ class DyteTextMessage(
 - Image Message
 
 ```kotlin
-class DyteImageMessage(
+class ProductDBImageMessage(
   userId: String,
   displayName: String,
   read: Boolean,
@@ -50,7 +50,7 @@ class DyteImageMessage(
 - File Message
 
 ```kotlin
-class DyteFileMessage(
+class ProductDBFileMessage(
   userId: String,
   displayName: String,
   read: Boolean,
@@ -63,7 +63,7 @@ class DyteFileMessage(
 )
 ```
 
-All above objects are of type `DyteChatMessage` along with their own class
+All above objects are of type `ProductDBChatMessage` along with their own class
 variables.
 
 <head>

@@ -6,14 +6,14 @@ sidebar_position: 1
 ## Defaults Configuration
 
 ```js
-await DyteClient.init({
+await ProductDBClient.init({
   defaults: {
     ...
   }
 })
 ```
 
-While initializing DyteClient you can pass configuration overrides, the available options are
+While initializing ProductDBClient you can pass configuration overrides, the available options are
 
 ```ts
 type DefaultOptions {
@@ -47,7 +47,7 @@ By default as soon as you join the meeting the SDK will produce your video and
 audio streams.
 
 ```ts {5}
-const meeting = await DyteClient.init({
+const meeting = await ProductDBClient.init({
   authToken,
   defaults: {
     audio: false, // Disable user's audio by default

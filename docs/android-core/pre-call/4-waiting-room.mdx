@@ -17,11 +17,11 @@ stateDiagram-v2
 
 ### Meeting Room Joined
 
-If user joins the room successfully, you receive the `onMeetingRoomJoinCompleted` callback in `DyteMeetingRoomEventsListener`. 
+If user joins the room successfully, you receive the `onMeetingRoomJoinCompleted` callback in `ProductDBMeetingRoomEventsListener`. 
 You can listen for this callback as follows:
 
 ```kotlin
-meeting.addMeetingRoomEventsListener(object : DyteMeetingRoomEventsListener {
+meeting.addMeetingRoomEventsListener(object : ProductDBMeetingRoomEventsListener {
     override fun onMeetingRoomJoinCompleted() {
         // Local user is in the meeting
     }
@@ -30,14 +30,14 @@ meeting.addMeetingRoomEventsListener(object : DyteMeetingRoomEventsListener {
 
 ### Waitlisted Participant
 
-If the user is waitlisted, the `onWaitListStatusUpdate` callback in `DyteSelfEventsListener` notifies you of any changes in the 
+If the user is waitlisted, the `onWaitListStatusUpdate` callback in `ProductDBSelfEventsListener` notifies you of any changes in the 
 user's waitlist status. You can check the `waitListStatus` to determine their status:
 
 - `WAITING`: Local user is in the waiting room.
 - `REJECTED`:  Local user's join room request is rejected by the host.
 
 ```kotlin
-meeting.addSelfEventsListener(object : DyteSelfEventsListener {
+meeting.addSelfEventsListener(object : ProductDBSelfEventsListener {
     override fun onWaitListStatusUpdate(waitListStatus: WaitListStatus) {
         when (waitListStatus) {
             WAITING -> {

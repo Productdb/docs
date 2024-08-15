@@ -21,7 +21,7 @@ Each of these state changes generate their own events.
 - **joined**
 
 ```ts
-const roomState = useDyteSelector((m) => m.self.roomState);
+const roomState = useProductDBSelector((m) => m.self.roomState);
 const joined = roomState === "joined";
 ```
 
@@ -36,7 +36,7 @@ meeting.self.on('roomJoined', () => {
 - **waitlisted**
 
 ```ts
-const roomState = useDyteSelector((m) => m.self.roomState);
+const roomState = useProductDBSelector((m) => m.self.roomState);
 const isWaitlisted = roomState === "waitlisted";
 ```
 

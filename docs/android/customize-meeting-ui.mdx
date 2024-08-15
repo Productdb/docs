@@ -45,21 +45,21 @@ val imarticusColors = ColorTokens(
       )
     )
 
-    val tokens = DyteUITokens(colors = imarticusColors,
+    val tokens = ProductDBUITokens(colors = imarticusColors,
       borderRadius = BorderRadiusToken.Circular,
       borderWidth = BorderWidthToken.Thin)
 ```
 
 ```kotlin {7}
-val meetingInfo = = DyteMeetingInfoV2(
+val meetingInfo = = ProductDBMeetingInfoV2(
   authToken = state.authToken,
 )
-val config = DyteUIKitConfig(
+val config = ProductDBUIKitConfig(
   activity = this,
   dyteMeetingInfo = meetingInfo,
   designTokens = tokens
 )
-val dyteClient = DyteUIKitBuilder.build(config)
+val dyteClient = ProductDBUIKitBuilder.build(config)
 dyteClient.loadUi()
 ```
 
@@ -128,27 +128,27 @@ text = TextColor(
 
 To customize the border radius of elements in your ProductDB meeting, follow these steps:
 
-1. Create the `DyteUITokens` object:
+1. Create the `ProductDBUITokens` object:
 
 ```kotlin
-val tokens = DyteUITokens(colors = dyteColors, borderRadius = BorderRadiusToken.Rounded)
+val tokens = ProductDBUITokens(colors = dyteColors, borderRadius = BorderRadiusToken.Rounded)
 ```
 
 - `dyteColors`: Represents the color scheme for your meeting.
 - `borderRadius`: Defines the desired border radius. By specifying the desired border radius value in the borderRadius token, you can customize the border radius of elements in your ProductDB meeting.
 
-2. Configure `DyteUIKit` then build and load the ProductDB UI.
+2. Configure `ProductDBUIKit` then build and load the ProductDB UI.
 
 ```kotlin {10}
-val meetingInfo = DyteMeetingInfoV2(
+val meetingInfo = ProductDBMeetingInfoV2(
     // meeting info
 )
-val config = DyteUIKitConfig(
+val config = ProductDBUIKitConfig(
     activity = this,
     dyteMeetingInfo = meetingInfo,
     designTokens = tokens
 )
-val dyteUIKit = DyteUIKitBuilder.build(config)
+val dyteUIKit = ProductDBUIKitBuilder.build(config)
 dyteUIKit.loadUi()
 ```
 

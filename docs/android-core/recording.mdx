@@ -50,18 +50,18 @@ meeting.recording.resume()
 
 ### Listening for Recording Events
 
-To handle recording-related events, implement the `DyteRecordingEventsListener` interface. This interface provides callbacks for 
+To handle recording-related events, implement the `ProductDBRecordingEventsListener` interface. This interface provides callbacks for 
 various recording events:
 
 - `onMeetingRecordingStarted()`: Called when the recording is started or resumed, either by the user or their peer.
 - `onMeetingRecordingEnded()`: Called when the recording is stopped or paused, either by the user or their peer.
-- `onMeetingRecordingStateUpdated(state: DyteRecordingState)`: Notifies when there is a change in the recording state.
+- `onMeetingRecordingStateUpdated(state: ProductDBRecordingState)`: Notifies when there is a change in the recording state.
 - `onMeetingRecordingStopError(e: Exception)`: Indicates an error occurred while stopping an active recording.
 - `onMeetingRecordingPauseError(e: Exception)`: Indicates an error occurred while pausing an active recording.
 - `onMeetingRecordingResumeError(e: Exception)`: Indicates an error occurred while resuming a paused recording.
 
 ```kotlin
-meeting.addRecordingEventsListener(object : DyteRecordingEventsListener {
+meeting.addRecordingEventsListener(object : ProductDBRecordingEventsListener {
     override fun onMeetingRecordingStarted() {
         // Handle recording started
     }
@@ -70,7 +70,7 @@ meeting.addRecordingEventsListener(object : DyteRecordingEventsListener {
         // Handle recording stopped
     }
 
-    override fun onMeetingRecordingStateUpdated(state: DyteRecordingState) {
+    override fun onMeetingRecordingStateUpdated(state: ProductDBRecordingState) {
         // Handle recording state update
     }
 

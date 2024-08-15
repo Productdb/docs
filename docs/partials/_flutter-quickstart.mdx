@@ -15,9 +15,9 @@ import TabItem from '@theme/TabItem';
 </span>
 
 You can also checkout our
-[sample code](https://github.com/dyte-io/flutter-samples/tree/main/flutter_uikit) for Flutter. You can clone
+[sample code](https://github.com/productdb-io/flutter-samples/tree/main/flutter_uikit) for Flutter. You can clone
 and run a sample application from the
-[Flutter Samples GitHub repository](https://github.com/dyte-io/flutter-samples).
+[Flutter Samples GitHub repository](https://github.com/productdb-io/flutter-samples).
 
 ## Before Getting Started
 
@@ -78,22 +78,22 @@ To initiate ProductDB Meeting for any participant you just need to pass `authTok
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `authToken` | After you've created the meeting, <br/> add each participant to the meeting <br/> using the [Add Participant API](/api?v=v2#/operations/add_participant)<br/> (The presetName created earlier <br/> must be passed in the body <br/> of the Add Participant API request) <br/> The API response contains the `authToken`. |
 
-After getting the `authToken`, you need to create the `DyteMeetingInfoV2` object as follows:
+After getting the `authToken`, you need to create the `ProductDBMeetingInfoV2` object as follows:
 
 ```dart
-final meetingInfoV2 = DyteMeetingInfoV2(authToken: '<auth_token>');
+final meetingInfoV2 = ProductDBMeetingInfoV2(authToken: '<auth_token>');
 ```
 
 ## Step 4: Initialize the SDK
 
-The `DyteUIKit` is the main class of the SDK. It is the entry point and the only
+The `ProductDBUIKit` is the main class of the SDK. It is the entry point and the only
 class required to initialize ProductDB UI Kit SDK.
 
 ```dart
-/* Passing the DyteMeetingInfoV2 object `meetingInfoV2` you created in the Step 3,
+/* Passing the ProductDBMeetingInfoV2 object `meetingInfoV2` you created in the Step 3,
    and your context in `clientContext` parameter. */
 
-final DyteUIKit uiKit = DyteUIKit(
+final ProductDBUIKit uiKit = ProductDBUIKit(
   meetingInfo: meetingInfoV2,
   clientContext: context,
   configurations: configurations, //optional
@@ -102,14 +102,14 @@ final DyteUIKit uiKit = DyteUIKit(
 
 ## Step 5: Launch the meeting UI
 
-To launch the meeting UI all you need to do is call the `loadUI()` method of the `DyteUIKit` object which will return a `Widget`. You can push this widget as a page to start the flow of prebuilt Flutter UI Kit.
+To launch the meeting UI all you need to do is call the `loadUI()` method of the `ProductDBUIKit` object which will return a `Widget`. You can push this widget as a page to start the flow of prebuilt Flutter UI Kit.
 
 ```dart
 import 'package:dyte_uikit/dyte_uikit.dart';
 import 'package:flutter/material.dart';
 
-class DyteMeetingPage extends StatelessWidget {
-  const DyteMeetingPage({super.key});
+class ProductDBMeetingPage extends StatelessWidget {
+  const ProductDBMeetingPage({super.key});
 
   @override
   Widget build(BuildContext context) {

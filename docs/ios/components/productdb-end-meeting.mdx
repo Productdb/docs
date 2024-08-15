@@ -1,0 +1,31 @@
+
+# ProductDBEndMeetingControlBarButton
+## Overview
+This button is use to implement the action for leaving the meeting. You can add functionality to leave the meeting 
+inside the app by using this button.
+
+
+### Topics:
+
+### Creating a End meeting button which you mostly add inside Control Bar
+
+```swift
+init(meeting: ProductDBMobileClient, alertViewController: UIViewController , onClick:((ProductDBEndMeetingControlBarButton, ProductDBLeaveDialog.ProductDBLeaveDialogAlertButtonType)->Void)? = nil, appearance: ProductDBControlBarButtonAppearance = AppTheme.shared.controlBarButtonAppearance)
+```
+Creates a ProductDBEndMeetingControlBarButton with multiple parameters. 
+
+#### Parameters:
+*Required*   
+**meeting:** Current ongoing meeting object.   
+**alertViewController:** UIViewController object on which you want to present the UIAlertViewController. UIAlertView shown as final confirmation
+to leave meeting from the user.    
+*Optional*  
+**onClick:** Closure that you passed to get callback when user take action on UIAlertView 
+appearance: Any type which conforms to protocol "ProductDBControlBarButtonAppearance"  
+
+
+### Override the onClick action. 
+```swift 
+open func onClick(button: ProductDBEndMeetingControlBarButton) 
+```
+You can override this method inside the subclass of `ProductDBEndMeetingControlBarButton` to customize the functionality when user presses this button. 

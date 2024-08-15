@@ -3,7 +3,7 @@ title: States Based UI Split
 sidebar_position: 2
 ---
 
-Source Code: https://github.com/dyte-io/react-samples/tree/main/samples/create-your-own-ui
+Source Code: https://github.com/productdb-io/react-samples/tree/main/samples/create-your-own-ui
 
 Now that the basic states and configs handling is taken care of, we can focus on customisation.
 
@@ -16,10 +16,10 @@ hide={[{start:1, end: 5}, {start:28, end: 224}]}
 highlight={[{start:6, end: 26}]}
 file={`
 import { defaultConfig, generateConfig } from '@dytesdk/react-ui-kit';
-import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
+import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
 import { useEffect, useState } from 'react';
 
-function CustomDyteMeeting({ meeting, config, states, setStates }: { meeting: DyteClient, config: UIConfig,  states: CustomStates, setStates: SetStates}){
+function CustomProductDBMeeting({ meeting, config, states, setStates }: { meeting: ProductDBClient, config: UIConfig,  states: CustomStates, setStates: SetStates}){
     if (!meeting) {
         return <div> A loading screen comes here </div>;
       }
@@ -42,7 +42,7 @@ function CustomDyteMeeting({ meeting, config, states, setStates }: { meeting: Dy
 }
 
 export default function Meeting() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
   const [config, setConfig] = useState(defaultConfig);
   /**
   * We need setStates method to add custom functionalities,
@@ -59,9 +59,9 @@ useEffect(() => {
       const { config } = generateConfig(theme, meeting!);
 
       /**
-       * Full screen toggle, by default requests dyte-meeting/DyteMeeting element to be in full screen.
-       * Since DyteMeeting element is not here,
-       *  we need to pass dyte-fullscreen-toggle, an targetElementId through config.
+       * Full screen toggle, by default requests productdb-meeting/ProductDBMeeting element to be in full screen.
+       * Since ProductDBMeeting element is not here,
+       *  we need to pass productdb-fullscreen-toggle, an targetElementId through config.
        */
       setFullScreenToggleTargetElement({config, targetElementId: 'root'});
 
@@ -69,10 +69,10 @@ useEffect(() => {
 
     /**
      * Add listeners on meeting & self to monitor leave meeting, join meeting and so on.
-     * This work was earlier done by DyteMeeting component internally.
+     * This work was earlier done by ProductDBMeeting component internally.
      */
-      const stateListenersUtils = new DyteStateListenersUtils(() => meeting, () => states, () => setStates);
-      stateListenersUtils.addDyteEventListeners();
+      const stateListenersUtils = new ProductDBStateListenersUtils(() => meeting, () => states, () => setStates);
+      stateListenersUtils.addProductDBEventListeners();
 
       try{
         await meeting.join();
@@ -101,22 +101,22 @@ return (
               }});
             });
           }}>
-      <CustomDyteMeeting meeting={meeting} config={config} states={states} setStates={setStates} />
+      <CustomProductDBMeeting meeting={meeting} config={config} states={states} setStates={setStates} />
   </div>
 );
 
 }
 
 /**
-* DyteStateListenersUtils is a class that listens to web-core changes and syncs them with ui-kit
+* ProductDBStateListenersUtils is a class that listens to web-core changes and syncs them with ui-kit
 */
-class DyteStateListenersUtils{
+class ProductDBStateListenersUtils{
 
     getStates: () => CustomStates;
 
     getStateSetter: () => (newState: CustomStates) => void;
 
-    getMeeting: () => DyteClient;
+    getMeeting: () => ProductDBClient;
 
     get states(){
         return this.getStates();
@@ -130,7 +130,7 @@ class DyteStateListenersUtils{
         return this.getMeeting();
     }
 
-    constructor(getMeeting: () => DyteClient, getGlobalStates: () => CustomStates, getGlobalStateSetter: () => (newState: CustomStates) => void){
+    constructor(getMeeting: () => ProductDBClient, getGlobalStates: () => CustomStates, getGlobalStateSetter: () => (newState: CustomStates) => void){
         this.getMeeting = getMeeting;
         this.getStates = getGlobalStates;
         this.getStateSetter = getGlobalStateSetter;
@@ -193,7 +193,7 @@ class DyteStateListenersUtils{
         });
     }
 
-    addDyteEventListeners(){
+    addProductDBEventListeners(){
         if (this.meeting.meta.viewType === 'LIVESTREAM') {
             this.meeting.self.addListener('socketServiceRoomJoined', this.socketServiceRoomJoinedListener);
           }
@@ -209,7 +209,7 @@ class DyteStateListenersUtils{
           }
 
     }
-    cleanupDyteEventListeners(){
+    cleanupProductDBEventListeners(){
 
     }
 
@@ -221,18 +221,18 @@ class DyteStateListenersUtils{
 */
 function setFullScreenToggleTargetElement({config, targetElementId}: { config: UIConfig, targetElementId: string }){
     if (config.root && Array.isArray(config.root['div#controlbar-left'])) {
-        const fullScreenToggleIndex = config.root['div#controlbar-left'].indexOf('dyte-fullscreen-toggle');
+        const fullScreenToggleIndex = config.root['div#controlbar-left'].indexOf('productdb-fullscreen-toggle');
         if(fullScreenToggleIndex > -1){
-            config.root['div#controlbar-left'][fullScreenToggleIndex] = ['dyte-fullscreen-toggle', {
+            config.root['div#controlbar-left'][fullScreenToggleIndex] = ['productdb-fullscreen-toggle', {
                 variant: 'vertical',
                 targetElement: document.querySelector("#"+targetElementId),
             }];
         }
     }
-    ['dyte-more-toggle.activeMoreMenu', 'dyte-more-toggle.activeMoreMenu.md', 'dyte-more-toggle.activeMoreMenu.sm'].forEach((configElemKey) => {
+    ['productdb-more-toggle.activeMoreMenu', 'productdb-more-toggle.activeMoreMenu.md', 'productdb-more-toggle.activeMoreMenu.sm'].forEach((configElemKey) => {
         const configElem = config?.root?.[configElemKey] as any;
         configElem?.forEach((dyteElemConfigSet: any) => {
-            if (dyteElemConfigSet[0] === 'dyte-fullscreen-toggle') {
+            if (dyteElemConfigSet[0] === 'productdb-fullscreen-toggle') {
                 dyteElemConfigSet[1].targetElement = document.querySelector("#"+targetElementId);
             }
         });

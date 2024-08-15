@@ -13,20 +13,20 @@ npm i @dytesdk/ui-kit-addons
 
 ```tsx
 import {
-  DyteParticipantTile,
-  DyteAvatar,
-  DyteNameTag,
-  DyteAudioVisualizer,
-  DyteMicToggle,
-  DyteCameraToggle,
-  DyteSettingsToggle,
-  DyteButton,
-  DyteControlbarButton,
+  ProductDBParticipantTile,
+  ProductDBAvatar,
+  ProductDBNameTag,
+  ProductDBAudioVisualizer,
+  ProductDBMicToggle,
+  ProductDBCameraToggle,
+  ProductDBSettingsToggle,
+  ProductDBButton,
+  ProductDBControlbarButton,
   defaultIconPack,
   registerAddons,
-  DyteIcon,
+  ProductDBIcon,
 } from '@dytesdk/react-ui-kit';
-import type DyteClient from '@dytesdk/web-core';
+import type ProductDBClient from '@dytesdk/web-core';
 import { useEffect, useState } from 'react';
 import { CustomStates, SetState } from './types';
 import MediaPreviewModal from './media-preview-modal';
@@ -37,8 +37,8 @@ const effectsSVG =
 
 export default function CustomMeetingPreview() {
   const [participantName, setParticipantName] = useState('');
-  const { meeting } = useDyteMeeting();
-  const permissions = useDyteSelector((m) => m.self.permissions);
+  const { meeting } = useProductDBMeeting();
+  const permissions = useProductDBSelector((m) => m.self.permissions);
 
   useEffect(() => {
     if (!meeting) {
@@ -47,14 +47,14 @@ export default function CustomMeetingPreview() {
     const videoBackground = new VideoBackground({
       modes: ['blur', 'virtual'],
       images: [
-        'https://assets.dyte.io/backgrounds/bg_0.jpg',
-        'https://assets.dyte.io/backgrounds/bg_1.jpg',
-        'https://assets.dyte.io/backgrounds/bg_2.jpg',
-        'https://assets.dyte.io/backgrounds/bg_3.jpg',
-        'https://assets.dyte.io/backgrounds/bg_4.jpg',
+        'https://assets.productdb.io/backgrounds/bg_0.jpg',
+        'https://assets.productdb.io/backgrounds/bg_1.jpg',
+        'https://assets.productdb.io/backgrounds/bg_2.jpg',
+        'https://assets.productdb.io/backgrounds/bg_3.jpg',
+        'https://assets.productdb.io/backgrounds/bg_4.jpg',
       ],
       randomCount: 8,
-      selector: '#dyte-integration-wrapper',
+      selector: '#productdb-integration-wrapper',
     });
     registerAddons([videoBackground], meeting);
     setParticipantName(meeting.self.name);
@@ -66,21 +66,21 @@ export default function CustomMeetingPreview() {
       className="flex h-full w-full justify-around p-[10%]"
     >
       <div className="flex h-full w-full justify-around p-[10%]">
-        <DyteParticipantTile meeting={meeting} participant={meeting.self}>
-          <DyteAvatar participant={meeting.self} />
-          <DyteNameTag participant={meeting.self}>
-            <DyteAudioVisualizer participant={meeting.self} slot="start" />
-          </DyteNameTag>
+        <ProductDBParticipantTile meeting={meeting} participant={meeting.self}>
+          <ProductDBAvatar participant={meeting.self} />
+          <ProductDBNameTag participant={meeting.self}>
+            <ProductDBAudioVisualizer participant={meeting.self} slot="start" />
+          </ProductDBNameTag>
           <div id="user-actions" className="absolute bottom-2 right-2 flex">
-            <DyteMicToggle meeting={meeting} size="sm"></DyteMicToggle>
-            <DyteCameraToggle meeting={meeting} size="sm"></DyteCameraToggle>
-            <DyteControlbarButton
+            <ProductDBMicToggle meeting={meeting} size="sm"></ProductDBMicToggle>
+            <ProductDBCameraToggle meeting={meeting} size="sm"></ProductDBCameraToggle>
+            <ProductDBControlbarButton
               className="cursor-pointer"
               size="sm"
               icon={effectsSVG}
               onClick={() => {
                 const changer = document.querySelector(
-                  'dyte-background-changer'
+                  'productdb-background-changer'
                 );
                 if (changer) {
                   const isOpen = changer?.getAttribute('data-open') === 'true';
@@ -95,9 +95,9 @@ export default function CustomMeetingPreview() {
             />
           </div>
           <div className="absolute top-2 right-2">
-            <DyteSettingsToggle />
+            <ProductDBSettingsToggle />
           </div>
-        </DyteParticipantTile>
+        </ProductDBParticipantTile>
         <div className="flex h-1/2 w-1/4 flex-col justify-between">
           <div className="flex flex-col items-center">
             <p>Joining as</p>
@@ -112,7 +112,7 @@ export default function CustomMeetingPreview() {
               onChange={(event) => setParticipantName(event.target.value)}
             />
           )}
-          <DyteButton
+          <ProductDBButton
             kind="wide"
             size="lg"
             style={{ cursor: participantName ? 'pointer' : 'not-allowed' }}
@@ -126,7 +126,7 @@ export default function CustomMeetingPreview() {
             }}
           >
             Join
-          </DyteButton>
+          </ProductDBButton>
         </div>
       </div>
     </div>
@@ -137,12 +137,12 @@ export default function CustomMeetingPreview() {
 Here we have added the `effectsSVG`, A button to open/close the background changer modal.
 
 ```tsx
-<DyteControlbarButton
+<ProductDBControlbarButton
   className="cursor-pointer"
   size="sm"
   icon={effectsSVG}
   onClick={() => {
-    const changer = document.querySelector('dyte-background-changer');
+    const changer = document.querySelector('productdb-background-changer');
     if (changer) {
       const isOpen = changer?.getAttribute('data-open') === 'true';
       changer.setAttribute('data-open', isOpen ? 'false' : 'true');
@@ -161,14 +161,14 @@ and the background changer modal itself.
 const videoBackground = new VideoBackground({
   modes: ['blur', 'virtual'],
   images: [
-    'https://assets.dyte.io/backgrounds/bg_0.jpg',
-    'https://assets.dyte.io/backgrounds/bg_1.jpg',
-    'https://assets.dyte.io/backgrounds/bg_2.jpg',
-    'https://assets.dyte.io/backgrounds/bg_3.jpg',
-    'https://assets.dyte.io/backgrounds/bg_4.jpg',
+    'https://assets.productdb.io/backgrounds/bg_0.jpg',
+    'https://assets.productdb.io/backgrounds/bg_1.jpg',
+    'https://assets.productdb.io/backgrounds/bg_2.jpg',
+    'https://assets.productdb.io/backgrounds/bg_3.jpg',
+    'https://assets.productdb.io/backgrounds/bg_4.jpg',
   ],
   randomCount: 8,
-  selector: '#dyte-integration-wrapper',
+  selector: '#productdb-integration-wrapper',
 });
 registerAddons([videoBackground], meeting);
 ```

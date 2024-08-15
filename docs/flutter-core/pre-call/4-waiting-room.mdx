@@ -17,12 +17,12 @@ stateDiagram-v2
 
 ### Meeting Room Joined
 
-If user joins the room successfully, you receive the `onMeetingRoomJoinCompleted()` callback in `DyteMeetingRoomEventsListener`.
+If user joins the room successfully, you receive the `onMeetingRoomJoinCompleted()` callback in `ProductDBMeetingRoomEventsListener`.
 You can listen for this callback as follows:
 
 ```dart
 
-class MeetingRoomNotifier extends DyteMeetingRoomEventsListener{
+class MeetingRoomNotifier extends ProductDBMeetingRoomEventsListener{
     override fun onMeetingRoomJoinCompleted() {
         // Local user is in the meeting
     }
@@ -33,20 +33,20 @@ dyteMobileClient.addMeetingRoomEventsListener(MeetingRoomNotifier());
 
 ### Waitlisted Participant
 
-If the user is waitlisted, the `onWaitListStatusUpdate` callback in `DyteSelfEventsListener` notifies you of any changes in the
+If the user is waitlisted, the `onWaitListStatusUpdate` callback in `ProductDBSelfEventsListener` notifies you of any changes in the
 user's waitlist status. You can check the `waitListStatus` to determine their status:
 
 - `WAITING`: Local user is in the waiting room.
 - `REJECTED`: Local user's join room request is rejected by the host.
 
 ```dart
-class WaitingRoomNotifier extends DyteSelfEventsListener{
+class WaitingRoomNotifier extends ProductDBSelfEventsListener{
   @override
-  void onWaitListStatusUpdate(DyteWaitListStatus waitListStatus) {
+  void onWaitListStatusUpdate(ProductDBWaitListStatus waitListStatus) {
     switch (waitListStatus) {
-      case DyteWaitListStatus.waiting:
+      case ProductDBWaitListStatus.waiting:
         // Local user is in the waiting room
-      case DyteWaitListStatus.rejected:
+      case ProductDBWaitListStatus.rejected:
         // Local user's join room request was rejected by the host
       default:
         break;

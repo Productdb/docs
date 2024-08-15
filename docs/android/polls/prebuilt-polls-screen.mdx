@@ -22,16 +22,16 @@ ProductDB's Android UI Kit provides a prebuilt Polls screen with the following f
 
 The prebuilt Polls screen is available in two variants:
 
-1. [**DytePollsBottomSheet**](/android/components/dyte-polls): Displays the Polls list as a full-screen bottom sheet that can be dismissed by swiping down.
+1. [**ProductDBPollsBottomSheet**](/android/components/productdb-polls): Displays the Polls list as a full-screen bottom sheet that can be dismissed by swiping down.
 
 ```kotlin
-import dyte.io.uikit.screens.polls.DytePollsBottomSheet
+import productdb.io.uikit.screens.polls.ProductDBPollsBottomSheet
 
-val dytePollsBottomSheet = DytePollsBottomSheet()
+val dytePollsBottomSheet = ProductDBPollsBottomSheet()
 dytePollsBottomSheet.show(childFragmentManager, TAG)
 ```
 
-2. **DytePollsFragment**: Shows the list of ongoing polls inside an Android fragment, providing flexibility 
+2. **ProductDBPollsFragment**: Shows the list of ongoing polls inside an Android fragment, providing flexibility 
 to show the Polls UI fullscreen or in a part of the screen along with other UI elements.
 
 ```xml
@@ -43,9 +43,9 @@ to show the Polls UI fullscreen or in a part of the screen along with other UI e
 ```
 
 ```kotlin
-import dyte.io.uikit.screens.polls.DytePollsFragment
+import productdb.io.uikit.screens.polls.ProductDBPollsFragment
 
-val dytePollsFragment = DytePollsFragment()
+val dytePollsFragment = ProductDBPollsFragment()
 supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container_view, dytePollsFragment, TAG)
                 .commit()

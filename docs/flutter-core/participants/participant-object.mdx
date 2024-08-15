@@ -12,7 +12,7 @@ tags:
 
 # The Participant object
 
-The `DyteMeetingParticipant` object consists of all the information related to a
+The `ProductDBMeetingParticipant` object consists of all the information related to a
 particular participant. For instance, it contains a participants
 video/audio/screenshare stream, and the participant's name. It also contains
 state variables that indicate whether a participant's camera is on or off, and
@@ -32,25 +32,25 @@ The participant object has the following properties.
 
 You can subscribe to various participants events. For subscribing:
 
-- Implement `DyteParticipantEventsListener` to a class say
+- Implement `ProductDBParticipantEventsListener` to a class say
   `ParticipantEventListener`, and listen to event from
-  `DyteParticipantEventsListener` by overriding them. This class can be user to
+  `ProductDBParticipantEventsListener` by overriding them. This class can be user to
   manage your state in the application.
 
 ```dart
-class ParticipantEventListener extends DyteParticipantEventsListener {
+class ParticipantEventListener extends ProductDBParticipantEventsListener {
 
   @override
   void onAudioUpdate({
     required bool audioEnabled,
-    required DyteJoinedMeetingParticipant participant,
+    required ProductDBJoinedMeetingParticipant participant,
   }) {
-    /// handle audioUpdate of `DyteJoinedMeetingParticipant` participant
+    /// handle audioUpdate of `ProductDBJoinedMeetingParticipant` participant
   }
 
   @override
-  void onActiveSpeakerChanged(DyteJoinedMeetingParticipant participant) {
-    /// handle active speaker changing to `DyteJoinedMeetingParticipant` participant
+  void onActiveSpeakerChanged(ProductDBJoinedMeetingParticipant participant) {
+    /// handle active speaker changing to `ProductDBJoinedMeetingParticipant` participant
   }
 
   @override
@@ -59,38 +59,38 @@ class ParticipantEventListener extends DyteParticipantEventsListener {
   }
 
   @override
-  void onParticipantPinned(DyteJoinedMeetingParticipant participant) {
-    /// handle pinning of `DyteJoinedMeetingParticipant` participant
+  void onParticipantPinned(ProductDBJoinedMeetingParticipant participant) {
+    /// handle pinning of `ProductDBJoinedMeetingParticipant` participant
   }
 
 
   @override
-  void onParticipantUnpinned(DyteJoinedMeetingParticipant participant) {
+  void onParticipantUnpinned(ProductDBJoinedMeetingParticipant participant) {
     /// handle unpinning the pinned participant
   }
 
   @override
-  void onScreenShareStarted(DyteJoinedMeetingParticipant participant) {
-    /// handle screen share started of `DyteJoinedMeetingParticipant` participant
+  void onScreenShareStarted(ProductDBJoinedMeetingParticipant participant) {
+    /// handle screen share started of `ProductDBJoinedMeetingParticipant` participant
   }
 
   @override
-  void onScreenShareEnded(DyteJoinedMeetingParticipant participant) {
-    /// handle screen share ended of `DyteJoinedMeetingParticipant` participant
+  void onScreenShareEnded(ProductDBJoinedMeetingParticipant participant) {
+    /// handle screen share ended of `ProductDBJoinedMeetingParticipant` participant
   }
 
   @override
   void onVideoUpdate({
     required bool videoEnabled,
-    required DyteJoinedMeetingParticipant participant,
+    required ProductDBJoinedMeetingParticipant participant,
   }) {
-    /// handle videoUpdate of `DyteJoinedMeetingParticipant` participant
+    /// handle videoUpdate of `ProductDBJoinedMeetingParticipant` participant
   }
 
 }
 ```
 
-- Now to subscribe, pass the instance of `DyteParticipantEventsListener` class
+- Now to subscribe, pass the instance of `ProductDBParticipantEventsListener` class
   created above to `addParticipantEventsListener()` method of `dyteClient`
   instance as follows:
 
@@ -116,7 +116,7 @@ void onVideoUpdate(bool videoEnabled) {
 @override
 void onAudioUpdate({
   required bool audioEnabled,
-  required DyteJoinedMeetingParticipant participant,
+  required ProductDBJoinedMeetingParticipant participant,
 }) {
     if (audioEnabled) {
       // audio is enabled, and other participants in room can hear local user

@@ -1,0 +1,31 @@
+---
+description: >-
+  Learn how to use and customize the ProductDBRecordingToggle component in ProductDB's
+  React Native UI Kit with our detailed documentation.
+---
+
+# ProductDBRecordingToggle
+
+A button which toggles recording state of a meeting.
+
+Only a privileged user can perform this action, thus the button will not be
+visible for participants who don't have the permission to record a meeting.
+
+Note that the toggle button won't be rendered if you do not have the necessary
+permission.
+
+```jsx
+<Center>
+  <ProductDBRecordingToggle size="sm" meeting={meeting} />
+  <ProductDBRecordingToggle size="lg" meeting={meeting} />
+  <ProductDBRecordingToggle variant="horizontal" size="sm" meeting={meeting} />
+</Center>
+```
+
+## Props
+
+<PropsTable of="productdb-recording-toggle" />
+
+<head>
+  <title>React Native UI Kit ProductDBRecordingToggle</title>
+</head>

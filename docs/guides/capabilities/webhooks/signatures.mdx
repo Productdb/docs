@@ -11,7 +11,7 @@ You can verify webhooks using ProductDB's signature and webhook IDs.
 ## Verify using ProductDB's signature
 
 ProductDB verifies the webhook events it sends to your endpoints by including a
-signature in the dyte-signature header of each event. This allows you to confirm
+signature in the productdb-signature header of each event. This allows you to confirm
 that the event came from ProductDB and not a malicious server impersonating ProductDB.
 
 Perform the following steps to verify signatures.
@@ -19,16 +19,16 @@ Perform the following steps to verify signatures.
 ### Obtain our public key
 
 Our public key is available at
-`https://api.dyte.io/.well-known/webhooks.json`. You can obtain it by
+`https://api.productdb.io/.well-known/webhooks.json`. You can obtain it by
 making a GET request to this endpoint.
 
 ```
-curl -X GET "https://api.dyte.io/.well-known/webhooks.json"
+curl -X GET "https://api.productdb.io/.well-known/webhooks.json"
 ```
 
 ### Check for the signature header
 
-Every incoming request will have a custom `dyte-signature` header. This is the
+Every incoming request will have a custom `productdb-signature` header. This is the
 value that you should verify in the next step.
 
 ### Verify the signature
@@ -48,7 +48,7 @@ indeed originated from ProductDB.
 const crypto = require('crypto');
 
 app.post('/webhook', express.json({ type: 'application/json' }), (req, res) => {
-  const signature = req.headers['dyte-signature'];
+  const signature = req.headers['productdb-signature'];
   const payload = req.body;
 
   const isVerified = crypto.verify(

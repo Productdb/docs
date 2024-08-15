@@ -19,7 +19,7 @@ To start livestreaming a meeting, do the following:
 
 ### Step 1: Get your API Keys
 
-Login to the [Developer Portal](https://dev.dyte.io/) and create an account. Copy the [API Keys](https://dev.dyte.io/apikeys) for your organization from the Developer portal. These API Keys are unique to your organization and are required to use ProductDB REST APIs such as when instantiating a meeting.
+Login to the [Developer Portal](https://dev.productdb.io/) and create an account. Copy the [API Keys](https://dev.productdb.io/apikeys) for your organization from the Developer portal. These API Keys are unique to your organization and are required to use ProductDB REST APIs such as when instantiating a meeting.
 
 ### Step 2: Create a live stream
 
@@ -43,7 +43,7 @@ In the [Start livestreaming a meeting](/api#/paths/meetings-meeting_id--livestre
 
 ```
 curl --request POST \
-  --url https://api.cluster.dyte.in/v2/meetings/{meetingId}/livestreams \
+  --url https://api.cluster.productdb.in/v2/meetings/{meetingId}/livestreams \
   --header 'Authorization: Basic <token>' \
   --header 'Content-Type: application/json'
 ```
@@ -79,7 +79,7 @@ get the **meeting ID**. The API returns a parameter called `id`, which is your
 
 ```bash
 curl --request GET \
-  --url https://api.cluster.dyte.in/v2/meetings/{meetingId}/active-livestream \
+  --url https://api.cluster.productdb.in/v2/meetings/{meetingId}/active-livestream \
   --header 'Authorization: Basic <token>' \
   --header 'Content-Type: application/json'
 ```
@@ -117,7 +117,7 @@ get the **meeting ID**. The API returns a parameter called `id`, which is your
 
 ```bash
 curl --request POST \
-  --url https://api.cluster.dyte.in/v2/meetings/meetingId/active-livestream/stop \
+  --url https://api.cluster.productdb.in/v2/meetings/meetingId/active-livestream/stop \
   --header 'Authorization: Basic <token>' \
   --header 'Content-Type: application/json'
 ```

@@ -1,0 +1,37 @@
+---
+image: /static/ui-kit/1.x.x/components/productdb-mixed-grid.svg
+description: >-
+  Learn how to use and customize the productdb-mixed-grid component in ProductDB's UI Kit
+  with our detailed documentation.
+---
+
+# productdb-mixed-grid
+
+A grid component which handles screenshares, plugins and participants.
+
+```html
+<productdb-mixed-grid id="productdb-el"></productdb-mixed-grid>
+
+<script>
+  const el = document.getElementBydId('productdb-el');
+  el.participants = [meeting.self];
+  el.pinnedParticipants = [meeting.self];
+  el.screenShareParticipants = [meeting.self];
+  el.plugins = [];
+</script>
+
+<style>
+  productdb-mixed-grid {
+    height: 360px;
+    width: 100%;
+  }
+</style>
+```
+
+## Props
+
+<PropsTable of="productdb-mixed-grid" />
+
+<head>
+  <title>UI Kit productdb-mixed-grid</title>
+</head>

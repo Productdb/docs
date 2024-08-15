@@ -17,16 +17,16 @@ use the following methods:
 
 ```kotlin
 // Get all audio devices
-val audioDevices: List<DyteAudioDevice> = meeting.self.getAudioDevices();
+val audioDevices: List<ProductDBAudioDevice> = meeting.self.getAudioDevices();
 
 // Get all video devices
-val videoDevices: List<DyteVideoDevice> = meeting.self.getVideoDevices();
+val videoDevices: List<ProductDBVideoDevice> = meeting.self.getVideoDevices();
 ```
 
 ## Set audio device
 
 To set a device as an active device, you can call `setAudioDevice` method. This
-takes a `DyteAudioDevice` object.
+takes a `ProductDBAudioDevice` object.
 
 ```kotlin
 meeting.self.setAudioDevice(device);
@@ -35,7 +35,7 @@ meeting.self.setAudioDevice(device);
 ## Set video device
 
 To set a video device as an active device, you can call `setVideoDevice` method.
-This takes a `DyteVideoDevice` object.
+This takes a `ProductDBVideoDevice` object.
 
 ```kotlin
 meeting.self.setVideoDevice(device);

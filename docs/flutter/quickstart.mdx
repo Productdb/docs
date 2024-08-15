@@ -11,7 +11,7 @@ audio to your Flutter applications.
 
 For getting started quickly, you can use our sample code. You can clone and run
 a sample application from the
-[Flutter UI Kit Sample App GitHub repository](https://github.com/dyte-io/flutter-samples/tree/main/flutter_uikit).
+[Flutter UI Kit Sample App GitHub repository](https://github.com/productdb-io/flutter-samples/tree/main/flutter_uikit).
 
 ## Objective
 
@@ -26,16 +26,16 @@ You’ll learn how to:
 ## Before Getting Started
 
 Make sure you've read the
-[Getting Started with ProductDB](https://docs.dyte.io/getting-started) topic and
+[Getting Started with ProductDB](https://docs.productdb.io/getting-started) topic and
 completed the steps in the
-[Integrate ProductDB](https://docs.dyte.io/getting-started#integrate-dyte) section.
+[Integrate ProductDB](https://docs.productdb.io/getting-started#integrate-productdb) section.
 You must complete the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.dyte.io/)
-- Create [Presets](https://dev.dyte.io/roles-presets)
+- Create a [ProductDB Developer Account](https://dev.productdb.io/)
+- Create [Presets](https://dev.productdb.io/roles-presets)
 - Create a
-  [ProductDB Meeting](https://docs.dyte.io/api/?v=v2#/operations/create_meeting)
-- [Add Participant](https://docs.dyte.io/api/?v=v2#/operations/add_participant)
+  [ProductDB Meeting](https://docs.productdb.io/api/?v=v2#/operations/create_meeting)
+- [Add Participant](https://docs.productdb.io/api/?v=v2#/operations/add_participant)
   to the meeting
 
 ## Step 1: Install the SDK
@@ -113,22 +113,22 @@ platform :ios, '13.0'
 
 ## Step 3: Configure a ProductDB meeting
 
-To initiate ProductDB Meeting for any participant you just need to pass `authToken` as an argument. You can get the `authToken` via the [Add Participant API](https://docs.dyte.io/api?v=v2#/operations/add_participant).
+To initiate ProductDB Meeting for any participant you just need to pass `authToken` as an argument. You can get the `authToken` via the [Add Participant API](https://docs.productdb.io/api?v=v2#/operations/add_participant).
 
-After getting the `authToken`, you need to create the `DyteMeetingInfoV2` object as follows:
+After getting the `authToken`, you need to create the `ProductDBMeetingInfoV2` object as follows:
 
 | Name        | Description                                                                                                                                                                                                                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `authToken` | After you've created the meeting, <br/> add each participant to the meeting <br/> using the [Add Participant API](/api?v=v2#/operations/add_participant)<br/> (The presetName created earlier <br/> must be passed in the body <br/> of the Add Participant API request) <br/> The API response contains the `authToken`. |
-| `baseUrl`   | The base URL of the ProductDB server. Default value is `https://api.dyte.io/v2`. This is an optional argument.                                                                                                                                                                                                                 |
+| `baseUrl`   | The base URL of the ProductDB server. Default value is `https://api.productdb.io/v2`. This is an optional argument.                                                                                                                                                                                                                 |
 | `enableAudio` | A boolean value to enable or disable audio in the meeting. Default value is `true`. This is an optional argument.                                                                                                                                                                                                       |
 | `enableVideo` | A boolean value to enable or disable video in the meeting. Default value is `true`. This is an optional argument.                                                                                                                                                                                                       |
 
 
 ```dart
-final meetingInfo = DyteMeetingInfoV2(
+final meetingInfo = ProductDBMeetingInfoV2(
                     authToken: '<authToken>',
-                    baseUrl: 'https://api.dyte.io/v2',      // optional argument, if you want to pass your own baseUrl
+                    baseUrl: 'https://api.productdb.io/v2',      // optional argument, if you want to pass your own baseUrl
                     enableAudio: false,                     // optional argument, to enable or disable audio in the meeting
                     enableVideo: false,                     // optional argument, to enable or disable video in the meeting
                   );
@@ -136,20 +136,20 @@ final meetingInfo = DyteMeetingInfoV2(
 
 ## Step 4: Initialize the SDK
 
-The `DyteUIKit` is the main class of the SDK. It is the entry point and the only
-class required to initialize ProductDB UI Kit SDK. To initialize it we have to pass `DyteUIKitInfo` object as an argument.
+The `ProductDBUIKit` is the main class of the SDK. It is the entry point and the only
+class required to initialize ProductDB UI Kit SDK. To initialize it we have to pass `ProductDBUIKitInfo` object as an argument.
 
 
 ```dart
 
-/* Passing the DyteMeetingInfoV2 object `meetingInfo` you created in the Step 3,
+/* Passing the ProductDBMeetingInfoV2 object `meetingInfo` you created in the Step 3,
 */
 
-final uikitInfo = DyteUIKitInfo(
+final uikitInfo = ProductDBUIKitInfo(
       meetingInfo,
-      // Optional: Pass the DyteDesignTokens object to customize the UI
-      designToken: DyteDesignTokens(
-        colorToken: DyteColorToken(
+      // Optional: Pass the ProductDBDesignTokens object to customize the UI
+      designToken: ProductDBDesignTokens(
+        colorToken: ProductDBColorToken(
           brandColor: Colors.purple,
           backgroundColor: Colors.black,
           textOnBackground: Colors.white,
@@ -158,7 +158,7 @@ final uikitInfo = DyteUIKitInfo(
       ),
     );
 
-final uiKit = DyteUIKitBuilder.build(uiKitInfo: uikitInfo, context: context);
+final uiKit = ProductDBUIKitBuilder.build(uiKitInfo: uikitInfo, context: context);
 
 ```
 You can learn more about customization of the uikit in the [Design System](/flutter/design-token) section.
@@ -172,8 +172,8 @@ You can push this widget as a page to start the flow of prebuilt Flutter UI Kit.
 import 'package:dyte_uikit/dyte_uikit.dart';
 import 'package:flutter/material.dart';
 
-class DyteMeetingPage extends StatelessWidget {
-  const DyteMeetingPage({super.key});
+class ProductDBMeetingPage extends StatelessWidget {
+  const ProductDBMeetingPage({super.key});
 
   @override
   Widget build(BuildContext context) {

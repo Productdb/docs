@@ -24,17 +24,17 @@ const ALL_RESOURCES: Resource[] = [
     description:
       'Excited to announce the release of our v2 REST APIs, which are faster, more idiomatic, and easier to use.',
     image:
-      'https://dyte.io/blog/content/images/size/w1000/2023/02/ProductDB-Blog---v2-APIs.jpg',
+      'https://productdb.io/blog/content/images/size/w1000/2023/02/ProductDB-Blog---v2-APIs.jpg',
     duration: '3 min',
   },
   {
-    url: 'https://dyte.io/blog/hls-in-depth/',
+    url: 'https://productdb.io/blog/hls-in-depth/',
     type: 'blog',
     title: 'HLS in Depth',
     description:
       "HLS is widely adopted, simple, yet robust. Learn how it works from a client's perspective, its segments, features, and disadvantages.",
     image:
-      'https://dyte.io/blog/content/images/size/w1000/2023/07/HLS--indepth--header--1.png',
+      'https://productdb.io/blog/content/images/size/w1000/2023/07/HLS--indepth--header--1.png',
     duration: '10 min',
   },
   {
@@ -132,7 +132,7 @@ export default function ResourcesSection() {
       <div className="mx-auto max-w-5xl">
         <div className="flex items-center justify-between">
           <div>
-            <span className="dyte-badge">RESOURCES</span>
+            <span className="productdb-badge">RESOURCES</span>
             <h2 className="mb-6 text-4xl">Want to know more?</h2>
           </div>
           <Link

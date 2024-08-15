@@ -1,0 +1,38 @@
+---
+description: >-
+  Learn how to use and customize the ProductDBNotifications component in ProductDB's React
+  Native UI Kit with our detailed documentation.
+---
+
+# ProductDBNotifications
+
+A component which handles notifications.
+
+You can configure which notifications you want to see and which ones you want to
+hear. There are also certain limits which you can set as well.
+
+```jsx
+<ProductDBNotifications
+  meeting={meeting}
+  config={{
+    config: {
+      notifications: {
+        participant_left: false,
+      },
+      notification_sounds: {
+        participant_left: false,
+      },
+      participant_joined_sound_notification_limit: 10,
+      participant_chat_message_sound_notification_limit: 10,
+    },
+  }}
+/>
+```
+
+## Props
+
+<PropsTable of="productdb-notifications" />
+
+<head>
+  <title>React Native UI Kit ProductDBNotifications</title>
+</head>

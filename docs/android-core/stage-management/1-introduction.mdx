@@ -21,7 +21,7 @@ permissions, and kicking participants from the stage. These APIs are accessible 
 
 ### Stage Status
 
-In meetings where stage management is enabled, a user's stage status can change within the values represented by the `DyteStageStatus` 
+In meetings where stage management is enabled, a user's stage status can change within the values represented by the `ProductDBStageStatus` 
 enum. These status values include:
 
 - `ON_STAGE`: Indicates that the user is currently on the stage and is allowed to publish media.
@@ -37,7 +37,7 @@ The `meeting.stage.status` property provides the current stage status of the loc
 ### Viewers
 
 You can retrieve a list of off-stage participants (viewers) in a stage-enabled meeting by accessing the `meeting.stage.viewers` 
-property. This property provides a list of `DyteJoinedMeetingParticipant` objects whose stage status is not `ON_STAGE`.
+property. This property provides a list of `ProductDBJoinedMeetingParticipant` objects whose stage status is not `ON_STAGE`.
 
 ### Joining the Stage
 
@@ -59,11 +59,11 @@ meeting.stage.leave()
 
 ### List of Stage Events
 
-The `DyteStageEventListener` interface provides callback methods for various stage events. Implement these callbacks to handle 
+The `ProductDBStageEventListener` interface provides callback methods for various stage events. Implement these callbacks to handle 
 stage-related events in your application:
 
 ```kotlin
-meeting.addStageEventsListener(object : DyteStageEventListener {
+meeting.addStageEventsListener(object : ProductDBStageEventListener {
     override fun onPresentRequestReceived() {
         // Called when the local user's stage access request is accepted by the host,
         // or when the local user, who is a viewer, is invited to the stage by the host.
@@ -77,42 +77,42 @@ meeting.addStageEventsListener(object : DyteStageEventListener {
         // Called when the local user is removed from the stage.
     }
 
-    override fun onPresentRequestAdded(participant: DyteJoinedMeetingParticipant) {
+    override fun onPresentRequestAdded(participant: ProductDBJoinedMeetingParticipant) {
         // Called when a participant requests to join the stage. Triggered only if the local user is a host.
     }
 
-    override fun onPresentRequestClosed(participant: DyteJoinedMeetingParticipant) {
+    override fun onPresentRequestClosed(participant: ProductDBJoinedMeetingParticipant) {
         // Called when a participant with a pending stage access request leaves the meeting.
         // Triggered only if the local user is a host.
     }
 
-    override fun onPresentRequestRejected(participant: DyteJoinedMeetingParticipant) {
+    override fun onPresentRequestRejected(participant: ProductDBJoinedMeetingParticipant) {
         // Called when a participant's stage access request is denied by the host.
         // Triggered only if the local user is a host.
     }
 
-    override fun onPresentRequestWithdrawn(participant: DyteJoinedMeetingParticipant) {
+    override fun onPresentRequestWithdrawn(participant: ProductDBJoinedMeetingParticipant) {
         // Called when a participant cancels their stage access request.
         // Triggered only if the local user is a host.
     }
 
-    override fun onParticipantRemovedFromStage(participant: DyteJoinedMeetingParticipant) {
+    override fun onParticipantRemovedFromStage(participant: ProductDBJoinedMeetingParticipant) {
         // Called when a participant is removed from the stage by the host.
     }
 
-    override fun onStageRequestsUpdated(accessRequests: List<DyteJoinedMeetingParticipant>) {
+    override fun onStageRequestsUpdated(accessRequests: List<ProductDBJoinedMeetingParticipant>) {
         // Called when the list of stage access requests is updated.
     }
 
-    override fun onParticipantStartedPresenting(participant: DyteJoinedMeetingParticipant) {
+    override fun onParticipantStartedPresenting(participant: ProductDBJoinedMeetingParticipant) {
         // Called when a participant joins the stage.
     }
 
-    override fun onParticipantStoppedPresenting(participant: DyteJoinedMeetingParticipant) {
+    override fun onParticipantStoppedPresenting(participant: ProductDBJoinedMeetingParticipant) {
         // Called when a participant leaves the stage.
     }
 
-    override fun onStageStatusUpdated(stageStatus: DyteStageStatus) {
+    override fun onStageStatusUpdated(stageStatus: ProductDBStageStatus) {
         // Called when the local user's stage status is updated.
     }
 })

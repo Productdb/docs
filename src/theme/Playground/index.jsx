@@ -7,8 +7,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import { usePrismTheme } from '@docusaurus/theme-common';
 import styles from './styles.module.css';
-import { DyteProvider, useDyteClient } from '@dytesdk/react-web-core';
-import { provideDyteDesignSystem } from '@dytesdk/react-ui-kit';
+import { ProductDBProvider, useProductDBClient } from '@dytesdk/react-web-core';
+import { provideProductDBDesignSystem } from '@dytesdk/react-ui-kit';
 import { useColorMode } from '@docusaurus/theme-common';
 
 function Header({ children }) {
@@ -101,7 +101,7 @@ export default function Playground({ children, transformCode, ...props }) {
 
   const prismTheme = usePrismTheme();
 
-  const [meeting, initMeeting] = useDyteClient();
+  const [meeting, initMeeting] = useProductDBClient();
   const { colorMode } = useColorMode();
 
   // TODO: Uncomment following block of code after adding mock web-core package
@@ -136,7 +136,7 @@ export default function Playground({ children, transformCode, ...props }) {
       m.participants.setMockParticipantCount(5, 5);
       // m.recording.recordingState = 'RECORDING';
       const theme = document.getElementsByTagName('html')[0].dataset['theme'];
-      provideDyteDesignSystem(document.body, {
+      provideProductDBDesignSystem(document.body, {
         theme,
       });
       initInProgress.value = false;
@@ -144,7 +144,7 @@ export default function Playground({ children, transformCode, ...props }) {
   }, []);
 
   useEffect(() => {
-    provideDyteDesignSystem(document.body, {
+    provideProductDBDesignSystem(document.body, {
       theme: colorMode,
     });
   }, [colorMode]);
@@ -153,7 +153,7 @@ export default function Playground({ children, transformCode, ...props }) {
     <div
       className={clsx(styles.playgroundContainer, '!rounded-none !shadow-none')}
     >
-      <DyteProvider value={meeting}>
+      <ProductDBProvider value={meeting}>
         {/* @ts-expect-error: type incompatibility with refs */}
         <LiveProvider
           code={children.replace(/\n$/, '')}
@@ -173,7 +173,7 @@ export default function Playground({ children, transformCode, ...props }) {
             </>
           )}
         </LiveProvider>
-      </DyteProvider>
+      </ProductDBProvider>
     </div>
   );
 }

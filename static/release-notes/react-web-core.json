@@ -3,7 +3,7 @@
     "version": "1.36.5",
     "createdAt": "1713424768",
     "features": [
-      "End-to-End encryption for media, for more details [read the announcement blog](https://dyte.io/blog/end-to-end-encryption/)"
+      "End-to-End encryption for media, for more details [read the announcement blog](https://productdb.io/blog/end-to-end-encryption/)"
     ],
     "new_api": [
       "Dynamically update the maximum number of participants in `.active` map (participant whose media are subscribed) using the new `meeting.participants.setMaxActiveParticipantsCount` method"
@@ -47,7 +47,7 @@
       "All event callbacks now have type information"
     ],
     "fixes": [
-      "Fixed `useDyteClient` hook to support breakout rooms changed meeting",
+      "Fixed `useProductDBClient` hook to support breakout rooms changed meeting",
       "Fixed an issue with livestream where hosts were not able to see participants accepted on stage",
       "Fixed an issue with video middleware where they were causing video issues on webkit based browsers",
       "Breakout rooms child rooms will now be auto-joined",
@@ -68,7 +68,7 @@
       "Stereo audio support"
     ],
     "new_api": [
-      "User can now configure media quality configuration include stereo audio on `DyteClient.init`. Checkout the [documentation here](/web-core/advanced/advance#mediaconfiguration)"
+      "User can now configure media quality configuration include stereo audio on `ProductDBClient.init`. Checkout the [documentation here](/web-core/advanced/advance#mediaconfiguration)"
     ]
   },
   {
@@ -140,8 +140,8 @@
       "Firefox 110+ [simulcast](https://en.wikipedia.org/wiki/Simulcast) optimizations"
     ],
     "new_api": [
-      "New [DyteSelfMedia](./reference/DyteSelfMedia) class to initialize media before from DyteClient.init",
-      "New `DyteClient.init` parameter `defaults.autoSwitchAudioDevice` allows user to disable the default behavior of switching to a newly connected audio device automatically"
+      "New [ProductDBSelfMedia](./reference/ProductDBSelfMedia) class to initialize media before from ProductDBClient.init",
+      "New `ProductDBClient.init` parameter `defaults.autoSwitchAudioDevice` allows user to disable the default behavior of switching to a newly connected audio device automatically"
     ]
   },
   {
@@ -229,7 +229,7 @@
     "createdAt": 1679433268,
     "fixes": [
       "Build issue for customers using Webpack v5 aliasing `process` with `false` is resolved.",
-      "Removed `Poll Messages` from [meeting.chat.messages](./reference/DyteChat#module_DyteChat+messages). Poll messages were wrongly included in the chat messages.",
+      "Removed `Poll Messages` from [meeting.chat.messages](./reference/ProductDBChat#module_ProductDBChat+messages). Poll messages were wrongly included in the chat messages.",
       "Optimized screenshare production for higher frame rate.",
       "Improved correctness of [mediaScoreUpdate](./participants/events#network-quality-score) on participant."
     ],
@@ -246,8 +246,8 @@
       "**Interactive Livestream Release (LL-HLS)** \n 1. Broadcast a meeting to 100,000 viewers with Low latency (3-6 seconds)\n 2. Interactive Chat and Polls \n 3. Viewers can raise hands or the host can invite Viewers to join the stage"
     ],
     "new_api": [
-      "A new `DyteStage` module introduced at [meeting.stage](./reference/DyteStage) to manage the stage during livestreaming. \n For more information, see [Livestreaming State Management APIs](https://docs.dyte.io/guides/livestream/state-management-apis).",
-      "A new 'DyteLiveStream' module introduced at [meeting.livestream](./Reference/DyteLivestream) to start and stop the livestreaming. \n For more information, see [Livestreaming: Properties, Functions, and Events](https://docs.dyte.io/guides/livestream/livestream-apis)."
+      "A new `ProductDBStage` module introduced at [meeting.stage](./reference/ProductDBStage) to manage the stage during livestreaming. \n For more information, see [Livestreaming State Management APIs](https://docs.productdb.io/guides/livestream/state-management-apis).",
+      "A new 'ProductDBLiveStream' module introduced at [meeting.livestream](./Reference/ProductDBLivestream) to start and stop the livestreaming. \n For more information, see [Livestreaming: Properties, Functions, and Events](https://docs.productdb.io/guides/livestream/livestream-apis)."
     ]
   },
   {

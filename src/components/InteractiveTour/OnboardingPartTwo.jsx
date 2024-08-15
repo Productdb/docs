@@ -1,6 +1,6 @@
 import {
-  DyteMeeting,
-  DyteSpinner,
+  ProductDBMeeting,
+  ProductDBSpinner,
 } from '@dytesdk/react-ui-kit';
 import React from 'react';
 import { PhoneGeneric } from './nodes/Phone';
@@ -16,7 +16,7 @@ export const stepsTwo = [
     steps. After this step the SDK initializes all network and
     media related capabilities and  you can render your pre-call
     preview screen after this.`,
-    code: `const [meeting, initMeeting] = useDyteClient();
+    code: `const [meeting, initMeeting] = useProductDBClient();
 
 useEffect(() => {
   initMeeting({
@@ -31,7 +31,7 @@ useEffect(() => {
 // meeting is 'undefined'
         
 return (
-  <DyteSetupScreen meeting={meeting} mode="fill" />
+  <ProductDBSetupScreen meeting={meeting} mode="fill" />
 )
     `,
     buttonText: 'Execute',
@@ -44,7 +44,7 @@ return (
     steps. After this step, the SDK initializes all network and
     media related capabilities, you can render your pre-call
     preview screen after this.`,
-    code: `const [meeting, initMeeting] = useDyteClient();
+    code: `const [meeting, initMeeting] = useProductDBClient();
 
 useEffect(() => {
   initMeeting({
@@ -59,7 +59,7 @@ useEffect(() => {
 // meeting is defined
 
 return (
-  <DyteSetupScreen meeting={meeting} mode="fill" />
+  <ProductDBSetupScreen meeting={meeting} mode="fill" />
 )
     `,
     buttonText: 'Next',
@@ -120,11 +120,11 @@ export default function OnboardingPartTwo({ step, store, meeting }) {
       <div>
         <PhoneGeneric>
           <div className="flex h-full w-full items-center justify-center bg-secondary-1000">
-            {store.currentStep === 8 && <DyteSpinner />}
+            {store.currentStep === 8 && <ProductDBSpinner />}
             {(store.currentStep === 9 || store.currentStep === 10) &&
-              meeting && <DyteMeeting meeting={meeting} mode="fill" />}
+              meeting && <ProductDBMeeting meeting={meeting} mode="fill" />}
             {store.currentStep > 10 && meeting && (
-              <DyteMeeting
+              <ProductDBMeeting
                 meeting={meeting}
                 showSetupScreen={false}
                 mode="fill"

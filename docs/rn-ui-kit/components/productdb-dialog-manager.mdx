@@ -1,0 +1,55 @@
+---
+description: >-
+  Learn how to use and customize the ProductDBDialogManager component in ProductDB's React
+  Native UI Kit with our detailed documentation.
+---
+
+# ProductDBDialogManager
+
+A component which handles all dialog elements in a component such as:
+
+- productdb-settings
+- productdb-leave-meeting
+- productdb-permissions-message
+- productdb-image-viewer
+- productdb-remote-access-manager
+
+This components depends on the values from `states` object.
+
+```jsx
+function Example() {
+  const [states, setStates] = useState({});
+
+  const setState = (s) => setStates((states) => ({ ...states, ...s }));
+
+  return (
+    <Row>
+      <ProductDBButton onClick={() => setState({ activeSettings: true })}>
+        Show Settings
+      </ProductDBButton>
+      <ProductDBButton onClick={() => setState({ activeLeaveConfirmation: true })}>
+        Show Leave Confirmation
+      </ProductDBButton>
+      <ProductDBButton onClick={() => setState({ activePermissionsMessage: true })}>
+        Show Permissions Troubleshooting UI
+      </ProductDBButton>
+      <ProductDBButton onClick={() => setState({ activeRemoteAccessManager: true })}>
+        Show Remote Access Manager
+      </ProductDBButton>
+      <ProductDBDialogManager
+        meeting={meeting}
+        states={states}
+        onProductDBStateUpdate={(e) => setState(e.detail)}
+      />
+    </Row>
+  );
+}
+```
+
+## Props
+
+<PropsTable of="productdb-dialog-manager" />
+
+<head>
+  <title>React Native UI Kit ProductDBDialogManager</title>
+</head>

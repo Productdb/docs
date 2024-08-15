@@ -14,20 +14,20 @@ your React project. You can simply import the package from
 
 This page lists all the built-in Hooks in ProductDB.
 
-- `<DyteProvider />`
-- `useDyteMeeting()`
-- `useDyteSelector()`
+- `<ProductDBProvider />`
+- `useProductDBMeeting()`
+- `useProductDBSelector()`
 
-## `<DyteProvider />`
+## `<ProductDBProvider />`
 
 It is a simple context provider providing the meeting object to child
 components.
 
 ```jsx
-import { useDyteClient } from '@dytesdk/react-web-core';
+import { useProductDBClient } from '@dytesdk/react-web-core';
 
 function App() {
-  const [meeting, initMeeting] = useDyteClient();
+  const [meeting, initMeeting] = useProductDBClient();
 
   useEffect(() => {
     initMeeting({
@@ -41,9 +41,9 @@ function App() {
   }, []);
 
   return (
-    <DyteProvider value={meeting}>
+    <ProductDBProvider value={meeting}>
       <Meeting />
-    </DyteProvider>
+    </ProductDBProvider>
   );
 }
 ```
@@ -53,22 +53,22 @@ specific purpose.
 
 These are:
 
-- `useDyteMeeting()`
-- `useDyteSelector()`
+- `useProductDBMeeting()`
+- `useProductDBSelector()`
 
-## `useDyteMeeting()`
+## `useProductDBMeeting()`
 
 This hook essentially returns the `meeting` object you passed to the
-`DyteProvider`.
+`ProductDBProvider`.
 
 The value returned doesn't re-render always whenever properties inside the
 object change.
 
 ```jsx
-import { useDyteSelector, useDyteMeeting } from '@dytesdk/';
+import { useProductDBSelector, useProductDBMeeting } from '@dytesdk/';
 
 function Meeting() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
 
   /*
     use join() method or the setup screen component
@@ -78,12 +78,12 @@ function Meeting() {
     meeting.join();
   }, [meeting]);
 
-  // show DyteMeeting
-  return <DyteMeeting meeting={meeting} />;
+  // show ProductDBMeeting
+  return <ProductDBMeeting meeting={meeting} />;
 }
 ```
 
-## `useDyteSelector()`
+## `useProductDBSelector()`
 
 If you're familiar with Redux's
 [useSelector](https://react-redux.js.org/api/hooks#useselector) hook, this hook
@@ -98,37 +98,37 @@ changes.
 Here is how you can get all the joined participants data:
 
 ```jsx
-const joinedParticipants = useDyteSelector(
+const joinedParticipants = useProductDBSelector(
   (meeting) => meeting.participants.joined
 );
 ```
 
-Refer to core [documentation for reference](/web-core/reference/DyteClient) on
+Refer to core [documentation for reference](/web-core/reference/ProductDBClient) on
 the various properties of the `meeting` object.
 
 ### Example
 
 ```jsx
 import React from 'react';
-import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
-import { DyteGrid, DyteButton } from '@dytesdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { ProductDBGrid, ProductDBButton } from '@dytesdk/react-ui-kit';
 
 function Meeting() {
-  const { meeting } = useDyteMeeting();
-  const roomJoined = useDyteSelector((m) => m.self.roomJoined);
+  const { meeting } = useProductDBMeeting();
+  const roomJoined = useProductDBSelector((m) => m.self.roomJoined);
 
   if (!roomJoined) {
     return (
       <div>
         <p>You haven't joined the room yet.</p>
-        <DyteButton onClick={() => meeting.joinRoom()}>Join Room</DyteButton>
+        <ProductDBButton onClick={() => meeting.joinRoom()}>Join Room</ProductDBButton>
       </div>
     );
   }
 
   return (
     <div style={{ height: '100vh', width: '100vw' }}>
-      <DyteGrid meeting={meeting} />
+      <ProductDBGrid meeting={meeting} />
     </div>
   );
 }

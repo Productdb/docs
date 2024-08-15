@@ -1,0 +1,52 @@
+---
+image: /static/ui-kit/1.x.x/components/productdb-dialog.svg
+description: >-
+  Learn how to use and customize the productdb-dialog component in ProductDB's UI Kit with
+  our detailed documentation.
+---
+
+# productdb-dialog
+
+A dialog component.
+
+```html
+<productdb-button onclick="showDialog()">Show dialog</productdb-button>
+<productdb-dialog id="productdb-el" open="false">
+  <div>
+    <h3>Hello!</h3>
+    <p>This is some text inside dialog!</p>
+  </div>
+</productdb-dialog>
+
+<script>
+  const dialog = document.getElementById('productdb-el');
+
+  dialog.addEventListener('dyteDialogClose', (open) => {
+    console.log('dialog closed');
+  });
+
+  function showDialog() {
+    dialog.open = true;
+  }
+</script>
+<style>
+  productdb-dialog > div {
+    width: 512px;
+    backgroundcolor: #000;
+    color: #fff;
+    padding: 12px;
+    borderradius: 8px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+</style>
+```
+
+## Props
+
+<PropsTable of="productdb-dialog" />
+
+<head>
+  <title>UI Kit productdb-dialog</title>
+</head>

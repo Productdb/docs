@@ -15,12 +15,12 @@ All metadata pertaining to a meeting is stored in `meeting.meta`. This includes:
 - `meetingType`: Indicates the meeting is a group-call or a webinar.
 - `meetingTitle`: The title of the meeting.
 - `meetingStartedTimestamp`: The timestamp when the meeting started.
-- `meetingState`: The state of the meeting of type `DyteMeetingState`.
+- `meetingState`: The state of the meeting of type `ProductDBMeetingState`.
 - `authToken`: User's authentication token for the meeting.
 - `meetingConfig`: The configuration of the meeting of type `MeetingConfig`.
 
 ```kotlin
-enum class DyteMeetingState {
+enum class ProductDBMeetingState {
   NotInitialised,
   InitStarted,
   InitCompleted,

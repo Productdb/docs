@@ -39,23 +39,23 @@ dyteClient.recording.stop();
 ### Listening for Recording Events
 
 To handle recording-related updates, you need to listen for
-`onMeetingRecordingStateUpdated()` event. This returns `DyteRecordingState`
+`onMeetingRecordingStateUpdated()` event. This returns `ProductDBRecordingState`
 object with it.
 
 ### Listen to recording state changes
 
-To handle recording-related updates, you need to implement `DyteMeetingRoomEventsListener`. This interface provides callbacks for various recording events as described in excerpt below:
+To handle recording-related updates, you need to implement `ProductDBMeetingRoomEventsListener`. This interface provides callbacks for various recording events as described in excerpt below:
 
 - `onMeetingRecordingStarted()`: Called when the recording is started or resumed, either by the user or their peer.
 - `onMeetingRecordingEnded()`: Called when the recording is stopped or paused, either by the user or their peer.
-- `onMeetingRecordingStateUpdated(DyteRecordingState` recordingState): Notifies when there is a change in the recording state.
+- `onMeetingRecordingStateUpdated(ProductDBRecordingState` recordingState): Notifies when there is a change in the recording state.
 - `onMeetingRecordingStopError(String error)`: Indicates an error occurred while stopping an active recording.
 - `onMeetingRecordingPauseError(String error)`: Indicates an error occurred while pausing an active recording.
 - `onMeetingRecordingResumeError(String error)`: Indicates an error occurred while resuming a paused recording.
 
 ```dart
 
-class RecordingListener with DyteRecordingEventsListener {
+class RecordingListener with ProductDBRecordingEventsListener {
 
   @override
   void onMeetingRecordingStarted() {
@@ -63,7 +63,7 @@ class RecordingListener with DyteRecordingEventsListener {
   }
 
   @override
-  void onMeetingRecordingStateUpdated(DyteRecordingState recordingState) {
+  void onMeetingRecordingStateUpdated(ProductDBRecordingState recordingState) {
     /// Handle status update of recording
   }
 
