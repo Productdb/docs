@@ -55,10 +55,10 @@ Here's a series of steps that you need to perform:
 ```ts
 class AppComponent {
   title = 'MyProject';
-  dyteMeeting: ProductDBClient;
+  dyteMeeting: DyteClient;
 
   async ngAfterViewInit() {
-    const meeting = await ProductDBClient.init({
+    const meeting = await DyteClient.init({
       authToken: '<auth-token>',
     });
     this.dyteMeeting = meeting;
@@ -86,12 +86,12 @@ more information on the components, see
 ```ts {3,8}
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ProductDBComponentsModule } from '@dytesdk/angular-ui-kit';
+import { DyteComponentsModule } from '@dytesdk/angular-ui-kit';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, ProductDBComponentsModule],
+  imports: [BrowserModule, DyteComponentsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
@@ -126,11 +126,11 @@ If you are using TypeScript, perform the following steps:
 ```ts {3,13}
 class AppComponent {
   title = 'MyProject';
-  @ViewChild('myid') meetingComponent: ProductDBMeeting;
-  dyteMeeting: ProductDBClient;
+  @ViewChild('myid') meetingComponent: DyteMeeting;
+  dyteMeeting: DyteClient;
 
   async ngAfterViewInit() {
-    const meeting = await ProductDBClient.init({
+    const meeting = await DyteClient.init({
       authToken: '<auth-token>',
     });
     meeting.join();
@@ -164,11 +164,11 @@ Load the ProductDB component to your template file (`component.html`).
 ```ts {3,12-15,19-25}
 class AppComponent {
   title = 'MyProject';
-  dyteMeeting: ProductDBClient;
+  dyteMeeting: DyteClient;
   @ViewChild('mic') micButton: HTMLButton;
 
   async ngAfterViewInit() {
-    const meeting = await ProductDBClient.init({
+    const meeting = await DyteClient.init({
       authToken: '<auth-token>',
     });
 

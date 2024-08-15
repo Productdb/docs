@@ -102,7 +102,7 @@ Here's a series of steps that you need to perform:
       // Fetch auth token from server side
       const authToken = await get_auth_token();
 
-      const meeting = await ProductDBClient.init({
+      const meeting = await DyteClient.init({
         authToken,
         defaults: {
           audio: true,
@@ -141,7 +141,7 @@ A single `<productdb-meeting />` component that is feature rich and renders a co
       // Fetch auth token from server side
       const authToken = await get_auth_token();
 
-      const meeting = await ProductDBClient.init({
+      const meeting = await DyteClient.init({
         authToken,
         defaults: {
           audio: true,
@@ -181,7 +181,7 @@ If you want more customizations, pick the components that are needed and build t
       // Fetch auth token from server side
       const authToken = await get_auth_token();
 
-      const meeting = await ProductDBClient.init({
+      const meeting = await DyteClient.init({
         authToken,
         defaults: {
           audio: true,

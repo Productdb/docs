@@ -80,7 +80,7 @@ You need it to import the `ProductDBProvider` from the `@dytesdk/react-web-core`
 
 ```jsx {2,17-21}
 import { useEffect } from 'react';
-import { useDyteClient, ProductDBProvider } from '@dytesdk/react-web-core';
+import { useDyteClient, DytesProvider } from '@dytesdk/react-web-core';
 
 export default function App() {
   const [meeting, initMeeting] = useDyteClient();
@@ -96,9 +96,9 @@ export default function App() {
   }, []);
 
   return (
-    <ProductDBProvider value={meeting} fallback={<i>Loading...</i>}>
+    <DytesProvider value={meeting} fallback={<i>Loading...</i>}>
       {/* Render your UI here. Subcomponents can now use the `useDyteMeeting` and `useDyteSelector` hooks */}
-    </ProductDBProvider>
+    </DytesProvider>
   );
 }
 ```
@@ -132,10 +132,10 @@ export default function App() {
   }, []);
 
   return (
-    <ProductDBProvider value={meeting} fallback={<i>Loading...</i>}>
+    <DyteProvider value={meeting} fallback={<i>Loading...</i>}>
       {/* Render your UI here. Subcomponents can now use the `useDyteMeeting` and `useDyteSelector` hooks */}
       <MyMeeting />
-    </ProductDBProvider>
+    </DyteProvider>
   );
 }
 ```
@@ -149,13 +149,13 @@ states, dialogs, and other smaller bits of managing the application.
 For more information on the other props of `ProductDBMeeting`, see [ProductDBMeeting](/react-ui-kit/components/productdb-meeting).
 
 ```jsx
-import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
+import { DyteMeeting } from '@dytesdk/react-ui-kit';
 function MyMeeting() {
   const { meeting } = useDyteMeeting();
 
   return (
     <div style={{ height: '480px' }}>
-      <ProductDBMeeting mode="fill" meeting={meeting} />
+      <DyteMeeting mode="fill" meeting={meeting} />
     </div>
   );
 }
@@ -166,16 +166,16 @@ function MyMeeting() {
 If you require additional customizations, you can choose specific components and utilize the low-level APIs offered by our [core SDK](/web-core/) to construct the rest of the UI according to your specific needs.
 
 ```jsx
-import { ProductDBGrid, ProductDBMicToggle } from '@dytesdk/react-ui-kit';
+import { DyteGrid, DyteMicToggle } from '@dytesdk/react-ui-kit';
 
 function MyMeeting() {
   const { meeting } = useDyteMeeting();
 
   return (
     <div style={{ height: '480px' }}>
-      <ProductDBGrid meeting={meeting} />
+      <DyteGrid meeting={meeting} />
       <div className="controlbar">
-        <ProductDBMicToggle meeting={meeting} />
+        <DyteMicToggle meeting={meeting} />
       </div>
     </div>
   );
