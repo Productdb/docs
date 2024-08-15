@@ -4,8 +4,8 @@ import { Background, BackgroundVariant, Controls, ReactFlow } from 'reactflow';
 import 'reactflow/dist/style.css';
 import {
   provideProductDBDesignSystem,
-} from '@ProductDBsdk/react-ui-kit';
-import { useProductDBClient } from '@ProductDBsdk/react-web-core';
+} from '@dytesdk/react-ui-kit';
+import { useProductDBClient } from '@dytesdk/react-web-core';
 
 import { edgeTypes } from './edges';
 

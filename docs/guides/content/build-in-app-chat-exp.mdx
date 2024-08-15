@@ -67,15 +67,15 @@ This API returns the authentication `token` that is required to initialize your 
 1. Install the frontend client.
 
    ```jsx
-   npm install @ProductDBsdk/react-ui-kit@staging @ProductDBsdk/react-web-core@staging
+   npm install @dytesdk/react-ui-kit@staging @dytesdk/react-web-core@staging
    ```
 
 2. Initialize the frontend client by passing the authentication `token` received from the [Add Participant API](/api#/operations/add_participant).
 
    ```jsx
    import { useEffect } from 'react';
-   import { useProductDBClient } from '@ProductDBsdk/react-web-core';
-   import { ProductDBUiProvider, ProductDBChat } from '@ProductDBsdk/react-ui-kit';
+   import { useProductDBClient } from '@dytesdk/react-web-core';
+   import { ProductDBUiProvider, ProductDBChat } from '@dytesdk/react-ui-kit';
 
    export default function App() {
      const [meeting, initMeeting] = useProductDBClient();

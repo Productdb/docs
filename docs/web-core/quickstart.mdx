@@ -13,25 +13,25 @@ import { WebCoreCDNInstallation } from '@site/src/components/LatestInstallation'
 
 # Quickstart
 
-This quickstart shows how to use Dyte's core SDKs to add live video and audio to
+This quickstart shows how to use ProductDB's core SDKs to add live video and audio to
 your JavaScript based applications.
 
 ## Objective
 
 You'll learn how to:
 
-- Install the Dyte SDK
-- Initialize Dyte Client
+- Install the ProductDB SDK
+- Initialize ProductDB Client
 - Connect to the meeting
 - Go live!
 
 ## Before Getting Started
 
-- Make sure you've read the [Getting Started with Dyte](/getting-started) topic
+- Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
   and completed the following steps:
 
-  - Create a [Dyte Developer Account](https://dev.productdb.io/)
-  - Create a [Dyte Meeting](/api/?v=v2#/operations/create_meeting)
+  - Create a [ProductDB Developer Account](https://dev.productdb.io/)
+  - Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
 ## Step 1: Install the SDK
@@ -76,7 +76,7 @@ Add the following script tag in the head of your HTML file.
 
 ## Step 2: Initialize the SDK
 
-1. Initialize the Dyte client.
+1. Initialize the ProductDB client.
 2. Call the `init()` method and pass the authToken.
 
 |             |                                                                                                                                                                                   |
@@ -84,19 +84,19 @@ Add the following script tag in the head of your HTML file.
 | `authToken` | After you've created the meeting, add each participant to the meeting using the [Add Participant API](/api#/operations/add_participant). The API response contains the authToken. |
 
 ```js
-const meeting = await DyteClient.init({
+const meeting = await ProductDBClient.init({
   authToken,
 });
 ```
 
 ## Step 3: Connect to the meeting
 
-Now, you have established the connection with the Dyte meeting server
+Now, you have established the connection with the ProductDB meeting server
 successfully. Next step is to join the room.
 
 ### Join the room
 
-To join the meeting room, call join() method on the DyteClient instance as
+To join the meeting room, call join() method on the ProductDBClient instance as
 shown below.
 
 ```js
@@ -128,7 +128,7 @@ await meeting.join();
 
 Once the meeting is over, you can leave the meeting room.
 
-To leave the meeting room, call `leaveRoom()` method on the dyteClient as shown
+To leave the meeting room, call `leaveRoom()` method on the ProductDBClient as shown
 below.
 
 ```js

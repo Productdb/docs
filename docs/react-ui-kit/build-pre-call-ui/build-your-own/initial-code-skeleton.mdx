@@ -24,8 +24,8 @@ Let's put a basic skeleton and the initial boilerplate code.
 ### File: Meeting.tsx
 
 ```tsx
-import { ProductDBSetupScreen } from '@ProductDBsdk/react-ui-kit';
-import type ProductDBClient from '@ProductDBsdk/web-core';
+import { ProductDBSetupScreen } from '@dytesdk/react-ui-kit';
+import type ProductDBClient from '@dytesdk/web-core';
 import { useEffect, useState } from 'react';
 import { CustomStates, SetState } from './types';
 import CustomMeetingPreview from './CustomMeetingPreview';
@@ -64,8 +64,8 @@ function MyMeeting() {
 highlight={[{start: 12, end: 12}, {start: 18, end: 18}]}
 hide={[{start: 1, end: 3}]}
 file={`
-import { useProductDBMeeting } from "@ProductDBsdk/react-web-core";
-import { ProductDBButton } from "@ProductDBsdk/react-ui-kit";
+import { useProductDBMeeting } from "@dytesdk/react-web-core";
+import { ProductDBButton } from "@dytesdk/react-ui-kit";
 
 export default function CustomMeetingPreview() {
   const { meeting } = useProductDBMeeting();

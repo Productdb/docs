@@ -9,7 +9,7 @@ ProductDB's React Native UI Kit provides multiple
 React features from your components.
 
 This provides seamless developer experience when integrating ProductDB's UI Kit in
-your React native project. You can simply import the package from `ProductDBsdk/react-native-core`.
+your React native project. You can simply import the package from `dytesdk/react-native-core`.
 
 This page lists all the built-in Hooks in ProductDB.
 
@@ -24,7 +24,7 @@ It is a simple context provider providing the meeting object to child
 components.
 
 ```jsx
-import { useProductDBClient } from '@ProductDBsdk/react-native-core';
+import { useProductDBClient } from '@dytesdk/react-native-core';
 
 function App() {
   const [meeting, initMeeting] = useProductDBClient();
@@ -57,8 +57,8 @@ It is a simple context provider providing the ProductDB design system to child
 components.
 
 ```jsx
-import { useProductDBClient } from '@ProductDBsdk/react-native-core';
-import { ProductDBUIProvider, ProductDBMeeting } from '@ProductDBsdk/react-native-ui-kit';
+import { useProductDBClient } from '@dytesdk/react-native-core';
+import { ProductDBUIProvider, ProductDBMeeting } from '@dytesdk/react-native-ui-kit';
 
 export default function App() {
   const [meeting, initMeeting] = useProductDBClient();
@@ -103,7 +103,7 @@ The value returned doesn't re-render always whenever properties inside the
 object change.
 
 ```jsx
-import { useProductDBSelector, useProductDBMeeting } from '@ProductDBsdk/react-native-core';
+import { useProductDBSelector, useProductDBMeeting } from '@dytesdk/react-native-core';
 
 function Meeting() {
   const { meeting } = useProductDBMeeting();
@@ -149,8 +149,8 @@ the various properties of the `meeting` object.
 ```jsx
 import React from 'react';
 import { View } from 'react-native';
-import { useProductDBMeeting, useProductDBSelector } from '@ProductDBsdk/react-native-core';
-import { ProductDBGrid, ProductDBButton, ProductDBText } from '@ProductDBsdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-native-core';
+import { ProductDBGrid, ProductDBButton, ProductDBText } from '@dytesdk/react-ui-kit';
 
 function Meeting() {
   const { meeting } = useProductDBMeeting();

@@ -1,4 +1,4 @@
-import { defineCustomElements } from '@ProductDBsdk/ui-kit/loader';
+import { defineCustomElements } from '@dytesdk/ui-kit/loader';
 
 defineCustomElements();
 

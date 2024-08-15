@@ -7,7 +7,7 @@ slug: /migration/twilio/twilio-shim-by-ProductDB
 The Twilio [Shim](<https://en.wikipedia.org/wiki/Shim_(computing)>) by ProductDB is a package that allows you to migrate your video calling applications from [Twilio](https://sdk.twilio.com/js/video/releases/2.27.0/docs/index.html) to ProductDB infrastructure.
 
 - ProductDB provides a set of shim libraries that serve as seamless replacements for the Twilio video APIs. These shims serve as a fundamental building block for migrating your real-time voice and video applications from Twilio to ProductDB infrastructure.
-- The `@ProductDBsdk/twilio-shim` package serves as a wrapper over the ProductDB SDK with an external API that is fully compatible with Twilio JS. As a drop-in replacement for Twilio JS, it can handle most of the methods and events that are present in the original library.
+- The `@dytesdk/twilio-shim` package serves as a wrapper over the ProductDB SDK with an external API that is fully compatible with Twilio JS. As a drop-in replacement for Twilio JS, it can handle most of the methods and events that are present in the original library.
 
 Please [contact us](https://productdb.io/contact) for any help or support with the migration.
 
@@ -16,12 +16,12 @@ Please [contact us](https://productdb.io/contact) for any help or support with t
 To get started with the ProductDB Shim for Twilio, install the shim from the NPM Registry using the following command:
 
 ```bash npm
-npm install @ProductDBsdk/twilio-shim
+npm install @dytesdk/twilio-shim
 ```
 
 ## Usage
 
-The `@ProductDBsdk/twilio-shim` shares the same API as the Twilio video SDK. You can use most of the methods that are supported by it.
+The `@dytesdk/twilio-shim` shares the same API as the Twilio video SDK. You can use most of the methods that are supported by it.
 
 Here are some sample cases, and if you want to see a complete list of compatible features, see the [Twilio Shim: Supported Features](/guides/migration/twilio/compatibility-shim-twilio) page.
 
@@ -30,7 +30,7 @@ Here are some sample cases, and if you want to see a complete list of compatible
 You can obtain ProductDB authentication token `<ProductDB-AUTH-TOKEN>` using the [Add a Participant API](/api#/operations/add_participant).
 
 ```ts
-const { connect } = require('@ProductDBsdk/twilio-shim');
+const { connect } = require('@dytesdk/twilio-shim');
 
 const authToken = '<AUTH_TOKEN_FROM_ProductDB_API>';
 const room = await connect(authToken, { audio: false, video: true });
@@ -44,7 +44,7 @@ room.on('participantConnected', (participant) => {
 ### Add a participant
 
 ```ts
-const { connect } = require('@ProductDBsdk/twilio-shim');
+const { connect } = require('@dytesdk/twilio-shim');
 
 const authToken = '<AUTH_TOKEN_FROM_ProductDB_API>';
 const room = await connect(authToken, { audio: false, video: false });
@@ -70,7 +70,7 @@ room.on('participantConnected', (participant) => {
 ### Enable audio and video
 
 ```ts
-const { connect } = require('@ProductDBsdk/twilio-shim');
+const { connect } = require('@dytesdk/twilio-shim');
 
 const authToken = '<AUTH_TOKEN_FROM_ProductDB_API>';
 const room = await connect(authToken, { audio: true, video: true });

@@ -1,5 +1,5 @@
 import React from 'react';
-import UIKitDocs from '@ProductDBsdk/ui-kit/dist/docs/docs-components.json';
+import UIKitDocs from '@dytesdk/ui-kit/dist/docs/docs-components.json';
 import CodeBlock from '@theme/CodeBlock';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';

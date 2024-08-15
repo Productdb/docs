@@ -60,7 +60,7 @@ In ProductDB, you make a REST API call to [Add Participant API](/api/#/operation
 Install the ProductDB SDK.
 
 ```js
-npm install @ProductDBsdk/web-core
+npm install @dytesdk/web-core
 ```
 
 If you are using CDN / script tags install using
@@ -95,7 +95,7 @@ twilioRoom = await TwilioVideo.connect(TOKEN, {
 ProductDB
 
 ```js
-import ProductDBClient from '@ProductDBsdk/web-core';
+import ProductDBClient from '@dytesdk/web-core';
 
 meeting = await ProductDBClient.init({ authToken: TOKEN });
 await meeting.join();

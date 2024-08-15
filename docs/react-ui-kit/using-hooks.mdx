@@ -10,7 +10,7 @@ React features from your components.
 
 This provides seamless developer experience when integrating ProductDB's UI Kit in
 your React project. You can simply import the package from
-`ProductDBsdk/react-web-core`, which is a hooks wrapper on `ProductDBsdk/web-core`.
+`dytesdk/react-web-core`, which is a hooks wrapper on `dytesdk/web-core`.
 
 This page lists all the built-in Hooks in ProductDB.
 
@@ -24,7 +24,7 @@ It is a simple context provider providing the meeting object to child
 components.
 
 ```jsx
-import { useProductDBClient } from '@ProductDBsdk/react-web-core';
+import { useProductDBClient } from '@dytesdk/react-web-core';
 
 function App() {
   const [meeting, initMeeting] = useProductDBClient();
@@ -65,7 +65,7 @@ The value returned doesn't re-render always whenever properties inside the
 object change.
 
 ```jsx
-import { useProductDBSelector, useProductDBMeeting } from '@ProductDBsdk/';
+import { useProductDBSelector, useProductDBMeeting } from '@dytesdk/';
 
 function Meeting() {
   const { meeting } = useProductDBMeeting();
@@ -110,8 +110,8 @@ the various properties of the `meeting` object.
 
 ```jsx
 import React from 'react';
-import { useProductDBMeeting, useProductDBSelector } from '@ProductDBsdk/react-web-core';
-import { ProductDBGrid, ProductDBButton } from '@ProductDBsdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
+import { ProductDBGrid, ProductDBButton } from '@dytesdk/react-ui-kit';
 
 function Meeting() {
   const { meeting } = useProductDBMeeting();

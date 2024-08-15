@@ -1,7 +1,7 @@
 import {
   ProductDBMeeting,
   ProductDBSpinner,
-} from '@ProductDBsdk/react-ui-kit';
+} from '@dytesdk/react-ui-kit';
 import React from 'react';
 import { PhoneGeneric } from './nodes/Phone';
 import CodeBlock from '@theme/CodeBlock';

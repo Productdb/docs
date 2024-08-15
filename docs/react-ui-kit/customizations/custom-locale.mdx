@@ -20,7 +20,7 @@ Customizing the locale involve the following steps:
     1. Install the package using npm or Yarn.
 
 ```bash npm2yarn
-npm install @ProductDBsdk/react-ui-kit @ProductDBsdk/react-web-core
+npm install @dytesdk/react-ui-kit @dytesdk/react-web-core
 ```
 
 2. Initialize the ProductDB client using the `useProductDBClient()` hook. It returns an array with two values, the meeting object and a function to initialize the meeting.
@@ -32,8 +32,8 @@ npm install @ProductDBsdk/react-ui-kit @ProductDBsdk/react-web-core
 The `ProductDBMeeting` component generates the default UI experience. Read more about how to customize the UI [here](/react-ui-kit/basics/integrate).
 
 ```jsx
-import { useProductDBClient } from '@ProductDBsdk/react-web-core';
-import { ProductDBMeeting } from '@ProductDBsdk/react-ui-kit';
+import { useProductDBClient } from '@dytesdk/react-web-core';
+import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
 
 function App() {
   const [meeting, initMeeting] = useProductDBClient();
@@ -61,7 +61,7 @@ Now that you've integrated ProductDB SDK into your application successfully, let
 ProductDB's default language pack can be imported like so.
 
 ```jsx
-import { defaultLanguage, useLanguage } from '@ProductDBsdk/react-ui-kit';
+import { defaultLanguage, useLanguage } from '@dytesdk/react-ui-kit';
 ```
 
 In order to replace ProductDB's default locale set with your own, you can pass your own locale to the `t` prop exposed by the UI components.

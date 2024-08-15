@@ -13,8 +13,8 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 hide={[{start:1, end: 5}, {start:29, end: 199}]}
 highlight={[{start:6, end: 27}]}
 file={`
-import { ProductDBStage, ProductDBGrid, ProductDBNotifications, ProductDBSidebar, ProductDBControlbar, ProductDBParticipantsAudio, ProductDBDialogManager, defaultConfig, generateConfig } from '@ProductDBsdk/react-ui-kit';
-import { useProductDBMeeting, useProductDBSelector } from '@ProductDBsdk/react-web-core';
+import { ProductDBStage, ProductDBGrid, ProductDBNotifications, ProductDBSidebar, ProductDBControlbar, ProductDBParticipantsAudio, ProductDBDialogManager, defaultConfig, generateConfig } from '@dytesdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
 import { useEffect, useState } from 'react';
 
 function MeetingStage({ meeting, config, states, setStates }: { meeting: ProductDBClient, config: UIConfig, states: CustomStates, setStates: SetStates}) {

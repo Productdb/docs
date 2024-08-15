@@ -6,9 +6,9 @@ const { pascalCase } = require('pascal-case');
 
 const {
   components,
-} = require('@ProductDBsdk/ui-kit/dist/docs/docs-components.json');
+} = require('@dytesdk/ui-kit/dist/docs/docs-components.json');
 
-/** @typedef {import('@ProductDBsdk/ui-kit/dist/docs/docs-components').JsonDocsComponent} Component */
+/** @typedef {import('@dytesdk/ui-kit/dist/docs/docs-components').JsonDocsComponent} Component */
 
 const basePaths = {
   core: 'docs/ui-kit/components',

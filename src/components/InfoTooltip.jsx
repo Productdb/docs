@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProductDBTooltip } from '@ProductDBsdk/react-ui-kit';
+import { ProductDBTooltip } from '@dytesdk/react-ui-kit';
 import { Info } from 'react-feather';
 
 export default function InfoTooltip({ label }) {

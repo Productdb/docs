@@ -94,7 +94,7 @@ export const HTMLUIKitInstallation = () => {
     <CodeBlock language="html">
       {`<head>
   <script type="module">
-      import { defineCustomElements } from 'https://cdn.jsdelivr.net/npm/@ProductDBsdk/ui-kit${uikitVersion}/loader/index.es2017.js';
+      import { defineCustomElements } from 'https://cdn.jsdelivr.net/npm/@dytesdk/ui-kit${uikitVersion}/loader/index.es2017.js';
       defineCustomElements();
   </script>
   <!-- Import Web Core via CDN too -->
@@ -123,7 +123,7 @@ export const HTMLUIKitUtilsInstallation = ({
   <script type="module">
     import {
       ${modules.join(', ')}
-    } from 'https://cdn.jsdelivr.net/npm/@ProductDBsdk/ui-kit${uikitVersion}/dist/esm/index.js';
+    } from 'https://cdn.jsdelivr.net/npm/@dytesdk/ui-kit${uikitVersion}/dist/esm/index.js';
   </script>
 </head>`}
     </CodeBlock>

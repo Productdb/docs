@@ -1,6 +1,6 @@
 import React from 'react';
-import * as ReactUIKit from '@ProductDBsdk/react-ui-kit';
-import * as ReactWebCore from '@ProductDBsdk/react-web-core';
+import * as ReactUIKit from '@dytesdk/react-ui-kit';
+import * as ReactWebCore from '@dytesdk/react-web-core';
 
 import DemoElements from '../../components/DemoElements';
 

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { ProductDBComponentsModule } from '@ProductDBsdk/angular-ui-kit';
+import { ProductDBComponentsModule } from '@dytesdk/angular-ui-kit';
 
 @NgModule({
   declarations: [AppComponent],

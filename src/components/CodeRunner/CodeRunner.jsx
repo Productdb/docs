@@ -64,7 +64,7 @@ const getFiles = (framework: FrameworkType, colorMode: string, customFile: strin
       '/index.html': customFile
     },
     scripts: [
-      'https://cdn.jsdelivr.net/npm/@ProductDBsdk/web-core@1.31.0-stripped.2/dist/index.iife.js',
+      'https://cdn.jsdelivr.net/npm/@dytesdk/web-core@1.31.0-stripped.2/dist/index.iife.js',
       'https://assets.productdb.io/docs/web.js'
     ]
   }
@@ -73,15 +73,15 @@ const getFiles = (framework: FrameworkType, colorMode: string, customFile: strin
 const getDeps = (framework: FrameworkType): { [key: string]: string } => {
   if (framework == 'react-ts') {
     return {
-      '@ProductDBsdk/react-ui-kit': '1.66.0',
-      '@ProductDBsdk/react-web-core': '1.36.4-stripped.1',
-      '@ProductDBsdk/web-core': '1.31.0-stripped.2',
+      '@dytesdk/react-ui-kit': '1.66.0',
+      '@dytesdk/react-web-core': '1.36.4-stripped.1',
+      '@dytesdk/web-core': '1.31.0-stripped.2',
     };
   }
   if (framework == 'angular') {
     return {
-      '@ProductDBsdk/angular-ui-kit': '1.66.0',
-      '@ProductDBsdk/web-core': '1.31.0-stripped.2',
+      '@dytesdk/angular-ui-kit': '1.66.0',
+      '@dytesdk/web-core': '1.31.0-stripped.2',
     }
   }
   return {};

@@ -7,8 +7,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import { usePrismTheme } from '@docusaurus/theme-common';
 import styles from './styles.module.css';
-import { ProductDBProvider, useProductDBClient } from '@ProductDBsdk/react-web-core';
-import { provideProductDBDesignSystem } from '@ProductDBsdk/react-ui-kit';
+import { ProductDBProvider, useProductDBClient } from '@dytesdk/react-web-core';
+import { provideProductDBDesignSystem } from '@dytesdk/react-ui-kit';
 import { useColorMode } from '@docusaurus/theme-common';
 
 function Header({ children }) {

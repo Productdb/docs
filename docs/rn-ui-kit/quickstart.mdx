@@ -25,12 +25,12 @@ import TabItem from '@theme/TabItem';
 ## Step 1: Installation
 
 Since the UI Kit uses the ProductDB Core SDK, you must install the
-`@ProductDBsdk/react-native-core` package along with the `@ProductDBsdk/react-native-ui-kit`.
+`@dytesdk/react-native-core` package along with the `@dytesdk/react-native-ui-kit`.
 
 |                              |                                                                                                                                        |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| @ProductDBsdk/react-native-ui-kit | [![npm version](https://badge.fury.io/js/@ProductDBsdk%2Freact-native-ui-kit.svg)](https://badge.fury.io/js/@ProductDBsdk%2Freact-native-ui-kit) |
-| @ProductDBsdk/react-native-core   | [![npm version](https://badge.fury.io/js/@ProductDBsdk%2Freact-native-core.svg)](https://badge.fury.io/js/@ProductDBsdk%2Freact-native-core)     |
+| @dytesdk/react-native-ui-kit | [![npm version](https://badge.fury.io/js/@dytesdk%2Freact-native-ui-kit.svg)](https://badge.fury.io/js/@dytesdk%2Freact-native-ui-kit) |
+| @dytesdk/react-native-core   | [![npm version](https://badge.fury.io/js/@dytesdk%2Freact-native-core.svg)](https://badge.fury.io/js/@dytesdk%2Freact-native-core)     |
 
 
 <Tabs
@@ -46,7 +46,7 @@ Since the UI Kit uses the ProductDB Core SDK, you must install the
 
 
 ```bash
-npm install @ProductDBsdk/react-native-ui-kit @ProductDBsdk/react-native-core
+npm install @dytesdk/react-native-ui-kit @dytesdk/react-native-core
 ```
 
 Install the required **native** dependencies
@@ -154,7 +154,7 @@ platform :ios, '12.0'
 
 
 ```bash
-npx expo install @ProductDBsdk/react-native-ui-kit @ProductDBsdk/react-native-core
+npx expo install @dytesdk/react-native-ui-kit @dytesdk/react-native-core
 ```
 
 Install the required **native** dependencies
@@ -191,7 +191,7 @@ In `app.json`, add these to plugins:
   expo: {
     ...
     "plugins": [
-          "@ProductDBsdk/react-native-core",
+          "@dytesdk/react-native-core",
           "@ProductDBinternals/react-native-webrtc"
         ],
     ...
@@ -232,8 +232,8 @@ Here's a series of steps that you need to perform:
 
 ```jsx
 import React, { useEffect } from 'react';
-import { ProductDBProvider, useProductDBClient } from '@ProductDBsdk/react-native-core';
-import { ProductDBUIProvider, ProductDBMeeting } from '@ProductDBsdk/react-native-ui-kit';
+import { ProductDBProvider, useProductDBClient } from '@dytesdk/react-native-core';
+import { ProductDBUIProvider, ProductDBMeeting } from '@dytesdk/react-native-ui-kit';
 
 export default function App() {
   const [meeting, initMeeting] = useProductDBClient();

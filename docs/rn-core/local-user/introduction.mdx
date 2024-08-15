@@ -183,7 +183,7 @@ flowchart LR
           config = use_native_modules!
           use_react_native!(:path => config["reactNativePath"], :hermes_enabled => false)
           # Support ReactNativeCore Pod in the Broadcast Upload Extension
-          pod 'ReactNativeCore', :path => '../node_modules/@ProductDBsdk/react-native-core'
+          pod 'ReactNativeCore', :path => '../node_modules/@dytesdk/react-native-core'
       end
       ```
     - Replace the <code>SampleHandler</code> in Broadcast Upload Extension with the following:

@@ -23,7 +23,7 @@ import { createPortal } from 'react-dom';
 import translations from '@theme/SearchTranslations';
 import { Tab } from '@headlessui/react';
 import clsx from 'clsx';
-import { ChatBot } from '@ProductDBsdk/docs-ai-react';
+import { ChatBot } from '@dytesdk/docs-ai-react';
 
 import { Search } from 'react-feather';
 import { ProductDBAISearchIcon } from '@site/src/icons';

@@ -16,8 +16,8 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 hide={[{start:1, end: 5}, {start:98, end: 268}]}
 highlight={[{start:6, end: 64}, {start:85, end: 98}]}
 file={`
-import { ProductDBStage, ProductDBGrid, ProductDBNotifications, ProductDBSidebar, ProductDBControlbar, ProductDBParticipantsAudio, ProductDBDialogManager, ProductDBControlbarButton, ProductDBSidebarUi, defaultIconPack, defaultConfig, generateConfig } from '@ProductDBsdk/react-ui-kit';
-import { useProductDBMeeting, useProductDBSelector } from '@ProductDBsdk/react-web-core';
+import { ProductDBStage, ProductDBGrid, ProductDBNotifications, ProductDBSidebar, ProductDBControlbar, ProductDBParticipantsAudio, ProductDBDialogManager, ProductDBControlbarButton, ProductDBSidebarUi, defaultIconPack, defaultConfig, generateConfig } from '@dytesdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@dytesdk/react-web-core';
 import { useEffect, useState } from 'react';
 
 function SidebarWithCustomUI({
@@ -310,8 +310,8 @@ We have added a custom button to trigger the UI as well using `ProductDBControlb
 For such a sidebar extension, we will have to update the types as well if in case you are using react with Typescript.
 
 ```tsx
-import type { States } from "@ProductDBsdk/ui-kit";
-import { ProductDBSidebarSection } from "@ProductDBsdk/ui-kit/dist/types/components/ProductDB-sidebar/ProductDB-sidebar";
+import type { States } from "@dytesdk/ui-kit";
+import { ProductDBSidebarSection } from "@dytesdk/ui-kit/dist/types/components/ProductDB-sidebar/ProductDB-sidebar";
 
 export type CustomSideBarTabs = ProductDBSidebarSection | 'guidelines';
 

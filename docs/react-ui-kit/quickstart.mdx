@@ -28,13 +28,13 @@ Since the UI Kit is built on top of the Core SDK, you must install the
 `react-web-core` package along with the `ui-kit`.
 
 `react-web-core` consists of hooks written on top of `web-core` which makes it
-easy to use [`web-core`](https://npmjs.com/package/@ProductDBsdk/web-core) in React
+easy to use [`web-core`](https://npmjs.com/package/@dytesdk/web-core) in React
 applications.
 
 You can install the package using npm or Yarn.
 
 ```bash npm2yarn
-npm install @ProductDBsdk/react-ui-kit @ProductDBsdk/react-web-core
+npm install @dytesdk/react-ui-kit @dytesdk/react-web-core
 ```
 
 :::tip Import Errors
@@ -48,16 +48,16 @@ packages, try installing them separately.
 
 |                         |                                                                                                                              |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| @ProductDBsdk/react-ui-kit   | [![npm version](https://badge.fury.io/js/@ProductDBsdk%2Freact-ui-kit.svg)](https://badge.fury.io/js/@ProductDBsdk%2Freact-ui-kit)     |
-| @ProductDBsdk/react-web-core | [![npm version](https://badge.fury.io/js/@ProductDBsdk%2Freact-web-core.svg)](https://badge.fury.io/js/@ProductDBsdk%2Freact-web-core) |
+| @dytesdk/react-ui-kit   | [![npm version](https://badge.fury.io/js/@dytesdk%2Freact-ui-kit.svg)](https://badge.fury.io/js/@dytesdk%2Freact-ui-kit)     |
+| @dytesdk/react-web-core | [![npm version](https://badge.fury.io/js/@dytesdk%2Freact-web-core.svg)](https://badge.fury.io/js/@dytesdk%2Freact-web-core) |
 
 ## Step 2: Initialise meeting
 
 Here's a series of steps that you need to perform:
 
 1. Set up `ProductDBProvider`. You need it to import the `ProductDBProvider` from the
-   `ProductDBsdk/react-web-core`. ProductDBProvider basically is a hook wrapper on
-   ProductDBsdk/web-core. This provides a meeting object to child components.
+   `dytesdk/react-web-core`. ProductDBProvider basically is a hook wrapper on
+   dytesdk/web-core. This provides a meeting object to child components.
 2. Initialize the ProductDB client. Use the `useProductDBClient()` hook and `initMeeting`
    to initialize a client.
 3. Call the `init()` method and pass the `authToken`:
@@ -75,8 +75,8 @@ Here's a series of steps that you need to perform:
 
 ```jsx
 import { useEffect } from 'react';
-import { useProductDBClient } from '@ProductDBsdk/react-web-core';
-import { ProductDBMeeting } from '@ProductDBsdk/react-ui-kit';
+import { useProductDBClient } from '@dytesdk/react-web-core';
+import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
 
 export default function App() {
   const [meeting, initMeeting] = useProductDBClient();
@@ -118,8 +118,8 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 highlight={[{start: 9, end: 9}]}
 hide={[{start:1, end: 3}]}
 file={`
-import { ProductDBMeeting } from '@ProductDBsdk/react-ui-kit';
-import { useProductDBMeeting } from '@ProductDBsdk/react-web-core';
+import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
+import { useProductDBMeeting } from '@dytesdk/react-web-core';
 
 export default function MyMeetingUI() {
   const { meeting } = useProductDBMeeting();
