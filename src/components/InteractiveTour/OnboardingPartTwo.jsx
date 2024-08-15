@@ -16,7 +16,7 @@ export const stepsTwo = [
     steps. After this step the SDK initializes all network and
     media related capabilities and  you can render your pre-call
     preview screen after this.`,
-    code: `const [meeting, initMeeting] = useProductDBClient();
+    code: `const [meeting, initMeeting] = useDyteClient();
 
 useEffect(() => {
   initMeeting({
@@ -44,7 +44,7 @@ return (
     steps. After this step, the SDK initializes all network and
     media related capabilities, you can render your pre-call
     preview screen after this.`,
-    code: `const [meeting, initMeeting] = useProductDBClient();
+    code: `const [meeting, initMeeting] = useDyteClient();
 
 useEffect(() => {
   initMeeting({

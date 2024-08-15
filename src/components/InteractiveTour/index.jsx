@@ -5,7 +5,7 @@ import 'reactflow/dist/style.css';
 import {
   provideProductDBDesignSystem,
 } from '@dytesdk/react-ui-kit';
-import { useProductDBClient } from '@dytesdk/react-web-core';
+import { useDyteClient } from '@dytesdk/react-web-core';
 
 import { edgeTypes } from './edges';
 
@@ -16,7 +16,7 @@ import  OnboardingPartTwo, { stepsTwo } from './OnboardingPartTwo';
 export const InteractiveTour = ({ href }: { href: string }) => {
   const history = useHistory();
   const [r, setR] = useState(false);
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   const store = useStore();
 

@@ -25,10 +25,10 @@ To instantiate ProductDBClient, you can run the following command:
 
 ```js
 import React from 'react';
-import { useProductDBClient, ProductDBProvider } from '@dytesdk/react-native-core';
+import { useDyteClient, ProductDBProvider } from '@dytesdk/react-native-core';
 
 export default function App() {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
   React.useEffect(() => {
     const init = async () => {
       const meetingOptions = {
@@ -48,7 +48,7 @@ export default function App() {
     return (
       <ProductDBProvider value={meeting}>
         {/* Render you Components here*/}
-        {/* Components rendered inside ProductDBProvider can access ProductDBClient object using useProductDBClient() hook */}
+        {/* Components rendered inside ProductDBProvider can access ProductDBClient object using useDyteClient() hook */}
       </ProductDBProvider>
     );
 }

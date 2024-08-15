@@ -7,7 +7,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import { usePrismTheme } from '@docusaurus/theme-common';
 import styles from './styles.module.css';
-import { ProductDBProvider, useProductDBClient } from '@dytesdk/react-web-core';
+import { ProductDBProvider, useDyteClient } from '@dytesdk/react-web-core';
 import { provideProductDBDesignSystem } from '@dytesdk/react-ui-kit';
 import { useColorMode } from '@docusaurus/theme-common';
 
@@ -101,7 +101,7 @@ export default function Playground({ children, transformCode, ...props }) {
 
   const prismTheme = usePrismTheme();
 
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
   const { colorMode } = useColorMode();
 
   // TODO: Uncomment following block of code after adding mock web-core package

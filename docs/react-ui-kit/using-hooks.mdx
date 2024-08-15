@@ -24,10 +24,10 @@ It is a simple context provider providing the meeting object to child
 components.
 
 ```jsx
-import { useProductDBClient } from '@dytesdk/react-web-core';
+import { useDyteClient } from '@dytesdk/react-web-core';
 
 function App() {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   useEffect(() => {
     initMeeting({

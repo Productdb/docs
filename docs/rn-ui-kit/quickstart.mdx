@@ -217,7 +217,7 @@ Here's a series of steps that you need to perform:
 
 1. Set up `ProductDBProvider`. This provides the context that provides meeting object and other data to all the child components.
 2. Set up `ProductDBUIProvider`. This provides design system to child components.
-3. Initialize the ProductDB client. Use the `useProductDBClient()` hook and `initMeeting`
+3. Initialize the ProductDB client. Use the `useDyteClient()` hook and `initMeeting`
    to initialize a client.
 
 |             |                                                                                                                                                                                   |
@@ -232,11 +232,11 @@ Here's a series of steps that you need to perform:
 
 ```jsx
 import React, { useEffect } from 'react';
-import { ProductDBProvider, useProductDBClient } from '@dytesdk/react-native-core';
+import { ProductDBProvider, useDyteClient } from '@dytesdk/react-native-core';
 import { ProductDBUIProvider, ProductDBMeeting } from '@dytesdk/react-native-ui-kit';
 
 export default function App() {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   useEffect(() => {
     const init = async () => {

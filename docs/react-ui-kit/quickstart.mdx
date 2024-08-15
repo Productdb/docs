@@ -58,7 +58,7 @@ Here's a series of steps that you need to perform:
 1. Set up `ProductDBProvider`. You need it to import the `ProductDBProvider` from the
    `dytesdk/react-web-core`. ProductDBProvider basically is a hook wrapper on
    dytesdk/web-core. This provides a meeting object to child components.
-2. Initialize the ProductDB client. Use the `useProductDBClient()` hook and `initMeeting`
+2. Initialize the ProductDB client. Use the `useDyteClient()` hook and `initMeeting`
    to initialize a client.
 3. Call the `init()` method and pass the `authToken`:
 
@@ -75,11 +75,11 @@ Here's a series of steps that you need to perform:
 
 ```jsx
 import { useEffect } from 'react';
-import { useProductDBClient } from '@dytesdk/react-web-core';
+import { useDyteClient } from '@dytesdk/react-web-core';
 import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
 
 export default function App() {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   useEffect(() => {
     initMeeting({

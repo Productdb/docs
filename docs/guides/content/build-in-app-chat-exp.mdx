@@ -74,11 +74,11 @@ This API returns the authentication `token` that is required to initialize your 
 
    ```jsx
    import { useEffect } from 'react';
-   import { useProductDBClient } from '@dytesdk/react-web-core';
+   import { useDyteClient } from '@dytesdk/react-web-core';
    import { ProductDBUiProvider, ProductDBChat } from '@dytesdk/react-ui-kit';
 
    export default function App() {
-     const [meeting, initMeeting] = useProductDBClient();
+     const [meeting, initMeeting] = useDyteClient();
 
      useEffect(() => {
        initMeeting({

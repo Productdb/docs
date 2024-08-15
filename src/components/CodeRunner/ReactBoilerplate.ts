@@ -1,5 +1,5 @@
 const APP = (colorMode: string) => `import React, { useEffect } from 'react';
-import { ProductDBProvider, useProductDBClient } from '@dytesdk/react-web-core';
+import { ProductDBProvider, useDyteClient } from '@dytesdk/react-web-core';
 import { provideProductDBDesignSystem } from '@dytesdk/react-ui-kit';
 import Custom from './meeting.tsx';
 
@@ -8,7 +8,7 @@ const initInProgress = {
 };
 
 export default function App() {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   useEffect(() => {
     if (initInProgress.value) return;

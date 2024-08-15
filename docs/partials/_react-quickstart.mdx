@@ -50,15 +50,15 @@ Here's a series of steps that you need to perform:
 
 ### Initialize the ProductDB client
 
-- Use the `useProductDBClient()` hook and `initMeeting`
+- Use the `useDyteClient()` hook and `initMeeting`
 - Provide the `authToken` that you fetched from your server-side
 
 ```jsx
 import { useEffect } from 'react';
-import { useProductDBClient } from '@dytesdk/react-web-core';
+import { useDyteClient } from '@dytesdk/react-web-core';
 
 export default function Meeting({ authToken }) {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   useEffect(() => {
     initMeeting({
@@ -80,10 +80,10 @@ You need it to import the `ProductDBProvider` from the `@dytesdk/react-web-core`
 
 ```jsx {2,17-21}
 import { useEffect } from 'react';
-import { useProductDBClient, ProductDBProvider } from '@dytesdk/react-web-core';
+import { useDyteClient, ProductDBProvider } from '@dytesdk/react-web-core';
 
 export default function App() {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   useEffect(() => {
     initMeeting({
@@ -115,11 +115,11 @@ Create a `MyMeeting` component and render it within `ProductDBProvider`.
 
 ```jsx {3,21}
 import { useEffect } from 'react';
-import { useProductDBClient, ProductDBProvider } from '@dytesdk/react-web-core';
+import { useDyteClient, ProductDBProvider } from '@dytesdk/react-web-core';
 import MyMeeting from './my-meeting';
 
 export default function App() {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   useEffect(() => {
     initMeeting({

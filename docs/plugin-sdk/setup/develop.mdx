@@ -82,11 +82,11 @@ Install `@dytesdk/react-web-core@1.x.x` or higher to use dev tools.
 :::
 
 ```ts
-import { useProductDBClient } from '@dytesdk/react-web-core';
+import { useDyteClient } from '@dytesdk/react-web-core';
 import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
 
 export default function App() {
-  const [meeting, initMeeting] = useProductDBClient();
+  const [meeting, initMeeting] = useDyteClient();
 
   useEffect(() => {
     initMeeting({
