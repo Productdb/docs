@@ -11,9 +11,9 @@ A component which shows a participant's name.
 
 ```jsx live
 <Row>
-  <ProductDBNameTag participant={meeting.self} />
+  <DyteNameTag participant={meeting.self} />
   {/* pass `meeting` to it to differentiate `you`. */}
-  <ProductDBNameTag participant={meeting.self} meeting={meeting} />
+  <DyteNameTag participant={meeting.self} meeting={meeting} />
 </Row>
 ```
 

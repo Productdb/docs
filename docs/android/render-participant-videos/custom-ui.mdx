@@ -57,7 +57,7 @@ to represent the remote participant and the local user.
     android:layout_height="match_parent"
     tools:context=".VideoCallActivity">
 
-    <productdb.io.uikit.view.participanttile.ProductDBParticipantTileView
+    <dyte.io.uikit.view.participanttile.ProductDBParticipantTileView
         android:id="@+id/dyteparticipanttileview_remote_participant"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -67,7 +67,7 @@ to represent the remote participant and the local user.
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <productdb.io.uikit.view.participanttile.ProductDBParticipantTileView
+    <dyte.io.uikit.view.participanttile.ProductDBParticipantTileView
         android:id="@+id/dyteparticipanttileview_self_participant"
         android:layout_width="144dp"
         android:layout_height="200dp"
@@ -82,7 +82,7 @@ to represent the remote participant and the local user.
 them to render the videos.
 
 ```kotlin
-import productdb.io.uikit.view.participanttile.ProductDBParticipantTileView
+import dyte.io.uikit.view.participanttile.ProductDBParticipantTileView
 import io.productdb.core.ProductDBMobileClient
 
 class VideoCallActivity : AppCompatActivity() {

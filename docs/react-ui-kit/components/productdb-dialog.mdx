@@ -1,11 +1,11 @@
 ---
 image: /static/ui-kit/1.x.x/components/productdb-dialog.svg
 description: >-
-  Learn how to use and customize the ProductDBDialog component in ProductDB's React UI Kit
+  Learn how to use and customize the DyteDialog component in Dyte's React UI Kit
   with our detailed documentation.
 ---
 
-# ProductDBDialog
+# DyteDialog
 
 A dialog component.
 
@@ -15,10 +15,10 @@ function Example() {
 
   return (
     <div>
-      <ProductDBButton onClick={() => setShowDialog(true)}>Show Dialog</ProductDBButton>
-      <ProductDBDialog
+      <DyteButton onClick={() => setShowDialog(true)}>Show Dialog</DyteButton>
+      <DyteDialog
         open={showDialog}
-        onProductDBDialogClose={() => setShowDialog(false)}
+        onDyteDialogClose={() => setShowDialog(false)}
       >
         <div
           style={{
@@ -32,7 +32,7 @@ function Example() {
           <h3>Hello!</h3>
           <p style={{ marginBottom: 0 }}>This is some text inside dialog!</p>
         </div>
-      </ProductDBDialog>
+      </DyteDialog>
     </div>
   );
 }
@@ -43,5 +43,5 @@ function Example() {
 <PropsTable of="productdb-dialog" />
 
 <head>
-  <title>React UI Kit ProductDBDialog</title>
+  <title>React UI Kit DyteDialog</title>
 </head>

@@ -16,17 +16,17 @@ of components like `productdb-name-tag`, `productdb-audio-visualizer` or any oth
 hide={[{start:1, end: 3}]}
 minHeight='300px'
 file={`
-import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@dytesdk/react-ui-kit";
+import { DyteParticipantTile, DyteNameTag, DyteAudioVisualizer } from "@dytesdk/react-ui-kit";
 import { useDyteMeeting } from "@dytesdk/react-web-core";
 
 export default function MyMeetingUI() {
   const { meeting } = useDyteMeeting();
   return (
-    <ProductDBParticipantTile participant={meeting.self}>
-      <ProductDBNameTag participant={meeting.self}>
-        <ProductDBAudioVisualizer slot="start" />
-      </ProductDBNameTag>
-    </ProductDBParticipantTile>
+    <DyteParticipantTile participant={meeting.self}>
+      <DyteNameTag participant={meeting.self}>
+        <DyteAudioVisualizer slot="start" />
+      </DyteNameTag>
+    </DyteParticipantTile>
   );
 }
 `} />
@@ -46,17 +46,17 @@ additionalDecorators={[{
   }]}
 minHeight='300px'
 file={`
-import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@dytesdk/react-ui-kit";
+import { DyteParticipantTile, DyteNameTag, DyteAudioVisualizer } from "@dytesdk/react-ui-kit";
 import { useDyteMeeting } from "@dytesdk/react-web-core";
 
 export default function MyMeetingUI() {
   const { meeting } = useDyteMeeting();
   return (
-    <ProductDBParticipantTile participant={meeting.self} nameTagPosition="bottom-center">
-      <ProductDBNameTag participant={meeting.self}>
-        <ProductDBAudioVisualizer slot="start" />
-      </ProductDBNameTag>
-    </ProductDBParticipantTile>
+    <DyteParticipantTile participant={meeting.self} nameTagPosition="bottom-center">
+      <DyteNameTag participant={meeting.self}>
+        <DyteAudioVisualizer slot="start" />
+      </DyteNameTag>
+    </DyteParticipantTile>
   );
 }
 `} />
@@ -68,22 +68,22 @@ hide={[{start:1, end: 3}]}
 highlight={[{start:12, end: 12}]}
 minHeight='300px'
 file={`
-import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@dytesdk/react-ui-kit";
+import { DyteParticipantTile, DyteNameTag, DyteAudioVisualizer } from "@dytesdk/react-ui-kit";
 import { useDyteMeeting } from "@dytesdk/react-web-core";
 
 export default function MyMeetingUI() {
   const { meeting } = useDyteMeeting();
 
   return (
-    <ProductDBParticipantTile
+    <DyteParticipantTile
       participant={meeting.self}
       nameTagPosition="bottom-center" 
       variant="gradient"
     >
-      <ProductDBNameTag participant={meeting.self}>
-        <ProductDBAudioVisualizer slot="start" />
-      </ProductDBNameTag>
-    </ProductDBParticipantTile>
+      <DyteNameTag participant={meeting.self}>
+        <DyteAudioVisualizer slot="start" />
+      </DyteNameTag>
+    </DyteParticipantTile>
   );
 }
 `} />

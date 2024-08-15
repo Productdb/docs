@@ -15,11 +15,11 @@ val meetingInfo = ProductDBMeetingInfoV2(
   enableAudio = true,
   enableVideo = true
 )
-val config = ProductDBUIKitConfig(
+val config = DyteUIKitConfig(
   activity = this,
   dyteMeetingInfo = meetingInfo,
 )
-val dyteUIKit = ProductDBUIKitBuilder.build(config)
+val dyteUIKit = DyteUIKitBuilder.build(config)
 ```
 
 ## Control the meeting, and take meeting & participant actions

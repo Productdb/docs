@@ -11,7 +11,7 @@ A poll component.
 Shows a poll where a user can vote.
 
 ```jsx live
-<ProductDBPoll
+<DytePoll
   poll={{
     id: 'poll-id',
     question: 'Have you started using productdb yet?',
@@ -33,7 +33,7 @@ Shows a poll where a user can vote.
     createdByUserId: 'vaibhavs-user-id',
     voted: [],
   }}
-  onProductDBVotePoll={(e) => {
+  onDyteVotePoll={(e) => {
     console.log('Voted', e.detail);
   }}
 />

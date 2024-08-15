@@ -10,24 +10,24 @@ A menu item component.
 
 ```jsx live
 <Row style={{ padding: '52px 0 0 0' }}>
-  <ProductDBMenu placement="top">
-    <ProductDBButton slot="trigger">Top Menu</ProductDBButton>
-    <ProductDBMenuList>
-      <ProductDBMenuItem onClick={() => alert('You clicked: alert()')}>
+  <DyteMenu placement="top">
+    <DyteButton slot="trigger">Top Menu</DyteButton>
+    <DyteMenuList>
+      <DyteMenuItem onClick={() => alert('You clicked: alert()')}>
         alert()
-      </ProductDBMenuItem>
-    </ProductDBMenuList>
-  </ProductDBMenu>
+      </DyteMenuItem>
+    </DyteMenuList>
+  </DyteMenu>
 
   {/* This menu will be placed at top due to less space */}
-  <ProductDBMenu placement="bottom">
-    <ProductDBButton slot="trigger">Bottom Menu</ProductDBButton>
-    <ProductDBMenuList>
-      <ProductDBMenuItem onClick={() => alert('You clicked: alert()')}>
+  <DyteMenu placement="bottom">
+    <DyteButton slot="trigger">Bottom Menu</DyteButton>
+    <DyteMenuList>
+      <DyteMenuItem onClick={() => alert('You clicked: alert()')}>
         alert()
-      </ProductDBMenuItem>
-    </ProductDBMenuList>
-  </ProductDBMenu>
+      </DyteMenuItem>
+    </DyteMenuList>
+  </DyteMenu>
 </Row>
 ```
 

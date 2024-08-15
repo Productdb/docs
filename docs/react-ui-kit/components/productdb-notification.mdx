@@ -13,7 +13,7 @@ You need to remove the element after you receive the
 `dyteNotificationDismiss` event.
 
 ```jsx live
-<ProductDBNotification
+<DyteNotification
   notification={{
     id: 'your-id',
     message: 'Vaibhav says hi!',
@@ -24,7 +24,7 @@ You need to remove the element after you receive the
       onClick: () => alert('Hey'),
     },
   }}
-  onProductDBNotificationDismiss={(e) => {
+  onDyteNotificationDismiss={(e) => {
     e.target.remove();
   }}
 />

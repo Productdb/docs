@@ -9,13 +9,13 @@ description: >-
 A component that indicates poor network connection.
 
 ```jsx
-<ProductDBNetworkIndicator meeting={meeting} participant={meeting.self} />
+<DyteNetworkIndicator meeting={meeting} participant={meeting.self} />
 ```
 
 It listens to the mediaScoreUpdate event of the passed participant to get the score.
 
 ```tsx
- (participant as ProductDBParticipant).addListener('mediaScoreUpdate', ({ kind, isScreenshare, score }) => {
+ (participant as DyteParticipant).addListener('mediaScoreUpdate', ({ kind, isScreenshare, score }) => {
   console.log(`Score for ${isScreenshare ? 'screen share': ''} ${kind} was:: ${score}`);
 });
 ```

@@ -1,10 +1,10 @@
 ---
 description: >-
-  Learn how to use and customize the ProductDBDialogManager component in ProductDB's React
+  Learn how to use and customize the DyteDialogManager component in Dyte's React
   UI Kit with our detailed documentation.
 ---
 
-# ProductDBDialogManager
+# DyteDialogManager
 
 A component which handles all dialog elements in a component such as:
 
@@ -25,13 +25,13 @@ function Example() {
 
   return (
     <Row>
-      <ProductDBButton onClick={() => setState({ activeSettings: true })}>
+      <DyteButton onClick={() => setState({ activeSettings: true })}>
         Show Settings
-      </ProductDBButton>
-      <ProductDBButton onClick={() => setState({ activeLeaveConfirmation: true })}>
+      </DyteButton>
+      <DyteButton onClick={() => setState({ activeLeaveConfirmation: true })}>
         Show Leave Confirmation
-      </ProductDBButton>
-      <ProductDBButton
+      </DyteButton>
+      <DyteButton
         onClick={() =>
           setState({
             activePermissionsMessage: { enabled: true, kind: 'audio' },
@@ -39,14 +39,14 @@ function Example() {
         }
       >
         Show Permissions Troubleshooting UI
-      </ProductDBButton>
-      <ProductDBButton onClick={() => setState({ activeRemoteAccessManager: true })}>
+      </DyteButton>
+      <DyteButton onClick={() => setState({ activeRemoteAccessManager: true })}>
         Show Remote Access Manager
-      </ProductDBButton>
-      <ProductDBDialogManager
+      </DyteButton>
+      <DyteDialogManager
         meeting={meeting}
         states={states}
-        onProductDBStateUpdate={(e) => setState(e.detail)}
+        onDyteStateUpdate={(e) => setState(e.detail)}
       />
     </Row>
   );
@@ -58,5 +58,5 @@ function Example() {
 <PropsTable of="productdb-dialog-manager" />
 
 <head>
-  <title>React UI Kit ProductDBDialogManager</title>
+  <title>React UI Kit DyteDialogManager</title>
 </head>
