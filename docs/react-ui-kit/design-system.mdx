@@ -25,8 +25,8 @@ function Example() {
   const { meeting } = useDyteMeeting();
 
   useEffect(() => {
-    // provideProductDBDesignSystem(node, designTokens)
-    provideProductDBDesignSystem(meetingEl.current, {
+    // provideDyteDesignSystem(node, designTokens)
+    provideDyteDesignSystem(meetingEl.current, {
       googleFont: 'Lobster',
       // sets light background colors
       theme: 'light',
@@ -49,7 +49,7 @@ function Example() {
 
   return (
     <div style={{ height: '400px' }}>
-      <ProductDBMeeting meeting={meeting} ref={meetingEl} mode="fill" />
+      <DyteMeeting meeting={meeting} ref={meetingEl} mode="fill" />
     </div>
   );
 }
