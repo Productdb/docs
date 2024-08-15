@@ -57,9 +57,9 @@ The `PollOption` object has the following properties:
 </TabItem>
 <TabItem value="flutter" label="Flutter">
 
-The meetings polls object can be accessed using `dyteClient.polls`. `dyteClient.polls.polls` returns an array of all polls created in a meeting, where each element is an object of type DytePollMessage.
+The meetings polls object can be accessed using `ProductDBClient.polls`. `ProductDBClient.polls.polls` returns an array of all polls created in a meeting, where each element is an object of type ProductDBPollMessage.
 
-The `DytePollMessage` has the following properties:
+The `ProductDBPollMessage` has the following properties:
 
 | Property  | Description                                                                   |
 | --------- | ----------------------------------------------------------------------------- |
@@ -68,17 +68,17 @@ The `DytePollMessage` has the following properties:
 | anonymous | To hide the votes of each user even after completion (false by default)       |
 | hideVotes | Hide votes until the voting is complete (enabled if anonymous is enabled)     |
 | createdBy | Name of creator the poll                                                      |
-| options   | Array of DytePollOption object, contains all the options to the poll question |
+| options   | Array of ProductDBPollOption object, contains all the options to the poll question |
 
-The `DytePollOption` has the following properties:
+The `ProductDBPollOption` has the following properties:
 
 | Property | Description                                                                  |
 | -------- | ---------------------------------------------------------------------------- |
 | text     | Contains the option text                                                     |
-| votes    | List of DytePollVote object, which contains info about voters of this option |
+| votes    | List of ProductDBPollVote object, which contains info about voters of this option |
 | count    | Int of number of votes given to this option                                  |
 
-The `DytePollVote` has the following properties:
+The `ProductDBPollVote` has the following properties:
 
 | Property | Description       |
 | -------- | ----------------- |
@@ -115,12 +115,12 @@ The `PollOption` object has the following properties:
 <TabItem value="android" label="Android(Kotlin)">
 
 `meeting.polls.polls` returns an array of all polls created in a meeting, where
-each element is an object of type `DytePollMessage`.
+each element is an object of type `ProductDBPollMessage`.
 
-The type `DytePollMessage` is the main class for any poll in Dyte. It also
-contains list of `DytePollOption` which are options for a given poll. And every
-`DytePollOption` has list of votes inside of it. Votes are objects of class
-`DytePollVote` which internally has id and name of the vote.
+The type `ProductDBPollMessage` is the main class for any poll in ProductDB. It also
+contains list of `ProductDBPollOption` which are options for a given poll. And every
+`ProductDBPollOption` has list of votes inside of it. Votes are objects of class
+`ProductDBPollVote` which internally has id and name of the vote.
 
 One can easily create, vote and view polls by listening to callbacks on
 `meeting` object.
@@ -128,9 +128,9 @@ One can easily create, vote and view polls by listening to callbacks on
 </TabItem>
 <TabItem value="iOS" label="iOS(Swift)">
 
-`meeting.polls.polls` returns an array of all polls created in a meeting, where each element is an object of type `DytePollMessage`
+`meeting.polls.polls` returns an array of all polls created in a meeting, where each element is an object of type `ProductDBPollMessage`
 
-The type `DytePollMessage` is the main class for any poll in Dyte. It also contains list of `DytePollOption` which are options for a given poll. And every `DytePollOption` has list of votes inside of it. Votes are objects of class DytePollVote which internally has id and name of the vote.
+The type `ProductDBPollMessage` is the main class for any poll in ProductDB. It also contains list of `ProductDBPollOption` which are options for a given poll. And every `ProductDBPollOption` has list of votes inside of it. Votes are objects of class ProductDBPollVote which internally has id and name of the vote.
 
 </TabItem>
 </Tabs>
@@ -178,7 +178,7 @@ await meeting.poll.create(
 <TabItem value="flutter" label="Flutter">
 
 ```dart
-dyteClient.polls.create(
+ProductDBClient.polls.create(
     question: "Are you an early bird or a night owl?",
     options: ["Early bird", "Night owl"],
     anonymous: true,
@@ -234,7 +234,7 @@ Here is a sample request, make sure to replace the meeting ID and the authorizat
 
 ```bash
 curl --request POST \
-  --url https://api.dyte.io/v2/meetings/meeting_id/active-session/poll \
+  --url https://api.productdb.io/v2/meetings/meeting_id/active-session/poll \
   --header 'Authorization: Basic undefined' \
   --header 'Content-Type: application/json' \
   --data '{
@@ -308,9 +308,9 @@ await meeting.poll.vote(poll.id, 0);
 <TabItem value="flutter" label="Flutter">
 
 ```dart
-final poll = dyteClient.polls.polls[0];
+final poll = ProductDBClient.polls.polls[0];
 final selectedPollOption = poll.options[0];
-dyteClient.polls.vote(poll, selectedPollOption);
+ProductDBClient.polls.vote(poll, selectedPollOption);
 ```
 
 </TabItem>
@@ -366,7 +366,7 @@ const votes = poll.voted;
 <TabItem value="flutter" label="Flutter">
 
 ```dart
-final poll = dyteClient.polls.polls[0];
+final poll = ProductDBClient.polls.polls[0];
 let votes = 0;
 for (final option in poll.options) {
   votes += option.count
@@ -430,7 +430,7 @@ const options = poll.options;
 <TabItem value="flutter" label="Flutter">
 
 ```dart
-final poll = dyteClient.polls.polls[0];
+final poll = ProductDBClient.polls.polls[0];
 final options = poll.option;
 ```
 
@@ -491,23 +491,23 @@ meeting.polls.on('pollsUpdate', ({ polls, newPoll }) => {
 </TabItem>
 <TabItem value="flutter" label="Flutter">
 
-To be able to receive new poll messages you need to implement a method onPollUpdates() method from callback `DytePollEventsListener`:
+To be able to receive new poll messages you need to implement a method onPollUpdates() method from callback `ProductDBPollEventsListener`:
 
 To get poll updates, listen to `onPollUpdates()` callback:
 
 ```dart
 
-class PollEventsListeners extends DytePollEventsListener {
+class PollEventsListeners extends ProductDBPollEventsListener {
 
   ...
 
   @override
-  void onPollUpdates(List<DytePollMessage> polls) {
+  void onPollUpdates(List<ProductDBPollMessage> polls) {
     /// code to handle polls
   }
 
   @override
-  void onNewPoll(DytePollMessage poll) {
+  void onNewPoll(ProductDBPollMessage poll) {
     /// code to handle new poll
   }
 
@@ -519,7 +519,7 @@ class PollEventsListeners extends DytePollEventsListener {
 You can subscribe to this events by `addPollEventsListener` method:
 
 ```dart
-dyteClient.addPollEventsListener(PollEventsListeners());
+ProductDBClient.addPollEventsListener(PollEventsListeners());
 ```
 
 </TabItem>
@@ -535,19 +535,19 @@ meeting.polls.on('pollsUpdate', ({ polls, newPoll }) => {
 <TabItem value="android" label="Android(Kotlin)">
 
 To be able to receive new poll messages you need to implement a method
-`onPollUpdates()` method from callback `DyteMeetingRoomEventsListener`. You can
+`onPollUpdates()` method from callback `ProductDBMeetingRoomEventsListener`. You can
 subscribe to this events by calling
-`meeting.addMeetingEventsListener(dyteMeetingRoomEventsListener)`
+`meeting.addMeetingEventsListener(ProductDBMeetingRoomEventsListener)`
 
 ```kotlin
     meeting.addMeetingRoomEventsListener(object :
-      DyteMeetingRoomEventsListener {
-      override fun onNewPoll(poll: DytePollMessage) {
+      ProductDBMeetingRoomEventsListener {
+      override fun onNewPoll(poll: ProductDBPollMessage) {
         super.onNewPoll(poll)
         // code to handle new poll
       }
 
-      override fun onPollUpdates(pollMessages: List<DytePollMessage>) {
+      override fun onPollUpdates(pollMessages: List<ProductDBPollMessage>) {
         super.onPollUpdates(pollMessages)
         // code to handle polls and their vote updates.
       }
@@ -557,15 +557,15 @@ subscribe to this events by calling
 </TabItem>
 <TabItem value="iOS" label="iOS(Swift)">
 
-To receive new poll messages, you must implement the` onPollUpdates()` method from the callback `DytePollEventsListener`. You can subscribe to this event by using the meeting.`addMeetingEventsListener(dytePollEventsListener)` method.
+To receive new poll messages, you must implement the` onPollUpdates()` method from the callback `ProductDBPollEventsListener`. You can subscribe to this event by using the meeting.`addMeetingEventsListener(ProductDBPollEventsListener)` method.
 
 ```swift
-extension MeetingViewModel: DytePollEventsListener {
-      func onNewPoll(poll: DytePollMessage) {
+extension MeetingViewModel: ProductDBPollEventsListener {
+      func onNewPoll(poll: ProductDBPollMessage) {
         // code to handle new poll
       }
 
-      func onPollUpdates(pollMessages: [DytePollMessage]) {
+      func onPollUpdates(pollMessages: [ProductDBPollMessage]) {
         // code to handle polls and their vote updates
       }
     }

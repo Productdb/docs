@@ -9,59 +9,59 @@ tags:
   - waiting room
 ---
 
-Participants in the waiting room are represented by `DyteWaitlistedParticipant` objects. If the local user has the permission to
-accept waiting room requests (`dyteMobileClient.permissions.waitingRoom.canAcceptRequests` is _true_), you can manage pending waiting room requests,
+Participants in the waiting room are represented by `ProductDBWaitlistedParticipant` objects. If the local user has the permission to
+accept waiting room requests (`ProductDBMobileClient.permissions.waitingRoom.canAcceptRequests` is _true_), you can manage pending waiting room requests,
 accepting or rejecting them as needed.
-You can access the list of waitlisted participants via the `dyteMobileClient.participants.waitlisted` property.
+You can access the list of waitlisted participants via the `ProductDBMobileClient.participants.waitlisted` property.
 
-**Note**: If the local user is not a host, `dyteMobileClient.participants.waitlisted` property returns an empty list.
+**Note**: If the local user is not a host, `ProductDBMobileClient.participants.waitlisted` property returns an empty list.
 
 ### Accepting Requests
 
-To accept a waiting room request, use the `acceptWaitListedRequest()` method on a `dyteMobileClient.hostActions` object:
+To accept a waiting room request, use the `acceptWaitListedRequest()` method on a `ProductDBMobileClient.hostActions` object:
 
 ```dart
-final waitlistedParticipant = dyteMobileClient.participants.waitlisted[0];
-dyteMobileClient.hostActions.acceptWaitlistedParticipant(waitlistedParticipant);
+final waitlistedParticipant = ProductDBMobileClient.participants.waitlisted[0];
+ProductDBMobileClient.hostActions.acceptWaitlistedParticipant(waitlistedParticipant);
 ```
 
 ### Rejecting Requests
 
-To deny a waiting room request, use the `rejectWaitListedRequest()` method on a `dyteMobileClient.hostActions` object:
+To deny a waiting room request, use the `rejectWaitListedRequest()` method on a `ProductDBMobileClient.hostActions` object:
 
 ```dart
-final waitlistedParticipant = dyteMobileClient.participants.waitlisted[0];
-dyteMobileClient.hostActions.rejectWaitListedRequest(waitlistedParticipant);
+final waitlistedParticipant = ProductDBMobileClient.participants.waitlisted[0];
+ProductDBMobileClient.hostActions.rejectWaitListedRequest(waitlistedParticipant);
 ```
 
 ### Waiting Room Events
 
-Implement the `DyteWaitlistEventsListener` interface to listen for events related to the waiting room:
+Implement the `ProductDBWaitlistEventsListener` interface to listen for events related to the waiting room:
 
 ```kotlin
-class WaitlistStatusNotifier extends DyteWaitingRoomEventsListener {
+class WaitlistStatusNotifier extends ProductDBWaitingRoomEventsListener {
   @override
-  void onWaitListParticipantJoined(DyteWaitlistedParticipant participant) {
+  void onWaitListParticipantJoined(ProductDBWaitlistedParticipant participant) {
     // Triggered when a new participant joins the waiting room
   }
 
   @override
-  void onWaitListParticipantAccepted(DyteWaitlistedParticipant participant) {
+  void onWaitListParticipantAccepted(ProductDBWaitlistedParticipant participant) {
     // Triggered when a waitlisted participant is accepted into the meeting
   }
 
   @override
-  void onWaitListParticipantRejected(DyteWaitlistedParticipant participant) {
+  void onWaitListParticipantRejected(ProductDBWaitlistedParticipant participant) {
     // Triggered when a waitlisted participant is denied entry into the meeting
   }
 
   @override
-  void onWaitListParticipantClosed(DyteWaitlistedParticipant participant) {
+  void onWaitListParticipantClosed(ProductDBWaitlistedParticipant participant) {
     // Triggered when a waitlisted participant leaves the waiting room
   }
 }
 
-dyteMobileClient.addWaitingRoomListener(WaitlistStatusNotifier());
+ProductDBMobileClient.addWaitingRoomListener(WaitlistStatusNotifier());
 ```
 
 <head>

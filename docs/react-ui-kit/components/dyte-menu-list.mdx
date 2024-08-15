@@ -1,40 +1,40 @@
 ---
 description: >-
-  Learn how to use and customize the DyteMenuList component in Dyte's React UI
+  Learn how to use and customize the ProductDBMenuList component in ProductDB's React UI
   Kit with our detailed documentation.
 ---
 
-# DyteMenuList
+# ProductDBMenuList
 
 A menu list component.
 
 ```jsx live
 <Row style={{ padding: '52px 0 0 0' }}>
-  <DyteMenu placement="top">
-    <DyteButton slot="trigger">Top Menu</DyteButton>
-    <DyteMenuList>
-      <DyteMenuItem onClick={() => alert('You clicked: alert()')}>
+  <ProductDBMenu placement="top">
+    <ProductDBButton slot="trigger">Top Menu</ProductDBButton>
+    <ProductDBMenuList>
+      <ProductDBMenuItem onClick={() => alert('You clicked: alert()')}>
         alert()
-      </DyteMenuItem>
-    </DyteMenuList>
-  </DyteMenu>
+      </ProductDBMenuItem>
+    </ProductDBMenuList>
+  </ProductDBMenu>
 
   {/* This menu will be placed at top due to less space */}
-  <DyteMenu placement="bottom">
-    <DyteButton slot="trigger">Bottom Menu</DyteButton>
-    <DyteMenuList>
-      <DyteMenuItem onClick={() => alert('You clicked: alert()')}>
+  <ProductDBMenu placement="bottom">
+    <ProductDBButton slot="trigger">Bottom Menu</ProductDBButton>
+    <ProductDBMenuList>
+      <ProductDBMenuItem onClick={() => alert('You clicked: alert()')}>
         alert()
-      </DyteMenuItem>
-    </DyteMenuList>
-  </DyteMenu>
+      </ProductDBMenuItem>
+    </ProductDBMenuList>
+  </ProductDBMenu>
 </Row>
 ```
 
 ## Props
 
-<PropsTable of="dyte-menu-list" />
+<PropsTable of="ProductDB-menu-list" />
 
 <head>
-  <title>React UI Kit DyteMenuList</title>
+  <title>React UI Kit ProductDBMenuList</title>
 </head>

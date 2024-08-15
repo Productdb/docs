@@ -5,22 +5,22 @@ web_core_version: 1.32.1
 
 <!-- Auto Generated Below -->
 
-<a name="module_DyteLivestream"></a>
+<a name="module_ProductDBLivestream"></a>
 
-The DyteLivestream module represents the state of the current livestream, and allows
+The ProductDBLivestream module represents the state of the current livestream, and allows
 to start/stop live streams.
 
 
-* [DyteLivestream](#module_DyteLivestream)
-    * [.start()](#module_DyteLivestream+start)
-    * [.stop()](#module_DyteLivestream+stop)
+* [ProductDBLivestream](#module_ProductDBLivestream)
+    * [.start()](#module_ProductDBLivestream+start)
+    * [.stop()](#module_ProductDBLivestream+stop)
 
-<a name="module_DyteLivestream+start"></a>
+<a name="module_ProductDBLivestream+start"></a>
 
 ### livestream.start()
 Starts livestreaming the meeting.
 
-<a name="module_DyteLivestream+stop"></a>
+<a name="module_ProductDBLivestream+stop"></a>
 
 ### livestream.stop()
 Stops livestreaming the meeting.

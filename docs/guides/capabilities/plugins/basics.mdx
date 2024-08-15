@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Basics
 
-Dyte Plugins allow you to build collaborative and immersive experiences in your meetings without ever having to leave the meeting. The guides listed here will help you enable or disable plugins during meetings, configure existing plugins and even create new plugins with the help of Meeting APIs and built-in realtime database.
+ProductDB Plugins allow you to build collaborative and immersive experiences in your meetings without ever having to leave the meeting. The guides listed here will help you enable or disable plugins during meetings, configure existing plugins and even create new plugins with the help of Meeting APIs and built-in realtime database.
 
 ## Usage
 
@@ -22,7 +22,7 @@ Here is an introduction on the basics of plugins in your meetings:
 const plugins = meeting.plugins.all.toArray();
 ```
 
-Each plugin object in the array is of type [DytePlugin](/web-core/reference/DytePlugin)
+Each plugin object in the array is of type [ProductDBPlugin](/web-core/reference/ProductDBPlugin)
 
 #### Activate plugin
 
@@ -52,7 +52,7 @@ whiteboard.deactivate()
 const plugins = meeting.plugins.all.toArray();
 ```
 
-Each plugin object in the array is of type [DytePlugin](/react-web-core/reference/DytePlugin)
+Each plugin object in the array is of type [ProductDBPlugin](/react-web-core/reference/ProductDBPlugin)
 
 #### Activate plugin
 
@@ -79,10 +79,10 @@ whiteboard.deactivate()
 #### List all plugins
 
 ```dart
-List<DytePlugin> plugins = await dyteClient.plugins.all;
+List<ProductDBPlugin> plugins = await ProductDBClient.plugins.all;
 ```
 
-Each plugin object in the array is of type DytePlugin
+Each plugin object in the array is of type ProductDBPlugin
 
 #### Activate plugin
 
@@ -91,8 +91,8 @@ The `activate()` method activates a plugin for all users in the meeting. When yo
 The snippet below finds a plugin by name and activates it
 
 ```dart
-List<DytePlugin> plugins = await dyteClient.plugins.all;
-DytePlugin whiteboard = plugins.firstWhere((p) => p.name == 'Whiteboard');
+List<ProductDBPlugin> plugins = await ProductDBClient.plugins.all;
+ProductDBPlugin whiteboard = plugins.firstWhere((p) => p.name == 'Whiteboard');
 
 await whiteboard.activate();
 ```
@@ -112,7 +112,7 @@ whiteboard.deactivate()
 const plugins = meeting.plugins.all.toArray();
 ```
 
-Each plugin object in the array is of type DytePlugin
+Each plugin object in the array is of type ProductDBPlugin
 
 #### Activate plugin
 
@@ -142,7 +142,7 @@ whiteboard.deactivate()
 val plugins = meeting.plugins.all
 ```
 
-Each plugin object in the array is of type DytePlugin
+Each plugin object in the array is of type ProductDBPlugin
 
 #### Activate plugin
 
@@ -172,7 +172,7 @@ whiteboard.deactivate()
 let plugins = meeting.plugins.all
 ```
 
-Each plugin object in the array is of type DytePlugin
+Each plugin object in the array is of type ProductDBPlugin
 
 #### Activate plugin
 
@@ -233,14 +233,14 @@ whiteboard.on('closed', () => {
 
 ```dart
 
-class PluginNotifier extends DytePluginEventsListener {
+class PluginNotifier extends ProductDBPluginEventsListener {
   @override
-  void onPluginActivated(DytePlugin plugin) {
+  void onPluginActivated(ProductDBPlugin plugin) {
     state = OnPluginActivated(plugin);
   }
 
   @override
-  void onPluginDeactivated(DytePlugin plugin) {
+  void onPluginDeactivated(ProductDBPlugin plugin) {
     state = OnPluginDeactivated(plugin);
   }
 }
@@ -267,17 +267,17 @@ whiteboard.on('closed', () => {
 </TabItem>
 <TabItem value="android" label="Android">
 
-Any plugin activation / deactivation will trigger a callback. To be able to listen to plugin events you need to implement a methods from callback `DytePluginEventsListener`. You can subscribe to this events by calling meeting.addPluginEventsListener(dytePluginEventsListener).
+Any plugin activation / deactivation will trigger a callback. To be able to listen to plugin events you need to implement a methods from callback `ProductDBPluginEventsListener`. You can subscribe to this events by calling meeting.addPluginEventsListener(ProductDBPluginEventsListener).
 
 ```kotlin
 meeting.addMeetingRoomEventsListener(object :
-  DyteMeetingRoomEventsListener {
-    override fun onPluginActivated(plugin: DytePlugin) {
+  ProductDBMeetingRoomEventsListener {
+    override fun onPluginActivated(plugin: ProductDBPlugin) {
       super.onPluginActivated(plugin)
       // your code to handle plugin activation
     }
 
-    override fun onPluginDeactivated(plugin: DytePlugin) {
+    override fun onPluginDeactivated(plugin: ProductDBPlugin) {
       super.onPluginDeactivated(plugin)
       // your code to handle plugin de-activation
     }
@@ -288,16 +288,16 @@ meeting.addMeetingRoomEventsListener(object :
 </TabItem>
 <TabItem value="ios" label="iOS">
 
-Any plugin activation / deactivation will trigger a callback. To be able to listen to plugin events you need to implement a methods from callback `DytePluginEventsListener`. You can subscribe to this events by calling meeting.addPluginEventsListener(dytePluginEventsListener).
+Any plugin activation / deactivation will trigger a callback. To be able to listen to plugin events you need to implement a methods from callback `ProductDBPluginEventsListener`. You can subscribe to this events by calling meeting.addPluginEventsListener(ProductDBPluginEventsListener).
 
 ```swift
-extension MeetingViewModel: DytePluginEventsListener {
+extension MeetingViewModel: ProductDBPluginEventsListener {
 
-  func onPluginActivated(plugin: DytePlugin) {
+  func onPluginActivated(plugin: ProductDBPlugin) {
     // your code to handle plugin activation
   }
 
-  func onPluginDeactivated(plugin: DytePlugin) {
+  func onPluginDeactivated(plugin: ProductDBPlugin) {
     // your code to handle plugin activation
   }
 

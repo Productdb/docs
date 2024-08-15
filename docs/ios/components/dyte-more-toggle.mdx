@@ -1,12 +1,12 @@
 ---
 description: >-
-  Learn how to use and customize the DyteMoreToggleButton component in Dyte's
+  Learn how to use and customize the ProductDBMoreToggleButton component in ProductDB's
   iOS UiKit with our detailed documentation.
 ---
 
-# DyteMoreButtonControlBar
+# ProductDBMoreButtonControlBar
 ## Overview
-Subclass of [DyteControlBarButton](/ios/components/dyte-controlbar-button)
+Subclass of [ProductDBControlBarButton](/ios/components/ProductDB-controlbar-button)
 This button is use to show/hide bottom sheet. Pressing this button again and again will toggle show/hide  bottom sheet. You can add this button to show various action which are applicable according 
 to your presets for eg. You can show below actions
 1. Mute audio for all participants
@@ -25,9 +25,9 @@ All options depends on Users presets.
 ### Creating a More Menu meeting button which you mostly add inside Control Bar.
 
 ```swift
-init(meeting: DyteMobileClient, presentingViewController: UIViewController, settingViewControllerCompletion:(()->Void)? = nil) {
+init(meeting: ProductDBMobileClient, presentingViewController: UIViewController, settingViewControllerCompletion:(()->Void)? = nil) {
 ```
-Creates a DyteMoreButtonControlBar with multiple parameters. 
+Creates a ProductDBMoreButtonControlBar with multiple parameters. 
 
 #### Parameters:
 *Required*  
@@ -39,10 +39,10 @@ from bottom sheet and closed it. When user press back from setting screen then y
 
 ### Override the onClick action. 
 ```swift 
-func onClick(button: DyteControlBarButton) 
+func onClick(button: ProductDBControlBarButton) 
 ```
-You can override this method inside the subclass of `DyteMoreButtonControlBar` to customize the functionality when user presses this button. 
+You can override this method inside the subclass of `ProductDBMoreButtonControlBar` to customize the functionality when user presses this button. 
 
 <head>
-  <title>iOS DyteMoreToggleButton</title>
+  <title>iOS ProductDBMoreToggleButton</title>
 </head>

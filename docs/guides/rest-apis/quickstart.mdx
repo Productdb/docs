@@ -2,45 +2,45 @@
 title: Quickstart
 sidebar_position: 1
 description: >-
-  Get started with Dyte's REST APIs. Follow our guide for a quickstart on using
+  Get started with ProductDB's REST APIs. Follow our guide for a quickstart on using
   REST APIs for seamless integration and development.
 ---
 
-# Dyte REST API Quickstart
+# ProductDB REST API Quickstart
 
-Dyte's API follows the
+ProductDB's API follows the
 [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 principles. It has predictable resource-oriented URLs, accepts
 [JSON-encoded](http://www.json.org/) request bodies, returns
 [JSON-encoded](http://www.json.org/) responses, and uses standard HTTP response
 codes, authentication, and verbs.
 
-This topic describes how to get started with Dyte v2 REST APIs.
+This topic describes how to get started with ProductDB v2 REST APIs.
 
 Before getting started with this quickstart guide, we recommend that you read
-[Getting Started with Dyte](/getting-started) to familiarize yourself with Dyte.
+[Getting Started with ProductDB](/getting-started) to familiarize yourself with ProductDB.
 
 ## Objectives
 
 In this quickstart you'll learn:
 
-- How to access Dyte APIs
+- How to access ProductDB APIs
 - How to authenticate the requests
 - How to create presets
-- How to add voice and video calls to your applications using Dyte APIs
+- How to add voice and video calls to your applications using ProductDB APIs
 
 ## Initial Setup
 
-Perform the following steps to get started with Dyte APIs:
+Perform the following steps to get started with ProductDB APIs:
 
 ### Step 1: Access APIs
 
-You can access all of our v2 API endpoints at `https://api.dyte.io/v2/`.
+You can access all of our v2 API endpoints at `https://api.productdb.io/v2/`.
 For the complete list of routes, see [API documentation](/api/?v=v2).
 
 ### Step 2: Authenticate using your API Keys
 
-Dyte's APIs use API Keys to authenticate requests via
+ProductDB's APIs use API Keys to authenticate requests via
 [HTTP Basic Auth](http://en.wikipedia.org/wiki/Basic_access_authentication). To
 perform the authentication, an HTTP request is sent with an Authorization header
 that contains the word Basic followed by a space and a base64-encoded string
@@ -48,21 +48,21 @@ that contains the word Basic followed by a space and a base64-encoded string
 
 For example, `Authorization: Basic ZGVtbzpwQDU1dzByZA==`
 
-1.  First, register on our [Developer Portal](https://dev.dyte.io).
+1.  First, register on our [Developer Portal](https://dev.productdb.io).
 2.  Copy the API Key for your organization. This API Key is unique to your
     organization. The organization ID acts as the username, and the API Key is
     your password.
 
 ### Step 3: Create Presets
 
-[Create presets](https://dev.dyte.io/roles-presets) using the Developer portal.
+[Create presets](https://dev.productdb.io/roles-presets) using the Developer portal.
 A preset is a set of permissions and UI configurations that is applied to a
 participant.
 
-## Add Video Calls to your Application using Dyte APIs
+## Add Video Calls to your Application using ProductDB APIs
 
 This section focuses on how to add voice and video calls to your applications
-using Dyte APIs. A typical workflow includes the following steps:
+using ProductDB APIs. A typical workflow includes the following steps:
 
 1.  Create a meeting
 2.  Add participants to the meeting
@@ -71,7 +71,7 @@ using Dyte APIs. A typical workflow includes the following steps:
 
 ### Step 1: Create a Meeting
 
-You must first create a meeting in order to begin using Dyte for voice and video
+You must first create a meeting in order to begin using ProductDB for voice and video
 calls.
 
 #### Request
@@ -81,7 +81,7 @@ meeting ID is required for subsequent operations like adding participants.
 
 ```bash
 curl --request POST \
-  --url https://api.dyte.io/v2/meetings \
+  --url https://api.productdb.io/v2/meetings \
   --header 'Authorization: Basic ZGV2QGR5dGUuaW46MTIzNDU2Nzg5YXNkaGZnaGo=' \
   --header 'Content-Type: application/json' \
   --data '{
@@ -123,7 +123,7 @@ The preset name created earlier must be passed in the request.
 
 ```bash
 curl --request POST \
-  --url https://api.dyte.io/v2/meetings/<meetingId>/participants \
+  --url https://api.productdb.io/v2/meetings/<meetingId>/participants \
   --header 'Authorization: Basic ZGV2QGR5dGUuaW46MTIzNDU2Nzg5YXNkaGZnaGo=' \
   --header 'Content-Type: application/json' \
   --data '{
@@ -154,7 +154,7 @@ curl --request POST \
 
 ### Step 3: Record the Meeting
 
-You can manage your recordings in Dyte using `Basic` or `Bearer` authentication
+You can manage your recordings in ProductDB using `Basic` or `Bearer` authentication
 methods. If you're using `Bearer` authentication, then you need to use the
 `token` returned by the [Add Participants](/api#/operations/add_participant) API
 request.
@@ -168,7 +168,7 @@ configuration, the recording will be stored in your S3 bucket as well.
 
 ```bash
 curl --request POST \
-  --url https://api.dyte.io/v2/recordings \
+  --url https://api.productdb.io/v2/recordings \
   --header 'Authorization: Basic MzkwYmYyNzQtNDEzMy00MjZkLTg0OTEtZWE3YTFhMTkwNDhiOjdmYTQzNjAwZjk3ZTVkZGI5NmIw' \
   --header 'Content-Type: application/json' \
   --data '{
@@ -204,7 +204,7 @@ curl --request POST \
       "id": "5f48f84c-4628-44b8-8953-64c67c714de7",
       "type": "aws",
       "region": "ap-south-1",
-      "bucket": "dyte",
+      "bucket": "ProductDB",
       "path": "/"
     }
   }
@@ -217,7 +217,7 @@ curl --request POST \
 
 ```bash
 curl --request PUT \
-  --url https://api.staging.dyte.in/v2/recordings/<recordingId> \
+  --url https://api.staging.ProductDB.in/v2/recordings/<recordingId> \
   --header 'Authorization: Basic NzBjNWQzOTEtNGJhYy00Y2YzLTk5MDctYmVjMjA1Nzk4YWRiOmQyNzBmYjJmOGNiNGUzZWY1MGI1' \
   --header 'Content-Type: application/json' \
   --data '{
@@ -259,7 +259,7 @@ To monitor the status of recordings, you can listen to the
       "id": "5f38f84c-4628-44b8-8953-64c67c714de7",
       "type": "aws",
       "region": "ap-south-1",
-      "bucket": "dyte",
+      "bucket": "ProductDB",
       "path": "/"
     }
   }
@@ -268,11 +268,11 @@ To monitor the status of recordings, you can listen to the
 
 ### Step 4: Add a Webhook
 
-Dyte uses webhooks to notify your application when an event occurs. Webhooks are
+ProductDB uses webhooks to notify your application when an event occurs. Webhooks are
 especially useful for asynchronous events like when a recording is uploaded or a
 new participant joins the meeting.
 
-Dyte can push real-time updates to your application via a webhook. Events are
+ProductDB can push real-time updates to your application via a webhook. Events are
 sent to your webhook endpoint as a JSON payload over HTTPS. These events can
 then be used to perform actions in your backend systems.
 
@@ -286,7 +286,7 @@ send the event.
 
 ```bash
 curl --request POST \
-  --url https://api.dyte.io/v2/webhooks \
+  --url https://api.productdb.io/v2/webhooks \
   --header 'Authorization: Basic NzBjNWQzOTEtNGJhYy00Y2YzLTk5MDctYmVjMjA1Nzk4YWRiOmQyNzBmYjJmOGNiNGUzZWY1MGI1' \
   --header 'Content-Type: application/json' \
   --data '{
@@ -331,6 +331,6 @@ For more information on how to create webhook endpoints, see
   <title>Quickstart Guide</title>
   <meta
     name="description"
-    content="Get started with Dyte's REST APIs. Follow our guide for a quickstart on using REST APIs for seamless integration and development."
+    content="Get started with ProductDB's REST APIs. Follow our guide for a quickstart on using REST APIs for seamless integration and development."
   />
 </head>

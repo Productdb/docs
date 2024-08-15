@@ -23,10 +23,10 @@ import { createPortal } from 'react-dom';
 import translations from '@theme/SearchTranslations';
 import { Tab } from '@headlessui/react';
 import clsx from 'clsx';
-import { ChatBot } from '@dytesdk/docs-ai-react';
+import { ChatBot } from '@ProductDBsdk/docs-ai-react';
 
 import { Search } from 'react-feather';
-import { DyteAISearchIcon } from '@site/src/icons';
+import { ProductDBAISearchIcon } from '@site/src/icons';
 
 let DocSearchModal = null;
 function Hit({ hit, children }) {
@@ -182,7 +182,7 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
             onOpen();
           }}
         >
-          <DyteAISearchIcon className="h-6 w-6" />
+          <ProductDBAISearchIcon className="h-6 w-6" />
           <span className="sr-only pointer-events-none text-xs font-medium text-[var(--docsearch-muted-color)] transition-all group-hover:xl:not-sr-only">
             ProductDB AI
           </span>
@@ -246,8 +246,8 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
                     )
                   }
                 >
-                  <DyteAISearchIcon className="h-5 w-5" />
-                  Dyte AI
+                  <ProductDBAISearchIcon className="h-5 w-5" />
+                  ProductDB AI
                   <span className="text-[9px] uppercase text-primary-100">
                     Beta
                   </span>

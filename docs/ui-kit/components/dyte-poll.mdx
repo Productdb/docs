@@ -1,28 +1,28 @@
 ---
 description: >-
-  Learn how to use and customize the dyte-poll component in Dyte's UI Kit with
+  Learn how to use and customize the ProductDB-poll component in ProductDB's UI Kit with
   our detailed documentation.
 ---
 
-# dyte-poll
+# ProductDB-poll
 
 A poll component.
 
 Shows a poll where a user can vote.
 
 ```html
-<dyte-poll id="dyte-el"></dyte-poll>
+<ProductDB-poll id="ProductDB-el"></ProductDB-poll>
 
 <script>
-  const el = document.getElementById('dyte-el');
+  const el = document.getElementById('ProductDB-el');
 
-  el.addEventListener('dyteVotePoll', (e) => {
+  el.addEventListener('ProductDBVotePoll', (e) => {
     console.log('Voted', e.detail);
   });
 
   el.poll = {
     id: 'poll-id',
-    question: 'Have you started using dyte yet?',
+    question: 'Have you started using ProductDB yet?',
     options: [
       {
         text: 'Yes',
@@ -46,8 +46,8 @@ Shows a poll where a user can vote.
 
 ## Props
 
-<PropsTable of="dyte-poll" />
+<PropsTable of="ProductDB-poll" />
 
 <head>
-  <title>UI Kit dyte-poll</title>
+  <title>UI Kit ProductDB-poll</title>
 </head>

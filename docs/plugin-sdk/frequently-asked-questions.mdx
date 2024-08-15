@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 sidebar_position: 7
 description: >-
-  Find answers to frequently asked questions about the Dyte Plugin SDK. Get
+  Find answers to frequently asked questions about the ProductDB Plugin SDK. Get
   insights for a smooth and trouble-free integration process.
 ---
 
@@ -10,7 +10,7 @@ Here are some frequently asked questions about the Plugin SDK.
 
 <details open>
     <summary>
-        What is the difference between <code>DytePlugin.init()</code> and <code>DytePlugin.ready()</code>?
+        What is the difference between <code>ProductDBPlugin.init()</code> and <code>ProductDBPlugin.ready()</code>?
     </summary>
     <p>
         <code>plugin.init()</code> is called to initialise the plugin and <code>plugin.ready()</code> is called when the plugin is ready to emit and receive events from the client app. <b>Usually these events occur one after the other and the user need not manually call <code>plugin.ready()</code></b>.  
@@ -19,9 +19,9 @@ Here are some frequently asked questions about the Plugin SDK.
         <code>plugin.ready()</code> can be manually used to control when this communication starts.
     </p>
     ```ts
-    import DytePlugin from "@dytesdk/plugin-sdk";
+    import ProductDBPlugin from "@ProductDBsdk/plugin-sdk";
     ...
-    const plugin = await DytePlugin.init({ready: false});
+    const plugin = await ProductDBPlugin.init({ready: false});
 
     // .. do something
 
@@ -40,9 +40,9 @@ Here are some frequently asked questions about the Plugin SDK.
     <p>These events can be called like so.</p>
     
     ```ts
-    import DytePlugin from "@dytesdk/plugin-sdk";
+    import ProductDBPlugin from "@ProductDBsdk/plugin-sdk";
     ...
-    const plugin = await DytePlugin.init();
+    const plugin = await ProductDBPlugin.init();
 
     plugin.on('peerJoined', (peer) => {
         console.log(peer);
@@ -59,6 +59,6 @@ Here are some frequently asked questions about the Plugin SDK.
   <title>Plugin SDK Frequently Asked Questions</title>
   <meta
     name="description"
-    content="Find answers to frequently asked questions about the Dyte Plugin SDK. Get insights for a smooth and trouble-free integration process."
+    content="Find answers to frequently asked questions about the ProductDB Plugin SDK. Get insights for a smooth and trouble-free integration process."
   />
 </head>

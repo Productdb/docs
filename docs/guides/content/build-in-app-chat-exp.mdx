@@ -2,25 +2,25 @@
 title: Start Building
 sidebar_position: 3
 description: >-
-  Learn how to build an in-app chat experience with Dyte's realtime chat
+  Learn how to build an in-app chat experience with ProductDB's realtime chat
   capabilities. Follow our guide for effective in-app chat development.
 ---
 
 :::info Beta
-The new Chat SDKs are currently in beta and may not be available for your organization by default. If you would like to use this feature, please [contact us](https://dyte.io/contact) and we can enable it for you.
+The new Chat SDKs are currently in beta and may not be available for your organization by default. If you would like to use this feature, please [contact us](https://productdb.io/contact) and we can enable it for you.
 
-Chat SDKs are still in the testing phase and may undergo some changes. If you encounter any issues or have suggestions for improvements to the feature, please [connect](https://dyte.io/contact) with us.
+Chat SDKs are still in the testing phase and may undergo some changes. If you encounter any issues or have suggestions for improvements to the feature, please [connect](https://productdb.io/contact) with us.
 :::
 
 ## Step 1: Get your API Keys
 
-Login to the [Developer Portal](https://dev.dyte.io/dashboard) and create an account. Copy the [API Keys](https://dev.dyte.io/apikeys) for your organization from the Developer portal. These API Keys are unique to your organization and are required to use Dyte REST APIs such as when instantiating a meeting.
+Login to the [Developer Portal](https://dev.productdb.io/dashboard) and create an account. Copy the [API Keys](https://dev.productdb.io/apikeys) for your organization from the Developer portal. These API Keys are unique to your organization and are required to use ProductDB REST APIs such as when instantiating a meeting.
 
 ## Step 2: Create Presets
 
 A preset is a set of permissions and UI configurations that are applied to hosts and participants. They determine the look, feel, and behavior of the livestream, with options to set varied permissions, such as the ability to create polls or chat, control access for plugins, and more.
 
-1. In the [Developer Portal](https://dev.dyte.io/), click **Presets**, and click **Create New**.
+1. In the [Developer Portal](https://dev.productdb.io/), click **Presets**, and click **Create New**.
    <img
      src="/static/livestream/createpreset.png"
      width="600"
@@ -52,7 +52,7 @@ A preset is a set of permissions and UI configurations that are applied to hosts
 
 ## Step 4: Create a Meeting
 
-Create a Dyte meeting using the [Create Meeting API](/api#/operations/create_meeting). This API returns a unique identifier for your meeting. A Dyte meeting is your workspace where you can add members and create channels.
+Create a ProductDB meeting using the [Create Meeting API](/api#/operations/create_meeting). This API returns a unique identifier for your meeting. A ProductDB meeting is your workspace where you can add members and create channels.
 
 ## Step 5: Add Participants
 
@@ -67,18 +67,18 @@ This API returns the authentication `token` that is required to initialize your 
 1. Install the frontend client.
 
    ```jsx
-   npm install @dytesdk/react-ui-kit@staging @dytesdk/react-web-core@staging
+   npm install @ProductDBsdk/react-ui-kit@staging @ProductDBsdk/react-web-core@staging
    ```
 
 2. Initialize the frontend client by passing the authentication `token` received from the [Add Participant API](/api#/operations/add_participant).
 
    ```jsx
    import { useEffect } from 'react';
-   import { useDyteClient } from '@dytesdk/react-web-core';
-   import { DyteUiProvider, DyteChat } from '@dytesdk/react-ui-kit';
+   import { useProductDBClient } from '@ProductDBsdk/react-web-core';
+   import { ProductDBUiProvider, ProductDBChat } from '@ProductDBsdk/react-ui-kit';
 
    export default function App() {
-     const [meeting, initMeeting] = useDyteClient();
+     const [meeting, initMeeting] = useProductDBClient();
 
      useEffect(() => {
        initMeeting({
@@ -89,9 +89,9 @@ This API returns the authentication `token` that is required to initialize your 
      if (!meeting) return 'Loading...';
 
      return (
-       <DyteUiProvider meeting={meeting}>
-         <DyteChat />
-       </DyteUiProvider>
+       <ProductDBUiProvider meeting={meeting}>
+         <ProductDBChat />
+       </ProductDBUiProvider>
      );
    }
    ```
@@ -110,6 +110,6 @@ This API returns the authentication `token` that is required to initialize your 
   <title>Start Building Guide</title>
   <meta
     name="description"
-    content="Learn how to build an in-app chat experience with Dyte's realtime chat capabilities. Follow our guide for effective in-app chat development."
+    content="Learn how to build an in-app chat experience with ProductDB's realtime chat capabilities. Follow our guide for effective in-app chat development."
   />
 </head>

@@ -14,28 +14,28 @@ import { CocoaPodInstallation } from '@site/src/components/LatestInstallation';
 
 # Quickstart
 
-This quickstart shows how to use Dyte's core SDKs to add live video and audio to
+This quickstart shows how to use ProductDB's core SDKs to add live video and audio to
 your iOS applications.
 
 To get started quickly, you can use our sample code. You can clone and run a sample application from the iOS Core samples,
-available in both [Swift](https://github.com/dyte-io/ios-samples/tree/main/iOS-core) and [SwiftUI](https://github.com/dyte-io/ios-samples/tree/main/DyteSwiftUI-Core).
+available in both [Swift](https://github.com/ProductDB-io/ios-samples/tree/main/iOS-core) and [SwiftUI](https://github.com/ProductDB-io/ios-samples/tree/main/ProductDBSwiftUI-Core).
 
 ## Objective
 
 You'll learn how to:
 
-- [Install the Dyte SDK](#step-1-install-the-sdk)
+- [Install the ProductDB SDK](#step-1-install-the-sdk)
 - [Initialize the SDK](#step-2-initialize-the-sdk)
-- [Configure a Dyte meeting](#step-3-configure-a-dyte-meeting)
-- [Initialize the Dyte meeting](#step-4-initialize-the-dyte-meeting)
-- [Go live with your Dyte meeting](#step-5-go-live-with-your-dyte-meeting)
+- [Configure a ProductDB meeting](#step-3-configure-a-ProductDB-meeting)
+- [Initialize the ProductDB meeting](#step-4-initialize-the-ProductDB-meeting)
+- [Go live with your ProductDB meeting](#step-5-go-live-with-your-ProductDB-meeting)
 
 ## Before Getting Started
 
-Make sure you've read the [Getting Started with Dyte](/getting-started) topic and completed the following steps:
+Make sure you've read the [Getting Started with ProductDB](/getting-started) topic and completed the following steps:
 
-- Create a [Dyte Developer Account](https://dev.dyte.io/)
-- Create a [Dyte Meeting](/api/?v=v2#/operations/create_meeting)
+- Create a [ProductDB Developer Account](https://dev.productdb.io/)
+- Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 - Install [Xcode](https://apps.apple.com/in/app/xcode/id497799835)
 
@@ -50,9 +50,9 @@ Make sure you've read the [Getting Started with Dyte](/getting-started) topic an
 platform :ios, '13.0'
 ```
 
-2. Add 'DyteiOSCore' to your Podfile.
+2. Add 'ProductDBiOSCore' to your Podfile.
 
-<CocoaPodInstallation pkg="DyteiOSCore" path="c/d/1/DyteiOSCore" />
+<CocoaPodInstallation pkg="ProductDBiOSCore" path="c/d/1/ProductDBiOSCore" />
 
 3. Install the client SDK from pod.
 
@@ -63,7 +63,7 @@ pod install
   </TabItem>
   <TabItem value="Swift Package Manager" label="Swift Package Manager">
 
-Add `DyteiOSCore` SDK through Swift Package Manager in Xcode. Use https://github.com/dyte-in/DyteMobileCoreiOS.git as the package source.
+Add `ProductDBiOSCore` SDK through Swift Package Manager in Xcode. Use https://github.com/ProductDB-in/ProductDBMobileCoreiOS.git as the package source.
 
   </TabItem>
 </Tabs>
@@ -97,13 +97,13 @@ Sources: Apple Developer Documentation: [Declaring Your App's Supported Backgrou
 
 ## Step 2: Initialize the SDK
 
-1. The `DyteMobileClient` is the main class of the SDK. It is the main entry
+1. The `ProductDBMobileClient` is the main class of the SDK. It is the main entry
    point of the SDK. It is the only class that you need to instantiate in order
-   to use the SDK. To instantiate DyteMobileClient, you should use
-   `DyteiOSClientBuilder().build()`.
+   to use the SDK. To instantiate ProductDBMobileClient, you should use
+   `ProductDBiOSClientBuilder().build()`.
 
 ```swift
-let meeting = DyteiOSClientBuilder().build()
+let meeting = ProductDBiOSClientBuilder().build()
 ```
 
 2. Add the required listeners and implement callback stubs as per requirement
@@ -119,36 +119,36 @@ meeting.addWaitlistEventListener(waitlistEventListener: self)
 meeting.addLiveStreamEventsListener(liveStreamEventsListener: self)
 ```
 
-## Step 3: Configure a Dyte meeting
+## Step 3: Configure a ProductDB meeting
 
-Add `authToken` that you got from the REST API to constructor of DyteMeetingInfoV2 - [Add Participant API](/api#/operations/addParticipant)
+Add `authToken` that you got from the REST API to constructor of ProductDBMeetingInfoV2 - [Add Participant API](/api#/operations/addParticipant)
 
 | Name          | Description                                                                                                                                                                             |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `authToken`   | After you've created the meeting, add each participant to the meeting using the [Add Participant API](/api?v=v2#/operations/add_participant) The API response contains the `authToken`. |
 | `enableAudio` | Set whether to join the meeting with your Mic ON or OFF by passing `true` or `false`.                                                                                                   |
 | `enableVideo` | Set whether to join the meeting with your Camera ON or OFF by passing `true` or `false`.                                                                                                |
-| `baseUrl`     | Base URL of the dyte's enviorment you have created the meeting on.                                                                                                                      |
+| `baseUrl`     | Base URL of the ProductDB's enviorment you have created the meeting on.                                                                                                                      |
 
 ```swift
-let meetingInfo = DyteMeetingInfoV2(authToken: authToken,
+let meetingInfo = ProductDBMeetingInfoV2(authToken: authToken,
                                   enableAudio: true,
                                   enableVideo: true,
-                                  baseUrl: "dyte.io")
+                                  baseUrl: "productdb.io")
 ```
 
-## Step 4: Initialize the Dyte meeting
+## Step 4: Initialize the ProductDB meeting
 
 To initialize the connection request, call the `doInit()` method obtained on
 `meeting` with the `meetingInfo` argument. This will establish the connection
-with the Dyte meeting server.
+with the ProductDB meeting server.
 
 ```swift
-meeting.doInit(dyteMeetingInfo_: meetingInfo)
+meeting.doInit(ProductDBMeetingInfo_: meetingInfo)
 ```
 
 Note: This is the asynchronous method, You will have to attached observer (meeting.addMeetingRoomEventsListener(meetingRoomEventsListener: self)
-) to know its completion state, success or failure, Listen to below callbacks of 'DyteMeetingRoomEventsListener'.
+) to know its completion state, success or failure, Listen to below callbacks of 'ProductDBMeetingRoomEventsListener'.
 
 ```swift
 func onMeetingInitCompleted() {
@@ -163,7 +163,7 @@ func onMeetingInitFailed(exception: KotlinException) {
 OR
 
 ```swift
-meeting.doInit(dyteMeetingInfo: DyteMeetingInfoV2,
+meeting.doInit(ProductDBMeetingInfo: ProductDBMeetingInfoV2,
                        onInitCompleted: () -> Void,
                        onInitFailed_: () -> Void)
 ```
@@ -171,11 +171,11 @@ meeting.doInit(dyteMeetingInfo: DyteMeetingInfoV2,
 To initialize the connection request, call the `doInit` method
 which is asynchronous and callback based.
 
-## Step 5: Go live with your Dyte meeting
+## Step 5: Go live with your ProductDB meeting
 
 ### Connect to the meeting
 
-Now, you have established the connection with the Dyte meeting server
+Now, you have established the connection with the ProductDB meeting server
 successfully. Once `onMeetingInitCompleted()` is triggered, next step is to join
 the room.
 
@@ -192,7 +192,7 @@ func onMeetingInitCompleted() {
 Or
 
 ```swift
- meeting.doInit(dyteMeetingInfo: meetingInfo) {
+ meeting.doInit(ProductDBMeetingInfo: meetingInfo) {
             self.meeting.joinRoom {
                 print("Room Joined successfully")
             } onRoomJoinFailed: {
@@ -208,7 +208,7 @@ callbacks for this action on meeting object if you have done
 `meeting.addSelfEventsListener(selfEventsListener: self)`.
 
 ```swift
-extension MeetingViewModel: DyteSelfEventsListener {
+extension MeetingViewModel: ProductDBSelfEventsListener {
   func onMeetingRoomJoinStarted() {
     // meeting join started
   }
@@ -236,7 +236,7 @@ Leave room event listeners: You can listen to `leaveRoom()` callbacks by
 registering obsever on meeting object as follows:
 
 ```swift
-extension MeetingViewModel: DyteSelfEventsListener {
+extension MeetingViewModel: ProductDBSelfEventsListener {
   func onMeetingRoomLeaveStarted() {
     // meeting room leave started
   }
@@ -251,6 +251,6 @@ extension MeetingViewModel: DyteSelfEventsListener {
   <title>iOS Core Quickstart</title>
   <meta
     name="description"
-    content="Dive into Dyte's core documentation for iOS. Follow our guide for comprehensive understanding and effective iOS core development."
+    content="Dive into ProductDB's core documentation for iOS. Follow our guide for comprehensive understanding and effective iOS core development."
   />
 </head>

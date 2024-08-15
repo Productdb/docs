@@ -22,6 +22,18 @@ export default function Homepage() {
       <Head>
         <link rel="prefetch" href="/assets/css/elements.min.css" />
       </Head>
+      <div>
+        <div className="w-full bg-gradient-to-r from-blue-500 to-red-500 p-4 text-center font-medium text-white">
+          Affected by Twilio Video Sunsetting? Migrate to ProductDB and get upto $30,000
+          Credits{' '}
+          <Link
+            to="https://productdb.io/twilio-video-competitor"
+            className="text-white underline"
+          >
+            Learn more
+          </Link>
+        </div>
+      </div>
 
       <HeroSection />
 

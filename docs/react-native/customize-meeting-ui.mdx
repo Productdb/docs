@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Customize the meeting UI
 
-Dyte offers a host of customizations for the UI of meetings, some of which also
+ProductDB offers a host of customizations for the UI of meetings, some of which also
 defines the interactions the participants can have within a meeting room. While
 the initial values for these options are picked up from the `preset` used to
 generate the `authToken`, you can override them at the client end based on
@@ -13,7 +13,7 @@ specific use cases or events. There are 2 ways to update the config:
 1. pass the config options at the time of initiating a meeting.
 
 ```jsx {8}
-<DyteMeeting
+<ProductDBMeeting
     onInit={(meeting) => { }}
     clientId=`yourClientID`
     meetingConfig={{
@@ -25,7 +25,7 @@ specific use cases or events. There are 2 ways to update the config:
 ```
 
 2. call the `updateUIConfig` method on [`meeting` instance](./reference/meeting)
-   and pass the [`uiConfigOptions`](./reference/dyte-ui-config) as a parameter
+   and pass the [`uiConfigOptions`](./reference/ProductDB-ui-config) as a parameter
    to this call
 
 ```javascript
@@ -34,7 +34,7 @@ meeting.updateUIConfig(uiConfigOptions);
 
 Described below are various different options that you can customize in a
 meeting. The complete reference for UI config options can be found
-[here](./reference/dyte-ui-config).
+[here](./reference/ProductDB-ui-config).
 
 Here is a pictorial representation of all the config options defined below.
 
@@ -52,7 +52,7 @@ logo: logoUrlString;
 ## Change the color scheme to your brand / theme
 
 You can change the color scheme of the meeting to reflect your brand and theme.
-Dyte allows you to specify four color values.
+ProductDB allows you to specify four color values.
 
 - `primary`: color of the primary elements like participant name box
 - `secondary`: color of the secondary elements like control bar, control
@@ -76,7 +76,7 @@ colors: {
 
 ## Adjust the meeting size to a custom container
 
-The default behaviour of a meeting on Dyte is to take up the full viewport.
+The default behaviour of a meeting on ProductDB is to take up the full viewport.
 However, if you want to customize the size of a meeting to fit within a certain
 container or `div`, you can do so by specifying the `width` and `height` under
 `dimensions` as numerical values which are taken as pixels (`px` in CSS).

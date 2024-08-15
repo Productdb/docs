@@ -1,5 +1,5 @@
 
-# DyteEndMeetingControlBarButton
+# ProductDBEndMeetingControlBarButton
 ## Overview
 This button is use to implement the action for leaving the meeting. You can add functionality to leave the meeting 
 inside the app by using this button.
@@ -10,9 +10,9 @@ inside the app by using this button.
 ### Creating a End meeting button which you mostly add inside Control Bar
 
 ```swift
-init(meeting: DyteMobileClient, alertViewController: UIViewController , onClick:((DyteEndMeetingControlBarButton, DyteLeaveDialog.DyteLeaveDialogAlertButtonType)->Void)? = nil, appearance: DyteControlBarButtonAppearance = AppTheme.shared.controlBarButtonAppearance)
+init(meeting: ProductDBMobileClient, alertViewController: UIViewController , onClick:((ProductDBEndMeetingControlBarButton, ProductDBLeaveDialog.ProductDBLeaveDialogAlertButtonType)->Void)? = nil, appearance: ProductDBControlBarButtonAppearance = AppTheme.shared.controlBarButtonAppearance)
 ```
-Creates a DyteEndMeetingControlBarButton with multiple parameters. 
+Creates a ProductDBEndMeetingControlBarButton with multiple parameters. 
 
 #### Parameters:
 *Required*   
@@ -21,11 +21,11 @@ Creates a DyteEndMeetingControlBarButton with multiple parameters.
 to leave meeting from the user.    
 *Optional*  
 **onClick:** Closure that you passed to get callback when user take action on UIAlertView 
-appearance: Any type which conforms to protocol "DyteControlBarButtonAppearance"  
+appearance: Any type which conforms to protocol "ProductDBControlBarButtonAppearance"  
 
 
 ### Override the onClick action. 
 ```swift 
-open func onClick(button: DyteEndMeetingControlBarButton) 
+open func onClick(button: ProductDBEndMeetingControlBarButton) 
 ```
-You can override this method inside the subclass of `DyteEndMeetingControlBarButton` to customize the functionality when user presses this button. 
+You can override this method inside the subclass of `ProductDBEndMeetingControlBarButton` to customize the functionality when user presses this button. 

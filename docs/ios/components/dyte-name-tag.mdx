@@ -1,11 +1,11 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-name-tag.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-name-tag.svg
 description: >-
-  Learn how to use and customize the DyteMeetingNameTag component in Dyte's iOS UiKit
+  Learn how to use and customize the ProductDBMeetingNameTag component in ProductDB's iOS UiKit
   with our detailed documentation.
 ---
 
-# DyteMeetingNameTag
+# ProductDBMeetingNameTag
 ## Overview
 This view is use show participant name followed by mic image (mute/unmute).
 
@@ -15,7 +15,7 @@ This view is use show participant name followed by mic image (mute/unmute).
 ### Creating a meeting tag. 
 
 ```swift
-init(meeting: DyteMobileClient, participant: DyteMeetingParticipant, appearance: DyteNameTagAppearance = AppTheme.shared.nameTagAppearance)
+init(meeting: ProductDBMobileClient, participant: ProductDBMeetingParticipant, appearance: ProductDBNameTagAppearance = AppTheme.shared.nameTagAppearance)
 ```
 
 #### Parameters:
@@ -23,19 +23,19 @@ init(meeting: DyteMobileClient, participant: DyteMeetingParticipant, appearance:
 **meeting:** Current ongoing meeting object.   
 **participant:** Participant object for which you want to show name and Mic state enabled/disbaled.   
 *Optional*  
-**appearance:** Any type which conforms to protocol "DyteNameTagAppearance"  
+**appearance:** Any type which conforms to protocol "ProductDBNameTagAppearance"  
 
 ### Explicit update the participant object for this view to show. 
 
 ```swift
-func set(participant: DyteMeetingParticipant)
+func set(participant: ProductDBMeetingParticipant)
 ```
 Update Meeting tag view with recent participant object. 
 #### Parameters:
 **participant:** Participant object for which you want to show name and Mic state enabled/disbaled. 
 
 
-### Refreshing DyteMeetingNameTag with latest values.
+### Refreshing ProductDBMeetingNameTag with latest values.
 
 ```swift
 func refresh()
@@ -45,5 +45,5 @@ For example if someone update the participant name. Then call this to show lates
 
 
 <head>
-  <title>iOS DyteMeetingNameTag</title>
+  <title>iOS ProductDBMeetingNameTag</title>
 </head>

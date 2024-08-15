@@ -10,7 +10,7 @@ tags:
 # Introduction
 
 Plugins are one-click add-ons that can make your meetings more immersive and
-collaborative. Dyte provides a bunch of inbuilt plugins to choose from, you can
+collaborative. ProductDB provides a bunch of inbuilt plugins to choose from, you can
 also build your own plugins using the Plugin SDK.
 
 The meeting plugins can be accessed from the `meeting.plugins` object, it
@@ -21,10 +21,10 @@ exposes the following.
 | active   | Map  | All plugins that are currently in use. |
 | all      | Map  | All plugins the meeting has access to. |
 
-Each plugin in the map is of type `DytePlugin`.
+Each plugin in the map is of type `ProductDBPlugin`.
 
 ```ts
-interface DytePlugin {
+interface ProductDBPlugin {
   baseURL: string;
   createdAt: string;
   description: string;

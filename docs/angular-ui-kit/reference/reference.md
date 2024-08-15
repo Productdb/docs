@@ -15,9 +15,9 @@ sidebar_class_name: hideReferenceSidebarLink
 
 ## Type Aliases
 
-### DyteI18n
+### ProductDBI18n
 
-Ƭ **DyteI18n**: (`key`: keyof [`LangDict`](reference.md#langdict) \| `string` & {}) => `string`
+Ƭ **ProductDBI18n**: (`key`: keyof [`LangDict`](reference.md#langdict) \| `string` & {}) => `string`
 
 #### Type declaration
 
@@ -232,7 +232,7 @@ Generates a config with older theme value.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `oldConfig` | `DyteThemePresetV1` | V1 Theme object |
+| `oldConfig` | `ProductDBThemePresetV1` | V1 Theme object |
 | `toExtend?` | [`UIConfig`](interfaces/UIConfig.md) | UI Config object to extend the generated config |
 | `options?` | `ConfigOptions` | Options for toggling components |
 
@@ -247,17 +247,17 @@ Generates a config with older theme value.
 
 ___
 
-### provideDyteDesignSystem
+### provideProductDBDesignSystem
 
-▸ **provideDyteDesignSystem**(`el`, `tokens`): `void`
+▸ **provideProductDBDesignSystem**(`el`, `tokens`): `void`
 
-Provides the design system new tokens to consume values from for styling the Dyte UI Kit's UI.
+Provides the design system new tokens to consume values from for styling the ProductDB UI Kit's UI.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `el` | `HTMLElement` | The element/node you want to _provide_ Dyte's design system. |
+| `el` | `HTMLElement` | The element/node you want to _provide_ ProductDB's design system. |
 | `tokens` | `DesignTokens` | The design tokens you want to updated. |
 
 #### Returns
@@ -270,7 +270,7 @@ ___
 
 ▸ **sendNotification**(`notification`): `boolean`
 
-Send notification which will be displayed in the `<dyte-notifications />` component.
+Send notification which will be displayed in the `<ProductDB-notifications />` component.
 
 #### Parameters
 
@@ -287,5 +287,5 @@ Return value of emitting the event
 
 <head>
 	<title>Angular UI Kit Reference</title>
-	<meta name="description" content="Refer to Dyte's Angular UI Kit Reference for detailed information on various components and functionalities."/>
+	<meta name="description" content="Refer to ProductDB's Angular UI Kit Reference for detailed information on various components and functionalities."/>
 </head>

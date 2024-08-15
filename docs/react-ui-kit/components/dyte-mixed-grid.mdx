@@ -1,21 +1,21 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-mixed-grid.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-mixed-grid.svg
 description: >-
-  Learn how to use and customize the DyteMixedGrid component in Dyte's React UI
+  Learn how to use and customize the ProductDBMixedGrid component in ProductDB's React UI
   Kit with our detailed documentation.
 ---
 
-# DyteMixedGrid
+# ProductDBMixedGrid
 
 A grid component which handles screenshares, plugins and participants.
 
 ```jsx live
 function CustomGrid() {
-  const active = useDyteSelector((m) => m.participants.active).toArray();
-  const { meeting } = useDyteMeeting();
+  const active = useProductDBSelector((m) => m.participants.active).toArray();
+  const { meeting } = useProductDBMeeting();
 
   return (
-    <DyteMixedGrid
+    <ProductDBMixedGrid
       participants={active}
       pinnedParticipants={[]}
       screenShareParticipants={[meeting.self]}
@@ -29,8 +29,8 @@ function CustomGrid() {
 
 ## Props
 
-<PropsTable of="dyte-mixed-grid" />
+<PropsTable of="ProductDB-mixed-grid" />
 
 <head>
-  <title>React UI Kit DyteMixedGrid</title>
+  <title>React UI Kit ProductDBMixedGrid</title>
 </head>

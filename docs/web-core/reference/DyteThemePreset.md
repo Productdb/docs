@@ -5,73 +5,73 @@ web_core_version: 1.32.1
 
 <!-- Auto Generated Below -->
 
-<a name="module_DyteThemePreset"></a>
+<a name="module_ProductDBThemePreset"></a>
 
-The DyteThemePreset class represents the meeting theme for the current participant
+The ProductDBThemePreset class represents the meeting theme for the current participant
 
 
-* [DyteThemePreset](#module_DyteThemePreset)
-    * ~~[.setupScreen](#module_DyteThemePreset+setupScreen)~~
-    * ~~[.waitingRoom](#module_DyteThemePreset+waitingRoom)~~
-    * ~~[.controlBar](#module_DyteThemePreset+controlBar)~~
-    * ~~[.header](#module_DyteThemePreset+header)~~
-    * ~~[.pipMode](#module_DyteThemePreset+pipMode)~~
-    * [.viewType](#module_DyteThemePreset+viewType)
-    * [.maxVideoStreams](#module_DyteThemePreset+maxVideoStreams)
-    * [.maxScreenShareCount](#module_DyteThemePreset+maxScreenShareCount)
-    * ~~[.plugins](#module_DyteThemePreset+plugins)~~
-    * [.disabledPlugins](#module_DyteThemePreset+disabledPlugins)
+* [ProductDBThemePreset](#module_ProductDBThemePreset)
+    * ~~[.setupScreen](#module_ProductDBThemePreset+setupScreen)~~
+    * ~~[.waitingRoom](#module_ProductDBThemePreset+waitingRoom)~~
+    * ~~[.controlBar](#module_ProductDBThemePreset+controlBar)~~
+    * ~~[.header](#module_ProductDBThemePreset+header)~~
+    * ~~[.pipMode](#module_ProductDBThemePreset+pipMode)~~
+    * [.viewType](#module_ProductDBThemePreset+viewType)
+    * [.maxVideoStreams](#module_ProductDBThemePreset+maxVideoStreams)
+    * [.maxScreenShareCount](#module_ProductDBThemePreset+maxScreenShareCount)
+    * ~~[.plugins](#module_ProductDBThemePreset+plugins)~~
+    * [.disabledPlugins](#module_ProductDBThemePreset+disabledPlugins)
 
-<a name="module_DyteThemePreset+setupScreen"></a>
+<a name="module_ProductDBThemePreset+setupScreen"></a>
 
-### ~~dyteThemePreset.setupScreen~~
+### ~~ProductDBThemePreset.setupScreen~~
 ***Deprecated***
 
-<a name="module_DyteThemePreset+waitingRoom"></a>
+<a name="module_ProductDBThemePreset+waitingRoom"></a>
 
-### ~~dyteThemePreset.waitingRoom~~
+### ~~ProductDBThemePreset.waitingRoom~~
 ***Deprecated***
 
-<a name="module_DyteThemePreset+controlBar"></a>
+<a name="module_ProductDBThemePreset+controlBar"></a>
 
-### ~~dyteThemePreset.controlBar~~
+### ~~ProductDBThemePreset.controlBar~~
 ***Deprecated***
 
-<a name="module_DyteThemePreset+header"></a>
+<a name="module_ProductDBThemePreset+header"></a>
 
-### ~~dyteThemePreset.header~~
+### ~~ProductDBThemePreset.header~~
 ***Deprecated***
 
-<a name="module_DyteThemePreset+pipMode"></a>
+<a name="module_ProductDBThemePreset+pipMode"></a>
 
-### ~~dyteThemePreset.pipMode~~
+### ~~ProductDBThemePreset.pipMode~~
 ***Deprecated***
 
-<a name="module_DyteThemePreset+viewType"></a>
+<a name="module_ProductDBThemePreset+viewType"></a>
 
-### dyteThemePreset.viewType
+### ProductDBThemePreset.viewType
 The `viewType` tells the type of the meeting
 possible values are: GROUP_CALL| LIVESTREAM | CHAT | AUDIO_ROOM
 
-<a name="module_DyteThemePreset+maxVideoStreams"></a>
+<a name="module_ProductDBThemePreset+maxVideoStreams"></a>
 
-### dyteThemePreset.maxVideoStreams
+### ProductDBThemePreset.maxVideoStreams
 The `maxVideoStreams` contains the maximum video
 streams for mobile and desktop
 
-<a name="module_DyteThemePreset+maxScreenShareCount"></a>
+<a name="module_ProductDBThemePreset+maxScreenShareCount"></a>
 
-### dyteThemePreset.maxScreenShareCount
+### ProductDBThemePreset.maxScreenShareCount
 The `maxScreenShareCount` contains the maximum
 possible concurrent screen shares
 
-<a name="module_DyteThemePreset+plugins"></a>
+<a name="module_ProductDBThemePreset+plugins"></a>
 
-### ~~dyteThemePreset.plugins~~
+### ~~ProductDBThemePreset.plugins~~
 ***Deprecated***
 
-<a name="module_DyteThemePreset+disabledPlugins"></a>
+<a name="module_ProductDBThemePreset+disabledPlugins"></a>
 
-### dyteThemePreset.disabledPlugins
+### ProductDBThemePreset.disabledPlugins
 The `disabledPlugins` property returns id of all disabled plugins
 

@@ -1,27 +1,27 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-dialog.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-dialog.svg
 description: >-
-  Learn how to use and customize the dyte-dialog component in Dyte's UI Kit with
+  Learn how to use and customize the ProductDB-dialog component in ProductDB's UI Kit with
   our detailed documentation.
 ---
 
-# dyte-dialog
+# ProductDB-dialog
 
 A dialog component.
 
 ```html
-<dyte-button onclick="showDialog()">Show dialog</dyte-button>
-<dyte-dialog id="dyte-el" open="false">
+<ProductDB-button onclick="showDialog()">Show dialog</ProductDB-button>
+<ProductDB-dialog id="ProductDB-el" open="false">
   <div>
     <h3>Hello!</h3>
     <p>This is some text inside dialog!</p>
   </div>
-</dyte-dialog>
+</ProductDB-dialog>
 
 <script>
-  const dialog = document.getElementById('dyte-el');
+  const dialog = document.getElementById('ProductDB-el');
 
-  dialog.addEventListener('dyteDialogClose', (open) => {
+  dialog.addEventListener('ProductDBDialogClose', (open) => {
     console.log('dialog closed');
   });
 
@@ -30,7 +30,7 @@ A dialog component.
   }
 </script>
 <style>
-  dyte-dialog > div {
+  ProductDB-dialog > div {
     width: 512px;
     backgroundcolor: #000;
     color: #fff;
@@ -45,8 +45,8 @@ A dialog component.
 
 ## Props
 
-<PropsTable of="dyte-dialog" />
+<PropsTable of="ProductDB-dialog" />
 
 <head>
-  <title>UI Kit dyte-dialog</title>
+  <title>UI Kit ProductDB-dialog</title>
 </head>

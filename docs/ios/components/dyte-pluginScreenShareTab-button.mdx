@@ -1,29 +1,29 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-plugins.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-plugins.svg
 description: >-
-  Learn how to use and customize the DytePluginViewController component in Dyte's
+  Learn how to use and customize the ProductDBPluginViewController component in ProductDB's
   iOS UiKit with our detailed documentation.
 ---
 
-# DytePluginScreenShareTabButton
+# ProductDBPluginScreenShareTabButton
 ## Overview
 Subclass of [UIButton](https://developer.apple.com/documentation/uikit/uibutton)  
-Mostly used to add plugin button to [DyteActiveTabSelectorView](/ios/components/dyte-active-tab-selector-view)
+Mostly used to add plugin button to [ProductDBActiveTabSelectorView](/ios/components/ProductDB-active-tab-selector-view)
 
 ## Topics:
 
 ### Creating button
 
 ```swift
-init(image: DyteImage?, title: String = "", id: String = "", appearance: DytePluginScreenShareTabButtonDesignDependency = DytePluginScreenShareTabButtonDesignDependencyModel()) 
+init(image: ProductDBImage?, title: String = "", id: String = "", appearance: ProductDBPluginScreenShareTabButtonDesignDependency = ProductDBPluginScreenShareTabButtonDesignDependencyModel()) 
 ```
 #### Parameters
 *Required*   
-**image:** Image of type `DyteImage` to be shown on extreme left.  
+**image:** Image of type `ProductDBImage` to be shown on extreme left.  
 *Optional*  
 **title:** Title of type String to be shown as button title.  
 **id:** identifier used to identify this button.  
-**appearance:** Any type that confirms to DytePluginScreenShareTabButtonDesignDependency   
+**appearance:** Any type that confirms to ProductDBPluginScreenShareTabButtonDesignDependency   
 
 <img src="/static/ios/ios_active_HorizontalView.png" alt="Example Image" width="400" height="200"/>
 
@@ -36,10 +36,10 @@ For example in above image , We have created three buttons
 Set the image and title which is used when client sets `UIButton` [isSelected](https://developer.apple.com/documentation/uikit/uicontrol/1618203-isselected) property
 
 ```swift
-func setSelected(image: DyteImage)
+func setSelected(image: ProductDBImage)
 ```
 #### Parameters
-**image:** Image of type `DyteImage` to be shown on extreme left when [isSelected](https://developer.apple.com/documentation/uikit/uicontrol/1618203-isselected) sets to `true`.  
+**image:** Image of type `ProductDBImage` to be shown on extreme left when [isSelected](https://developer.apple.com/documentation/uikit/uicontrol/1618203-isselected) sets to `true`.  
 
 ```swift
 func setSelected(title: String)
@@ -49,5 +49,5 @@ func setSelected(title: String)
 
 
 <head>
-  <title>iOS DytePluginViewController</title>
+  <title>iOS ProductDBPluginViewController</title>
 </head>

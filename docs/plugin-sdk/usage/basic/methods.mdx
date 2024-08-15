@@ -2,7 +2,7 @@
 title: Methods
 sidebar_position: 1
 description: >-
-  Learn the basic methods of using Dyte Plugin SDK for efficient integration.
+  Learn the basic methods of using ProductDB Plugin SDK for efficient integration.
   Enhance your app's functionality with powerful plugin methods.
 ---
 
@@ -15,7 +15,7 @@ the `ready` event signifies that the plugin is now ready for event/data
 exchange.
 
 ```tsx
-const plugin = await DytePlugin.init();
+const plugin = await ProductDBPlugin.init();
 ```
 
 ### Initialize without data exchange
@@ -25,7 +25,7 @@ SDK. The user can choose to manually emit this later when the plugin is ready to
 start event/data exchange with client SDK.
 
 ```tsx
-const plugin = await DytePlugin.init({ ready: false });
+const plugin = await ProductDBPlugin.init({ ready: false });
 // do something ...
 plugin.ready();
 ```
@@ -77,6 +77,6 @@ await plugin.disableForPeers(peerIds);
   <title>Plugin SDK Methods</title>
   <meta
     name="description"
-    content="Learn the basic methods of using Dyte Plugin SDK for efficient integration. Enhance your app's functionality with powerful plugin methods."
+    content="Learn the basic methods of using ProductDB Plugin SDK for efficient integration. Enhance your app's functionality with powerful plugin methods."
   />
 </head>

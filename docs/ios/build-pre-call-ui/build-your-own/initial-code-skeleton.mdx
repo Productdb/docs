@@ -16,15 +16,15 @@ Let's put a basic skeleton and the initial boilerplate code.
 Barebone ui needed to redner for name textField and a button to join the meeting will look as follow:
 
 ```swift
-let joinButton = DyteJoinButton(meeting: self.mobileClient) { [weak self] button, success in
+let joinButton = ProductDBJoinButton(meeting: self.mobileClient) { [weak self] button, success in
                       guard let self = self else {return}
                       if success {
                           self.delegate?.userJoinedMeetingSuccessfully(sender: self)
                       }
                   }
 
-let textFieldBottom: DyteTextField = {
-                                          let textField = DyteTextField()
+let textFieldBottom: ProductDBTextField = {
+                                          let textField = ProductDBTextField()
                                           textField.setPlaceHolder(text: "Insert your name")
                                           return textField
                                       }()

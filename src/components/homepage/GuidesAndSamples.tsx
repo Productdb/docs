@@ -29,7 +29,7 @@ const guides: Guide[] = [
     title: 'Migrate from Twilio',
     icon: VideoRegular,
     text: 'Migration simplified. Refer the guide.',
-    link: '/guides/migration/twilio/concepts-twilio-vs-dyte',
+    link: '/guides/migration/twilio/concepts-twilio-vs-ProductDB',
   },
   {
     title: 'Create a Breakout Room',
@@ -51,23 +51,23 @@ const samples: Sample[] = [
   {
     title: 'Code Sharing Platform',
     platform: 'React',
-    source: 'https://github.com/dyte-io/blog-live-code-sharing',
-    blog: 'https://dyte.io/blog/live-code-sharing-platform/',
-    demo: 'https://dyte-code-editor.herokuapp.com/room/bbbf8c1f-5eee-4548-90e6-54c1301711cb',
+    source: 'https://github.com/ProductDB-io/blog-live-code-sharing',
+    blog: 'https://productdb.io/blog/live-code-sharing-platform/',
+    demo: 'https://ProductDB-code-editor.herokuapp.com/room/bbbf8c1f-5eee-4548-90e6-54c1301711cb',
   },
   {
     title: 'Async Interview Platform',
     platform: 'React',
-    blog: 'https://dyte.io/blog/async-interview-platform/',
-    source: 'https://github.com/dyte-io/async-interview',
-    demo: 'https://dyte-async-interview.vercel.app',
+    blog: 'https://productdb.io/blog/async-interview-platform/',
+    source: 'https://github.com/ProductDB-io/async-interview',
+    demo: 'https://ProductDB-async-interview.vercel.app',
   },
   {
     title: 'Live Proctoring System',
     platform: 'React',
-    blog: 'https://dyte.io/blog/live-proctoring-system/',
-    source: 'https://github.com/dyte-io/proctored-live-interviews',
-    demo: 'https://dyte-multi-faces.netlify.app/',
+    blog: 'https://productdb.io/blog/live-proctoring-system/',
+    source: 'https://github.com/ProductDB-io/proctored-live-interviews',
+    demo: 'https://ProductDB-multi-faces.netlify.app/',
   },
 ];
 
@@ -157,7 +157,7 @@ export default function GuidesAndSamples() {
           <h3 className="m-0">Popular sample apps</h3>
 
           <Link
-            to="https://github.com/productdb"
+            to="https://github.com/ProductDB-io"
             className="font-jakarta text-sm font-semibold"
           >
             All apps <ArrowRightFilled className="ml-1" />

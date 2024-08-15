@@ -1,7 +1,7 @@
 ---
 title: Introducing chat
 description: >-
-  Learn the basics of integrating Dyte's chat functionality into your iOS
+  Learn the basics of integrating ProductDB's chat functionality into your iOS
   application – a step towards immersive real-time communication.
 sidebar_position: 1
 tags:
@@ -15,14 +15,14 @@ The meeting chat object is stored in `meeting.chat`, which has methods for sendi
 
 The `meeting.chat.messages` array contains all the messages that have been sent
 in the chat. This is an array of objects, where each object is of type
-`DyteChatMessage`.
+`ProductDBChatMessage`.
 
 We support three types of chat messages, they are as follows
 
 - Text Message
 
 ```swift
-class DyteTextMessage {
+class ProductDBTextMessage {
   let userId: String
   let displayName: String
   let read: Bool
@@ -36,7 +36,7 @@ class DyteTextMessage {
 - Image Message
 
 ```swift
-class DyteImageMessage{
+class ProductDBImageMessage{
   let userId: String
   let displayName: String
   let read: Bool
@@ -50,7 +50,7 @@ class DyteImageMessage{
 - File Message
 
 ```swift
-class DyteFileMessage{
+class ProductDBFileMessage{
   let userId: String
   let displayName: String
   let read: Bool
@@ -63,5 +63,5 @@ class DyteFileMessage{
 }
 ```
 
-All above objects are of type `DyteChatMessage` along with their own class
+All above objects are of type `ProductDBChatMessage` along with their own class
 variables.

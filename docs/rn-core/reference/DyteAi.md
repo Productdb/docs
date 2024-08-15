@@ -5,23 +5,23 @@ web_core_version: 1.32.1
 
 <!-- Auto Generated Below -->
 
-<a name="module_DyteAi"></a>
+<a name="module_ProductDBAi"></a>
 
-This module consists of the `ai` object which is used to interface with Dyte's AI features.
+This module consists of the `ai` object which is used to interface with ProductDB's AI features.
 You can obtain the live meeting transcript and use other meeting AI
 features such as summary, and agenda using this object.
 
 
-* [DyteAi](#module_DyteAi)
-    * [.parseTranscript()](#module_DyteAi.parseTranscript)
-    * [.parseTranscripts()](#module_DyteAi.parseTranscripts)
+* [ProductDBAi](#module_ProductDBAi)
+    * [.parseTranscript()](#module_ProductDBAi.parseTranscript)
+    * [.parseTranscripts()](#module_ProductDBAi.parseTranscripts)
 
-<a name="module_DyteAi.parseTranscript"></a>
+<a name="module_ProductDBAi.parseTranscript"></a>
 
 ### meeting.ai.parseTranscript()
 Parse a single line transcript
 
-<a name="module_DyteAi.parseTranscripts"></a>
+<a name="module_ProductDBAi.parseTranscripts"></a>
 
 ### meeting.ai.parseTranscripts()
 Parse a multi-line transcript

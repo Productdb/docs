@@ -1,7 +1,7 @@
 ---
 title: Design System
 description: >-
-  Explore design token integration in Flutter with Dyte's documentation. Follow
+  Explore design token integration in Flutter with ProductDB's documentation. Follow
   our guide for effective design token implementation in your app.
 sidebar_position: 3
 tags:
@@ -13,7 +13,7 @@ tags:
 
 A design system is a collection of reusable components, defined by clear standards, that can be assembled together to build any number of applications.
 
-Dyte's UI kit uses the Atomic design principle, which logically organizes screens for various devices, making it a versatile system. Design tokens are used in Dyte's UI Kit to maintain a consistent look across platforms. By combining design tokens and Atomic design principles, Dyte ensures a smooth and adaptable user interface experience on different platforms.
+ProductDB's UI kit uses the Atomic design principle, which logically organizes screens for various devices, making it a versatile system. Design tokens are used in ProductDB's UI Kit to maintain a consistent look across platforms. By combining design tokens and Atomic design principles, ProductDB ensures a smooth and adaptable user interface experience on different platforms.
 
 ## Design Tokens
 
@@ -21,13 +21,13 @@ Design tokens are the single source of truth to name and store design decisions.
 
 In the Flutter UI kit, design tokens are shared and managed using `themes`. Themes in Flutter use the `ThemeData` class to store and propagate design properties, such as colors, fonts, and more, throughout the widget tree.
 
-Let's understand how you can customize your UI with Dyte's Flutter UI Kit using design tokens.
+Let's understand how you can customize your UI with ProductDB's Flutter UI Kit using design tokens.
 
 ### Customize themes with design tokens
 
-Dyte offers the `DyteDesignToken` class to customize the theme of the UI kit. Pass the `DyteDesignToken` object within the `DyteUIKitInfo` object to customize the theme.
+ProductDB offers the `ProductDBDesignToken` class to customize the theme of the UI kit. Pass the `ProductDBDesignToken` object within the `ProductDBUIKitInfo` object to customize the theme.
 
-With `DyteDesignToken`, you can customize the following design properties:
+With `ProductDBDesignToken`, you can customize the following design properties:
 
 - `backgroundColor`:The background color of the UI Kit.
 - `textOnBackground`: The text color on the background of the UI Kit.
@@ -50,10 +50,10 @@ You can pass a single color to the `backgroundColor`, `brandColor` parameters. O
 For the brand color swatch, make sure it contains 5 entries with keys 300, 400, 500, 600, and 700.
 For the background color swatch, provide 5 entries with keys 600, 700, 800, 900, and 1000.
 
-To achieve this, utilize the `DyteColorSwatch` class with two parameters: the default color key and a map of colors.
+To achieve this, utilize the `ProductDBColorSwatch` class with two parameters: the default color key and a map of colors.
 
 ```dart
-final primarySwatch = DyteColorSwatch(
+final primarySwatch = ProductDBColorSwatch(
     500,
     {
       300: Colors.blue.shade300,
@@ -67,37 +67,37 @@ final primarySwatch = DyteColorSwatch(
 
 ### Customize borders with configuration
 
-To customize the border radius and border width of the UI Kit, you can use the `DyteBorderRadius` and `DyteBorderWidth` enum values in the design token.
+To customize the border radius and border width of the UI Kit, you can use the `ProductDBBorderRadius` and `ProductDBBorderWidth` enum values in the design token.
 
-Here are the available `DyteBorderRadius` values:
+Here are the available `ProductDBBorderRadius` values:
 
 | Token Name         | values                                         |
 | ------------------ | ---------------------------------------------- |
-| `DyteBorderRadius` | `sharp`, `rounded`, `extraRounded`, `circular` |
+| `ProductDBBorderRadius` | `sharp`, `rounded`, `extraRounded`, `circular` |
 
-Here are the available `DyteBorderWidth` values:
+Here are the available `ProductDBBorderWidth` values:
 
 | Token Name        | values                |
 | ----------------- | --------------------- |
-| `DyteBorderWidth` | `none`, `thin`, `fat` |
+| `ProductDBBorderWidth` | `none`, `thin`, `fat` |
 
 ## Example
 
 Here's an example of how you can customize the Flutter UI Kit using the design token:
 
 ```dart
-final uikitInfo = DyteUIKitInfo(meetingInfo,
-    designToken: DyteDesignToken(
-      colorToken: DyteColorToken(
-          borderRadius: DyteBorderRadius.circular,
-          borderWidth: DyteBorderWidth.fat,
+final uikitInfo = ProductDBUIKitInfo(meetingInfo,
+    designToken: ProductDBDesignToken(
+      colorToken: ProductDBColorToken(
+          borderRadius: ProductDBBorderRadius.circular,
+          borderWidth: ProductDBBorderWidth.fat,
           backgroundColor: Colors.black,
           textOnBrand: Colors.white,
           textOnBackground: Colors.white,
           danger: Colors.red,
           success: Colors.green,
           warning: Colors.yellow,
-          brandColorSwatch: DyteColorSwatch(
+          brandColorSwatch: ProductDBColorSwatch(
             500,
             {
               300: Colors.blue.shade300,
@@ -137,5 +137,5 @@ final uikitInfo = DyteUIKitInfo(meetingInfo,
 
 <head>
   <title>Flutter Design System</title>
-  <meta name="description" content="Explore design token integration in Flutter with Dyte's documentation. Follow our guide for effective design token implementation in your app."/>
+  <meta name="description" content="Explore design token integration in Flutter with ProductDB's documentation. Follow our guide for effective design token implementation in your app."/>
 </head>

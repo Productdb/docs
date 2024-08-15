@@ -1,16 +1,16 @@
 ---
 sidebar_position: 4
 description: >-
-  Explore the design system and guidelines for using Dyte's Angular UI Kit in
+  Explore the design system and guidelines for using ProductDB's Angular UI Kit in
   your applications.
 ---
 
 # Design System
 
 Read this blog post to know more:
-https://dyte.io/blog/new-dyte-video-sdk-design-system/
+https://productdb.io/blog/new-ProductDB-video-sdk-design-system/
 
-## `provideDyteDesignSystem()` utility
+## `provideProductDBDesignSystem()` utility
 
 This is a very handy utility to configure the design system of UI Kit components
 programmatically, with very lines of code.
@@ -19,7 +19,7 @@ programmatically, with very lines of code.
 <div id="app"></div>
 
 <script>
-  provideDyteDesignSystem(document.getElementById('app'), {
+  provideProductDBDesignSystem(document.getElementById('app'), {
     googleFont: 'Lobster',
     // sets light background colors
     theme: 'light',
@@ -58,13 +58,13 @@ These design tokens are stored and shared among components with the help of
 ### Typography
 
 ```css
---dyte-font-family: Inter;
+--ProductDB-font-family: Inter;
 ```
 
 You can tweak the font family used in your UI Kit components easily with this
 token.
 
-You can edit this value in two ways with the provideDyteDesignSystem utility.
+You can edit this value in two ways with the provideProductDBDesignSystem utility.
 
 #### Usage
 
@@ -85,8 +85,8 @@ Set either of these values in your design tokens.
 ### Colors
 
 ```css
---dyte-colors-brand-500: 33 96 253;
---dyte-colors-background-1000: 8 8 8;
+--ProductDB-colors-brand-500: 33 96 253;
+--ProductDB-colors-background-1000: 8 8 8;
 /* ... rest of the shades */
 ```
 
@@ -160,7 +160,7 @@ Here are all the color tokens, along with their default values.
 Note the exception of `text` and `text-on-brand` colors, you only specify a
 single color even though there are the following shades: 1000 - 600.
 
-This is because the `provideDyteDesignSystem()` utility sets the color you pass
+This is because the `provideProductDBDesignSystem()` utility sets the color you pass
 to `text-1000` and calculates lighter shades and sets them as well.
 
 Only pass objects for `brand` and `background` colors.
@@ -190,7 +190,7 @@ const designTokens = {
 ### Spacing
 
 ```css
---dyte-space-1: 4px;
+--ProductDB-space-1: 4px;
 /* ... rest of the spacing scale */
 ```
 
@@ -198,7 +198,7 @@ The spacing scale is used for setting width, height, margins, paddings,
 positions etc. throughout the components.
 
 - The default value for the spacing scale base is `4px`.
-- Rest of the values are calculated with this base, set to `--dyte-space-1`.
+- Rest of the values are calculated with this base, set to `--ProductDB-space-1`.
 - Current spacing scale ranges from `0` to `96`.
 
 #### Usage
@@ -232,5 +232,5 @@ const designTokens = {
 
 <head>
   <title>Angular UI Kit Design System</title>
-  <meta name="description" content="Explore the design system and guidelines for using Dyte's Angular UI Kit in your applications."/>
+  <meta name="description" content="Explore the design system and guidelines for using ProductDB's Angular UI Kit in your applications."/>
 </head>

@@ -5,25 +5,25 @@ import { MavenLatestInstallation } from '@site/src/components/LatestInstallation
 ## Quickstart
 
 <span class="mb-2 block">
-  This quickstart shows how to add Dyte's {props.product} SDK to your Android
+  This quickstart shows how to add ProductDB's {props.product} SDK to your Android
   applications.
 </span>
 
 <span class="mb-2 block">
-  In addition, you'll learn how Dyte's UI component library can help you build
+  In addition, you'll learn how ProductDB's UI component library can help you build
   your UI faster with components designed specifically for {props.product}{' '}
   applications.
 </span>
 
 You can also checkout our
-[sample code](https://github.com/dyte-io/android-samples/tree/main/samples/android-ui-kit-sample-kotlin) for Android. You can clone
+[sample code](https://github.com/ProductDB-io/android-samples/tree/main/samples/android-ui-kit-sample-kotlin) for Android. You can clone
 and run a sample application from the
-[Android Samples GitHub repository](https://github.com/dyte-io/android-samples/).
+[Android Samples GitHub repository](https://github.com/ProductDB-io/android-samples/).
 
 
 ## Before Getting Started
 
-Make sure you've a mechanism to get `authToken` from your server-side, which you would have received as part of [Add Participant](/guides/classification/build-live-video-app#step-2-add-participants) call.
+Make sure you've a mechanism to get `authToken` from your server-side, which you would have received as part of [Add Participant](/guides/live-video/build-live-video-app#step-2-add-participants) call.
 
 ## Step 1: Install the SDK using maven dependency.
 
@@ -51,7 +51,7 @@ dependencies {
 
 ## Step 2: Initialisation configuration
 
-Set the properties in the `DyteMeetingInfoV2` class. You just need to provide
+Set the properties in the `ProductDBMeetingInfoV2` class. You just need to provide
 the participant's `authToken`.
 
 | Name        | Description                                                                                                                                                                                                                                                                                                               |
@@ -59,22 +59,22 @@ the participant's `authToken`.
 | `authToken` | After you've created the meeting, <br/> add each participant to the meeting <br/> using the [Add Participant API](/api?v=v2#/operations/add_participant)<br/> (The presetName created earlier <br/> must be passed in the body <br/> of the Add Participant API request) <br/> The API response contains the `authToken`. |
 
 ```kotlin
-val meetingInfo = DyteMeetingInfoV2(
+val meetingInfo = ProductDBMeetingInfoV2(
                     authToken = '<auth_token>',
                   )
 ```
 
 ## Step 3: Initialize the SDK
 
-The `DyteUIKitBuilder` is the main class of the SDK. It is the entry point and
-the only class required to initialize Dyte SDK.
+The `ProductDBUIKitBuilder` is the main class of the SDK. It is the entry point and
+the only class required to initialize ProductDB SDK.
 
 ```kotlin
-val dyteUIKitInfo = DyteUIKitInfo(
+val ProductDBUIKitInfo = ProductDBUIKitInfo(
   activity = this,
-  dyteMeetingInfo = meetingInfo
+  ProductDBMeetingInfo = meetingInfo
 )
-val dyteUIKit = DyteUIKitBuilder.build(dyteUIKitInfo)
+val ProductDBUIKit = ProductDBUIKitBuilder.build(ProductDBUIKitInfo)
 ```
 
 ## Step 4: Launch the meeting UI
@@ -83,7 +83,7 @@ To launch the meeting UI all you need to do is call `startMeeting()` which will 
 care of everything for you.
 
 ```kotlin
-dyteUIKit.startMeeting()
+ProductDBUIKit.startMeeting()
 ```
 
 ![meeting UI screenshot with labeled parts](/static/mobile/0.x.x/mobile-setup.png)

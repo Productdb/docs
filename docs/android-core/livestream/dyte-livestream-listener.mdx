@@ -2,17 +2,17 @@
 title: Livestream Event Listeners
 description: >-
   Explore the functionalities and implementation of the Android Livestream
-  Listener in Dyte documentation.
+  Listener in ProductDB documentation.
 sidebar_position: 3
 tags:
   - android-core
   - livestream
 ---
 
-You can listen to livestream events by attaching a listener by calling `addLivestreamEventsListener` on `dyteMobileClient` object where `dyteMobileClient` is an instance of `DyteMobileClient()`.
+You can listen to livestream events by attaching a listener by calling `addLivestreamEventsListener` on `ProductDBMobileClient` object where `ProductDBMobileClient` is an instance of `ProductDBMobileClient()`.
 
 ```kotlin
-val dyteLiveStreamEventsListener = object : DyteLiveStreamEventsListener {
+val ProductDBLiveStreamEventsListener = object : ProductDBLiveStreamEventsListener {
   override fun onLiveStreamStarting() {
     // when livestream is starting
   }
@@ -53,11 +53,11 @@ val dyteLiveStreamEventsListener = object : DyteLiveStreamEventsListener {
     // when localUser's join request is rejected by host
   }
 
-  override fun onLiveStreamStateUpdate(data: DyteLivestreamData) {
+  override fun onLiveStreamStateUpdate(data: ProductDBLivestreamData) {
     // when there is an update in state of the livestream
   }
 }
-meeting.addLiveStreamEventsListener(dyteLiveStreamEventsListener)
+meeting.addLiveStreamEventsListener(ProductDBLiveStreamEventsListener)
 ```
 
 ## Livestream events
@@ -103,7 +103,7 @@ This event is triggered when the stage requests are updated. The `requests` obje
 This event is triggered when a stage request is accepted. The `peer` object contains the peer whose request is accepted.
 
 ```kotlin
-  void onJoinRequestAccepted(DyteLiveStreamStagePeer peer) {}
+  void onJoinRequestAccepted(ProductDBLiveStreamStagePeer peer) {}
 ```
 
 ### onJoinRequestRejected
@@ -111,10 +111,10 @@ This event is triggered when a stage request is accepted. The `peer` object cont
 This event is triggered when a stage request is rejected. The `peer` object contains the peer whose request is rejected.
 
 ```kotlin
-  void onJoinRequestRejected(DyteLiveStreamStagePeer peer) {}
+  void onJoinRequestRejected(ProductDBLiveStreamStagePeer peer) {}
 ```
 
 <head>
   <title>Android Core Livestream Event Listeners</title>
-<meta name="description" content="Explore the functionalities and implementation of the Android Livestream Listener in Dyte documentation."/>
+<meta name="description" content="Explore the functionalities and implementation of the Android Livestream Listener in ProductDB documentation."/>
 </head>

@@ -1,6 +1,6 @@
 ---
-id: DyteNotificationsAudio
-title: 'Class: DyteNotificationsAudio'
+id: ProductDBNotificationsAudio
+title: 'Class: ProductDBNotificationsAudio'
 custom_edit_url: null
 ---
 
@@ -10,7 +10,7 @@ Handles notification sounds in a meeting
 
 ### constructor
 
-• **new DyteNotificationsAudio**()
+• **new ProductDBNotificationsAudio**()
 
 ## Properties
 
@@ -58,6 +58,6 @@ ___
 `Promise`\<`void`\>
 
 <head>
-	<title>Angular UI Kit Class: DyteNotificationsAudio</title>
-	<meta name="description" content="Explore the Notifications Audio class in Dyte's Angular UI Kit Reference for detailed information."/>
+	<title>Angular UI Kit Class: ProductDBNotificationsAudio</title>
+	<meta name="description" content="Explore the Notifications Audio class in ProductDB's Angular UI Kit Reference for detailed information."/>
 </head>

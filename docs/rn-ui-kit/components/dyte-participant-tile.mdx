@@ -1,52 +1,52 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-participant-tile.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-participant-tile.svg
 description: >-
-  Learn how to use and customize the DyteParticipantTile component in Dyte's
+  Learn how to use and customize the ProductDBParticipantTile component in ProductDB's
   React Native UI Kit with our detailed documentation.
 ---
 
-# DyteParticipantTile
+# ProductDBParticipantTile
 
 A component which plays a participants video and allows for placement of
-components like `dyte-name-tag`, `dyte-audio-visualizer` or any other component.
+components like `ProductDB-name-tag`, `ProductDB-audio-visualizer` or any other component.
 
 ```jsx
-<DyteParticipantTile participant={meeting.self}>
-  <DyteNameTag participant={meeting.self}>
-    <DyteAudioVisualizer slot="start" />
-  </DyteNameTag>
-</DyteParticipantTile>
+<ProductDBParticipantTile participant={meeting.self}>
+  <ProductDBNameTag participant={meeting.self}>
+    <ProductDBAudioVisualizer slot="start" />
+  </ProductDBNameTag>
+</ProductDBParticipantTile>
 ```
 
 You can change the `name-tag-position` to any of the supported values and change
 the placement of audio-visualizer in name-tag as well.
 
 ```jsx
-<DyteParticipantTile participant={meeting.self} nameTagPosition="bottom-center">
-  <DyteNameTag participant={meeting.self}>
-    <DyteAudioVisualizer slot="end" />
-  </DyteNameTag>
-</DyteParticipantTile>
+<ProductDBParticipantTile participant={meeting.self} nameTagPosition="bottom-center">
+  <ProductDBNameTag participant={meeting.self}>
+    <ProductDBAudioVisualizer slot="end" />
+  </ProductDBNameTag>
+</ProductDBParticipantTile>
 ```
 
 It also has a few variants.
 
 ```jsx
-<DyteParticipantTile
+<ProductDBParticipantTile
   participant={meeting.self}
   nameTagPosition="bottom-center"
   variant="gradient"
 >
-  <DyteNameTag participant={meeting.self}>
-    <DyteAudioVisualizer slot="start" />
-  </DyteNameTag>
-</DyteParticipantTile>
+  <ProductDBNameTag participant={meeting.self}>
+    <ProductDBAudioVisualizer slot="start" />
+  </ProductDBNameTag>
+</ProductDBParticipantTile>
 ```
 
 ## Props
 
-<PropsTable of="dyte-participant-tile" />
+<PropsTable of="ProductDB-participant-tile" />
 
 <head>
-  <title>React Native UI Kit DyteParticipantTile</title>
+  <title>React Native UI Kit ProductDBParticipantTile</title>
 </head>

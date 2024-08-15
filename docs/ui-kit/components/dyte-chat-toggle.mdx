@@ -1,16 +1,16 @@
 ---
 description: >-
-  Learn how to use and customize the dyte-chat-toggle component in Dyte's UI Kit
+  Learn how to use and customize the ProductDB-chat-toggle component in ProductDB's UI Kit
   with our detailed documentation.
 ---
 
-# dyte-chat-toggle
+# ProductDB-chat-toggle
 
 A button which toggles visibility of chat.
 
 You need to pass the `meeting` object to it to see the unread messages count badge.
 
-When clicked it emits a `dyteStateUpdate` event with the data:
+When clicked it emits a `ProductDBStateUpdate` event with the data:
 
 ```ts
 {
@@ -20,12 +20,12 @@ When clicked it emits a `dyteStateUpdate` event with the data:
 ```
 
 ```html
-<dyte-chat-toggle size="sm" class="dyte-el"></dyte-chat-toggle>
-<dyte-chat-toggle size="lg" class="dyte-el"></dyte-chat-toggle>
-<dyte-chat-toggle variant="horizontal" class="dyte-el"></dyte-chat-toggle>
+<ProductDB-chat-toggle size="sm" class="ProductDB-el"></ProductDB-chat-toggle>
+<ProductDB-chat-toggle size="lg" class="ProductDB-el"></ProductDB-chat-toggle>
+<ProductDB-chat-toggle variant="horizontal" class="ProductDB-el"></ProductDB-chat-toggle>
 
 <script>
-  const elements = document.getElementsByClassName('dyte-el');
+  const elements = document.getElementsByClassName('ProductDB-el');
   for (const el of elements) {
     el.meeting = meeting;
   }
@@ -34,8 +34,8 @@ When clicked it emits a `dyteStateUpdate` event with the data:
 
 ## Props
 
-<PropsTable of="dyte-chat-toggle" />
+<PropsTable of="ProductDB-chat-toggle" />
 
 <head>
-  <title>UI Kit dyte-chat-toggle</title>
+  <title>UI Kit ProductDB-chat-toggle</title>
 </head>

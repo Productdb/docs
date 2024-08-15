@@ -1,12 +1,12 @@
 ---
 description: >-
-  Learn how to use and customize the DyteAudioButtonControlBar component in Dyte's
+  Learn how to use and customize the ProductDBAudioButtonControlBar component in ProductDB's
   iOS UiKit with our detailed documentation.
 ---
 
-# DyteAudioButtonControlBar
+# ProductDBAudioButtonControlBar
 ## Overview
-Subclass of [DyteControlBarButton](/ios/components/dyte-controlbar-button)
+Subclass of [ProductDBControlBarButton](/ios/components/ProductDB-controlbar-button)
 This button is use to implement the action for mute/unmute microphone for the ongoing meeting. 
 
 ### Topics:
@@ -14,25 +14,25 @@ This button is use to implement the action for mute/unmute microphone for the on
 ### Creating a Audio control button which you mostly add inside Control Bar
 
 ```swift
-init(meeting: DyteMobileClient, onClick:((DyteAudioButtonControlBar)->Void)? = nil, appearance: DyteControlBarButtonAppearance = AppTheme.shared.controlBarButtonAppearance)
+init(meeting: ProductDBMobileClient, onClick:((ProductDBAudioButtonControlBar)->Void)? = nil, appearance: ProductDBControlBarButtonAppearance = AppTheme.shared.controlBarButtonAppearance)
 ```
-Creates a `DyteAudioButtonControlBar` with multiple parameters. 
+Creates a `ProductDBAudioButtonControlBar` with multiple parameters. 
 
 #### Parameters:
 *Required*   
 **meeting:** Current ongoing meeting object.   
 *Optional*  
 **onClick:** Closure that you passed to get callback when user click this button.  
-**appearance:** Any type which conforms to protocol `DyteControlBarButtonAppearance`   
+**appearance:** Any type which conforms to protocol `ProductDBControlBarButtonAppearance`   
 
 
 ### Override the onClick action. 
 ```swift 
-open func onClick(button: DyteAudioButtonControlBar) 
+open func onClick(button: ProductDBAudioButtonControlBar) 
 ```
-You can override this method inside the subclass of `DyteAudioButtonControlBar` to customize the functionality when user presses this button. 
+You can override this method inside the subclass of `ProductDBAudioButtonControlBar` to customize the functionality when user presses this button. 
 
 
 <head>
-  <title>iOS DyteAudioButtonControlBar</title>
+  <title>iOS ProductDBAudioButtonControlBar</title>
 </head>

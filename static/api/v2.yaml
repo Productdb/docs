@@ -2,12 +2,12 @@ openapi: 3.0.0
 x-stoplight:
   id: f49d2395cc273
 servers:
-  - url: 'https://api.dyte.io/v2'
+  - url: 'https://api.productdb.io/v2'
     description: ''
     variables: {}
 info:
   version: v2
-  title: Dyte REST APIs
+  title: ProductDB REST APIs
   description: |-
     ## Rate Limiting
 
@@ -39,7 +39,7 @@ info:
 
     ### Why Do You Set a Rate Limit?
 
-    Rate limiting is required to prevent the network from becoming overloaded as a result of numerous requests. This could be due to hacking activity, overuse of the Dyte APIs by a bot, or a bug in the code. Setting a rate limit helps to prevent this type of API overuse.
+    Rate limiting is required to prevent the network from becoming overloaded as a result of numerous requests. This could be due to hacking activity, overuse of the ProductDB APIs by a bot, or a bug in the code. Setting a rate limit helps to prevent this type of API overuse.
 
     Setting a rate limit also protects us from various types of attacks, such as:
     - [Brute Force Attack](https://www.fortinet.com/resources/cyberglossary/brute-force-attack)
@@ -139,7 +139,7 @@ paths:
             default: false
           in: query
           name: exclude_meetings
-          description: Exclude the Dyte meetings that are livestreamed.
+          description: Exclude the ProductDB meetings that are livestreamed.
         - schema:
             type: integer
           in: query
@@ -298,7 +298,7 @@ paths:
                       total_count: 1
                       start_offset: 1
                       end_offset: 1
-      description: 'Returns details of livestreams associated with the given organization ID. It includes livestreams created by your organization and Dyte meetings that are livestreamed by your organization. If you only want details of livestreams created by your organization and not Dyte meetings, you can use the `exclude_meetings` query parameter.'
+      description: 'Returns details of livestreams associated with the given organization ID. It includes livestreams created by your organization and ProductDB meetings that are livestreamed by your organization. If you only want details of livestreams created by your organization and not ProductDB meetings, you can use the `exclude_meetings` query parameter.'
       tags:
         - Live streams
   '/meetings/{meeting_id}/active-livestream/stop':
@@ -1842,7 +1842,7 @@ paths:
         <!-- theme: warning -->
         > #### NOTE
         >
-        > This API is in beta and is disabled by default. [Contact us](https://dyte.io/contact) to enable it
+        > This API is in beta and is disabled by default. [Contact us](https://productdb.io/contact) to enable it
         > for your organization.
       operationId: GetSessionChat
       tags:
@@ -1865,7 +1865,7 @@ paths:
         <!-- theme: warning -->
         > #### NOTE
         >
-        > This API is in beta. [Contact us](https://dyte.io/contact) if you face
+        > This API is in beta. [Contact us](https://productdb.io/contact) if you face
         > any issues.
       operationId: GetSessionTranscript
       tags:
@@ -1890,7 +1890,7 @@ paths:
         <!-- theme: warning -->
         > #### NOTE
         >
-        > This API is in beta. [Contact us](https://dyte.io/contact) if you face
+        > This API is in beta. [Contact us](https://productdb.io/contact) if you face
         > any issues.
       operationId: GetSessionSummary
       tags:
@@ -2523,7 +2523,7 @@ paths:
           in: query
           name: expired
           required: false
-          description: 'If passed, only shows expired/non-expired recordings on Dyte''s bucket'
+          description: 'If passed, only shows expired/non-expired recordings on ProductDB''s bucket'
         - $ref: '#/components/parameters/search'
         - $ref: '#/components/parameters/recordingSortBy'
         - $ref: '#/components/parameters/sortOrder'
@@ -2719,10 +2719,10 @@ paths:
         <!-- theme: warning -->
         > #### NOTE
         >
-        > This API is in beta. [Contact us](https://dyte.io/contact) if you face
+        > This API is in beta. [Contact us](https://productdb.io/contact) if you face
         > any issues.
 
-        Starts a track recording in a meeting. Track recordings consist of "layers". Layers are used to map audio/video tracks in a meeting to output destinations. More information about track recordings is available in the [Track Recordings Guide Page](https://docs.dyte.io/guides/capabilities/recording/recording-overview).
+        Starts a track recording in a meeting. Track recordings consist of "layers". Layers are used to map audio/video tracks in a meeting to output destinations. More information about track recordings is available in the [Track Recordings Guide Page](https://productdb.dev/guides/capabilities/recording/recording-overview).
 components:
   schemas:
     LivestreamWithSessions:
@@ -3689,14 +3689,14 @@ components:
         name:
           description: Must be a unique organization name
           type: string
-          example: Dyte
+          example: ProductDB
         contact:
           type: string
           example: 778-330-2389
         website:
           type: string
           format: uri
-          example: 'https://www.dyte.io'
+          example: 'https://www.productdb.io'
         feature_flags:
           type: array
           items:
@@ -3721,7 +3721,7 @@ components:
         website:
           type: string
           format: uri
-          example: 'https://www.dyte.io'
+          example: 'https://www.productdb.io'
         feature_flags:
           type: array
           items:
@@ -3744,14 +3744,14 @@ components:
         name:
           description: Must be a unique organization name
           type: string
-          example: Dyte
+          example: ProductDB
         contact:
           type: string
           example: 778-330-2389
         website:
           type: string
           format: uri
-          example: 'https://www.dyte.io'
+          example: 'https://www.productdb.io'
         apikey:
           type: string
           example: 4deeb3d8e8b5e74d5522
@@ -4993,8 +4993,8 @@ components:
             id: mqrzqrbcbbx99
           default: true
           description: Controls whether to export audio file seperately
-    DyteBucketConfig:
-      title: DyteBucketConfig
+    ProductDBBucketConfig:
+      title: ProductDBBucketConfig
       x-stoplight:
         id: nda2arv28bpxt
       type: object
@@ -5003,7 +5003,7 @@ components:
           type: boolean
           x-stoplight:
             id: k1f2cjsd28631
-          description: 'Controls whether recordings are uploaded to Dyte''s bucket. If set to false, `download_url`, `audio_download_url`, `download_url_expiry` won''t be generated for a recording.'
+          description: 'Controls whether recordings are uploaded to ProductDB''s bucket. If set to false, `download_url`, `audio_download_url`, `download_url_expiry` won''t be generated for a recording.'
       required:
         - enabled
     startReason:
@@ -5048,7 +5048,7 @@ components:
               x-stoplight:
                 id: 2q0sigi7zuva4
               description: Name of the user who started the recording.
-              example: Dyte_test
+              example: ProductDB_test
     stopReason:
       title: stopReason
       x-stoplight:
@@ -5089,7 +5089,7 @@ components:
               x-stoplight:
                 id: fylgc8uhbqf1v
               description: Name of the user who stopped the recording.
-              example: Dyte_test
+              example: ProductDB_test
     InteractiveConfig:
       title: InteractiveConfig
       x-stoplight:
@@ -5124,7 +5124,7 @@ components:
         id: yyo7jv040qf6o
       type: object
       description: |
-        Recording Configurations to be used for this meeting. This level of configs takes higher preference over organization level configs on the Dyte developer portal.
+        Recording Configurations to be used for this meeting. This level of configs takes higher preference over organization level configs on the ProductDB developer portal.
       properties:
         max_seconds:
           type: number
@@ -5144,8 +5144,8 @@ components:
           $ref: '#/components/schemas/AudioConfig'
         storage_config:
           $ref: '#/components/schemas/StorageConfig'
-        dyte_bucket_config:
-          $ref: '#/components/schemas/DyteBucketConfig'
+        ProductDB_bucket_config:
+          $ref: '#/components/schemas/ProductDBBucketConfig'
         live_streaming_config:
           $ref: '#/components/schemas/LivestreamingConfig'
     TrackConfigLayer:
@@ -5175,9 +5175,9 @@ components:
           x-stoplight:
             id: ho62tlyy3z8kb
           enum:
-            - DYTE_BUCKET
+            - ProductDB_BUCKET
             - STORAGE_CONFIG
-          default: DYTE_BUCKET
+          default: ProductDB_BUCKET
           description: The type of output destination this layer is being exported to.
         storage_config:
           $ref: '#/components/schemas/StorageConfig'
@@ -5551,8 +5551,8 @@ components:
                   id: kctff4maz6g44
                 format: uri
                 description: Pass a custom url to record arbitary screen
-              dyte_bucket_config:
-                $ref: '#/components/schemas/DyteBucketConfig'
+              ProductDB_bucket_config:
+                $ref: '#/components/schemas/ProductDBBucketConfig'
               interactive_config:
                 $ref: '#/components/schemas/InteractiveConfig'
               allow_multiple_recordings:
@@ -5605,7 +5605,7 @@ components:
                   default:
                     file_name_prefix: string
                     outputs:
-                      - type: DYTE_BUCKET
+                      - type: ProductDB_BUCKET
                       - type: STORAGE_CONFIG
                         storage_config:
                           type: aws
@@ -7093,21 +7093,4 @@ components:
     OrgBearer:
       type: http
       scheme: bearer
-      description: Provide auth token obtained from Dyte CLI
-tags:
-  - name: Meetings
-  - name: Presets
-  - name: Sessions
-  - name: Recordings
-  - name: Webhooks
-  - name: Active session
-  - name: Live streams
-  - name: Analytics
-  - name: Organizations
-  - name: Chat
-externalDocs:
-  url: 'https://docs.dyte.io'
-  description: ''
-security:
-  - Authorization: []
-x-internal: false
+      description: Provide auth token obtained from 

@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react';
 import { Background, BackgroundVariant, Controls, ReactFlow } from 'reactflow';
 import 'reactflow/dist/style.css';
 import {
-  provideDyteDesignSystem,
-} from '@dytesdk/react-ui-kit';
-import { useDyteClient } from '@dytesdk/react-web-core';
+  provideProductDBDesignSystem,
+} from '@ProductDBsdk/react-ui-kit';
+import { useProductDBClient } from '@ProductDBsdk/react-web-core';
 
 import { edgeTypes } from './edges';
 
@@ -16,7 +16,7 @@ import  OnboardingPartTwo, { stepsTwo } from './OnboardingPartTwo';
 export const InteractiveTour = ({ href }: { href: string }) => {
   const history = useHistory();
   const [r, setR] = useState(false);
-  const [meeting, initMeeting] = useDyteClient();
+  const [meeting, initMeeting] = useProductDBClient();
 
   const store = useStore();
 
@@ -40,7 +40,7 @@ export const InteractiveTour = ({ href }: { href: string }) => {
       },
     });
 
-    provideDyteDesignSystem(document.body, {
+    provideProductDBDesignSystem(document.body, {
       theme: 'light',
     });
   }, []);

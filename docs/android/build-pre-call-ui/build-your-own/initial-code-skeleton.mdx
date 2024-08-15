@@ -27,8 +27,8 @@ Barebone xml needed to redner ui for self name and a button to join the meeting 
   ....
   >
 
-  <dyte.io.uikit.view.DyteLabel
-    android:id="@+id/dyteLabelView"
+  <productdb.io.uikit.view.ProductDBLabel
+    android:id="@+id/ProductDBLabelView"
     android:layout_width="300dp"
     android:layout_height="25dp"
     android:text="Join in as %s"
@@ -36,9 +36,9 @@ Barebone xml needed to redner ui for self name and a button to join the meeting 
     android:textSize="16sp"
   />
 
-  <dyte.io.uikit.view.DyteJoinButton
+  <productdb.io.uikit.view.ProductDBJoinButton
     android:contentDescription="Button for joining meeting"
-    android:id="@+id/dytejoinbutton_setup_screen"
+    android:id="@+id/ProductDBjoinbutton_setup_screen"
     android:layout_width="300dp"
     android:layout_height="wrap_content"
   />
@@ -49,12 +49,12 @@ Barebone xml needed to redner ui for self name and a button to join the meeting 
 Now inside your `setup_fragment.kt` file you'll need to bind xml elements with kotlin objects, to do that:
 
 ```kotlin
-private lateinit var joinButton: DyteJoinButton
-private lateinit var selfNameDyteLabel: DyteLabel
+private lateinit var joinButton: ProductDBJoinButton
+private lateinit var selfNameProductDBLabel: ProductDBLabel
 
 override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
   joinButton.activate(meeting)
-  selfNameDyteLabel.text = meeting.localUser.name
+  selfNameProductDBLabel.text = meeting.localUser.name
 }
 ```
 

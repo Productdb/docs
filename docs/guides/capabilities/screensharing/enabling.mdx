@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Enable/Disable Screenshare
 
-Dyte allows you to enable multiple users to share their screens during a meeting session. To integrate screen sharing in your application, go through the following steps:
+ProductDB allows you to enable multiple users to share their screens during a meeting session. To integrate screen sharing in your application, go through the following steps:
 
 ## Usage
 
@@ -30,7 +30,7 @@ You can also define defaults for screen sharing during the client initialisation
 <TabItem value="react" label="React">
 
 ```jsx
-const { meeting } = useDyteMeeting();
+const { meeting } = useProductDBMeeting();
 
 // Enable Screenshare
 await meeting.self.enableScreenShare();
@@ -45,7 +45,7 @@ You can also define defaults for screen sharing during the client initialization
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-const { meeting } = useDyteMeeting();
+const { meeting } = useProductDBMeeting();
 
 // Enable Screenshare
 await meeting.self.enableScreenShare();
@@ -61,13 +61,13 @@ For iOS you need to complete a one time setup described here [described here](/f
 
 ```dart
 // Enable Screenshare
-dyteClient.localUser.enableScreenShare();
+ProductDBClient.localUser.enableScreenShare();
 
 // Disable Screenshare
-dyteClient.localUser.disableScreenShare();
+ProductDBClient.localUser.disableScreenShare();
 
 // Get current status
-dyteClient.localUser.screenShareEnabled;
+ProductDBClient.localUser.screenShareEnabled;
 ```
 
 </TabItem>
@@ -125,9 +125,9 @@ meeting.self.on(
 <TabItem value="react" label="React">
 
 ```jsx
-const { meeting } = useDyteMeeting();
+const { meeting } = useProductDBMeeting();
 
-const screenshareEnabled = useDyteSelector((m) => m.self.screenShareEnabled);
+const screenshareEnabled = useProductDBSelector((m) => m.self.screenShareEnabled);
 
 // or using traditional event listeners
 meeting.self.on(
@@ -146,9 +146,9 @@ meeting.self.on(
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-const { meeting } = useDyteMeeting();
+const { meeting } = useProductDBMeeting();
 
-const screenshareEnabled = useDyteSelector((m) => m.self.screenShareEnabled);
+const screenshareEnabled = useProductDBSelector((m) => m.self.screenShareEnabled);
 
 // or using traditional event listeners
 meeting.self.on(
@@ -174,15 +174,15 @@ If you don't want to create your own button to toggle screen sharing, use the de
 <TabItem value="web-components" label="Web Components">
 
 ```jsx
-<dyte-screen-share-toggle size="sm" class="dyte-el"></dyte-screen-share-toggle>
-<dyte-screen-share-toggle size="lg" class="dyte-el"></dyte-screen-share-toggle>
-<dyte-screen-share-toggle
+<ProductDB-screen-share-toggle size="sm" class="ProductDB-el"></ProductDB-screen-share-toggle>
+<ProductDB-screen-share-toggle size="lg" class="ProductDB-el"></ProductDB-screen-share-toggle>
+<ProductDB-screen-share-toggle
   variant="horizontal"
-  class="dyte-el"
-></dyte-screen-share-toggle>
+  class="ProductDB-el"
+></ProductDB-screen-share-toggle>
 
 <script>
-  const elements = document.getElementsByClassName('dyte-el');
+  const elements = document.getElementsByClassName('ProductDB-el');
   for (const el of elements) {
     el.meeting = meeting;
   }
@@ -193,12 +193,12 @@ If you don't want to create your own button to toggle screen sharing, use the de
 <TabItem value="react" label="React">
 
 ```jsx
-import { DyteScreenShareToggle } from '@dytesdk/react-ui-kit';
+import { ProductDBScreenShareToggle } from '@ProductDBsdk/react-ui-kit';
 
 <Center>
-  <DyteScreenShareToggle size="sm" meeting={meeting} />
-  <DyteScreenShareToggle size="lg" meeting={meeting} />
-  <DyteScreenShareToggle variant="horizontal" size="sm" meeting={meeting} />
+  <ProductDBScreenShareToggle size="sm" meeting={meeting} />
+  <ProductDBScreenShareToggle size="lg" meeting={meeting} />
+  <ProductDBScreenShareToggle variant="horizontal" size="sm" meeting={meeting} />
 </Center>;
 ```
 
@@ -206,24 +206,24 @@ import { DyteScreenShareToggle } from '@dytesdk/react-ui-kit';
 <TabItem value="angular" label="Angular">
 
 ```jsx
-<dyte-screen-share-toggle size="sm" class="dyte-el"></dyte-screen-share-toggle>
-<dyte-screen-share-toggle size="lg" class="dyte-el"></dyte-screen-share-toggle>
-<dyte-screen-share-toggle
+<ProductDB-screen-share-toggle size="sm" class="ProductDB-el"></ProductDB-screen-share-toggle>
+<ProductDB-screen-share-toggle size="lg" class="ProductDB-el"></ProductDB-screen-share-toggle>
+<ProductDB-screen-share-toggle
   variant="horizontal"
-  class="dyte-el"
-></dyte-screen-share-toggle>
+  class="ProductDB-el"
+></ProductDB-screen-share-toggle>
 ```
 
 </TabItem>
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-import { DyteScreenShareToggle } from '@dytesdk/react-native-ui-kit';
+import { ProductDBScreenShareToggle } from '@ProductDBsdk/react-native-ui-kit';
 
 <Center>
-  <DyteScreenShareToggle size="sm" meeting={meeting} />
-  <DyteScreenShareToggle size="lg" meeting={meeting} />
-  <DyteScreenShareToggle variant="horizontal" size="sm" meeting={meeting} />
+  <ProductDBScreenShareToggle size="sm" meeting={meeting} />
+  <ProductDBScreenShareToggle size="lg" meeting={meeting} />
+  <ProductDBScreenShareToggle variant="horizontal" size="sm" meeting={meeting} />
 </Center>;
 ```
 
@@ -246,7 +246,7 @@ On web browsers, a user can choose between sharing a tab, a window or the entire
 <TabItem value="js" label="Javascript">
 
 ```js
-meeting = await DyteClient.init({
+meeting = await ProductDBClient.init({
   authToken,
   defaults: {
     screenShare: {
@@ -260,7 +260,7 @@ meeting = await DyteClient.init({
 <TabItem value="react" label="React">
 
 ```js
-const [meeting, initMeeting] = useDyteClient();
+const [meeting, initMeeting] = useProductDBClient();
 
 const join = () => {
   initMeeting({

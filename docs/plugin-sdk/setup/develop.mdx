@@ -2,17 +2,17 @@
 title: Set Up Development Environment
 sidebar_position: 4
 description: >-
-  Develop your plugin setup efficiently with the Dyte Plugin SDK. Follow our
+  Develop your plugin setup efficiently with the ProductDB Plugin SDK. Follow our
   guidelines for a robust and reliable setup process.
 ---
 
-Dyte's `devTools` module provides a live playground like experience to help you
+ProductDB's `devTools` module provides a live playground like experience to help you
 build your plugin locally.
 
-For this you would need to have a dyte meeting setup first. Dyte meetings can be
+For this you would need to have a ProductDB meeting setup first. ProductDB meetings can be
 created using the [client SDKs](/ui-kit).
 
-The code snippet below shows how you can enable `devTools` for your dyte
+The code snippet below shows how you can enable `devTools` for your ProductDB
 
 :::warning important
 
@@ -23,7 +23,7 @@ Please ensure your plugin is published in order to use this.
 meeting.
 
 <Tabs
-  groupId="dyte-packages"
+  groupId="ProductDB-packages"
   defaultValue="react"
   values={[
     { label: "HTML", value: "html" },
@@ -35,17 +35,17 @@ meeting.
 
 :::info before you start
 
-Install `@dytesdk/web-core@1.x.x` or higher to use dev tools.
+Install `@ProductDBsdk/web-core@1.x.x` or higher to use dev tools.
 
 :::
 
 ```ts
 <body>
- <dyte-meeting id="my-meeting"></dyte-meeting>
+ <ProductDB-meeting id="my-meeting"></ProductDB-meeting>
 
   <script>
     const init = async () => {
-      const meeting = await DyteClient.init({
+      const meeting = await ProductDBClient.init({
         authToken: '',
         roomName: '',
         defaults: {
@@ -77,16 +77,16 @@ you. In this case `localhost:5000`.
 
 :::info before you start
 
-Install `@dytesdk/react-web-core@1.x.x` or higher to use dev tools.
+Install `@ProductDBsdk/react-web-core@1.x.x` or higher to use dev tools.
 
 :::
 
 ```ts
-import { useDyteClient } from '@dytesdk/react-web-core';
-import { DyteMeeting } from '@dytesdk/react-ui-kit';
+import { useProductDBClient } from '@ProductDBsdk/react-web-core';
+import { ProductDBMeeting } from '@ProductDBsdk/react-ui-kit';
 
 export default function App() {
-  const [meeting, initMeeting] = useDyteClient();
+  const [meeting, initMeeting] = useProductDBClient();
 
   useEffect(() => {
     initMeeting({
@@ -104,7 +104,7 @@ export default function App() {
     });
   }, []);
 
-  return <DyteMeeting mode="fill" meeting={meeting} />;
+  return <ProductDBMeeting mode="fill" meeting={meeting} />;
 }
 ```
 
@@ -117,14 +117,14 @@ you. In this case `localhost:5000`.
 
 :::info before you start
 
-Install `@dytesdk/web-core@0.10.x` or higher to use dev tools.
+Install `@ProductDBsdk/web-core@0.10.x` or higher to use dev tools.
 
 :::
 
-Put the dyte component in component.html file
+Put the ProductDB component in component.html file
 
 ```ts
-<dyte-meeting #myid></dyte-meeting>
+<ProductDB-meeting #myid></ProductDB-meeting>
 ```
 
 Then in the component.ts or component.js file initialize the meeting
@@ -132,11 +132,11 @@ Then in the component.ts or component.js file initialize the meeting
 ```ts
 class AppComponent {
   title = 'MyProject';
-  @ViewChild('myid') meetingComponent: DyteMeeting;
-  dyteMeeting: DyteClient;
+  @ViewChild('myid') meetingComponent: ProductDBMeeting;
+  ProductDBMeeting: ProductDBClient;
 
   async ngAfterViewInit() {
-    const meeting = await DyteClient.init({
+    const meeting = await ProductDBClient.init({
       roomName: '<room-name>',
       authToken: '<auth-token>',
       modules: {
@@ -150,7 +150,7 @@ class AppComponent {
       },
     });
     meeting.join();
-    this.dyteMeeting = meeting;
+    this.ProductDBMeeting = meeting;
     if (this.meetingComponent) this.meetingComponent.meeting = meeting;
   }
 }
@@ -172,6 +172,6 @@ publish and manage it.
   <title>Plugin SDK Set Up Development Environment</title>
   <meta
     name="description"
-    content="Develop your plugin setup efficiently with the Dyte Plugin SDK. Follow our guidelines for a robust and reliable setup process."
+    content="Develop your plugin setup efficiently with the ProductDB Plugin SDK. Follow our guidelines for a robust and reliable setup process."
   />
 </head>

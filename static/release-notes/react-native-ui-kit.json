@@ -50,7 +50,7 @@
     "version": "1.7.1",
     "createdAt": 1705257000,
     "features": [],
-    "fixes": ["Fixes provideDyteDesignSystem() colors not updating bug"],
+    "fixes": ["Fixes provideProductDBDesignSystem() colors not updating bug"],
     "breaking-changes": []
   },
   {
@@ -87,7 +87,7 @@
     "features": [],
     "fixes": [
       "Fixes grid ui and pagination bugs",
-      "Fixes respecting DyteMeeting props i.e showSetupScreen & iconPackUrl",
+      "Fixes respecting ProductDBMeeting props i.e showSetupScreen & iconPackUrl",
       ""
     ],
     "breaking-changes": []

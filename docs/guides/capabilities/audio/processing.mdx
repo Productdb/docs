@@ -6,7 +6,7 @@ sidebar_slug: audio-processing-middlewares
 
 # Audio Processing
 
-Dyte's SDK supports middlewares which are pluggable functions that can be applied to both audio and video streams in a meeting. This lets you tap in the media to either observe or modify. This guide covers the following.
+ProductDB's SDK supports middlewares which are pluggable functions that can be applied to both audio and video streams in a meeting. This lets you tap in the media to either observe or modify. This guide covers the following.
 
 1. Create an audio middleware
 2. Add or remove audio middlewares
@@ -20,7 +20,7 @@ Audio can be altered using **ScriptProcessor** and **AudioWorkletProcessor**. We
 
 ```jsx
 //Somewhere in your codebase
-const meeting = await DyteClient.init(...);
+const meeting = await ProductDBClient.init(...);
 
 async function addWhiteNoise(audioContext) {
     const moduleScript = `
@@ -77,7 +77,7 @@ If you'd instead like to perform operations on the audio stream through your own
 
 ```jsx
 //Somewhere in your codebase
-const meeting = await DyteClient.init(...);
+const meeting = await ProductDBClient.init(...);
 
 // You can get the final track which everybody will hear if your microphone is turned on after all the middlewares are applied
 meeting.self.audioTrack()

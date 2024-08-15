@@ -24,20 +24,20 @@ You can install the package using CDN, npm or Yarn.
 Install the SDK using npm.
 
 ```shell
-npm install @dytesdk/web-core
+npm install @ProductDBsdk/web-core
 ```
 
-[![npm version](https://badge.fury.io/js/@dytesdk%2Fweb-core.svg)](https://badge.fury.io/js/@dytesdk%2Fweb-core)
+[![npm version](https://badge.fury.io/js/@ProductDBsdk%2Fweb-core.svg)](https://badge.fury.io/js/@ProductDBsdk%2Fweb-core)
 
   </TabItem>
   <TabItem value="yarn">
 Install the SDK using yarn.
 
 ```shell
-yarn add @dytesdk/web-core
+yarn add @ProductDBsdk/web-core
 ```
 
-[![npm version](https://badge.fury.io/js/@dytesdk%2Fweb-core.svg)](https://badge.fury.io/js/@dytesdk%2Fweb-core)
+[![npm version](https://badge.fury.io/js/@ProductDBsdk%2Fweb-core.svg)](https://badge.fury.io/js/@ProductDBsdk%2Fweb-core)
 
   </TabItem>
   <TabItem value="CDN">
@@ -54,7 +54,7 @@ Add the following script tag in the head of your HTML file.
 | `authToken` | After you've created the meeting, add each participant to the meeting using the [Add Participant API](/api#/operations/add_participant). The API response contains the authToken. |
 
 ```js
-let meeting = await DyteClient.init({
+let meeting = await ProductDBClient.init({
   authToken,
 });
 
@@ -71,23 +71,23 @@ meeting.connectedMeetings.on('meetingChanged', (newMeeting) => {
 
 ```html
 <body>
-  <dyte-meeting id="my-meeting"></dyte-meeting>
+  <ProductDB-meeting id="my-meeting"></ProductDB-meeting>
   <script>
     document.getElementById('my-meeting').meeting = meeting;
   </script>
 </body>
 ```
 
-For detailed guide, check out - https://docs.dyte.io/ui-kit/quickstart
+For detailed guide, check out - https://productdb.dev/ui-kit/quickstart
 
   </TabItem>
   <TabItem value="ReactJS">
 
 ```jsx
-<DyteMeeting meeting={meeting} />
+<ProductDBMeeting meeting={meeting} />
 ```
 
-For detailed guide, check out - https://docs.dyte.io/react-ui-kit/quickstart
+For detailed guide, check out - https://productdb.dev/react-ui-kit/quickstart
 
   </TabItem>
   <TabItem value="Angular">
@@ -95,21 +95,21 @@ For detailed guide, check out - https://docs.dyte.io/react-ui-kit/quickstart
 ```js
 class AppComponent {
   title = 'MyProject';
-  @ViewChild('myid') meetingComponent: DyteMeeting;
-  dyteMeeting: DyteClient;
+  @ViewChild('myid') meetingComponent: ProductDBMeeting;
+  ProductDBMeeting: ProductDBClient;
 
   async ngAfterViewInit() {
-    const meeting = await DyteClient.init({
+    const meeting = await ProductDBClient.init({
       authToken: '<auth-token>',
     });
     meeting.join();
-    this.dyteMeeting = meeting;
+    this.ProductDBMeeting = meeting;
     if (this.meetingComponent) this.meetingComponent.meeting = meeting;
   }
 }
 ```
 
-For detailed guide, check out - https://docs.dyte.io/angular-ui-kit/quickstart
+For detailed guide, check out - https://productdb.dev/angular-ui-kit/quickstart
 
   </TabItem>
 </Tabs>

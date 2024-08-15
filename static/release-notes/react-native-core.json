@@ -9,14 +9,14 @@
     "version": "0.6.8",
     "createdAt": 1702837800,
     "fixes": [
-      "Bug fix to use @dyteinternals/react-native-webrtc instead of react-native-webrtc"
+      "Bug fix to use @ProductDBinternals/react-native-webrtc instead of react-native-webrtc"
     ],
     "breaking-changes": []
   },
   {
     "version": "0.7.0",
     "createdAt": 1702837800,
-    "features": ["@dyteinternals/react-native-webrtc version bump"],
+    "features": ["@ProductDBinternals/react-native-webrtc version bump"],
     "fixes": [],
     "breaking-changes": []
   },
@@ -25,7 +25,7 @@
     "createdAt": 1704652200,
     "features": [],
     "fixes": [
-      "Fixes DyteRNPermissionHandlerNotification errors",
+      "Fixes ProductDBRNPermissionHandlerNotification errors",
       "Fixes iOS WebRTC build errors"
     ],
     "breaking-changes": []

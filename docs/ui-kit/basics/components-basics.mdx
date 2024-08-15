@@ -14,18 +14,18 @@ and use case.
 
 ### Write less code
 
-You can use the provided `<dyte-meeting />` monolith component in case you want
+You can use the provided `<ProductDB-meeting />` monolith component in case you want
 to write less code and not handle all the states and components rendering.
 
 It takes care of all of it and loads the entire meeting UI from your preset.
 
 ```html
 <body>
-  <dyte-meeting id="my-meeting"></dyte-meeting>
+  <ProductDB-meeting id="my-meeting"></ProductDB-meeting>
 
   <script>
     const init = async () => {
-      const meeting = await DyteClient.init({
+      const meeting = await ProductDBClient.init({
         authToken: '',
         roomName: '',
         defaults: {
@@ -54,9 +54,9 @@ Here is a basic example which renders a grid if you join the meeting.
   <div id="joining">Joining...</div>
 
   <div id="joined-screen" style="display: none;">
-    <dyte-grid id="my-grid" class="dyte"></dyte-grid>
-    <dyte-mic-toggle class="dyte"></dyte-mic-toggle>
-    <dyte-camera-toggle class="dyte"></dyte-camera-toggle>
+    <ProductDB-grid id="my-grid" class="ProductDB"></ProductDB-grid>
+    <ProductDB-mic-toggle class="ProductDB"></ProductDB-mic-toggle>
+    <ProductDB-camera-toggle class="ProductDB"></ProductDB-camera-toggle>
   </div>
 </div>
 
@@ -65,7 +65,7 @@ Here is a basic example which renders a grid if you join the meeting.
   const app = document.getElementById('app');
 
   function passMeeting() {
-    const els = document.getElementsByClassName('dyte');
+    const els = document.getElementsByClassName('ProductDB');
     for (const el of els) {
       el.meeting = meeting;
     }
@@ -92,16 +92,16 @@ internationalisation & icons.
 
 | Prop       | Description                                                                      |
 | :--------- | :------------------------------------------------------------------------------- |
-| `meeting`  | The web-core `DyteClient` object. Contains all the meeting specific data & APIs. |
+| `meeting`  | The web-core `ProductDBClient` object. Contains all the meeting specific data & APIs. |
 | `config`   | The [`UI Config`](../reference/interfaces/UIConfig) config                       |
-| `t`        | [i18n helper](../reference/#dytei18n) method                                     |
+| `t`        | [i18n helper](../reference/#ProductDBi18n) method                                     |
 | `iconPack` | [`IconPack`](../reference/#iconpack) object                                      |
 
 Here is a simple example of how you pass these props to components, here a
-`DyteGrid`:
+`ProductDBGrid`:
 
 ```js
-const gridEl = document.createElement('dyte-grid');
+const gridEl = document.createElement('ProductDB-grid');
 
 gridEl.meeting = meeting;
 gridEl.config = config;
@@ -118,10 +118,10 @@ Here are some examples:
 ### Button variants
 
 ```html
-<dyte-button>Primary Button (Default)</dyte-button>
-<dyte-button variant="secondary">Secondary button</dyte-button>
-<dyte-button variant="danger">Danger button</dyte-button>
-<dyte-button variant="ghost">Ghost button</dyte-button>
+<ProductDB-button>Primary Button (Default)</ProductDB-button>
+<ProductDB-button variant="secondary">Secondary button</ProductDB-button>
+<ProductDB-button variant="danger">Danger button</ProductDB-button>
+<ProductDB-button variant="ghost">Ghost button</ProductDB-button>
 ```
 
 ### Participant components
@@ -133,7 +133,7 @@ participant list.
 as a participant to this prop.
 
 ```js
-const nameTagSelf = document.createElement('dyte-grid');
+const nameTagSelf = document.createElement('ProductDB-grid');
 const nameTagSelfWithYou = nameTagSelf.cloneNode(true);
 
 nameTagSelf.participant = nameTagSelfWithYou.participant = participant;
@@ -151,13 +151,13 @@ wish.
 There are two types of grid components, so that the grid can be easily extended
 and modularized.
 
-- Parent Grid component - `dyte-grid`
-- Normal Grid components - `dyte-simple-grid`, `dyte-mixed-grid`,
-  `dyte-spotlight-grid`
+- Parent Grid component - `ProductDB-grid`
+- Normal Grid components - `ProductDB-simple-grid`, `ProductDB-mixed-grid`,
+  `ProductDB-spotlight-grid`
 
 #### Parent Grid Component
 
-The `DyteGrid` component is a monolith component which handles all grid related
+The `ProductDBGrid` component is a monolith component which handles all grid related
 events and data on it's own and passes the following props to it's children.
 
 | Prop                        | Description                         |
@@ -178,7 +178,7 @@ Try changing the `aspectRatio` and `gap` props.
 
 ```html
 <!-- Pass meeting object to this component too! -->
-<dyte-grid aspect-ratio="16:9" gap="8" size="sm"></dyte-grid>
+<ProductDB-grid aspect-ratio="16:9" gap="8" size="sm"></ProductDB-grid>
 ```
 
 #### Normal Grid Components
@@ -187,14 +187,14 @@ These components just accept the props mentioned above and render the UI.
 
 Read more about them in their Reference pages.
 
-##### DyteSimpleGrid
+##### ProductDBSimpleGrid
 
 Accepts: `participants`, `pinnedParticipants`.
 
 This grid renders just the ParticipantTiles of the participants you pass to it.
 It also brings `pinnedParticipants` to the start of the grid.
 
-##### DyteSimpleGrid
+##### ProductDBSimpleGrid
 
 Accepts: `participants`, `pinnedParticipants`.
 
@@ -203,7 +203,7 @@ pinnedParticipants in separate grids.
 
 Pinned participants are in spotlight area, i.e; larger grid.
 
-##### DyteMixedGrid
+##### ProductDBMixedGrid
 
 Accepts: `participants`, `pinnedParticipants`, `screenShareParticipants`,
 `plugins`.
@@ -219,7 +219,7 @@ If you just want to render `self` twice in a SimpleGrid:
 ```js
 // load meeting
 
-const simpleGrid = document.createElement('dyte-simple-grid');
+const simpleGrid = document.createElement('ProductDB-simple-grid');
 simpleGrid.aspectRatio = '1:1';
 simpleGrid.gap = 8;
 simpleGrid.participants = [meeting.self, meeting.self];

@@ -3,15 +3,15 @@ title: Customize Control Bar
 sidebar_position: 4
 ---
 
-Source Code: https://github.com/dyte-io/react-samples/tree/main/samples/create-your-own-ui
+Source Code: https://github.com/ProductDB-io/react-samples/tree/main/samples/create-your-own-ui
 
-Dyte's default header component `DyteControlbar` can be used as the following.
+ProductDB's default header component `ProductDBControlbar` can be used as the following.
 
 ```tsx
-<DyteControlbar meeting={meeting} />
+<ProductDBControlbar meeting={meeting} />
 ```
 
-Following code shows you can customise the DyteControlbar as per your use case.
+Following code shows you can customise the ProductDBControlbar as per your use case.
 
 import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 
@@ -19,13 +19,13 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 hide={[{start:1, end: 5}, {start:44, end: 241}]}
 highlight={[{start:6, end: 42}]}
 file={`
-import { defaultConfig, generateConfig, DyteBreakoutRoomsToggle, DyteCameraToggle, DyteChatToggle, DyteControlbar, DyteControlbarButton, DyteDebuggerToggle, DyteFullscreenToggle, DyteLeaveButton, DyteMicToggle, DyteMoreToggle, DyteMuteAllButton, DyteParticipantsToggle, DytePipToggle, DytePluginsToggle, DytePoll, DytePollsToggle, DyteRecordingToggle, DyteScreenShareToggle, DyteSettingsToggle, DyteStageToggle } from '@dytesdk/react-ui-kit';
-import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
+import { defaultConfig, generateConfig, ProductDBBreakoutRoomsToggle, ProductDBCameraToggle, ProductDBChatToggle, ProductDBControlbar, ProductDBControlbarButton, ProductDBDebuggerToggle, ProductDBFullscreenToggle, ProductDBLeaveButton, ProductDBMicToggle, ProductDBMoreToggle, ProductDBMuteAllButton, ProductDBParticipantsToggle, ProductDBPipToggle, ProductDBPluginsToggle, ProductDBPoll, ProductDBPollsToggle, ProductDBRecordingToggle, ProductDBScreenShareToggle, ProductDBSettingsToggle, ProductDBStageToggle } from '@ProductDBsdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@ProductDBsdk/react-web-core';
 import { useEffect, useState } from 'react';
 
 function ControlBarWithCustomUI({
     meeting, states, config, setStates,
-}: { meeting: DyteClient, config: UIConfig, states: CustomStates, setStates: SetStates }
+}: { meeting: ProductDBClient, config: UIConfig, states: CustomStates, setStates: SetStates }
 ){
 
     // Change selector as per your needs.
@@ -33,36 +33,36 @@ function ControlBarWithCustomUI({
 
     return <div className="flex w-full bg-black text-white justify-between">
         <div id="controlbar-left" className="flex items-center overflow-visible justify-center">
-            <DyteFullscreenToggle states={states} targetElement={fullScreenTargetElement}/>
-            <DyteSettingsToggle states={states} />
-            <DyteScreenShareToggle states={states} meeting={meeting} />
+            <ProductDBFullscreenToggle states={states} targetElement={fullScreenTargetElement}/>
+            <ProductDBSettingsToggle states={states} />
+            <ProductDBScreenShareToggle states={states} meeting={meeting} />
         </div>
         <div id="controlbar-center" className="flex items-center overflow-visible justify-center">
-            <DyteMicToggle meeting={meeting} />
-            <DyteCameraToggle meeting={meeting} />
-            <DyteStageToggle meeting={meeting} />
-            <DyteLeaveButton/>
-            <DyteMoreToggle states={states}>
+            <ProductDBMicToggle meeting={meeting} />
+            <ProductDBCameraToggle meeting={meeting} />
+            <ProductDBStageToggle meeting={meeting} />
+            <ProductDBLeaveButton/>
+            <ProductDBMoreToggle states={states}>
                 <div slot="more-elements">
-                    <DytePipToggle meeting={meeting} states={states} config={config} variant="horizontal" />
-                    <DyteMuteAllButton meeting={meeting} variant="horizontal"/>
-                    <DyteBreakoutRoomsToggle meeting={meeting} states={states} variant="horizontal"/>
-                    <DyteRecordingToggle meeting={meeting} variant="horizontal"/>
-                    <DyteDebuggerToggle meeting={meeting} states={states} variant="horizontal"/>
+                    <ProductDBPipToggle meeting={meeting} states={states} config={config} variant="horizontal" />
+                    <ProductDBMuteAllButton meeting={meeting} variant="horizontal"/>
+                    <ProductDBBreakoutRoomsToggle meeting={meeting} states={states} variant="horizontal"/>
+                    <ProductDBRecordingToggle meeting={meeting} variant="horizontal"/>
+                    <ProductDBDebuggerToggle meeting={meeting} states={states} variant="horizontal"/>
                 </div>
-            </DyteMoreToggle>
+            </ProductDBMoreToggle>
         </div>
         <div id="controlbar-right" className="flex items-center overflow-visible justify-center">
-            <DyteChatToggle meeting={meeting} states={states}/>
-            <DytePollsToggle meeting={meeting} states={states}/>
-            <DyteParticipantsToggle meeting={meeting} states={states}/>
-            <DytePluginsToggle meeting={meeting} states={states} />
+            <ProductDBChatToggle meeting={meeting} states={states}/>
+            <ProductDBPollsToggle meeting={meeting} states={states}/>
+            <ProductDBParticipantsToggle meeting={meeting} states={states}/>
+            <ProductDBPluginsToggle meeting={meeting} states={states} />
         </div>
     </div>
 }
 
 export default function Meeting() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
   const [config, setConfig] = useState(defaultConfig);
   /**
   * We need setStates method to add custom functionalities,
@@ -79,9 +79,9 @@ useEffect(() => {
       const { config } = generateConfig(theme, meeting!);
 
       /**
-       * Full screen toggle, by default requests dyte-meeting/DyteMeeting element to be in full screen.
-       * Since DyteMeeting element is not here,
-       *  we need to pass dyte-fullscreen-toggle, an targetElementId through config.
+       * Full screen toggle, by default requests ProductDB-meeting/ProductDBMeeting element to be in full screen.
+       * Since ProductDBMeeting element is not here,
+       *  we need to pass ProductDB-fullscreen-toggle, an targetElementId through config.
        */
       setFullScreenToggleTargetElement({config, targetElementId: 'root'});
 
@@ -89,10 +89,10 @@ useEffect(() => {
 
     /**
      * Add listeners on meeting & self to monitor leave meeting, join meeting and so on.
-     * This work was earlier done by DyteMeeting component internally.
+     * This work was earlier done by ProductDBMeeting component internally.
      */
-      const stateListenersUtils = new DyteStateListenersUtils(() => meeting, () => states, () => setStates);
-      stateListenersUtils.addDyteEventListeners();
+      const stateListenersUtils = new ProductDBStateListenersUtils(() => meeting, () => states, () => setStates);
+      stateListenersUtils.addProductDBEventListeners();
 
       try{
         await meeting.join();
@@ -109,11 +109,11 @@ useEffect(() => {
 
 return (
   /**
-  * Using a ref hack, we are adding "dyteStateUpdate" listener,
+  * Using a ref hack, we are adding "ProductDBStateUpdate" listener,
   * so that we can listen to child component's internal state changes.
   */
   <div className="flex w-full h-full bg-black text-white" ref={(el) => {
-            el?.addEventListener('dyteStateUpdate', (e) => {
+            el?.addEventListener('ProductDBStateUpdate', (e) => {
               const { detail: newStateUpdate } = e as unknown as { detail: CustomStates };
               setStates((oldState: CustomStates) => { return {
                 ...oldState,
@@ -128,15 +128,15 @@ return (
 }
 
 /**
-* DyteStateListenersUtils is a class that listens to web-core changes and syncs them with ui-kit
+* ProductDBStateListenersUtils is a class that listens to web-core changes and syncs them with ui-kit
 */
-class DyteStateListenersUtils{
+class ProductDBStateListenersUtils{
 
     getStates: () => CustomStates;
 
     getStateSetter: () => (newState: CustomStates) => void;
 
-    getMeeting: () => DyteClient;
+    getMeeting: () => ProductDBClient;
 
     get states(){
         return this.getStates();
@@ -150,7 +150,7 @@ class DyteStateListenersUtils{
         return this.getMeeting();
     }
 
-    constructor(getMeeting: () => DyteClient, getGlobalStates: () => CustomStates, getGlobalStateSetter: () => (newState: CustomStates) => void){
+    constructor(getMeeting: () => ProductDBClient, getGlobalStates: () => CustomStates, getGlobalStateSetter: () => (newState: CustomStates) => void){
         this.getMeeting = getMeeting;
         this.getStates = getGlobalStates;
         this.getStateSetter = getGlobalStateSetter;
@@ -213,7 +213,7 @@ class DyteStateListenersUtils{
         });
     }
 
-    addDyteEventListeners(){
+    addProductDBEventListeners(){
         if (this.meeting.meta.viewType === 'LIVESTREAM') {
             this.meeting.self.addListener('socketServiceRoomJoined', this.socketServiceRoomJoinedListener);
           }
@@ -229,7 +229,7 @@ class DyteStateListenersUtils{
           }
 
     }
-    cleanupDyteEventListeners(){
+    cleanupProductDBEventListeners(){
 
     }
 
@@ -241,19 +241,19 @@ class DyteStateListenersUtils{
 */
 function setFullScreenToggleTargetElement({config, targetElementId}: { config: UIConfig, targetElementId: string }){
     if (config.root && Array.isArray(config.root['div#controlbar-left'])) {
-        const fullScreenToggleIndex = config.root['div#controlbar-left'].indexOf('dyte-fullscreen-toggle');
+        const fullScreenToggleIndex = config.root['div#controlbar-left'].indexOf('ProductDB-fullscreen-toggle');
         if(fullScreenToggleIndex > -1){
-            config.root['div#controlbar-left'][fullScreenToggleIndex] = ['dyte-fullscreen-toggle', {
+            config.root['div#controlbar-left'][fullScreenToggleIndex] = ['ProductDB-fullscreen-toggle', {
                 variant: 'vertical',
                 targetElement: document.querySelector("#"+targetElementId),
             }];
         }
     }
-    ['dyte-more-toggle.activeMoreMenu', 'dyte-more-toggle.activeMoreMenu.md', 'dyte-more-toggle.activeMoreMenu.sm'].forEach((configElemKey) => {
+    ['ProductDB-more-toggle.activeMoreMenu', 'ProductDB-more-toggle.activeMoreMenu.md', 'ProductDB-more-toggle.activeMoreMenu.sm'].forEach((configElemKey) => {
         const configElem = config?.root?.[configElemKey] as any;
-        configElem?.forEach((dyteElemConfigSet: any) => {
-            if (dyteElemConfigSet[0] === 'dyte-fullscreen-toggle') {
-                dyteElemConfigSet[1].targetElement = document.querySelector("#"+targetElementId);
+        configElem?.forEach((ProductDBElemConfigSet: any) => {
+            if (ProductDBElemConfigSet[0] === 'ProductDB-fullscreen-toggle') {
+                ProductDBElemConfigSet[1].targetElement = document.querySelector("#"+targetElementId);
             }
         });
     });

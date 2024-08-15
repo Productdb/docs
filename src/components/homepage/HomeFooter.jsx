@@ -12,20 +12,20 @@ const products = [
     href: 'https://productdb.io/product/classification',
   },
   {
-    name: 'Commerce',
-    href: 'https://dyte.io/voice-sdk',
+    name: 'Marketing',
+    href: 'https://productdb.io/voice-sdk',
   },
   {
-    name: 'Content',
-    href: 'https://dyte.io/live-streaming-sdk',
+    name: 'Live Streaming',
+    href: 'https://productdb.io/live-streaming-sdk',
   },
   {
-    name: 'Communication',
-    href: 'https://dyte.io/chat-sdk',
+    name: 'Chat SDK',
+    href: 'https://productdb.io/chat-sdk',
   },
   {
     name: 'Pricing',
-    href: 'https://dyte.io/pricing',
+    href: 'https://productdb.io/pricing',
   },
   {
     name: 'Features',
@@ -33,43 +33,43 @@ const products = [
     content: [
       {
         name: 'Plugins',
-        href: 'https://dyte.io/features/plugin',
+        href: 'https://productdb.io/features/plugin',
       },
       {
         name: 'Breakout Rooms',
-        href: 'https://dyte.io/features/breakout-rooms',
+        href: 'https://productdb.io/features/breakout-rooms',
       },
       {
         name: 'Recording',
-        href: 'https://dyte.io/features/recording',
+        href: 'https://productdb.io/features/recording',
       },
       {
         name: 'UI Kit',
-        href: 'https://dyte.io/features/ui-kit',
+        href: 'https://productdb.io/features/ui-kit',
       },
       {
         name: 'DevEx',
-        href: 'https://dyte.io/features/devex',
+        href: 'https://productdb.io/features/devex',
       },
       {
         name: 'Security',
-        href: 'https://dyte.io/features/security',
+        href: 'https://productdb.io/features/security',
       },
       {
         name: 'AI',
-        href: 'https://dyte.io/features/dyte-ai',
+        href: 'https://productdb.io/features/ProductDB-ai',
       },
       {
         name: 'Streaming',
-        href: 'https://dyte.io/features/streaming',
+        href: 'https://productdb.io/features/streaming',
       },
       {
         name: 'UX',
-        href: 'https://dyte.io/features/ux',
+        href: 'https://productdb.io/features/ux',
       },
       {
         name: 'Interatcive',
-        href: 'https://dyte.io/features/interactive',
+        href: 'https://productdb.io/features/interactive',
       },
     ],
   },
@@ -78,7 +78,7 @@ const products = [
 const developers = [
   {
     name: 'Developer Portal',
-    href: 'https://accounts.dyte.io/auth/login',
+    href: 'https://accounts.productdb.io/auth/login',
   },
   {
     name: 'Documentation',
@@ -86,7 +86,7 @@ const developers = [
   },
   {
     name: 'Showcase',
-    href: 'https://dyte.io/showcase',
+    href: 'https://productdb.io/showcase',
   },
   {
     name: 'API Reference',
@@ -102,123 +102,124 @@ const developers = [
     content: [
       {
         name: 'Flutter',
-        href: 'https://dyte.io/flutter-video-sdk',
+        href: 'https://productdb.io/flutter-video-sdk',
       },
       {
         name: 'Android',
-        href: 'https://dyte.io/android-video-sdk',
+        href: 'https://productdb.io/android-video-sdk',
       },
       {
         name: 'iOS',
-        href: 'https://dyte.io/ios-video-sdk',
+        href: 'https://productdb.io/ios-video-sdk',
       },
       {
         name: 'React',
-        href: 'https://dyte.io/react-video-sdk',
+        href: 'https://productdb.io/react-video-sdk',
       },
       {
         name: 'React Native',
-        href: 'https://dyte.io/react-native-video-sdk',
+        href: 'https://productdb.io/react-native-video-sdk',
       },
     ],
   },
   {
     name: 'Migrate from Twilio',
-    href: 'https://dyte.io/blog/migrate-twilio-video-dyte-shim/',
+    href: 'https://productdb.io/blog/migrate-twilio-video-ProductDB-shim/',
   },
 ];
 
 const usecases = [
-  { name: 'Ed-Tech', href: 'https://dyte.io/use-cases/ed-tech' },
-  { name: 'Telehealth', href: 'https://dyte.io/use-cases/telehealth' },
-  { name: 'HR Tech', href: 'https://dyte.io/use-cases/hr-tech' },
-  { name: 'Fitness', href: 'https://dyte.io/use-cases/fitness' },
-  { name: 'Social', href: 'https://dyte.io/use-cases/social' },
-  { name: 'Gaming', href: 'https://dyte.io/use-cases/gaming' },
-  { name: 'Events', href: 'https://dyte.io/use-cases/events' },
-  { name: 'Dating', href: 'https://dyte.io/use-cases/dating' },
+  { name: 'Ed-Tech', href: 'https://productdb.io/use-cases/ed-tech' },
+  { name: 'Telehealth', href: 'https://productdb.io/use-cases/telehealth' },
+  { name: 'HR Tech', href: 'https://productdb.io/use-cases/hr-tech' },
+  { name: 'Fitness', href: 'https://productdb.io/use-cases/fitness' },
+  { name: 'Social', href: 'https://productdb.io/use-cases/social' },
+  { name: 'Gaming', href: 'https://productdb.io/use-cases/gaming' },
+  { name: 'Events', href: 'https://productdb.io/use-cases/events' },
+  { name: 'Dating', href: 'https://productdb.io/use-cases/dating' },
 ];
 
 const company = [
   { name: 'About Us', href: 'https://productdb.io/about' },
   { name: 'Customers', href: 'https://productdb.io/customers' },
   { name: 'Blog', href: 'https://productdb.io/blog' },
-  { name: 'Careers', href: 'https://productdb.io/careers' },
-  { name: 'Community', href: 'https://dyte.io/community' },
-  { name: 'Startup Program', href: 'https://dyte.io/startups' },
-  { name: 'Contact Us', href: 'https://dyte.io/contact' },
+  { name: 'Careers', href: 'https://jobs.lever.co/ProductDB-io' },
+  { name: 'Community', href: 'https://productdb.io/community' },
+  { name: 'Startup Program', href: 'https://productdb.io/startups' },
+  { name: 'Contact Us', href: 'https://productdb.io/contact' },
   { name: 'FAQ', href: '/faq' },
+  { name: 'Guide on Video SDK', href: 'https://productdb.io/blog/video-sdk/' },
 ];
 
 const comparisons = [
-  { name: 'Dyte vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
-  { name: 'Dyte vs Agora', href: 'https://dyte.io/agora-competitor' },
-  { name: 'Dyte vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
-  { name: 'Dyte vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
-  { name: 'Dyte vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
+  { name: 'ProductDB vs Raw WebRTC', href: 'https://productdb.io/webrtc-alternative' },
+  { name: 'ProductDB vs Agora', href: 'https://productdb.io/agora-competitor' },
+  { name: 'ProductDB vs Zoom', href: 'https://productdb.io/zoom-sdk-competitor' },
+  { name: 'ProductDB vs Twilio', href: 'https://productdb.io/twilio-video-competitor' },
+  { name: 'ProductDB vs Vonage', href: 'https://productdb.io/vonage-video-alternative' },
   {
     name: 'View 14 more',
     isAccordion: true,
     content: [
       {
         name: 'Zoom vs Agora',
-        href: 'https://dyte.io/zoom-vs-agora',
+        href: 'https://productdb.io/zoom-vs-agora',
       },
       {
         name: 'Agora vs Twilio',
-        href: 'https://dyte.io/agora-vs-twilio',
+        href: 'https://productdb.io/agora-vs-twilio',
       },
       {
         name: 'Zoom vs Twilio',
-        href: 'https://dyte.io/zoom-vs-twilio',
+        href: 'https://productdb.io/zoom-vs-twilio',
       },
       {
         name: 'Agora vs Mux',
-        href: 'https://dyte.io/agora-vs-mux',
+        href: 'https://productdb.io/agora-vs-mux',
       },
       {
         name: 'Zoom vs Whereby',
-        href: 'https://dyte.io/zoom-vs-whereby',
+        href: 'https://productdb.io/zoom-vs-whereby',
       },
       {
         name: 'Tokbox vs Twilio',
-        href: 'https://dyte.io/tokbox-vs-twilio',
+        href: 'https://productdb.io/tokbox-vs-twilio',
       },
       {
         name: 'Tokbox vs Agora',
-        href: 'https://dyte.io/tokbox-vs-agora',
+        href: 'https://productdb.io/tokbox-vs-agora',
       },
       {
         name: 'AWS Chime vs Twilio',
-        href: 'https://dyte.io/aws-chime-vs-twilio',
+        href: 'https://productdb.io/aws-chime-vs-twilio',
       },
       {
         name: 'Tokbox vs Jitsi',
-        href: 'https://dyte.io/tokbox-vs-jitsi',
+        href: 'https://productdb.io/tokbox-vs-jitsi',
       },
       {
         name: 'Zoom vs Jitsi',
-        href: 'https://dyte.io/zoom-vs-jitsi',
+        href: 'https://productdb.io/zoom-vs-jitsi',
       },
       {
         name: 'Agora vs Jitsi',
-        href: 'https://dyte.io/agora-vs-jitsi',
+        href: 'https://productdb.io/agora-vs-jitsi',
       },
       {
         name: 'Whereby vs Jitsi',
-        href: 'https://dyte.io/whereby-vs-jitsi',
+        href: 'https://productdb.io/whereby-vs-jitsi',
       },
       {
         name: 'Livekit vs Jitsi',
-        href: 'https://dyte.io/livekit-vs-jitsi',
+        href: 'https://productdb.io/livekit-vs-jitsi',
       },
       {
         name: '100ms vs Agora',
-        href: 'https://dyte.io/100ms-vs-agora',
+        href: 'https://productdb.io/100ms-vs-agora',
       },
       {
         name: 'Twilio Video Alternatives',
-        href: 'https://dyte.io/blog/twilio-video-alternatives/',
+        href: 'https://productdb.io/blog/twilio-video-alternatives/',
       },
     ],
   },
@@ -226,10 +227,6 @@ const comparisons = [
 
 function Safety({ className }) {
   return (
-<Link
-      href="https://productdb.io/safety"
-      target="_blank"
-    >
     <div
       className={clsx(
         'flex max-w-[418px] flex-row overflow-clip rounded-2xl bg-white dark:bg-[#474747] sm:flex-col sm:pr-0 sm:pb-8 lg:flex-row lg:pr-16 lg:pb-0',
@@ -251,7 +248,6 @@ function Safety({ className }) {
         />
       </div>
     </div>
-</Link>
   );
 }
 
@@ -264,7 +260,7 @@ function Status({ className }) {
   useEffect(() => {
     if (typeof StatusPage !== 'undefined') {
       // eslint-disable-next-line no-undef
-      var sp = new StatusPage.page({ page: 'hsx6f1r97yvq' });
+      var sp = new StatusPage.page({ page: 'wjlxrzb5h09l' });
       sp.status({
         success: function (data) {
           setStatus({
@@ -278,7 +274,7 @@ function Status({ className }) {
 
   return (
     <Link
-      href="https://productdb.statuspage.io/"
+      href="https://status.productdb.io"
       className={clsx(
         'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-gray-500 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline dark:hover:bg-[#474747]',
         className
@@ -349,8 +345,8 @@ export default function Footer() {
             alt="ProductDB"
             className="h-9 w-fit lg:h-12"
             sources={{
-              light: '/logo/dyte.svg',
-              dark: '/logo/dyte_dark_logo.svg',
+              light: '/logo/ProductDB.svg',
+              dark: '/logo/ProductDB_dark_logo.svg',
             }}
           />
 
@@ -382,10 +378,17 @@ export default function Footer() {
 
           <div className="flex flex-wrap gap-2 text-sm text-gray-500">
             <Link
-              href="https://productdb.io/legal/"
+              href="https://productdb.io/legal/privacy-policy"
               className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
             >
-              Legal
+              Privacy Policy
+            </Link>
+            &bull;
+            <Link
+              href="https://productdb.io/legal/terms-of-service"
+              className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
+            >
+              Terms of Service
             </Link>
             &bull;
             <span className="text-inherit dark:text-[#999]">
@@ -395,23 +398,23 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/productdb"
+              href="https://github.com/Productdb"
               aria-label="ProductDB's GitHub Organization"
             >
               <Github className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://linkedin.com/company/productdb"
+              href="https://linkedin.com/company/Productdb"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link href="https://x.com/ProductDB_io" aria-label="Twitter">
+            <Link href="https://twitter.com/ProductDB_io" aria-label="Twitter">
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://www.youtube.com/@productdb"
-              aria-label="ProductDB's YouTube Channel"
+              href="https://youtube.com/company/productDB"
+              aria-label="Productdb's YouTube Channel"
             >
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>

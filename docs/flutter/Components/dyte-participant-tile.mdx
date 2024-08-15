@@ -1,20 +1,20 @@
-# DyteParticipantTile
+# ProductDBParticipantTile
 
-A comprehensive widget designed to display a participant's video or avatar within a Dyte meeting environment. This widget is part of the Dyte UI Kit and is optimized for showing participant information, including live video feed, name, and audio status.
+A comprehensive widget designed to display a participant's video or avatar within a ProductDB meeting environment. This widget is part of the ProductDB UI Kit and is optimized for showing participant information, including live video feed, name, and audio status.
 
 :::info
 
-[`DyteProvider`](./dyte-provider.mdx) needs to be added above `DyteParticipantTile` which will manage dyte client object for polls screen by itself.
+[`ProductDBProvider`](./ProductDB-provider.mdx) needs to be added above `ProductDBParticipantTile` which will manage ProductDB client object for polls screen by itself.
 
 :::
 
 
 ## Usage
 
-Below is an example of how to use the `DyteParticipantTile` in your Flutter application:
+Below is an example of how to use the `ProductDBParticipantTile` in your Flutter application:
 
 ```dart
-DyteParticipantTile(
+ProductDBParticipantTile(
   participant,
   designToken: yourDesignToken,
   height: 240,
@@ -24,8 +24,8 @@ DyteParticipantTile(
 
 ## Properties
 
-- `participant`: (**Required**) An instance of `DyteMeetingParticipant`. This represents the participant whose information and video are to be displayed.
-- `designToken`: (Optional) An instance of `DyteDesignTokens` for customizing the appearance according to the Dyte Design System. If not specified, the widget will use the global design tokens.
+- `participant`: (**Required**) An instance of `ProductDBMeetingParticipant`. This represents the participant whose information and video are to be displayed.
+- `designToken`: (Optional) An instance of `ProductDBDesignTokens` for customizing the appearance according to the ProductDB Design System. If not specified, the widget will use the global design tokens.
 - `height`: (Optional) The height of the tile. Default is `240`.
 - `width`: (Optional) The width of the tile. Default is `180`.
 

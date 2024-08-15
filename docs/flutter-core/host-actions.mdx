@@ -1,7 +1,7 @@
 ---
 title: Host Actions & Permissions
 description: >-
-  Understand the host actions you can perform as per preset permissions set in Developer Portal & integration in Dyte's Flutter SDK.
+  Understand the host actions you can perform as per preset permissions set in Developer Portal & integration in ProductDB's Flutter SDK.
 sidebar_position: 13
 tags:
   - flutter-core
@@ -11,38 +11,38 @@ tags:
 
 # Host Actions & Permissions
 
-Based on your peer preset permissions you can perform certain host actions in Dyte's Flutter SDK. As you follow through this page, you'll know what the host actions are and how to implement it based on permissions.
+Based on your peer preset permissions you can perform certain host actions in ProductDB's Flutter SDK. As you follow through this page, you'll know what the host actions are and how to implement it based on permissions.
 
 ## Permissions
 
-Permissions are set in the Developer Portal. Based on the permissions set, you can perform certain host actions. To access permissions, use `dyteClient.permissions` method. The permissions are as follows:
+Permissions are set in the Developer Portal. Based on the permissions set, you can perform certain host actions. To access permissions, use `ProductDBClient.permissions` method. The permissions are as follows:
 
 ### Media Permissions
 
-Media permissions (audio, video and screenshare) can be accessed using `dyteClient.permissions.media`. You can get audio, video and screenshare permissions. Audio and screenshare permissions are of `DyteMediaPermission` type & video permissions are of `DyteVideoPermissions` type.
+Media permissions (audio, video and screenshare) can be accessed using `ProductDBClient.permissions.media`. You can get audio, video and screenshare permissions. Audio and screenshare permissions are of `ProductDBMediaPermission` type & video permissions are of `ProductDBVideoPermissions` type.
 
-`DyteMediaPermission` is a enum & can have 3 values:
+`ProductDBMediaPermission` is a enum & can have 3 values:
 
-- `DyteMediaPermission.allowed` : If the user is allowed to access the media.
-- `DyteMediaPermission.canRequest` : If the user can request access to the media. Ex: If a user is off stage but can request to come on stage in case of webinar.
-- `DyteMediaPermission.notAllowed` : If the user is not allowed to access the media.
+- `ProductDBMediaPermission.allowed` : If the user is allowed to access the media.
+- `ProductDBMediaPermission.canRequest` : If the user can request access to the media. Ex: If a user is off stage but can request to come on stage in case of webinar.
+- `ProductDBMediaPermission.notAllowed` : If the user is not allowed to access the media.
 
-`DyteVideoPermissions` have 3 properties:
+`ProductDBVideoPermissions` have 3 properties:
 
-- `permission`: It is of `DyteMediaPermission` type & stores the video permission.
+- `permission`: It is of `ProductDBMediaPermission` type & stores the video permission.
 - `frameRate` : It is of type `int` & stores the frame rate of the video.
 - `quality` : It is of type `string` and stores the quality of the video.
 
 ```dart
 
 // To get audio permission
-final DyteMediaPermission audioPermission = dyteClient.permissions.media.audio;
+final ProductDBMediaPermission audioPermission = ProductDBClient.permissions.media.audio;
 
 // To get video details
-final DyteVideoPermissions videoPermission = dyteClient.permissions.media.video;
+final ProductDBVideoPermissions videoPermission = ProductDBClient.permissions.media.video;
 
 // To get screenshare permission
-final DyteMediaPermission screensharePermission = dyteClient.permissions.media.screenshare;
+final ProductDBMediaPermission screensharePermission = ProductDBClient.permissions.media.screenshare;
 ```
 
 ### Waiting Room Permissions
@@ -60,7 +60,7 @@ Waiting room permissions are of type `WaitingRoomPermissions` contains 2 propert
 - `WaitingRoomType.skipOnPriviligedUserEntry` : If the user can enter once there's a privileged user is present in the room.
 
 ```dart
-final WaitingRoomPermissions waitingRoomPermissions = dyteClient.permissions.waitingRoom;
+final WaitingRoomPermissions waitingRoomPermissions = ProductDBClient.permissions.waitingRoom;
 ```
 
 ### Chat Permissions
@@ -71,7 +71,7 @@ Chat permissions are of type `ChatPermissions` contains 2 properties:
 - `canSendFiles`: It is of type `bool` & tells if the user can send images/files in the chat.
 
 ```dart
-final ChatPermissions chatPermissions = dyteClient.permissions.chat;
+final ChatPermissions chatPermissions = ProductDBClient.permissions.chat;
 ```
 
 ### Host Permissions
@@ -85,7 +85,7 @@ Host permissions are of type `HostPermissions` contains 5 properties:
 - `canTriggerRecording`: It is of type `bool` & tells if the user can trigger recording in the room.
 
 ```dart
-final HostPermissions hostPermissions = dyteClient.permissions.host;
+final HostPermissions hostPermissions = ProductDBClient.permissions.host;
 ```
 
 ### Poll Permissions
@@ -97,7 +97,7 @@ Poll permissions are of type `PollPermissions` contains 3 properties:
 - `canView`: It is of type `bool` & tells if the user can view the polls.
 
 ```dart
-final PollPermissions pollPermissions = dyteClient.permissions.poll;
+final PollPermissions pollPermissions = ProductDBClient.permissions.poll;
 ```
 
 ### Plugin Permissions
@@ -108,7 +108,7 @@ Plugin permissions are of type `PluginPermissions` contains 2 properties:
 - `canClose`: It is of type `bool` & tells if the user can close plugins in the meeting room.
 
 ```dart
-final PluginPermissions pluginPermissions = dyteClient.permissions.plugin;
+final PluginPermissions pluginPermissions = ProductDBClient.permissions.plugin;
 ```
 
 ### Livestream Permissions
@@ -118,7 +118,7 @@ Livestream permissions are of type `LivestreamPermissions` contains the followin
 - `canLivestream`: It is of type `bool` & tells if the user can start/stop livestreaming.
 
 ```dart
-final LivestreamPermissions livestreamPermissions = dyteClient.permissions.livestream;
+final LivestreamPermissions livestreamPermissions = ProductDBClient.permissions.livestream;
 ```
 
 ### Miscellaneous Permissions
@@ -133,66 +133,66 @@ A peer can execute following actions if their preset allows it. To access preset
 
 ### Pin/Unpin participant
 
-You can pin & unpin a participant in a meeting room. Use `pinParticipant(participant)` and `unpinParticipant()` method to pin & unpin the `participant` respectively. The `participant` is of `DyteMeetingParticipant`type.
+You can pin & unpin a participant in a meeting room. Use `pinParticipant(participant)` and `unpinParticipant()` method to pin & unpin the `participant` respectively. The `participant` is of `ProductDBMeetingParticipant`type.
 
 ```dart
 
 // Pin the `participant`
-dyteClient.hostActions.pinParticipant(participant);
+ProductDBClient.hostActions.pinParticipant(participant);
 
 // Unpin pinned participant
-dyteClient.hostActions.unpinParticipant();
+ProductDBClient.hostActions.unpinParticipant();
 ```
 
 ### Kick participant(s)
 
-You can kick a participant or kick all participants from a meeting using `kickParticipant(participant)` and `kickAll()` method respectively. The `participant` is of `DyteMeetingParticipant` type.
+You can kick a participant or kick all participants from a meeting using `kickParticipant(participant)` and `kickAll()` method respectively. The `participant` is of `ProductDBMeetingParticipant` type.
 
 ```dart
 
 // Kick the `participant`
-dyteClient.hostActions.kickParticipant(participant);
+ProductDBClient.hostActions.kickParticipant(participant);
 
 // Kick all participants
-dyteClient.hostActions.kickAll();
+ProductDBClient.hostActions.kickAll();
 ```
 
 ### Accept/Reject waitlisted request
 
-You can accept or reject a waitlisted request using `acceptWaitlistedParticipant(participant)` and `rejectWaitlistedParticipant(participant)` method respectively. The `participant` is of `DyteMeetingParticipant` type.
+You can accept or reject a waitlisted request using `acceptWaitlistedParticipant(participant)` and `rejectWaitlistedParticipant(participant)` method respectively. The `participant` is of `ProductDBMeetingParticipant` type.
 
 ```dart
 
 // Accept the waitlisted `waitlistedParticipant`
-dyteClient.hostActions.acceptWaitlistedParticipant(waitlistedParticipant);
+ProductDBClient.hostActions.acceptWaitlistedParticipant(waitlistedParticipant);
 
 // Reject the waitlisted `waitlistedParticipant`
-dyteClient.hostActions.rejectWaitlistedParticipant(waitlistedParticipant);
+ProductDBClient.hostActions.rejectWaitlistedParticipant(waitlistedParticipant);
 ```
 
 ### Mute participant(s) audio
 
-You can mute a participant's audio or mute all participants' audio using `disableParticipantAudio(participant)` and `muteAllAudios()` method respectively. The `participant` is of `DyteMeetingParticipant` type.
+You can mute a participant's audio or mute all participants' audio using `disableParticipantAudio(participant)` and `muteAllAudios()` method respectively. The `participant` is of `ProductDBMeetingParticipant` type.
 
 ```dart
 
 // Mute the `participant` audio
-dyteClient.hostActions.disableParticipantAudio(participant);
+ProductDBClient.hostActions.disableParticipantAudio(participant);
 
 // Mute all participants' audio
-dyteClient.hostActions.muteAllAudios();
+ProductDBClient.hostActions.muteAllAudios();
 
 ```
 
 ### Disable participant(s) video
 
-You can disable a participant's video or disable all participants' video using `disableParticipantVideo(participant)` and `disableAllVideos()` method respectively. The `participant` is of `DyteMeetingParticipant` type.
+You can disable a participant's video or disable all participants' video using `disableParticipantVideo(participant)` and `disableAllVideos()` method respectively. The `participant` is of `ProductDBMeetingParticipant` type.
 
 ```dart
 
 // Disable the `participant` video
-dyteClient.hostActions.disableParticipantVideo(participant);
+ProductDBClient.hostActions.disableParticipantVideo(participant);
 
 // Disable all participants' video
-dyteClient.hostActions.disableAllVideos();
+ProductDBClient.hostActions.disableAllVideos();
 ```

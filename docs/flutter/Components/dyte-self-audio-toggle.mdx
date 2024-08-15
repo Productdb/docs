@@ -1,14 +1,14 @@
-# DyteSelfAudioToggleButton
+# ProductDBSelfAudioToggleButton
 
-A toggle button widget designed for controlling the audio state in the Dyte video conference environment. This widget integrates with the Dyte UI Kit and allows users to enable or disable their microphone audio during a meeting.
+A toggle button widget designed for controlling the audio state in the ProductDB video conference environment. This widget integrates with the ProductDB UI Kit and allows users to enable or disable their microphone audio during a meeting.
 
 ## Usage
 
-Here is a basic example of how to use the `DyteSelfAudioToggleButton` in your Flutter app:
+Here is a basic example of how to use the `ProductDBSelfAudioToggleButton` in your Flutter app:
 
 ```dart
-DyteSelfAudioToggleButton(
-  dyteMobileClient: yourDyteMobileClientInstance,
+ProductDBSelfAudioToggleButton(
+  ProductDBMobileClient: yourProductDBMobileClientInstance,
   onAudioToggle: () {
     // Your code to handle toggle
   },
@@ -20,7 +20,7 @@ DyteSelfAudioToggleButton(
 
 ## Properties
 
-- `dyteMobileClient`: (**Required**) An instance of `DyteMobileClient` to manage the audio state and events.
+- `ProductDBMobileClient`: (**Required**) An instance of `ProductDBMobileClient` to manage the audio state and events.
 - `onAudioToggle`: (Optional) A callback that gets called when the audio toggle button is pressed.
 - `iconSize`: (Optional) Size of the icon inside the toggle button. If not specified, the default size is used.
 - `iconColor`: (Optional) Color of the icon inside the toggle button. If not specified, the default color from the design tokens is used.
@@ -28,7 +28,7 @@ DyteSelfAudioToggleButton(
 
 ## Design Token
 
-The widget uses `DyteDesignTokens` for theming, which allows for customization according to the Dyte Design System. The `designToken` can be passed as a parameter or will default to the global design token.
+The widget uses `ProductDBDesignTokens` for theming, which allows for customization according to the ProductDB Design System. The `designToken` can be passed as a parameter or will default to the global design token.
 
 ## Screenshot
 

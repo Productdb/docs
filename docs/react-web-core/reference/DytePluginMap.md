@@ -5,7 +5,7 @@ web_core_version: 1.32.1
 
 <!-- Auto Generated Below -->
 
-<a name="module_DytePluginMap"></a>
+<a name="module_ProductDBPluginMap"></a>
 
 This is a map of plugins, indexed by `plugin.id`.
 This map emits an event whenever a plugin present in the map emits an event.

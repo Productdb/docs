@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 description: >-
-  Access comprehensive documentation on iOS events with Dyte Docs. Stay informed
+  Access comprehensive documentation on iOS events with ProductDB Docs. Stay informed
   and integrate events seamlessly into your app.
 ---
 
@@ -10,8 +10,8 @@ description: >-
 ## Local User - Events
 
 You can subscribe to various events on the local user by implementing
-`DyteSelfEventsListener` and passing the object to
-`meeting.addSelfEventsListener(dyteSelfEventsListener)`.
+`ProductDBSelfEventsListener` and passing the object to
+`meeting.addSelfEventsListener(ProductDBSelfEventsListener)`.
 
 ### Room joined
 
@@ -19,7 +19,7 @@ Triggered when the room join event completes and now the meeting is ready to
 produce and consume media.
 
 ```swift
-extension MeetingViewModel: DyteSelfEventsListener {
+extension MeetingViewModel: ProductDBSelfEventsListener {
     func onRoomJoined() {
         //Room Joined
     }
@@ -32,7 +32,7 @@ Triggered when the user starts / stops the video using `enableVideo` or
 `disableVideo`
 
 ```kotlin
-extension MeetingViewModel: DyteSelfEventsListener {
+extension MeetingViewModel: ProductDBSelfEventsListener {
     func onVideoUpdate(videoEnabled: Bool) {
       if (videoEnabled) {
         // video is enabled, and other participants in room can see local user
@@ -50,7 +50,7 @@ Triggered when the user starts / stops the audio using `enableAudio` or
 
 ```swift
 
-extension MeetingViewModel: DyteSelfEventsListener {
+extension MeetingViewModel: ProductDBSelfEventsListener {
     func onAudioUpdate(audioEnabled: Bool) {
       if (audioEnabled) {
         // audio is enabled, and other participants in room can hear local user
@@ -66,7 +66,7 @@ extension MeetingViewModel: DyteSelfEventsListener {
 Triggered when the user is disconnected due to media/network errors
 
 ```kotlin
-extension MeetingViewModel: DyteSelfEventsListener {
+extension MeetingViewModel: ProductDBSelfEventsListener {
     func onMeetingRoomDisconnected() {
       //disconnected
     }
@@ -79,7 +79,7 @@ Triggered when there is any change in proximity. Meaning if device is near ear
 piece which triggers display on/off.
 
 ```swift
-extension MeetingViewModel: DyteSelfEventsListener {
+extension MeetingViewModel: ProductDBSelfEventsListener {
     func onProximityChanged(isNear: Bool) {
       // isNear
       // if true, display should be turned off, as user might be speaking through earpiece
@@ -101,7 +101,7 @@ let waitListStatus = meeting.localUser.waitListStatus
 Developers can listen to those changes in `onWaitListStatusUpdate()` callbacks
 
 ```swift
-extension MeetingViewModel: DyteSelfEventsListener {
+extension MeetingViewModel: ProductDBSelfEventsListener {
     func onWaitListStatusUpdate(waitListStatus: WaitListStatus) {
 
     }
@@ -111,8 +111,8 @@ extension MeetingViewModel: DyteSelfEventsListener {
 ## Participants list events
 
 You can subscribe to events for all participants by implementing
-`DyteParticipantEventsListener` callback and then passing that object to
-`meeting.addParticipantEventsListener(dyteParticipantEventsListener)` method.
+`ProductDBParticipantEventsListener` callback and then passing that object to
+`meeting.addParticipantEventsListener(ProductDBParticipantEventsListener)` method.
 Here are the supported methods:
 
 ### Participant joined
@@ -120,8 +120,8 @@ Here are the supported methods:
 Triggers an event when any participant joins the meeting.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
-        func onParticipantJoin(participant: DyteMeetingParticipant) {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
+        func onParticipantJoin(participant: ProductDBMeetingParticipant) {
             // your code here to handle new participant
         }
     }
@@ -132,8 +132,8 @@ Triggers an event when any participant joins the meeting.
 Triggers an event when any participant leaves the meeting.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
-        func onParticipantLeave(participant: DyteMeetingParticipant) {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
+        func onParticipantLeave(participant: ProductDBMeetingParticipant) {
             // your code here to handle participant left from meeting
         }
     }
@@ -144,7 +144,7 @@ Triggers an event when any participant leaves the meeting.
 Triggers an event when there is any change in screenshares in a meeting.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
         func onScreenSharesUpdated() {
             // your code here to handle screenshares from meeting
             // you can use `meeting.participants.screenshares` to get latest screenshare participants
@@ -158,7 +158,7 @@ Whenever there is a change in the GridInfo for the room, the following method is
 called.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
         func onGridUpdated(gridInfo: GridInfo) {
             // your code here to handle grid changes.
         }
@@ -170,8 +170,8 @@ called.
 Trigger an event when any participant starts / stops video.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
-        func onVideoUpdate(videoEnabled: Bool, participant: DyteMeetingParticipant) {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
+        func onVideoUpdate(videoEnabled: Bool, participant: ProductDBMeetingParticipant) {
             // your code here to handle participant video toggle update
         }
     }
@@ -182,8 +182,8 @@ Trigger an event when any participant starts / stops video.
 Trigger an event when any participant starts / stops audio.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
-        func onAudioUpdate(audioEnabled: Bool, participant: DyteMeetingParticipant) {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
+        func onAudioUpdate(audioEnabled: Bool, participant: ProductDBMeetingParticipant) {
             // your code here to handle participant audio toggle update
         }
     }
@@ -194,8 +194,8 @@ Trigger an event when any participant starts / stops audio.
 Trigger an event when any is change in active speaker in the meeting.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
-        func onActiveSpeakerChanged(participant: DyteMeetingParticipant) {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
+        func onActiveSpeakerChanged(participant: ProductDBMeetingParticipant) {
             // your code here to handle active speaker
         }
 
@@ -210,8 +210,8 @@ Trigger an event when any is change in active speaker in the meeting.
 Trigger an event when any is change in pinned participant in the meeting.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
-        func onParticipantPinned(participant: DyteMeetingParticipant) {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
+        func onParticipantPinned(participant: ProductDBMeetingParticipant) {
             // your code here to show pinned participant
         }
 
@@ -226,8 +226,8 @@ Trigger an event when any is change in pinned participant in the meeting.
 Triggers an event when any change in active participants list in the meeting.
 
 ```swift
-    extension MeetingViewModel: DyteParticipantEventsListener {
-        func onActiveParticipantsChanged(active: [DyteMeetingParticipant]) {
+    extension MeetingViewModel: ProductDBParticipantEventsListener {
+        func onActiveParticipantsChanged(active: [ProductDBMeetingParticipant]) {
             // your code here to refresh active participants
         }
     }
@@ -252,11 +252,11 @@ the recording. The valid states are `IDLE`, `STARTING`, `RECORDING`, and
 
 The changes to `meeting.recording.recordingState` can be listened by
 implementing `onMeetingRecordingStateUpdated` from
-`DyteMeetingRoomEventsListener`. You can attach this observer by calling
+`ProductDBMeetingRoomEventsListener`. You can attach this observer by calling
 `meeting.addMeetingRoomEventsListener(listener)`.
 
 ```kotlin
-meeting.addMeetingRoomEventsListener(object : DyteMeetingRoomEventsListener {
+meeting.addMeetingRoomEventsListener(object : ProductDBMeetingRoomEventsListener {
     override fun onMeetingRecordingStarted() {
       super.onMeetingRecordingStarted()
       // on recording started
@@ -267,7 +267,7 @@ meeting.addMeetingRoomEventsListener(object : DyteMeetingRoomEventsListener {
       // on recording ended
     }
 
-    override fun onMeetingRecordingStateUpdated(state: DyteRecordingState) {
+    override fun onMeetingRecordingStateUpdated(state: ProductDBRecordingState) {
       super.onMeetingRecordingStateUpdated(state)
       // on recording state update
     }
@@ -283,6 +283,6 @@ meeting.addMeetingRoomEventsListener(object : DyteMeetingRoomEventsListener {
   <title>iOS Events</title>
   <meta
     name="description"
-    content="Access comprehensive documentation on iOS events with Dyte Docs. Stay informed and integrate events seamlessly into your app."
+    content="Access comprehensive documentation on iOS events with ProductDB Docs. Stay informed and integrate events seamlessly into your app."
   />
 </head>

@@ -2,11 +2,11 @@
 title: Exchange data between plugin and meeting
 sidebar_position: 2
 description: >-
-  Learn how to exchange data between your plugin and meetings with the Dyte
+  Learn how to exchange data between your plugin and meetings with the ProductDB
   Plugin SDK. Enable dynamic interactions and customization.
 ---
 
-Plugin SDK allows you to exchange data between the dyte meeting and the plugin.
+Plugin SDK allows you to exchange data between the ProductDB meeting and the plugin.
 This guide talks about how this can be done:
 
 ## Client SDK
@@ -48,24 +48,24 @@ plugin.on('myAwesomeEvent', (data) => {
 
 ## Plugin SDK
 
-### Send custom events to the dyte meeting
+### Send custom events to the ProductDB meeting
 
 The emitEvent method is used to emit custom events to the (client SDK) room.
 
 ```ts
-import DytePlugin from "@dytesdk/plugin-sdk";
+import ProductDBPlugin from "@ProductDBsdk/plugin-sdk";
 
-const plugin = DytePlugin.init();
+const plugin = ProductDBPlugin.init();
 
 plugin.room.emitEvent('myAwesomeEvent', {...});
 ```
 
-### Listen for custom messages from the dyte meeting
+### Listen for custom messages from the ProductDB meeting
 
 ```ts
-import DytePlugin from '@dytesdk/plugin-sdk';
+import ProductDBPlugin from '@ProductDBsdk/plugin-sdk';
 
-const plugin = DytePlugin.init();
+const plugin = ProductDBPlugin.init();
 
 plugin.room.on('customEventToPlugin', (data) => {
   console.log(data);
@@ -76,6 +76,6 @@ plugin.room.on('customEventToPlugin', (data) => {
   <title>Plugin SDK Exchange data between plugin and meeting</title>
   <meta
     name="description"
-    content="Learn how to exchange data between your plugin and meetings with the Dyte Plugin SDK. Enable dynamic interactions and customization."
+    content="Learn how to exchange data between your plugin and meetings with the ProductDB Plugin SDK. Enable dynamic interactions and customization."
   />
 </head>

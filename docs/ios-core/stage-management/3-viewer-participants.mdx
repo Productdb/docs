@@ -1,6 +1,6 @@
 ---
 title: Stage Access for Viewers
-description: Stage APIs for Viewers in Dyte meetings.
+description: Stage APIs for Viewers in ProductDB meetings.
 sidebar_position: 3
 tags:
   - ios-core
@@ -19,10 +19,10 @@ meeting.stage.requestAccess()
 ```
 
 When a host accepts the user's stage access request or allows the user directly to the stage, the SDK triggers the
-`onPresentRequestReceived` callback in `DyteStageEventListener`. You can listen to this event:
+`onPresentRequestReceived` callback in `ProductDBStageEventListener`. You can listen to this event:
 
 ```swift
-extension WebinarViewModel: DyteStageEventListener {
+extension WebinarViewModel: ProductDBStageEventListener {
     func onPresentRequestReceived() {
         // Host accepted the join stage request or invited user directly to stage
     }

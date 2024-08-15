@@ -3,11 +3,11 @@ title: Audio/video - Device Selection
 sidebar_position: 4
 ---
 
-To let the user choose between multiple available input / output devices, you can use the `DyteSettingsFragment` or `DyteSettingsBottomsheet` component
+To let the user choose between multiple available input / output devices, you can use the `ProductDBSettingsFragment` or `ProductDBSettingsBottomsheet` component
 
 ```kotlin
-val dyteSettingsFragment = DyteSettingsFragment()
-dyteSettingsFragment.show(
+val ProductDBSettingsFragment = ProductDBSettingsFragment()
+ProductDBSettingsFragment.show(
   fragmentManager,
   "SOME_TAG_HERE"
 )
@@ -31,7 +31,7 @@ and on the kotlin side
 val videoDevices = meeting.localUser.getVideoDevices()
 val videoAdapter = ArrayAdapter(
         requireContext(),
-        R.layout.dyte_spinner_item,
+        R.layout.ProductDB_spinner_item,
         videoDevices.map { it.type.displayName },
       )
 videoAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
@@ -71,7 +71,7 @@ and on the kotlin side
 val audioDevices = meeting.localUser.getAudioDevices()
 val audioAdapter = ArrayAdapter(
         requireContext(),
-        R.layout.dyte_spinner_item,
+        R.layout.ProductDB_spinner_item,
         audioDevices.map { it.type.displayName },
       )
 audioAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)

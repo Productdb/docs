@@ -23,10 +23,10 @@ meeting.participants.joined.on('screenShareUpdate', (participant) => {
 <TabItem value="react" label="React">
 
 ```jsx
-const { meeting } = useDyteMeeting();
+const { meeting } = useProductDBMeeting();
 
 // Array of participants having their screenshare on
-const ssParticipants = useDyteSelector((m) =>
+const ssParticipants = useProductDBSelector((m) =>
   m.participant.joined.toArray().filter((p) => p.screenShareEnabled)
 );
 
@@ -47,13 +47,13 @@ meeting.participants.joined.on('screenShareUpdate', (participant) => {
 ...
 
 @override
-void onScreenShareStarted(DyteJoinedMeetingParticipant participant) {
-  /// handle screen share started of `DyteJoinedMeetingParticipant` participant
+void onScreenShareStarted(ProductDBJoinedMeetingParticipant participant) {
+  /// handle screen share started of `ProductDBJoinedMeetingParticipant` participant
 }
 
 @override
-void onScreenShareEnded(DyteJoinedMeetingParticipant participant) {
-  /// handle screen share ended of `DyteJoinedMeetingParticipant` participant
+void onScreenShareEnded(ProductDBJoinedMeetingParticipant participant) {
+  /// handle screen share ended of `ProductDBJoinedMeetingParticipant` participant
 }
 
 ...
@@ -63,10 +63,10 @@ void onScreenShareEnded(DyteJoinedMeetingParticipant participant) {
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-const { meeting } = useDyteMeeting();
+const { meeting } = useProductDBMeeting();
 
 // Array of participants having their screenshare on
-const ssParticipants = useDyteSelector((m) =>
+const ssParticipants = useProductDBSelector((m) =>
   m.participant.joined.toArray().filter((p) => p.screenShareEnabled)
 );
 
@@ -85,7 +85,7 @@ meeting.participants.joined.on('screenShareUpdate', (participant) => {
 
 ```kotlin
 
-private val participantEventsListener = object : DyteParticipantEventsListener {
+private val participantEventsListener = object : ProductDBParticipantEventsListener {
         override fun onScreenSharesUpdated() {
             super.onScreenSharesUpdated()
 
@@ -99,15 +99,15 @@ private val participantEventsListener = object : DyteParticipantEventsListener {
 <TabItem value="ios" label="iOS (Swift)">
 
 ```swift
-DyteParticipantEventsListener {
+ProductDBParticipantEventsListener {
         func onScreenSharesUpdated() {
             // your code here to handle screenshares from meeting
         }
-        func onScreenShareEnded(participant: DyteMeetingParticipant) {
+        func onScreenShareEnded(participant: ProductDBMeetingParticipant) {
             // your code here to handle screenshare ended
         }
 
-        func onScreenShareStarted(participant: DyteMeetingParticipant) {
+        func onScreenShareStarted(participant: ProductDBMeetingParticipant) {
             //  your code here to handle screenshare started
         }
 }
@@ -124,21 +124,21 @@ This component does not render anything if the participant hasn't start sharing 
 <TabItem value="web-components" label="Web Components">
 
 ```jsx
-<dyte-screenshare-view class="dyte-el" style="height: 480px">
-  <dyte-name-tag class="dyte-el">
-    <dyte-audio-visualizer class="dyte-el" slot="start"></dyte-audio-visualizer>
-  </dyte-name-tag>
-</dyte-screenshare-view>
+<ProductDB-screenshare-view class="ProductDB-el" style="height: 480px">
+  <ProductDB-name-tag class="ProductDB-el">
+    <ProductDB-audio-visualizer class="ProductDB-el" slot="start"></ProductDB-audio-visualizer>
+  </ProductDB-name-tag>
+</ProductDB-screenshare-view>
 
 <script>
-  const elements = document.getElementsByClassName('dyte-el');
+  const elements = document.getElementsByClassName('ProductDB-el');
   for (const el of elements) {
     el.participant = ssParticipant;
   }
 </script>
 ```
 
-Check out the [reference](/ui-kit/components/dyte-screenshare-view) for more details about the attributes.
+Check out the [reference](/ui-kit/components/ProductDB-screenshare-view) for more details about the attributes.
 
 To create your own component, you can use the `screenShareTracks` property of the [local user](/web-core/local-user/introduction) to get the list of screen share tracks and control how you want to display them.
 
@@ -147,19 +147,19 @@ To create your own component, you can use the `screenShareTracks` property of th
 
 ```jsx
 import {
-  DyteScreenshareView,
-  DyteNameTag,
-  DyteAudioVisualizer,
-} from '@dytesdk/react-ui-kit';
+  ProductDBScreenshareView,
+  ProductDBNameTag,
+  ProductDBAudioVisualizer,
+} from '@ProductDBsdk/react-ui-kit';
 
-<DyteScreenshareView participant={ssParticipant} style={{ height: '480px' }}>
-  <DyteNameTag participant={ssParticipant}>
-    <DyteAudioVisualizer slot="start" participant={ssParticipant} />
-  </DyteNameTag>
-</DyteScreenshareView>;
+<ProductDBScreenshareView participant={ssParticipant} style={{ height: '480px' }}>
+  <ProductDBNameTag participant={ssParticipant}>
+    <ProductDBAudioVisualizer slot="start" participant={ssParticipant} />
+  </ProductDBNameTag>
+</ProductDBScreenshareView>;
 ```
 
-Check out the [reference](/react-ui-kit/components/dyte-screenshare-view) for more details about the props.
+Check out the [reference](/react-ui-kit/components/ProductDB-screenshare-view) for more details about the props.
 
 To create your own component, you can use the `screenShareTracks` property of the [local user](/react-web-core/local-user/introduction) to get the list of screen share tracks and control how you want to display them.
 
@@ -167,21 +167,21 @@ To create your own component, you can use the `screenShareTracks` property of th
 <TabItem value="angular" label="Angular">
 
 ```jsx
-<dyte-screenshare-view class="dyte-el" style="height: 480px">
-  <dyte-name-tag class="dyte-el">
-    <dyte-audio-visualizer class="dyte-el" slot="start"></dyte-audio-visualizer>
-  </dyte-name-tag>
-</dyte-screenshare-view>
+<ProductDB-screenshare-view class="ProductDB-el" style="height: 480px">
+  <ProductDB-name-tag class="ProductDB-el">
+    <ProductDB-audio-visualizer class="ProductDB-el" slot="start"></ProductDB-audio-visualizer>
+  </ProductDB-name-tag>
+</ProductDB-screenshare-view>
 
 <script>
-const elements = document.getElementsByClassName('dyte-el');
+const elements = document.getElementsByClassName('ProductDB-el');
   for (const el of elements) {
     el.participant = ssParticipant;
   }
 </script>
 ```
 
-Check out the [reference](/angular-ui-kit/components/dyte-screenshare-view) for more details about the attributes.
+Check out the [reference](/angular-ui-kit/components/ProductDB-screenshare-view) for more details about the attributes.
 
 To create your own component, you can use the `screenShareTracks` property of the [local user](/web-core/local-user/introduction) to get the list of screen share tracks and control how you want to display them.
 
@@ -197,19 +197,19 @@ This UI component does not currently exist in the Flutter UIKit.
 
 ```jsx
 import {
-  DyteScreenshareView,
-  DyteNameTag,
-  DyteAudioVisualizer,
-} from '@dytesdk/react-native-ui-kit';
+  ProductDBScreenshareView,
+  ProductDBNameTag,
+  ProductDBAudioVisualizer,
+} from '@ProductDBsdk/react-native-ui-kit';
 
-<DyteScreenshareView participant={ssParticipant} style={{ height: '480px' }}>
-  <DyteNameTag participant={ssParticipant}>
-    <DyteAudioVisualizer slot="start" participant={ssParticipant} />
-  </DyteNameTag>
-</DyteScreenshareView>;
+<ProductDBScreenshareView participant={ssParticipant} style={{ height: '480px' }}>
+  <ProductDBNameTag participant={ssParticipant}>
+    <ProductDBAudioVisualizer slot="start" participant={ssParticipant} />
+  </ProductDBNameTag>
+</ProductDBScreenshareView>;
 ```
 
-Check out the [reference](/react-native/components/dyte-screenshare-view) for more details about the props.
+Check out the [reference](/react-native/components/ProductDB-screenshare-view) for more details about the props.
 
 To create your own component, you can use the `screenShareTracks` property of the [local user](/rn-core/local-user/introduction) to get the list of screen share tracks and control how you want to display them.
 

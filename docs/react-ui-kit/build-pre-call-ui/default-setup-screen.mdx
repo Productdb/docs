@@ -1,14 +1,14 @@
 ---
-title: DyteSetupScreen
+title: ProductDBSetupScreen
 sidebar_position: 4
 ---
 
-Dyte provides a default pre-call preview UI, also known as setup screen as part of our UI components.
+ProductDB provides a default pre-call preview UI, also known as setup screen as part of our UI components.
 
 Previously in the Quickstart example, we used the following component.
 
 ```tsx
-<DyteMeeting meeting={meeting} showSetupScreen={true} />
+<ProductDBMeeting meeting={meeting} showSetupScreen={true} />
 ```
 
 If you want to break down the above for a custom UI but still want to reuse the default setup screen, use the following component.
@@ -19,16 +19,16 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 highlight={[{start: 11, end: 11}]}
 hide={[{start:1, end: 3}]}
 file={`
-import { DyteSetupScreen } from '@dytesdk/react-ui-kit';
-import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
+import { ProductDBSetupScreen } from '@ProductDBsdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@ProductDBsdk/react-web-core';
 
 export default function MyMeeting() {
-  const { meeting } = useDyteMeeting();
-  const roomState = useDyteSelector((m) => m.self.roomState);
+  const { meeting } = useProductDBMeeting();
+  const roomState = useProductDBSelector((m) => m.self.roomState);
 
   return (
     <div className="flex w-full h-full">
-      {roomState === 'init' && <DyteSetupScreen meeting={meeting} />}
+      {roomState === 'init' && <ProductDBSetupScreen meeting={meeting} />}
       {roomState === 'joined' && <center>Custom in-meeting UI</center>}
       {roomState === 'ended' && <center>Custom post-meeting UI</center>}
     </div>

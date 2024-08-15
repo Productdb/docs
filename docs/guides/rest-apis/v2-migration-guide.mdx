@@ -5,30 +5,30 @@ slug: /v2-migration-guide
 
 # Migrate to v2 REST API
 
-Dyte v2 REST API is now the primary API for Dyte and the focus of development
+ProductDB v2 REST API is now the primary API for ProductDB and the focus of development
 efforts. The API has been redesigned to cater to a wider range of developer
 requirements and to enhance the developer experience. With v2 endpoints you can
-manage Dyte's organizations, sessions, meetings, recording, webhooks,
+manage ProductDB's organizations, sessions, meetings, recording, webhooks,
 livestreaming, analytics, and much more.
 
 We highly recommend that you start migrating to v2, as v1 will eventually be
 discontinued. However, rest assured that support for v1 will still be provided
 for the near future.
 
-## What's new with Dyte v2 REST API
+## What's new with ProductDB v2 REST API
 
-The Dyte v2 REST API includes a range of new features to help you get more from
-the Dyte API.
+The ProductDB v2 REST API includes a range of new features to help you get more from
+the ProductDB API.
 
 ### New endpoints
 
-While the majority of the endpoints in Dyte API v2 are replacements, we have
+While the majority of the endpoints in ProductDB API v2 are replacements, we have
 introduced several new endpoints. Here are a few examples of new endpoints we've
 added to v2:
 
 - **Chat Replay**: Allows you to programmatically
   [retrieve all chat messages](/api#/operations/GetSessionChat)
-  of a Dyte session.
+  of a ProductDB session.
 - **Sessions**: Provides information about all
   [meetings](/api#/operations/GetSessions) that have taken
   place within your organization, including the list of participants, their
@@ -91,7 +91,7 @@ are more intuitive to use and perfectly align with your specific needs.
 
 ### Consistency
 
-A key feature of the updated v2 version of the Dyte API is consistency among
+A key feature of the updated v2 version of the ProductDB API is consistency among
 endpoints, which ensures uniform objects, functions, and behavior across similar
 endpoints.
 
@@ -99,7 +99,7 @@ endpoints.
 
 To start the migration, do the following:
 
-1. Log into the [Developer Portal](https://dev.dyte.io/).
+1. Log into the [Developer Portal](https://dev.productdb.io/).
 2. In the **API Version**, select **v2** from the drop-down.
    <img
      src="/static/v2-API-migration/v2_selector.png"
@@ -115,14 +115,14 @@ In the v2 view of the Developer Portal, you can view and manage the meetings and
 recordings that you have created using v2 APIs, as well as access and manage the
 dashboard, API keys, logs, and webhooks.
 
-Dyte also provides the option to copy your v1 presets to v2, which offers
+ProductDB also provides the option to copy your v1 presets to v2, which offers
 greater flexibility.
 
 ### Copy v1 Presets to v2
 
 To copy your v1 presets, do the following:
 
-1. In the [Developer Portal](https://dev.dyte.io/), select **Presets**.
+1. In the [Developer Portal](https://dev.productdb.io/), select **Presets**.
 2. In **Presets**, click **Migrate from v1**. If you're in the v1 view of the
    Developer Portal, click **Migrate to v2**.
    <img
@@ -179,18 +179,18 @@ use case, but here are some general guidelines:
 ## Postman collection
 
 We've provided a ready-to-use
-[Postman collection](https://www.postman.com/dyte-api/workspace/dyte-s-public-workspace/collection/208979[…]8d7-8739-49ac-b88c-c5e6ec365e21?action=share&creator=20897959)
+[Postman collection](https://www.postman.com/ProductDB-api/workspace/ProductDB-s-public-workspace/collection/208979[…]8d7-8739-49ac-b88c-c5e6ec365e21?action=share&creator=20897959)
 of relevant APIs to help you get started quickly with the new endpoints and
 capabilities. This allows you to test authentication and experiment with
 endpoints.
 
-## Dyte API endpoint map
+## ProductDB API endpoint map
 
-The following table maps the Dyte API v2 endpoints to the corresponding v1.
+The following table maps the ProductDB API v2 endpoints to the corresponding v1.
 
 | **Base URL** | **v1**                   | **v2**                   |
 | ------------ | ------------------------ | ------------------------ |
-|              | `https://api.dyte.io/v1` | `https://api.dyte.io/v2` |
+|              | `https://api.productdb.io/v1` | `https://api.productdb.io/v2` |
 
 ### Meetings and participants
 
@@ -238,6 +238,6 @@ The following table maps the Dyte API v2 endpoints to the corresponding v1.
   <title>Migrate to v2 REST API Guide</title>
   <meta
     name="description"
-    content="Explore the migration guide for transitioning to Dyte's V2. Follow our guide for effective migration strategies and implementation."
+    content="Explore the migration guide for transitioning to ProductDB's V2. Follow our guide for effective migration strategies and implementation."
   />
 </head>

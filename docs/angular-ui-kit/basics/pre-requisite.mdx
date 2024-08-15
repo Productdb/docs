@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 description: >-
-  Understand the prerequisites for using Dyte's Angular UI Kit with our
+  Understand the prerequisites for using ProductDB's Angular UI Kit with our
   comprehensive documentation.
 ---
 
@@ -12,7 +12,7 @@ Make sure to read this before you start integrating the UI Kit into your app.
 These are a couple of components that are important for proper functioning of a
 meeting.
 
-### DyteParticipantsAudio
+### ProductDBParticipantsAudio
 
 This component takes care of the audio playback and autoplay issues.
 
@@ -23,7 +23,7 @@ The user will not hear audio without this component.
 :::
 
 ```html
-<dyte-participants-audio id="my-audio"></dyte-participants-audio>
+<ProductDB-participants-audio id="my-audio"></ProductDB-participants-audio>
 
 <script>
   document.getElementById('my-audio').meeting = meeting;
@@ -38,7 +38,7 @@ Here is more information on
 
 Other browsers have similar policy, with some minor differences.
 
-### DyteNotifications
+### ProductDBNotifications
 
 :::danger Notifications
 
@@ -48,7 +48,7 @@ poor network without this component.
 :::
 
 ```html
-<dyte-notifications id="my-notifications"></dyte-notifications>
+<ProductDB-notifications id="my-notifications"></ProductDB-notifications>
 
 <script>
   // load meeting
@@ -67,28 +67,28 @@ poor network without this component.
 </script>
 ```
 
-### DyteDialogManager
+### ProductDBDialogManager
 
 A component which handles all dialog elements in a component. This component is required for the following components to work:
 
-- DyteLeaveButton
-- DyteSettingsToggle
-- DyteBreakoutRoomsToggle
-- DyteMuteAllButton
+- ProductDBLeaveButton
+- ProductDBSettingsToggle
+- ProductDBBreakoutRoomsToggle
+- ProductDBMuteAllButton
 
 This components depends on the values from `states` object.
 
 ```html
-<dyte-notifications id="my-notifications"></dyte-notifications>
+<ProductDB-notifications id="my-notifications"></ProductDB-notifications>
 
 <script>
-  <dyte-button onclick="showSettings()">Show Settings</dyte-button>
-  <dyte-button onclick="showLeaveConfirmation()">Show Settings</dyte-button>
+  <ProductDB-button onclick="showSettings()">Show Settings</ProductDB-button>
+  <ProductDB-button onclick="showLeaveConfirmation()">Show Settings</ProductDB-button>
 
-  <dyte-dialog-manager id="dyte-el"></dyte-dialog-manager>
+  <ProductDB-dialog-manager id="ProductDB-el"></ProductDB-dialog-manager>
 
   <script>
-    const dialog = document.getElementById('dyte-el');
+    const dialog = document.getElementById('ProductDB-el');
     dialog.meeting = meeting;
     let states = {};
 
@@ -109,7 +109,7 @@ This components depends on the values from `states` object.
       stateUpdate({ activeLeaveConfirmation: true });
     }
 
-    dialog.addEventListener('dyteStateUpdate', (e) => {
+    dialog.addEventListener('ProductDBStateUpdate', (e) => {
       stateUpdate(e.detail);
     });
 
@@ -119,5 +119,5 @@ This components depends on the values from `states` object.
 
 <head>
   <title>Angular UI Kit Prerequisite</title>
-  <meta name="description" content="Understand the prerequisites for using Dyte's Angular UI Kit with our comprehensive documentation."/>
+  <meta name="description" content="Understand the prerequisites for using ProductDB's Angular UI Kit with our comprehensive documentation."/>
 </head>

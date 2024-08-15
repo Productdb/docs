@@ -1,6 +1,6 @@
 ---
 description: >-
-  Learn how to use and customize the DyteAvatarView component in Dyte's iOS UiKit
+  Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit
   with our detailed documentation.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## Overview: How to use existing Settings screen.
 
-We have to use a class [DyteSettingViewController](/ios/components/dyte-settings), which is used to select Audio device and Camera device
+We have to use a class [ProductDBSettingViewController](/ios/components/ProductDB-settings), which is used to select Audio device and Camera device
 from the list of available devices.
 
 <img
@@ -22,7 +22,7 @@ from the list of available devices.
 
 ```swift
 private func launchSettingScreen() {
-  let controller = DyteSettingViewController(nameTag: self.meeting.localUser.name,
+  let controller = ProductDBSettingViewController(nameTag: self.meeting.localUser.name,
                                              meeting: self.meeting,
                                              completion: {})
   controller.modalPresentationStyle = .fullScreen
@@ -33,5 +33,5 @@ private func launchSettingScreen() {
 `completion` param is a clouser of type `(()->Void)? = nil`
 
 <head>
-  <title>iOS DyteAvatarView</title>
+  <title>iOS ProductDBAvatarView</title>
 </head>

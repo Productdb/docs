@@ -1,24 +1,24 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-notification.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-notification.svg
 description: >-
-  Learn how to use and customize the dyte-notification component in Dyte's UI
+  Learn how to use and customize the ProductDB-notification component in ProductDB's UI
   Kit with our detailed documentation.
 ---
 
-# dyte-notification
+# ProductDB-notification
 
 A component which shows a notification.
 
 You need to remove the element after you receive the
-`dyteNotificationDismiss` event.
+`ProductDBNotificationDismiss` event.
 
 ```html
-<dyte-notification id="dyte-el"></dyte-notification>
+<ProductDB-notification id="ProductDB-el"></ProductDB-notification>
 
 <script>
-  const el = document.getElementById('dyte-el');
+  const el = document.getElementById('ProductDB-el');
 
-  el.addEventListener('dyteNotificationDismiss', (e) => {
+  el.addEventListener('ProductDBNotificationDismiss', (e) => {
     e.target.remove();
   });
 
@@ -37,8 +37,8 @@ You need to remove the element after you receive the
 
 ## Props
 
-<PropsTable of="dyte-notification" />
+<PropsTable of="ProductDB-notification" />
 
 <head>
-  <title>UI Kit dyte-notification</title>
+  <title>UI Kit ProductDB-notification</title>
 </head>

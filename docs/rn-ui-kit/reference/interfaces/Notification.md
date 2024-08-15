@@ -4,7 +4,7 @@ title: 'Interface: Notification'
 custom_edit_url: null
 ---
 
-Notification object type, which is used in `<dyte-notification />`.
+Notification object type, which is used in `<ProductDB-notification />`.
 
 ## Properties
 
@@ -55,5 +55,5 @@ ___
 
 <head>
 	<title>React Native UI Kit Interface: Notification</title>
-	<meta name="description" content="Learn about the React Native Notification Interface provided by Dyte. Utilize this interface for efficient handling and customization of notifications in your app."/>
+	<meta name="description" content="Learn about the React Native Notification Interface provided by ProductDB. Utilize this interface for efficient handling and customization of notifications in your app."/>
 </head>

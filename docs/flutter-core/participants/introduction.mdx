@@ -2,7 +2,7 @@
 title: Introduction
 description: >-
   Learn about participants in Flutter and how to integrate participant features
-  with Dyte's documentation. Follow our guide for a smooth introduction.
+  with ProductDB's documentation. Follow our guide for a smooth introduction.
 sidebar_position: 1
 tags:
   - flutter-core
@@ -13,11 +13,11 @@ tags:
 # Introduction - Participants
 
 The data regarding all meeting participants is stored under `participants`
-objects of `DyteMobileClient()` instance. To get all the objects and methods
+objects of `ProductDBMobileClient()` instance. To get all the objects and methods
 related to participants:
 
 ```dart
-  final participants = dyteClient.participants;
+  final participants = ProductDBClient.participants;
 ```
 
 Use the methods and events to consume the participants data. For example, to get
@@ -25,32 +25,32 @@ all the participants who joined the meeting:
 
 ```dart
 // get all joined participants
-final joinedParticipants = dyteClient.participants.joined;
+final joinedParticipants = ProductDBClient.participants.joined;
 ```
 
-The `dyteClient.participants` object has the following properties.
+The `ProductDBClient.participants` object has the following properties.
 
 - `waitlisted`: A list that contains all the participants waiting to join the
-  meeting. All elements of this array are of type _DyteWaitlistedParticipant_.
+  meeting. All elements of this array are of type _ProductDBWaitlistedParticipant_.
 - `joined`: A list that contains all the participants who have joined the
-  meeting. All elements of this array are of type _DyteJoinedMeetingParticipant_.
+  meeting. All elements of this array are of type _ProductDBJoinedMeetingParticipant_.
 - `active`: A list that contains all the participants except the local user who
-  are supposed to be on the screen at the moment. All elements of this array are of type _DyteJoinedMeetingParticipant_.
+  are supposed to be on the screen at the moment. All elements of this array are of type _ProductDBJoinedMeetingParticipant_.
 - `screenshares`: A list that contains all the participants who have shared
-  screen in the meeting. All elements of this array are of type _DyteJoinedMeetingParticipant_.
-- `pinned`: Pinned participant of the meeting. It can be nullable as well. This is of type _DyteJoinedMeetingParticipant_.
+  screen in the meeting. All elements of this array are of type _ProductDBJoinedMeetingParticipant_.
+- `pinned`: Pinned participant of the meeting. It can be nullable as well. This is of type _ProductDBJoinedMeetingParticipant_.
 
 Therefore, if you were to make a grid of participants, you'd use the `active`
 list, but to display all participants in the meeting you'd use the `joined`
 list.
 
-- `dyteClient.pinned` is of type `DyteJoinedMeetingParticipant`.
+- `ProductDBClient.pinned` is of type `ProductDBJoinedMeetingParticipant`.
 - All participant in each of the `joined`, `waitlisted`, `active`, and
-  `screenshares` list is of type `DyteJoinedMeetingParticipant`.
+  `screenshares` list is of type `ProductDBJoinedMeetingParticipant`.
 
 ## Grid info for the room
 
-`DyteGridPagesInfo` object is designed to help you with pagination decisions. It
+`ProductDBGridPagesInfo` object is designed to help you with pagination decisions. It
 is returned with `onGridUpdated` event. It contains the following properties:
 
 - `currentPageNumber`: Int, returns the current page number (currently displayed
@@ -79,7 +79,7 @@ _Note: Indexing of page starts from 0_
 
 ```dart
 // switch to page 1
-dyteClient.setPage(1);
+ProductDBClient.setPage(1);
 ```
 
 ## Broadcast Message to all participants
@@ -89,7 +89,7 @@ dyteClient.setPage(1);
 const payload = {
   "message": "Hello World",
 };
-dyteClient.broadcastMessage("type", payload);
+ProductDBClient.broadcastMessage("type", payload);
 ```
 
 ## Video update for all participants
@@ -97,13 +97,13 @@ dyteClient.broadcastMessage("type", payload);
 Triggered when any participant of the meeting enable/disable it's video. It also passes the participant details who has updated it's video status.
 
 ```dart
-class ParticipantNotifier implements DyteParticipantEventsListener{
+class ParticipantNotifier implements ProductDBParticipantEventsListener{
 
   ...
   @override
   void onVideoUpdate(
     bool videoEnabled,
-    DyteJoinedMeetingParticipant participant,
+    ProductDBJoinedMeetingParticipant participant,
   ) {
     //
   }
@@ -119,13 +119,13 @@ Triggered when any participant of the meeting enable/disable it's audio. It also
 
 ```dart
 
-class ParticipantNotifier implements DyteParticipantEventsListener{
+class ParticipantNotifier implements ProductDBParticipantEventsListener{
 
   ...
   @override
   void onAudioUpdate(
     bool audioEnabled,
-    DyteJoinedMeetingParticipant participant,
+    ProductDBJoinedMeetingParticipant participant,
   ) {
     //
   }
@@ -136,5 +136,5 @@ class ParticipantNotifier implements DyteParticipantEventsListener{
 
 <head>
   <title>Flutter Core Introduction</title>
-  <meta name="description" content="Learn about participants in Flutter and how to integrate participant features with Dyte's documentation. Follow our guide for a smooth introduction."/>
+  <meta name="description" content="Learn about participants in Flutter and how to integrate participant features with ProductDB's documentation. Follow our guide for a smooth introduction."/>
 </head>

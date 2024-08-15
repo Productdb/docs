@@ -1,17 +1,17 @@
 ---
 description: >-
-  Learn how to use and customize the dyte-network-indicator component in Dyte's React UI
+  Learn how to use and customize the ProductDB-network-indicator component in ProductDB's React UI
   Kit with our detailed documentation.
 ---
 
-# dyte-network-indicator
+# ProductDB-network-indicator
 
 A component that indicates poor network connection.
 
 It listens to the mediaScoreUpdate event of the passed participant to get the score.
 
 ```tsx
- (participant as DyteParticipant).addListener('mediaScoreUpdate', ({ kind, isScreenshare, score }) => {
+ (participant as ProductDBParticipant).addListener('mediaScoreUpdate', ({ kind, isScreenshare, score }) => {
   console.log(`Score for ${isScreenshare ? 'screen share': ''} ${kind} was:: ${score}`);
 });
 ```
@@ -24,8 +24,8 @@ This component will only be visible if the network quality is poor (less than or
 
 ## Props
 
-<PropsTable of="dyte-network-indicator" />
+<PropsTable of="ProductDB-network-indicator" />
 
 <head>
-  <title>React UI Kit dyte-network-indicator</title>
+  <title>React UI Kit ProductDB-network-indicator</title>
 </head>

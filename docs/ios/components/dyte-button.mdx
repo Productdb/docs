@@ -1,41 +1,41 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-button.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-button.svg
 description: >-
-  Learn how to use and customize the DyteButton component in Dyte's iOS UiKit with
+  Learn how to use and customize the ProductDBButton component in ProductDB's iOS UiKit with
   our detailed documentation.
 ---
 
-# DyteButton
+# ProductDBButton
 ## Overview
-A button that follows Dyte's Design System.
+A button that follows ProductDB's Design System.
 
 ### Topics:
 
 ### Creating a button.
 
 ```swift
-public init(style: Style = .solid, dyteButtonState: States = .active, size: Size = .large, appearance: DyteButtonAppearance = DyteButtonAppearanceModel()) 
+public init(style: Style = .solid, ProductDBButtonState: States = .active, size: Size = .large, appearance: ProductDBButtonAppearance = ProductDBButtonAppearanceModel()) 
 ```
-Creates DyteButton for the **Style** **States** **Size** you passed.
+Creates ProductDBButton for the **Style** **States** **Size** you passed.
 
 #### Parameters:
 *Optional*  
 **style:** passed any type of Style. Default value of style is `solid`.   
-**dyteButtonState:** passed any type of States. Default value of states is `active`.   
+**ProductDBButtonState:** passed any type of States. Default value of states is `active`.   
 **size:**  passed any type of Size. Default value of size is `large`.  
-**appearance:** Any type which conforms to protocol `DyteButtonAppearance`
+**appearance:** Any type which conforms to protocol `ProductDBButtonAppearance`
 
 ### Style
 ```swift
 public enum Style {
   case solid
   case line
-  case iconLeftLable(icon: DyteImage)
-  case iconRightLable(icon: DyteImage)
+  case iconLeftLable(icon: ProductDBImage)
+  case iconRightLable(icon: ProductDBImage)
   case text
-  case textIconLeft(icon: DyteImage)
-  case textIconRight(icon: DyteImage)
-  case iconOnly(icon: DyteImage)
+  case textIconLeft(icon: ProductDBImage)
+  case textIconRight(icon: ProductDBImage)
+  case iconOnly(icon: ProductDBImage)
   case splitButton
 }
 ```
@@ -60,13 +60,13 @@ public enum Size {
   case large 
 }
 ```
-For example we can use DyteButton as follows
+For example we can use ProductDBButton as follows
 ```swift
-let dyteImage = DyteImage(image:ImageProvider.image(named: "icon_down_arrow"))
-let downloadButton: DyteButton = {
-    let button = DyteButton(style: .iconOnly(icon: dyteImage),
-                  dyteButtonState: .active)
-    button.backgroundColor = dyteSharedTokenColor.background.shade800
+let ProductDBImage = ProductDBImage(image:ImageProvider.image(named: "icon_down_arrow"))
+let downloadButton: ProductDBButton = {
+    let button = ProductDBButton(style: .iconOnly(icon: ProductDBImage),
+                  ProductDBButtonState: .active)
+    button.backgroundColor = ProductDBSharedTokenColor.background.shade800
     button.isUserInteractionEnabled = false
     button.tintColor = .white
     // Set additional button properties if needed
@@ -76,5 +76,5 @@ let downloadButton: DyteButton = {
 ```
 
 <head>
-  <title>iOS DyteButton</title>
+  <title>iOS ProductDBButton</title>
 </head>

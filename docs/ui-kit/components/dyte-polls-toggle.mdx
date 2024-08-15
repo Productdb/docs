@@ -1,16 +1,16 @@
 ---
 description: >-
-  Learn how to use and customize the dyte-polls-toggle component in Dyte's UI
+  Learn how to use and customize the ProductDB-polls-toggle component in ProductDB's UI
   Kit with our detailed documentation.
 ---
 
-# dyte-polls-toggle
+# ProductDB-polls-toggle
 
 A button which toggles visibility of polls.
 
 You need to pass the `meeting` object to it to see the unread polls count badge.
 
-When clicked it emits a `dyteStateUpdate` event with the data:
+When clicked it emits a `ProductDBStateUpdate` event with the data:
 
 ```ts
 {
@@ -20,12 +20,12 @@ When clicked it emits a `dyteStateUpdate` event with the data:
 ```
 
 ```html
-<dyte-polls-toggle size="sm" class="dyte-el"></dyte-polls-toggle>
-<dyte-polls-toggle size="lg" class="dyte-el"></dyte-polls-toggle>
-<dyte-polls-toggle variant="horizontal" class="dyte-el"></dyte-polls-toggle>
+<ProductDB-polls-toggle size="sm" class="ProductDB-el"></ProductDB-polls-toggle>
+<ProductDB-polls-toggle size="lg" class="ProductDB-el"></ProductDB-polls-toggle>
+<ProductDB-polls-toggle variant="horizontal" class="ProductDB-el"></ProductDB-polls-toggle>
 
 <script>
-  const elements = document.getElementsByClassName('dyte-el');
+  const elements = document.getElementsByClassName('ProductDB-el');
   for (const el of elements) {
     el.meeting = meeting;
   }
@@ -34,8 +34,8 @@ When clicked it emits a `dyteStateUpdate` event with the data:
 
 ## Props
 
-<PropsTable of="dyte-polls-toggle" />
+<PropsTable of="ProductDB-polls-toggle" />
 
 <head>
-  <title>UI Kit dyte-polls-toggle</title>
+  <title>UI Kit ProductDB-polls-toggle</title>
 </head>

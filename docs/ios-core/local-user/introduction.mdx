@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: >-
-  Learn about local user management in iOS Core with Dyte Docs. Understand the
+  Learn about local user management in iOS Core with ProductDB Docs. Understand the
   fundamentals for effective integration and app customization.
 sidebar_position: 3
 tags:
@@ -40,7 +40,7 @@ audio streams. To change this behaviour use the `audioEnabled` & `videoEnabled`
 parameter
 
 ```swift
-let meetingInfo = DyteMeetingInfo(
+let meetingInfo = ProductDBMeetingInfo(
             roomName = MEETING_ROOM_NAME,
             authToken = AUTH_TOKEN,
             audioEnabled = false,
@@ -58,7 +58,7 @@ meeting.localUser.getSelfPreview()
 
 ## Turn audio/video tracks after joining the room
 
-If audio and video tracks are disabled during the `DyteMobileClient`
+If audio and video tracks are disabled during the `ProductDBMobileClient`
 initialization process. You can setup the audio and video tracks by simply
 calling `enableAudio()` and `enableVideo()` like below:
 
@@ -138,13 +138,13 @@ OR
 If you want to set video device yourself:
 
 ```swift
-meeting.localUser.setVideoDevice(videoDevice: DyteVideoDevice)
+meeting.localUser.setVideoDevice(videoDevice: ProductDBVideoDevice)
 ```
 
 <head>
   <title>iOS Core Introduction</title>
   <meta
     name="description"
-    content="Learn about local user management in iOS Core with Dyte Docs. Understand the fundamentals for effective integration and app customization."
+    content="Learn about local user management in iOS Core with ProductDB Docs. Understand the fundamentals for effective integration and app customization."
   />
 </head>

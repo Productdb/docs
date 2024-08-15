@@ -5,9 +5,9 @@ web_core_version: 1.32.1
 
 <!-- Auto Generated Below -->
 
-<a name="module_DyteParticipantMap"></a>
+<a name="module_ProductDBParticipantMap"></a>
 
-The following objects are `DyteParticipantMap` objects
+The following objects are `ProductDBParticipantMap` objects
 It consists of 4 maps:
 - `joined`: A map of all participants that have joined the meeting.
 - `waitlisted`: A map of all participants that have been added to the waitlist.

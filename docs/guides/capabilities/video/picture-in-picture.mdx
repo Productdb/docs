@@ -36,7 +36,7 @@ Use `meeting.participants.pip.isSupported` to check if the browser supports Pict
 Call `meeting.participants.pip.init()` to activate PIP mode. Optionally you can pass height and width the configure the size of the PIP tile
 
 ```jsx
-const { meeting } = useDyteMeeting();
+const { meeting } = useProductDBMeeting();
 
 meeting.participants.pip.init({
   width: 360,
@@ -61,7 +61,7 @@ Our UI Kit contains a button that can enable or disable the PIP
 <TabItem value="web-components" label="Web Components">
 
 ```html
-<dyte-pip-toggle id="pip-toggle" />
+<ProductDB-pip-toggle id="pip-toggle" />
 <script>
   const toggle = document.getElementById('pip-toggle');
   toggle.meeting = meeting;
@@ -72,7 +72,7 @@ Our UI Kit contains a button that can enable or disable the PIP
 <TabItem value="react" label="React">
 
 ```html
-<DytePipToggle meeting="{meeting}" />
+<ProductDBPipToggle meeting="{meeting}" />
 ```
 
 </TabItem>

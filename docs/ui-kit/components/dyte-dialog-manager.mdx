@@ -1,30 +1,30 @@
 ---
 description: >-
-  Learn how to use and customize the dyte-dialog-manager component in Dyte's UI
+  Learn how to use and customize the ProductDB-dialog-manager component in ProductDB's UI
   Kit with our detailed documentation.
 ---
 
-# dyte-dialog-manager
+# ProductDB-dialog-manager
 
 A component which handles all dialog elements in a component such as:
 
-- dyte-settings
-- dyte-leave-meeting
-- dyte-permissions-message
-- dyte-image-viewer
-- dyte-remote-access-manager
-- dyte-breakout-rooms-manager
+- ProductDB-settings
+- ProductDB-leave-meeting
+- ProductDB-permissions-message
+- ProductDB-image-viewer
+- ProductDB-remote-access-manager
+- ProductDB-breakout-rooms-manager
 
 This components depends on the values from `states` object.
 
 ```html
-<dyte-button onclick="showSettings()">Show Settings</dyte-button>
-<dyte-button onclick="showLeaveConfirmation()">Show Settings</dyte-button>
+<ProductDB-button onclick="showSettings()">Show Settings</ProductDB-button>
+<ProductDB-button onclick="showLeaveConfirmation()">Show Settings</ProductDB-button>
 
-<dyte-dialog-manager id="dyte-el"></dyte-dialog-manager>
+<ProductDB-dialog-manager id="ProductDB-el"></ProductDB-dialog-manager>
 
 <script>
-  const dialog = document.getElementById('dyte-el');
+  const dialog = document.getElementById('ProductDB-el');
   dialog.meeting = meeting;
   let states = {};
 
@@ -45,7 +45,7 @@ This components depends on the values from `states` object.
     stateUpdate({ activeLeaveConfirmation: true });
   }
 
-  dialog.addEventListener('dyteStateUpdate', (e) => {
+  dialog.addEventListener('ProductDBStateUpdate', (e) => {
     stateUpdate(e.detail);
   });
 
@@ -55,8 +55,8 @@ This components depends on the values from `states` object.
 
 ## Props
 
-<PropsTable of="dyte-dialog-manager" />
+<PropsTable of="ProductDB-dialog-manager" />
 
 <head>
-  <title>UI Kit dyte-dialog-manager</title>
+  <title>UI Kit ProductDB-dialog-manager</title>
 </head>

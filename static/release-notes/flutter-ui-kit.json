@@ -22,7 +22,7 @@
     "version": "0.7.3",
     "createdAt": 1717957800,
     "features": [
-      "You can skip setup screen by passing `skipSetupScreen` param to `true` in `DyteUIKitBuilder.build()` method."
+      "You can skip setup screen by passing `skipSetupScreen` param to `true` in `ProductDBUIKitBuilder.build()` method."
     ],
     "breaking-changes": []
   },
@@ -47,13 +47,13 @@
     "createdAt": 1713205800,
     "features": [
       "Exported Polls & Plugins screen.",
-      "Exported DyteAudioIndicator, DyteNameTag, DyteSetupScreen",
+      "Exported ProductDBAudioIndicator, ProductDBNameTag, ProductDBSetupScreen",
       "Added screenshare button checks for webinar and livestream control bars.",
-      "Introduced DyteReleaseResourcesButton widget (to be used if you want to exit SDK before joining the call)."
+      "Introduced ProductDBReleaseResourcesButton widget (to be used if you want to exit SDK before joining the call)."
     ],
     "fixes": [
       "Fixed themes for participant page, chat message layout.",
-      "Renamed ParticipantsPage to DyteParticipantsPage.",
+      "Renamed ParticipantsPage to ProductDBParticipantsPage.",
       "Fixed audio/video toggling buttons visibility if participant is offstage.",
       "Populated error details onMeetingInitFailed()/onMeetingJoinFailed()."
     ],
@@ -74,10 +74,10 @@
     "version": "0.6.1",
     "createdAt": 1709663399,
     "features": [
-      "You can now use exportable components: DyteMeetingTitle, DyteJoinButton, DyteLeaveButton, DyteLeaveMeetingDialog, DyteParticipantTile, DyteSelfAudioToggle, DyteSelfVideoToggle."
+      "You can now use exportable components: ProductDBMeetingTitle, ProductDBJoinButton, ProductDBLeaveButton, ProductDBLeaveMeetingDialog, ProductDBParticipantTile, ProductDBSelfAudioToggle, ProductDBSelfVideoToggle."
     ],
     "dep_api": [
-      "The builder method (DyteUiKitBuilder.build(...), now takes BuildContext as a required parameter."
+      "The builder method (ProductDBUiKitBuilder.build(...), now takes BuildContext as a required parameter."
     ]
   },
   {

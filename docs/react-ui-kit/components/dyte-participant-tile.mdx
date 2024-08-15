@@ -1,32 +1,32 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-participant-tile.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-participant-tile.svg
 description: >-
-  Learn how to use and customize the DyteParticipantTile component in Dyte's
+  Learn how to use and customize the ProductDBParticipantTile component in ProductDB's
   React UI Kit with our detailed documentation.
 ---
 
-# DyteParticipantTile
+# ProductDBParticipantTile
 
 import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 
 A component which plays a participants video and allows for placement
-of components like `dyte-name-tag`, `dyte-audio-visualizer` or any other component.
+of components like `ProductDB-name-tag`, `ProductDB-audio-visualizer` or any other component.
 
 <CodeRunner 
 hide={[{start:1, end: 3}]}
 minHeight='300px'
 file={`
-import { DyteParticipantTile, DyteNameTag, DyteAudioVisualizer } from "@dytesdk/react-ui-kit";
-import { useDyteMeeting } from "@dytesdk/react-web-core";
+import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@ProductDBsdk/react-ui-kit";
+import { useProductDBMeeting } from "@ProductDBsdk/react-web-core";
 
 export default function MyMeetingUI() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
   return (
-    <DyteParticipantTile participant={meeting.self}>
-      <DyteNameTag participant={meeting.self}>
-        <DyteAudioVisualizer slot="start" />
-      </DyteNameTag>
-    </DyteParticipantTile>
+    <ProductDBParticipantTile participant={meeting.self}>
+      <ProductDBNameTag participant={meeting.self}>
+        <ProductDBAudioVisualizer slot="start" />
+      </ProductDBNameTag>
+    </ProductDBParticipantTile>
   );
 }
 `} />
@@ -46,17 +46,17 @@ additionalDecorators={[{
   }]}
 minHeight='300px'
 file={`
-import { DyteParticipantTile, DyteNameTag, DyteAudioVisualizer } from "@dytesdk/react-ui-kit";
-import { useDyteMeeting } from "@dytesdk/react-web-core";
+import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@ProductDBsdk/react-ui-kit";
+import { useProductDBMeeting } from "@ProductDBsdk/react-web-core";
 
 export default function MyMeetingUI() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
   return (
-    <DyteParticipantTile participant={meeting.self} nameTagPosition="bottom-center">
-      <DyteNameTag participant={meeting.self}>
-        <DyteAudioVisualizer slot="start" />
-      </DyteNameTag>
-    </DyteParticipantTile>
+    <ProductDBParticipantTile participant={meeting.self} nameTagPosition="bottom-center">
+      <ProductDBNameTag participant={meeting.self}>
+        <ProductDBAudioVisualizer slot="start" />
+      </ProductDBNameTag>
+    </ProductDBParticipantTile>
   );
 }
 `} />
@@ -68,22 +68,22 @@ hide={[{start:1, end: 3}]}
 highlight={[{start:12, end: 12}]}
 minHeight='300px'
 file={`
-import { DyteParticipantTile, DyteNameTag, DyteAudioVisualizer } from "@dytesdk/react-ui-kit";
-import { useDyteMeeting } from "@dytesdk/react-web-core";
+import { ProductDBParticipantTile, ProductDBNameTag, ProductDBAudioVisualizer } from "@ProductDBsdk/react-ui-kit";
+import { useProductDBMeeting } from "@ProductDBsdk/react-web-core";
 
 export default function MyMeetingUI() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
 
   return (
-    <DyteParticipantTile
+    <ProductDBParticipantTile
       participant={meeting.self}
       nameTagPosition="bottom-center" 
       variant="gradient"
     >
-      <DyteNameTag participant={meeting.self}>
-        <DyteAudioVisualizer slot="start" />
-      </DyteNameTag>
-    </DyteParticipantTile>
+      <ProductDBNameTag participant={meeting.self}>
+        <ProductDBAudioVisualizer slot="start" />
+      </ProductDBNameTag>
+    </ProductDBParticipantTile>
   );
 }
 `} />
@@ -91,8 +91,8 @@ export default function MyMeetingUI() {
 
 ## Props
 
-<PropsTable of="dyte-participant-tile" />
+<PropsTable of="ProductDB-participant-tile" />
 
 <head>
-  <title>React UI Kit DyteParticipantTile</title>
+  <title>React UI Kit ProductDBParticipantTile</title>
 </head>

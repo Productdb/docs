@@ -27,13 +27,13 @@ At the end, we let user join the meeting using `await meeting.join();`.
 highlight={[{start: 8, end:8}, {start: 29, end: 30}, {start: 44, end:44}]}
 hide={[{start: 1, end: 4}]}
 file={`
-import { useDyteMeeting, useDyteSelector } from "@dytesdk/react-web-core";
-import { DyteButton } from "@dytesdk/react-ui-kit";
+import { useProductDBMeeting, useProductDBSelector } from "@ProductDBsdk/react-web-core";
+import { ProductDBButton } from "@ProductDBsdk/react-ui-kit";
 import { useState, useEffect } from "react";
 
 export default function CustomMeetingPreview() {
-  const { meeting } = useDyteMeeting();
-  const permissions = useDyteSelector((m) => m.self.permissions);
+  const { meeting } = useProductDBMeeting();
+  const permissions = useProductDBSelector((m) => m.self.permissions);
   const [participantName, setParticipantName] = useState("");
 
   useEffect(() => {
@@ -62,7 +62,7 @@ export default function CustomMeetingPreview() {
               onChange={(event) => setParticipantName(event.target.value)}
             />
           )}
-          <DyteButton
+          <ProductDBButton
             kind="wide"
             size="lg"
             style={{ cursor: participantName ? "pointer" : "not-allowed" }}
@@ -76,7 +76,7 @@ export default function CustomMeetingPreview() {
             }}
           >
             Join
-          </DyteButton>
+          </ProductDBButton>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: >-
-  Learn about the local user concept in Flutter with Dyte's documentation.
+  Learn about the local user concept in Flutter with ProductDB's documentation.
   Follow our guide for a smooth introduction and integration.
 sidebar_position: 1
 tags:
@@ -12,7 +12,7 @@ tags:
 
 # Introduction - Local User
 
-The local user in the `dyteMobileClient` object has a set of methods and properties related to media controls. These can be accessed using the identifier localUser.
+The local user in the `ProductDBMobileClient` object has a set of methods and properties related to media controls. These can be accessed using the identifier localUser.
 
 ## Properties
 
@@ -30,20 +30,20 @@ Here is a list of properties that local user provides:
 - `audioEnabled`: Boolean value indicating if the audio currently enabled.
 - `videoEnabled`: Boolean value indicating if the video currently enabled.
 
-Local user properties can be fetched via `localUser` getter on the `dyteClient`.
+Local user properties can be fetched via `localUser` getter on the `ProductDBClient`.
 
 ```dart
-final selfUser = dyteClient.localUser;
+final selfUser = ProductDBClient.localUser;
 ```
 
 ## Change default audio / video settings
 
-By default as soon as you join the meeting, Dyte SDK will produce your video and
+By default as soon as you join the meeting, ProductDB SDK will produce your video and
 audio streams. To change this behaviour, use the `audioEnabled` & `videoEnabled`
 parameter
 
 ```dart {4,5}
-final meetingInfo = DyteMeetingInfoV2(
+final meetingInfo = ProductDBMeetingInfoV2(
   roomName = MEETING_ROOM_NAME,
   authToken = AUTH_TOKEN,
   audioEnabled = false,
@@ -53,13 +53,13 @@ final meetingInfo = DyteMeetingInfoV2(
 
 ## Turn on audio/video tracks after initializing the client
 
-If audio and video tracks are disabled during the `DyteMobileClient`
+If audio and video tracks are disabled during the `ProductDBMobileClient`
 initialization process. You can setup the audio and video tracks by simply
 calling `enableAudio()` and `enableVideo()` like below:
 
 ```dart
-dyteClient.localUser.enableAudio();
-dyteClient.localUser.enableVideo();
+ProductDBClient.localUser.enableAudio();
+ProductDBClient.localUser.enableVideo();
 ```
 
 ## Change the name of the local user
@@ -69,9 +69,9 @@ reflect across all participants ONLY if the change happens before joining the
 meeting. This is only possible when the user has the permission to change the name.
 
 ```dart
-if(dyteClient.permissions.miscellaneous.canEditDisplayName)
+if(ProductDBClient.permissions.miscellaneous.canEditDisplayName)
 {
-  dyteClient.localUser.setDisplayName("New Name");
+  ProductDBClient.localUser.setDisplayName("New Name");
 }
 ```
 
@@ -79,33 +79,33 @@ if(dyteClient.permissions.miscellaneous.canEditDisplayName)
 
 ```dart
 // Mute Audio
-dyteClient.localUser.disableAudio();
+ProductDBClient.localUser.disableAudio();
 
 // Unmute Audio
-dyteClient.localUser.enableAudio();
+ProductDBClient.localUser.enableAudio();
 
 // Get current status
-final isAudioEnabled = dyteClient.localUser.audioEnabled;
+final isAudioEnabled = ProductDBClient.localUser.audioEnabled;
 ```
 
 ## Enable/Disable camera
 
 ```dart
 // Disable Video
-dyteClient.localUser.disableVideo();
+ProductDBClient.localUser.disableVideo();
 
 // Enable Video
-dyteClient.localUser.enableVideo();
+ProductDBClient.localUser.enableVideo();
 
 // Get current status
-final isVideoEnabled = dyteClient.localUser.videoEnabled;
+final isVideoEnabled = ProductDBClient.localUser.videoEnabled;
 ```
 
 ## Switch camera between sources
 
 ```dart
 // switch camera
-dyteClient.localUser.switchCamera();
+ProductDBClient.localUser.switchCamera();
 ```
 
 ## Enable / Disable Screen share
@@ -127,16 +127,16 @@ Refer to screenshare setup for iOS [here](./screen-share-iOS-guide.mdx)
 
 ```dart
 // Enable Screenshare
-dyteClient.localUser.enableScreenshare();
+ProductDBClient.localUser.enableScreenshare();
 
 // Disable Screenshare
-dyteClient.localUser.disableScreenshare();
+ProductDBClient.localUser.disableScreenshare();
 ```
 
 <head>
   <title>Flutter Core Introduction</title>
   <meta
     name="description"
-    content="Learn about the local user concept in Flutter with Dyte's documentation. Follow our guide for a smooth introduction and integration."
+    content="Learn about the local user concept in Flutter with ProductDB's documentation. Follow our guide for a smooth introduction and integration."
   />
 </head>

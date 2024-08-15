@@ -20,7 +20,7 @@ twilioVideo.on('participantDisconnected', (participant) => {
 });
 ```
 
-**Dyte**
+**ProductDB**
 
 ```tsx
 meeting.participants.joined.on('participantJoined', (participant) => {
@@ -48,7 +48,7 @@ meeting.participants.joined.on('participantUpdated', (participant) => {
 twilioVideo.disconnect();
 ```
 
-**Dyte**
+**ProductDB**
 
 ```tsx
 meeting.leave();
@@ -56,7 +56,7 @@ meeting.leave();
 
 ## Chat
 
-Twilio has a seperate SDK for real time messaging, dyte provides it out of the box part of the same SDK
+Twilio has a seperate SDK for real time messaging, ProductDB provides it out of the box part of the same SDK
 
 ```tsx
 meeting.chat.messages; // []

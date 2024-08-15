@@ -1,6 +1,6 @@
 ---
 description: >-
-  Learn how to use and customize the ConfigureWebinerAlertView component in Dyte's iOS UiKit
+  Learn how to use and customize the ConfigureWebinerAlertView component in ProductDB's iOS UiKit
   with our detailed documentation.
 ---
 
@@ -14,7 +14,7 @@ Audio and Video status before joining the webinar stage.
 ### Creating an alertview
 
 ```swift
- init(meeting: DyteMobileClient, participant: DyteJoinedMeetingParticipant) {
+ init(meeting: ProductDBMobileClient, participant: ProductDBJoinedMeetingParticipant) {
 ```
 #### Parameters:
 Required: 
@@ -33,13 +33,13 @@ view: Parent View on which this alertView will be shown
 ### Button with functionality to join stage
 
 ```swift
-var confirmAndJoinButton: DyteButton {get}
+var confirmAndJoinButton: ProductDBButton {get}
 ```
 Define it as follows 
 
 ```swift
-public let confirmAndJoinButton: DyteButton = {
-  let button = DyteUIUTility.createButton(text: "Confirm & join stage")
+public let confirmAndJoinButton: ProductDBButton = {
+  let button = ProductDBUIUTility.createButton(text: "Confirm & join stage")
   return button
 }()
 ```
@@ -47,14 +47,14 @@ public let confirmAndJoinButton: DyteButton = {
 ### Button with functionality to remove the alertview
    
 ```swift
-var cancelButton: DyteButton {get }
+var cancelButton: ProductDBButton {get }
 ```
 Define it as follows 
 
  ```swift
-public let cancelButton: DyteButton = {
-  let button = DyteUIUTility.createButton(text: "Cancel")
-  button.backgroundColor = dyteSharedTokenColor.background.shade800
+public let cancelButton: ProductDBButton = {
+  let button = ProductDBUIUTility.createButton(text: "Cancel")
+  button.backgroundColor = ProductDBSharedTokenColor.background.shade800
   return button
 }()
  ```

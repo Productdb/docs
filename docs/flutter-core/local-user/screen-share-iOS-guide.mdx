@@ -5,13 +5,13 @@ tags:
   - flutter-core
 ---
 
-This document explains how to setup screen sharing on a Flutter iOS App using Dyte SDK
+This document explains how to setup screen sharing on a Flutter iOS App using ProductDB SDK
 
 ## Overview
 
 1. Add a new Broadcast Upload Extension to your project.
 2. Setup app groups
-3. Have your SampleHandler class initialize DyteBroadcastHandler and proxy a few methods.
+3. Have your SampleHandler class initialize ProductDBBroadcastHandler and proxy a few methods.
 4. Update Info.plist
 
 ### Add a new Broadcast Upload Extension to your project.
@@ -37,34 +37,34 @@ Add your extension to an app group by going to your extension's target in the pr
 
 
 import ReplayKit
-import DyteiOSCore
+import ProductDBiOSCore
 
 class SampleHandler: RPBroadcastSampleHandler {
 
-    let dyteBroadcast: DyteBroadcastHandler  = DyteBroadcastHandler();
+    let ProductDBBroadcast: ProductDBBroadcastHandler  = ProductDBBroadcastHandler();
 
     override init() {
         super.init()
     }
     override func broadcastPaused() {
-        dyteBroadcast.broadcastPaused()
+        ProductDBBroadcast.broadcastPaused()
     }
 
     override func broadcastResumed() {
-        dyteBroadcast.broadcastResumed()
+        ProductDBBroadcast.broadcastResumed()
     }
 
     override func broadcastFinished() {
-        dyteBroadcast.broadcastFinished()
+        ProductDBBroadcast.broadcastFinished()
     }
 
     override func broadcastStarted(withSetupInfo setupInfo: [String : NSObject]?) {
-        dyteBroadcast.broadcastStartedWithSetupInfo(setupInfo: setupInfo)
+        ProductDBBroadcast.broadcastStartedWithSetupInfo(setupInfo: setupInfo)
     }
 
     override func processSampleBuffer(_ sampleBuffer: CMSampleBuffer, with sampleBufferType: RPSampleBufferType) {
         let rawPointer = Unmanaged.passUnretained(sampleBuffer).toOpaque()
-        dyteBroadcast.processSampleBuffer(sampleBuffer: rawPointer, withType: Int64(sampleBufferType.rawValue))
+        ProductDBBroadcast.processSampleBuffer(sampleBuffer: rawPointer, withType: Int64(sampleBufferType.rawValue))
 
     }
 
@@ -90,7 +90,7 @@ Make sure **both of them** (App and Extension Info.plist) contains these keys
 Call the method `enableScreenshare()`
 
 ```
-dyteClient.localUser.enableScreenshare()
+ProductDBClient.localUser.enableScreenshare()
 ```
 
 ![screenshot](/static/mobile/0.x.x/ios-setup-app.png)

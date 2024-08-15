@@ -1,19 +1,19 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-notification.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-notification.svg
 description: >-
-  Learn how to use and customize the DyteNotification component in Dyte's React
+  Learn how to use and customize the ProductDBNotification component in ProductDB's React
   Native UI Kit with our detailed documentation.
 ---
 
-# DyteNotification
+# ProductDBNotification
 
 A component which shows a notification.
 
-You need to remove the element after you receive the `dyteNotificationDismiss`
+You need to remove the element after you receive the `ProductDBNotificationDismiss`
 event.
 
 ```jsx
-<DyteNotification
+<ProductDBNotification
   notification={{
     id: 'your-id',
     message: 'Vaibhav says hi!',
@@ -24,7 +24,7 @@ event.
       onClick: () => alert('Hey'),
     },
   }}
-  onDyteNotificationDismiss={(e) => {
+  onProductDBNotificationDismiss={(e) => {
     e.target.remove();
   }}
 />
@@ -32,8 +32,8 @@ event.
 
 ## Props
 
-<PropsTable of="dyte-notification" />
+<PropsTable of="ProductDB-notification" />
 
 <head>
-  <title>React Native UI Kit DyteNotification</title>
+  <title>React Native UI Kit ProductDBNotification</title>
 </head>

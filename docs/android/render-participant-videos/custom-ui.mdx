@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 
 In this guide, we will walk you through building a custom UI to render participant videos using 
-Dyte's Android UI Kit. We will use an example of a video calling app like FaceTime to demonstrate 
+ProductDB's Android UI Kit. We will use an example of a video calling app like FaceTime to demonstrate 
 how to display participant videos in your own UI.
 
 ## Video Calling Example
@@ -25,9 +25,9 @@ i.e. of the local user
   className="mb-10"
 />
 
-## Using DyteParticipantTileView
+## Using ProductDBParticipantTileView
 
-To achieve this UI, we will utilize the `DyteParticipantTileView` provided by Dyte's Android UI Kit. 
+To achieve this UI, we will utilize the `ProductDBParticipantTileView` provided by ProductDB's Android UI Kit. 
 This custom Android view renders the video of a single participant and automatically handles displaying 
 the video or a placeholder when the participant turns their camera on or off.
 
@@ -35,16 +35,16 @@ the video or a placeholder when the participant turns their camera on or off.
 
 Before we begin, let's understand the key components we'll be working with:
 
-- **DyteParticipantTileView**: Renders the video of a single participant
-- **DyteJoinedMeetingParticipant**: Represents a participant who has joined the meeting. The joined list 
-in `DyteParticipants` holds objects of this type
-- **DyteSelfParticipant**: Represents the local user
-- **DyteMobileClient**: Provides access to meeting and participant information. Use the `meeting.participants.joined` list 
+- **ProductDBParticipantTileView**: Renders the video of a single participant
+- **ProductDBJoinedMeetingParticipant**: Represents a participant who has joined the meeting. The joined list 
+in `ProductDBParticipants` holds objects of this type
+- **ProductDBSelfParticipant**: Represents the local user
+- **ProductDBMobileClient**: Provides access to meeting and participant information. Use the `meeting.participants.joined` list 
 to retrieve the list of participants who have joined the meeting
 
 ## Building the UI
 
-1. **XML Layout**: Define the layout of your video calling screen. Use two `DyteParticipantTileViews` 
+1. **XML Layout**: Define the layout of your video calling screen. Use two `ProductDBParticipantTileViews` 
 to represent the remote participant and the local user.
 
 ```xml
@@ -57,8 +57,8 @@ to represent the remote participant and the local user.
     android:layout_height="match_parent"
     tools:context=".VideoCallActivity">
 
-    <dyte.io.uikit.view.participanttile.DyteParticipantTileView
-        android:id="@+id/dyteparticipanttileview_remote_participant"
+    <productdb.io.uikit.view.participanttile.ProductDBParticipantTileView
+        android:id="@+id/ProductDBparticipanttileview_remote_participant"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="16dp"
@@ -67,8 +67,8 @@ to represent the remote participant and the local user.
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <dyte.io.uikit.view.participanttile.DyteParticipantTileView
-        android:id="@+id/dyteparticipanttileview_self_participant"
+    <productdb.io.uikit.view.participanttile.ProductDBParticipantTileView
+        android:id="@+id/ProductDBparticipanttileview_self_participant"
         android:layout_width="144dp"
         android:layout_height="200dp"
         android:layout_margin="24dp"
@@ -78,29 +78,29 @@ to represent the remote participant and the local user.
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-2. **UI Logic**: Bind the DyteParticipantTileViews to the respective participants and activate 
+2. **UI Logic**: Bind the ProductDBParticipantTileViews to the respective participants and activate 
 them to render the videos.
 
 ```kotlin
-import dyte.io.uikit.view.participanttile.DyteParticipantTileView
-import io.dyte.core.DyteMobileClient
+import productdb.io.uikit.view.participanttile.ProductDBParticipantTileView
+import io.ProductDB.core.ProductDBMobileClient
 
 class VideoCallActivity : AppCompatActivity() {
-    private lateinit var selfParticipantTileView: DyteParticipantTileView
-    private lateinit var remoteParticipantTileView: DyteParticipantTileView
-    private val meeting: DyteMobileClient by lazy { DyteUIKitBuilder.meeting }
+    private lateinit var selfParticipantTileView: ProductDBParticipantTileView
+    private lateinit var remoteParticipantTileView: ProductDBParticipantTileView
+    private val meeting: ProductDBMobileClient by lazy { ProductDBUIKitBuilder.meeting }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_video_call)
 
-        selfParticipantTileView = findViewById(R.id.dyteparticipanttileview_self_participant)
-        remoteParticipantTileView = findViewById(R.id.dyteparticipanttileview_remote_participant)
+        selfParticipantTileView = findViewById(R.id.ProductDBparticipanttileview_self_participant)
+        remoteParticipantTileView = findViewById(R.id.ProductDBparticipanttileview_remote_participant)
 
         activateUI(meeting)
     }
 
-    private fun activateUI(meeting: DyteMobileClient) {
+    private fun activateUI(meeting: ProductDBMobileClient) {
         val localUser = meeting.localUser
         val remoteParticipant = meeting.participants.joined.firstOrNull { it.id != localUser.id } ?: return
 
@@ -111,9 +111,9 @@ class VideoCallActivity : AppCompatActivity() {
 ```
 
 3. **Adding Controls** (Bonus): You can easily add controls like mic toggle, camera toggle, 
-and leave call button using the [DyteMicToggleButton](/android/components/dyte-mic-toggle), 
-[DyteCameraToggleButton](/android/components/dyte-camera-toggle), and [DyteLeaveButton](/android/components/dyte-leave-button) 
-provided by Dyte's Android UI Kit.
+and leave call button using the [ProductDBMicToggleButton](/android/components/ProductDB-mic-toggle), 
+[ProductDBCameraToggleButton](/android/components/ProductDB-camera-toggle), and [ProductDBLeaveButton](/android/components/ProductDB-leave-button) 
+provided by ProductDB's Android UI Kit.
 
 Here's the screenshot of the UI implemented:
 <img
@@ -126,12 +126,12 @@ Here's the screenshot of the UI implemented:
 
 
 ## Wrap-Up
-Congratulations! You've successfully built a custom UI to render participant videos using Dyte's Android UI Kit.  
-With components like **DyteGridView** and **DyteParticipantTileView**, Dyte's UI Kit simplifies video rendering 
+Congratulations! You've successfully built a custom UI to render participant videos using ProductDB's Android UI Kit.  
+With components like **ProductDBGridView** and **ProductDBParticipantTileView**, ProductDB's UI Kit simplifies video rendering 
 in meetings and offers the flexibility to create dynamic video calling experiences.
 
 ### Complete Code
 
-You can find the complete code for this example in Dyte's [Facetime sample repository](https://github.com/dyte-io/android-samples/tree/main/samples/facetime). 
+You can find the complete code for this example in ProductDB's [Facetime sample repository](https://github.com/ProductDB-io/android-samples/tree/main/samples/facetime). 
 Feel free to explore and try it out!
 

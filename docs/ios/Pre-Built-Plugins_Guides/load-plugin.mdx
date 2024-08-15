@@ -1,13 +1,13 @@
 ---
 description: >-
-  Learn how to use and customize the DyteAvatarView component in Dyte's iOS UiKit
+  Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit
   with our detailed documentation.
 ---
  
 
 # Load Plugins
 ## Overview: How to display plugins inside plugins view.
-To display individual plugin inside App. We will be using component [DytePluginsView](/ios/components/dyte-plugin-view)
+To display individual plugin inside App. We will be using component [ProductDBPluginsView](/ios/components/ProductDB-plugin-view)
 
 ### Creating plugin view
 
@@ -16,25 +16,25 @@ To display individual plugin inside App. We will be using component [DytePlugins
                                     participant: meeting.localUser,
                                     showSelfPreviewVideo: false,
                                     showScreenShareVideoView: true)
-  let pluginView = DytePluginsView(videoPeerViewModel:viewModel)
+  let pluginView = ProductDBPluginsView(videoPeerViewModel:viewModel)
   self.view.addSubview(pluginView)
 ```
-Use above code to create instance of DytePluginsView and add this view to any view of your choice. 
+Use above code to create instance of ProductDBPluginsView and add this view to any view of your choice. 
 
 #### Loading pluginView with plugins
 
 You can get the list of active plugins with the help of below API 
 
 ```swift
-let plugins: [DytePlugin] = self.dyteMobileClient.plugins.active
-let arrButtons = [DytePluginScreenShareTabButton]()
+let plugins: [ProductDBPlugin] = self.ProductDBMobileClient.plugins.active
+let arrButtons = [ProductDBPluginScreenShareTabButton]()
 
 for plugin in plugins {
-  let button = DytePluginScreenShareTabButton(image: plugin.picture, title: plugin.name, id: plugin.id)
+  let button = ProductDBPluginScreenShareTabButton(image: plugin.picture, title: plugin.name, id: plugin.id)
   arrButtons.append(button)
 }
 ```
-To show `arrButtons` created from above code on the [DytePluginsView](/ios/components/dyte-plugin-view), We will be using
+To show `arrButtons` created from above code on the [ProductDBPluginsView](/ios/components/ProductDB-plugin-view), We will be using
 below API. 
 
 ```swift
@@ -49,5 +49,5 @@ self.pluginView.setButtons(buttons: arrButtons, selectedIndex: 0) { [weak self] 
 
 
 <head>
-  <title>iOS DyteAvatarView</title>
+  <title>iOS ProductDBAvatarView</title>
 </head>

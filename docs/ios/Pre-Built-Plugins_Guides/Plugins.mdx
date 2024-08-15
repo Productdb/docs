@@ -1,19 +1,19 @@
 ---
 description: >-
-  Learn how to use and customize the DyteAvatarView component in Dyte's iOS UiKit
+  Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit
   with our detailed documentation.
 ---
  
 # Pre-built Plugin screen
 ## Overview: How to use existing plugins screen.
-We have to use a class [DytePluginViewController](/ios/components/dyte-plugins), which is used to show exising list of plugins
+We have to use a class [ProductDBPluginViewController](/ios/components/ProductDB-plugins), which is used to show exising list of plugins
 supported in current meeting.
 Screen is build with [UITableView](https://developer.apple.com/documentation/uikit/uitableview). 
 
 
 ```swift
  private func showPluginScreen() {
-  let controller = DytePluginViewController(plugins: meeting.plugins.all)
+  let controller = ProductDBPluginViewController(plugins: meeting.plugins.all)
   let navigationController = UINavigationController(rootViewController: controller)
   navigationController.modalPresentationStyle = .fullScreen
   presentingViewController.present(navigationController, 
@@ -32,5 +32,5 @@ to activate plugin.
 
 
 <head>
-  <title>iOS DyteAvatarView</title>
+  <title>iOS ProductDBAvatarView</title>
 </head>

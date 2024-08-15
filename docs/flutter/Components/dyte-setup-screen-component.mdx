@@ -1,25 +1,25 @@
-# DyteSetupScreen
+# ProductDBSetupScreen
 
-A widget that provides a well-built setup screen using our exportable components itself. This widget integrates with the Dyte UI Kit and gives our setup page as a widget.
+A widget that provides a well-built setup screen using our exportable components itself. This widget integrates with the ProductDB UI Kit and gives our setup page as a widget.
 
 :::info
 
-[`DyteProvider`](./dyte-provider.mdx) needs to be added above `DyteSetupScreen` which will manage dyte client object for polls screen by itself.
+[`ProductDBProvider`](./ProductDB-provider.mdx) needs to be added above `ProductDBSetupScreen` which will manage ProductDB client object for polls screen by itself.
 
 :::
 
 ## Usage
 
-Here is a basic example of how to use the `DyteSetupScreen` in your Flutter app:
+Here is a basic example of how to use the `ProductDBSetupScreen` in your Flutter app:
 
 ```dart
-DyteSetupScreen(
+ProductDBSetupScreen(
   selectedAudioDevice,
   selectedVideoDevice,
 );
 ```
 
-Here, `selectedAudioDevice` and `selectedVideoDevice` can be fetched using `dyteClient.getSelectedAudioDevice()` & `dyteClient.getSelectedVideoDevice()` respectively.
+Here, `selectedAudioDevice` and `selectedVideoDevice` can be fetched using `ProductDBClient.getSelectedAudioDevice()` & `ProductDBClient.getSelectedVideoDevice()` respectively.
 
 ## Screenshot
 

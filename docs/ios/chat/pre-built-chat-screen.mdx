@@ -1,23 +1,23 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-chat.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-chat.svg
 sidebar_position: 1
 description: >-
-  Learn how to use and customize the DyteChatViewController component in Dyte's iOS UiKit with
+  Learn how to use and customize the ProductDBChatViewController component in ProductDB's iOS UiKit with
   our detailed documentation.
 ---
 
 # Pre-built Chat Screen
 
-## Introduction to Chat in Dyte Meetings
+## Introduction to Chat in ProductDB Meetings
 
-In Dyte meetings, participants can also engage in real-time communication by sending chat messages.
+In ProductDB meetings, participants can also engage in real-time communication by sending chat messages.
 These messages can be text, images, or files, depending on the [chat permissions](/guides/livestream/advanced/configuring-permissions#chat)
 set in their preset.
 
-## Dyte's Prebuilt Chat Screen
+## ProductDB's Prebuilt Chat Screen
 
-Dyte's iOS UiKit includes prebuilt Chat screen that handle the complete chat logic and offer
-a range of features to enhance the chat experience in Dyte meetings:
+ProductDB's iOS UiKit includes prebuilt Chat screen that handle the complete chat logic and offer
+a range of features to enhance the chat experience in ProductDB meetings:
 
 - **Display Messages**: Displays all chat messages, including text, images, and files, in a clear and organized manner
 - **Image Preview**: Allows users to tap on an image message to view it in full screen
@@ -35,7 +35,7 @@ a range of features to enhance the chat experience in Dyte meetings:
 Creating a chat screen.
 
 ```swift
- let chatView = ChatViewController(dyteMobileClient: self.meeting)
+ let chatView = ChatViewController(ProductDBMobileClient: self.meeting)
 ```
 
 Add this `chatView` to your View hierarchy. In case you need to add this to a `ViewController` you can
@@ -45,9 +45,9 @@ add it inside a view of sub `ViewController`, following example shows how to sho
 private var splitContentViewController: UIViewController?
 private let splitContentBaseView = UIView()
 
-func chatClick(button: DyteControlBarButton) {
+func chatClick(button: ProductDBControlBarButton) {
     if button.isSelected {
-        let controller = ChatViewController(dyteMobileClient: self.meeting)
+        let controller = ChatViewController(ProductDBMobileClient: self.meeting)
         self.splitContentBaseView.addSubview(controller.view)
         controller.view.set(.fillSuperView(self.splitContentBaseView))
         self.splitContentViewController = controller
@@ -60,5 +60,5 @@ func chatClick(button: DyteControlBarButton) {
 meeting: Current ongoing meeting object.
 
 <head>
-  <title>iOS DyteChatViewController</title>
+  <title>iOS ProductDBChatViewController</title>
 </head>

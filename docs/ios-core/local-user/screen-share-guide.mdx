@@ -5,7 +5,7 @@ tags:
   - ios-core
 ---
 
-This document explains how to setup screen sharing on a iOS App using Dyte SDK.  
+This document explains how to setup screen sharing on a iOS App using ProductDB SDK.  
 To use this feature one should join the meeting with **Presets** in which Screenshare is enabled.
 
 :::warning
@@ -18,8 +18,8 @@ This guide is being updated, and might not work as expected in its current form
 
 1. Add a new Broadcast Upload Extension to your project.
 2. Setup app groups.
-3. Download `DyteSampleHandler` class from [Github repo](https://github.com/dyte-io/iOS-ScreenShare) .
-4. Have your SampleHandler class inherited from this downloaded class `DyteSampleHandler` .
+3. Download `ProductDBSampleHandler` class from [Github repo](https://github.com/ProductDB-io/iOS-ScreenShare) .
+4. Have your SampleHandler class inherited from this downloaded class `ProductDBSampleHandler` .
 5. Update Info.plist.
 
 ### Add a new Broadcast Upload Extension to your project.
@@ -43,9 +43,9 @@ Add your extension to an app group by going to your extension's target in the pr
 
 ```swift
 import ReplayKit
-import DyteiOSCore
+import ProductDBiOSCore
 
-class SampleHandler: DyteSampleHandler {}
+class SampleHandler: ProductDBSampleHandler {}
 ```
 
 ### Modify Info.plist
@@ -71,7 +71,7 @@ Add below key inside the Info.plist of the main App.
 To Launch the broadcast extension and call the method `enableScreenshare()`
 
 ```swift
-dyteClient.localUser.enableScreenshare()
+ProductDBClient.localUser.enableScreenshare()
 ```
 
 ### Stop the Screenshare
@@ -80,7 +80,7 @@ To stop the ongoing screenshare and call the method `disableScreenshare()`. This
 alert with a stop button for stopping screen share.
 
 ```swift
-dyteClient.localUser.disbaleScreenshare()
+ProductDBClient.localUser.disbaleScreenshare()
 ```
 
 ![screenshot](/static/mobile/0.x.x/ios-setup-app.png)

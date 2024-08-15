@@ -4,7 +4,7 @@ title: 'Interface: Notification'
 custom_edit_url: null
 ---
 
-Notification object type, which is used in `<dyte-notification />`.
+Notification object type, which is used in `<ProductDB-notification />`.
 
 ## Properties
 
@@ -55,5 +55,5 @@ ___
 
 <head>
 	<title>Angular UI Kit Interface: Notification</title>
-	<meta name="description" content="Understand the Notification interface in Dyte's Angular UI Kit Reference for comprehensive information."/>
+	<meta name="description" content="Understand the Notification interface in ProductDB's Angular UI Kit Reference for comprehensive information."/>
 </head>

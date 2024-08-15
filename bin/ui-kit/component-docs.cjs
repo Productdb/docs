@@ -6,9 +6,9 @@ const { pascalCase } = require('pascal-case');
 
 const {
   components,
-} = require('@dytesdk/ui-kit/dist/docs/docs-components.json');
+} = require('@ProductDBsdk/ui-kit/dist/docs/docs-components.json');
 
-/** @typedef {import('@dytesdk/ui-kit/dist/docs/docs-components').JsonDocsComponent} Component */
+/** @typedef {import('@ProductDBsdk/ui-kit/dist/docs/docs-components').JsonDocsComponent} Component */
 
 const basePaths = {
   core: 'docs/ui-kit/components',
@@ -79,14 +79,14 @@ function generateFile(component, framework = 'core') {
 for (const component of components) {
   const { tag } = component;
 
-  if (tag.startsWith('dyte-breakout') || tag.startsWith('dyte-ai')) {
+  if (tag.startsWith('ProductDB-breakout') || tag.startsWith('ProductDB-ai')) {
     continue;
   }
 
   /** If there is no readme, skip component */
   if (
     (!component || component.docs.trim() === '') &&
-    component.tag !== 'dyte-clock'
+    component.tag !== 'ProductDB-clock'
   ) {
     continue;
   }

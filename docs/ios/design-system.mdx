@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Design System
 ---
 
-Let's look at how you can customize and brand your UI with Dyte's UI Kit.
+Let's look at how you can customize and brand your UI with ProductDB's UI Kit.
 
 1.  `DesignLibrary` is a singleton class that relies on the `DesignLibraryConfiguratorProtocol` to initialize components with specific parameters, like border size, radius, and background color for individual and composite elements.
 
@@ -39,7 +39,7 @@ DesignLibrary.shared.setConfigurator(configurator: DesignLibraryConfigurator())
 
 DesignLibrary comes with default values for all the mentioned components, and the SDK internally handles their initialization.
 
-2. `AppTheme` is a singleton class that relies on the `AppThemeProtocol` to set corner radius and border size for various components used within `DyteUiKit`. You can customize the `AppTheme` by setting any object that confirms to the `AppThemeProtocol`.
+2. `AppTheme` is a singleton class that relies on the `AppThemeProtocol` to set corner radius and border size for various components used within `ProductDBUiKit`. You can customize the `AppTheme` by setting any object that confirms to the `AppThemeProtocol`.
 
 ```swift
 class AppThemeConfigurator: AppThemeProtocol {

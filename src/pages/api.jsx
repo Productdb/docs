@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import { DyteSpinner } from '@dytesdk/react-ui-kit';
+import { ProductDBSpinner } from '@ProductDBsdk/react-ui-kit';
 import { useHistory } from '@docusaurus/router';
 import clsx from 'clsx';
 
@@ -18,7 +18,7 @@ function APIElement({ layout = 'sidebar', currentVersion = 'v1' }) {
     <BrowserOnly
       fallback={
         <div className="loading-container">
-          <DyteSpinner />
+          <ProductDBSpinner />
         </div>
       }
     >
@@ -51,7 +51,7 @@ export default function Home() {
   const location = router.location;
 
   const url = new URL(
-    `https://docs.dyte.io${location.pathname}${location.search}`
+    `https://productdb.dev${location.pathname}${location.search}`
   );
 
   const currentVersion = url.searchParams.get('v') || 'v2';
@@ -61,20 +61,20 @@ export default function Home() {
       title={`API ${currentVersion === 'v2' ? 'v2 ' : ''}Documentation`}
       description={
         currentVersion === 'v2'
-          ? "Dive into Dyte's API v2 documentation, offering advanced features and functionalities."
-          : "Explore the comprehensive API documentation provided by Dyte. Learn how to integrate and leverage Dyte's API."
+          ? "Dive into ProductDB's API v2 documentation, offering advanced features and functionalities."
+          : "Explore the comprehensive API documentation provided by ProductDB. Learn how to integrate and leverage ProductDB's API."
       }
       noFooter
       wrapperClassName="api-reference"
     >
       <Head>
         {/* Load styles for Stoplight Elements */}
-        <title>API Documentation | Dyte Docs</title>
+        <title>API Documentation | ProductDB Docs</title>
         <link rel="preload" href="/assets/css/elements.min.css" as="style" />
         <link rel="stylesheet" href="/assets/css/elements.min.css" />
         <meta
           name="description"
-          content="Explore the comprehensive API documentation provided by Dyte. Learn how to integrate and leverage Dyte's API."
+          content="Explore the comprehensive API documentation provided by ProductDB. Learn how to integrate and leverage ProductDB's API."
         ></meta>
       </Head>
 

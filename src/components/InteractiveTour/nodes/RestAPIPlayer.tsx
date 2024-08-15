@@ -114,7 +114,7 @@ export default function RestAPIPlayer({ data }: NodeProps<RestAPIPlayerProps>) {
         className={"w-1 h-1"}
         type="source"
         position={Position.Right}
-        id="dyte-conn"
+        id="ProductDB-conn"
       />
     </div>
   );

@@ -1,18 +1,18 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-plugins.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-plugins.svg
 description: >-
-  Learn how to use and customize the DytePluginViewController component in Dyte's
+  Learn how to use and customize the ProductDBPluginViewController component in ProductDB's
   iOS UiKit with our detailed documentation.
 ---
 
 # VideoPeerViewModel
 ## Overview
-A view model for instances of class [DyteParticipantTileView](/ios/components/dyte-participant-tile-view).  
+A view model for instances of class [ProductDBParticipantTileView](/ios/components/ProductDB-participant-tile-view).  
 
 ### Create instance of this class 
 
 ```swift
-init(meeting: DyteMobileClient, participant: DyteJoinedMeetingParticipant, showSelfPreviewVideo: Bool, showScreenShareVideoView: Bool = false)
+init(meeting: ProductDBMobileClient, participant: ProductDBJoinedMeetingParticipant, showSelfPreviewVideo: Bool, showScreenShareVideoView: Bool = false)
 ```
 #### Parameters   
 **meeting:** Current ongoing meeting.  
@@ -22,7 +22,7 @@ init(meeting: DyteMobileClient, participant: DyteJoinedMeetingParticipant, showS
 
 ### Update the participant 
 ```swift
-func set(participant: DyteJoinedMeetingParticipant)
+func set(participant: ProductDBJoinedMeetingParticipant)
 ```
 
 ### Call back when audio state gets updated  
@@ -30,7 +30,7 @@ func set(participant: DyteJoinedMeetingParticipant)
 ```swift
 var audioUpdate: (()->Void)?
 ```
-Whenever `func onAudioUpdate(isEnabled: Bool)` protocol method  of `DyteParticipantUpdateListener` get called,
+Whenever `func onAudioUpdate(isEnabled: Bool)` protocol method  of `ProductDBParticipantUpdateListener` get called,
  this Call back is generated.
 
 ### Call back when video state gets updated  
@@ -38,15 +38,15 @@ Whenever `func onAudioUpdate(isEnabled: Bool)` protocol method  of `DyteParticip
 ```swift
 var videoUpdate: (()->Void)?
 ```
-Whenever `func onVideoUpdate(isEnabled: Bool)` protocol method  of `DyteParticipantUpdateListener` get called,
+Whenever `func onVideoUpdate(isEnabled: Bool)` protocol method  of `ProductDBParticipantUpdateListener` get called,
  this Call back is generated.
 
 
 ### Call back when participants gets updated  
 ```swift
-var loadNewParticipant: ((DyteJoinedMeetingParticipant)->Void)?
+var loadNewParticipant: ((ProductDBJoinedMeetingParticipant)->Void)?
 ```
-Whenever `func set(participant: DyteJoinedMeetingParticipant)` get called, Call back is generated
+Whenever `func set(participant: ProductDBJoinedMeetingParticipant)` get called, Call back is generated
 
 
 ### Call back when name initials of participant gets updated  
@@ -64,5 +64,5 @@ Whenever `func refreshNameTag` get called, Call back is generated
 
 
 <head>
-  <title>iOS DytePluginViewController</title>
+  <title>iOS ProductDBPluginViewController</title>
 </head>

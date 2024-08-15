@@ -187,7 +187,7 @@ const docs = [
 /** @type {import('@docusaurus/plugin-content-docs').Options} */
 const defaultSettings = {
   breadcrumbs: true,
-  editUrl: 'https://github.com/productdb/docs/tree/main/',
+  editUrl: 'https://github.com/ProductDB-io/docs/tree/main/',
   showLastUpdateTime: true,
   sidebarCollapsible: true,
   remarkPlugins: [
@@ -393,13 +393,13 @@ const plugins = [
             '/javascript/quickstart',
             '/javascript/reference/chat-message',
             '/javascript/reference/connection-config',
-            '/javascript/reference/dyte-client',
-            '/javascript/reference/dyte-control-bar',
-            '/javascript/reference/dyte-errors',
-            '/javascript/reference/dyte-grid',
-            '/javascript/reference/dyte-meeting-events',
-            '/javascript/reference/dyte-plugin',
-            '/javascript/reference/dyte-ui-config',
+            '/javascript/reference/ProductDB-client',
+            '/javascript/reference/ProductDB-control-bar',
+            '/javascript/reference/ProductDB-errors',
+            '/javascript/reference/ProductDB-grid',
+            '/javascript/reference/ProductDB-meeting-events',
+            '/javascript/reference/ProductDB-plugin',
+            '/javascript/reference/ProductDB-ui-config',
             '/javascript/reference/meeting',
             '/javascript/reference/participant',
             '/javascript/reference/self-participant',
@@ -418,13 +418,13 @@ const plugins = [
             '/react/quickstart',
             '/react/reference/chat-message',
             '/react/reference/connection-config',
-            '/react/reference/dyte-client',
-            '/react/reference/dyte-control-bar',
-            '/react/reference/dyte-errors',
-            '/react/reference/dyte-grid',
-            '/react/reference/dyte-meeting-events',
-            '/react/reference/dyte-plugin',
-            '/react/reference/dyte-ui-config',
+            '/react/reference/ProductDB-client',
+            '/react/reference/ProductDB-control-bar',
+            '/react/reference/ProductDB-errors',
+            '/react/reference/ProductDB-grid',
+            '/react/reference/ProductDB-meeting-events',
+            '/react/reference/ProductDB-plugin',
+            '/react/reference/ProductDB-ui-config',
             '/react/reference/meeting',
             '/react/reference/participant',
             '/react/reference/self-participant',
@@ -487,7 +487,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '/img/productdb-docs-card.png',
+      image: '/img/ProductDB-docs-card.png',
       colorMode: {
         defaultMode: 'light',
       },
@@ -515,12 +515,12 @@ const config = {
           {
             label: 'SDKs',
             type: 'dropdown',
-            className: 'dyte-dropdown',
+            className: 'ProductDB-dropdown',
             items: [
               {
                 type: 'html',
                 value: sdksHTML,
-                className: 'dyte-dropdown',
+                className: 'ProductDB-dropdown',
               },
             ],
           },
@@ -531,18 +531,18 @@ const config = {
           {
             label: 'Resources',
             type: 'dropdown',
-            className: 'dyte-dropdown resources-dropdown',
+            className: 'ProductDB-dropdown resources-dropdown',
             items: [
               {
                 type: 'html',
                 value: resourcesHTML,
-                className: 'dyte-dropdown',
+                className: 'ProductDB-dropdown',
               },
             ],
           },
           {
             label: 'Support',
-            to: 'https://support.productdb.io/',
+            to: 'https://productdb.io/contact?type=docs',
           },
 
           {
@@ -551,13 +551,13 @@ const config = {
           },
           {
             label: 'Book a demo',
-            href: 'https://productdb.io/contact-sales',
+            href: 'https://productdb.io/schedule-demo',
             position: 'right',
             className: 'navbar-book-demo',
           },
           {
             label: 'Sign Up',
-            href: 'https://accounts.productdb.io/register#dev',
+            href: 'https://dev.productdb.io/register',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
           },
@@ -581,7 +581,7 @@ const config = {
               },
               {
                 label: 'Developer Portal',
-                href: 'https://productdb.dev',
+                href: 'https://dev.productdb.io',
               },
               {
                 label: 'Pricing',
@@ -598,11 +598,11 @@ const config = {
               },
               {
                 label: 'Join Us',
-                href: 'https://dyte.freshteam.com/jobs',
+                href: 'https://ProductDB.freshteam.com/jobs',
               },
               {
                 label: 'Privacy Policy',
-                href: 'https://productdb.io/legal/privacy-policy',
+                href: 'https://productdb.io/privacy-policy',
               },
               {
                 label: 'Contact Us',
@@ -628,7 +628,7 @@ const config = {
             ],
           },
         ],
-        copyright: 'Copyright © ProductDB. All rights reserved.',
+        copyright: 'Copyright © ProductDB since 2023. All rights reserved.',
       },
       prism: {
         theme: code_themes.light,
@@ -657,9 +657,9 @@ const config = {
         ],
       },
       algolia: {
-        appId: 'SJH8R94RSV',
-        apiKey: '7b081eda2c0e7917a650fd2ab20b5d6f',
-        indexName: 'productdb',
+        appId: 'HL0HSV62RK',
+        apiKey: '72ebf02146698733b7114c7b36da0945',
+        indexName: 'docs',
         contextualSearch: true,
         searchParameters: {},
       },

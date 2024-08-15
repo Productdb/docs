@@ -1,9 +1,9 @@
 openapi: 3.0.0
 info:
   version: 0.1.0
-  title: Dyte REST API
+  title: ProductDB REST API
   description: |-
-    Create and manage your Dyte meetings easily using Dyte APIs
+    Create and manage your ProductDB meetings easily using ProductDB APIs
 
     ## Rate Limiting
 
@@ -35,18 +35,18 @@ info:
 
     ### Why Do You Set a Rate Limit?
 
-    Rate limiting is required to prevent the network from becoming overloaded as a result of numerous requests. This could be due to hacking activity, overuse of the Dyte APIs by a bot, or a bug in the code. Setting a rate limit helps to prevent this type of API overuse.
+    Rate limiting is required to prevent the network from becoming overloaded as a result of numerous requests. This could be due to hacking activity, overuse of the ProductDB APIs by a bot, or a bug in the code. Setting a rate limit helps to prevent this type of API overuse.
 
     Setting a rate limit also protects us from various types of attacks, such as:
     - [Brute Force Attack](https://www.fortinet.com/resources/cyberglossary/brute-force-attack)
     - [DDOS attack](https://aws.amazon.com/shield/ddos-attack-protection/)
     - [Web-scraping](https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/)
   contact:
-    name: Dyte Developer Support
-    url: 'https://dyte.io'
-    email: support@dyte.io
+    name: ProductDB Developer Support
+    url: 'https://productdb.io'
+    email: support@productdb.io
 servers:
-  - url: 'https://api.dyte.io/v1'
+  - url: 'https://api.productdb.io/v1'
     description: Production server
 paths:
   '/organizations/{organizationId}/preset':
@@ -1407,7 +1407,7 @@ components:
                 participantCount: true
                 clock: true
               aloneHereElement: true
-              logo: 'https://www.dyte.io/images/Dyte-Logo.svg'
+              logo: 'https://www.productdb.io/images/ProductDB-Logo.svg'
               colors:
                 primary: '#2160FD'
                 secondary: '#262626'
@@ -1445,7 +1445,7 @@ components:
                 participantCount: true
                 clock: true
               aloneHereElement: false
-              logo: 'https://www.dyte.io/images/Dyte-Logo.svg'
+              logo: 'https://www.productdb.io/images/ProductDB-Logo.svg'
               colors:
                 primary: '#2160FD'
                 secondary: '#262626'
@@ -1471,7 +1471,7 @@ components:
                 screenShare: false
                 layout: false
                 plugins: false
-              logo: 'https://www.dyte.io/images/Dyte-Logo.svg'
+              logo: 'https://www.productdb.io/images/ProductDB-Logo.svg'
               colors:
                 primary: '#2A9D8F'
                 secondary: '#F4A261'
@@ -1725,7 +1725,7 @@ components:
           maximum: 86400
         storageConfig:
           type: object
-          description: "Object containing details of the cloud storage, where you want the recording to be uploaded. In case this is not provided, recording will be stored on Dyte's servers for a period of 7 days from the day of recording and a link will be shared using which you can download the file in between that period."
+          description: "Object containing details of the cloud storage, where you want the recording to be uploaded. In case this is not provided, recording will be stored on ProductDB's servers for a period of 7 days from the day of recording and a link will be shared using which you can download the file in between that period."
           properties:
             type:
               type: string
@@ -1784,9 +1784,9 @@ components:
               default: H264
               description: |
                 Codec used to record the meeting video.
-                - `H264`: [sample recording](https://dyte-uploads.s3.ap-south-1.amazonaws.com/test/h264_sample.webm)
-                - `VP8`: [sample recording](https://dyte-uploads.s3.ap-south-1.amazonaws.com/test/vp8_sample.webm)
-                - `VP9`: [sample recording](https://dyte-uploads.s3.ap-south-1.amazonaws.com/test/vp9_sample.webm)
+                - `H264`: [sample recording](https://ProductDB-uploads.s3.ap-south-1.amazonaws.com/test/h264_sample.webm)
+                - `VP8`: [sample recording](https://ProductDB-uploads.s3.ap-south-1.amazonaws.com/test/vp8_sample.webm)
+                - `VP9`: [sample recording](https://ProductDB-uploads.s3.ap-south-1.amazonaws.com/test/vp9_sample.webm)
             width:
               type: integer
               x-stoplight:
@@ -1878,8 +1878,8 @@ components:
             id: irwwqkxyk31i7
           format: uri
           description: Pass a custom url to record arbitary screen.
-        dyteBucketConfig:
-          $ref: '#/components/schemas/DyteBucketConfig'
+        ProductDBBucketConfig:
+          $ref: '#/components/schemas/ProductDBBucketConfig'
         interactiveConfig:
           $ref: '#/components/schemas/InteractiveConfig'
     UpdateRecordingRequestBody:
@@ -2080,7 +2080,7 @@ components:
                           Status of the recording.
                           - `INVOKED`: The recording function has been invoked and will start recording the meeting very shortly.
                           - `RECORDING`: The meeting is currently being recorded.
-                          - `UPLOADING`: The recording has been stopped and the file is being uploaded to cloud storage. The storage would be Dyte's if no storage parameters are passed in the recording API call.
+                          - `UPLOADING`: The recording has been stopped and the file is being uploaded to cloud storage. The storage would be ProductDB's if no storage parameters are passed in the recording API call.
                           - `UPLOADED`: The recording file upload is complete.
                           - `ERRORED`: There was an error while recording the meeting and the file wouldn't be available.
                     required:
@@ -2170,7 +2170,7 @@ components:
             minutesConsumed: 123
             id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
             roomUUID: 31eca195-b13b-4986-b6c9-6b60e53d7f58
-            roomURL: 'https://app.dyte.io/meeting/unique-roomname'
+            roomURL: 'https://app.productdb.io/meeting/unique-roomname'
             roomDisplayTitle: Meeting Title
             maxUsers: 123
             currentUsers: 12
@@ -2204,7 +2204,7 @@ components:
                 minutesConsumed: 123
                 id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
                 roomUUID: 31eca195-b13b-4986-b6c9-6b60e53d7f58
-                roomURL: 'https://app.dyte.io/meeting/unique-roomname'
+                roomURL: 'https://app.productdb.io/meeting/unique-roomname'
                 roomDisplayTitle: Meeting Title
                 maxUsers: 123
                 currentUsers: 12
@@ -2233,7 +2233,7 @@ components:
                 minutesConsumed: 123
                 id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
                 roomUUID: 31eca195-b13b-4986-b6c9-6b60e53d7f58
-                roomURL: 'https://app.dyte.io/meeting/unique-roomname'
+                roomURL: 'https://app.productdb.io/meeting/unique-roomname'
                 roomDisplayTitle: Meeting Title
                 maxUsers: 123
                 currentUsers: 12
@@ -2250,7 +2250,7 @@ components:
               properties:
                 users:
                   type: array
-                  description: Array containing objects that define a user in Dyte system.
+                  description: Array containing objects that define a user in ProductDB system.
                   uniqueItems: true
                   items:
                     $ref: '#/components/schemas/OrgUser'
@@ -2400,7 +2400,7 @@ components:
                 createdAt: '2019-08-24T14:15:22Z'
     OrgUser:
       type: object
-      description: Object containing details of a user in Dyte system.
+      description: Object containing details of a user in ProductDB system.
       x-examples:
         example-1:
           id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
@@ -2412,7 +2412,7 @@ components:
         id:
           type: string
           format: uuid
-          description: Unique ID of the user in Dyte system.
+          description: Unique ID of the user in ProductDB system.
         name:
           type: string
           description: Name of the user.
@@ -2466,7 +2466,7 @@ components:
         id:
           type: string
           format: uuid
-          description: Unique ID of the participant in Dyte system.
+          description: Unique ID of the participant in ProductDB system.
         name:
           type: string
           description: Name of the participant.
@@ -2625,7 +2625,7 @@ components:
             role:
               name: role_1
               description: Example role 1
-              s3URL: 'https: //dyte-configs.s3.ap-south-1.amazonaws.com/{organizationId}/roles/role_1.json'
+              s3URL: 'https: //ProductDB-configs.s3.ap-south-1.amazonaws.com/{organizationId}/roles/role_1.json'
               organization:
                 id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
                 name: org_1
@@ -2668,7 +2668,7 @@ components:
             role:
               name: role_1
               description: Example role 1
-              s3URL: 'https: //dyte-configs.s3.ap-south-1.amazonaws.com/{organizationId}/roles/role_1.json'
+              s3URL: 'https: //ProductDB-configs.s3.ap-south-1.amazonaws.com/{organizationId}/roles/role_1.json'
               organization:
                 id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
                 name: org_1
@@ -2704,7 +2704,7 @@ components:
             roles:
               - name: role_1
                 description: Example role 1
-                s3URL: 'https: //dyte-configs.s3.ap-south-1.amazonaws.com/{organizationId}/roles/role_1.json'
+                s3URL: 'https: //ProductDB-configs.s3.ap-south-1.amazonaws.com/{organizationId}/roles/role_1.json'
                 id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
     GetPresetsResponse:
       allOf:
@@ -2730,7 +2730,7 @@ components:
             roles:
               - name: role_1
                 description: Example role 1
-                s3URL: 'https: //dyte-configs.s3.ap-south-1.amazonaws.com/{organizationId}/roles/role_1.json'
+                s3URL: 'https: //ProductDB-configs.s3.ap-south-1.amazonaws.com/{organizationId}/roles/role_1.json'
                 id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
     PresetRole:
       title: PresetRole
@@ -2926,7 +2926,7 @@ components:
             Status of the recording.
             - `INVOKED`: The recording function has been invoked and will start recording the meeting very shortly.
             - `RECORDING`: The meeting is currently being recorded.
-            - `UPLOADING`: The recording has been stopped and the file is being uploaded to cloud storage. The storage would be Dyte's if no storage parameters are passed in the recording API call.
+            - `UPLOADING`: The recording has been stopped and the file is being uploaded to cloud storage. The storage would be ProductDB's if no storage parameters are passed in the recording API call.
             - `UPLOADED`: The recording file upload is complete.
             - `ERRORED`: There was an error while recording the meeting and the file wouldn't be available.
         outputFileName:
@@ -3043,8 +3043,8 @@ components:
               name: webhook_1
               logId: d2062bfa-97e3-46e4-80bf-86fffbf5d060
               headers:
-                dyte-signature: random_secure_signature
-                dyte-uuid: unique_uuid_for_this_webhook_log
+                ProductDB-signature: random_secure_signature
+                ProductDB-uuid: unique_uuid_for_this_webhook_log
               payload:
                 event: meeting.started
                 meeting:
@@ -3064,8 +3064,8 @@ components:
               name: webhook_1
               logId: ae6fa0d8-9273-4f36-ad65-d049ca73805f
               headers:
-                dyte-signature: random_secure_signature
-                dyte-uuid: unique_uuid_for_this_webhook_log
+                ProductDB-signature: random_secure_signature
+                ProductDB-uuid: unique_uuid_for_this_webhook_log
               payload:
                 event: meeting.started
                 meeting:
@@ -3087,8 +3087,8 @@ components:
               name: webhook_2
               logId: d2062bfa-97e3-46e4-80bf-86fffbf5d060
               headers:
-                dyte-signature: random_secure_signature
-                dyte-uuid: unique_uuid_for_this_webhook_log
+                ProductDB-signature: random_secure_signature
+                ProductDB-uuid: unique_uuid_for_this_webhook_log
               payload:
                 event: meeting.participantJoined
                 meeting:
@@ -3114,8 +3114,8 @@ components:
               name: webhook_2
               logId: ae6fa0d8-9273-4f36-ad65-d049ca73805f
               headers:
-                dyte-signature: random_secure_signature
-                dyte-uuid: unique_uuid_for_this_webhook_log
+                ProductDB-signature: random_secure_signature
+                ProductDB-uuid: unique_uuid_for_this_webhook_log
               payload:
                 event: meeting.participantJoined
                 meeting:
@@ -3166,13 +3166,13 @@ components:
                 type: object
                 description: Headers for the given webhook request.
                 required:
-                  - dyte-signature
-                  - dyte-uuid
+                  - ProductDB-signature
+                  - ProductDB-uuid
                 properties:
-                  dyte-signature:
+                  ProductDB-signature:
                     type: string
-                    description: "Signature generated for the webhook request, using Dyte's private keys. Refer webhooks guide <insert_link> for more details."
-                  dyte-uuid:
+                    description: "Signature generated for the webhook request, using ProductDB's private keys. Refer webhooks guide <insert_link> for more details."
+                  ProductDB-uuid:
                     type: string
                     format: uuid
                     description: Unique uuid generated for the webhook event. This prevents the same webhook from being processed multiple times.
@@ -3209,7 +3209,7 @@ components:
                       peerId:
                         type: string
                         format: uuid
-                        description: Unique ID of the participant in Dyte system.
+                        description: Unique ID of the participant in ProductDB system.
                       userDisplayName:
                         type: string
                         description: Name of the participant as it appears in the meeting room.
@@ -3236,7 +3236,7 @@ components:
                 description: 'Timestamp indicating when the current event was triggered (in ISO 8601 format with UTC timezone, for example, 2022-12-21T00:00:00.000Z).'
               statusCode:
                 type: number
-                description: HTTP status code received by Dyte when trying to connect with the webhook to send this particular event.
+                description: HTTP status code received by ProductDB when trying to connect with the webhook to send this particular event.
             required:
               - webhookId
               - name
@@ -3395,8 +3395,8 @@ components:
             - mono
             - stereo
           default: stereo
-    DyteBucketConfig:
-      title: DyteBucketConfig
+    ProductDBBucketConfig:
+      title: ProductDBBucketConfig
       x-stoplight:
         id: 7fwpkwr887126
       type: object
@@ -3406,7 +3406,7 @@ components:
           x-stoplight:
             id: w9xwpvf528y94
           default: true
-          description: "Controls whether recordings are uploaded to dyte's bucket. If set to false, `download_url`, `audio_download_url`, `download_url_expiry` won't be generated for a recording."
+          description: "Controls whether recordings are uploaded to ProductDB's bucket. If set to false, `download_url`, `audio_download_url`, `download_url_expiry` won't be generated for a recording."
     startReason:
       title: startReason
       x-stoplight:

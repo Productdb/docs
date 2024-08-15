@@ -13,28 +13,28 @@ import { MavenLatestInstallation } from '@site/src/components/LatestInstallation
 
 # Quickstart
 
-This quickstart shows how to use Dyte's core SDKs to add live video and audio to
+This quickstart shows how to use ProductDB's core SDKs to add live video and audio to
 your Android applications.
 
 To get started quickly, you can use our sample code. You can clone and run a sample application from the Android Core samples, 
-available in both [Kotlin](https://github.com/dyte-io/android-samples/tree/main/samples/android-core-sample-kotlin) and [Java](https://github.com/dyte-io/android-samples/tree/main/samples/android-core-sample-java).
+available in both [Kotlin](https://github.com/ProductDB-io/android-samples/tree/main/samples/android-core-sample-kotlin) and [Java](https://github.com/ProductDB-io/android-samples/tree/main/samples/android-core-sample-java).
 
 ## Objective
 
 You'll learn how to:
 
-- [Install the Dyte SDK](#step-1-install-the-sdk)
+- [Install the ProductDB SDK](#step-1-install-the-sdk)
 - [Initialize the SDK](#step-2-initialize-the-sdk)
-- [Configure a Dyte meeting](#step-3-configure-a-dyte-meeting)
-- [Initialize the Dyte meeting](#step-4-initialize-the-dyte-meeting)
-- [Go live with your Dyte meeting](#step-5-go-live-with-your-dyte-meeting)
+- [Configure a ProductDB meeting](#step-3-configure-a-ProductDB-meeting)
+- [Initialize the ProductDB meeting](#step-4-initialize-the-ProductDB-meeting)
+- [Go live with your ProductDB meeting](#step-5-go-live-with-your-ProductDB-meeting)
 
 ## Before Getting Started
 
-Make sure you've read the [Getting Started with Dyte](/getting-started) topic and completed the following steps:
+Make sure you've read the [Getting Started with ProductDB](/getting-started) topic and completed the following steps:
 
-- Create a [Dyte Developer Account](https://dev.dyte.io/)
-- Create a [Dyte Meeting](/api/?v=v2#/operations/create_meeting)
+- Create a [ProductDB Developer Account](https://dev.productdb.io/)
+- Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 - Install [Android Studio](https://developer.android.com/studio)
 
@@ -66,14 +66,14 @@ dependencies {
 
 ## Step 2: Initialize the SDK
 
-The `DyteMobileClient` is the main class of the SDK. It is the entry point and
-the only class required to initialize Dyte SDK.
+The `ProductDBMobileClient` is the main class of the SDK. It is the entry point and
+the only class required to initialize ProductDB SDK.
 
 <Tabs groupId="android-core-quickstart">
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin
-val dyteClient = DyteMeetingBuilder.build(activity)
+val ProductDBClient = ProductDBMeetingBuilder.build(activity)
 ```
 
   </TabItem>
@@ -81,15 +81,15 @@ val dyteClient = DyteMeetingBuilder.build(activity)
   <TabItem value="java" label="Java">
 
 ```java
-DyteMobileClient dyteClient = DyteMeetingBuilder.build(activity);
+ProductDBMobileClient ProductDBClient = ProductDBMeetingBuilder.build(activity);
 ```
 
   </TabItem>
 </Tabs>
 
-## Step 3: Configure a Dyte meeting
+## Step 3: Configure a ProductDB meeting
 
-Configure the following properties in the `DyteMeetingInfoV2` class. You must pass a valid participant `authToken` obtained from 
+Configure the following properties in the `ProductDBMeetingInfoV2` class. You must pass a valid participant `authToken` obtained from 
 the [Add Participant](/api/?v=v2#/operations/add_participant) API.
 
 | Name          | Description |
@@ -97,18 +97,18 @@ the [Add Participant](/api/?v=v2#/operations/add_participant) API.
 | `authToken`   | After you've created the meeting, add each participant to the meeting using the [Add Participant API](/api?v=v2#/operations/add_participant) The API response contains the `authToken`. |
 | `enableAudio` | Set whether to join the meeting with your Mic ON (`true`) or OFF (`false`). |
 | `enableVideo` | Set whether to join the meeting with your Camera ON (`true`) or OFF (`false`).|
-| `baseUrl`     | Base URL of the dyte's environment you have created the meeting on.|
+| `baseUrl`     | Base URL of the ProductDB's environment you have created the meeting on.|
 
 <Tabs groupId="android-core-quickstart">
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin
 val meetingInfo =
-      DyteMeetingInfoV2(
+      ProductDBMeetingInfoV2(
         authToken = AUTH_TOKEN,
         enableAudio = true,
         enableVideo = true,
-        baseUrl = "dyte.io"
+        baseUrl = "productdb.io"
       )
 ```
 
@@ -117,27 +117,27 @@ val meetingInfo =
   <TabItem value="java" label="Java">
 
 ```java
-DyteMeetingInfoV2 meetingInfo = new DyteMeetingInfoV2(
+ProductDBMeetingInfoV2 meetingInfo = new ProductDBMeetingInfoV2(
           MeetingConfig.AUTH_TOKEN, // auth_token
           true,   // enableAudio
           true,   // enableVideo
-          "dyte.io" // baseUrl
+          "productdb.io" // baseUrl
           );
 ```
 
   </TabItem>
 </Tabs>
 
-## Step 4: Initialize the Dyte meeting
+## Step 4: Initialize the ProductDB meeting
 
-To initialize the meeting, call the `init()` method on the `dyteClient` object with the `meetingInfo` argument. This establishes 
-a connection with the Dyte meeting server.
+To initialize the meeting, call the `init()` method on the `ProductDBClient` object with the `meetingInfo` argument. This establishes 
+a connection with the ProductDB meeting server.
 
 <Tabs groupId="android-core-quickstart">
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin
-dyteClient.init(meetingInfo, {
+ProductDBClient.init(meetingInfo, {
     // init complete
   }, {
     // init failed
@@ -150,7 +150,7 @@ dyteClient.init(meetingInfo, {
   <TabItem value="java" label="Java">
 
 ```java
-dyteClient.init(meetingInfo, () -> {
+ProductDBClient.init(meetingInfo, () -> {
         // init complete
         return null;
       }, () -> {
@@ -162,19 +162,19 @@ dyteClient.init(meetingInfo, () -> {
   </TabItem>
 </Tabs>
 
-## Step 5: Go live with your Dyte meeting!
+## Step 5: Go live with your ProductDB meeting!
 
-Now, you have established the connection with the Dyte meeting server successfully. Next step is to join the room.
+Now, you have established the connection with the ProductDB meeting server successfully. Next step is to join the room.
 
 ### Join the room
 
-To join the meeting room, call `joinRoom()` method on the `dyteClient` instance as shown below.
+To join the meeting room, call `joinRoom()` method on the `ProductDBClient` instance as shown below.
 
 <Tabs groupId="android-core-quickstart">
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin
-dyteClient.joinRoom({
+ProductDBClient.joinRoom({
     // join complete
   }, {
     // join failed
@@ -187,7 +187,7 @@ dyteClient.joinRoom({
   <TabItem value="java" label="Java">
 
 ```java
-dyteClient.join(() -> {
+ProductDBClient.join(() -> {
         // join complete
         return null;
       }, () -> {
@@ -203,13 +203,13 @@ dyteClient.join(() -> {
 
 Once the meeting is over, you can leave the meeting room.
 
-To leave the meeting room, call `leaveRoom()` method on the `dyteClient` as shown below.
+To leave the meeting room, call `leaveRoom()` method on the `ProductDBClient` as shown below.
 
 <Tabs groupId="android-core-quickstart">
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin
-dyteClient.leaveRoom({
+ProductDBClient.leaveRoom({
   // leave completed
 }, {
   // leave failed
@@ -220,7 +220,7 @@ dyteClient.leaveRoom({
   <TabItem value="java" label="Java">
 
 ```java
-dyteClient.leave(() -> {
+ProductDBClient.leave(() -> {
         // leave complete
         return null;
       }, () -> {
@@ -236,6 +236,6 @@ dyteClient.leave(() -> {
   <title>Android Core Quickstart</title>
   <meta
     name="description"
-    content="Explore Dyte's Android Core documentation, focusing on core functionalities for building rich video chat applications on Android."
+    content="Explore ProductDB's Android Core documentation, focusing on core functionalities for building rich video chat applications on Android."
   />
 </head>

@@ -1,17 +1,17 @@
 ---
-title: DyteMeeting
+title: ProductDBMeeting
 sidebar_position: 1
 ---
 
-Dyte provides, `DyteMeeting` an all encompassing component that internally handles everything from showing a pre-call UI to in-call UI and post-call screen.
+ProductDB provides, `ProductDBMeeting` an all encompassing component that internally handles everything from showing a pre-call UI to in-call UI and post-call screen.
 
 ```tsx
-<DyteMeeting meeting={meeting} showSetupScreen={true} />
+<ProductDBMeeting meeting={meeting} showSetupScreen={true} />
 ```
 
 This component contains pre-call, in-call UI as well post-call UIs.
 
-Following code shows a basic split of these UIs from the `DyteMeeting` component.
+Following code shows a basic split of these UIs from the `ProductDBMeeting` component.
 
 import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 
@@ -19,22 +19,22 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 highlight={[{start: 14, end: 33}]}
 hide={[{start:1, end: 4}]}
 file={`
-import { DyteSetupScreen, DyteEndedScreen, DyteHeader, DyteParticipantsAudio, DyteDialogManager, DyteStage, DyteGrid, DyteNotifications, DyteSidebar, DyteControlbar } from '@dytesdk/react-ui-kit';
-import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
+import { ProductDBSetupScreen, ProductDBEndedScreen, ProductDBHeader, ProductDBParticipantsAudio, ProductDBDialogManager, ProductDBStage, ProductDBGrid, ProductDBNotifications, ProductDBSidebar, ProductDBControlbar } from '@ProductDBsdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@ProductDBsdk/react-web-core';
 import { useEffect } from 'react';
 
 export default function MyMeeting() {
-  const { meeting } = useDyteMeeting();
-  const roomState = useDyteSelector((m) => m.self.roomState);
+  const { meeting } = useProductDBMeeting();
+  const roomState = useProductDBSelector((m) => m.self.roomState);
 
 return (
 
 <div className="flex h-full w-full">
-  {roomState === 'init' && <DyteSetupScreen meeting={meeting} />}
+  {roomState === 'init' && <ProductDBSetupScreen meeting={meeting} />}
   {roomState === 'joined' && (
       <div className="flex flex-col w-full h-full">
         <header>
-          <DyteHeader meeting={meeting}/>
+          <ProductDBHeader meeting={meeting}/>
         </header>
 
         <main className='flex w-full flex-1 justify-center items-center' style={{
@@ -42,18 +42,18 @@ return (
           color: '#ffffff',
         }}>
           <span>Custom in-call UI</span>
-          <DyteDialogManager meeting={meeting}/>
+          <ProductDBDialogManager meeting={meeting}/>
         </main>
 
         <footer className='flex w-full overflow-visible'>
-          <DyteControlbar meeting={meeting}/>
+          <ProductDBControlbar meeting={meeting}/>
         </footer>
       </div>
 
 )}
-{roomState === 'ended' && (<DyteEndedScreen meeting={meeting}/>)}
+{roomState === 'ended' && (<ProductDBEndedScreen meeting={meeting}/>)}
 
 </div>
 ); }` } />
 
-Since `DyteMeeting` is a complex component and provides a lot more than just the UI, let's go to the next page and start splitting it to uncover what it does.
+Since `ProductDBMeeting` is a complex component and provides a lot more than just the UI, let's go to the next page and start splitting it to uncover what it does.

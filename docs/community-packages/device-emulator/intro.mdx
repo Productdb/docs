@@ -7,7 +7,7 @@ keywords:
 
 # Introduction
 
-For a product, integration tests are one of the crucial part that improves quality & stability. For a WebRTC based solution like Dyte, having integration tests that can test multi-user call with Audio/Video on is necessary.
+For a product, integration tests are one of the crucial part that improves quality & stability. For a WebRTC based solution like ProductDB, having integration tests that can test multi-user call with Audio/Video on is necessary.
 
 For an end user, sharing a camera & mic is easy. For this, browsers expose APIs such as enumerateDevices & getUserMedia on MediaDevices interface, on which user interfaces can be built easily.
 
@@ -15,7 +15,7 @@ Access to camera & mic prompts the users to allow permissions to do so. This wor
 
 Even if we can somehow allow permissions, The next set of questions would be: What would the video & audio feed look like? Can we customize the feed? Can we use the feed to detect delays between a video feed producer and consumer? How do we test multiple devices? How do we test media ejection on the fly? How do we test addition of a new device?
 
-Dyte's Device Emulator is a solution that answers all these questions and provides a easier way to mimic, add, remove devices & their feed.
+ProductDB's Device Emulator is a solution that answers all these questions and provides a easier way to mimic, add, remove devices & their feed.
 
 ## Installation
 
@@ -27,24 +27,24 @@ the `<head />` tag.
 
 ```html
 <script>
-  window.addEventListener('dyte.deviceEmulatorLoaded', () => {
+  window.addEventListener('ProductDB.deviceEmulatorLoaded', () => {
     // use device emulator methods here...
   });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/@dytesdk/device-emulator/dist/index.iife.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ProductDBsdk/device-emulator/dist/index.iife.js"></script>
 ```
 
   </TabItem>
   <TabItem value="npm" label="npm">
 
 ```bash
-npm install @dytesdk/device-emulator
+npm install @ProductDBsdk/device-emulator
 ```
 
 use the package like below
 
 ```js
-import '@dytesdk/device-emulator';
+import '@ProductDBsdk/device-emulator';
 
 // use the device emulator methods
 ```
@@ -54,13 +54,13 @@ import '@dytesdk/device-emulator';
   <TabItem value="yarn" label="yarn">
 
 ```bash
-yarn add @dytesdk/device-emulator
+yarn add @ProductDBsdk/device-emulator
 ```
 
 use the package like below
 
 ```js
-import '@dytesdk/device-emulator';
+import '@ProductDBsdk/device-emulator';
 
 // use the device emulator methods
 ```
@@ -163,5 +163,5 @@ navigator.mediaDevices.silenceDevice(deviceId, false);
 
 <head>
   <title>Community Packages Introduction</title>
-  <meta name="description" content="Learn about Dyte's community package for device emulation. Explore the documentation to emulate various devices and test applications effectively."/>
+  <meta name="description" content="Learn about ProductDB's community package for device emulation. Explore the documentation to emulate various devices and test applications effectively."/>
 </head>

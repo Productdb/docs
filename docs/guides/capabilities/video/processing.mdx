@@ -6,7 +6,7 @@ sidebar_slug: video-processing-middlewares
 
 # Video Processing
 
-Dyte's SDK supports middlewares which are pluggable functions that can be applied to both audio and video streams in a meeting. This lets you tap in the media to either observe or modify. This guide covers the following.
+ProductDB's SDK supports middlewares which are pluggable functions that can be applied to both audio and video streams in a meeting. This lets you tap in the media to either observe or modify. This guide covers the following.
 
 1. Create an video middleware
 2. Add or remove video middlewares
@@ -64,7 +64,7 @@ If you'd instead like to perform operations on the video stream through your own
 
 ```jsx
 //Somewhere in your codebase
-const meeting = await DyteClient.init(...);
+const meeting = await ProductDBClient.init(...);
 
 // You can get the video track which everybody will see if your camera is turned on
 meeting.self.videoTrack()

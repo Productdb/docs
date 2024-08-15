@@ -1,8 +1,8 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-settings.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-settings.svg
 sidebar_position: 2
 description: >-
-  Learn how to use and customize the DyteSettingViewController component in Dyte's
+  Learn how to use and customize the ProductDBSettingViewController component in ProductDB's
   iOS UiKit with our detailed documentation.
 ---
 
@@ -12,10 +12,10 @@ description: >-
 
 A screen that is used to show settings to switch between different audio/video devices.
 
-### Create DyteSettingViewController
+### Create ProductDBSettingViewController
 
 ```swift
-init(nameTag: String, meeting: DyteMobileClient, completion:(()->Void)? = nil)
+init(nameTag: String, meeting: ProductDBMobileClient, completion:(()->Void)? = nil)
 ```
 
 Creates settings screen with name tag.
@@ -26,7 +26,7 @@ _Required:_
 **nameTag:** An String representing participant name.  
 **meeting:** Default meeting object  
 _Optional:_  
-**completion:** Closure to get a callback when user presses back button present on [DyteNavigationBar](/ios/components/dyte-navigationbar)
+**completion:** Closure to get a callback when user presses back button present on [ProductDBNavigationBar](/ios/components/ProductDB-navigationbar)
 
 ### Hide/Show top bar
 
@@ -36,10 +36,10 @@ var shouldShowTopBar: Bool = true
 
 Default value is `true`. To hide the topbar assign this to `false`.
 
-### To show DyteSettingViewController do in iOS as follows:
+### To show ProductDBSettingViewController do in iOS as follows:
 
 ```swift
-let controller = DyteSettingViewController(nameTag: participant.name,
+let controller = ProductDBSettingViewController(nameTag: participant.name,
                               meeting: mobileClient)
 controller.view.backgroundColor = self.view.backgroundColor
 controller.modalPresentationStyle = .fullScreen
@@ -47,5 +47,5 @@ self.present(controller, animated: true)
 ```
 
 <head>
-  <title>iOS DyteSettingViewController</title>
+  <title>iOS ProductDBSettingViewController</title>
 </head>

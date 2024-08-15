@@ -2,7 +2,7 @@
 title: Media Permissions
 description: >-
   Learn how to manage permissions in your Flutter application for a secure and
-  controlled user experience with Dyte Docs.
+  controlled user experience with ProductDB Docs.
 sidebar_position: 5
 tags:
   - flutter-core
@@ -17,9 +17,9 @@ To get media permissions (audio/video) for localUser we can do as follows
 
 ```dart
 final isCameraPermissionGranted
-  = dyteMobileClient.localUser.permissions.isCameraPermissionGranted;
+  = ProductDBMobileClient.localUser.permissions.isCameraPermissionGranted;
 final isMicrophonePermissionGranted
-  = dyteMobileClient.localUser.permissions.isMicrophonePermissionGranted;
+  = ProductDBMobileClient.localUser.permissions.isMicrophonePermissionGranted;
 ```
 
 Similarly to listen to callbacks regarding media permissions once user joins
@@ -27,7 +27,7 @@ the meeting
 
 ```dart
 
-class LocalUserNotifier implements DyteSelfEventsListener {
+class LocalUserNotifier implements ProductDBSelfEventsListener {
 
   ...
   @override
@@ -48,6 +48,6 @@ class LocalUserNotifier implements DyteSelfEventsListener {
   <title>Flutter Core Media Permissions</title>
   <meta
     name="description"
-    content="Learn how to manage permissions in your Flutter application for a secure and controlled user experience with Dyte Docs."
+    content="Learn how to manage permissions in your Flutter application for a secure and controlled user experience with ProductDB Docs."
   />
 </head>

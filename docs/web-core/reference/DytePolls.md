@@ -5,28 +5,28 @@ web_core_version: 1.32.1
 
 <!-- Auto Generated Below -->
 
-<a name="module_DytePolls"></a>
+<a name="module_ProductDBPolls"></a>
 
-The DytePolls module consists of the polls that have been created in the meeting.
+The ProductDBPolls module consists of the polls that have been created in the meeting.
 
 
-* [DytePolls](#module_DytePolls)
-    * [.items](#module_DytePolls+items)
-    * [.roomJoined](#module_DytePolls+roomJoined)
-    * [.create(question, options, anonymous, hideVotes)](#module_DytePolls+create)
-    * [.vote(pollId, index)](#module_DytePolls+vote)
+* [ProductDBPolls](#module_ProductDBPolls)
+    * [.items](#module_ProductDBPolls+items)
+    * [.roomJoined](#module_ProductDBPolls+roomJoined)
+    * [.create(question, options, anonymous, hideVotes)](#module_ProductDBPolls+create)
+    * [.vote(pollId, index)](#module_ProductDBPolls+vote)
 
-<a name="module_DytePolls+items"></a>
+<a name="module_ProductDBPolls+items"></a>
 
 ### polls.items
 An array of poll items.
 
-<a name="module_DytePolls+roomJoined"></a>
+<a name="module_ProductDBPolls+roomJoined"></a>
 
 ### polls.roomJoined
 Returns true if the local participant has joined the meeting.
 
-<a name="module_DytePolls+create"></a>
+<a name="module_ProductDBPolls+create"></a>
 
 ### polls.create(question, options, anonymous, hideVotes)
 Creates a poll in the meeting.
@@ -39,7 +39,7 @@ Creates a poll in the meeting.
 | anonymous | <code>false</code> | If true, the poll votes are anonymous. |
 | hideVotes | <code>false</code> | If true, the votes on the poll are hidden. |
 
-<a name="module_DytePolls+vote"></a>
+<a name="module_ProductDBPolls+vote"></a>
 
 ### polls.vote(pollId, index)
 Casts a vote on an existing poll.

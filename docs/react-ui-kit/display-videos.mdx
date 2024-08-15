@@ -13,24 +13,24 @@ video tile grid components
 
 ```jsx live
 function Meeting() {
-  const { meeting } = useDyteMeeting();
-  const activeParticipants = useDyteSelector(
+  const { meeting } = useProductDBMeeting();
+  const activeParticipants = useProductDBSelector(
     (meeting) => meeting.participants.active
   );
 
   function ParticipantTile({ participant, meeting }) {
     return (
-      <DyteParticipantTile
+      <ProductDBParticipantTile
         participant={participant}
         style={{
           maxWidth: '240px',
         }}
       >
-        <DyteNameTag participant={participant} meeting={meeting}>
-          <DyteAudioVisualizer participant={participant} />
-        </DyteNameTag>
-        <DyteAvatar size="sm" participant={participant} />
-      </DyteParticipantTile>
+        <ProductDBNameTag participant={participant} meeting={meeting}>
+          <ProductDBAudioVisualizer participant={participant} />
+        </ProductDBNameTag>
+        <ProductDBAvatar size="sm" participant={participant} />
+      </ProductDBParticipantTile>
     );
   }
 
@@ -57,20 +57,20 @@ But in the real world, a video tile grid is more complex, it is responsive, tile
 sizes are dynamic, there are different layouts, the grid handles screensharing
 etc.
 
-Dyte has ready to use grid components, that you can use out of the box
+ProductDB has ready to use grid components, that you can use out of the box
 
 ## Grid Components
 
 There are two types of grid components, so that the grid can be easily extended
 and modularized.
 
-- Parent Grid component - `DyteGrid`
-- Child Grid components each having a different layour - `DyteSimpleGrid`,
-  `DyteMixedGrid`, `DyteSpotlightGrid`
+- Parent Grid component - `ProductDBGrid`
+- Child Grid components each having a different layour - `ProductDBSimpleGrid`,
+  `ProductDBMixedGrid`, `ProductDBSpotlightGrid`
 
 #### Parent Grid Component
 
-The `DyteGrid` component is a monolith component which handles all grid related
+The `ProductDBGrid` component is a monolith component which handles all grid related
 events and data on it's own and passes the following props to it's children.
 
 | Prop                        | Description                         |
@@ -91,11 +91,11 @@ Try editing the `aspectRatio` and `gap` props.
 
 ```jsx live
 function Example() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
 
   return (
     <div style={{ width: '100%', height: '400px' }}>
-      <DyteGrid meeting={meeting} aspectRatio="16:9" gap="8" size="sm" />
+      <ProductDBGrid meeting={meeting} aspectRatio="16:9" gap="8" size="sm" />
     </div>
   );
 }
@@ -107,14 +107,14 @@ These components just accept the props mentioned above and render the UI.
 
 Read more about them in their Reference pages.
 
-##### DyteSimpleGrid
+##### ProductDBSimpleGrid
 
 Accepts: `participants`, `pinnedParticipants`.
 
 This grid renders just the ParticipantTiles of the participants you pass to it.
 It also brings `pinnedParticipants` to the start of the grid.
 
-##### DyteSimpleGrid
+##### ProductDBSimpleGrid
 
 Accepts: `participants`, `pinnedParticipants`.
 
@@ -123,7 +123,7 @@ pinnedParticipants in separate grids.
 
 Pinned participants are in spotlight area, i.e; larger grid.
 
-##### DyteMixedGrid
+##### ProductDBMixedGrid
 
 Accepts: `participants`, `pinnedParticipants`, `screenShareParticipants`,
 `plugins`.
@@ -138,7 +138,7 @@ If you just want to render `self` twice in a SimpleGrid:
 
 ```jsx live
 function Example() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
   const [count, setCount] = useState(2);
 
   if (!meeting) return null;
@@ -158,13 +158,13 @@ function Example() {
           gap: '12px',
         }}
       >
-        <DyteButton onClick={add}>Add</DyteButton>
-        <DyteButton variant="danger" onClick={remove}>
+        <ProductDBButton onClick={add}>Add</ProductDBButton>
+        <ProductDBButton variant="danger" onClick={remove}>
           Remove
-        </DyteButton>
+        </ProductDBButton>
       </div>
       <div style={{ width: '100%', height: '400px' }}>
-        <DyteSimpleGrid
+        <ProductDBSimpleGrid
           aspectRatio="16:9"
           gap="8"
           participants={participants}

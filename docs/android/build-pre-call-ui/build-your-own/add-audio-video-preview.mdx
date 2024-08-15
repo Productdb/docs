@@ -16,8 +16,8 @@ In the preset editor, toggle these settings under `Media`.
 
 ### Media Preview and Controls
 
-We'll be using `DyteParticipantTileView`, `DyteInputField` for building a preview tile and
-`DyteMicToggleButton`, `DyteCameraToggleButton` for media controls
+We'll be using `ProductDBParticipantTileView`, `ProductDBInputField` for building a preview tile and
+`ProductDBMicToggleButton`, `ProductDBCameraToggleButton` for media controls
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -25,26 +25,26 @@ We'll be using `DyteParticipantTileView`, `DyteInputField` for building a previe
   ....
   >
 
-  <dyte.io.uikit.view.participanttile.DyteParticipantTileView
-    android:id="@+id/dyteparticipanttileview_setup_screen"
+  <productdb.io.uikit.view.participanttile.ProductDBParticipantTileView
+    android:id="@+id/ProductDBparticipanttileview_setup_screen"
     android:layout_width="0dp"
     android:layout_height="0dp"
   />
 
-  <dyte.io.uikit.view.controlbarbuttons.DyteMicToggleButton
-    android:id="@+id/dytemictoggle_setup_screen"
+  <productdb.io.uikit.view.controlbarbuttons.ProductDBMicToggleButton
+    android:id="@+id/ProductDBmictoggle_setup_screen"
     android:layout_width="48dp"
     android:layout_height="48dp"
   />
 
-  <dyte.io.uikit.view.controlbarbuttons.DyteCameraToggleButton
-    android:id="@+id/dytecameratoggle_setup_screen"
+  <productdb.io.uikit.view.controlbarbuttons.ProductDBCameraToggleButton
+    android:id="@+id/ProductDBcameratoggle_setup_screen"
     android:layout_width="48dp"
     android:layout_height="48dp"
   />
 
-  <dyte.io.uikit.view.DyteLabel
-    android:id="@+id/dyteLabelView"
+  <productdb.io.uikit.view.ProductDBLabel
+    android:id="@+id/ProductDBLabelView"
     android:layout_width="300dp"
     android:layout_height="25dp"
     android:text="Join in as %s"
@@ -52,15 +52,15 @@ We'll be using `DyteParticipantTileView`, `DyteInputField` for building a previe
     android:textSize="16sp"
   />
 
-  <dyte.io.uikit.view.DyteInputField
+  <productdb.io.uikit.view.ProductDBInputField
     android:id="@+id/textInputEditText"
     android:layout_width="300dp"
     android:layout_height="48dp"
     android:hint="Your name"
   />
 
-  <dyte.io.uikit.view.DyteJoinButton
-    android:id="@+id/dytejoinbutton_setup_screen"
+  <productdb.io.uikit.view.ProductDBJoinButton
+    android:id="@+id/ProductDBjoinbutton_setup_screen"
     android:layout_width="300dp"
     android:layout_height="wrap_content"
   />
@@ -69,14 +69,14 @@ We'll be using `DyteParticipantTileView`, `DyteInputField` for building a previe
 And on the kolin side we bind the newly added element like follows:
 
 ```kotlin
-private lateinit var selfParticipantTileView: DyteParticipantTileView
-private lateinit var cameraToggleButton: DyteCameraToggleButton
-private lateinit var micToggleButton: DyteMicToggleButton
+private lateinit var selfParticipantTileView: ProductDBParticipantTileView
+private lateinit var cameraToggleButton: ProductDBCameraToggleButton
+private lateinit var micToggleButton: ProductDBMicToggleButton
 
 override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-  selfParticipantTileView = view.findViewById(R.id.dyteparticipanttileview_setup_screen)
-  cameraToggleButton = view.findViewById(R.id.dytecameratoggle_setup_screen)
-  micToggleButton = view.findViewById(R.id.dytemictoggle_setup_screen)
+  selfParticipantTileView = view.findViewById(R.id.ProductDBparticipanttileview_setup_screen)
+  cameraToggleButton = view.findViewById(R.id.ProductDBcameratoggle_setup_screen)
+  micToggleButton = view.findViewById(R.id.ProductDBmictoggle_setup_screen)
 
   selfParticipantTileView.activateForSelfPreview(meeting.localUser)
   micToggleButton.activate(meeting)

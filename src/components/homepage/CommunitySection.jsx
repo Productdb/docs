@@ -50,13 +50,13 @@ export default function CommunitySection() {
           </Link>
           <Link
             className="flex w-full items-center justify-center gap-2 rounded-sm border border-solid border-primary-100 bg-primary-100/10 px-2 py-2 text-primary-100 lg:w-auto"
-            href="https://x.com/productdb"
+            href="https://twitter.com/ProductDB_io"
           >
             <Twitter className="h-5 w-5" /> Twitter &rarr;
           </Link>
           <Link
             className="flex w-full items-center justify-center gap-2 rounded-sm border border-solid border-primary-100 bg-primary-100/10 px-2 py-2 text-primary-100 lg:w-auto"
-            href="https://www.linkedin.com/company/productdb"
+            href="https://www.linkedin.com/company/ProductDBio"
           >
             <Linkedin className="h-5 w-5" /> LinkedIn &rarr;
           </Link>

@@ -1,28 +1,28 @@
 ---
 sidebar_position: 3
 description: >-
-  Get started quickly with Dyte's Angular UI Kit by following our step-by-step
+  Get started quickly with ProductDB's Angular UI Kit by following our step-by-step
   Quickstart guide.
 ---
 
 # Quickstart
 
-This quickstart shows how to use Dyte's UI Kit prebuilt components to add live
+This quickstart shows how to use ProductDB's UI Kit prebuilt components to add live
 video and audio to your [Angular](https://angular.io/) application with minimal
 coding and a variety of meeting UI customization options.
 
 For getting started quickly, you can use our
-[sample code](https://github.com/dyte-io/angular-samples#samples). You can clone
+[sample code](https://github.com/ProductDB-io/angular-samples#samples). You can clone
 and run a sample application from the
-[Angular UI Kit GitHub repository](https://github.com/dyte-io/angular-samples).
+[Angular UI Kit GitHub repository](https://github.com/ProductDB-io/angular-samples).
 
 ## Before Getting Started
 
-- Make sure you've read the [Getting Started with Dyte](/getting-started) topic
+- Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
   and completed the following steps:
 
-  - Create a [Dyte Developer Account](https://dev.dyte.io/)
-  - Create a [Dyte Meeting](/api/?v=v2#/operations/create_meeting)
+  - Create a [ProductDB Developer Account](https://dev.productdb.io/)
+  - Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
 ## Step 1: Install the SDK
@@ -37,35 +37,35 @@ you need to pass to the UI Kit components.
 You can install the package using npm or Yarn.
 
 ```bash npm2yarn
-npm install @dytesdk/angular-ui-kit @dytesdk/web-core
+npm install @ProductDBsdk/angular-ui-kit @ProductDBsdk/web-core
 ```
 
 ### Version
 
 |                         |                                                                                                                              |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| @dytesdk/angular-ui-kit | [![npm version](https://badge.fury.io/js/@dytesdk%2Fangular-ui-kit.svg)](https://badge.fury.io/js/@dytesdk%2Fangular-ui-kit) |
-| @dytesdk/web-core       | [![npm version](https://badge.fury.io/js/@dytesdk%2Fweb-core.svg)](https://badge.fury.io/js/@dytesdk%2Fweb-core)             |
+| @ProductDBsdk/angular-ui-kit | [![npm version](https://badge.fury.io/js/@ProductDBsdk%2Fangular-ui-kit.svg)](https://badge.fury.io/js/@ProductDBsdk%2Fangular-ui-kit) |
+| @ProductDBsdk/web-core       | [![npm version](https://badge.fury.io/js/@ProductDBsdk%2Fweb-core.svg)](https://badge.fury.io/js/@ProductDBsdk%2Fweb-core)             |
 
-## Step 2: Load `DyteComponentsModule`
+## Step 2: Load `ProductDBComponentsModule`
 
-Load the `DyteComponentsModule` into your app module. This is typically the
+Load the `ProductDBComponentsModule` into your app module. This is typically the
 `app.module.ts` file.
 
-This allows you to use Dyte's UI components in your component HTML files. For
+This allows you to use ProductDB's UI components in your component HTML files. For
 more information on the components, see
 [Angular components](https://angular.io/guide/component-overview).
 
 ```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { DyteComponentsModule } from '@dytesdk/angular-ui-kit';
+import { ProductDBComponentsModule } from '@ProductDBsdk/angular-ui-kit';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, DyteComponentsModule],
+  imports: [BrowserModule, ProductDBComponentsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
@@ -85,15 +85,15 @@ If you are using TypeScript, set `allowSyntheticDefaultImports` as true in your
 }
 ```
 
-## Step 4: Add Dyte Meeting to the Template File
+## Step 4: Add ProductDB Meeting to the Template File
 
-Load the Dyte component to your template file (`component.html`).
+Load the ProductDB component to your template file (`component.html`).
 
 ```html
-<dyte-meeting #myid></dyte-meeting>
+<ProductDB-meeting #myid></ProductDB-meeting>
 ```
 
-## Step 5: Initialize the Dyte Meeting
+## Step 5: Initialize the ProductDB Meeting
 
 1. Get a reference to the meeting component using @ViewChild().
 2. Call the init() method and pass the authToken.
@@ -110,15 +110,15 @@ Load the Dyte component to your template file (`component.html`).
 ```ts
 class AppComponent {
   title = 'MyProject';
-  @ViewChild('myid') meetingComponent: DyteMeeting;
-  dyteMeeting: DyteClient;
+  @ViewChild('myid') meetingComponent: ProductDBMeeting;
+  ProductDBMeeting: ProductDBClient;
 
   async ngAfterViewInit() {
-    const meeting = await DyteClient.init({
+    const meeting = await ProductDBClient.init({
       authToken: '<auth-token>',
     });
     meeting.join();
-    this.dyteMeeting = meeting;
+    this.ProductDBMeeting = meeting;
     if (this.meetingComponent) this.meetingComponent.meeting = meeting;
   }
 }
@@ -127,5 +127,5 @@ class AppComponent {
 
 <head>
   <title>Angular UI Kit Quickstart</title>
-  <meta name="description" content="Get started quickly with Dyte's Angular UI Kit by following our step-by-step Quickstart guide."/>
+  <meta name="description" content="Get started quickly with ProductDB's Angular UI Kit by following our step-by-step Quickstart guide."/>
 </head>

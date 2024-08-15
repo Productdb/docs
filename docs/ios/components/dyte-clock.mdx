@@ -1,13 +1,13 @@
 ---
-image: /static/ui-kit/1.x.x/components/dyte-clock.svg
+image: /static/ui-kit/1.x.x/components/ProductDB-clock.svg
 description: >-
-  Learn how to use and customize the DyteClockView component in Dyte's iOS UiKit
+  Learn how to use and customize the ProductDBClockView component in ProductDB's iOS UiKit
   with our detailed documentation.
 ---
 
 
 
-# DyteClockView
+# ProductDBClockView
 ## Overview
 This view is used to show elapsed time for the meeting in the format Hours:Minute:Seconds.
 
@@ -17,24 +17,24 @@ This view is used to show elapsed time for the meeting in the format Hours:Minut
 ### Creating a clock view
 
 ```swift
- init(meeting: DyteMobileClient, appearance: DyteTextAppearance = AppTheme.shared.clockViewAppearance) 
+ init(meeting: ProductDBMobileClient, appearance: ProductDBTextAppearance = AppTheme.shared.clockViewAppearance) 
 ```
-Creates a DyteClockView for meeting passed. 
+Creates a ProductDBClockView for meeting passed. 
 
 #### Parameters:  
 *Required*  
 **meeting:** Current ongoing meeting object.  
 *Optional*  
-**appearance:** Any type which conforms to protocol "DyteTextAppearance"
+**appearance:** Any type which conforms to protocol "ProductDBTextAppearance"
 
 ```swift
-private lazy var clockView: DyteClockView = {
-    let label = DyteClockView(meeting: self.meeting)
+private lazy var clockView: ProductDBClockView = {
+    let label = ProductDBClockView(meeting: self.meeting)
     label.textAlignment = .left
     return label
 }()
 ```
 
 <head>
-  <title>iOS DyteClockView</title>
+  <title>iOS ProductDBClockView</title>
 </head>

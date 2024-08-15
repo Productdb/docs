@@ -7,7 +7,7 @@ sidebar_position: 1
 Let's look at the structure of individual components and how to use them when
 building your own UI.
 
-There are two important things to understand about dyte UI Components
+There are two important things to understand about ProductDB UI Components
 
 ## 1. They work with very tightly with our core SDK
 
@@ -23,15 +23,15 @@ passed as a participant to this prop.
 
 ```jsx
 function Example() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
 
   return (
     <View
       style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap', gap: '12px' }}
     >
-      <DyteNameTag participant={meeting.self} />
+      <ProductDBNameTag participant={meeting.self} />
       {/* You should also pass the `meeting` object to see the `(you)` text */}
-      <DyteNameTag participant={meeting.self} meeting={meeting} />
+      <ProductDBNameTag participant={meeting.self} meeting={meeting} />
     </View>
   );
 }
@@ -44,13 +44,13 @@ meeting object
 
 ```jsx
 function Example() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
 
   return (
     <View
       style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap', gap: '12px' }}
     >
-      <DyteChat meeting={meeting} />
+      <ProductDBChat meeting={meeting} />
     </View>
   );
 }
@@ -70,7 +70,7 @@ To listen and manipulate these states some components will accept a `states`
 props.
 
 ```jsx
-<DyteDialogManager
+<ProductDBDialogManager
   states={{
     activeLeaveConfirmation: true,
   }}
@@ -81,16 +81,16 @@ props.
 
 Each component can have their own set of props
 
-Here are some examples on `DyteButton` component:
+Here are some examples on `ProductDBButton` component:
 
 ### Button variants
 
 ```jsx
 <Row style={{ flex: 1, flexWrap: 'wrap', gap: '8px' }}>
-  <DyteButton>Primary button</DyteButton>
-  <DyteButton variant="secondary">Secondary button</DyteButton>
-  <DyteButton variant="danger">Danger button</DyteButton>
-  <DyteButton variant="ghost">Ghost button</DyteButton>
+  <ProductDBButton>Primary button</ProductDBButton>
+  <ProductDBButton variant="secondary">Secondary button</ProductDBButton>
+  <ProductDBButton variant="danger">Danger button</ProductDBButton>
+  <ProductDBButton variant="ghost">Ghost button</ProductDBButton>
 </Row>
 ```
 
@@ -98,6 +98,6 @@ Here are some examples on `DyteButton` component:
   <title>React Native UI Kit Components Basics</title>
   <meta
     name="description"
-    content="Learn the basics of components in React Native with Dyte's comprehensive guide. Understand the fundamental building blocks for React Native applications."
+    content="Learn the basics of components in React Native with ProductDB's comprehensive guide. Understand the fundamental building blocks for React Native applications."
   />
 </head>

@@ -3,16 +3,16 @@ sidebar_position: 1
 title: Prebuilt Polls Screen
 ---
 
-## Introduction to Polls in Dyte Meetings
+## Introduction to Polls in ProductDB Meetings
 
-In Dyte meetings, participants can engage in polls to gather opinions or make decisions collectively. 
+In ProductDB meetings, participants can engage in polls to gather opinions or make decisions collectively. 
 Polls enhance the interactive nature of meetings, allowing participants to actively express their views. 
 The ability to create, or interact with polls is determined by the [polls permissions](/guides/livestream/advanced/configuring-permissions#polls) 
 set in the participant's preset.
 
-## Dyte's Prebuilt Polls Screen
+## ProductDB's Prebuilt Polls Screen
 
-Dyte's Android UI Kit provides a prebuilt Polls screen with the following features:
+ProductDB's Android UI Kit provides a prebuilt Polls screen with the following features:
 
 - Displays all created polls if the participant has permission to view them
 - Allows participants to vote by selecting a checkbox for their chosen option
@@ -22,16 +22,16 @@ Dyte's Android UI Kit provides a prebuilt Polls screen with the following featur
 
 The prebuilt Polls screen is available in two variants:
 
-1. [**DytePollsBottomSheet**](/android/components/dyte-polls): Displays the Polls list as a full-screen bottom sheet that can be dismissed by swiping down.
+1. [**ProductDBPollsBottomSheet**](/android/components/ProductDB-polls): Displays the Polls list as a full-screen bottom sheet that can be dismissed by swiping down.
 
 ```kotlin
-import dyte.io.uikit.screens.polls.DytePollsBottomSheet
+import productdb.io.uikit.screens.polls.ProductDBPollsBottomSheet
 
-val dytePollsBottomSheet = DytePollsBottomSheet()
-dytePollsBottomSheet.show(childFragmentManager, TAG)
+val ProductDBPollsBottomSheet = ProductDBPollsBottomSheet()
+ProductDBPollsBottomSheet.show(childFragmentManager, TAG)
 ```
 
-2. **DytePollsFragment**: Shows the list of ongoing polls inside an Android fragment, providing flexibility 
+2. **ProductDBPollsFragment**: Shows the list of ongoing polls inside an Android fragment, providing flexibility 
 to show the Polls UI fullscreen or in a part of the screen along with other UI elements.
 
 ```xml
@@ -43,11 +43,11 @@ to show the Polls UI fullscreen or in a part of the screen along with other UI e
 ```
 
 ```kotlin
-import dyte.io.uikit.screens.polls.DytePollsFragment
+import productdb.io.uikit.screens.polls.ProductDBPollsFragment
 
-val dytePollsFragment = DytePollsFragment()
+val ProductDBPollsFragment = ProductDBPollsFragment()
 supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container_view, dytePollsFragment, TAG)
+                .replace(R.id.fragment_container_view, ProductDBPollsFragment, TAG)
                 .commit()
 ```
 

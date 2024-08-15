@@ -3,15 +3,15 @@ title: Customize Header
 sidebar_position: 3
 ---
 
-Source Code: https://github.com/dyte-io/react-samples/tree/main/samples/create-your-own-ui
+Source Code: https://github.com/ProductDB-io/react-samples/tree/main/samples/create-your-own-ui
 
-Dyte's default header component `DyteHeader` can be used as the following.
+ProductDB's default header component `ProductDBHeader` can be used as the following.
 
 ```tsx
-<DyteHeader meeting={meeting} />
+<ProductDBHeader meeting={meeting} />
 ```
 
-Following code shows how you can customise the DyteHeader or build it from scratch as per your use case.
+Following code shows how you can customise the ProductDBHeader or build it from scratch as per your use case.
 
 import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 
@@ -19,35 +19,35 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 hide={[{start:1, end: 5}, {start:29, end: 227}]}
 highlight={[{start:6, end: 27}]}
 file={`
-import { defaultConfig, generateConfig, DyteLogo, DyteRecordingIndicator, DyteLivestreamIndicator, DyteMeetingTitle, DyteGridPagination, DyteParticipantCount, DyteViewerCount, DyteClock } from '@dytesdk/react-ui-kit';
-import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
+import { defaultConfig, generateConfig, ProductDBLogo, ProductDBRecordingIndicator, ProductDBLivestreamIndicator, ProductDBMeetingTitle, ProductDBGridPagination, ProductDBParticipantCount, ProductDBViewerCount, ProductDBClock } from '@ProductDBsdk/react-ui-kit';
+import { useProductDBMeeting, useProductDBSelector } from '@ProductDBsdk/react-web-core';
 import { useEffect, useState } from 'react';
 
 function HeaderWithCustomUI({
     meeting, states, config,
-}: { meeting: DyteClient, config: UIConfig, states: CustomStates, setStates: SetStates }
+}: { meeting: ProductDBClient, config: UIConfig, states: CustomStates, setStates: SetStates }
 ){
     
     return <div className='flex justify-between w-full bg-black text-white'>
         <div id="header-left" className="flex items-center h-[48px]">
-            <DyteLogo meeting={meeting} />
-            <DyteRecordingIndicator meeting={meeting}/>
-            <DyteLivestreamIndicator meeting={meeting}/>
+            <ProductDBLogo meeting={meeting} />
+            <ProductDBRecordingIndicator meeting={meeting}/>
+            <ProductDBLivestreamIndicator meeting={meeting}/>
         </div>
         <div id="header-center" className="flex items-center h-[48px]">
-            <DyteMeetingTitle meeting={meeting}/>
+            <ProductDBMeetingTitle meeting={meeting}/>
         </div>
         <div id="header-right" className="flex items-center h-[48px]">
-            <DyteGridPagination meeting={meeting} states={states}/>
-            <DyteParticipantCount meeting={meeting}/>
-            <DyteViewerCount meeting={meeting} />
-            <DyteClock meeting={meeting} />
+            <ProductDBGridPagination meeting={meeting} states={states}/>
+            <ProductDBParticipantCount meeting={meeting}/>
+            <ProductDBViewerCount meeting={meeting} />
+            <ProductDBClock meeting={meeting} />
         </div>
     </div>
 }
 
 export default function Meeting() {
-  const { meeting } = useDyteMeeting();
+  const { meeting } = useProductDBMeeting();
   const [config, setConfig] = useState(defaultConfig);
   /**
   * We need setStates method to add custom functionalities,
@@ -64,9 +64,9 @@ useEffect(() => {
       const { config } = generateConfig(theme, meeting!);
 
       /**
-       * Full screen toggle, by default requests dyte-meeting/DyteMeeting element to be in full screen.
-       * Since DyteMeeting element is not here,
-       *  we need to pass dyte-fullscreen-toggle, an targetElementId through config.
+       * Full screen toggle, by default requests ProductDB-meeting/ProductDBMeeting element to be in full screen.
+       * Since ProductDBMeeting element is not here,
+       *  we need to pass ProductDB-fullscreen-toggle, an targetElementId through config.
        */
       setFullScreenToggleTargetElement({config, targetElementId: 'root'});
 
@@ -74,10 +74,10 @@ useEffect(() => {
 
     /**
      * Add listeners on meeting & self to monitor leave meeting, join meeting and so on.
-     * This work was earlier done by DyteMeeting component internally.
+     * This work was earlier done by ProductDBMeeting component internally.
      */
-      const stateListenersUtils = new DyteStateListenersUtils(() => meeting, () => states, () => setStates);
-      stateListenersUtils.addDyteEventListeners();
+      const stateListenersUtils = new ProductDBStateListenersUtils(() => meeting, () => states, () => setStates);
+      stateListenersUtils.addProductDBEventListeners();
 
       try{
         await meeting.join();
@@ -94,11 +94,11 @@ useEffect(() => {
 
 return (
   /**
-  * Using a ref hack, we are adding "dyteStateUpdate" listener,
+  * Using a ref hack, we are adding "ProductDBStateUpdate" listener,
   * so that we can listen to child component's internal state changes.
   */
   <div className="flex w-full h-full bg-black text-white" ref={(el) => {
-            el?.addEventListener('dyteStateUpdate', (e) => {
+            el?.addEventListener('ProductDBStateUpdate', (e) => {
               const { detail: newStateUpdate } = e as unknown as { detail: CustomStates };
               setStates((oldState: CustomStates) => { return {
                 ...oldState,
@@ -113,15 +113,15 @@ return (
 }
 
 /**
-* DyteStateListenersUtils is a class that listens to web-core changes and syncs them with ui-kit
+* ProductDBStateListenersUtils is a class that listens to web-core changes and syncs them with ui-kit
 */
-class DyteStateListenersUtils{
+class ProductDBStateListenersUtils{
 
     getStates: () => CustomStates;
 
     getStateSetter: () => (newState: CustomStates) => void;
 
-    getMeeting: () => DyteClient;
+    getMeeting: () => ProductDBClient;
 
     get states(){
         return this.getStates();
@@ -135,7 +135,7 @@ class DyteStateListenersUtils{
         return this.getMeeting();
     }
 
-    constructor(getMeeting: () => DyteClient, getGlobalStates: () => CustomStates, getGlobalStateSetter: () => (newState: CustomStates) => void){
+    constructor(getMeeting: () => ProductDBClient, getGlobalStates: () => CustomStates, getGlobalStateSetter: () => (newState: CustomStates) => void){
         this.getMeeting = getMeeting;
         this.getStates = getGlobalStates;
         this.getStateSetter = getGlobalStateSetter;
@@ -198,7 +198,7 @@ class DyteStateListenersUtils{
         });
     }
 
-    addDyteEventListeners(){
+    addProductDBEventListeners(){
         if (this.meeting.meta.viewType === 'LIVESTREAM') {
             this.meeting.self.addListener('socketServiceRoomJoined', this.socketServiceRoomJoinedListener);
           }
@@ -214,7 +214,7 @@ class DyteStateListenersUtils{
           }
 
     }
-    cleanupDyteEventListeners(){
+    cleanupProductDBEventListeners(){
 
     }
 
@@ -226,19 +226,19 @@ class DyteStateListenersUtils{
 */
 function setFullScreenToggleTargetElement({config, targetElementId}: { config: UIConfig, targetElementId: string }){
     if (config.root && Array.isArray(config.root['div#controlbar-left'])) {
-        const fullScreenToggleIndex = config.root['div#controlbar-left'].indexOf('dyte-fullscreen-toggle');
+        const fullScreenToggleIndex = config.root['div#controlbar-left'].indexOf('ProductDB-fullscreen-toggle');
         if(fullScreenToggleIndex > -1){
-            config.root['div#controlbar-left'][fullScreenToggleIndex] = ['dyte-fullscreen-toggle', {
+            config.root['div#controlbar-left'][fullScreenToggleIndex] = ['ProductDB-fullscreen-toggle', {
                 variant: 'vertical',
                 targetElement: document.querySelector("#"+targetElementId),
             }];
         }
     }
-    ['dyte-more-toggle.activeMoreMenu', 'dyte-more-toggle.activeMoreMenu.md', 'dyte-more-toggle.activeMoreMenu.sm'].forEach((configElemKey) => {
+    ['ProductDB-more-toggle.activeMoreMenu', 'ProductDB-more-toggle.activeMoreMenu.md', 'ProductDB-more-toggle.activeMoreMenu.sm'].forEach((configElemKey) => {
         const configElem = config?.root?.[configElemKey] as any;
-        configElem?.forEach((dyteElemConfigSet: any) => {
-            if (dyteElemConfigSet[0] === 'dyte-fullscreen-toggle') {
-                dyteElemConfigSet[1].targetElement = document.querySelector("#"+targetElementId);
+        configElem?.forEach((ProductDBElemConfigSet: any) => {
+            if (ProductDBElemConfigSet[0] === 'ProductDB-fullscreen-toggle') {
+                ProductDBElemConfigSet[1].targetElement = document.querySelector("#"+targetElementId);
             }
         });
     });
@@ -246,9 +246,9 @@ function setFullScreenToggleTargetElement({config, targetElementId}: { config: U
 
 ` } />
 
-Please note that the `DyteRecordingIndicator` will be shown only when recording is in-progress. Similarly `DyteLivestreamIndicator` only shows "Live" indicator if the preset is a livestream preset.
+Please note that the `ProductDBRecordingIndicator` will be shown only when recording is in-progress. Similarly `ProductDBLivestreamIndicator` only shows "Live" indicator if the preset is a livestream preset.
 
-if user's preset has a logo, that logo will be shown using `DyteLogo` component.
+if user's preset has a logo, that logo will be shown using `ProductDBLogo` component.
 
 Now that we know how we can build a custom header, let's move on to discuss how we can build a custom footer otherwise knows as control bar.
 

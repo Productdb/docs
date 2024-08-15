@@ -1,18 +1,18 @@
 ---
 description: >-
-  Learn how to use and customize the DyteDialogManager component in Dyte's React
+  Learn how to use and customize the ProductDBDialogManager component in ProductDB's React
   Native UI Kit with our detailed documentation.
 ---
 
-# DyteDialogManager
+# ProductDBDialogManager
 
 A component which handles all dialog elements in a component such as:
 
-- dyte-settings
-- dyte-leave-meeting
-- dyte-permissions-message
-- dyte-image-viewer
-- dyte-remote-access-manager
+- ProductDB-settings
+- ProductDB-leave-meeting
+- ProductDB-permissions-message
+- ProductDB-image-viewer
+- ProductDB-remote-access-manager
 
 This components depends on the values from `states` object.
 
@@ -24,22 +24,22 @@ function Example() {
 
   return (
     <Row>
-      <DyteButton onClick={() => setState({ activeSettings: true })}>
+      <ProductDBButton onClick={() => setState({ activeSettings: true })}>
         Show Settings
-      </DyteButton>
-      <DyteButton onClick={() => setState({ activeLeaveConfirmation: true })}>
+      </ProductDBButton>
+      <ProductDBButton onClick={() => setState({ activeLeaveConfirmation: true })}>
         Show Leave Confirmation
-      </DyteButton>
-      <DyteButton onClick={() => setState({ activePermissionsMessage: true })}>
+      </ProductDBButton>
+      <ProductDBButton onClick={() => setState({ activePermissionsMessage: true })}>
         Show Permissions Troubleshooting UI
-      </DyteButton>
-      <DyteButton onClick={() => setState({ activeRemoteAccessManager: true })}>
+      </ProductDBButton>
+      <ProductDBButton onClick={() => setState({ activeRemoteAccessManager: true })}>
         Show Remote Access Manager
-      </DyteButton>
-      <DyteDialogManager
+      </ProductDBButton>
+      <ProductDBDialogManager
         meeting={meeting}
         states={states}
-        onDyteStateUpdate={(e) => setState(e.detail)}
+        onProductDBStateUpdate={(e) => setState(e.detail)}
       />
     </Row>
   );
@@ -48,8 +48,8 @@ function Example() {
 
 ## Props
 
-<PropsTable of="dyte-dialog-manager" />
+<PropsTable of="ProductDB-dialog-manager" />
 
 <head>
-  <title>React Native UI Kit DyteDialogManager</title>
+  <title>React Native UI Kit ProductDBDialogManager</title>
 </head>

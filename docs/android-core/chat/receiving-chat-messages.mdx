@@ -2,7 +2,7 @@
 title: Receiving chat messages
 description: >-
   "Discover how to implement the functionality to receive chat messages in your
-  Android app using Dyte
+  Android app using ProductDB
 sidebar_position: 3
 tags:
   - android-core
@@ -12,26 +12,26 @@ tags:
 # Receiving chat messages
 
 To be able to receive chat messages you need to implement a method
-`onChatUpdates()` method from callback `DyteChatEventsListener`. You can
+`onChatUpdates()` method from callback `ProductDBChatEventsListener`. You can
 subscribe to this events by calling
-`meeting.addChatEventsListener(dyteChatEventsListener)`
+`meeting.addChatEventsListener(ProductDBChatEventsListener)`
 
 ```kotlin
 meeting.addChatEventsListener(object :
-  DyteChatEventsListener {
-    override fun onChatUpdates(messages: List<DyteChatMessage>) {
+  ProductDBChatEventsListener {
+    override fun onChatUpdates(messages: List<ProductDBChatMessage>) {
      // to load chat messages
     }
 
-    override fun onNewChatMessage(message: DyteChatMessage) {
+    override fun onNewChatMessage(message: ProductDBChatMessage) {
       // when a new chat message is shared in the meeting
     }
   })
 ```
 
-The `onChatUpdates()` method will be called whenever there is a change in the chat messages. The `messages` parameter is a list of `DyteChatMessage` objects that have been sent in the chat.
+The `onChatUpdates()` method will be called whenever there is a change in the chat messages. The `messages` parameter is a list of `ProductDBChatMessage` objects that have been sent in the chat.
 
-The `onNewChatMessage()` method will be called whenever a new chat message is shared in the meeting. The `message` parameter is a `DyteChatMessage` object that has been sent in the chat.
+The `onNewChatMessage()` method will be called whenever a new chat message is shared in the meeting. The `message` parameter is a `ProductDBChatMessage` object that has been sent in the chat.
 
 <head>
   <title>Android Core Receiving chat</title>

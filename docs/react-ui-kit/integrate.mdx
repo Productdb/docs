@@ -7,11 +7,11 @@ slug: /basics/integrate
 
 :::danger
 
-If you are not using `DyteMeeting` component directly, rendering the following components are critical for the meeting to function.
+If you are not using `ProductDBMeeting` component directly, rendering the following components are critical for the meeting to function.
 
 :::
 
-### DyteParticipantsAudio
+### ProductDBParticipantsAudio
 
 This component is required for audio playback. **You will not be able to hear
 audio without this component**.
@@ -20,17 +20,17 @@ This component also displays a dialog if the browser throws an auto play error,
 requiring user interaction to allow audio to be played.
 
 ```jsx
-<DyteParticipantsAudio meeting={meeting} />
+<ProductDBParticipantsAudio meeting={meeting} />
 ```
 
-### DyteNotifications
+### ProductDBNotifications
 
 This component is required for receiving notifications. If you don't have this
 component, you won't be notified of events like network disconnection or poor
 network.
 
 ```jsx
-<DyteNotifications
+<ProductDBNotifications
   meeting={meeting}
   config={{
     config: {
@@ -47,14 +47,14 @@ network.
 />
 ```
 
-### DyteDialogManager
+### ProductDBDialogManager
 
 A component which handles all dialog elements in a component. This component is required for the following components to work:
 
-- DyteLeaveButton
-- DyteSettingsToggle
-- DyteBreakoutRoomsToggle
-- DyteMuteAllButton
+- ProductDBLeaveButton
+- ProductDBSettingsToggle
+- ProductDBBreakoutRoomsToggle
+- ProductDBMuteAllButton
 
 This components depends on the values from `states` object.
 
@@ -66,13 +66,13 @@ function Example() {
 
   return (
     <Row>
-      <DyteButton onClick={() => setState({ activeLeaveConfirmation: true })}>
+      <ProductDBButton onClick={() => setState({ activeLeaveConfirmation: true })}>
         Show Leave Confirmation
-      </DyteButton>
-      <DyteDialogManager
+      </ProductDBButton>
+      <ProductDBDialogManager
         meeting={meeting}
         states={states}
-        onDyteStateUpdate={(e) => setState(e.detail)}
+        onProductDBStateUpdate={(e) => setState(e.detail)}
       />
     </Row>
   );

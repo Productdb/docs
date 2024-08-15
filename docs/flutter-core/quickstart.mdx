@@ -1,7 +1,7 @@
 ---
 title: Quickstart
 description: >-
-  Dive into the core of Flutter development with Dyte. Explore essential
+  Dive into the core of Flutter development with ProductDB. Explore essential
   documentation to streamline your Flutter app integration.
 sidebar_position: 1
 tags:
@@ -12,33 +12,33 @@ slug: /
 
 # Flutter Core SDK Quickstart
 
-This quickstart shows how to use Dyte's Flutter Core SDK to add live video and
+This quickstart shows how to use ProductDB's Flutter Core SDK to add live video and
 audio call to your Flutter applications.
 
 For getting started quickly, you can use our sample code. You can clone and run
 a sample application from the
-[Flutter Core SDK GitHub repository](https://github.com/dyte-io/flutter-samples/tree/main/flutter_core).
+[Flutter Core SDK GitHub repository](https://github.com/ProductDB-io/flutter-samples/tree/main/flutter_core).
 
 ## Objective
 
 You'll learn how to:
 
-- Install the Dyte SDK
+- Install the ProductDB SDK
 - Initialize the SDK
-- Configure a Dyte meeting
-- Initialize the Dyte meeting
-- And go live with your Dyte meeting
+- Configure a ProductDB meeting
+- Initialize the ProductDB meeting
+- And go live with your ProductDB meeting
 
 ## Before Getting Started
 
 - Make sure you've read the
-  [Getting Started with Dyte](/getting-started) topic and
+  [Getting Started with ProductDB](/getting-started) topic and
   completed the steps in the
-  [Integrate Dyte](/getting-started#integrate-dyte) section.
+  [Integrate ProductDB](/getting-started#integrate-ProductDB) section.
   You must complete the following steps:
-  - Create a [Dyte Developer Account](https://dev.dyte.io/)
+  - Create a [ProductDB Developer Account](https://dev.productdb.io/)
   - Create a
-    [Dyte Meeting](/api/?v=v2#/operations/create_meeting)
+    [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant)
     to the meeting
 - Install Flutter on your system
@@ -54,17 +54,17 @@ You'll learn how to:
 
 ## Step 1: Install the SDK
 
-1. To install the SDK, add the Dyte Core Flutter SDK dependency into the
+1. To install the SDK, add the ProductDB Core Flutter SDK dependency into the
    `pubspec.yaml` file.
 
    ```dart
-   flutter pub add dyte_core
+   flutter pub add ProductDB_core
    ```
 
 2. Then import the following package into your project:
 
    ```dart
-   import 'package:dyte_core/dyte_core.dart';
+   import 'package:ProductDB_core/ProductDB_core.dart';
    ```
 
 After importing the package, perform the following steps for Android and iOS.
@@ -117,29 +117,29 @@ not debug builds, refer to the [Release Builds](#release-builds) section.
 
 ## Step 2: Initialize the SDK
 
-The `DyteMobileClient` is the main class of the SDK. It is the entry point and
-the only class required to initialize Dyte SDK.
+The `ProductDBMobileClient` is the main class of the SDK. It is the entry point and
+the only class required to initialize ProductDB SDK.
 
 ```dart
-final dyteClient = DyteMobileClient();
+final ProductDBClient = ProductDBMobileClient();
 ```
 
 ## Step 3: Set the meeting properties
 
-Set the properties in the `DyteMeetingInfo` class. You just need to provide the
+Set the properties in the `ProductDBMeetingInfo` class. You just need to provide the
 participant's `authToken`.
 
 | Name          | Description                                                                                                                                                                                                                                                                                                               |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `authToken`   | After you've created the meeting, <br/> add each participant to the meeting <br/> using the [Add Participant API](/api?v=v2#/operations/add_participant)<br/> (The presetName created earlier <br/> must be passed in the body <br/> of the Add Participant API request) <br/> The API response contains the `authToken`. |
-| `baseUrl`     | The base URL of the Dyte server. Default value is `https://api.dyte.io/v2`. This is an optional argument.                                                                                                                                                                                                                 |
+| `baseUrl`     | The base URL of the ProductDB server. Default value is `https://api.productdb.io/v2`. This is an optional argument.                                                                                                                                                                                                                 |
 | `enableAudio` | A boolean value to enable or disable audio in the meeting. Default value is `true`. This is an optional argument.                                                                                                                                                                                                         |
 | `enableVideo` | A boolean value to enable or disable video in the meeting. Default value is `true`. This is an optional argument.                                                                                                                                                                                                         |
 
 ```dart
-final meetingInfo = DyteMeetingInfoV2(
+final meetingInfo = ProductDBMeetingInfoV2(
                     authToken: '<authToken>',
-                    baseUrl: 'https://api.dyte.io/v2',                    // optional argument, if you want to pass your own baseUrl
+                    baseUrl: 'https://api.productdb.io/v2',                    // optional argument, if you want to pass your own baseUrl
                     enableAudio: false,             // optional argument, to enable or disable audio in the meeting
                     enableVideo: false,             // optional argument, to enable or disable video in the meeting
                   );
@@ -148,11 +148,11 @@ final meetingInfo = DyteMeetingInfoV2(
 ## Step 4: Initialize the connection request
 
 To initialize the connection request, call the `init()` method obtained on
-`dyteClient` with the `meetingInfo` argument. This will establish the connection
-with the Dyte meeting server.
+`ProductDBClient` with the `meetingInfo` argument. This will establish the connection
+with the ProductDB meeting server.
 
 ```dart
-dyteClient.init(meetingInfo);
+ProductDBClient.init(meetingInfo);
 ```
 
 By registering state observers, you receive callbacks for this action on the
@@ -160,7 +160,7 @@ meeting object.
 
 ```dart
 
-class RoomStateNotifier implements DyteMeetingRoomEventsListener {
+class RoomStateNotifier implements ProductDBMeetingRoomEventsListener {
 
   ...
 
@@ -184,31 +184,31 @@ class RoomStateNotifier implements DyteMeetingRoomEventsListener {
 
 ```
 
-Subscibe to the `DyteMeetingRoomEventsListener` to receive the callbacks for the meeting object.
+Subscibe to the `ProductDBMeetingRoomEventsListener` to receive the callbacks for the meeting object.
 
 ```dart
-dyteClient.addMeetingRoomEventsListener(RoomStateNotifier());
+ProductDBClient.addMeetingRoomEventsListener(RoomStateNotifier());
 ```
 
 ## Step 5: Connect to the meeting
 
-Now, if you have established the connection with the Dyte meeting server
+Now, if you have established the connection with the ProductDB meeting server
 successfully i.e. if you received `onMeetingInitCompleted` callback, next step is to join the room.
 
 ### Join the room
 
-To join the meeting room, call `joinRoom()` method on the `dyteClient` instance
+To join the meeting room, call `joinRoom()` method on the `ProductDBClient` instance
 as shown below.
 
 ```dart
-dyteClient.joinRoom();
+ProductDBClient.joinRoom();
 ```
 
 By registering state observers, you receive callbacks for join related actions on the
 meeting object.
 
 ```dart
-class RoomStateNotifier implements DyteMeetingRoomEventsListener {
+class RoomStateNotifier implements ProductDBMeetingRoomEventsListener {
 
   ...
 
@@ -237,24 +237,24 @@ Successful joining of meeting is indicated by `onMeetingRoomJoined` callback.
 
 Once the meeting is over, you can leave the meeting room.
 
-Once leave meeting is completed or you decide to `release()` the meeting [called when user exits the SDK without joining the meeting room, say user exited from setup/waiting room], make sure to cleanup all listeners by calling `dyteClient.cleanAllNativeListeners()`.
+Once leave meeting is completed or you decide to `release()` the meeting [called when user exits the SDK without joining the meeting room, say user exited from setup/waiting room], make sure to cleanup all listeners by calling `ProductDBClient.cleanAllNativeListeners()`.
 
-To leave the meeting room, call `leaveRoom()` method on the `dyteClient` as
+To leave the meeting room, call `leaveRoom()` method on the `ProductDBClient` as
 shown below.
 
 ```dart
-dyteClient.leaveRoom();
+ProductDBClient.leaveRoom();
 ```
 
 ### Cleanup listeners
 
-Introduced in `dyte_core: 0.3.6`, `cleanAllNativeListeners()` method which needs to be called when you're done with current session of dyte meeting. It interally calls individual new clean methods for each listener `cleanNativeMeetingRoomEventsListener()`, `cleanNativeParticipantEventListener()`, `cleanNativePollListener()`, `cleanNativeRecordingListener()`, `cleanNativeStageEventsListener()`, `cleanNativeSelfParticipantEventListener()`, `cleanNativeChatListener()`, `cleanNativeDataUpdateListener()`, `cleanNativeLivestreamListener()`, `cleanNativePluginEventsListener()`.
+Introduced in `ProductDB_core: 0.3.6`, `cleanAllNativeListeners()` method which needs to be called when you're done with current session of ProductDB meeting. It interally calls individual new clean methods for each listener `cleanNativeMeetingRoomEventsListener()`, `cleanNativeParticipantEventListener()`, `cleanNativePollListener()`, `cleanNativeRecordingListener()`, `cleanNativeStageEventsListener()`, `cleanNativeSelfParticipantEventListener()`, `cleanNativeChatListener()`, `cleanNativeDataUpdateListener()`, `cleanNativeLivestreamListener()`, `cleanNativePluginEventsListener()`.
 
 By registering state observers, you receive callbacks for this action on the
 meeting object.
 
 ```dart
-class RoomStateNotifier implements DyteMeetingRoomEventsListener {
+class RoomStateNotifier implements ProductDBMeetingRoomEventsListener {
 
   ...
 
@@ -265,8 +265,8 @@ class RoomStateNotifier implements DyteMeetingRoomEventsListener {
 
   @override
   void onMeetingRoomLeaveCompleted() {
-    dyteClient.removeMeetingRoomEventsListener(this);
-    dyteClient.cleanupAppListeners();
+    ProductDBClient.removeMeetingRoomEventsListener(this);
+    ProductDBClient.cleanupAppListeners();
     /// on meeting room left
   }
 
@@ -301,6 +301,6 @@ end
   <title>Flutter Core Quickstart</title>
   <meta
     name="description"
-    content="Dive into the core of Flutter development with Dyte. Explore essential documentation to streamline your Flutter app integration."
+    content="Dive into the core of Flutter development with ProductDB. Explore essential documentation to streamline your Flutter app integration."
   />
 </head>

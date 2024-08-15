@@ -4,7 +4,7 @@ title: 'Interface: Notification'
 custom_edit_url: null
 ---
 
-Notification object type, which is used in `<dyte-notification />`.
+Notification object type, which is used in `<ProductDB-notification />`.
 
 ## Properties
 
