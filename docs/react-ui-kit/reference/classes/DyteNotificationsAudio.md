@@ -1,5 +1,5 @@
 ---
-id: ProductDBNotificationsAudio
+id: DyteNotificationsAudio
 title: 'Class: ProductDBNotificationsAudio'
 custom_edit_url: null
 ---
