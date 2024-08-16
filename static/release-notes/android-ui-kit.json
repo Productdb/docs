@@ -103,7 +103,7 @@
 			"Added close button for settings bottomsheet page"
 		],
 		"fixes": [
-			"Bugfix related in showing of pinned user in ProductDBGridViewV2"
+			"Bugfix related in showing of pinned user in DyteGridViewV2"
 		]
 	},
 	{
@@ -159,7 +159,7 @@
 		"features": [
 			"Added in-app notifications for showing stage requests",
 			"Added notifications config in UIKitInfo for controlling visibility of notifications.",
-			"Added callbacks for visibility changes for ProductDBMeetingActivity"
+			"Added callbacks for visibility changes for DyteMeetingActivity"
 		],
 		"fixes": [
 			"Notifiocation dot visibility fixes in meeting options bottomsheet"

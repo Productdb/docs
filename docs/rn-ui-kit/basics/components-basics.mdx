@@ -7,7 +7,7 @@ sidebar_position: 1
 Let's look at the structure of individual components and how to use them when
 building your own UI.
 
-There are two important things to understand about productdb UI Components
+There are two important things to understand about dyte UI Components
 
 ## 1. They work with very tightly with our core SDK
 
@@ -29,9 +29,9 @@ function Example() {
     <View
       style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap', gap: '12px' }}
     >
-      <ProductDBNameTag participant={meeting.self} />
+      <DyteNameTag participant={meeting.self} />
       {/* You should also pass the `meeting` object to see the `(you)` text */}
-      <ProductDBNameTag participant={meeting.self} meeting={meeting} />
+      <DyteNameTag participant={meeting.self} meeting={meeting} />
     </View>
   );
 }
@@ -50,7 +50,7 @@ function Example() {
     <View
       style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap', gap: '12px' }}
     >
-      <ProductDBChat meeting={meeting} />
+      <DyteChat meeting={meeting} />
     </View>
   );
 }
@@ -70,7 +70,7 @@ To listen and manipulate these states some components will accept a `states`
 props.
 
 ```jsx
-<ProductDBDialogManager
+<DyteDialogManager
   states={{
     activeLeaveConfirmation: true,
   }}
@@ -81,16 +81,16 @@ props.
 
 Each component can have their own set of props
 
-Here are some examples on `ProductDBButton` component:
+Here are some examples on `DyteButton` component:
 
 ### Button variants
 
 ```jsx
 <Row style={{ flex: 1, flexWrap: 'wrap', gap: '8px' }}>
-  <ProductDBButton>Primary button</ProductDBButton>
-  <ProductDBButton variant="secondary">Secondary button</ProductDBButton>
-  <ProductDBButton variant="danger">Danger button</ProductDBButton>
-  <ProductDBButton variant="ghost">Ghost button</ProductDBButton>
+  <DyteButton>Primary button</DyteButton>
+  <DyteButton variant="secondary">Secondary button</DyteButton>
+  <DyteButton variant="danger">Danger button</DyteButton>
+  <DyteButton variant="ghost">Ghost button</DyteButton>
 </Row>
 ```
 

@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-text-field",
+  "title": "dyte-text-field",
+  "description": "Learn how to use and customize the dyte-text-field component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-text-field.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-text-field",
+  "permalink": "/angular-ui-kit/components/dyte-text-field",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/dyte-text-field.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the dyte-text-field component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-switch",
+    "permalink": "/angular-ui-kit/components/dyte-switch"
+  },
+  "next": {
+    "title": "dyte-text-message",
+    "permalink": "/angular-ui-kit/components/dyte-text-message"
+  }
+}

@@ -10,7 +10,7 @@ tags:
 # Functions to enable plugins
 
 Each plugin in `meeting.plugins` object is of type
-[`ProductDBPlugin`](./introduction) and exposes the following functions to enable
+[`DytePlugin`](./introduction) and exposes the following functions to enable
 plugins.
 
 ### Get Plugin View
@@ -35,7 +35,7 @@ from `meeting.plugins.active`.
 The snippet below retrieves the first plugin from the list and activates it.
 
 ```swift
-var plugin: ProductDBPlugin = meeting.plugins.all[0]
+var plugin: DytePlugin = meeting.plugins.all[0]
 
 plugin.activate()
 ```

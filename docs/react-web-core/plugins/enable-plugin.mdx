@@ -10,7 +10,7 @@ tags:
 # Functions to enable plugins
 
 Each plugin in `meeting.plugins` object is of type
-[`ProductDBPlugin`](./introduction) and exposes the following functions to enable
+[`DytePlugin`](./introduction) and exposes the following functions to enable
 plugins.
 
 ### Add Plugin View
@@ -21,7 +21,7 @@ the core application (meeting object) in the main window.
 ```ts
 const plugins = meeting.plugins.all.toArray();
 
-plugins.forEach(async (plugin: ProductDBPlugin) => {
+plugins.forEach(async (plugin: DytePlugin) => {
   const iframe = document.createElement('iframe');
   await plugin.addPluginView(iframe);
 });
@@ -38,7 +38,7 @@ The snippet below displays all plugins and activates a plugin on click.
 ```ts
 const plugins = meeting.plugins.all.toArray();
 
-plugins.forEach((plugin: ProductDBPlugin) => {
+plugins.forEach((plugin: DytePlugin) => {
   const button = document.createElement('button');
   button.innerText = plugin.name;
   button.onclick = async () => {

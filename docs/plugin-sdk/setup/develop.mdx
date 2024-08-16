@@ -9,10 +9,10 @@ description: >-
 ProductDB's `devTools` module provides a live playground like experience to help you
 build your plugin locally.
 
-For this you would need to have a productdb meeting setup first. ProductDB meetings can be
+For this you would need to have a dyte meeting setup first. ProductDB meetings can be
 created using the [client SDKs](/ui-kit).
 
-The code snippet below shows how you can enable `devTools` for your productdb
+The code snippet below shows how you can enable `devTools` for your dyte
 
 :::warning important
 
@@ -23,7 +23,7 @@ Please ensure your plugin is published in order to use this.
 meeting.
 
 <Tabs
-  groupId="productdb-packages"
+  groupId="dyte-packages"
   defaultValue="react"
   values={[
     { label: "HTML", value: "html" },
@@ -41,11 +41,11 @@ Install `@dytesdk/web-core@1.x.x` or higher to use dev tools.
 
 ```ts
 <body>
- <productdb-meeting id="my-meeting"></productdb-meeting>
+ <dyte-meeting id="my-meeting"></dyte-meeting>
 
   <script>
     const init = async () => {
-      const meeting = await ProductDBClient.init({
+      const meeting = await DyteClient.init({
         authToken: '',
         roomName: '',
         defaults: {
@@ -83,7 +83,7 @@ Install `@dytesdk/react-web-core@1.x.x` or higher to use dev tools.
 
 ```ts
 import { useDyteClient } from '@dytesdk/react-web-core';
-import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
+import { DyteMeeting } from '@dytesdk/react-ui-kit';
 
 export default function App() {
   const [meeting, initMeeting] = useDyteClient();
@@ -104,7 +104,7 @@ export default function App() {
     });
   }, []);
 
-  return <ProductDBMeeting mode="fill" meeting={meeting} />;
+  return <DyteMeeting mode="fill" meeting={meeting} />;
 }
 ```
 
@@ -121,10 +121,10 @@ Install `@dytesdk/web-core@0.10.x` or higher to use dev tools.
 
 :::
 
-Put the productdb component in component.html file
+Put the dyte component in component.html file
 
 ```ts
-<productdb-meeting #myid></productdb-meeting>
+<dyte-meeting #myid></dyte-meeting>
 ```
 
 Then in the component.ts or component.js file initialize the meeting
@@ -132,11 +132,11 @@ Then in the component.ts or component.js file initialize the meeting
 ```ts
 class AppComponent {
   title = 'MyProject';
-  @ViewChild('myid') meetingComponent: ProductDBMeeting;
-  dyteMeeting: ProductDBClient;
+  @ViewChild('myid') meetingComponent: DyteMeeting;
+  dyteMeeting: DyteClient;
 
   async ngAfterViewInit() {
-    const meeting = await ProductDBClient.init({
+    const meeting = await DyteClient.init({
       roomName: '<room-name>',
       authToken: '<auth-token>',
       modules: {

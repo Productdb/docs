@@ -7,7 +7,7 @@ description: >-
   effective app creation and integration.
 ---
 
-When you join a ProductDB meeting, the meeting layout is automatically designed to optimize your experience. This includes focusing on shared content and highlighting active speakers, while participants are shown in small thumbnail views. When you start recording the meeting, it is recorded with the same layout using the default UI kit component called [ProductDBGrid](/react-ui-kit/components/productdb-grid).
+When you join a ProductDB meeting, the meeting layout is automatically designed to optimize your experience. This includes focusing on shared content and highlighting active speakers, while participants are shown in small thumbnail views. When you start recording the meeting, it is recorded with the same layout using the default UI kit component called [DyteGrid](/react-ui-kit/components/dyte-grid).
 
 If you wish to have a customized layout for your recording application, ProductDB's custom recording SDKs provide the flexibility to tailor the appearance of your recordings according to your preferences. You can choose from options like:
 
@@ -20,13 +20,13 @@ If you wish to have a customized layout for your recording application, ProductD
 
 Let's dive in to understand the steps involved in creating a custom appearance for your ProductDB recording app.
 
-The custom recording SDKs are used on top of the [UI kit](/react-ui-kit) or [Vanilla JS](/ui-kit). The `ProductDBRecording` class is used for managing the recording functionality within the SDK.
+The custom recording SDKs are used on top of the [UI kit](/react-ui-kit) or [Vanilla JS](/ui-kit). The `DyteRecording` class is used for managing the recording functionality within the SDK.
 
 ## Constructor
 
 `constructor(options)`
 
-Creates an instance of the `ProductDBRecording` class.
+Creates an instance of the `DyteRecording` class.
 
 ### Parameters
 
@@ -43,10 +43,10 @@ Creates an instance of the `ProductDBRecording` class.
 ### Methods
 
 ```js
-init(client: ProductDBClient)
+init(client: DyteClient)
 ```
 
-Initiates the SDK by providing a `ProductDBClient` object. Call this after creating the meeting object and before calling `meeting.joinRoom()`.
+Initiates the SDK by providing a `DyteClient` object. Call this after creating the meeting object and before calling `meeting.joinRoom()`.
 
 ```js
 startRecording();
@@ -76,16 +76,16 @@ Perform the following steps to create the recording app for your ProductDB meeti
 npm i @dytesdk/recording-sdk
 ```
 
-### Step 2: Import the `ProductDBRecording` object
+### Step 2: Import the `DyteRecording` object
 
 ```js
-import { ProductDBRecording } from '@dytesdk/recording-sdk';
+import { DyteRecording } from '@dytesdk/recording-sdk';
 ```
 
-### Step 3: Create the `ProductDBRecording` object
+### Step 3: Create the `DyteRecording` object
 
 ```js
-const recordingSdk = new ProductDBRecording(options);
+const recordingSdk = new DyteRecording(options);
 ```
 
 ### Step 4: Initialize the recording SDK

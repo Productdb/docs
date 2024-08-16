@@ -1,0 +1,26 @@
+{
+  "id": "Components/dyte-meeting-title",
+  "title": "DyteMeetingTitle",
+  "description": "A simple, customizable widget designed to display the title of a ProductDB meeting. This widget is part of the ProductDB UI Kit and integrates seamlessly with ProductDB's design system and meeting services.",
+  "source": "@site/docs/flutter/Components/dyte-meeting-title.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/dyte-meeting-title",
+  "permalink": "/flutter/Components/dyte-meeting-title",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/dyte-meeting-title.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteLeaveMeetingDialog",
+    "permalink": "/flutter/Components/dyte-leave-meeting-dialog"
+  },
+  "next": {
+    "title": "DyteNameTag",
+    "permalink": "/flutter/Components/dyte-name-tag-widget"
+  }
+}

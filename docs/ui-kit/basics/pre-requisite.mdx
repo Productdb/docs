@@ -9,7 +9,7 @@ Make sure to read this before you start integrating the UI Kit into your app.
 These are a couple of components that are important for proper functioning of a
 meeting.
 
-### ProductDBParticipantsAudio
+### DyteParticipantsAudio
 
 This component takes care of the audio playback and autoplay issues.
 
@@ -20,7 +20,7 @@ The user will not hear audio without this component.
 :::
 
 ```html
-<productdb-participants-audio id="my-audio"></productdb-participants-audio>
+<dyte-participants-audio id="my-audio"></dyte-participants-audio>
 
 <script>
   document.getElementById('my-audio').meeting = meeting;
@@ -35,7 +35,7 @@ Here is more information on
 
 Other browsers have similar policy, with some minor differences.
 
-### ProductDBNotifications
+### DyteNotifications
 
 :::danger Notifications
 
@@ -45,7 +45,7 @@ poor network without this component.
 :::
 
 ```html
-<productdb-notifications id="my-notifications"></productdb-notifications>
+<dyte-notifications id="my-notifications"></dyte-notifications>
 
 <script>
   // load meeting
@@ -64,28 +64,28 @@ poor network without this component.
 </script>
 ```
 
-### ProductDBDialogManager
+### DyteDialogManager
 
 A component which handles all dialog elements in a component. This component is required for the following components to work:
 
-- ProductDBLeaveButton
-- ProductDBSettingsToggle
-- ProductDBBreakoutRoomsToggle
-- ProductDBMuteAllButton
+- DyteLeaveButton
+- DyteSettingsToggle
+- DyteBreakoutRoomsToggle
+- DyteMuteAllButton
 
 This components depends on the values from `states` object.
 
 ```html
-<productdb-notifications id="my-notifications"></productdb-notifications>
+<dyte-notifications id="my-notifications"></dyte-notifications>
 
 <script>
-  <productdb-button onclick="showSettings()">Show Settings</productdb-button>
-  <productdb-button onclick="showLeaveConfirmation()">Show Settings</productdb-button>
+  <dyte-button onclick="showSettings()">Show Settings</dyte-button>
+  <dyte-button onclick="showLeaveConfirmation()">Show Settings</dyte-button>
 
-  <productdb-dialog-manager id="productdb-el"></productdb-dialog-manager>
+  <dyte-dialog-manager id="dyte-el"></dyte-dialog-manager>
 
   <script>
-    const dialog = document.getElementById('productdb-el');
+    const dialog = document.getElementById('dyte-el');
     dialog.meeting = meeting;
     let states = {};
 

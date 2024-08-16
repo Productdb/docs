@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-participant-count",
+  "title": "DyteParticipantCountView",
+  "description": "Learn how to use and customize the DyteParticipantCountView component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/dyte-participant-count.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participant-count",
+  "permalink": "/ios/components/dyte-participant-count",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/dyte-participant-count.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-participant-count.svg",
+    "description": "Learn how to use and customize the DyteParticipantCountView component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteNavigationBar",
+    "permalink": "/ios/components/dyte-navigationbar"
+  },
+  "next": {
+    "title": "DyteParticipantTileView",
+    "permalink": "/ios/components/dyte-participant-tile-view"
+  }
+}

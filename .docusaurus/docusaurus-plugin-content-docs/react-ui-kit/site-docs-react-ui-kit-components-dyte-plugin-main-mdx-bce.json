@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-plugin-main",
   "title": "DytePluginMain",
-  "description": "Learn how to use and customize the DytePluginMain component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DytePluginMain component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-plugin-main.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-plugin-main",
@@ -15,7 +15,7 @@
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-plugin-main.svg",
-    "description": "Learn how to use and customize the DytePluginMain component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DytePluginMain component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

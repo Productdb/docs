@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "productdb-viewer-count",
-    "permalink": "/ui-kit/components/productdb-viewer-count"
+    "title": "dyte-viewer-count",
+    "permalink": "/ui-kit/components/dyte-viewer-count"
   },
   "next": {
     "title": "Customize Meeting Locale",

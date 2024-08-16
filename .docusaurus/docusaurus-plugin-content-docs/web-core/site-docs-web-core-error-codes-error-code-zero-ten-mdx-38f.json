@@ -24,7 +24,7 @@
     "permalink": "/web-core/error-codes/error-code"
   },
   "next": {
-    "title": "ProductDBClient",
-    "permalink": "/web-core/reference/ProductDBClient"
+    "title": "DyteClient",
+    "permalink": "/web-core/reference/DyteClient"
   }
 }

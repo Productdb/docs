@@ -15,14 +15,14 @@ The meeting chat object is stored in `meeting.chat`, which has methods for sendi
 
 The `meeting.chat.messages` array contains all the messages that have been sent
 in the chat. This is an array of objects, where each object is of type
-`ProductDBChatMessage`.
+`DyteChatMessage`.
 
 We support three types of chat messages, they are as follows
 
 - Text Message
 
 ```swift
-class ProductDBTextMessage {
+class DyteTextMessage {
   let userId: String
   let displayName: String
   let read: Bool
@@ -36,7 +36,7 @@ class ProductDBTextMessage {
 - Image Message
 
 ```swift
-class ProductDBImageMessage{
+class DyteImageMessage{
   let userId: String
   let displayName: String
   let read: Bool
@@ -50,7 +50,7 @@ class ProductDBImageMessage{
 - File Message
 
 ```swift
-class ProductDBFileMessage{
+class DyteFileMessage{
   let userId: String
   let displayName: String
   let read: Bool
@@ -63,5 +63,5 @@ class ProductDBFileMessage{
 }
 ```
 
-All above objects are of type `ProductDBChatMessage` along with their own class
+All above objects are of type `DyteChatMessage` along with their own class
 variables.

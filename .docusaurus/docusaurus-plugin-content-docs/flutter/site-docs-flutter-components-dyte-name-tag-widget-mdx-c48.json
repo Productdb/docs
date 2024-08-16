@@ -1,0 +1,26 @@
+{
+  "id": "Components/dyte-name-tag-widget",
+  "title": "DyteNameTag",
+  "description": "A widget with name tag of the participant in participant tile.",
+  "source": "@site/docs/flutter/Components/dyte-name-tag-widget.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/dyte-name-tag-widget",
+  "permalink": "/flutter/Components/dyte-name-tag-widget",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/dyte-name-tag-widget.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteMeetingTitle",
+    "permalink": "/flutter/Components/dyte-meeting-title"
+  },
+  "next": {
+    "title": "DyteParticipantTile",
+    "permalink": "/flutter/Components/dyte-participant-tile"
+  }
+}

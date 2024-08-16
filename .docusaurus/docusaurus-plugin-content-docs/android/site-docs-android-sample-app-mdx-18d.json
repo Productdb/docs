@@ -20,8 +20,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ProductDBWebinarStageToggleButton",
-    "permalink": "/android/components/productdb-webinar-stage-toggle"
+    "title": "DyteWebinarStageToggleButton",
+    "permalink": "/android/components/dyte-webinar-stage-toggle"
   },
   "next": {
     "title": "Release Notes",

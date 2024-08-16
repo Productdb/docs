@@ -1,7 +1,7 @@
 {
   "id": "design-system",
   "title": "Design System",
-  "description": "Details about the Design System in Dyte's UI Kit.",
+  "description": "Details about the Design System in ProductDB's UI Kit.",
   "source": "@site/docs/react-ui-kit/design-system.mdx",
   "sourceDirName": ".",
   "slug": "/design-system",
@@ -16,7 +16,7 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
-    "description": "Details about the Design System in Dyte's UI Kit."
+    "description": "Details about the Design System in ProductDB's UI Kit."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

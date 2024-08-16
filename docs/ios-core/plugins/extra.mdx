@@ -20,25 +20,25 @@ if let plugin = meeting.plugins.active.first(where: { $0.id == pluginId }) {
 
 ## Receive data from the plugin
 
-You can receive data from a plugin by implementing the methods defined in `ProductDBPluginEventsListener` interface.
+You can receive data from a plugin by implementing the methods defined in `DytePluginEventsListener` interface.
 This method comes in handy when building your own plugin. Listen Plugin events
 using `meeting.addPluginEventsListener(meetingViewModel)`
 
 ```swift
-extension MeetingViewModel: ProductDBPluginEventsListener {
-  func onPluginActivated(plugin: ProductDBPlugin) {
+extension MeetingViewModel: DytePluginEventsListener {
+  func onPluginActivated(plugin: DytePlugin) {
     ...
   }
 
-  func onPluginDeactivated(plugin: ProductDBPlugin) {
+  func onPluginDeactivated(plugin: DytePlugin) {
     ...
   }
 
-  func onPluginMessage(plugin: ProductDBPlugin, eventName: String, data: Any?) {
+  func onPluginMessage(plugin: DytePlugin, eventName: String, data: Any?) {
     ...
   }
 
-  func onPluginFileRequest(plugin: ProductDBPlugin) {
+  func onPluginFileRequest(plugin: DytePlugin) {
     ...
   }
 }

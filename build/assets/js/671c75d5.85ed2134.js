@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkproductdb_docs=self.webpackChunkproductdb_docs||[]).push([[76703],{70713:t=>{t.exports=JSON.parse('{"label":"installation","permalink":"/rn-core/tags/installation","allTagsPath":"/rn-core/tags","count":1,"items":[{"id":"installation","title":"Installation","description":"Install rn-core.","permalink":"/rn-core/"}],"unlisted":false}')}}]);

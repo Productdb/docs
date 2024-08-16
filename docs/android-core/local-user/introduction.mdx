@@ -43,7 +43,7 @@ When local user joins the meeting, the SDK will automatically enable local user'
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin {3,4}
-val meetingInfo = ProductDBMeetingInfoV2(
+val meetingInfo = DyteMeetingInfoV2(
       authToken = AUTH_TOKEN,
       audioEnabled = false,
       videoEnabled = true
@@ -54,11 +54,11 @@ val meetingInfo = ProductDBMeetingInfoV2(
   <TabItem value="java" label="Java">
 
 ```java {3,4}
-ProductDBMeetingInfoV2 meetingInfo = ProductDBMeetingInfoV2(
+DyteMeetingInfoV2 meetingInfo = DyteMeetingInfoV2(
       AUTH_TOKEN,
       false,
       true,
-      "productdb.io"
+      "dyte.io"
     );
 ```
 
@@ -243,7 +243,7 @@ meeting.localUser.switchCamera()
 
 ```java
 // get all available video devices
-List<ProductDBVideoDevice> devices = meeting.localUser.getVideoDevices();
+List<DyteVideoDevice> devices = meeting.localUser.getVideoDevices();
 
 // switch video device
 meeting.localUser.setVideoDevice(videoDevice);
@@ -270,7 +270,7 @@ meeting.localUser.setAudioDevice(audioDevice)
 
 ```java
 // get all available video devices
-List<ProductDBAudioDevice> devices = meeting.localUser.getAudioDevices();
+List<DyteAudioDevice> devices = meeting.localUser.getAudioDevices();
 
 // switch video device
 meeting.localUser.setAudioDevice(audioDevice);

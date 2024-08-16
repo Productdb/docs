@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-icon",
   "title": "DyteIcon",
-  "description": "Learn how to use and customize the DyteIcon component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteIcon component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-icon.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-icon",
@@ -14,7 +14,7 @@
   "lastUpdatedAt": 1723767138,
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
-    "description": "Learn how to use and customize the DyteIcon component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteIcon component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

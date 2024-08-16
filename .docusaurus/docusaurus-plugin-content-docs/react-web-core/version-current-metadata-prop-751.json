@@ -343,142 +343,142 @@
         "items": [
           {
             "type": "link",
-            "label": "ProductDBClient",
-            "href": "/react-web-core/reference/ProductDBClient",
-            "docId": "reference/ProductDBClient",
+            "label": "DyteClient",
+            "href": "/react-web-core/reference/DyteClient",
+            "docId": "reference/DyteClient",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBSelf",
-            "href": "/react-web-core/reference/ProductDBSelf",
-            "docId": "reference/ProductDBSelf",
+            "label": "DyteSelf",
+            "href": "/react-web-core/reference/DyteSelf",
+            "docId": "reference/DyteSelf",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBParticipants",
-            "href": "/react-web-core/reference/ProductDBParticipants",
-            "docId": "reference/ProductDBParticipants",
+            "label": "DyteParticipants",
+            "href": "/react-web-core/reference/DyteParticipants",
+            "docId": "reference/DyteParticipants",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBParticipantMap",
-            "href": "/react-web-core/reference/ProductDBParticipantMap",
-            "docId": "reference/ProductDBParticipantMap",
+            "label": "DyteParticipantMap",
+            "href": "/react-web-core/reference/DyteParticipantMap",
+            "docId": "reference/DyteParticipantMap",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBParticipant",
-            "href": "/react-web-core/reference/ProductDBParticipant",
-            "docId": "reference/ProductDBParticipant",
+            "label": "DyteParticipant",
+            "href": "/react-web-core/reference/DyteParticipant",
+            "docId": "reference/DyteParticipant",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBPermissionsPreset",
-            "href": "/react-web-core/reference/ProductDBPermissionsPreset",
-            "docId": "reference/ProductDBPermissionsPreset",
+            "label": "DytePermissionsPreset",
+            "href": "/react-web-core/reference/DytePermissionsPreset",
+            "docId": "reference/DytePermissionsPreset",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBMeta",
-            "href": "/react-web-core/reference/ProductDBMeta",
-            "docId": "reference/ProductDBMeta",
+            "label": "DyteMeta",
+            "href": "/react-web-core/reference/DyteMeta",
+            "docId": "reference/DyteMeta",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBChat",
-            "href": "/react-web-core/reference/ProductDBChat",
-            "docId": "reference/ProductDBChat",
+            "label": "DyteChat",
+            "href": "/react-web-core/reference/DyteChat",
+            "docId": "reference/DyteChat",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBPolls",
-            "href": "/react-web-core/reference/ProductDBPolls",
-            "docId": "reference/ProductDBPolls",
+            "label": "DytePolls",
+            "href": "/react-web-core/reference/DytePolls",
+            "docId": "reference/DytePolls",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBPlugins",
-            "href": "/react-web-core/reference/ProductDBPlugins",
-            "docId": "reference/ProductDBPlugins",
+            "label": "DytePlugins",
+            "href": "/react-web-core/reference/DytePlugins",
+            "docId": "reference/DytePlugins",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBStage",
-            "href": "/react-web-core/reference/ProductDBStage",
-            "docId": "reference/ProductDBStage",
+            "label": "DyteStage",
+            "href": "/react-web-core/reference/DyteStage",
+            "docId": "reference/DyteStage",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBLivestream",
-            "href": "/react-web-core/reference/ProductDBLivestream",
-            "docId": "reference/ProductDBLivestream",
+            "label": "DyteLivestream",
+            "href": "/react-web-core/reference/DyteLivestream",
+            "docId": "reference/DyteLivestream",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBPluginMap",
-            "href": "/react-web-core/reference/ProductDBPluginMap",
-            "docId": "reference/ProductDBPluginMap",
+            "label": "DytePluginMap",
+            "href": "/react-web-core/reference/DytePluginMap",
+            "docId": "reference/DytePluginMap",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBSelfMedia",
-            "href": "/react-web-core/reference/ProductDBSelfMedia",
-            "docId": "reference/ProductDBSelfMedia",
+            "label": "DyteSelfMedia",
+            "href": "/react-web-core/reference/DyteSelfMedia",
+            "docId": "reference/DyteSelfMedia",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBPlugin",
-            "href": "/react-web-core/reference/ProductDBPlugin",
-            "docId": "reference/ProductDBPlugin",
+            "label": "DytePlugin",
+            "href": "/react-web-core/reference/DytePlugin",
+            "docId": "reference/DytePlugin",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBThemePreset",
-            "href": "/react-web-core/reference/ProductDBThemePreset",
-            "docId": "reference/ProductDBThemePreset",
+            "label": "DyteThemePreset",
+            "href": "/react-web-core/reference/DyteThemePreset",
+            "docId": "reference/DyteThemePreset",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBAi",
-            "href": "/react-web-core/reference/ProductDBAi",
-            "docId": "reference/ProductDBAi",
+            "label": "DyteAi",
+            "href": "/react-web-core/reference/DyteAi",
+            "docId": "reference/DyteAi",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBRemote",
-            "href": "/react-web-core/reference/ProductDBRemote",
-            "docId": "reference/ProductDBRemote",
+            "label": "DyteRemote",
+            "href": "/react-web-core/reference/DyteRemote",
+            "docId": "reference/DyteRemote",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBConnectedMeetings",
-            "href": "/react-web-core/reference/ProductDBConnectedMeetings",
-            "docId": "reference/ProductDBConnectedMeetings",
+            "label": "DyteConnectedMeetings",
+            "href": "/react-web-core/reference/DyteConnectedMeetings",
+            "docId": "reference/DyteConnectedMeetings",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBRecording",
-            "href": "/react-web-core/reference/ProductDBRecording",
-            "docId": "reference/ProductDBRecording",
+            "label": "DyteRecording",
+            "href": "/react-web-core/reference/DyteRecording",
+            "docId": "reference/DyteRecording",
             "unlisted": false
           }
         ]
@@ -670,7 +670,7 @@
     "pre-call/media-preview": {
       "id": "pre-call/media-preview",
       "title": "Media Preview",
-      "description": "This section focuses on pre-call functionality, providing developers with the tools needed to prepare the media environment before joining the meeting. If you are using our UI Kits, this will be handled by productdb-setup-screen or could be built with productdb-participant-tile, productdb-settings components.",
+      "description": "This section focuses on pre-call functionality, providing developers with the tools needed to prepare the media environment before joining the meeting. If you are using our UI Kits, this will be handled by dyte-setup-screen or could be built with dyte-participant-tile, dyte-settings components.",
       "sidebar": "tutorialSidebar"
     },
     "pre-call/meeting-meta": {
@@ -703,124 +703,124 @@
       "description": "Control recordings in a meeting.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBAi": {
-      "id": "reference/ProductDBAi",
-      "title": "ProductDBAi",
+    "reference/DyteAi": {
+      "id": "reference/DyteAi",
+      "title": "DyteAi",
       "description": "This module consists of the ai object which is used to interface with ProductDB's AI features.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBChat": {
-      "id": "reference/ProductDBChat",
-      "title": "ProductDBChat",
+    "reference/DyteChat": {
+      "id": "reference/DyteChat",
+      "title": "DyteChat",
       "description": "This is the chat module, which can be used to send and receive messages from the meeting.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBClient": {
-      "id": "reference/ProductDBClient",
-      "title": "ProductDBClient",
-      "description": "The ProductDBClient class is the main class of this library.",
+    "reference/DyteClient": {
+      "id": "reference/DyteClient",
+      "title": "DyteClient",
+      "description": "The DyteClient class is the main class of this library.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBConnectedMeetings": {
-      "id": "reference/ProductDBConnectedMeetings",
-      "title": "ProductDBConnectedMeetings",
+    "reference/DyteConnectedMeetings": {
+      "id": "reference/DyteConnectedMeetings",
+      "title": "DyteConnectedMeetings",
       "description": "This consists of the methods to faciliate connected meetings",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBLivestream": {
-      "id": "reference/ProductDBLivestream",
-      "title": "ProductDBLivestream",
-      "description": "The ProductDBLivestream module represents the state of the current livestream, and allows",
+    "reference/DyteLivestream": {
+      "id": "reference/DyteLivestream",
+      "title": "DyteLivestream",
+      "description": "The DyteLivestream module represents the state of the current livestream, and allows",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBMeta": {
-      "id": "reference/ProductDBMeta",
-      "title": "ProductDBMeta",
+    "reference/DyteMeta": {
+      "id": "reference/DyteMeta",
+      "title": "DyteMeta",
       "description": "This consists of the metadata of the meeting, such as the room name and the title.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBParticipant": {
-      "id": "reference/ProductDBParticipant",
-      "title": "ProductDBParticipant",
+    "reference/DyteParticipant": {
+      "id": "reference/DyteParticipant",
+      "title": "DyteParticipant",
       "description": "This module represents a single participant in the meeting.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBParticipantMap": {
-      "id": "reference/ProductDBParticipantMap",
-      "title": "ProductDBParticipantMap",
-      "description": "The following objects are ProductDBParticipantMap objects",
+    "reference/DyteParticipantMap": {
+      "id": "reference/DyteParticipantMap",
+      "title": "DyteParticipantMap",
+      "description": "The following objects are DyteParticipantMap objects",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBParticipants": {
-      "id": "reference/ProductDBParticipants",
-      "title": "ProductDBParticipants",
+    "reference/DyteParticipants": {
+      "id": "reference/DyteParticipants",
+      "title": "DyteParticipants",
       "description": "This module represents all the participants in the meeting (except the local user).",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBPermissionsPreset": {
-      "id": "reference/ProductDBPermissionsPreset",
-      "title": "ProductDBPermissionsPreset",
-      "description": "The ProductDBPermissionsPreset class represents the meeting permissions for the current participant",
+    "reference/DytePermissionsPreset": {
+      "id": "reference/DytePermissionsPreset",
+      "title": "DytePermissionsPreset",
+      "description": "The DytePermissionsPreset class represents the meeting permissions for the current participant",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBPlugin": {
-      "id": "reference/ProductDBPlugin",
-      "title": "ProductDBPlugin",
-      "description": "The ProductDBPlugin module represents a single plugin in the meeting.",
+    "reference/DytePlugin": {
+      "id": "reference/DytePlugin",
+      "title": "DytePlugin",
+      "description": "The DytePlugin module represents a single plugin in the meeting.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBPluginMap": {
-      "id": "reference/ProductDBPluginMap",
-      "title": "ProductDBPluginMap",
+    "reference/DytePluginMap": {
+      "id": "reference/DytePluginMap",
+      "title": "DytePluginMap",
       "description": "This is a map of plugins, indexed by plugin.id.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBPlugins": {
-      "id": "reference/ProductDBPlugins",
-      "title": "ProductDBPlugins",
-      "description": "The ProductDBPlugins module consists of all the plugins in the meeting. It has 2 maps:",
+    "reference/DytePlugins": {
+      "id": "reference/DytePlugins",
+      "title": "DytePlugins",
+      "description": "The DytePlugins module consists of all the plugins in the meeting. It has 2 maps:",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBPolls": {
-      "id": "reference/ProductDBPolls",
-      "title": "ProductDBPolls",
-      "description": "The ProductDBPolls module consists of the polls that have been created in the meeting.",
+    "reference/DytePolls": {
+      "id": "reference/DytePolls",
+      "title": "DytePolls",
+      "description": "The DytePolls module consists of the polls that have been created in the meeting.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBRecording": {
-      "id": "reference/ProductDBRecording",
-      "title": "ProductDBRecording",
-      "description": "The ProductDBRecording module represents the state of the current recording, and allows",
+    "reference/DyteRecording": {
+      "id": "reference/DyteRecording",
+      "title": "DyteRecording",
+      "description": "The DyteRecording module represents the state of the current recording, and allows",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBRemote": {
-      "id": "reference/ProductDBRemote",
-      "title": "ProductDBRemote",
+    "reference/DyteRemote": {
+      "id": "reference/DyteRemote",
+      "title": "DyteRemote",
       "description": "This module provides the ability to control a remotely shared screen using mouse and keyboard.",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBSelf": {
-      "id": "reference/ProductDBSelf",
-      "title": "ProductDBSelf",
-      "description": "The ProductDBSelf module represents the current user, and allows to modify the state",
+    "reference/DyteSelf": {
+      "id": "reference/DyteSelf",
+      "title": "DyteSelf",
+      "description": "The DyteSelf module represents the current user, and allows to modify the state",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBSelfMedia": {
-      "id": "reference/ProductDBSelfMedia",
-      "title": "ProductDBSelfMedia",
-      "description": "This module allows users to initialize media before initializing the root ProductDBClient.init object",
+    "reference/DyteSelfMedia": {
+      "id": "reference/DyteSelfMedia",
+      "title": "DyteSelfMedia",
+      "description": "This module allows users to initialize media before initializing the root DyteClient.init object",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBStage": {
-      "id": "reference/ProductDBStage",
-      "title": "ProductDBStage",
-      "description": "The ProductDBStage module represents a class to mange the Stage of the meeting",
+    "reference/DyteStage": {
+      "id": "reference/DyteStage",
+      "title": "DyteStage",
+      "description": "The DyteStage module represents a class to mange the Stage of the meeting",
       "sidebar": "tutorialSidebar"
     },
-    "reference/ProductDBThemePreset": {
-      "id": "reference/ProductDBThemePreset",
-      "title": "ProductDBThemePreset",
-      "description": "The ProductDBThemePreset class represents the meeting theme for the current participant",
+    "reference/DyteThemePreset": {
+      "id": "reference/DyteThemePreset",
+      "title": "DyteThemePreset",
+      "description": "The DyteThemePreset class represents the meeting theme for the current participant",
       "sidebar": "tutorialSidebar"
     },
     "release-notes": {

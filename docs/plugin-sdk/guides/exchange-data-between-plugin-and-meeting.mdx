@@ -6,7 +6,7 @@ description: >-
   Plugin SDK. Enable dynamic interactions and customization.
 ---
 
-Plugin SDK allows you to exchange data between the productdb meeting and the plugin.
+Plugin SDK allows you to exchange data between the dyte meeting and the plugin.
 This guide talks about how this can be done:
 
 ## Client SDK
@@ -48,24 +48,24 @@ plugin.on('myAwesomeEvent', (data) => {
 
 ## Plugin SDK
 
-### Send custom events to the productdb meeting
+### Send custom events to the dyte meeting
 
 The emitEvent method is used to emit custom events to the (client SDK) room.
 
 ```ts
-import ProductDBPlugin from "@dytesdk/plugin-sdk";
+import DytePlugin from "@dytesdk/plugin-sdk";
 
-const plugin = ProductDBPlugin.init();
+const plugin = DytePlugin.init();
 
 plugin.room.emitEvent('myAwesomeEvent', {...});
 ```
 
-### Listen for custom messages from the productdb meeting
+### Listen for custom messages from the dyte meeting
 
 ```ts
-import ProductDBPlugin from '@dytesdk/plugin-sdk';
+import DytePlugin from '@dytesdk/plugin-sdk';
 
-const plugin = ProductDBPlugin.init();
+const plugin = DytePlugin.init();
 
 plugin.room.on('customEventToPlugin', (data) => {
   console.log(data);

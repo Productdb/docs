@@ -1,0 +1,30 @@
+{
+  "id": "reference/DyteSelfMedia",
+  "title": "DyteSelfMedia",
+  "description": "This module allows users to initialize media before initializing the root DyteClient.init object",
+  "source": "@site/docs/web-core/reference/DyteSelfMedia.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteSelfMedia",
+  "permalink": "/web-core/reference/DyteSelfMedia",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/reference/DyteSelfMedia.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "web_core_version": "1.20.0"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DytePluginMap",
+    "permalink": "/web-core/reference/DytePluginMap"
+  },
+  "next": {
+    "title": "DytePlugin",
+    "permalink": "/web-core/reference/DytePlugin"
+  }
+}

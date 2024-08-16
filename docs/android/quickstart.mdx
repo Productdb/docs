@@ -14,14 +14,14 @@ This quickstart shows how to use ProductDB's Android UI Kit SDK to add live vide
 audio to your Android applications.
 
 To get started quickly, you can use our sample code. Simply clone and run a sample application
-from the Android UIKit samples, available in both [Kotlin](https://github.com/productdb-io/android-samples/tree/main/samples/android-ui-kit-sample-kotlin) and [Java](https://github.com/productdb-io/android-samples/tree/main/samples/android-uikit-sample-java).
+from the Android UIKit samples, available in both [Kotlin](https://github.com/dyte-io/android-samples/tree/main/samples/android-ui-kit-sample-kotlin) and [Java](https://github.com/dyte-io/android-samples/tree/main/samples/android-uikit-sample-java).
 
 ## Objective
 
 You'll learn how to:
 
 - [Install the ProductDB SDK](#step-1-install-the-sdk-from-mavencentral)
-- [Configure a ProductDB meeting](#step-2-configure-a-productdb-meeting)
+- [Configure a ProductDB meeting](#step-2-configure-a-dyte-meeting)
 - [Initialize the SDK](#step-3-initialize-the-sdk)
 - [Launch the meeting UI](#step-4-launch-the-meeting-ui)
 
@@ -30,10 +30,10 @@ You'll learn how to:
 Make sure you've read the
 [Getting Started with ProductDB](/getting-started) topic and
 completed the steps in the
-[Integrate ProductDB](/getting-started#integrate-productdb) section.
+[Integrate ProductDB](/getting-started#integrate-dyte) section.
 You must complete the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.productdb.io/)
+- Create a [ProductDB Developer Account](https://dev.dyte.io/)
 - Create a
   [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participant](/api/?v=v2#/operations/add_participant)
@@ -70,7 +70,7 @@ dependencies {
 
 ## Step 2: Configure a ProductDB meeting
 
-Configure the following properties in the `ProductDBMeetingInfoV2` class. You must pass a valid participant `authToken`
+Configure the following properties in the `DyteMeetingInfoV2` class. You must pass a valid participant `authToken`
 obtained from the [Add Participant](/api/?v=v2#/operations/add_participant) API.
 
 | Name          | Description                                                                                                                    |
@@ -80,15 +80,15 @@ obtained from the [Add Participant](/api/?v=v2#/operations/add_participant) API.
 | `enableVideo` | Set whether to join the meeting with your Camera ON (`true`) or OFF (`false`).                                                 |
 | `baseUrl`     | Base URL of the ProductDB environment you have created the meeting on.                                                              |
 
-<Tabs groupId="productdb-android-uikit">
+<Tabs groupId="dyte-android-uikit">
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin
-val meetingInfo = ProductDBMeetingInfoV2(
+val meetingInfo = DyteMeetingInfoV2(
   authToken = "<auth_token>",
   enableAudio = true,
   enableVideo = true,
-  baseUrl = "productdb.io"
+  baseUrl = "dyte.io"
 )
 ```
 
@@ -97,11 +97,11 @@ val meetingInfo = ProductDBMeetingInfoV2(
   <TabItem value="java" label="Java">
 
 ```java
-ProductDBMeetingInfoV2 meetingInfo = new ProductDBMeetingInfoV2(
+DyteMeetingInfoV2 meetingInfo = new DyteMeetingInfoV2(
   "<auth_token>",
   true, // enableAudio
   true, // enableVideo
-  "productdb.io"
+  "dyte.io"
 );
 ```
 
@@ -110,17 +110,17 @@ ProductDBMeetingInfoV2 meetingInfo = new ProductDBMeetingInfoV2(
 
 ## Step 3: Initialize the SDK
 
-Initialize the ProductDBUIKit with the `ProductDBUIKitBuilder` class, using the `meetingInfo` configured above.
+Initialize the DyteUIKit with the `DyteUIKitBuilder` class, using the `meetingInfo` configured above.
 
-<Tabs groupId="productdb-android-uikit">
+<Tabs groupId="dyte-android-uikit">
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin
-val dyteUIKitInfo = ProductDBUIKitInfo(
+val dyteUIKitInfo = DyteUIKitInfo(
   activity = this,
   dyteMeetingInfo = meetingInfo
 )
-val dyteUIKit = ProductDBUIKitBuilder.build(dyteUIKitInfo)
+val dyteUIKit = DyteUIKitBuilder.build(dyteUIKitInfo)
 ```
 
   </TabItem>
@@ -128,8 +128,8 @@ val dyteUIKit = ProductDBUIKitBuilder.build(dyteUIKitInfo)
   <TabItem value="java" label="Java">
 
 ```java
-ProductDBUIKitInfo dyteUIKitInfo = new ProductDBUIKitInfo(this, meetingInfo);
-ProductDBUIKit dyteUIKit = ProductDBUIKitBuilder.build(dyteUIKitInfo);
+DyteUIKitInfo dyteUIKitInfo = new DyteUIKitInfo(this, meetingInfo);
+DyteUIKit dyteUIKit = DyteUIKitBuilder.build(dyteUIKitInfo);
 ```
 
   </TabItem>
@@ -140,7 +140,7 @@ ProductDBUIKit dyteUIKit = ProductDBUIKitBuilder.build(dyteUIKitInfo);
 To launch the meeting UI all you need to do is call `startMeeting()` which will take
 care of everything for you.
 
-<Tabs groupId="productdb-android-uikit">
+<Tabs groupId="dyte-android-uikit">
   <TabItem value="kotlin" label="Kotlin" default>
 
 ```kotlin

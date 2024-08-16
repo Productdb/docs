@@ -20,7 +20,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ProductDBSetupScreen",
+    "title": "DyteSetupScreen",
     "permalink": "/android/build-pre-call-ui/default-setup-screen"
   },
   "next": {

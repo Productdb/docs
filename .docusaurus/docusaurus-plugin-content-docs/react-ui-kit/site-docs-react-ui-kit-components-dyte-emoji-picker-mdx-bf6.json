@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-emoji-picker",
   "title": "DyteEmojiPicker",
-  "description": "Learn how to use and customize the DyteEmojiPicker component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteEmojiPicker component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-emoji-picker.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-emoji-picker",
@@ -15,7 +15,7 @@
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-emoji-picker.svg",
-    "description": "Learn how to use and customize the DyteEmojiPicker component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteEmojiPicker component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

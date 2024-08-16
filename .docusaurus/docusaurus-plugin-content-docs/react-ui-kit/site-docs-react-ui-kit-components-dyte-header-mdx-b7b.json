@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-header",
   "title": "DyteHeader",
-  "description": "Learn how to use and customize the DyteHeader component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteHeader component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-header.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-header",
@@ -14,7 +14,7 @@
   "lastUpdatedAt": 1723767138,
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
-    "description": "Learn how to use and customize the DyteHeader component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteHeader component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

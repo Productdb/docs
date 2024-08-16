@@ -1,7 +1,7 @@
 {
   "id": "build-pre-call-ui/build-your-own/add-audio-video-device",
   "title": "Audio/video - Device Selection",
-  "description": "To let the user choose between multiple available input / output devices, you can use the ProductDBSettingsFragment or ProductDBSettingsBottomsheet component",
+  "description": "To let the user choose between multiple available input / output devices, you can use the DyteSettingsFragment or DyteSettingsBottomsheet component",
   "source": "@site/docs/android/build-pre-call-ui/build-your-own/add-audio-video-device.mdx",
   "sourceDirName": "build-pre-call-ui/build-your-own",
   "slug": "/build-pre-call-ui/build-your-own/add-audio-video-device",
@@ -24,7 +24,7 @@
     "permalink": "/android/build-pre-call-ui/build-your-own/add-audio-video-preview"
   },
   "next": {
-    "title": "Using ProductDBGridView",
-    "permalink": "/android/render-participant-videos/using-productdbgrid"
+    "title": "Using DyteGridView",
+    "permalink": "/android/render-participant-videos/using-dytegrid"
   }
 }

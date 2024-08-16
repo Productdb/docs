@@ -243,15 +243,15 @@
           {
             "type": "link",
             "label": "Livestream Objects and Methods",
-            "href": "/android-core/livestream/productdb-livestream-object",
-            "docId": "livestream/productdb-livestream-object",
+            "href": "/android-core/livestream/dyte-livestream-object",
+            "docId": "livestream/dyte-livestream-object",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Livestream Event Listeners",
-            "href": "/android-core/livestream/productdb-livestream-listener",
-            "docId": "livestream/productdb-livestream-listener",
+            "href": "/android-core/livestream/dyte-livestream-listener",
+            "docId": "livestream/dyte-livestream-listener",
             "unlisted": false
           }
         ]
@@ -340,22 +340,22 @@
       "description": "The ProductDB Core SDK is designed to provide you with an easy way to incorporate live video, voice, livestream and chat capabilities",
       "sidebar": "tutorialSidebar"
     },
-    "livestream/introduction": {
-      "id": "livestream/introduction",
-      "title": "Introduction",
-      "description": "Get started with Android Livestreaming through this comprehensive introduction guide in ProductDB Docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "livestream/productdb-livestream-listener": {
-      "id": "livestream/productdb-livestream-listener",
+    "livestream/dyte-livestream-listener": {
+      "id": "livestream/dyte-livestream-listener",
       "title": "Livestream Event Listeners",
       "description": "Explore the functionalities and implementation of the Android Livestream Listener in ProductDB documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "livestream/productdb-livestream-object": {
-      "id": "livestream/productdb-livestream-object",
+    "livestream/dyte-livestream-object": {
+      "id": "livestream/dyte-livestream-object",
       "title": "Livestream Objects and Methods",
       "description": "Learn about the Android Livestream Object and its usage for effective livestream integration in your Android applications.",
+      "sidebar": "tutorialSidebar"
+    },
+    "livestream/introduction": {
+      "id": "livestream/introduction",
+      "title": "Introduction",
+      "description": "Get started with Android Livestreaming through this comprehensive introduction guide in ProductDB Docs.",
       "sidebar": "tutorialSidebar"
     },
     "local-user/events": {

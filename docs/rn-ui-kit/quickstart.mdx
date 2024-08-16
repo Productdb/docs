@@ -14,7 +14,7 @@ meeting UI customization options.
 - Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
   and completed the following steps:
 
-  - Create a [ProductDB Developer Account](https://dev.productdb.io/)
+  - Create a [ProductDB Developer Account](https://dev.dyte.io/)
   - Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
@@ -215,8 +215,8 @@ npx expo prebuild
 
 Here's a series of steps that you need to perform:
 
-1. Set up `ProductDBProvider`. This provides the context that provides meeting object and other data to all the child components.
-2. Set up `ProductDBUIProvider`. This provides design system to child components.
+1. Set up `DyteProvider`. This provides the context that provides meeting object and other data to all the child components.
+2. Set up `DyteUIProvider`. This provides design system to child components.
 3. Initialize the ProductDB client. Use the `useDyteClient()` hook and `initMeeting`
    to initialize a client.
 
@@ -232,8 +232,8 @@ Here's a series of steps that you need to perform:
 
 ```jsx
 import React, { useEffect } from 'react';
-import { ProductDBProvider, useDyteClient } from '@dytesdk/react-native-core';
-import { ProductDBUIProvider, ProductDBMeeting } from '@dytesdk/react-native-ui-kit';
+import { DyteProvider, useDyteClient } from '@dytesdk/react-native-core';
+import { DyteUIProvider, DyteMeeting } from '@dytesdk/react-native-ui-kit';
 
 export default function App() {
   const [meeting, initMeeting] = useDyteClient();
@@ -252,34 +252,34 @@ export default function App() {
   }, []);
 
   return (
-    <ProductDBProvider value={meeting}>
-      <ProductDBUIProvider>
+    <DyteProvider value={meeting}>
+      <DyteUIProvider>
         <YourCustomMeetingComponent />
-      </ProductDBUIProvider>
-    </ProductDBProvider>
+      </DyteUIProvider>
+    </DyteProvider>
   );
 }
 ```
 
-## Example: Using Prebuilt `ProductDBMeeting` Component
+## Example: Using Prebuilt `DyteMeeting` Component
 
 In the following example, a meeting is created using the `useDyteMeeting`
 component. `useDyteMeeting` essentially returns the meeting object you passed to
-the `ProductDBProvider`.
+the `DyteProvider`.
 
-`ProductDBMeeting` renders the entire meeting UI. It loads your preset and renders
+`DyteMeeting` renders the entire meeting UI. It loads your preset and renders
 the UI based on it. With this component, you don't have to handle all the
 states, dialogs, and other smaller bits of managing the application.
 
-For more information on the other props of `ProductDBMeeting`, see
-[ProductDBMeeting](/react-native/components/productdb-meeting).
+For more information on the other props of `DyteMeeting`, see
+[DyteMeeting](/react-native/components/dyte-meeting).
 
 ```jsx
 function YourCustomMeetingComponent() {
   const { meeting } = useDyteMeeting();
 
   return (
-    <ProductDBMeeting meeting={meeting} />
+    <DyteMeeting meeting={meeting} />
   );
 }
 ```

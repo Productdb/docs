@@ -1,5 +1,5 @@
 ---
-title: ProductDBSetupScreen
+title: DyteSetupScreen
 sidebar_position: 4
 ---
 
@@ -18,16 +18,16 @@ it shows a join button to join meeting.
 ### Create SetupViewController
 
 ```swift
- init(meetingInfo: ProductDBMeetingInfoV2, mobileClient: ProductDBMobileClient, completion:@escaping()->Void)
+ init(meetingInfo: DyteMeetingInfoV2, mobileClient: DyteMobileClient, completion:@escaping()->Void)
 
 ```
 
-Creates setup screen with the configuration object of type `ProductDBMeetingInfoV2`
+Creates setup screen with the configuration object of type `DyteMeetingInfoV2`
 
 #### Parameters:
 
 Required:
-meetingInfo: An instance of type `ProductDBMeetingInfoV2`
+meetingInfo: An instance of type `DyteMeetingInfoV2`
 meeting: Default meeting object
 completion: escaping closure to get a callback when Meetings ends up. For eg. When user leaved the meeting then
 you want to present the starting screen.
@@ -46,10 +46,10 @@ self.present(controller, animated: true)
 
 ### Customising flow of SetupViewController using protocol
 
-[SetupViewControllerDelegate](/ios/components/productdb-setup-screen-delegate)
+[SetupViewControllerDelegate](/ios/components/dyte-setup-screen-delegate)
 
 ```swift
   weak var delegate: SetupViewControllerDelegate?
 ```
 
-The delegate of the [SetupViewController](/ios/components/productdb-setup-screen) object.
+The delegate of the [SetupViewController](/ios/components/dyte-setup-screen) object.

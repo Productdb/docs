@@ -11,16 +11,16 @@
       "permalink": "/android-core/livestream/introduction"
     },
     {
-      "id": "livestream/productdb-livestream-listener",
+      "id": "livestream/dyte-livestream-listener",
       "title": "Livestream Event Listeners",
       "description": "Explore the functionalities and implementation of the Android Livestream Listener in ProductDB documentation.",
-      "permalink": "/android-core/livestream/productdb-livestream-listener"
+      "permalink": "/android-core/livestream/dyte-livestream-listener"
     },
     {
-      "id": "livestream/productdb-livestream-object",
+      "id": "livestream/dyte-livestream-object",
       "title": "Livestream Objects and Methods",
       "description": "Learn about the Android Livestream Object and its usage for effective livestream integration in your Android applications.",
-      "permalink": "/android-core/livestream/productdb-livestream-object"
+      "permalink": "/android-core/livestream/dyte-livestream-object"
     }
   ],
   "unlisted": false

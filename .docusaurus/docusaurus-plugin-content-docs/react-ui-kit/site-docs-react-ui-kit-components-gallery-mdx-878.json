@@ -1,7 +1,7 @@
 {
   "id": "components/gallery",
   "title": "Gallery",
-  "description": "Learn how to use and customize the Gallery component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the Gallery component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/gallery.mdx",
   "sourceDirName": "components",
   "slug": "/components",
@@ -17,7 +17,7 @@
   "frontMatter": {
     "sidebar_position": 1,
     "slug": "/components",
-    "description": "Learn how to use and customize the Gallery component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the Gallery component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

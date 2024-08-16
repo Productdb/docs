@@ -7,10 +7,10 @@ The data regarding all meeting participants is stored under `meeting.participant
 
 ```kotlin
 // get all joined participants
-val joined: List<ProductDBJoinedMeetingParticipant> = meeting.participants.joined
+val joined: List<DyteJoinedMeetingParticipant> = meeting.participants.joined
 
 // get all participants
-val all: List<ProductDBParticipant> = meeting.participants.all
+val all: List<DyteParticipant> = meeting.participants.all
 ```
 
 The `meeting.participants` object has the following **lists** of participants
@@ -27,4 +27,4 @@ The `meeting.participants` object has the following **lists** of participants
 
 Therefore if you were to make a video / audio grid of participants, you'd use the `active` map, but to display the list of all participants in the meeting you'd use the `joined` map.
 
-Each participant in each of the `joined`, `active`, `pinned` and `screenShares` list are of type `ProductDBJoinedMeetingParticipant`, `waitlisted` list is of type `ProductDBWaitlistedParticipant` and `all` list is of type `ProductDBParticipant`.
+Each participant in each of the `joined`, `active`, `pinned` and `screenShares` list are of type `DyteJoinedMeetingParticipant`, `waitlisted` list is of type `DyteWaitlistedParticipant` and `all` list is of type `DyteParticipant`.

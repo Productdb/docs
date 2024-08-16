@@ -1,7 +1,7 @@
 {
   "id": "introduction",
   "title": "Introduction",
-  "description": "Dyte's React UI Kit is a prebuilt design library of UI components that makes it",
+  "description": "ProductDB's React UI Kit is a prebuilt design library of UI components that makes it",
   "source": "@site/docs/react-ui-kit/introduction.mdx",
   "sourceDirName": ".",
   "slug": "/",

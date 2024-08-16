@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkproductdb_docs=self.webpackChunkproductdb_docs||[]).push([[88699],{51737:e=>{e.exports=JSON.parse('{"label":"releasenotes","permalink":"/ios/tags/releasenotes","allTagsPath":"/ios/tags","count":1,"items":[{"id":"release-notes","title":"Release Notes","description":"iOS Release Notes","permalink":"/ios/release-notes"}],"unlisted":false}')}}]);

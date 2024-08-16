@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-participants-toggle",
+  "title": "dyte-participants-toggle",
+  "description": "Learn how to use and customize the dyte-participants-toggle component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-participants-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participants-toggle",
+  "permalink": "/ui-kit/components/dyte-participants-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-participants-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the dyte-participants-toggle component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-participants-stage-list",
+    "permalink": "/ui-kit/components/dyte-participants-stage-list"
+  },
+  "next": {
+    "title": "dyte-participants",
+    "permalink": "/ui-kit/components/dyte-participants"
+  }
+}

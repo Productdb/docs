@@ -29,8 +29,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ProductDBWebinarStageToggle",
-    "permalink": "/react-native/components/productdb-webinar-stage-toggle"
+    "title": "DyteWebinarStageToggle",
+    "permalink": "/react-native/components/dyte-webinar-stage-toggle"
   },
   "next": {
     "title": "Reference",

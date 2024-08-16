@@ -24,7 +24,7 @@
     "permalink": "/rn-core/error-codes/error-code"
   },
   "next": {
-    "title": "ProductDBClient",
-    "permalink": "/rn-core/reference/ProductDBClient"
+    "title": "DyteClient",
+    "permalink": "/rn-core/reference/DyteClient"
   }
 }

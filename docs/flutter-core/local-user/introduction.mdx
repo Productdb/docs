@@ -43,7 +43,7 @@ audio streams. To change this behaviour, use the `audioEnabled` & `videoEnabled`
 parameter
 
 ```dart {4,5}
-final meetingInfo = ProductDBMeetingInfoV2(
+final meetingInfo = DyteMeetingInfoV2(
   roomName = MEETING_ROOM_NAME,
   authToken = AUTH_TOKEN,
   audioEnabled = false,
@@ -53,7 +53,7 @@ final meetingInfo = ProductDBMeetingInfoV2(
 
 ## Turn on audio/video tracks after initializing the client
 
-If audio and video tracks are disabled during the `ProductDBMobileClient`
+If audio and video tracks are disabled during the `DyteMobileClient`
 initialization process. You can setup the audio and video tracks by simply
 calling `enableAudio()` and `enableVideo()` like below:
 

@@ -1,0 +1,26 @@
+{
+  "id": "Components/dyte-join-button",
+  "title": "DyteJoinButton",
+  "description": "A button widget specifically designed for joining a ProductDB meeting room. This widget encapsulates functionality related to the meeting room joining process, providing visual feedback to the user based on the current state of the joining process.",
+  "source": "@site/docs/flutter/Components/dyte-join-button.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/dyte-join-button",
+  "permalink": "/flutter/Components/dyte-join-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/dyte-join-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteChatIconWidget",
+    "permalink": "/flutter/Components/dyte-chat-icon-widget"
+  },
+  "next": {
+    "title": "DyteLeaveButton",
+    "permalink": "/flutter/Components/dyte-leave-button"
+  }
+}

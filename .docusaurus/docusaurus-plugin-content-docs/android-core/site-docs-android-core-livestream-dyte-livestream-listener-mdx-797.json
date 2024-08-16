@@ -1,0 +1,44 @@
+{
+  "id": "livestream/dyte-livestream-listener",
+  "title": "Livestream Event Listeners",
+  "description": "Explore the functionalities and implementation of the Android Livestream Listener in ProductDB documentation.",
+  "source": "@site/docs/android-core/livestream/dyte-livestream-listener.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/dyte-livestream-listener",
+  "permalink": "/android-core/livestream/dyte-livestream-listener",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/livestream/dyte-livestream-listener.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "livestream",
+      "permalink": "/android-core/tags/livestream"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723756942,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Livestream Event Listeners",
+    "description": "Explore the functionalities and implementation of the Android Livestream Listener in ProductDB documentation.",
+    "sidebar_position": 3,
+    "tags": [
+      "android-core",
+      "livestream"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Livestream Objects and Methods",
+    "permalink": "/android-core/livestream/dyte-livestream-object"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/android-core/polls/introduction"
+  }
+}

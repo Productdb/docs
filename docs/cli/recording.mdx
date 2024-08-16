@@ -14,7 +14,7 @@ The CLI lets you start, stop, view and configure meeting recordings.
 Set up your recording configuration by running:
 
 ```shell
-productdb recordings config
+dyte recordings config
 ```
 
 You will be asked a series of questions about the configuration you'd like for
@@ -30,7 +30,7 @@ step. Our defaults are robust! :::
 You can start recording a meeting by running:
 
 ```shell
-productdb recordings start <meeting id>
+dyte recordings start <meeting id>
 ```
 
 ### Stopping
@@ -38,7 +38,7 @@ productdb recordings start <meeting id>
 You can end a recording by running:
 
 ```shell
-productdb recordings stop <meeting id>
+dyte recordings stop <meeting id>
 ```
 
 :::tip The meeting ID can be a UUID, eg: `f68a59ca-5e43-4267-8982-bfcabcab88a3`
@@ -52,7 +52,7 @@ or it can be the simple ID used by our meetings in the browser, eg:
 You can view a list of all recordings for a meeting by running:
 
 ```shell
-productdb recordings list
+dyte recordings list
 ```
 
 ### Getting a particular recording
@@ -60,10 +60,10 @@ productdb recordings list
 You can view the details for a particular recording by running
 
 ```shell
-productdb recordings get <meeting id> <recording id>
+dyte recordings get <meeting id> <recording id>
 ```
 
-:::tip The `productdb recordings stop` command will helpfully output the complete
+:::tip The `dyte recordings stop` command will helpfully output the complete
 command you need to retrieve that particular recording! :::
 
 <head>

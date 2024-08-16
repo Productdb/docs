@@ -1,0 +1,26 @@
+{
+  "id": "reference/classes/DyteNotificationsAudio",
+  "title": "Class: DyteNotificationsAudio",
+  "description": "Handles notification sounds in a meeting",
+  "source": "@site/docs/ui-kit/reference/classes/DyteNotificationsAudio.md",
+  "sourceDirName": "reference/classes",
+  "slug": "/reference/classes/DyteNotificationsAudio",
+  "permalink": "/ui-kit/reference/classes/DyteNotificationsAudio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723756682,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "id": "DyteNotificationsAudio",
+    "title": "Class: DyteNotificationsAudio",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interface: UserPreferences",
+    "permalink": "/ui-kit/reference/interfaces/UserPreferences"
+  }
+}

@@ -28,19 +28,19 @@ npm install @dytesdk/angular-ui-kit @dytesdk/web-core
 
 2. Create a meeting room using the [Create Meeting API](/api#/operations/create_meeting).
 3. Generate an `authToken` using the [Add Participant API](/api#/operations/add_participant). An `authToken` is a unique token that is used to identify a user in the meeting.
-4. Initialize the ProductDB client using the `ProductDBClient.init({ authToken })`. It returns the meeting object.
+4. Initialize the ProductDB client using the `DyteClient.init({ authToken })`. It returns the meeting object.
 5. Pass the meeting object to the UI Kit.
 
-The `productdb-meeting` component generates the default UI experience. Read more about how to customize the UI [here](/angular-ui-kit/basics/components-basics).
+The `dyte-meeting` component generates the default UI experience. Read more about how to customize the UI [here](/angular-ui-kit/basics/components-basics).
 
 ```ts
 class AppComponent {
   title = 'MyProject';
-  @ViewChild('myid') meetingComponent: ProductDBMeeting;
-  dyteMeeting: ProductDBClient;
+  @ViewChild('myid') meetingComponent: DyteMeeting;
+  dyteMeeting: DyteClient;
 
   async ngAfterViewInit() {
-    const meeting = await ProductDBClient.init({
+    const meeting = await DyteClient.init({
       authToken: '<auth-token>',
     });
     meeting.join();
@@ -74,11 +74,11 @@ const myLanguagePack = useLanguage({
 // In your component
 class AppComponent {
   title = 'MyProject';
-  @ViewChild('myid') meetingComponent: ProductDBMeeting;
-  dyteMeeting: ProductDBClient;
+  @ViewChild('myid') meetingComponent: DyteMeeting;
+  dyteMeeting: DyteClient;
 
   async ngAfterViewInit() {
-    const meeting = await ProductDBClient.init({
+    const meeting = await DyteClient.init({
       authToken: '<auth-token>',
     });
     meeting.join();

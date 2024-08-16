@@ -17,12 +17,12 @@ All metadata pertaining to a meeting is stored in `meeting.meta`. This includes:
 - `meetingType`: Indicates the meeting is a group-call or a webinar.
 - `meetingTitle`: The title of the meeting.
 - `meetingStartedTimestamp`: The timestamp when the meeting started.
-- `meetingState`: The state of the meeting of type `ProductDBMeetingState`.
+- `meetingState`: The state of the meeting of type `DyteMeetingState`.
 - `authToken`: The authentication token for the meeting.
 - `meetingConfig`: The configuration of the meeting of type `MeetingConfig`.
 
 ```swift
-enum ProductDBMeetingState {
+enum DyteMeetingState {
   case notInitialised
   case initStarted
   case initCompleted

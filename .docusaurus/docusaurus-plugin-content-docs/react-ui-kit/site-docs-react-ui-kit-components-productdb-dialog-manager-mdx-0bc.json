@@ -1,7 +1,7 @@
 {
   "id": "components/productdb-dialog-manager",
   "title": "DyteDialogManager",
-  "description": "Learn how to use and customize the DyteDialogManager component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteDialogManager component in Productdb's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/productdb-dialog-manager.mdx",
   "sourceDirName": "components",
   "slug": "/components/productdb-dialog-manager",
@@ -14,7 +14,7 @@
   "lastUpdatedAt": 1723760454,
   "formattedLastUpdatedAt": "Aug 15, 2024",
   "frontMatter": {
-    "description": "Learn how to use and customize the DyteDialogManager component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteDialogManager component in Productdb's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

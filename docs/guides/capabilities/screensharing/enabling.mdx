@@ -174,15 +174,15 @@ If you don't want to create your own button to toggle screen sharing, use the de
 <TabItem value="web-components" label="Web Components">
 
 ```jsx
-<productdb-screen-share-toggle size="sm" class="productdb-el"></productdb-screen-share-toggle>
-<productdb-screen-share-toggle size="lg" class="productdb-el"></productdb-screen-share-toggle>
-<productdb-screen-share-toggle
+<dyte-screen-share-toggle size="sm" class="dyte-el"></dyte-screen-share-toggle>
+<dyte-screen-share-toggle size="lg" class="dyte-el"></dyte-screen-share-toggle>
+<dyte-screen-share-toggle
   variant="horizontal"
-  class="productdb-el"
-></productdb-screen-share-toggle>
+  class="dyte-el"
+></dyte-screen-share-toggle>
 
 <script>
-  const elements = document.getElementsByClassName('productdb-el');
+  const elements = document.getElementsByClassName('dyte-el');
   for (const el of elements) {
     el.meeting = meeting;
   }
@@ -193,12 +193,12 @@ If you don't want to create your own button to toggle screen sharing, use the de
 <TabItem value="react" label="React">
 
 ```jsx
-import { ProductDBScreenShareToggle } from '@dytesdk/react-ui-kit';
+import { DyteScreenShareToggle } from '@dytesdk/react-ui-kit';
 
 <Center>
-  <ProductDBScreenShareToggle size="sm" meeting={meeting} />
-  <ProductDBScreenShareToggle size="lg" meeting={meeting} />
-  <ProductDBScreenShareToggle variant="horizontal" size="sm" meeting={meeting} />
+  <DyteScreenShareToggle size="sm" meeting={meeting} />
+  <DyteScreenShareToggle size="lg" meeting={meeting} />
+  <DyteScreenShareToggle variant="horizontal" size="sm" meeting={meeting} />
 </Center>;
 ```
 
@@ -206,24 +206,24 @@ import { ProductDBScreenShareToggle } from '@dytesdk/react-ui-kit';
 <TabItem value="angular" label="Angular">
 
 ```jsx
-<productdb-screen-share-toggle size="sm" class="productdb-el"></productdb-screen-share-toggle>
-<productdb-screen-share-toggle size="lg" class="productdb-el"></productdb-screen-share-toggle>
-<productdb-screen-share-toggle
+<dyte-screen-share-toggle size="sm" class="dyte-el"></dyte-screen-share-toggle>
+<dyte-screen-share-toggle size="lg" class="dyte-el"></dyte-screen-share-toggle>
+<dyte-screen-share-toggle
   variant="horizontal"
-  class="productdb-el"
-></productdb-screen-share-toggle>
+  class="dyte-el"
+></dyte-screen-share-toggle>
 ```
 
 </TabItem>
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-import { ProductDBScreenShareToggle } from '@dytesdk/react-native-ui-kit';
+import { DyteScreenShareToggle } from '@dytesdk/react-native-ui-kit';
 
 <Center>
-  <ProductDBScreenShareToggle size="sm" meeting={meeting} />
-  <ProductDBScreenShareToggle size="lg" meeting={meeting} />
-  <ProductDBScreenShareToggle variant="horizontal" size="sm" meeting={meeting} />
+  <DyteScreenShareToggle size="sm" meeting={meeting} />
+  <DyteScreenShareToggle size="lg" meeting={meeting} />
+  <DyteScreenShareToggle variant="horizontal" size="sm" meeting={meeting} />
 </Center>;
 ```
 
@@ -246,7 +246,7 @@ On web browsers, a user can choose between sharing a tab, a window or the entire
 <TabItem value="js" label="Javascript">
 
 ```js
-meeting = await ProductDBClient.init({
+meeting = await DyteClient.init({
   authToken,
   defaults: {
     screenShare: {

@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-poll-form",
+  "title": "dyte-poll-form",
+  "description": "Learn how to use and customize the dyte-poll-form component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-poll-form.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-poll-form",
+  "permalink": "/ui-kit/components/dyte-poll-form",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-poll-form.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the dyte-poll-form component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-plugins",
+    "permalink": "/ui-kit/components/dyte-plugins"
+  },
+  "next": {
+    "title": "dyte-poll",
+    "permalink": "/ui-kit/components/dyte-poll"
+  }
+}

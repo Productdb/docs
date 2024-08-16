@@ -19,30 +19,30 @@ Permissions are set in the Developer Portal. Based on the permissions set, you c
 
 ### Media Permissions
 
-Media permissions (audio, video and screenshare) can be accessed using `dyteClient.permissions.media`. You can get audio, video and screenshare permissions. Audio and screenshare permissions are of `ProductDBMediaPermission` type & video permissions are of `ProductDBVideoPermissions` type.
+Media permissions (audio, video and screenshare) can be accessed using `dyteClient.permissions.media`. You can get audio, video and screenshare permissions. Audio and screenshare permissions are of `DyteMediaPermission` type & video permissions are of `DyteVideoPermissions` type.
 
-`ProductDBMediaPermission` is a enum & can have 3 values:
+`DyteMediaPermission` is a enum & can have 3 values:
 
-- `ProductDBMediaPermission.allowed` : If the user is allowed to access the media.
-- `ProductDBMediaPermission.canRequest` : If the user can request access to the media. Ex: If a user is off stage but can request to come on stage in case of webinar.
-- `ProductDBMediaPermission.notAllowed` : If the user is not allowed to access the media.
+- `DyteMediaPermission.allowed` : If the user is allowed to access the media.
+- `DyteMediaPermission.canRequest` : If the user can request access to the media. Ex: If a user is off stage but can request to come on stage in case of webinar.
+- `DyteMediaPermission.notAllowed` : If the user is not allowed to access the media.
 
-`ProductDBVideoPermissions` have 3 properties:
+`DyteVideoPermissions` have 3 properties:
 
-- `permission`: It is of `ProductDBMediaPermission` type & stores the video permission.
+- `permission`: It is of `DyteMediaPermission` type & stores the video permission.
 - `frameRate` : It is of type `int` & stores the frame rate of the video.
 - `quality` : It is of type `string` and stores the quality of the video.
 
 ```dart
 
 // To get audio permission
-final ProductDBMediaPermission audioPermission = dyteClient.permissions.media.audio;
+final DyteMediaPermission audioPermission = dyteClient.permissions.media.audio;
 
 // To get video details
-final ProductDBVideoPermissions videoPermission = dyteClient.permissions.media.video;
+final DyteVideoPermissions videoPermission = dyteClient.permissions.media.video;
 
 // To get screenshare permission
-final ProductDBMediaPermission screensharePermission = dyteClient.permissions.media.screenshare;
+final DyteMediaPermission screensharePermission = dyteClient.permissions.media.screenshare;
 ```
 
 ### Waiting Room Permissions
@@ -133,7 +133,7 @@ A peer can execute following actions if their preset allows it. To access preset
 
 ### Pin/Unpin participant
 
-You can pin & unpin a participant in a meeting room. Use `pinParticipant(participant)` and `unpinParticipant()` method to pin & unpin the `participant` respectively. The `participant` is of `ProductDBMeetingParticipant`type.
+You can pin & unpin a participant in a meeting room. Use `pinParticipant(participant)` and `unpinParticipant()` method to pin & unpin the `participant` respectively. The `participant` is of `DyteMeetingParticipant`type.
 
 ```dart
 
@@ -146,7 +146,7 @@ dyteClient.hostActions.unpinParticipant();
 
 ### Kick participant(s)
 
-You can kick a participant or kick all participants from a meeting using `kickParticipant(participant)` and `kickAll()` method respectively. The `participant` is of `ProductDBMeetingParticipant` type.
+You can kick a participant or kick all participants from a meeting using `kickParticipant(participant)` and `kickAll()` method respectively. The `participant` is of `DyteMeetingParticipant` type.
 
 ```dart
 
@@ -159,7 +159,7 @@ dyteClient.hostActions.kickAll();
 
 ### Accept/Reject waitlisted request
 
-You can accept or reject a waitlisted request using `acceptWaitlistedParticipant(participant)` and `rejectWaitlistedParticipant(participant)` method respectively. The `participant` is of `ProductDBMeetingParticipant` type.
+You can accept or reject a waitlisted request using `acceptWaitlistedParticipant(participant)` and `rejectWaitlistedParticipant(participant)` method respectively. The `participant` is of `DyteMeetingParticipant` type.
 
 ```dart
 
@@ -172,7 +172,7 @@ dyteClient.hostActions.rejectWaitlistedParticipant(waitlistedParticipant);
 
 ### Mute participant(s) audio
 
-You can mute a participant's audio or mute all participants' audio using `disableParticipantAudio(participant)` and `muteAllAudios()` method respectively. The `participant` is of `ProductDBMeetingParticipant` type.
+You can mute a participant's audio or mute all participants' audio using `disableParticipantAudio(participant)` and `muteAllAudios()` method respectively. The `participant` is of `DyteMeetingParticipant` type.
 
 ```dart
 
@@ -186,7 +186,7 @@ dyteClient.hostActions.muteAllAudios();
 
 ### Disable participant(s) video
 
-You can disable a participant's video or disable all participants' video using `disableParticipantVideo(participant)` and `disableAllVideos()` method respectively. The `participant` is of `ProductDBMeetingParticipant` type.
+You can disable a participant's video or disable all participants' video using `disableParticipantVideo(participant)` and `disableAllVideos()` method respectively. The `participant` is of `DyteMeetingParticipant` type.
 
 ```dart
 

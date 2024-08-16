@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-text-field",
   "title": "DyteTextField",
-  "description": "Learn how to use and customize the DyteTextField component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteTextField component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-text-field.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-text-field",
@@ -14,7 +14,7 @@
   "lastUpdatedAt": 1723767138,
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
-    "description": "Learn how to use and customize the DyteTextField component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteTextField component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

@@ -1,7 +1,7 @@
 {
   "id": "pre-call/media-preview",
   "title": "Media Preview",
-  "description": "This section focuses on pre-call functionality, providing developers with the tools needed to prepare the media environment before joining the meeting. If you are using our UI Kits, this will be handled by productdb-setup-screen or could be built with productdb-participant-tile, productdb-settings components.",
+  "description": "This section focuses on pre-call functionality, providing developers with the tools needed to prepare the media environment before joining the meeting. If you are using our UI Kits, this will be handled by dyte-setup-screen or could be built with dyte-participant-tile, dyte-settings components.",
   "source": "@site/docs/react-web-core/pre-call/1-media-preview.mdx",
   "sourceDirName": "pre-call",
   "slug": "/pre-call/media-preview",

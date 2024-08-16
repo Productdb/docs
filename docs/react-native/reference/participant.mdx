@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# ProductDBParticipant
+# DyteParticipant
 
 ## Properties
 
@@ -16,10 +16,10 @@ sidebar_position: 4
 | videoEnabled         | boolean                                | Checks if the participant is producing video                                                                                         |
 | audioTrack           | MediaStreamTrack                       | Audio stream from the participant                                                                                                    |
 | videoTrack           | MediaStreamTrack                       | Video stream from the participant                                                                                                    |
-| isMe                 | boolean                                | Checks if the participant is the current participant, in which case it can be treated as [`ProductDBSelfParticipant`](./self-participant) |
+| isMe                 | boolean                                | Checks if the participant is the current participant, in which case it can be treated as [`DyteSelfParticipant`](./self-participant) |
 | isPinned             | boolean                                | Checks if the participant video is pinned (by the host, by the user, or by the preset)                                               |
 | metadata.preset_name | string                                 | The preset that is applied to the participant                                                                                        |
-| metadata.view_type   | Enum ([ProductDBViewTypes](#dyteviewtypes)) | The type of meeting view that the participant is in                                                                                  |
+| metadata.view_type   | Enum ([DyteViewTypes](#dyteviewtypes)) | The type of meeting view that the participant is in                                                                                  |
 
 ## Methods
 
@@ -33,13 +33,13 @@ sidebar_position: 4
 | sendMessage  | message: any                        | Send custom event to the participant (see [this section](./../advanced-usage#send-a-custom-message-to-a-participant-p2p-message--data-exchange) for more details)                              |
 | updatePreset | preset_name: string                 | Update user preset dynamically                                                                                                                                                                 |
 
-## ProductDBViewTypes
+## DyteViewTypes
 
-`ProductDBViewTypes` is an enum that enumerates the different kind of meeting views,
+`DyteViewTypes` is an enum that enumerates the different kind of meeting views,
 that are available to a participant in ProductDB meeting.
 
 ```tsx
-ProductDBViewTypes {
+DyteViewTypes {
     "GROUP_CALL",
     "WEBINAR"
 }

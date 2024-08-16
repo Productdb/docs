@@ -4,8 +4,8 @@
   "description": "Explore the concepts of Twilio versus ProductDB for effective migration. Follow our guide for a comprehensive comparison and migration strategy.",
   "source": "@site/docs/guides/migration/twilio/concepts-twilio-vs-dyte.mdx",
   "sourceDirName": "migration/twilio",
-  "slug": "/migration/twilio/concepts-twilio-vs-productdb",
-  "permalink": "/guides/migration/twilio/concepts-twilio-vs-productdb",
+  "slug": "/migration/twilio/concepts-twilio-vs-dyte",
+  "permalink": "/guides/migration/twilio/concepts-twilio-vs-dyte",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/migration/twilio/concepts-twilio-vs-dyte.mdx",
@@ -17,7 +17,7 @@
   "frontMatter": {
     "title": "💡 Concepts",
     "sidebar_position": 1,
-    "slug": "concepts-twilio-vs-productdb",
+    "slug": "concepts-twilio-vs-dyte",
     "description": "Explore the concepts of Twilio versus ProductDB for effective migration. Follow our guide for a comprehensive comparison and migration strategy."
   },
   "sidebar": "tutorialSidebar",

@@ -1,7 +1,7 @@
 {
   "id": "Pre-Built-Polls_Guides/Polls",
   "title": "Pre-built create poll Scren",
-  "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
   "source": "@site/docs/ios/Pre-Built-Polls_Guides/Polls.mdx",
   "sourceDirName": "Pre-Built-Polls_Guides",
   "slug": "/Pre-Built-Polls_Guides/Polls",
@@ -14,7 +14,7 @@
   "lastUpdatedAt": 1723755734,
   "formattedLastUpdatedAt": "Aug 15, 2024",
   "frontMatter": {
-    "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

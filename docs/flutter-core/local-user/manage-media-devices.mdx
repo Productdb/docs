@@ -20,7 +20,7 @@ use the following methods:
 ### For audio devices:
 
 To get audio devices, use `getAudioDevices()` method on `localUser` object. It
-returns `List<ProductDBAudioDevice>` object, where each object in the list refers to
+returns `List<DyteAudioDevice>` object, where each object in the list refers to
 an audio device of the system.
 
 ```dart
@@ -31,7 +31,7 @@ final audioDevices = await dyteClient.localUser.getAudioDevices();
 ### For video devices
 
 To get audio devices, use `getVideoDevices()` method on `localUser` object. It
-returns `List<ProductDBVideoDevice>` object, where each object in the list refers to
+returns `List<DyteVideoDevice>` object, where each object in the list refers to
 an video device of the system.
 
 ```dart
@@ -42,7 +42,7 @@ final videoDevices = await dyteClient.localUser.getVideoDevices();
 ## Set Audio Device
 
 To set an active audio device, you can call `setAudioDevice()` method. This
-takes a `ProductDBAudioDevice` object that needs to be set active for audio.
+takes a `DyteAudioDevice` object that needs to be set active for audio.
 
 ```dart
 await dyteClient.localUser.setAudioDevice(device);
@@ -51,7 +51,7 @@ await dyteClient.localUser.setAudioDevice(device);
 ## Set Video Device
 
 To set a active video device, you can call `setVideoDevice()` method. This takes
-a `ProductDBVideoDevice` object that needs to be set active for video.
+a `DyteVideoDevice` object that needs to be set active for video.
 
 ```dart
 await dyteClient.localUser.setVideoDevice(device);

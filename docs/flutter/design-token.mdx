@@ -25,9 +25,9 @@ Let's understand how you can customize your UI with ProductDB's Flutter UI Kit u
 
 ### Customize themes with design tokens
 
-ProductDB offers the `ProductDBDesignToken` class to customize the theme of the UI kit. Pass the `ProductDBDesignToken` object within the `ProductDBUIKitInfo` object to customize the theme.
+ProductDB offers the `DyteDesignToken` class to customize the theme of the UI kit. Pass the `DyteDesignToken` object within the `DyteUIKitInfo` object to customize the theme.
 
-With `ProductDBDesignToken`, you can customize the following design properties:
+With `DyteDesignToken`, you can customize the following design properties:
 
 - `backgroundColor`:The background color of the UI Kit.
 - `textOnBackground`: The text color on the background of the UI Kit.
@@ -50,10 +50,10 @@ You can pass a single color to the `backgroundColor`, `brandColor` parameters. O
 For the brand color swatch, make sure it contains 5 entries with keys 300, 400, 500, 600, and 700.
 For the background color swatch, provide 5 entries with keys 600, 700, 800, 900, and 1000.
 
-To achieve this, utilize the `ProductDBColorSwatch` class with two parameters: the default color key and a map of colors.
+To achieve this, utilize the `DyteColorSwatch` class with two parameters: the default color key and a map of colors.
 
 ```dart
-final primarySwatch = ProductDBColorSwatch(
+final primarySwatch = DyteColorSwatch(
     500,
     {
       300: Colors.blue.shade300,
@@ -67,37 +67,37 @@ final primarySwatch = ProductDBColorSwatch(
 
 ### Customize borders with configuration
 
-To customize the border radius and border width of the UI Kit, you can use the `ProductDBBorderRadius` and `ProductDBBorderWidth` enum values in the design token.
+To customize the border radius and border width of the UI Kit, you can use the `DyteBorderRadius` and `DyteBorderWidth` enum values in the design token.
 
-Here are the available `ProductDBBorderRadius` values:
+Here are the available `DyteBorderRadius` values:
 
 | Token Name         | values                                         |
 | ------------------ | ---------------------------------------------- |
-| `ProductDBBorderRadius` | `sharp`, `rounded`, `extraRounded`, `circular` |
+| `DyteBorderRadius` | `sharp`, `rounded`, `extraRounded`, `circular` |
 
-Here are the available `ProductDBBorderWidth` values:
+Here are the available `DyteBorderWidth` values:
 
 | Token Name        | values                |
 | ----------------- | --------------------- |
-| `ProductDBBorderWidth` | `none`, `thin`, `fat` |
+| `DyteBorderWidth` | `none`, `thin`, `fat` |
 
 ## Example
 
 Here's an example of how you can customize the Flutter UI Kit using the design token:
 
 ```dart
-final uikitInfo = ProductDBUIKitInfo(meetingInfo,
-    designToken: ProductDBDesignToken(
-      colorToken: ProductDBColorToken(
-          borderRadius: ProductDBBorderRadius.circular,
-          borderWidth: ProductDBBorderWidth.fat,
+final uikitInfo = DyteUIKitInfo(meetingInfo,
+    designToken: DyteDesignToken(
+      colorToken: DyteColorToken(
+          borderRadius: DyteBorderRadius.circular,
+          borderWidth: DyteBorderWidth.fat,
           backgroundColor: Colors.black,
           textOnBrand: Colors.white,
           textOnBackground: Colors.white,
           danger: Colors.red,
           success: Colors.green,
           warning: Colors.yellow,
-          brandColorSwatch: ProductDBColorSwatch(
+          brandColorSwatch: DyteColorSwatch(
             500,
             {
               300: Colors.blue.shade300,

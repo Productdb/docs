@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-mic-toggle",
+  "title": "dyte-mic-toggle",
+  "description": "Learn how to use and customize the dyte-mic-toggle component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-mic-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-mic-toggle",
+  "permalink": "/ui-kit/components/dyte-mic-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-mic-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the dyte-mic-toggle component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-menu",
+    "permalink": "/ui-kit/components/dyte-menu"
+  },
+  "next": {
+    "title": "dyte-mixed-grid",
+    "permalink": "/ui-kit/components/dyte-mixed-grid"
+  }
+}

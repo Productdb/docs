@@ -24,7 +24,7 @@ In the same [Start recording a meeting](/api#/operations/start_recording) API, c
 Specify the desired **RTMP input URL** and **stream key** where you want the meeting video to be streamed.
 
 :::info Note
-Your stream key is generated when [creating a livestream](/guides/rest-apis/livestream-productdb-meeting#step-2-create-a-live-stream).
+Your stream key is generated when [creating a livestream](/guides/rest-apis/livestream-dyte-meeting#step-2-create-a-live-stream).
 :::
 
 For example, if you want to stream it to [restream.io](https://restream.io), do
@@ -32,7 +32,7 @@ the following:
 
 ```shell
 curl --request POST \
-  --url https://api.productdb.in/v2/organizations/orgid/meetings/meetingid/recording \
+  --url https://api.dyte.in/v2/organizations/orgid/meetings/meetingid/recording \
   --header 'Authorization: APIKEY yourapi-key' \
   --header 'Content-Type: application/json' \
   --data '{

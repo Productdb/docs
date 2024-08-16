@@ -1,0 +1,30 @@
+{
+  "id": "reference/DyteChat",
+  "title": "DyteChat",
+  "description": "This is the chat module, which can be used to send and receive messages from the meeting.",
+  "source": "@site/docs/web-core/reference/DyteChat.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteChat",
+  "permalink": "/web-core/reference/DyteChat",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/reference/DyteChat.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteMeta",
+    "permalink": "/web-core/reference/DyteMeta"
+  },
+  "next": {
+    "title": "DytePolls",
+    "permalink": "/web-core/reference/DytePolls"
+  }
+}

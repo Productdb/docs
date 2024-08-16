@@ -59,18 +59,18 @@ yarn add @dytesdk/ui-kit @dytesdk/web-core
 
 2.  Create a meeting room using the [Create Meeting API](/api#/operations/create_meeting).
 3.  Generate an `authToken` using the [Add Participant API](/api#/operations/add_participant). An `authToken` is a unique token that is used to identify a user in the meeting.
-4.  Initialize the ProductDB client using the `ProductDBClient.init({ authToken })`. It returns the meeting object.
+4.  Initialize the ProductDB client using the `DyteClient.init({ authToken })`. It returns the meeting object.
 5.  Pass the meeting object to the UI Kit.
 
-The `productdb-meeting` component generates the default UI experience. Read more about how to customize the UI [here](/ui-kit/basics/components-basics).
+The `dyte-meeting` component generates the default UI experience. Read more about how to customize the UI [here](/ui-kit/basics/components-basics).
 
 ```html
 <body>
-  <productdb-meeting id="my-meeting"></productdb-meeting>
+  <dyte-meeting id="my-meeting"></dyte-meeting>
 
   <script>
     const init = async () => {
-      const meeting = await ProductDBClient.init({
+      const meeting = await DyteClient.init({
         authToken: '',
         defaults: {
           audio: true,
@@ -100,7 +100,7 @@ In order to replace ProductDB's default locale set with your own, you can pass y
 
 ```html
 <body>
-  <productdb-meeting id="my-meeting"></productdb-meeting>
+  <dyte-meeting id="my-meeting"></dyte-meeting>
 
   <script type="module">
     const myLanguagePack = useLanguage({
@@ -109,7 +109,7 @@ In order to replace ProductDB's default locale set with your own, you can pass y
     });
 
     const init = async () => {
-      const meeting = await ProductDBClient.init({
+      const meeting = await DyteClient.init({
         authToken: '',
         defaults: {
           audio: true,

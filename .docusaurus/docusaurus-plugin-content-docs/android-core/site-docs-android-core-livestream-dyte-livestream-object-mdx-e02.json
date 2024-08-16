@@ -1,0 +1,44 @@
+{
+  "id": "livestream/dyte-livestream-object",
+  "title": "Livestream Objects and Methods",
+  "description": "Learn about the Android Livestream Object and its usage for effective livestream integration in your Android applications.",
+  "source": "@site/docs/android-core/livestream/dyte-livestream-object.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/dyte-livestream-object",
+  "permalink": "/android-core/livestream/dyte-livestream-object",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/livestream/dyte-livestream-object.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "livestream",
+      "permalink": "/android-core/tags/livestream"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723756942,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Livestream Objects and Methods",
+    "description": "Learn about the Android Livestream Object and its usage for effective livestream integration in your Android applications.",
+    "sidebar_position": 2,
+    "tags": [
+      "android-core",
+      "livestream"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/android-core/livestream/introduction"
+  },
+  "next": {
+    "title": "Livestream Event Listeners",
+    "permalink": "/android-core/livestream/dyte-livestream-listener"
+  }
+}

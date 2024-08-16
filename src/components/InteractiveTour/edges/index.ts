@@ -16,10 +16,10 @@ export const initialEdges = [
     animated: false,
   },
   {
-    id: "cust-server->productdb",
+    id: "cust-server->dyte",
     source: "cust-server",
-    target: "productdb",
-    sourceHandle: "productdb-conn",
+    target: "dyte",
+    sourceHandle: "dyte-conn",
     animated: false,
   },
 ] satisfies Edge[];
@@ -71,7 +71,7 @@ export function gotoStepEdges(edges: Edge[], step: number) {
     }
     case 2: {
       const updates = {
-        "cust-server->productdb": {
+        "cust-server->dyte": {
           animated: true,
           markerEnd: markerLarge,
           style: {
@@ -88,7 +88,7 @@ export function gotoStepEdges(edges: Edge[], step: number) {
     }
     case 3: {
       const updates = {
-        "cust-server->productdb": {
+        "cust-server->dyte": {
           animated: true,
           markerStart: markerLarge,
           style: {
@@ -133,7 +133,7 @@ export function gotoStepEdges(edges: Edge[], step: number) {
         "cust-server->cust-db": {
           hidden: true,
         },
-        "cust-server->productdb": {
+        "cust-server->dyte": {
           animated: true,
           markerEnd: markerLarge,
           style: {
@@ -153,7 +153,7 @@ export function gotoStepEdges(edges: Edge[], step: number) {
         "cust-server->cust-db": {
           hidden: true,
         },
-        "cust-server->productdb": {
+        "cust-server->dyte": {
           animated: true,
           markerStart: markerLarge,
           style: {

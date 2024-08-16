@@ -21,10 +21,10 @@ exposes the following.
 | active   | Map  | All plugins that are currently in use. |
 | all      | Map  | All plugins the meeting has access to. |
 
-Each plugin in the map is of type `ProductDBPlugin`.
+Each plugin in the map is of type `DytePlugin`.
 
 ```ts
-interface ProductDBPlugin {
+interface DytePlugin {
   baseURL: string;
   createdAt: string;
   description: string;

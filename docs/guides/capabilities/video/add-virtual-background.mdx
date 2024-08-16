@@ -35,15 +35,15 @@ Whenever a new release of the package is available, you can simply update the ve
 ## Initialize
 
 ```js
-import ProductDBVideoBackgroundTransformer from '@dytesdk/video-background-transformer';
+import DyteVideoBackgroundTransformer from '@dytesdk/video-background-transformer';
 ```
 
-If you installed the package using a script tag, the `ProductDBVideoBackgroundTransformer` will be automatically available for use once the installation process is complete.
+If you installed the package using a script tag, the `DyteVideoBackgroundTransformer` will be automatically available for use once the installation process is complete.
 
 To begin using the ProductDB Background Transformer, you need to initialize it by calling the `init` method. Follow the steps below to initialize the transformer:
 
 ```js
-const videoBackgroundTransformer = await ProductDBVideoBackgroundTransformer.init();
+const videoBackgroundTransformer = await DyteVideoBackgroundTransformer.init();
 ```
 
 Make sure to use the `await` keyword before the `init` method call to ensure the initialization process is completed before proceeding further. Once the initialization is successful, the `videoBackgroundTransformer` object will be ready for use in your application.
@@ -71,7 +71,7 @@ For example:
 ```js
 const videoMiddleware =
   await videoBackgroundTransformer.createStaticBackgroundVideoMiddleware(
-    `https://assets.productdb.io/backgrounds/bg-productdb-office.jpg`
+    `https://assets.dyte.io/backgrounds/bg-dyte-office.jpg`
   );
 ```
 

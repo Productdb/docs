@@ -13,7 +13,7 @@ specific use cases or events. There are 2 ways to update the config:
 1. pass the config options at the time of initiating a meeting.
 
 ```jsx {8}
-<ProductDBMeeting
+<DyteMeeting
     onInit={(meeting) => { }}
     clientId=`yourClientID`
     meetingConfig={{
@@ -25,7 +25,7 @@ specific use cases or events. There are 2 ways to update the config:
 ```
 
 2. call the `updateUIConfig` method on [`meeting` instance](./reference/meeting)
-   and pass the [`uiConfigOptions`](./reference/productdb-ui-config) as a parameter
+   and pass the [`uiConfigOptions`](./reference/dyte-ui-config) as a parameter
    to this call
 
 ```javascript
@@ -34,7 +34,7 @@ meeting.updateUIConfig(uiConfigOptions);
 
 Described below are various different options that you can customize in a
 meeting. The complete reference for UI config options can be found
-[here](./reference/productdb-ui-config).
+[here](./reference/dyte-ui-config).
 
 Here is a pictorial representation of all the config options defined below.
 

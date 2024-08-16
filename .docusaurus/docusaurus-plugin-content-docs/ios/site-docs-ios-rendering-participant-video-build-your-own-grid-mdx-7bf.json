@@ -15,14 +15,14 @@
   "formattedLastUpdatedAt": "Aug 15, 2024",
   "sidebarPosition": 2,
   "frontMatter": {
-    "image": "/static/ui-kit/1.x.x/components/productdb-grid.svg",
+    "image": "/static/ui-kit/1.x.x/components/dyte-grid.svg",
     "sidebar_position": 2,
     "description": "Learn how to create a custom grid view component in ProductDB's iOS UIKit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Using ProductDB GridView",
-    "permalink": "/ios/rendering-participant-video/using-productdbGrid"
+    "permalink": "/ios/rendering-participant-video/using-dyteGrid"
   },
   "next": {
     "title": "Pre-built Settings screen",

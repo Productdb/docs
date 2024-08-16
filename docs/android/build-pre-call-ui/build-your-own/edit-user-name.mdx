@@ -15,7 +15,7 @@ In the preset editor, ensure `Miscellaneous > Edit Name` is toggled enabled.
 
 ### File: CustomMeetingPreview.tsx
 
-We add a `<ProductDBInputField>` element for entering the participant name. We should not show this input if the user doese not have permission to edit name (`meeting.localUser.permissions.miscellaneous.canEditDisplayName`)
+We add a `<DyteInputField>` element for entering the participant name. We should not show this input if the user doese not have permission to edit name (`meeting.localUser.permissions.miscellaneous.canEditDisplayName`)
 
 ```xml {15, 21}
 <?xml version="1.0" encoding="utf-8"?>
@@ -23,7 +23,7 @@ We add a `<ProductDBInputField>` element for entering the participant name. We s
   ....
   >
 
-  <dyte.io.uikit.view.ProductDBLabel
+  <dyte.io.uikit.view.DyteLabel
     android:id="@+id/dyteLabelView"
     android:layout_width="300dp"
     android:layout_height="25dp"
@@ -32,7 +32,7 @@ We add a `<ProductDBInputField>` element for entering the participant name. We s
     android:textSize="16sp"
   />
 
-  <dyte.io.uikit.view.ProductDBInputField
+  <dyte.io.uikit.view.DyteInputField
     android:contentDescription="Textbox for display name"
     android:id="@+id/textInputEditText"
     android:layout_width="300dp"
@@ -40,7 +40,7 @@ We add a `<ProductDBInputField>` element for entering the participant name. We s
     android:hint="Your name"
   />
 
-  <dyte.io.uikit.view.ProductDBJoinButton
+  <dyte.io.uikit.view.DyteJoinButton
     android:contentDescription="Button for joining meeting"
     android:id="@+id/dytejoinbutton_setup_screen"
     android:layout_width="300dp"

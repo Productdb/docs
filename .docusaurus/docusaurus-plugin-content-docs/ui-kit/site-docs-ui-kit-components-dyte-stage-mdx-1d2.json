@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-stage",
+  "title": "dyte-stage",
+  "description": "Learn how to use and customize the dyte-stage component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-stage.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-stage",
+  "permalink": "/ui-kit/components/dyte-stage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-stage.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the dyte-stage component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-spotlight-grid",
+    "permalink": "/ui-kit/components/dyte-spotlight-grid"
+  },
+  "next": {
+    "title": "dyte-switch",
+    "permalink": "/ui-kit/components/dyte-switch"
+  }
+}

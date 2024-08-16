@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-participant-count",
+  "title": "DyteParticipantCount",
+  "description": "Learn how to use and customize the DyteParticipantCount component in ProductDB's React Native UI Kit with our detailed documentation.",
+  "source": "@site/docs/rn-ui-kit/components/dyte-participant-count.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participant-count",
+  "permalink": "/react-native/components/dyte-participant-count",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/components/dyte-participant-count.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-participant-count.svg",
+    "description": "Learn how to use and customize the DyteParticipantCount component in ProductDB's React Native UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteNotifications",
+    "permalink": "/react-native/components/dyte-notifications"
+  },
+  "next": {
+    "title": "DyteParticipantTile",
+    "permalink": "/react-native/components/dyte-participant-tile"
+  }
+}

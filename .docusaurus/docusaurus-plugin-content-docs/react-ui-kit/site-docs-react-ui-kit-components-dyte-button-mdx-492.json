@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-button",
   "title": "DyteButton",
-  "description": "Learn how to use and customize the DyteButton component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteButton component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-button.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-button",
@@ -15,7 +15,7 @@
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-button.svg",
-    "description": "Learn how to use and customize the DyteButton component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteButton component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

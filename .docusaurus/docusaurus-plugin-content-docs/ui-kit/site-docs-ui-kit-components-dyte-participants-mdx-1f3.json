@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-participants",
+  "title": "dyte-participants",
+  "description": "Learn how to use and customize the dyte-participants component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-participants.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participants",
+  "permalink": "/ui-kit/components/dyte-participants",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-participants.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-participants.svg",
+    "description": "Learn how to use and customize the dyte-participants component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-participants-toggle",
+    "permalink": "/ui-kit/components/dyte-participants-toggle"
+  },
+  "next": {
+    "title": "dyte-permissions-message",
+    "permalink": "/ui-kit/components/dyte-permissions-message"
+  }
+}

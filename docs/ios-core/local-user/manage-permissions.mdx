@@ -26,7 +26,7 @@ Similarly to listen to callbacks regarding media permissions once user joins the
 meeting
 
 ```swift
-extension MeetingViewModel: ProductDBSelfEventsListener {
+extension MeetingViewModel: DyteSelfEventsListener {
     func onMeetingRoomJoinedWithoutCameraPermission() {
       // when meeting room is joined without camera permission
     }

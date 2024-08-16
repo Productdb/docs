@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-switch",
+  "title": "dyte-switch",
+  "description": "Learn how to use and customize the dyte-switch component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-switch.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-switch",
+  "permalink": "/ui-kit/components/dyte-switch",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-switch.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-switch.svg",
+    "description": "Learn how to use and customize the dyte-switch component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-stage",
+    "permalink": "/ui-kit/components/dyte-stage"
+  },
+  "next": {
+    "title": "dyte-text-field",
+    "permalink": "/ui-kit/components/dyte-text-field"
+  }
+}

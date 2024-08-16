@@ -21,7 +21,7 @@ You'll learn how to:
 Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
 and completed the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.productdb.io/)
+- Create a [ProductDB Developer Account](https://dev.dyte.io/)
 - Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
@@ -37,9 +37,9 @@ npm install @dytesdk/react-web-core
 
 ## Step 2: Initialize the SDK
 
-To start, we need to initialize the libraries and wrap the application in the `<ProductDBProvider />` component. Import the `ProductDBProvider` from the `dytesdk/react-web-core`.
+To start, we need to initialize the libraries and wrap the application in the `<DyteProvider />` component. Import the `DyteProvider` from the `dytesdk/react-web-core`.
 
-The `<ProductDBProvider />` provides the necessary context for the various hooks to consume the `meeting` object as per their purpose. ProductDB provides the following built-in hooks for your usage:
+The `<DyteProvider />` provides the necessary context for the various hooks to consume the `meeting` object as per their purpose. ProductDB provides the following built-in hooks for your usage:
 
 - `useDyteClient()`
 - `useDyteMeeting()`
@@ -50,7 +50,7 @@ For more information on hooks, see [Use Web Core Hooks](/react-ui-kit/using-hook
 To initialize, call the `init()` method and pass the `authToken`. You can get the `authToken` using the [Add Participant API](/api#/operations/add_participant).
 
 ```jsx
-import { ProductDBProvider, useDyteClient } from '@dytesdk/react-web-core';
+import { DyteProvider, useDyteClient } from '@dytesdk/react-web-core';
 import { useEffect } from 'react';
 
 export default function App() {
@@ -67,9 +67,9 @@ export default function App() {
   }, []);
 
   return (
-    <ProductDBProvider value={meeting}>
+    <DyteProvider value={meeting}>
       {/* Render your UI here. Subcomponents can now use the `useDyteMeeting` and `useDyteSelector` hooks */}
-    </ProductDBProvider>
+    </DyteProvider>
   );
 }
 ```

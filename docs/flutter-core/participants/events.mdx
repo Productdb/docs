@@ -15,10 +15,10 @@ tags:
 Trigger an event when any participant joins the meeting.
 
 ```dart
-class ParticipantsEventListener extends ProductDBParticipantEventsListener {
+class ParticipantsEventListener extends DyteParticipantEventsListener {
   ...
   @override
-  void onParticipantJoin(ProductDBJoinedMeetingParticipant participant) {
+  void onParticipantJoin(DyteJoinedMeetingParticipant participant) {
     // your code here to handle new participant
   }
   ...
@@ -33,7 +33,7 @@ Trigger an event when any participant update in meeting. For example, when a par
 ...
 
 @override
-void onParticipantUpdated(ProductDBJoinedMeetingParticipant participant) {
+void onParticipantUpdated(DyteJoinedMeetingParticipant participant) {
          // your code here to handle new participant
 }
 
@@ -48,7 +48,7 @@ Trigger an event when any participant leaves the meeting.
 ...
 
 @override
-void onParticipantLeave(ProductDBJoinedMeetingParticipant participant) {
+void onParticipantLeave(DyteJoinedMeetingParticipant participant) {
          // your code here to handle participant left from meeting
 }
 
@@ -65,7 +65,7 @@ Trigger an event when any participant starts or stops the video.
 @override
 void onVideoUpdate({
  required bool videoEnabled,
- required ProductDBJoinedMeetingParticipant participant,
+ required DyteJoinedMeetingParticipant participant,
 }) {
          // your code here to handle participant video toggle update
 }
@@ -83,7 +83,7 @@ Triggers an event when a participant starts or stops the audio.
 @override
 void onAudioUpdate({
  required bool audioEnabled,
- required ProductDBJoinedMeetingParticipant participant,
+ required DyteJoinedMeetingParticipant participant,
 }) {
     // your code here to handle participant audio toggle update
 }
@@ -99,13 +99,13 @@ Triggers an event when a participant starts or stops screen share.
 ...
 
 @override
-void onScreenShareStarted(ProductDBJoinedMeetingParticipant participant) {
-  /// handle screen share started of `ProductDBJoinedMeetingParticipant` participant
+void onScreenShareStarted(DyteJoinedMeetingParticipant participant) {
+  /// handle screen share started of `DyteJoinedMeetingParticipant` participant
 }
 
 @override
-void onScreenShareEnded(ProductDBJoinedMeetingParticipant participant) {
-  /// handle screen share ended of `ProductDBJoinedMeetingParticipant` participant
+void onScreenShareEnded(DyteJoinedMeetingParticipant participant) {
+  /// handle screen share ended of `DyteJoinedMeetingParticipant` participant
 }
 
 ...
@@ -113,7 +113,7 @@ void onScreenShareEnded(ProductDBJoinedMeetingParticipant participant) {
 
 ## Screen share participants list
 
-Obtain the list of the screenshare participants, using the `participants.screenshares` function which returns a `ProductDBRoomParticipants` object that maintains a record of participants who have joined, pinned, and screenshared. This object updates with each `onUpdate` call.
+Obtain the list of the screenshare participants, using the `participants.screenshares` function which returns a `DyteRoomParticipants` object that maintains a record of participants who have joined, pinned, and screenshared. This object updates with each `onUpdate` call.
 
 ## Screen share view
 
@@ -132,7 +132,7 @@ This event is triggered when the active participant changes, for example, when t
 ...
 
 @override
-void onActiveParticipantsChanged(List<ProductDBJoinedMeetingParticipant> active) {
+void onActiveParticipantsChanged(List<DyteJoinedMeetingParticipant> active) {
   /// handle active participants changed
 }
 

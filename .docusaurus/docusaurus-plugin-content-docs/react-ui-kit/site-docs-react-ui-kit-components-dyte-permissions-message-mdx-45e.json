@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-permissions-message",
   "title": "DytePermissionsMessage",
-  "description": "Learn how to use and customize the DytePermissionsMessage component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DytePermissionsMessage component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-permissions-message.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-permissions-message",
@@ -14,7 +14,7 @@
   "lastUpdatedAt": 1723767138,
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
-    "description": "Learn how to use and customize the DytePermissionsMessage component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DytePermissionsMessage component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

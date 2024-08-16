@@ -20,11 +20,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ProductDBSetupScreen",
+    "title": "DyteSetupScreen",
     "permalink": "/ios/build-pre-call-ui/default-setup-screen"
   },
   "next": {
     "title": "Setting Screen",
-    "permalink": "/ios/build-pre-call-ui/build-your-own/productdb-setting"
+    "permalink": "/ios/build-pre-call-ui/build-your-own/dyte-setting"
   }
 }

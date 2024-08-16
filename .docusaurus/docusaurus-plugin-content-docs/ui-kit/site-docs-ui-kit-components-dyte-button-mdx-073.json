@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-button",
+  "title": "dyte-button",
+  "description": "Learn how to use and customize the dyte-button component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-button",
+  "permalink": "/ui-kit/components/dyte-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-button.svg",
+    "description": "Learn how to use and customize the dyte-button component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-avatar",
+    "permalink": "/ui-kit/components/dyte-avatar"
+  },
+  "next": {
+    "title": "dyte-camera-toggle",
+    "permalink": "/ui-kit/components/dyte-camera-toggle"
+  }
+}

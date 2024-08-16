@@ -58,16 +58,16 @@ and downloading files to the device. This saves developers effort, allowing them
 
 ProductDB's prebuilt Chat screen comes in two variants:
 
-1. **ProductDBChatBottomSheet**: Displays the chat UI as a full-screen bottom sheet that can be dismissed by swiping down.
+1. **DyteChatBottomSheet**: Displays the chat UI as a full-screen bottom sheet that can be dismissed by swiping down.
 
 ```kotlin
-import dyte.io.uikit.screens.chat.ProductDBChatBottomSheet
+import dyte.io.uikit.screens.chat.DyteChatBottomSheet
 
-val dyteChatBottomSheet = ProductDBChatBottomSheet()
+val dyteChatBottomSheet = DyteChatBottomSheet()
 dyteChatBottomSheet.show(childFragmentManager, TAG)
 ```
 
-2. **ProductDBChatFragment**: Shows the chat UI inside an Android Fragment, providing the flexibility to display the chat UI 
+2. **DyteChatFragment**: Shows the chat UI inside an Android Fragment, providing the flexibility to display the chat UI 
 full screen or as a part of the screen with other UI elements.
 
 ```xml
@@ -79,9 +79,9 @@ full screen or as a part of the screen with other UI elements.
 ```
 
 ```kotlin
-import dyte.io.uikit.screens.chat.ProductDBChatFragment
+import dyte.io.uikit.screens.chat.DyteChatFragment
 
-val dyteChatFragment = ProductDBChatFragment()
+val dyteChatFragment = DyteChatFragment()
 supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container_view, dyteChatFragment, TAG)
                 .commit()

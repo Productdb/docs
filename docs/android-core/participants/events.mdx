@@ -13,7 +13,7 @@ tags:
 ## All Participants Events
 
 You can subscribe to events for all participants by implementing
-`ProductDBParticipantEventsListener` callback and then passing that object to
+`DyteParticipantEventsListener` callback and then passing that object to
 `meeting.addParticipantEventsListener(dyteParticipantEventsListener)` method.
 
 Here are the supported methods:
@@ -23,8 +23,8 @@ Here are the supported methods:
 Triggers an event when any participant joins the meeting.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
-        override fun onParticipantJoin(participant: ProductDBMeetingParticipant) {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
+        override fun onParticipantJoin(participant: DyteMeetingParticipant) {
             // your code here to handle new participant
         }
     }
@@ -35,8 +35,8 @@ Triggers an event when any participant joins the meeting.
 Triggers an event when any participant leaves the meeting.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
-        override fun onParticipantLeave(participant: ProductDBMeetingParticipant) {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
+        override fun onParticipantLeave(participant: DyteMeetingParticipant) {
             // your code here to handle participant left from meeting
         }
     }
@@ -47,8 +47,8 @@ Triggers an event when any participant leaves the meeting.
 Triggers an event whenever there is any change in the `meeting.participants` object. This includes any updates to participant lists or changes in individual participant within those lists.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
-        override fun onUpdate(participants: ProductDBParticipants) {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
+        override fun onUpdate(participants: DyteParticipants) {
             // your code here to handle participant update
         }
     }
@@ -59,8 +59,8 @@ Triggers an event whenever there is any change in the `meeting.participants` obj
 Triggers an event when any participant starts / stops video.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
-        override fun onVideoUpdate(videoEnabled: Boolean, participant: ProductDBMeetingParticipant) {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
+        override fun onVideoUpdate(videoEnabled: Boolean, participant: DyteMeetingParticipant) {
             // your code here to handle participant video toggle update
         }
     }
@@ -71,8 +71,8 @@ Triggers an event when any participant starts / stops video.
 Triggers an event when any participant starts / stops audio.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
-        override fun onAudioUpdate(audioEnabled: Boolean, participant: ProductDBMeetingParticipant) {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
+        override fun onAudioUpdate(audioEnabled: Boolean, participant: DyteMeetingParticipant) {
             // your code here to handle participant audio toggle update
         }
     }
@@ -83,17 +83,17 @@ Triggers an event when any participant starts / stops audio.
 Triggers an event when there is any change in screenshares in a meeting.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
         override fun onScreenSharesUpdated() {
             // your code here to handle screenshares from meeting
             // you can use `meeting.participants.screenshares` to get latest screenshare participants
         }
 
-        override fun onScreenShareStarted(participant: ProductDBJoinedMeetingParticipant) {
+        override fun onScreenShareStarted(participant: DyteJoinedMeetingParticipant) {
             // participant stared presenting screen in the meeting
         }
 
-        override fun onScreenShareEnded(participant: ProductDBJoinedMeetingParticipant) {
+        override fun onScreenShareEnded(participant: DyteJoinedMeetingParticipant) {
             // participant stopped presenting screen in the meeting
         }
     }
@@ -104,8 +104,8 @@ Triggers an event when there is any change in screenshares in a meeting.
 Triggers an event when there is any change in active speaker in the meeting.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
-        override fun onActiveSpeakerChanged(participant: ProductDBMeetingParticipant) {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
+        override fun onActiveSpeakerChanged(participant: DyteMeetingParticipant) {
             // your code here to handle active speaker
         }
 
@@ -120,12 +120,12 @@ Triggers an event when there is any change in active speaker in the meeting.
 Triggers an event when there is any change in pinned participant in the meeting.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
-        override fun onParticipantPinned(participant: ProductDBMeetingParticipant) {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
+        override fun onParticipantPinned(participant: DyteMeetingParticipant) {
             // your code here to show pinned participant
         }
 
-        override fun onParticipantUnpinned(participant: ProductDBMeetingParticipant) {
+        override fun onParticipantUnpinned(participant: DyteMeetingParticipant) {
             // your code here to remove pinned participant
         }
     }
@@ -136,8 +136,8 @@ Triggers an event when there is any change in pinned participant in the meeting.
 Triggers an event when there is any change in active participants list in the meeting.
 
 ```kotlin
-    private val participantEventsListener = object : ProductDBParticipantEventsListener {
-        override fun onActiveParticipantsChanged(active: List<ProductDBMeetingParticipant>) {
+    private val participantEventsListener = object : DyteParticipantEventsListener {
+        override fun onActiveParticipantsChanged(active: List<DyteMeetingParticipant>) {
             // your code here to refresh active participants
         }
     }
@@ -145,7 +145,7 @@ Triggers an event when there is any change in active participants list in the me
 
 ## Single Participant Events
 
-You can also subscribe to events for a single participant by implementing `ProductDBParticipantUpdateListener` callback and then passing that object to `participant.addParticipantUpdateListener(dyteParticipantUpdateListener)` method.
+You can also subscribe to events for a single participant by implementing `DyteParticipantUpdateListener` callback and then passing that object to `participant.addParticipantUpdateListener(dyteParticipantUpdateListener)` method.
 
 Here are the supported methods:
 
@@ -154,7 +154,7 @@ Here are the supported methods:
 Triggers an event whenever there is any change in participant.
 
 ```kotlin
-    private val participantUpdateListener = object : ProductDBParticipantUpdateListener {
+    private val participantUpdateListener = object : DyteParticipantUpdateListener {
         override fun onUpdate() {
             // your code here to handle participant update
         }
@@ -166,7 +166,7 @@ Triggers an event whenever there is any change in participant.
 Triggers an event when the participant starts / stops video.
 
 ```kotlin
-    private val participantUpdateListener = object : ProductDBParticipantUpdateListener {
+    private val participantUpdateListener = object : DyteParticipantUpdateListener {
         override fun onVideoUpdate(isEnabled: Boolean) {
             // your code here to handle participant video toggle update
         }
@@ -178,7 +178,7 @@ Triggers an event when the participant starts / stops video.
 Triggers an event when the participant starts / stops audio.
 
 ```kotlin
-    private val participantUpdateListener = object : ProductDBParticipantUpdateListener {
+    private val participantUpdateListener = object : DyteParticipantUpdateListener {
         override fun onAudioUpdate(isEnabled: Boolean) {
             // your code here to handle participant audio toggle update
         }
@@ -190,7 +190,7 @@ Triggers an event when the participant starts / stops audio.
 Triggers an event when the participant is pinned / unpinned.
 
 ```kotlin
-    private val participantUpdateListener = object : ProductDBParticipantUpdateListener {
+    private val participantUpdateListener = object : DyteParticipantUpdateListener {
         override fun onPinned() {
             // your code here to show pinned participant
         }
@@ -206,7 +206,7 @@ Triggers an event when the participant is pinned / unpinned.
 Triggers an event when the participant starts / stops screen sharing.
 
 ```kotlin
-    private val participantUpdateListener = object : ProductDBParticipantUpdateListener {
+    private val participantUpdateListener = object : DyteParticipantUpdateListener {
         override fun onScreenShareStarted() {
             // your code here to handle screen share started
         }

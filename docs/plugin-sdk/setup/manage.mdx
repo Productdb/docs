@@ -14,13 +14,13 @@ deploy a specific version.
 List all available versions of your plugin
 
 ```shell
-productdb plugins version list
+dyte plugins version list
 ```
 
 You can now select the version you wish to deploy.
 
 ```shell
-productdb plugins version change-latest -v <version>
+dyte plugins version change-latest -v <version>
 ```
 
 ### Unpublishing
@@ -29,18 +29,18 @@ Unpublishing a plugin removes all versions of it from our database and your
 meetings.
 
 ```shell
-productdb plugins unpublish
+dyte plugins unpublish
 ```
 
 If you wish to delete a specific version of the plugin you can do that with
 
 ```shell
-productdb plugins version delete -v <version>
+dyte plugins version delete -v <version>
 ```
 
 ### Plugin configuration
 
-You can update your `productdb-config` to update properties like name, description,
+You can update your `dyte-config` to update properties like name, description,
 build path and more. These changes will reflect once you publish or deploy the
 plugin.
 
@@ -48,7 +48,7 @@ plugin.
 
 Each ProductDB user is associated to a preset. This preset dictates the meeting
 experience for that user. You can customize how this preset can interact with a
-plugin using the [Preset Editor](https://dev.productdb.io/roles-presets).
+plugin using the [Preset Editor](https://dev.dyte.io/roles-presets).
 
 In your preset editor you can select the plugins you want a preset to have
 access to.

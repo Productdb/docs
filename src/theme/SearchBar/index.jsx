@@ -26,7 +26,7 @@ import clsx from 'clsx';
 import { ChatBot } from '@dytesdk/docs-ai-react';
 
 import { Search } from 'react-feather';
-import { ProductDBAISearchIcon } from '@site/src/icons';
+import { DyteAISearchIcon } from '@site/src/icons';
 
 let DocSearchModal = null;
 function Hit({ hit, children }) {
@@ -182,7 +182,7 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
             onOpen();
           }}
         >
-          <ProductDBAISearchIcon className="h-6 w-6" />
+          <DyteAISearchIcon className="h-6 w-6" />
           <span className="sr-only pointer-events-none text-xs font-medium text-[var(--docsearch-muted-color)] transition-all group-hover:xl:not-sr-only">
             ProductDB AI
           </span>
@@ -246,7 +246,7 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
                     )
                   }
                 >
-                  <ProductDBAISearchIcon className="h-5 w-5" />
+                  <DyteAISearchIcon className="h-5 w-5" />
                   ProductDB AI
                   <span className="text-[9px] uppercase text-primary-100">
                     Beta

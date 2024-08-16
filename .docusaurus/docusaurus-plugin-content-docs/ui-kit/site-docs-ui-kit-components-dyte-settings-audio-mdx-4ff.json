@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-settings-audio",
+  "title": "dyte-settings-audio",
+  "description": "Learn how to use and customize the dyte-settings-audio component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-settings-audio.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-settings-audio",
+  "permalink": "/ui-kit/components/dyte-settings-audio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-settings-audio.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the dyte-settings-audio component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-screenshare-view",
+    "permalink": "/ui-kit/components/dyte-screenshare-view"
+  },
+  "next": {
+    "title": "dyte-settings-toggle",
+    "permalink": "/ui-kit/components/dyte-settings-toggle"
+  }
+}

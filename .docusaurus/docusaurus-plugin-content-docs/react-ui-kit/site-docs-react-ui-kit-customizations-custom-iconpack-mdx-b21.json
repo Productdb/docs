@@ -1,7 +1,7 @@
 {
   "id": "customizations/custom-iconpack",
   "title": "Customize Meeting Icons",
-  "description": "Dyte's UI Kit provides all the necessary UI components to allow complete customization of all its UI Kit components. You can customize your meeting icons such as chat, clock, leave meeting, mic on and off, and more.",
+  "description": "ProductDB's UI Kit provides all the necessary UI components to allow complete customization of all its UI Kit components. You can customize your meeting icons such as chat, clock, leave meeting, mic on and off, and more.",
   "source": "@site/docs/react-ui-kit/customizations/custom-iconpack.mdx",
   "sourceDirName": "customizations",
   "slug": "/customizations/custom-iconpack",

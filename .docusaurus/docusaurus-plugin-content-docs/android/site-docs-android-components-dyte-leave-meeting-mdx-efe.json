@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-leave-meeting",
+  "title": "DyteLeaveMeetingView",
+  "description": "Learn how to use and customize the DyteLeaveMeetingView component in ProductDB's Android with our detailed documentation.",
+  "source": "@site/docs/android/components/dyte-leave-meeting.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-leave-meeting",
+  "permalink": "/android/components/dyte-leave-meeting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/dyte-leave-meeting.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-leave-meeting.svg",
+    "description": "Learn how to use and customize the DyteLeaveMeetingView component in ProductDB's Android with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteLeaveButton",
+    "permalink": "/android/components/dyte-leave-button"
+  },
+  "next": {
+    "title": "DyteMeetingTitleView",
+    "permalink": "/android/components/dyte-meeting-title"
+  }
+}

@@ -24,7 +24,7 @@
     "permalink": "/react-web-core/error-codes/error-code"
   },
   "next": {
-    "title": "ProductDBClient",
-    "permalink": "/react-web-core/reference/ProductDBClient"
+    "title": "DyteClient",
+    "permalink": "/react-web-core/reference/DyteClient"
   }
 }

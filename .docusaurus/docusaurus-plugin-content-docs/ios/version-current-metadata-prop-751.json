@@ -45,7 +45,7 @@
         "items": [
           {
             "type": "link",
-            "label": "ProductDBSetupScreen",
+            "label": "DyteSetupScreen",
             "href": "/ios/build-pre-call-ui/default-setup-screen",
             "docId": "build-pre-call-ui/default-setup-screen",
             "unlisted": false
@@ -66,8 +66,8 @@
               {
                 "type": "link",
                 "label": "Setting Screen",
-                "href": "/ios/build-pre-call-ui/build-your-own/productdb-setting",
-                "docId": "build-pre-call-ui/build-your-own/productdb-setting",
+                "href": "/ios/build-pre-call-ui/build-your-own/dyte-setting",
+                "docId": "build-pre-call-ui/build-your-own/dyte-setting",
                 "unlisted": false
               }
             ]
@@ -83,8 +83,8 @@
           {
             "type": "link",
             "label": "Using ProductDB GridView",
-            "href": "/ios/rendering-participant-video/using-productdbGrid",
-            "docId": "rendering-participant-video/using-productdbGrid",
+            "href": "/ios/rendering-participant-video/using-dyteGrid",
+            "docId": "rendering-participant-video/using-dyteGrid",
             "unlisted": false
           },
           {
@@ -228,233 +228,233 @@
         "items": [
           {
             "type": "link",
-            "label": "ProductDBActiveTabSelectorView",
-            "href": "/ios/components/productdb-active-tab-selector-view",
-            "docId": "components/productdb-active-tab-selector-view",
+            "label": "DyteActiveTabSelectorView",
+            "href": "/ios/components/dyte-active-tab-selector-view",
+            "docId": "components/dyte-active-tab-selector-view",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBAvatarView",
-            "href": "/ios/components/productdb-avatar",
-            "docId": "components/productdb-avatar",
+            "label": "DyteAvatarView",
+            "href": "/ios/components/dyte-avatar",
+            "docId": "components/dyte-avatar",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBButton",
-            "href": "/ios/components/productdb-button",
-            "docId": "components/productdb-button",
+            "label": "DyteButton",
+            "href": "/ios/components/dyte-button",
+            "docId": "components/dyte-button",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBSwitchCameraButtonControlBar",
-            "href": "/ios/components/productdb-camera-toggle",
-            "docId": "components/productdb-camera-toggle",
+            "label": "DyteSwitchCameraButtonControlBar",
+            "href": "/ios/components/dyte-camera-toggle",
+            "docId": "components/dyte-camera-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBChatViewController",
-            "href": "/ios/components/productdb-chat",
-            "docId": "components/productdb-chat",
+            "label": "DyteChatViewController",
+            "href": "/ios/components/dyte-chat",
+            "docId": "components/dyte-chat",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBClockView",
-            "href": "/ios/components/productdb-clock",
-            "docId": "components/productdb-clock",
+            "label": "DyteClockView",
+            "href": "/ios/components/dyte-clock",
+            "docId": "components/dyte-clock",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "ConfigureWebinerAlertView",
-            "href": "/ios/components/productdb-configure-alertview-protocol",
-            "docId": "components/productdb-configure-alertview-protocol",
+            "href": "/ios/components/dyte-configure-alertview-protocol",
+            "docId": "components/dyte-configure-alertview-protocol",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBControlBarButton",
-            "href": "/ios/components/productdb-controlbar-button",
-            "docId": "components/productdb-controlbar-button",
+            "label": "DyteControlBarButton",
+            "href": "/ios/components/dyte-controlbar-button",
+            "docId": "components/dyte-controlbar-button",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBEndMeetingControlBarButton",
-            "href": "/ios/components/productdb-end-meeting",
-            "docId": "components/productdb-end-meeting",
+            "label": "DyteEndMeetingControlBarButton",
+            "href": "/ios/components/dyte-end-meeting",
+            "docId": "components/dyte-end-meeting",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBMeetingHeaderView",
-            "href": "/ios/components/productdb-grid-pagination",
-            "docId": "components/productdb-grid-pagination",
+            "label": "DyteMeetingHeaderView",
+            "href": "/ios/components/dyte-grid-pagination",
+            "docId": "components/dyte-grid-pagination",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "GridView",
-            "href": "/ios/components/productdb-grid",
-            "docId": "components/productdb-grid",
+            "href": "/ios/components/dyte-grid",
+            "docId": "components/dyte-grid",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBWebinarAlertView",
-            "href": "/ios/components/productdb-join-stage",
-            "docId": "components/productdb-join-stage",
+            "label": "DyteWebinarAlertView",
+            "href": "/ios/components/dyte-join-stage",
+            "docId": "components/dyte-join-stage",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBLeaveDialogAlertButtonType",
-            "href": "/ios/components/productdb-leave-alert-actions",
-            "docId": "components/productdb-leave-alert-actions",
+            "label": "DyteLeaveDialogAlertButtonType",
+            "href": "/ios/components/dyte-leave-alert-actions",
+            "docId": "components/dyte-leave-alert-actions",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBLeaveDialog",
-            "href": "/ios/components/productdb-leave-meeting-alert",
-            "docId": "components/productdb-leave-meeting-alert",
+            "label": "DyteLeaveDialog",
+            "href": "/ios/components/dyte-leave-meeting-alert",
+            "docId": "components/dyte-leave-meeting-alert",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBMeetingTitleLabel",
-            "href": "/ios/components/productdb-meeting-titlelabel",
-            "docId": "components/productdb-meeting-titlelabel",
+            "label": "DyteMeetingTitleLabel",
+            "href": "/ios/components/dyte-meeting-titlelabel",
+            "docId": "components/dyte-meeting-titlelabel",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBUIKit",
-            "href": "/ios/components/productdb-meeting",
-            "docId": "components/productdb-meeting",
+            "label": "DyteUIKit",
+            "href": "/ios/components/dyte-meeting",
+            "docId": "components/dyte-meeting",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBAudioButtonControlBar",
-            "href": "/ios/components/productdb-mic-toggle",
-            "docId": "components/productdb-mic-toggle",
+            "label": "DyteAudioButtonControlBar",
+            "href": "/ios/components/dyte-mic-toggle",
+            "docId": "components/dyte-mic-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBMoreButtonControlBar",
-            "href": "/ios/components/productdb-more-toggle",
-            "docId": "components/productdb-more-toggle",
+            "label": "DyteMoreButtonControlBar",
+            "href": "/ios/components/dyte-more-toggle",
+            "docId": "components/dyte-more-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBMeetingNameTag",
-            "href": "/ios/components/productdb-name-tag",
-            "docId": "components/productdb-name-tag",
+            "label": "DyteMeetingNameTag",
+            "href": "/ios/components/dyte-name-tag",
+            "docId": "components/dyte-name-tag",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBNavigationBar",
-            "href": "/ios/components/productdb-navigationbar",
-            "docId": "components/productdb-navigationbar",
+            "label": "DyteNavigationBar",
+            "href": "/ios/components/dyte-navigationbar",
+            "docId": "components/dyte-navigationbar",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBParticipantCountView",
-            "href": "/ios/components/productdb-participant-count",
-            "docId": "components/productdb-participant-count",
+            "label": "DyteParticipantCountView",
+            "href": "/ios/components/dyte-participant-count",
+            "docId": "components/dyte-participant-count",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBParticipantTileView",
-            "href": "/ios/components/productdb-participant-tile-view",
-            "docId": "components/productdb-participant-tile-view",
+            "label": "DyteParticipantTileView",
+            "href": "/ios/components/dyte-participant-tile-view",
+            "docId": "components/dyte-participant-tile-view",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "ParticipantViewController",
-            "href": "/ios/components/productdb-participants",
-            "docId": "components/productdb-participants",
+            "href": "/ios/components/dyte-participants",
+            "docId": "components/dyte-participants",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBPluginsView",
-            "href": "/ios/components/productdb-plugin-view",
-            "docId": "components/productdb-plugin-view",
+            "label": "DytePluginsView",
+            "href": "/ios/components/dyte-plugin-view",
+            "docId": "components/dyte-plugin-view",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBPluginScreenShareTabButton",
-            "href": "/ios/components/productdb-pluginScreenShareTab-button",
-            "docId": "components/productdb-pluginScreenShareTab-button",
+            "label": "DytePluginScreenShareTabButton",
+            "href": "/ios/components/dyte-pluginScreenShareTab-button",
+            "docId": "components/dyte-pluginScreenShareTab-button",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBPluginViewController",
-            "href": "/ios/components/productdb-plugins",
-            "docId": "components/productdb-plugins",
+            "label": "DytePluginViewController",
+            "href": "/ios/components/dyte-plugins",
+            "docId": "components/dyte-plugins",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBCreatePollsViewController",
-            "href": "/ios/components/productdb-poll-form",
-            "docId": "components/productdb-poll-form",
+            "label": "DyteCreatePollsViewController",
+            "href": "/ios/components/dyte-poll-form",
+            "docId": "components/dyte-poll-form",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBShowPollsViewController",
-            "href": "/ios/components/productdb-polls",
-            "docId": "components/productdb-polls",
+            "label": "DyteShowPollsViewController",
+            "href": "/ios/components/dyte-polls",
+            "docId": "components/dyte-polls",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBRecordingView",
-            "href": "/ios/components/productdb-recording-indicator",
-            "docId": "components/productdb-recording-indicator",
+            "label": "DyteRecordingView",
+            "href": "/ios/components/dyte-recording-indicator",
+            "docId": "components/dyte-recording-indicator",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBSettingViewController",
-            "href": "/ios/components/productdb-settings",
-            "docId": "components/productdb-settings",
+            "label": "DyteSettingViewController",
+            "href": "/ios/components/dyte-settings",
+            "docId": "components/dyte-settings",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "SetupViewControllerDelegate",
-            "href": "/ios/components/productdb-setup-screen-delegate",
-            "docId": "components/productdb-setup-screen-delegate",
+            "href": "/ios/components/dyte-setup-screen-delegate",
+            "docId": "components/dyte-setup-screen-delegate",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBSetupViewController",
-            "href": "/ios/components/productdb-setup-screen",
-            "docId": "components/productdb-setup-screen",
+            "label": "DyteSetupViewController",
+            "href": "/ios/components/dyte-setup-screen",
+            "docId": "components/dyte-setup-screen",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ProductDBStageActionButtonControlBar",
-            "href": "/ios/components/productdb-webinar-stage-toggle",
-            "docId": "components/productdb-webinar-stage-toggle",
+            "label": "DyteStageActionButtonControlBar",
+            "href": "/ios/components/dyte-webinar-stage-toggle",
+            "docId": "components/dyte-webinar-stage-toggle",
             "unlisted": false
           }
         ]
@@ -468,8 +468,8 @@
           {
             "type": "link",
             "label": "VideoPeerViewModel",
-            "href": "/ios/helper-classes/productdb-plugin-view-model",
-            "docId": "helper-classes/productdb-plugin-view-model",
+            "href": "/ios/helper-classes/dyte-plugin-view-model",
+            "docId": "helper-classes/dyte-plugin-view-model",
             "unlisted": false
           }
         ]
@@ -485,21 +485,21 @@
     ]
   },
   "docs": {
+    "build-pre-call-ui/build-your-own/dyte-setting": {
+      "id": "build-pre-call-ui/build-your-own/dyte-setting",
+      "title": "Setting Screen",
+      "description": "Learn how to use and customize the DyteSettingViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
     "build-pre-call-ui/build-your-own/initial-code-skeleton": {
       "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
       "title": "Basic structure",
       "description": "What are we building?",
       "sidebar": "tutorialSidebar"
     },
-    "build-pre-call-ui/build-your-own/productdb-setting": {
-      "id": "build-pre-call-ui/build-your-own/productdb-setting",
-      "title": "Setting Screen",
-      "description": "Learn how to use and customize the ProductDBSettingViewController component in ProductDB's iOS UiKit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
     "build-pre-call-ui/default-setup-screen": {
       "id": "build-pre-call-ui/default-setup-screen",
-      "title": "ProductDBSetupScreen",
+      "title": "DyteSetupScreen",
       "description": "ProductDB provides a default pre-call preview UI, also known as setup screen as part of our UI components.",
       "sidebar": "tutorialSidebar"
     },
@@ -518,205 +518,205 @@
     "chat/pre-built-chat-screen": {
       "id": "chat/pre-built-chat-screen",
       "title": "Pre-built Chat Screen",
-      "description": "Learn how to use and customize the ProductDBChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-active-tab-selector-view": {
-      "id": "components/productdb-active-tab-selector-view",
-      "title": "ProductDBActiveTabSelectorView",
-      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-active-tab-selector-view": {
+      "id": "components/dyte-active-tab-selector-view",
+      "title": "DyteActiveTabSelectorView",
+      "description": "Learn how to use and customize the DytePluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-avatar": {
-      "id": "components/productdb-avatar",
-      "title": "ProductDBAvatarView",
-      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-avatar": {
+      "id": "components/dyte-avatar",
+      "title": "DyteAvatarView",
+      "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-button": {
-      "id": "components/productdb-button",
-      "title": "ProductDBButton",
-      "description": "Learn how to use and customize the ProductDBButton component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-button": {
+      "id": "components/dyte-button",
+      "title": "DyteButton",
+      "description": "Learn how to use and customize the DyteButton component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-camera-toggle": {
-      "id": "components/productdb-camera-toggle",
-      "title": "ProductDBSwitchCameraButtonControlBar",
-      "description": "Learn how to use and customize the ProductDBSwitchCameraButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-camera-toggle": {
+      "id": "components/dyte-camera-toggle",
+      "title": "DyteSwitchCameraButtonControlBar",
+      "description": "Learn how to use and customize the DyteSwitchCameraButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-chat": {
-      "id": "components/productdb-chat",
-      "title": "ProductDBChatViewController",
-      "description": "Learn how to use and customize the ProductDBChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-chat": {
+      "id": "components/dyte-chat",
+      "title": "DyteChatViewController",
+      "description": "Learn how to use and customize the DyteChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-clock": {
-      "id": "components/productdb-clock",
-      "title": "ProductDBClockView",
-      "description": "Learn how to use and customize the ProductDBClockView component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-clock": {
+      "id": "components/dyte-clock",
+      "title": "DyteClockView",
+      "description": "Learn how to use and customize the DyteClockView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-configure-alertview-protocol": {
-      "id": "components/productdb-configure-alertview-protocol",
+    "components/dyte-configure-alertview-protocol": {
+      "id": "components/dyte-configure-alertview-protocol",
       "title": "ConfigureWebinerAlertView",
       "description": "Learn how to use and customize the ConfigureWebinerAlertView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-controlbar-button": {
-      "id": "components/productdb-controlbar-button",
-      "title": "ProductDBControlBarButton",
-      "description": "Learn how to use and customize the ProductDBControlBarButton component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-controlbar-button": {
+      "id": "components/dyte-controlbar-button",
+      "title": "DyteControlBarButton",
+      "description": "Learn how to use and customize the DyteControlBarButton component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-end-meeting": {
-      "id": "components/productdb-end-meeting",
-      "title": "ProductDBEndMeetingControlBarButton",
+    "components/dyte-end-meeting": {
+      "id": "components/dyte-end-meeting",
+      "title": "DyteEndMeetingControlBarButton",
       "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-grid": {
-      "id": "components/productdb-grid",
+    "components/dyte-grid": {
+      "id": "components/dyte-grid",
       "title": "GridView",
       "description": "Learn how to use and customize the GridView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-grid-pagination": {
-      "id": "components/productdb-grid-pagination",
-      "title": "ProductDBMeetingHeaderView",
-      "description": "Learn how to use and customize the ProductDBMeetingHeaderView component in  ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-grid-pagination": {
+      "id": "components/dyte-grid-pagination",
+      "title": "DyteMeetingHeaderView",
+      "description": "Learn how to use and customize the DyteMeetingHeaderView component in  ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-join-stage": {
-      "id": "components/productdb-join-stage",
-      "title": "ProductDBWebinarAlertView",
-      "description": "Learn how to use and customize the ProductDBWebinarAlertView component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-join-stage": {
+      "id": "components/dyte-join-stage",
+      "title": "DyteWebinarAlertView",
+      "description": "Learn how to use and customize the DyteWebinarAlertView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-leave-alert-actions": {
-      "id": "components/productdb-leave-alert-actions",
-      "title": "ProductDBLeaveDialogAlertButtonType",
+    "components/dyte-leave-alert-actions": {
+      "id": "components/dyte-leave-alert-actions",
+      "title": "DyteLeaveDialogAlertButtonType",
       "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-leave-meeting-alert": {
-      "id": "components/productdb-leave-meeting-alert",
-      "title": "ProductDBLeaveDialog",
+    "components/dyte-leave-meeting-alert": {
+      "id": "components/dyte-leave-meeting-alert",
+      "title": "DyteLeaveDialog",
       "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-meeting": {
-      "id": "components/productdb-meeting",
-      "title": "ProductDBUIKit",
-      "description": "Learn how to use and customize the ProductDBUIKit component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-meeting": {
+      "id": "components/dyte-meeting",
+      "title": "DyteUIKit",
+      "description": "Learn how to use and customize the DyteUIKit component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-meeting-titlelabel": {
-      "id": "components/productdb-meeting-titlelabel",
-      "title": "ProductDBMeetingTitleLabel",
-      "description": "Learn how to use and customize the ProductDBMeetingTitleView component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-meeting-titlelabel": {
+      "id": "components/dyte-meeting-titlelabel",
+      "title": "DyteMeetingTitleLabel",
+      "description": "Learn how to use and customize the DyteMeetingTitleView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-mic-toggle": {
-      "id": "components/productdb-mic-toggle",
-      "title": "ProductDBAudioButtonControlBar",
-      "description": "Learn how to use and customize the ProductDBAudioButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-mic-toggle": {
+      "id": "components/dyte-mic-toggle",
+      "title": "DyteAudioButtonControlBar",
+      "description": "Learn how to use and customize the DyteAudioButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-more-toggle": {
-      "id": "components/productdb-more-toggle",
-      "title": "ProductDBMoreButtonControlBar",
-      "description": "Learn how to use and customize the ProductDBMoreToggleButton component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-more-toggle": {
+      "id": "components/dyte-more-toggle",
+      "title": "DyteMoreButtonControlBar",
+      "description": "Learn how to use and customize the DyteMoreToggleButton component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-name-tag": {
-      "id": "components/productdb-name-tag",
-      "title": "ProductDBMeetingNameTag",
-      "description": "Learn how to use and customize the ProductDBMeetingNameTag component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-name-tag": {
+      "id": "components/dyte-name-tag",
+      "title": "DyteMeetingNameTag",
+      "description": "Learn how to use and customize the DyteMeetingNameTag component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-navigationbar": {
-      "id": "components/productdb-navigationbar",
-      "title": "ProductDBNavigationBar",
-      "description": "Learn how to use and customize the ProductDBNavigationBar component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-navigationbar": {
+      "id": "components/dyte-navigationbar",
+      "title": "DyteNavigationBar",
+      "description": "Learn how to use and customize the DyteNavigationBar component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-participant-count": {
-      "id": "components/productdb-participant-count",
-      "title": "ProductDBParticipantCountView",
-      "description": "Learn how to use and customize the ProductDBParticipantCountView component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-participant-count": {
+      "id": "components/dyte-participant-count",
+      "title": "DyteParticipantCountView",
+      "description": "Learn how to use and customize the DyteParticipantCountView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-participant-tile-view": {
-      "id": "components/productdb-participant-tile-view",
-      "title": "ProductDBParticipantTileView",
-      "description": "Learn how to use and customize the ProductDBStageActionButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-participant-tile-view": {
+      "id": "components/dyte-participant-tile-view",
+      "title": "DyteParticipantTileView",
+      "description": "Learn how to use and customize the DyteStageActionButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-participants": {
-      "id": "components/productdb-participants",
+    "components/dyte-participants": {
+      "id": "components/dyte-participants",
       "title": "ParticipantViewController",
       "description": "Learn how to use and customize the ParticipantViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-plugin-view": {
-      "id": "components/productdb-plugin-view",
-      "title": "ProductDBPluginsView",
-      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-plugin-view": {
+      "id": "components/dyte-plugin-view",
+      "title": "DytePluginsView",
+      "description": "Learn how to use and customize the DytePluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-plugins": {
-      "id": "components/productdb-plugins",
-      "title": "ProductDBPluginViewController",
-      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-plugins": {
+      "id": "components/dyte-plugins",
+      "title": "DytePluginViewController",
+      "description": "Learn how to use and customize the DytePluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-pluginScreenShareTab-button": {
-      "id": "components/productdb-pluginScreenShareTab-button",
-      "title": "ProductDBPluginScreenShareTabButton",
-      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-pluginScreenShareTab-button": {
+      "id": "components/dyte-pluginScreenShareTab-button",
+      "title": "DytePluginScreenShareTabButton",
+      "description": "Learn how to use and customize the DytePluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-poll-form": {
-      "id": "components/productdb-poll-form",
-      "title": "ProductDBCreatePollsViewController",
-      "description": "Learn how to use and customize the ProductDBCreatePollsViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-poll-form": {
+      "id": "components/dyte-poll-form",
+      "title": "DyteCreatePollsViewController",
+      "description": "Learn how to use and customize the DyteCreatePollsViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-polls": {
-      "id": "components/productdb-polls",
-      "title": "ProductDBShowPollsViewController",
-      "description": "Learn how to use and customize the ProductDBShowPollsViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-polls": {
+      "id": "components/dyte-polls",
+      "title": "DyteShowPollsViewController",
+      "description": "Learn how to use and customize the DyteShowPollsViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-recording-indicator": {
-      "id": "components/productdb-recording-indicator",
-      "title": "ProductDBRecordingView",
-      "description": "Learn how to use and customize the ProductDBRecordingView component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-recording-indicator": {
+      "id": "components/dyte-recording-indicator",
+      "title": "DyteRecordingView",
+      "description": "Learn how to use and customize the DyteRecordingView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-settings": {
-      "id": "components/productdb-settings",
-      "title": "ProductDBSettingViewController",
-      "description": "Learn how to use and customize the ProductDBSettingViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-settings": {
+      "id": "components/dyte-settings",
+      "title": "DyteSettingViewController",
+      "description": "Learn how to use and customize the DyteSettingViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-setup-screen": {
-      "id": "components/productdb-setup-screen",
-      "title": "ProductDBSetupViewController",
+    "components/dyte-setup-screen": {
+      "id": "components/dyte-setup-screen",
+      "title": "DyteSetupViewController",
       "description": "Learn how to use and customize the SetupViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-setup-screen-delegate": {
-      "id": "components/productdb-setup-screen-delegate",
+    "components/dyte-setup-screen-delegate": {
+      "id": "components/dyte-setup-screen-delegate",
       "title": "SetupViewControllerDelegate",
       "description": "Learn how to use and customize the SetupViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "components/productdb-webinar-stage-toggle": {
-      "id": "components/productdb-webinar-stage-toggle",
-      "title": "ProductDBStageActionButtonControlBar",
-      "description": "Learn how to use and customize the ProductDBStageActionButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
+    "components/dyte-webinar-stage-toggle": {
+      "id": "components/dyte-webinar-stage-toggle",
+      "title": "DyteStageActionButtonControlBar",
+      "description": "Learn how to use and customize the DyteStageActionButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "design-system": {
@@ -731,10 +731,10 @@
       "description": "Access comprehensive documentation on iOS events with ProductDB Docs. Stay informed and integrate events seamlessly into your app.",
       "sidebar": "tutorialSidebar"
     },
-    "helper-classes/productdb-plugin-view-model": {
-      "id": "helper-classes/productdb-plugin-view-model",
+    "helper-classes/dyte-plugin-view-model": {
+      "id": "helper-classes/dyte-plugin-view-model",
       "title": "VideoPeerViewModel",
-      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "intro-ios-uikit": {
@@ -770,31 +770,31 @@
     "Pre-Built-Plugins_Guides/load-plugin": {
       "id": "Pre-Built-Plugins_Guides/load-plugin",
       "title": "Load Plugins",
-      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "Pre-Built-Plugins_Guides/Plugins": {
       "id": "Pre-Built-Plugins_Guides/Plugins",
       "title": "Pre-built Plugin screen",
-      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "Pre-Built-Polls_Guides/Polls": {
       "id": "Pre-Built-Polls_Guides/Polls",
       "title": "Pre-built create poll Scren",
-      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "Pre-Built-Polls_Guides/prebuilt_polls": {
       "id": "Pre-Built-Polls_Guides/prebuilt_polls",
       "title": "Pre-built Polls Screen",
-      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "Pre-Built-Settings_Guides/Settings": {
       "id": "Pre-Built-Settings_Guides/Settings",
       "title": "Pre-built Settings screen",
-      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "quickstart": {
@@ -815,8 +815,8 @@
       "description": "Learn how to create a custom grid view component in ProductDB's iOS UIKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
-    "rendering-participant-video/using-productdbGrid": {
-      "id": "rendering-participant-video/using-productdbGrid",
+    "rendering-participant-video/using-dyteGrid": {
+      "id": "rendering-participant-video/using-dyteGrid",
       "title": "Using ProductDB GridView",
       "description": "Learn how to use and customize the GridView component in ProductDB's iOS UiKit with our detailed documentation.",
       "sidebar": "tutorialSidebar"

@@ -1,0 +1,30 @@
+{
+  "id": "reference/DyteThemePreset",
+  "title": "DyteThemePreset",
+  "description": "The DyteThemePreset class represents the meeting theme for the current participant",
+  "source": "@site/docs/web-core/reference/DyteThemePreset.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteThemePreset",
+  "permalink": "/web-core/reference/DyteThemePreset",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/reference/DyteThemePreset.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DytePlugin",
+    "permalink": "/web-core/reference/DytePlugin"
+  },
+  "next": {
+    "title": "DyteAi",
+    "permalink": "/web-core/reference/DyteAi"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-image-message",
+  "title": "dyte-image-message",
+  "description": "Learn how to use and customize the dyte-image-message component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-image-message.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-image-message",
+  "permalink": "/angular-ui-kit/components/dyte-image-message",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/dyte-image-message.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the dyte-image-message component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-idle-screen",
+    "permalink": "/angular-ui-kit/components/dyte-idle-screen"
+  },
+  "next": {
+    "title": "dyte-image-viewer",
+    "permalink": "/angular-ui-kit/components/dyte-image-viewer"
+  }
+}

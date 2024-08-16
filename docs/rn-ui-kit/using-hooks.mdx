@@ -13,12 +13,12 @@ your React native project. You can simply import the package from `dytesdk/react
 
 This page lists all the built-in Hooks in ProductDB.
 
-- `<ProductDBProvider />`
-- `<ProductDBUIProvider />`
+- `<DyteProvider />`
+- `<DyteUIProvider />`
 - `useDyteMeeting()`
 - `useDyteSelector()`
 
-## `<ProductDBProvider />`
+## `<DyteProvider />`
 
 It is a simple context provider providing the meeting object to child
 components.
@@ -43,22 +43,22 @@ function App() {
   }, []);
 
   return (
-    <ProductDBProvider value={meeting}>
+    <DyteProvider value={meeting}>
       {/* Render your component */}
       <MyComponent />
-    </ProductDBProvider>
+    </DyteProvider>
   );
 }
 ```
 
-## `<ProductDBUIProvider />`
+## `<DyteUIProvider />`
 
-It is a simple context provider providing the productdb design system to child
+It is a simple context provider providing the dyte design system to child
 components.
 
 ```jsx
 import { useDyteClient } from '@dytesdk/react-native-core';
-import { ProductDBUIProvider, ProductDBMeeting } from '@dytesdk/react-native-ui-kit';
+import { DyteUIProvider, DyteMeeting } from '@dytesdk/react-native-ui-kit';
 
 export default function App() {
   const [meeting, initMeeting] = useDyteClient();
@@ -77,11 +77,11 @@ export default function App() {
   }, []);
 
   return (
-    <ProductDBProvider value={meeting}>
-      <ProductDBUIProvider>
-        <ProductDBMeeting meeting={meeting} />
-      </ProductDBUIProvider>
-    </ProductDBProvider>
+    <DyteProvider value={meeting}>
+      <DyteUIProvider>
+        <DyteMeeting meeting={meeting} />
+      </DyteUIProvider>
+    </DyteProvider>
   );
 }
 ```
@@ -97,7 +97,7 @@ These are:
 ## `useDyteMeeting()`
 
 This hook essentially returns the `meeting` object you passed to the
-`ProductDBProvider`.
+`DyteProvider`.
 
 The value returned doesn't re-render always whenever properties inside the
 object change.
@@ -116,8 +116,8 @@ function Meeting() {
     meeting.joinRoom();
   }, [meeting]);
 
-  // show ProductDBMeeting
-  return <ProductDBMeeting meeting={meeting} />;
+  // show DyteMeeting
+  return <DyteMeeting meeting={meeting} />;
 }
 ```
 
@@ -141,7 +141,7 @@ const joinedParticipants = useDyteSelector(
 );
 ```
 
-Refer to core [documentation for reference](/rn-core/reference/ProductDBClient) on
+Refer to core [documentation for reference](/rn-core/reference/DyteClient) on
 the various properties of the `meeting` object.
 
 ### Example
@@ -150,7 +150,7 @@ the various properties of the `meeting` object.
 import React from 'react';
 import { View } from 'react-native';
 import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-native-core';
-import { ProductDBGrid, ProductDBButton, ProductDBText } from '@dytesdk/react-ui-kit';
+import { DyteGrid, DyteButton, DyteText } from '@dytesdk/react-ui-kit';
 
 function Meeting() {
   const { meeting } = useDyteMeeting();
@@ -159,14 +159,14 @@ function Meeting() {
   if (!roomJoined) {
     return (
       <View>
-        <ProductDBText>You haven't joined the room yet.</ProductDBText>
-        <ProductDBButton onClick={() => meeting.joinRoom()}>Join Room</ProductDBButton>
+        <DyteText>You haven't joined the room yet.</DyteText>
+        <DyteButton onClick={() => meeting.joinRoom()}>Join Room</DyteButton>
       </div>
     );
   }
 
   return (
-    <ProductDBGrid meeting={meeting} />
+    <DyteGrid meeting={meeting} />
   );
 }
 

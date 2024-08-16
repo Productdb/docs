@@ -15,14 +15,14 @@ audio to your iOS applications.
 
 For getting started quickly, you can use our sample code. You can clone and run
 a sample application from the
-[iOS UI Kit Sample App GitHub repository](https://github.com/productdb-io/ios-samples/tree/main/).
+[iOS UI Kit Sample App GitHub repository](https://github.com/dyte-io/ios-samples/tree/main/).
 
 ## Objective
 
 You'll learn how to:
 
 - [Install the ProductDB SDK](#step-1-install\-the-sdk)
-- [Configure a ProductDB meeting](#step-2-configure-a-productdb-meeting)
+- [Configure a ProductDB meeting](#step-2-configure-a-dyte-meeting)
 - [Initialize the SDK](#step-3-initialize-the-sdk)
 - [Launch the meeting UI](#step-4-launch-the-meeting-ui)
 
@@ -31,10 +31,10 @@ You'll learn how to:
 Make sure you've read the
 [Getting Started with ProductDB](/getting-started) topic and
 completed the steps in the
-[Integrate ProductDB](/getting-started#integrate-productdb) section.
+[Integrate ProductDB](/getting-started#integrate-dyte) section.
 You must complete the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.productdb.io/)
+- Create a [ProductDB Developer Account](https://dev.dyte.io/)
 - Create a
   [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participants](/api/?v=v2#/operations/add_participant)
@@ -48,7 +48,7 @@ You must complete the following steps:
 
 1. Add the following line to your `Podfile`.
 
-<CocoaPodInstallation pkg="ProductDBUiKit" path="9/b/8/ProductDBUiKit" />
+<CocoaPodInstallation pkg="DyteUiKit" path="9/b/8/DyteUiKit" />
 
 2. Install the client SDK as a CocoaPods dependency.
 
@@ -60,7 +60,7 @@ pod install
 <TabItem value="spm" label="Swift Package Manager"> 
 
 - ### **Swift Package Manager**
-  Add `ProductDBUiKit` SDK through Swift Package Manager in Xcode. Use https://github.com/productdb-in/ios-uikit-framework.git as the package source.
+  Add `DyteUiKit` SDK through Swift Package Manager in Xcode. Use https://github.com/dyte-in/ios-uikit-framework.git as the package source.
 
 </TabItem>
 </Tabs>
@@ -96,7 +96,7 @@ Sources: Apple Developer Documentation: [Declaring Your App's Supported Backgrou
 
 ## Step 2: Configure a ProductDB meeting
 
-Configure the following properties in the `ProductDBMeetingInfoV2` class. You must pass a valid participant `authToken`
+Configure the following properties in the `DyteMeetingInfoV2` class. You must pass a valid participant `authToken`
 obtained from the [Add Participant](/api/?v=v2#/operations/add_participant) API.
 
 | Name          | Description                                                                                                                    |
@@ -107,51 +107,51 @@ obtained from the [Add Participant](/api/?v=v2#/operations/add_participant) API.
 | `baseUrl`     | Base URL of the ProductDB environment you have created the meeting on.                                                              |
 
 ```swift 
- let meetingInfo = ProductDBMeetingInfoV2(authToken: "<authToken>",
+ let meetingInfo = DyteMeetingInfoV2(authToken: "<authToken>",
                                      enableAudio: true, 
                                      enableVideo: true, 
-                                     baseUrl: "productdb.io")
+                                     baseUrl: "dyte.io")
  ```
 
 ## Step 3: Initialize the SDK
 
-To set the initialization properties in the `ProductDBUiKit` class, simply initialize `ProductDBMeetingInfoV2` mention in the step 2
+To set the initialization properties in the `DyteUiKit` class, simply initialize `DyteMeetingInfoV2` mention in the step 2
 
 ```swift
 
-      let meetingInfo = ProductDBMeetingInfoV2(authToken: "<authToken>",
+      let meetingInfo = DyteMeetingInfoV2(authToken: "<authToken>",
                                      enableAudio: true, 
                                      enableVideo: true, 
-                                     baseUrl: "productdb.io")
+                                     baseUrl: "dyte.io")
 
-      let dyteUikit = ProductDBUiKit(meetingInfoV2: meetingInfo)
+      let dyteUikit = DyteUiKit(meetingInfoV2: meetingInfo)
 
 ```
 
 ## Step 4: Launch the meeting UI
 
-Follow the step 2 and step 3 to initialize MeetingObject using `ProductDBUIKit` class. Use the startMeeting method on ProductDBUIKit object you get in step 3 to launch UI
+Follow the step 2 and step 3 to initialize MeetingObject using `DyteUIKit` class. Use the startMeeting method on DyteUIKit object you get in step 3 to launch UI
 
 Try this in `viewDidAppear()`
 
 ```swift
-import ProductDBUiKit
-import ProductDBiOSCore
+import DyteUiKit
+import DyteiOSCore
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    var dyteUikit: ProductDBUiKit!
+    var dyteUikit: DyteUiKit!
 
    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let meetingInfo = ProductDBMeetingInfoV2(authToken: "<authToken>",
+        let meetingInfo = DyteMeetingInfoV2(authToken: "<authToken>",
                                      enableAudio: true, 
                                      enableVideo: true, 
-                                     baseUrl: "productdb.io")
-        dyteUikit = ProductDBUiKit(meetingInfoV2: meetingInfo)
+                                     baseUrl: "dyte.io")
+        dyteUikit = DyteUiKit(meetingInfoV2: meetingInfo)
         let controller = dyteUikit.startMeeting {
             [weak self] in
             guard let self = self else {return}

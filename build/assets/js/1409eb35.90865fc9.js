@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkproductdb_docs=self.webpackChunkproductdb_docs||[]).push([[26956],{17713:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"angular-ui-kit"}')}}]);

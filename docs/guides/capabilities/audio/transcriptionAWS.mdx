@@ -31,12 +31,12 @@ To proceed further, we need
 
 Setup a server to forward the Audio Data from client to AWS Transcribe. You don't want to put your IAM credentials on client side and therefore need a server which forwards audio data to AWS
 
-For this, we have provided the sample in NodeJS for you to checkout [productdb-io/aws-transcribe](https://github.com/productdb-io/aws-transcribe/tree/main/server). Currently, we only have an ExpressJS sample, if you working on a different backend, feel free to port this code or connect with us so that we can help you out in porting it.
+For this, we have provided the sample in NodeJS for you to checkout [dyte-io/aws-transcribe](https://github.com/dyte-io/aws-transcribe/tree/main/server). Currently, we only have an ExpressJS sample, if you working on a different backend, feel free to port this code or connect with us so that we can help you out in porting it.
 
 To use this sample, Please clone this using the following command.
 
 ```
-git clone git@github.com:productdb-io/aws-transcribe.git
+git clone git@github.com:dyte-io/aws-transcribe.git
 ```
 
 ### 2.1 Add your keys
@@ -64,7 +64,7 @@ The HTTP endpoint where this server is accessible will now be called `backend_ur
 npm install @dytesdk/aws-transcribe
 ```
 
-Source available at (productdb-io/aws-transcribe)(https://github.com/productdb-io/aws-transcribe/tree/main/client)
+Source available at (dyte-io/aws-transcribe)(https://github.com/dyte-io/aws-transcribe/tree/main/client)
 
 ### 3.2 Integrate
 
@@ -73,13 +73,13 @@ The second step is to look for the place in your codebase where you are initiati
 Once you have found the place and got a hold of the meeting object. Add the following code on top of the file to import the FE SDK.
 
 ```
-import ProductDBAWSTranscribe from '@dytesdk/aws-transcribe';
+import DyteAWSTranscribe from '@dytesdk/aws-transcribe';
 ```
 
 Add the following code just after the point where you have access to the meeting object.
 
 ```ts
-const awsTranscribe = new ProductDBAWSTranscribe({
+const awsTranscribe = new DyteAWSTranscribe({
   meeting,
   target: 'hi', // Optional if translate is false, Supported languages: https://docs.aws.amazon.com/translate/latest/dg/what-is-languages.html
   translate: true, // Control whether to translate the source language to target language or just transcribe
@@ -95,13 +95,13 @@ awsTranscribe.on('transcription', async (data) => {
 awsTranscribe.transcribe();
 ```
 
-Here you are setting up the ProductDBAWSTranscribe with the values that the current user would prefer and activating the recognition just afterward using awsTranscribe.transcribe(). Then we are listening to every new transcription using awsTranscribe.on('transcription', aJsCallbackFunction)
+Here you are setting up the DyteAWSTranscribe with the values that the current user would prefer and activating the recognition just afterward using awsTranscribe.transcribe(). Then we are listening to every new transcription using awsTranscribe.on('transcription', aJsCallbackFunction)
 
 To see the support languages, please refer to https://docs.aws.amazon.com/transcribe/latest/dg/supported-languages.html and https://docs.aws.amazon.com/translate/latest/dg/what-is-languages.html.
 
 With this, now you would be able to receive the live transcriptions. Feel free to put them in UI as per your need.
 
-If you need a sample of this guide, please refer to https://github.com/productdb-io/aws-transcribe/blob/main/client/demo/index.ts.
+If you need a sample of this guide, please refer to https://github.com/dyte-io/aws-transcribe/blob/main/client/demo/index.ts.
 
 <head>
   <title>Transcriptions - AWS Transcribe Guide</title>

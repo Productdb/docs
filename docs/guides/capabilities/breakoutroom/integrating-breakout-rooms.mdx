@@ -54,7 +54,7 @@ Add the following script tag in the head of your HTML file.
 | `authToken` | After you've created the meeting, add each participant to the meeting using the [Add Participant API](/api#/operations/add_participant). The API response contains the authToken. |
 
 ```js
-let meeting = await ProductDBClient.init({
+let meeting = await DyteClient.init({
   authToken,
 });
 
@@ -71,23 +71,23 @@ meeting.connectedMeetings.on('meetingChanged', (newMeeting) => {
 
 ```html
 <body>
-  <productdb-meeting id="my-meeting"></productdb-meeting>
+  <dyte-meeting id="my-meeting"></dyte-meeting>
   <script>
     document.getElementById('my-meeting').meeting = meeting;
   </script>
 </body>
 ```
 
-For detailed guide, check out - https://docs.productdb.io/ui-kit/quickstart
+For detailed guide, check out - https://docs.dyte.io/ui-kit/quickstart
 
   </TabItem>
   <TabItem value="ReactJS">
 
 ```jsx
-<ProductDBMeeting meeting={meeting} />
+<DyteMeeting meeting={meeting} />
 ```
 
-For detailed guide, check out - https://docs.productdb.io/react-ui-kit/quickstart
+For detailed guide, check out - https://docs.dyte.io/react-ui-kit/quickstart
 
   </TabItem>
   <TabItem value="Angular">
@@ -95,11 +95,11 @@ For detailed guide, check out - https://docs.productdb.io/react-ui-kit/quickstar
 ```js
 class AppComponent {
   title = 'MyProject';
-  @ViewChild('myid') meetingComponent: ProductDBMeeting;
-  dyteMeeting: ProductDBClient;
+  @ViewChild('myid') meetingComponent: DyteMeeting;
+  dyteMeeting: DyteClient;
 
   async ngAfterViewInit() {
-    const meeting = await ProductDBClient.init({
+    const meeting = await DyteClient.init({
       authToken: '<auth-token>',
     });
     meeting.join();
@@ -109,7 +109,7 @@ class AppComponent {
 }
 ```
 
-For detailed guide, check out - https://docs.productdb.io/angular-ui-kit/quickstart
+For detailed guide, check out - https://docs.dyte.io/angular-ui-kit/quickstart
 
   </TabItem>
 </Tabs>

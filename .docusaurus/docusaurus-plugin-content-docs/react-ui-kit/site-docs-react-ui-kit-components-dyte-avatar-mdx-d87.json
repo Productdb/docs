@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-avatar",
   "title": "DyteAvatar",
-  "description": "Learn how to use and customize the DyteAvatar component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteAvatar component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-avatar.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-avatar",
@@ -15,7 +15,7 @@
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-avatar.svg",
-    "description": "Learn how to use and customize the DyteAvatar component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteAvatar component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

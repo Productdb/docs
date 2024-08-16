@@ -23,7 +23,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Disable upload to ProductDB's bucket",
-    "permalink": "/guides/capabilities/recording/configure-productdb-bucket-config"
+    "permalink": "/guides/capabilities/recording/configure-dyte-bucket-config"
   },
   "next": {
     "title": "Create Custom Recording App Using Recording SDKs",

@@ -25,23 +25,23 @@ plugin?.let { p ->
 
 ## Listening to plugin events
 
-You can receive data from a plugin by implementing the `onPluginMessage()` method defined in `ProductDBPluginEventsListener` interface. This method comes in handy when building your own plugin.
+You can receive data from a plugin by implementing the `onPluginMessage()` method defined in `DytePluginEventsListener` interface. This method comes in handy when building your own plugin.
 
 ```kotlin
-val pluginEventListener = object : ProductDBPluginEventsListener {
-  override fun onPluginActivated(plugim: ProductDBPlugin) {
+val pluginEventListener = object : DytePluginEventsListener {
+  override fun onPluginActivated(plugim: DytePlugin) {
     ...
   }
 
-  override fun onPluginDeactivated(plugin: ProductDBPlugin) {
+  override fun onPluginDeactivated(plugin: DytePlugin) {
     ...
   }
 
-  override onPluginMessage(plugin: ProductDBPlugin, eventName: String, data: Any?) {
+  override onPluginMessage(plugin: DytePlugin, eventName: String, data: Any?) {
     ...
   }
 
-  override onPluginFileRequest(plugin: ProductDBPlugin) {
+  override onPluginFileRequest(plugin: DytePlugin) {
     ...
   }
 }
@@ -60,7 +60,7 @@ val plugin = meeting.plugins.active.firstOrNull { it.id == pluginId }
 
 plugin?.let { p ->
   p.uploadFile(
-    ProductDBPluginFile(
+    DytePluginFile(
       resultCode = 1,
       data = Intent() // Intent with the file data
     )

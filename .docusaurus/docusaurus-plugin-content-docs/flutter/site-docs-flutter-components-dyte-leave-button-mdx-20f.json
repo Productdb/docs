@@ -1,0 +1,26 @@
+{
+  "id": "Components/dyte-leave-button",
+  "title": "DyteLeaveButton",
+  "description": "A specialized button widget for leaving a ProductDB meeting. This widget is designed in accordance with the ProductDB UI Kit and facilitates a seamless exit process from a meeting environment.",
+  "source": "@site/docs/flutter/Components/dyte-leave-button.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/dyte-leave-button",
+  "permalink": "/flutter/Components/dyte-leave-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/dyte-leave-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteJoinButton",
+    "permalink": "/flutter/Components/dyte-join-button"
+  },
+  "next": {
+    "title": "DyteLeaveMeetingDialog",
+    "permalink": "/flutter/Components/dyte-leave-meeting-dialog"
+  }
+}

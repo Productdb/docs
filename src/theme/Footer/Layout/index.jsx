@@ -23,7 +23,7 @@ export default function FooterLayout({ style, links, logo, copyright }) {
           <div className="footer__data">
             <div className="footer__cta">
               <p>Signup to get 10,000 minutes free every month!</p>
-              <Link href="https://dev.productdb.in/signup">Sign Up</Link>
+              <Link href="https://dev.dyte.in/signup">Sign Up</Link>
             </div>
           </div>
           <div className="links">{links}</div>

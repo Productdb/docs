@@ -15,9 +15,9 @@ sidebar_class_name: hideReferenceSidebarLink
 
 ## Type Aliases
 
-### ProductDBI18n
+### DyteI18n
 
-Ƭ **ProductDBI18n**: (`key`: keyof [`LangDict`](reference.md#langdict) \| `string` & {}) => `string`
+Ƭ **DyteI18n**: (`key`: keyof [`LangDict`](reference.md#langdict) \| `string` & {}) => `string`
 
 #### Type declaration
 
@@ -232,7 +232,7 @@ Generates a config with older theme value.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `oldConfig` | `ProductDBThemePresetV1` | V1 Theme object |
+| `oldConfig` | `DyteThemePresetV1` | V1 Theme object |
 | `toExtend?` | [`UIConfig`](interfaces/UIConfig.md) | UI Config object to extend the generated config |
 | `options?` | `ConfigOptions` | Options for toggling components |
 
@@ -247,9 +247,9 @@ Generates a config with older theme value.
 
 ___
 
-### provideProductDBDesignSystem
+### provideDyteDesignSystem
 
-▸ **provideProductDBDesignSystem**(`el`, `tokens`): `void`
+▸ **provideDyteDesignSystem**(`el`, `tokens`): `void`
 
 Provides the design system new tokens to consume values from for styling the ProductDB UI Kit's UI.
 
@@ -270,7 +270,7 @@ ___
 
 ▸ **sendNotification**(`notification`): `boolean`
 
-Send notification which will be displayed in the `<productdb-notifications />` component.
+Send notification which will be displayed in the `<dyte-notifications />` component.
 
 #### Parameters
 

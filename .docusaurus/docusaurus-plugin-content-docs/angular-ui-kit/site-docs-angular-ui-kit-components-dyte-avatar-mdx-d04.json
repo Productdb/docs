@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-avatar",
+  "title": "dyte-avatar",
+  "description": "Learn how to use and customize the dyte-avatar component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-avatar.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-avatar",
+  "permalink": "/angular-ui-kit/components/dyte-avatar",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/dyte-avatar.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-avatar.svg",
+    "description": "Learn how to use and customize the dyte-avatar component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-audio-visualizer",
+    "permalink": "/angular-ui-kit/components/dyte-audio-visualizer"
+  },
+  "next": {
+    "title": "dyte-button",
+    "permalink": "/angular-ui-kit/components/dyte-button"
+  }
+}

@@ -1,16 +1,16 @@
 ---
-title: ProductDBSetupScreen
+title: DyteSetupScreen
 sidebar_position: 4
 ---
 
 ProductDB provides a default pre-call preview UI, also known as setup screen as part of our UI components.
 
-To use the default pre-built setup screen you can use `ProductDBSetupFragment` from our components.
+To use the default pre-built setup screen you can use `DyteSetupFragment` from our components.
 
 ```kotlin
 fragmentManager
   .beginTransaction()
-  .add(id.fragmentContainer, ProductDBSetupFragment(), "TAG")
+  .add(id.fragmentContainer, DyteSetupFragment(), "TAG")
   .commit()
 ```
 

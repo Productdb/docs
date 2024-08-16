@@ -9,7 +9,7 @@ export default function GuidesSection({ title, className }) {
     <Section title={title} className={className}>
       <Card
         title="ProductDB Embed"
-        description="Embed a productdb meeting easily"
+        description="Embed a dyte meeting easily"
         to="/guides/embed"
       />
       <Card

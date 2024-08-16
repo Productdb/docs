@@ -10,7 +10,7 @@ tags:
 ## Enable Plugins
 
 Each plugin in `meeting.plugins` object is of type
-[`ProductDBPlugin`](./introduction) and exposes the following functions to enable
+[`DytePlugin`](./introduction) and exposes the following functions to enable
 plugins.
 
 ### Activate Plugins
@@ -22,7 +22,7 @@ from `meeting.plugins.active`.
 The snippet below retrieves the first plugin from the list and activates it.
 
 ```kotlin
-val plugin: ProductDBPlugin = meeting.plugins.all[0]
+val plugin: DytePlugin = meeting.plugins.all[0]
 
 plugin.activate()
 ```
@@ -32,7 +32,7 @@ This directly activates the plugin without any user interaction.
 For e.g. you can also show a list of all plugins and activate a plugin on click programmatically.
 
 ```kotlin
-val plugins: List<ProductDBPlugin> = meeting.plugins.all
+val plugins: List<DytePlugin> = meeting.plugins.all
 
 plugins.forEach { plugin ->
   val button = Button(context)
@@ -62,7 +62,7 @@ plugin.getPluginView() // This will return a WebView
 ## Disable Plugins
 
 Each plugin in `meeting.plugins` object is of type
-[`ProductDBPlugin`](./introduction) and exposes the following functions to disable
+[`DytePlugin`](./introduction) and exposes the following functions to disable
 plugins.
 
 ### Deactivate Plugin

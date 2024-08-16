@@ -9,20 +9,20 @@ set in the participant's preset.
 
 ## Using ProductDB's Create Poll Screen
 
-ProductDB's Android UI Kit provides a user-friendly prebuilt screen, [ProductDBCreatePollBottomSheet](/android/components/productdb-poll-form), 
-for creating polls in a ProductDB meeting. When using the ProductDBCreatePollBottomSheet, the poll creator can:
+ProductDB's Android UI Kit provides a user-friendly prebuilt screen, [DyteCreatePollBottomSheet](/android/components/dyte-poll-form), 
+for creating polls in a ProductDB meeting. When using the DyteCreatePollBottomSheet, the poll creator can:
 
 - Add more options to the poll (default is 2)
 - Choose to make the poll voting anonymous
 - Choose to hide the poll results before voting, keeping the vote count and voters hidden from participants
 
-To integrate the `ProductDBCreatePollBottomSheet` into your app and allow participants to create polls, 
+To integrate the `DyteCreatePollBottomSheet` into your app and allow participants to create polls, 
 use the provided code snippet:
 
 ```kotlin
-import dyte.io.uikit.screens.polls.ProductDBCreatePollBottomSheet
+import dyte.io.uikit.screens.polls.DyteCreatePollBottomSheet
 
-val createPollBottomSheet = ProductDBCreatePollBottomSheet()
+val createPollBottomSheet = DyteCreatePollBottomSheet()
 createPollBottomSheet.show(childFragmentManager, TAG)
 ```
 

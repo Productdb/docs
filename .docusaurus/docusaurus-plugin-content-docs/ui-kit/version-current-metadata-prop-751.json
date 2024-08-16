@@ -67,520 +67,520 @@
           },
           {
             "type": "link",
-            "label": "productdb-audio-visualizer",
-            "href": "/ui-kit/components/productdb-audio-visualizer",
-            "docId": "components/productdb-audio-visualizer",
+            "label": "dyte-audio-visualizer",
+            "href": "/ui-kit/components/dyte-audio-visualizer",
+            "docId": "components/dyte-audio-visualizer",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-avatar",
-            "href": "/ui-kit/components/productdb-avatar",
-            "docId": "components/productdb-avatar",
+            "label": "dyte-avatar",
+            "href": "/ui-kit/components/dyte-avatar",
+            "docId": "components/dyte-avatar",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-button",
-            "href": "/ui-kit/components/productdb-button",
-            "docId": "components/productdb-button",
+            "label": "dyte-button",
+            "href": "/ui-kit/components/dyte-button",
+            "docId": "components/dyte-button",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-camera-toggle",
-            "href": "/ui-kit/components/productdb-camera-toggle",
-            "docId": "components/productdb-camera-toggle",
+            "label": "dyte-camera-toggle",
+            "href": "/ui-kit/components/dyte-camera-toggle",
+            "docId": "components/dyte-camera-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-chat-toggle",
-            "href": "/ui-kit/components/productdb-chat-toggle",
-            "docId": "components/productdb-chat-toggle",
+            "label": "dyte-chat-toggle",
+            "href": "/ui-kit/components/dyte-chat-toggle",
+            "docId": "components/dyte-chat-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-chat",
-            "href": "/ui-kit/components/productdb-chat",
-            "docId": "components/productdb-chat",
+            "label": "dyte-chat",
+            "href": "/ui-kit/components/dyte-chat",
+            "docId": "components/dyte-chat",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-clock",
-            "href": "/ui-kit/components/productdb-clock",
-            "docId": "components/productdb-clock",
+            "label": "dyte-clock",
+            "href": "/ui-kit/components/dyte-clock",
+            "docId": "components/dyte-clock",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-confirmation-modal",
-            "href": "/ui-kit/components/productdb-confirmation-modal",
-            "docId": "components/productdb-confirmation-modal",
+            "label": "dyte-confirmation-modal",
+            "href": "/ui-kit/components/dyte-confirmation-modal",
+            "docId": "components/dyte-confirmation-modal",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-controlbar-button",
-            "href": "/ui-kit/components/productdb-controlbar-button",
-            "docId": "components/productdb-controlbar-button",
+            "label": "dyte-controlbar-button",
+            "href": "/ui-kit/components/dyte-controlbar-button",
+            "docId": "components/dyte-controlbar-button",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-controlbar",
-            "href": "/ui-kit/components/productdb-controlbar",
-            "docId": "components/productdb-controlbar",
+            "label": "dyte-controlbar",
+            "href": "/ui-kit/components/dyte-controlbar",
+            "docId": "components/dyte-controlbar",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-dialog-manager",
-            "href": "/ui-kit/components/productdb-dialog-manager",
-            "docId": "components/productdb-dialog-manager",
+            "label": "dyte-dialog-manager",
+            "href": "/ui-kit/components/dyte-dialog-manager",
+            "docId": "components/dyte-dialog-manager",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-dialog",
-            "href": "/ui-kit/components/productdb-dialog",
-            "docId": "components/productdb-dialog",
+            "label": "dyte-dialog",
+            "href": "/ui-kit/components/dyte-dialog",
+            "docId": "components/dyte-dialog",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-emoji-picker",
-            "href": "/ui-kit/components/productdb-emoji-picker",
-            "docId": "components/productdb-emoji-picker",
+            "label": "dyte-emoji-picker",
+            "href": "/ui-kit/components/dyte-emoji-picker",
+            "docId": "components/dyte-emoji-picker",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-ended-screen",
-            "href": "/ui-kit/components/productdb-ended-screen",
-            "docId": "components/productdb-ended-screen",
+            "label": "dyte-ended-screen",
+            "href": "/ui-kit/components/dyte-ended-screen",
+            "docId": "components/dyte-ended-screen",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-file-message",
-            "href": "/ui-kit/components/productdb-file-message",
-            "docId": "components/productdb-file-message",
+            "label": "dyte-file-message",
+            "href": "/ui-kit/components/dyte-file-message",
+            "docId": "components/dyte-file-message",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-fullscreen-toggle",
-            "href": "/ui-kit/components/productdb-fullscreen-toggle",
-            "docId": "components/productdb-fullscreen-toggle",
+            "label": "dyte-fullscreen-toggle",
+            "href": "/ui-kit/components/dyte-fullscreen-toggle",
+            "docId": "components/dyte-fullscreen-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-grid-pagination",
-            "href": "/ui-kit/components/productdb-grid-pagination",
-            "docId": "components/productdb-grid-pagination",
+            "label": "dyte-grid-pagination",
+            "href": "/ui-kit/components/dyte-grid-pagination",
+            "docId": "components/dyte-grid-pagination",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-grid",
-            "href": "/ui-kit/components/productdb-grid",
-            "docId": "components/productdb-grid",
+            "label": "dyte-grid",
+            "href": "/ui-kit/components/dyte-grid",
+            "docId": "components/dyte-grid",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-header",
-            "href": "/ui-kit/components/productdb-header",
-            "docId": "components/productdb-header",
+            "label": "dyte-header",
+            "href": "/ui-kit/components/dyte-header",
+            "docId": "components/dyte-header",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-icon",
-            "href": "/ui-kit/components/productdb-icon",
-            "docId": "components/productdb-icon",
+            "label": "dyte-icon",
+            "href": "/ui-kit/components/dyte-icon",
+            "docId": "components/dyte-icon",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-idle-screen",
-            "href": "/ui-kit/components/productdb-idle-screen",
-            "docId": "components/productdb-idle-screen",
+            "label": "dyte-idle-screen",
+            "href": "/ui-kit/components/dyte-idle-screen",
+            "docId": "components/dyte-idle-screen",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-image-message",
-            "href": "/ui-kit/components/productdb-image-message",
-            "docId": "components/productdb-image-message",
+            "label": "dyte-image-message",
+            "href": "/ui-kit/components/dyte-image-message",
+            "docId": "components/dyte-image-message",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-image-viewer",
-            "href": "/ui-kit/components/productdb-image-viewer",
-            "docId": "components/productdb-image-viewer",
+            "label": "dyte-image-viewer",
+            "href": "/ui-kit/components/dyte-image-viewer",
+            "docId": "components/dyte-image-viewer",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-leave-button",
-            "href": "/ui-kit/components/productdb-leave-button",
-            "docId": "components/productdb-leave-button",
+            "label": "dyte-leave-button",
+            "href": "/ui-kit/components/dyte-leave-button",
+            "docId": "components/dyte-leave-button",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-leave-meeting",
-            "href": "/ui-kit/components/productdb-leave-meeting",
-            "docId": "components/productdb-leave-meeting",
+            "label": "dyte-leave-meeting",
+            "href": "/ui-kit/components/dyte-leave-meeting",
+            "docId": "components/dyte-leave-meeting",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-logo",
-            "href": "/ui-kit/components/productdb-logo",
-            "docId": "components/productdb-logo",
+            "label": "dyte-logo",
+            "href": "/ui-kit/components/dyte-logo",
+            "docId": "components/dyte-logo",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-meeting-title",
-            "href": "/ui-kit/components/productdb-meeting-title",
-            "docId": "components/productdb-meeting-title",
+            "label": "dyte-meeting-title",
+            "href": "/ui-kit/components/dyte-meeting-title",
+            "docId": "components/dyte-meeting-title",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-meeting",
-            "href": "/ui-kit/components/productdb-meeting",
-            "docId": "components/productdb-meeting",
+            "label": "dyte-meeting",
+            "href": "/ui-kit/components/dyte-meeting",
+            "docId": "components/dyte-meeting",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-menu-item",
-            "href": "/ui-kit/components/productdb-menu-item",
-            "docId": "components/productdb-menu-item",
+            "label": "dyte-menu-item",
+            "href": "/ui-kit/components/dyte-menu-item",
+            "docId": "components/dyte-menu-item",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-menu-list",
-            "href": "/ui-kit/components/productdb-menu-list",
-            "docId": "components/productdb-menu-list",
+            "label": "dyte-menu-list",
+            "href": "/ui-kit/components/dyte-menu-list",
+            "docId": "components/dyte-menu-list",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-menu",
-            "href": "/ui-kit/components/productdb-menu",
-            "docId": "components/productdb-menu",
+            "label": "dyte-menu",
+            "href": "/ui-kit/components/dyte-menu",
+            "docId": "components/dyte-menu",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-mic-toggle",
-            "href": "/ui-kit/components/productdb-mic-toggle",
-            "docId": "components/productdb-mic-toggle",
+            "label": "dyte-mic-toggle",
+            "href": "/ui-kit/components/dyte-mic-toggle",
+            "docId": "components/dyte-mic-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-mixed-grid",
-            "href": "/ui-kit/components/productdb-mixed-grid",
-            "docId": "components/productdb-mixed-grid",
+            "label": "dyte-mixed-grid",
+            "href": "/ui-kit/components/dyte-mixed-grid",
+            "docId": "components/dyte-mixed-grid",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-more-toggle",
-            "href": "/ui-kit/components/productdb-more-toggle",
-            "docId": "components/productdb-more-toggle",
+            "label": "dyte-more-toggle",
+            "href": "/ui-kit/components/dyte-more-toggle",
+            "docId": "components/dyte-more-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-name-tag",
-            "href": "/ui-kit/components/productdb-name-tag",
-            "docId": "components/productdb-name-tag",
+            "label": "dyte-name-tag",
+            "href": "/ui-kit/components/dyte-name-tag",
+            "docId": "components/dyte-name-tag",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-network-indicator",
-            "href": "/ui-kit/components/productdb-network-indicator",
-            "docId": "components/productdb-network-indicator",
+            "label": "dyte-network-indicator",
+            "href": "/ui-kit/components/dyte-network-indicator",
+            "docId": "components/dyte-network-indicator",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-notification",
-            "href": "/ui-kit/components/productdb-notification",
-            "docId": "components/productdb-notification",
+            "label": "dyte-notification",
+            "href": "/ui-kit/components/dyte-notification",
+            "docId": "components/dyte-notification",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-notifications",
-            "href": "/ui-kit/components/productdb-notifications",
-            "docId": "components/productdb-notifications",
+            "label": "dyte-notifications",
+            "href": "/ui-kit/components/dyte-notifications",
+            "docId": "components/dyte-notifications",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-overlay-modal",
-            "href": "/ui-kit/components/productdb-overlay-modal",
-            "docId": "components/productdb-overlay-modal",
+            "label": "dyte-overlay-modal",
+            "href": "/ui-kit/components/dyte-overlay-modal",
+            "docId": "components/dyte-overlay-modal",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-participant-count",
-            "href": "/ui-kit/components/productdb-participant-count",
-            "docId": "components/productdb-participant-count",
+            "label": "dyte-participant-count",
+            "href": "/ui-kit/components/dyte-participant-count",
+            "docId": "components/dyte-participant-count",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-participant-tile",
-            "href": "/ui-kit/components/productdb-participant-tile",
-            "docId": "components/productdb-participant-tile",
+            "label": "dyte-participant-tile",
+            "href": "/ui-kit/components/dyte-participant-tile",
+            "docId": "components/dyte-participant-tile",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-participant",
-            "href": "/ui-kit/components/productdb-participant",
-            "docId": "components/productdb-participant",
+            "label": "dyte-participant",
+            "href": "/ui-kit/components/dyte-participant",
+            "docId": "components/dyte-participant",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-participants-audio",
-            "href": "/ui-kit/components/productdb-participants-audio",
-            "docId": "components/productdb-participants-audio",
+            "label": "dyte-participants-audio",
+            "href": "/ui-kit/components/dyte-participants-audio",
+            "docId": "components/dyte-participants-audio",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-participants-stage-list",
-            "href": "/ui-kit/components/productdb-participants-stage-list",
-            "docId": "components/productdb-participants-stage-list",
+            "label": "dyte-participants-stage-list",
+            "href": "/ui-kit/components/dyte-participants-stage-list",
+            "docId": "components/dyte-participants-stage-list",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-participants-toggle",
-            "href": "/ui-kit/components/productdb-participants-toggle",
-            "docId": "components/productdb-participants-toggle",
+            "label": "dyte-participants-toggle",
+            "href": "/ui-kit/components/dyte-participants-toggle",
+            "docId": "components/dyte-participants-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-participants",
-            "href": "/ui-kit/components/productdb-participants",
-            "docId": "components/productdb-participants",
+            "label": "dyte-participants",
+            "href": "/ui-kit/components/dyte-participants",
+            "docId": "components/dyte-participants",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-permissions-message",
-            "href": "/ui-kit/components/productdb-permissions-message",
-            "docId": "components/productdb-permissions-message",
+            "label": "dyte-permissions-message",
+            "href": "/ui-kit/components/dyte-permissions-message",
+            "docId": "components/dyte-permissions-message",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-plugin-main",
-            "href": "/ui-kit/components/productdb-plugin-main",
-            "docId": "components/productdb-plugin-main",
+            "label": "dyte-plugin-main",
+            "href": "/ui-kit/components/dyte-plugin-main",
+            "docId": "components/dyte-plugin-main",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-plugins-toggle",
-            "href": "/ui-kit/components/productdb-plugins-toggle",
-            "docId": "components/productdb-plugins-toggle",
+            "label": "dyte-plugins-toggle",
+            "href": "/ui-kit/components/dyte-plugins-toggle",
+            "docId": "components/dyte-plugins-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-plugins",
-            "href": "/ui-kit/components/productdb-plugins",
-            "docId": "components/productdb-plugins",
+            "label": "dyte-plugins",
+            "href": "/ui-kit/components/dyte-plugins",
+            "docId": "components/dyte-plugins",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-poll-form",
-            "href": "/ui-kit/components/productdb-poll-form",
-            "docId": "components/productdb-poll-form",
+            "label": "dyte-poll-form",
+            "href": "/ui-kit/components/dyte-poll-form",
+            "docId": "components/dyte-poll-form",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-poll",
-            "href": "/ui-kit/components/productdb-poll",
-            "docId": "components/productdb-poll",
+            "label": "dyte-poll",
+            "href": "/ui-kit/components/dyte-poll",
+            "docId": "components/dyte-poll",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-polls-toggle",
-            "href": "/ui-kit/components/productdb-polls-toggle",
-            "docId": "components/productdb-polls-toggle",
+            "label": "dyte-polls-toggle",
+            "href": "/ui-kit/components/dyte-polls-toggle",
+            "docId": "components/dyte-polls-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-polls",
-            "href": "/ui-kit/components/productdb-polls",
-            "docId": "components/productdb-polls",
+            "label": "dyte-polls",
+            "href": "/ui-kit/components/dyte-polls",
+            "docId": "components/dyte-polls",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-recording-indicator",
-            "href": "/ui-kit/components/productdb-recording-indicator",
-            "docId": "components/productdb-recording-indicator",
+            "label": "dyte-recording-indicator",
+            "href": "/ui-kit/components/dyte-recording-indicator",
+            "docId": "components/dyte-recording-indicator",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-recording-toggle",
-            "href": "/ui-kit/components/productdb-recording-toggle",
-            "docId": "components/productdb-recording-toggle",
+            "label": "dyte-recording-toggle",
+            "href": "/ui-kit/components/dyte-recording-toggle",
+            "docId": "components/dyte-recording-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-remote-access-manager",
-            "href": "/ui-kit/components/productdb-remote-access-manager",
-            "docId": "components/productdb-remote-access-manager",
+            "label": "dyte-remote-access-manager",
+            "href": "/ui-kit/components/dyte-remote-access-manager",
+            "docId": "components/dyte-remote-access-manager",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-screen-share-toggle",
-            "href": "/ui-kit/components/productdb-screen-share-toggle",
-            "docId": "components/productdb-screen-share-toggle",
+            "label": "dyte-screen-share-toggle",
+            "href": "/ui-kit/components/dyte-screen-share-toggle",
+            "docId": "components/dyte-screen-share-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-screenshare-view",
-            "href": "/ui-kit/components/productdb-screenshare-view",
-            "docId": "components/productdb-screenshare-view",
+            "label": "dyte-screenshare-view",
+            "href": "/ui-kit/components/dyte-screenshare-view",
+            "docId": "components/dyte-screenshare-view",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-settings-audio",
-            "href": "/ui-kit/components/productdb-settings-audio",
-            "docId": "components/productdb-settings-audio",
+            "label": "dyte-settings-audio",
+            "href": "/ui-kit/components/dyte-settings-audio",
+            "docId": "components/dyte-settings-audio",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-settings-toggle",
-            "href": "/ui-kit/components/productdb-settings-toggle",
-            "docId": "components/productdb-settings-toggle",
+            "label": "dyte-settings-toggle",
+            "href": "/ui-kit/components/dyte-settings-toggle",
+            "docId": "components/dyte-settings-toggle",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-settings-video",
-            "href": "/ui-kit/components/productdb-settings-video",
-            "docId": "components/productdb-settings-video",
+            "label": "dyte-settings-video",
+            "href": "/ui-kit/components/dyte-settings-video",
+            "docId": "components/dyte-settings-video",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-settings",
-            "href": "/ui-kit/components/productdb-settings",
-            "docId": "components/productdb-settings",
+            "label": "dyte-settings",
+            "href": "/ui-kit/components/dyte-settings",
+            "docId": "components/dyte-settings",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-setup-screen",
-            "href": "/ui-kit/components/productdb-setup-screen",
-            "docId": "components/productdb-setup-screen",
+            "label": "dyte-setup-screen",
+            "href": "/ui-kit/components/dyte-setup-screen",
+            "docId": "components/dyte-setup-screen",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-sidebar",
-            "href": "/ui-kit/components/productdb-sidebar",
-            "docId": "components/productdb-sidebar",
+            "label": "dyte-sidebar",
+            "href": "/ui-kit/components/dyte-sidebar",
+            "docId": "components/dyte-sidebar",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-simple-grid",
-            "href": "/ui-kit/components/productdb-simple-grid",
-            "docId": "components/productdb-simple-grid",
+            "label": "dyte-simple-grid",
+            "href": "/ui-kit/components/dyte-simple-grid",
+            "docId": "components/dyte-simple-grid",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-spinner",
-            "href": "/ui-kit/components/productdb-spinner",
-            "docId": "components/productdb-spinner",
+            "label": "dyte-spinner",
+            "href": "/ui-kit/components/dyte-spinner",
+            "docId": "components/dyte-spinner",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-spotlight-grid",
-            "href": "/ui-kit/components/productdb-spotlight-grid",
-            "docId": "components/productdb-spotlight-grid",
+            "label": "dyte-spotlight-grid",
+            "href": "/ui-kit/components/dyte-spotlight-grid",
+            "docId": "components/dyte-spotlight-grid",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-stage",
-            "href": "/ui-kit/components/productdb-stage",
-            "docId": "components/productdb-stage",
+            "label": "dyte-stage",
+            "href": "/ui-kit/components/dyte-stage",
+            "docId": "components/dyte-stage",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-switch",
-            "href": "/ui-kit/components/productdb-switch",
-            "docId": "components/productdb-switch",
+            "label": "dyte-switch",
+            "href": "/ui-kit/components/dyte-switch",
+            "docId": "components/dyte-switch",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-text-field",
-            "href": "/ui-kit/components/productdb-text-field",
-            "docId": "components/productdb-text-field",
+            "label": "dyte-text-field",
+            "href": "/ui-kit/components/dyte-text-field",
+            "docId": "components/dyte-text-field",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-text-message",
-            "href": "/ui-kit/components/productdb-text-message",
-            "docId": "components/productdb-text-message",
+            "label": "dyte-text-message",
+            "href": "/ui-kit/components/dyte-text-message",
+            "docId": "components/dyte-text-message",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-tooltip",
-            "href": "/ui-kit/components/productdb-tooltip",
-            "docId": "components/productdb-tooltip",
+            "label": "dyte-tooltip",
+            "href": "/ui-kit/components/dyte-tooltip",
+            "docId": "components/dyte-tooltip",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "productdb-viewer-count",
-            "href": "/ui-kit/components/productdb-viewer-count",
-            "docId": "components/productdb-viewer-count",
+            "label": "dyte-viewer-count",
+            "href": "/ui-kit/components/dyte-viewer-count",
+            "docId": "components/dyte-viewer-count",
             "unlisted": false
           }
         ]
@@ -673,9 +673,9 @@
             "items": [
               {
                 "type": "link",
-                "label": "Class: ProductDBNotificationsAudio",
-                "href": "/ui-kit/reference/classes/ProductDBNotificationsAudio",
-                "docId": "reference/classes/ProductDBNotificationsAudio",
+                "label": "Class: DyteNotificationsAudio",
+                "href": "/ui-kit/reference/classes/DyteNotificationsAudio",
+                "docId": "reference/classes/DyteNotificationsAudio",
                 "unlisted": false
               }
             ]
@@ -698,454 +698,454 @@
       "description": "Make sure to read this before you start integrating the UI Kit into your app.",
       "sidebar": "tutorialSidebar"
     },
+    "components/dyte-audio-visualizer": {
+      "id": "components/dyte-audio-visualizer",
+      "title": "dyte-audio-visualizer",
+      "description": "Learn how to use and customize the dyte-audio-visualizer component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-avatar": {
+      "id": "components/dyte-avatar",
+      "title": "dyte-avatar",
+      "description": "Learn how to use and customize the dyte-avatar component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-button": {
+      "id": "components/dyte-button",
+      "title": "dyte-button",
+      "description": "Learn how to use and customize the dyte-button component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-camera-toggle": {
+      "id": "components/dyte-camera-toggle",
+      "title": "dyte-camera-toggle",
+      "description": "Learn how to use and customize the dyte-camera-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-chat": {
+      "id": "components/dyte-chat",
+      "title": "dyte-chat",
+      "description": "Learn how to use and customize the dyte-chat component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-chat-toggle": {
+      "id": "components/dyte-chat-toggle",
+      "title": "dyte-chat-toggle",
+      "description": "Learn how to use and customize the dyte-chat-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-clock": {
+      "id": "components/dyte-clock",
+      "title": "dyte-clock",
+      "description": "Learn how to use and customize the dyte-clock component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-confirmation-modal": {
+      "id": "components/dyte-confirmation-modal",
+      "title": "dyte-confirmation-modal",
+      "description": "Learn how to use and customize the dyte-confirmation-modal component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-controlbar": {
+      "id": "components/dyte-controlbar",
+      "title": "dyte-controlbar",
+      "description": "Learn how to use and customize the dyte-controlbar component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-controlbar-button": {
+      "id": "components/dyte-controlbar-button",
+      "title": "dyte-controlbar-button",
+      "description": "Learn how to use and customize the dyte-controlbar-button component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-dialog": {
+      "id": "components/dyte-dialog",
+      "title": "dyte-dialog",
+      "description": "Learn how to use and customize the dyte-dialog component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-dialog-manager": {
+      "id": "components/dyte-dialog-manager",
+      "title": "dyte-dialog-manager",
+      "description": "Learn how to use and customize the dyte-dialog-manager component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-emoji-picker": {
+      "id": "components/dyte-emoji-picker",
+      "title": "dyte-emoji-picker",
+      "description": "Learn how to use and customize the dyte-emoji-picker component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-ended-screen": {
+      "id": "components/dyte-ended-screen",
+      "title": "dyte-ended-screen",
+      "description": "Learn how to use and customize the dyte-ended-screen component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-file-message": {
+      "id": "components/dyte-file-message",
+      "title": "dyte-file-message",
+      "description": "Learn how to use and customize the dyte-file-message component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-fullscreen-toggle": {
+      "id": "components/dyte-fullscreen-toggle",
+      "title": "dyte-fullscreen-toggle",
+      "description": "Learn how to use and customize the dyte-fullscreen-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-grid": {
+      "id": "components/dyte-grid",
+      "title": "dyte-grid",
+      "description": "Learn how to use and customize the dyte-grid component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-grid-pagination": {
+      "id": "components/dyte-grid-pagination",
+      "title": "dyte-grid-pagination",
+      "description": "Learn how to use and customize the dyte-grid-pagination component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-header": {
+      "id": "components/dyte-header",
+      "title": "dyte-header",
+      "description": "Learn how to use and customize the dyte-header component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-icon": {
+      "id": "components/dyte-icon",
+      "title": "dyte-icon",
+      "description": "Learn how to use and customize the dyte-icon component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-idle-screen": {
+      "id": "components/dyte-idle-screen",
+      "title": "dyte-idle-screen",
+      "description": "Learn how to use and customize the dyte-idle-screen component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-image-message": {
+      "id": "components/dyte-image-message",
+      "title": "dyte-image-message",
+      "description": "Learn how to use and customize the dyte-image-message component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-image-viewer": {
+      "id": "components/dyte-image-viewer",
+      "title": "dyte-image-viewer",
+      "description": "Learn how to use and customize the dyte-image-viewer component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-leave-button": {
+      "id": "components/dyte-leave-button",
+      "title": "dyte-leave-button",
+      "description": "Learn how to use and customize the dyte-leave-button component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-leave-meeting": {
+      "id": "components/dyte-leave-meeting",
+      "title": "dyte-leave-meeting",
+      "description": "Learn how to use and customize the dyte-leave-meeting component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-logo": {
+      "id": "components/dyte-logo",
+      "title": "dyte-logo",
+      "description": "Learn how to use and customize the dyte-logo component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-meeting": {
+      "id": "components/dyte-meeting",
+      "title": "dyte-meeting",
+      "description": "Learn how to use and customize the dyte-meeting component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-meeting-title": {
+      "id": "components/dyte-meeting-title",
+      "title": "dyte-meeting-title",
+      "description": "Learn how to use and customize the dyte-meeting-title component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-menu": {
+      "id": "components/dyte-menu",
+      "title": "dyte-menu",
+      "description": "Learn how to use and customize the dyte-menu component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-menu-item": {
+      "id": "components/dyte-menu-item",
+      "title": "dyte-menu-item",
+      "description": "Learn how to use and customize the dyte-menu-item component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-menu-list": {
+      "id": "components/dyte-menu-list",
+      "title": "dyte-menu-list",
+      "description": "Learn how to use and customize the dyte-menu-list component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-mic-toggle": {
+      "id": "components/dyte-mic-toggle",
+      "title": "dyte-mic-toggle",
+      "description": "Learn how to use and customize the dyte-mic-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-mixed-grid": {
+      "id": "components/dyte-mixed-grid",
+      "title": "dyte-mixed-grid",
+      "description": "Learn how to use and customize the dyte-mixed-grid component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-more-toggle": {
+      "id": "components/dyte-more-toggle",
+      "title": "dyte-more-toggle",
+      "description": "Learn how to use and customize the dyte-more-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-name-tag": {
+      "id": "components/dyte-name-tag",
+      "title": "dyte-name-tag",
+      "description": "Learn how to use and customize the dyte-name-tag component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-network-indicator": {
+      "id": "components/dyte-network-indicator",
+      "title": "dyte-network-indicator",
+      "description": "Learn how to use and customize the dyte-network-indicator component in ProductDB's React UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-notification": {
+      "id": "components/dyte-notification",
+      "title": "dyte-notification",
+      "description": "Learn how to use and customize the dyte-notification component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-notifications": {
+      "id": "components/dyte-notifications",
+      "title": "dyte-notifications",
+      "description": "Learn how to use and customize the dyte-notifications component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-overlay-modal": {
+      "id": "components/dyte-overlay-modal",
+      "title": "dyte-overlay-modal",
+      "description": "Learn how to use and customize the dyte-overlay-modal component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-participant": {
+      "id": "components/dyte-participant",
+      "title": "dyte-participant",
+      "description": "Learn how to use and customize the dyte-participant component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-participant-count": {
+      "id": "components/dyte-participant-count",
+      "title": "dyte-participant-count",
+      "description": "Learn how to use and customize the dyte-participant-count component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-participant-tile": {
+      "id": "components/dyte-participant-tile",
+      "title": "dyte-participant-tile",
+      "description": "Learn how to use and customize the dyte-participant-tile component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-participants": {
+      "id": "components/dyte-participants",
+      "title": "dyte-participants",
+      "description": "Learn how to use and customize the dyte-participants component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-participants-audio": {
+      "id": "components/dyte-participants-audio",
+      "title": "dyte-participants-audio",
+      "description": "Learn how to use and customize the dyte-participants-audio component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-participants-stage-list": {
+      "id": "components/dyte-participants-stage-list",
+      "title": "dyte-participants-stage-list",
+      "description": "Learn how to use and customize the dyte-participants-stage-list component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-participants-toggle": {
+      "id": "components/dyte-participants-toggle",
+      "title": "dyte-participants-toggle",
+      "description": "Learn how to use and customize the dyte-participants-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-permissions-message": {
+      "id": "components/dyte-permissions-message",
+      "title": "dyte-permissions-message",
+      "description": "Learn how to use and customize the dyte-permissions-message component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-plugin-main": {
+      "id": "components/dyte-plugin-main",
+      "title": "dyte-plugin-main",
+      "description": "Learn how to use and customize the dyte-plugin-main component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-plugins": {
+      "id": "components/dyte-plugins",
+      "title": "dyte-plugins",
+      "description": "Learn how to use and customize the dyte-plugins component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-plugins-toggle": {
+      "id": "components/dyte-plugins-toggle",
+      "title": "dyte-plugins-toggle",
+      "description": "Learn how to use and customize the dyte-plugins-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-poll": {
+      "id": "components/dyte-poll",
+      "title": "dyte-poll",
+      "description": "Learn how to use and customize the dyte-poll component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-poll-form": {
+      "id": "components/dyte-poll-form",
+      "title": "dyte-poll-form",
+      "description": "Learn how to use and customize the dyte-poll-form component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-polls": {
+      "id": "components/dyte-polls",
+      "title": "dyte-polls",
+      "description": "Learn how to use and customize the dyte-polls component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-polls-toggle": {
+      "id": "components/dyte-polls-toggle",
+      "title": "dyte-polls-toggle",
+      "description": "Learn how to use and customize the dyte-polls-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-recording-indicator": {
+      "id": "components/dyte-recording-indicator",
+      "title": "dyte-recording-indicator",
+      "description": "Learn how to use and customize the dyte-recording-indicator component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-recording-toggle": {
+      "id": "components/dyte-recording-toggle",
+      "title": "dyte-recording-toggle",
+      "description": "Learn how to use and customize the dyte-recording-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-remote-access-manager": {
+      "id": "components/dyte-remote-access-manager",
+      "title": "dyte-remote-access-manager",
+      "description": "Learn how to use and customize the dyte-remote-access-manager component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-screen-share-toggle": {
+      "id": "components/dyte-screen-share-toggle",
+      "title": "dyte-screen-share-toggle",
+      "description": "Learn how to use and customize the dyte-screen-share-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-screenshare-view": {
+      "id": "components/dyte-screenshare-view",
+      "title": "dyte-screenshare-view",
+      "description": "Learn how to use and customize the dyte-screenshare-view component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-settings": {
+      "id": "components/dyte-settings",
+      "title": "dyte-settings",
+      "description": "Learn how to use and customize the dyte-settings component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-settings-audio": {
+      "id": "components/dyte-settings-audio",
+      "title": "dyte-settings-audio",
+      "description": "Learn how to use and customize the dyte-settings-audio component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-settings-toggle": {
+      "id": "components/dyte-settings-toggle",
+      "title": "dyte-settings-toggle",
+      "description": "Learn how to use and customize the dyte-settings-toggle component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-settings-video": {
+      "id": "components/dyte-settings-video",
+      "title": "dyte-settings-video",
+      "description": "Learn how to use and customize the dyte-settings-video component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-setup-screen": {
+      "id": "components/dyte-setup-screen",
+      "title": "dyte-setup-screen",
+      "description": "Learn how to use and customize the dyte-setup-screen component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-sidebar": {
+      "id": "components/dyte-sidebar",
+      "title": "dyte-sidebar",
+      "description": "Learn how to use and customize the dyte-sidebar component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-simple-grid": {
+      "id": "components/dyte-simple-grid",
+      "title": "dyte-simple-grid",
+      "description": "Learn how to use and customize the dyte-simple-grid component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-spinner": {
+      "id": "components/dyte-spinner",
+      "title": "dyte-spinner",
+      "description": "Learn how to use and customize the dyte-spinner component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-spotlight-grid": {
+      "id": "components/dyte-spotlight-grid",
+      "title": "dyte-spotlight-grid",
+      "description": "Learn how to use and customize the dyte-spotlight-grid component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-stage": {
+      "id": "components/dyte-stage",
+      "title": "dyte-stage",
+      "description": "Learn how to use and customize the dyte-stage component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-switch": {
+      "id": "components/dyte-switch",
+      "title": "dyte-switch",
+      "description": "Learn how to use and customize the dyte-switch component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-text-field": {
+      "id": "components/dyte-text-field",
+      "title": "dyte-text-field",
+      "description": "Learn how to use and customize the dyte-text-field component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-text-message": {
+      "id": "components/dyte-text-message",
+      "title": "dyte-text-message",
+      "description": "Learn how to use and customize the dyte-text-message component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-tooltip": {
+      "id": "components/dyte-tooltip",
+      "title": "dyte-tooltip",
+      "description": "Learn how to use and customize the dyte-tooltip component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/dyte-viewer-count": {
+      "id": "components/dyte-viewer-count",
+      "title": "dyte-viewer-count",
+      "description": "Learn how to use and customize the dyte-viewer-count component in ProductDB's UI Kit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
     "components/gallery": {
       "id": "components/gallery",
       "title": "Gallery",
       "description": "Learn how to use and customize the Gallery component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-audio-visualizer": {
-      "id": "components/productdb-audio-visualizer",
-      "title": "productdb-audio-visualizer",
-      "description": "Learn how to use and customize the productdb-audio-visualizer component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-avatar": {
-      "id": "components/productdb-avatar",
-      "title": "productdb-avatar",
-      "description": "Learn how to use and customize the productdb-avatar component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-button": {
-      "id": "components/productdb-button",
-      "title": "productdb-button",
-      "description": "Learn how to use and customize the productdb-button component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-camera-toggle": {
-      "id": "components/productdb-camera-toggle",
-      "title": "productdb-camera-toggle",
-      "description": "Learn how to use and customize the productdb-camera-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-chat": {
-      "id": "components/productdb-chat",
-      "title": "productdb-chat",
-      "description": "Learn how to use and customize the productdb-chat component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-chat-toggle": {
-      "id": "components/productdb-chat-toggle",
-      "title": "productdb-chat-toggle",
-      "description": "Learn how to use and customize the productdb-chat-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-clock": {
-      "id": "components/productdb-clock",
-      "title": "productdb-clock",
-      "description": "Learn how to use and customize the productdb-clock component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-confirmation-modal": {
-      "id": "components/productdb-confirmation-modal",
-      "title": "productdb-confirmation-modal",
-      "description": "Learn how to use and customize the productdb-confirmation-modal component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-controlbar": {
-      "id": "components/productdb-controlbar",
-      "title": "productdb-controlbar",
-      "description": "Learn how to use and customize the productdb-controlbar component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-controlbar-button": {
-      "id": "components/productdb-controlbar-button",
-      "title": "productdb-controlbar-button",
-      "description": "Learn how to use and customize the productdb-controlbar-button component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-dialog": {
-      "id": "components/productdb-dialog",
-      "title": "productdb-dialog",
-      "description": "Learn how to use and customize the productdb-dialog component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-dialog-manager": {
-      "id": "components/productdb-dialog-manager",
-      "title": "productdb-dialog-manager",
-      "description": "Learn how to use and customize the productdb-dialog-manager component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-emoji-picker": {
-      "id": "components/productdb-emoji-picker",
-      "title": "productdb-emoji-picker",
-      "description": "Learn how to use and customize the productdb-emoji-picker component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-ended-screen": {
-      "id": "components/productdb-ended-screen",
-      "title": "productdb-ended-screen",
-      "description": "Learn how to use and customize the productdb-ended-screen component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-file-message": {
-      "id": "components/productdb-file-message",
-      "title": "productdb-file-message",
-      "description": "Learn how to use and customize the productdb-file-message component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-fullscreen-toggle": {
-      "id": "components/productdb-fullscreen-toggle",
-      "title": "productdb-fullscreen-toggle",
-      "description": "Learn how to use and customize the productdb-fullscreen-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-grid": {
-      "id": "components/productdb-grid",
-      "title": "productdb-grid",
-      "description": "Learn how to use and customize the productdb-grid component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-grid-pagination": {
-      "id": "components/productdb-grid-pagination",
-      "title": "productdb-grid-pagination",
-      "description": "Learn how to use and customize the productdb-grid-pagination component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-header": {
-      "id": "components/productdb-header",
-      "title": "productdb-header",
-      "description": "Learn how to use and customize the productdb-header component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-icon": {
-      "id": "components/productdb-icon",
-      "title": "productdb-icon",
-      "description": "Learn how to use and customize the productdb-icon component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-idle-screen": {
-      "id": "components/productdb-idle-screen",
-      "title": "productdb-idle-screen",
-      "description": "Learn how to use and customize the productdb-idle-screen component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-image-message": {
-      "id": "components/productdb-image-message",
-      "title": "productdb-image-message",
-      "description": "Learn how to use and customize the productdb-image-message component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-image-viewer": {
-      "id": "components/productdb-image-viewer",
-      "title": "productdb-image-viewer",
-      "description": "Learn how to use and customize the productdb-image-viewer component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-leave-button": {
-      "id": "components/productdb-leave-button",
-      "title": "productdb-leave-button",
-      "description": "Learn how to use and customize the productdb-leave-button component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-leave-meeting": {
-      "id": "components/productdb-leave-meeting",
-      "title": "productdb-leave-meeting",
-      "description": "Learn how to use and customize the productdb-leave-meeting component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-logo": {
-      "id": "components/productdb-logo",
-      "title": "productdb-logo",
-      "description": "Learn how to use and customize the productdb-logo component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-meeting": {
-      "id": "components/productdb-meeting",
-      "title": "productdb-meeting",
-      "description": "Learn how to use and customize the productdb-meeting component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-meeting-title": {
-      "id": "components/productdb-meeting-title",
-      "title": "productdb-meeting-title",
-      "description": "Learn how to use and customize the productdb-meeting-title component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-menu": {
-      "id": "components/productdb-menu",
-      "title": "productdb-menu",
-      "description": "Learn how to use and customize the productdb-menu component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-menu-item": {
-      "id": "components/productdb-menu-item",
-      "title": "productdb-menu-item",
-      "description": "Learn how to use and customize the productdb-menu-item component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-menu-list": {
-      "id": "components/productdb-menu-list",
-      "title": "productdb-menu-list",
-      "description": "Learn how to use and customize the productdb-menu-list component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-mic-toggle": {
-      "id": "components/productdb-mic-toggle",
-      "title": "productdb-mic-toggle",
-      "description": "Learn how to use and customize the productdb-mic-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-mixed-grid": {
-      "id": "components/productdb-mixed-grid",
-      "title": "productdb-mixed-grid",
-      "description": "Learn how to use and customize the productdb-mixed-grid component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-more-toggle": {
-      "id": "components/productdb-more-toggle",
-      "title": "productdb-more-toggle",
-      "description": "Learn how to use and customize the productdb-more-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-name-tag": {
-      "id": "components/productdb-name-tag",
-      "title": "productdb-name-tag",
-      "description": "Learn how to use and customize the productdb-name-tag component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-network-indicator": {
-      "id": "components/productdb-network-indicator",
-      "title": "productdb-network-indicator",
-      "description": "Learn how to use and customize the productdb-network-indicator component in ProductDB's React UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-notification": {
-      "id": "components/productdb-notification",
-      "title": "productdb-notification",
-      "description": "Learn how to use and customize the productdb-notification component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-notifications": {
-      "id": "components/productdb-notifications",
-      "title": "productdb-notifications",
-      "description": "Learn how to use and customize the productdb-notifications component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-overlay-modal": {
-      "id": "components/productdb-overlay-modal",
-      "title": "productdb-overlay-modal",
-      "description": "Learn how to use and customize the productdb-overlay-modal component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-participant": {
-      "id": "components/productdb-participant",
-      "title": "productdb-participant",
-      "description": "Learn how to use and customize the productdb-participant component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-participant-count": {
-      "id": "components/productdb-participant-count",
-      "title": "productdb-participant-count",
-      "description": "Learn how to use and customize the productdb-participant-count component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-participant-tile": {
-      "id": "components/productdb-participant-tile",
-      "title": "productdb-participant-tile",
-      "description": "Learn how to use and customize the productdb-participant-tile component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-participants": {
-      "id": "components/productdb-participants",
-      "title": "productdb-participants",
-      "description": "Learn how to use and customize the productdb-participants component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-participants-audio": {
-      "id": "components/productdb-participants-audio",
-      "title": "productdb-participants-audio",
-      "description": "Learn how to use and customize the productdb-participants-audio component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-participants-stage-list": {
-      "id": "components/productdb-participants-stage-list",
-      "title": "productdb-participants-stage-list",
-      "description": "Learn how to use and customize the productdb-participants-stage-list component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-participants-toggle": {
-      "id": "components/productdb-participants-toggle",
-      "title": "productdb-participants-toggle",
-      "description": "Learn how to use and customize the productdb-participants-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-permissions-message": {
-      "id": "components/productdb-permissions-message",
-      "title": "productdb-permissions-message",
-      "description": "Learn how to use and customize the productdb-permissions-message component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-plugin-main": {
-      "id": "components/productdb-plugin-main",
-      "title": "productdb-plugin-main",
-      "description": "Learn how to use and customize the productdb-plugin-main component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-plugins": {
-      "id": "components/productdb-plugins",
-      "title": "productdb-plugins",
-      "description": "Learn how to use and customize the productdb-plugins component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-plugins-toggle": {
-      "id": "components/productdb-plugins-toggle",
-      "title": "productdb-plugins-toggle",
-      "description": "Learn how to use and customize the productdb-plugins-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-poll": {
-      "id": "components/productdb-poll",
-      "title": "productdb-poll",
-      "description": "Learn how to use and customize the productdb-poll component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-poll-form": {
-      "id": "components/productdb-poll-form",
-      "title": "productdb-poll-form",
-      "description": "Learn how to use and customize the productdb-poll-form component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-polls": {
-      "id": "components/productdb-polls",
-      "title": "productdb-polls",
-      "description": "Learn how to use and customize the productdb-polls component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-polls-toggle": {
-      "id": "components/productdb-polls-toggle",
-      "title": "productdb-polls-toggle",
-      "description": "Learn how to use and customize the productdb-polls-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-recording-indicator": {
-      "id": "components/productdb-recording-indicator",
-      "title": "productdb-recording-indicator",
-      "description": "Learn how to use and customize the productdb-recording-indicator component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-recording-toggle": {
-      "id": "components/productdb-recording-toggle",
-      "title": "productdb-recording-toggle",
-      "description": "Learn how to use and customize the productdb-recording-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-remote-access-manager": {
-      "id": "components/productdb-remote-access-manager",
-      "title": "productdb-remote-access-manager",
-      "description": "Learn how to use and customize the productdb-remote-access-manager component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-screen-share-toggle": {
-      "id": "components/productdb-screen-share-toggle",
-      "title": "productdb-screen-share-toggle",
-      "description": "Learn how to use and customize the productdb-screen-share-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-screenshare-view": {
-      "id": "components/productdb-screenshare-view",
-      "title": "productdb-screenshare-view",
-      "description": "Learn how to use and customize the productdb-screenshare-view component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-settings": {
-      "id": "components/productdb-settings",
-      "title": "productdb-settings",
-      "description": "Learn how to use and customize the productdb-settings component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-settings-audio": {
-      "id": "components/productdb-settings-audio",
-      "title": "productdb-settings-audio",
-      "description": "Learn how to use and customize the productdb-settings-audio component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-settings-toggle": {
-      "id": "components/productdb-settings-toggle",
-      "title": "productdb-settings-toggle",
-      "description": "Learn how to use and customize the productdb-settings-toggle component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-settings-video": {
-      "id": "components/productdb-settings-video",
-      "title": "productdb-settings-video",
-      "description": "Learn how to use and customize the productdb-settings-video component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-setup-screen": {
-      "id": "components/productdb-setup-screen",
-      "title": "productdb-setup-screen",
-      "description": "Learn how to use and customize the productdb-setup-screen component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-sidebar": {
-      "id": "components/productdb-sidebar",
-      "title": "productdb-sidebar",
-      "description": "Learn how to use and customize the productdb-sidebar component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-simple-grid": {
-      "id": "components/productdb-simple-grid",
-      "title": "productdb-simple-grid",
-      "description": "Learn how to use and customize the productdb-simple-grid component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-spinner": {
-      "id": "components/productdb-spinner",
-      "title": "productdb-spinner",
-      "description": "Learn how to use and customize the productdb-spinner component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-spotlight-grid": {
-      "id": "components/productdb-spotlight-grid",
-      "title": "productdb-spotlight-grid",
-      "description": "Learn how to use and customize the productdb-spotlight-grid component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-stage": {
-      "id": "components/productdb-stage",
-      "title": "productdb-stage",
-      "description": "Learn how to use and customize the productdb-stage component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-switch": {
-      "id": "components/productdb-switch",
-      "title": "productdb-switch",
-      "description": "Learn how to use and customize the productdb-switch component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-text-field": {
-      "id": "components/productdb-text-field",
-      "title": "productdb-text-field",
-      "description": "Learn how to use and customize the productdb-text-field component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-text-message": {
-      "id": "components/productdb-text-message",
-      "title": "productdb-text-message",
-      "description": "Learn how to use and customize the productdb-text-message component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-tooltip": {
-      "id": "components/productdb-tooltip",
-      "title": "productdb-tooltip",
-      "description": "Learn how to use and customize the productdb-tooltip component in ProductDB's UI Kit with our detailed documentation.",
-      "sidebar": "tutorialSidebar"
-    },
-    "components/productdb-viewer-count": {
-      "id": "components/productdb-viewer-count",
-      "title": "productdb-viewer-count",
-      "description": "Learn how to use and customize the productdb-viewer-count component in ProductDB's UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "customizations/custom-iconpack": {
@@ -1178,9 +1178,9 @@
       "description": "This quickstart shows how to use ProductDB's UI Kit prebuilt components to add live",
       "sidebar": "tutorialSidebar"
     },
-    "reference/classes/ProductDBNotificationsAudio": {
-      "id": "reference/classes/ProductDBNotificationsAudio",
-      "title": "Class: ProductDBNotificationsAudio",
+    "reference/classes/DyteNotificationsAudio": {
+      "id": "reference/classes/DyteNotificationsAudio",
+      "title": "Class: DyteNotificationsAudio",
       "description": "Handles notification sounds in a meeting",
       "sidebar": "tutorialSidebar"
     },

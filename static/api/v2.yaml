@@ -2,7 +2,7 @@ openapi: 3.0.0
 x-stoplight:
   id: f49d2395cc273
 servers:
-  - url: 'https://api.productdb.io/v2'
+  - url: 'https://api.dyte.io/v2'
     description: ''
     variables: {}
 info:
@@ -1842,7 +1842,7 @@ paths:
         <!-- theme: warning -->
         > #### NOTE
         >
-        > This API is in beta and is disabled by default. [Contact us](https://productdb.io/contact) to enable it
+        > This API is in beta and is disabled by default. [Contact us](https://dyte.io/contact) to enable it
         > for your organization.
       operationId: GetSessionChat
       tags:
@@ -1865,7 +1865,7 @@ paths:
         <!-- theme: warning -->
         > #### NOTE
         >
-        > This API is in beta. [Contact us](https://productdb.io/contact) if you face
+        > This API is in beta. [Contact us](https://dyte.io/contact) if you face
         > any issues.
       operationId: GetSessionTranscript
       tags:
@@ -1890,7 +1890,7 @@ paths:
         <!-- theme: warning -->
         > #### NOTE
         >
-        > This API is in beta. [Contact us](https://productdb.io/contact) if you face
+        > This API is in beta. [Contact us](https://dyte.io/contact) if you face
         > any issues.
       operationId: GetSessionSummary
       tags:
@@ -2719,10 +2719,10 @@ paths:
         <!-- theme: warning -->
         > #### NOTE
         >
-        > This API is in beta. [Contact us](https://productdb.io/contact) if you face
+        > This API is in beta. [Contact us](https://dyte.io/contact) if you face
         > any issues.
 
-        Starts a track recording in a meeting. Track recordings consist of "layers". Layers are used to map audio/video tracks in a meeting to output destinations. More information about track recordings is available in the [Track Recordings Guide Page](https://docs.productdb.io/guides/capabilities/recording/recording-overview).
+        Starts a track recording in a meeting. Track recordings consist of "layers". Layers are used to map audio/video tracks in a meeting to output destinations. More information about track recordings is available in the [Track Recordings Guide Page](https://docs.dyte.io/guides/capabilities/recording/recording-overview).
 components:
   schemas:
     LivestreamWithSessions:
@@ -3696,7 +3696,7 @@ components:
         website:
           type: string
           format: uri
-          example: 'https://www.productdb.io'
+          example: 'https://www.dyte.io'
         feature_flags:
           type: array
           items:
@@ -3721,7 +3721,7 @@ components:
         website:
           type: string
           format: uri
-          example: 'https://www.productdb.io'
+          example: 'https://www.dyte.io'
         feature_flags:
           type: array
           items:
@@ -3751,7 +3751,7 @@ components:
         website:
           type: string
           format: uri
-          example: 'https://www.productdb.io'
+          example: 'https://www.dyte.io'
         apikey:
           type: string
           example: 4deeb3d8e8b5e74d5522
@@ -4993,8 +4993,8 @@ components:
             id: mqrzqrbcbbx99
           default: true
           description: Controls whether to export audio file seperately
-    ProductDBBucketConfig:
-      title: ProductDBBucketConfig
+    DyteBucketConfig:
+      title: DyteBucketConfig
       x-stoplight:
         id: nda2arv28bpxt
       type: object
@@ -5048,7 +5048,7 @@ components:
               x-stoplight:
                 id: 2q0sigi7zuva4
               description: Name of the user who started the recording.
-              example: ProductDB_test
+              example: Dyte_test
     stopReason:
       title: stopReason
       x-stoplight:
@@ -5089,7 +5089,7 @@ components:
               x-stoplight:
                 id: fylgc8uhbqf1v
               description: Name of the user who stopped the recording.
-              example: ProductDB_test
+              example: Dyte_test
     InteractiveConfig:
       title: InteractiveConfig
       x-stoplight:
@@ -5145,7 +5145,7 @@ components:
         storage_config:
           $ref: '#/components/schemas/StorageConfig'
         dyte_bucket_config:
-          $ref: '#/components/schemas/ProductDBBucketConfig'
+          $ref: '#/components/schemas/DyteBucketConfig'
         live_streaming_config:
           $ref: '#/components/schemas/LivestreamingConfig'
     TrackConfigLayer:
@@ -5552,7 +5552,7 @@ components:
                 format: uri
                 description: Pass a custom url to record arbitary screen
               dyte_bucket_config:
-                $ref: '#/components/schemas/ProductDBBucketConfig'
+                $ref: '#/components/schemas/DyteBucketConfig'
               interactive_config:
                 $ref: '#/components/schemas/InteractiveConfig'
               allow_multiple_recordings:
@@ -7106,7 +7106,7 @@ tags:
   - name: Organizations
   - name: Chat
 externalDocs:
-  url: 'https://docs.productdb.io'
+  url: 'https://docs.dyte.io'
   description: ''
 security:
   - Authorization: []

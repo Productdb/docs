@@ -4,8 +4,8 @@
   "description": "The Twilio Shim by ProductDB is a package that allows you to migrate your video calling applications from Twilio to ProductDB infrastructure.",
   "source": "@site/docs/guides/migration/twilio/shim-library/twilio-shim-by-dyte.mdx",
   "sourceDirName": "migration/twilio/shim-library",
-  "slug": "/migration/twilio/twilio-shim-by-productdb",
-  "permalink": "/guides/migration/twilio/twilio-shim-by-productdb",
+  "slug": "/migration/twilio/twilio-shim-by-dyte",
+  "permalink": "/guides/migration/twilio/twilio-shim-by-dyte",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/migration/twilio/shim-library/twilio-shim-by-dyte.mdx",
@@ -17,7 +17,7 @@
   "frontMatter": {
     "title": "Introduction",
     "sidebar_position": 3,
-    "slug": "/migration/twilio/twilio-shim-by-productdb"
+    "slug": "/migration/twilio/twilio-shim-by-dyte"
   },
   "sidebar": "tutorialSidebar",
   "previous": {

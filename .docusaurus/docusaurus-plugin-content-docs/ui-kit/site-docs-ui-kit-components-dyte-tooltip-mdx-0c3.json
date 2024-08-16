@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-tooltip",
+  "title": "dyte-tooltip",
+  "description": "Learn how to use and customize the dyte-tooltip component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/dyte-tooltip.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-tooltip",
+  "permalink": "/ui-kit/components/dyte-tooltip",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-tooltip.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-tooltip.svg",
+    "description": "Learn how to use and customize the dyte-tooltip component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-text-message",
+    "permalink": "/ui-kit/components/dyte-text-message"
+  },
+  "next": {
+    "title": "dyte-viewer-count",
+    "permalink": "/ui-kit/components/dyte-viewer-count"
+  }
+}

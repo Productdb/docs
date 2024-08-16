@@ -847,7 +847,7 @@
     "build-in-call-ui/default-meeting-ui": {
       "id": "build-in-call-ui/default-meeting-ui",
       "title": "DyteMeeting",
-      "description": "Dyte provides, DyteMeeting an all encompassing component that internally handles everything from showing a pre-call UI to in-call UI and post-call screen.",
+      "description": "ProductDB provides, DyteMeeting an all encompassing component that internally handles everything from showing a pre-call UI to in-call UI and post-call screen.",
       "sidebar": "tutorialSidebar"
     },
     "build-pre-call-ui/build-your-own/add-audio-video-device": {
@@ -883,475 +883,475 @@
     "build-pre-call-ui/default-setup-screen": {
       "id": "build-pre-call-ui/default-setup-screen",
       "title": "DyteSetupScreen",
-      "description": "Dyte provides a default pre-call preview UI, also known as setup screen as part of our UI components.",
+      "description": "ProductDB provides a default pre-call preview UI, also known as setup screen as part of our UI components.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-audio-visualizer": {
       "id": "components/dyte-audio-visualizer",
       "title": "DyteAudioVisualizer",
-      "description": "Learn how to use and customize the DyteAudioVisualizer component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteAudioVisualizer component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-avatar": {
       "id": "components/dyte-avatar",
       "title": "DyteAvatar",
-      "description": "Learn how to use and customize the DyteAvatar component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteAvatar component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-button": {
       "id": "components/dyte-button",
       "title": "DyteButton",
-      "description": "Learn how to use and customize the DyteButton component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteButton component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-camera-toggle": {
       "id": "components/dyte-camera-toggle",
       "title": "DyteCameraToggle",
-      "description": "Learn how to use and customize the DyteCameraToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteCameraToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-chat": {
       "id": "components/dyte-chat",
       "title": "DyteChat",
-      "description": "Learn how to use and customize the DyteChat component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteChat component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-chat-toggle": {
       "id": "components/dyte-chat-toggle",
       "title": "DyteChatToggle",
-      "description": "Learn how to use and customize the DyteChatToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteChatToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-clock": {
       "id": "components/dyte-clock",
       "title": "DyteClock",
-      "description": "Learn how to use and customize the DyteClock component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteClock component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-confirmation-modal": {
       "id": "components/dyte-confirmation-modal",
       "title": "DyteConfirmationModal",
-      "description": "Learn how to use and customize the DyteConfirmationModal component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteConfirmationModal component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-controlbar": {
       "id": "components/dyte-controlbar",
       "title": "DyteControlbar",
-      "description": "Learn how to use and customize the DyteControlbar component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteControlbar component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-controlbar-button": {
       "id": "components/dyte-controlbar-button",
       "title": "DyteControlbarButton",
-      "description": "Learn how to use and customize the DyteControlbarButton component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteControlbarButton component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-dialog": {
       "id": "components/dyte-dialog",
       "title": "DyteDialog",
-      "description": "Learn how to use and customize the DyteDialog component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteDialog component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-dialog-manager": {
       "id": "components/dyte-dialog-manager",
       "title": "DyteDialogManager",
-      "description": "Learn how to use and customize the DyteDialogManager component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteDialogManager component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-emoji-picker": {
       "id": "components/dyte-emoji-picker",
       "title": "DyteEmojiPicker",
-      "description": "Learn how to use and customize the DyteEmojiPicker component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteEmojiPicker component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-ended-screen": {
       "id": "components/dyte-ended-screen",
       "title": "DyteEndedScreen",
-      "description": "Learn how to use and customize the DyteEndedScreen component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteEndedScreen component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-file-message": {
       "id": "components/dyte-file-message",
       "title": "DyteFileMessage",
-      "description": "Learn how to use and customize the DyteFileMessage component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteFileMessage component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-fullscreen-toggle": {
       "id": "components/dyte-fullscreen-toggle",
       "title": "DyteFullscreenToggle",
-      "description": "Learn how to use and customize the DyteFullscreenToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteFullscreenToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-grid": {
       "id": "components/dyte-grid",
       "title": "DyteGrid",
-      "description": "Learn how to use and customize the DyteGrid component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteGrid component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-grid-pagination": {
       "id": "components/dyte-grid-pagination",
       "title": "DyteGridPagination",
-      "description": "Learn how to use and customize the DyteGridPagination component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteGridPagination component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-header": {
       "id": "components/dyte-header",
       "title": "DyteHeader",
-      "description": "Learn how to use and customize the DyteHeader component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteHeader component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-icon": {
       "id": "components/dyte-icon",
       "title": "DyteIcon",
-      "description": "Learn how to use and customize the DyteIcon component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteIcon component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-idle-screen": {
       "id": "components/dyte-idle-screen",
       "title": "DyteIdleScreen",
-      "description": "Learn how to use and customize the DyteIdleScreen component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteIdleScreen component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-image-message": {
       "id": "components/dyte-image-message",
       "title": "DyteImageMessage",
-      "description": "Learn how to use and customize the DyteImageMessage component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteImageMessage component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-image-viewer": {
       "id": "components/dyte-image-viewer",
       "title": "DyteImageViewer",
-      "description": "Learn how to use and customize the DyteImageViewer component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteImageViewer component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-leave-button": {
       "id": "components/dyte-leave-button",
       "title": "DyteLeaveButton",
-      "description": "Learn how to use and customize the DyteLeaveButton component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteLeaveButton component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-leave-meeting": {
       "id": "components/dyte-leave-meeting",
       "title": "DyteLeaveMeeting",
-      "description": "Learn how to use and customize the DyteLeaveMeeting component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteLeaveMeeting component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-logo": {
       "id": "components/dyte-logo",
       "title": "DyteLogo",
-      "description": "Learn how to use and customize the DyteLogo component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteLogo component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-meeting": {
       "id": "components/dyte-meeting",
       "title": "DyteMeeting",
-      "description": "Learn how to use and customize the DyteMeeting component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteMeeting component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-meeting-title": {
       "id": "components/dyte-meeting-title",
       "title": "DyteMeetingTitle",
-      "description": "Learn how to use and customize the DyteMeetingTitle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteMeetingTitle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-menu": {
       "id": "components/dyte-menu",
       "title": "DyteMenu",
-      "description": "Learn how to use and customize the DyteMenu component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteMenu component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-menu-item": {
       "id": "components/dyte-menu-item",
       "title": "DyteMenuItem",
-      "description": "Learn how to use and customize the DyteMenuItem component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteMenuItem component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-menu-list": {
       "id": "components/dyte-menu-list",
       "title": "DyteMenuList",
-      "description": "Learn how to use and customize the DyteMenuList component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteMenuList component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-mic-toggle": {
       "id": "components/dyte-mic-toggle",
       "title": "DyteMicToggle",
-      "description": "Learn how to use and customize the DyteMicToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteMicToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-mixed-grid": {
       "id": "components/dyte-mixed-grid",
       "title": "DyteMixedGrid",
-      "description": "Learn how to use and customize the DyteMixedGrid component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteMixedGrid component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-more-toggle": {
       "id": "components/dyte-more-toggle",
       "title": "DyteMoreToggle",
-      "description": "Learn how to use and customize the DyteMoreToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteMoreToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-name-tag": {
       "id": "components/dyte-name-tag",
       "title": "DyteNameTag",
-      "description": "Learn how to use and customize the DyteNameTag component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteNameTag component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-network-indicator": {
       "id": "components/dyte-network-indicator",
       "title": "DyteNetworkIndicator",
-      "description": "Learn how to use and customize the DyteNetworkIndicator component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteNetworkIndicator component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-notification": {
       "id": "components/dyte-notification",
       "title": "DyteNotification",
-      "description": "Learn how to use and customize the DyteNotification component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteNotification component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-notifications": {
       "id": "components/dyte-notifications",
       "title": "DyteNotifications",
-      "description": "Learn how to use and customize the DyteNotifications component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteNotifications component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-overlay-modal": {
       "id": "components/dyte-overlay-modal",
       "title": "DyteOverlayModal",
-      "description": "Learn how to use and customize the DyteOverlayModal component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteOverlayModal component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-participant": {
       "id": "components/dyte-participant",
       "title": "DyteParticipant",
-      "description": "Learn how to use and customize the DyteParticipant component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteParticipant component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-participant-count": {
       "id": "components/dyte-participant-count",
       "title": "DyteParticipantCount",
-      "description": "Learn how to use and customize the DyteParticipantCount component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteParticipantCount component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-participant-tile": {
       "id": "components/dyte-participant-tile",
       "title": "DyteParticipantTile",
-      "description": "Learn how to use and customize the DyteParticipantTile component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteParticipantTile component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-participants": {
       "id": "components/dyte-participants",
       "title": "DyteParticipants",
-      "description": "Learn how to use and customize the DyteParticipants component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteParticipants component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-participants-audio": {
       "id": "components/dyte-participants-audio",
       "title": "DyteParticipantsAudio",
-      "description": "Learn how to use and customize the DyteParticipantsAudio component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteParticipantsAudio component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-participants-stage-list": {
       "id": "components/dyte-participants-stage-list",
       "title": "DyteParticipantsStageList",
-      "description": "Learn how to use and customize the DyteParticipantsStageList component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteParticipantsStageList component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-participants-toggle": {
       "id": "components/dyte-participants-toggle",
       "title": "DyteParticipantsToggle",
-      "description": "Learn how to use and customize the DyteParticipantsToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteParticipantsToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-permissions-message": {
       "id": "components/dyte-permissions-message",
       "title": "DytePermissionsMessage",
-      "description": "Learn how to use and customize the DytePermissionsMessage component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePermissionsMessage component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-plugin-main": {
       "id": "components/dyte-plugin-main",
       "title": "DytePluginMain",
-      "description": "Learn how to use and customize the DytePluginMain component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePluginMain component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-plugins": {
       "id": "components/dyte-plugins",
       "title": "DytePlugins",
-      "description": "Learn how to use and customize the DytePlugins component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePlugins component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-plugins-toggle": {
       "id": "components/dyte-plugins-toggle",
       "title": "DytePluginsToggle",
-      "description": "Learn how to use and customize the DytePluginsToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePluginsToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-poll": {
       "id": "components/dyte-poll",
       "title": "DytePoll",
-      "description": "Learn how to use and customize the DytePoll component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePoll component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-poll-form": {
       "id": "components/dyte-poll-form",
       "title": "DytePollForm",
-      "description": "Learn how to use and customize the DytePollForm component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePollForm component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-polls": {
       "id": "components/dyte-polls",
       "title": "DytePolls",
-      "description": "Learn how to use and customize the DytePolls component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePolls component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-polls-toggle": {
       "id": "components/dyte-polls-toggle",
       "title": "DytePollsToggle",
-      "description": "Learn how to use and customize the DytePollsToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DytePollsToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-recording-indicator": {
       "id": "components/dyte-recording-indicator",
       "title": "DyteRecordingIndicator",
-      "description": "Learn how to use and customize the DyteRecordingIndicator component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteRecordingIndicator component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-recording-toggle": {
       "id": "components/dyte-recording-toggle",
       "title": "DyteRecordingToggle",
-      "description": "Learn how to use and customize the DyteRecordingToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteRecordingToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-remote-access-manager": {
       "id": "components/dyte-remote-access-manager",
       "title": "DyteRemoteAccessManager",
-      "description": "Learn how to use and customize the DyteRemoteAccessManager component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteRemoteAccessManager component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-screen-share-toggle": {
       "id": "components/dyte-screen-share-toggle",
       "title": "DyteScreenShareToggle",
-      "description": "Learn how to use and customize the DyteScreenShareToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteScreenShareToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-screenshare-view": {
       "id": "components/dyte-screenshare-view",
       "title": "DyteScreenshareView",
-      "description": "Learn how to use and customize the DyteScreenshareView component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteScreenshareView component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-settings": {
       "id": "components/dyte-settings",
       "title": "DyteSettings",
-      "description": "Learn how to use and customize the DyteSettings component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSettings component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-settings-audio": {
       "id": "components/dyte-settings-audio",
       "title": "DyteSettingsAudio",
-      "description": "Learn how to use and customize the DyteSettingsAudio component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSettingsAudio component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-settings-toggle": {
       "id": "components/dyte-settings-toggle",
       "title": "DyteSettingsToggle",
-      "description": "Learn how to use and customize the DyteSettingsToggle component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSettingsToggle component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-settings-video": {
       "id": "components/dyte-settings-video",
       "title": "DyteSettingsVideo",
-      "description": "Learn how to use and customize the DyteSettingsVideo component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSettingsVideo component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-setup-screen": {
       "id": "components/dyte-setup-screen",
       "title": "DyteSetupScreen",
-      "description": "Learn how to use and customize the DyteSetupScreen component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSetupScreen component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-sidebar": {
       "id": "components/dyte-sidebar",
       "title": "DyteSidebar",
-      "description": "Learn how to use and customize the DyteSidebar component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSidebar component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-simple-grid": {
       "id": "components/dyte-simple-grid",
       "title": "DyteSimpleGrid",
-      "description": "Learn how to use and customize the DyteSimpleGrid component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSimpleGrid component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-spinner": {
       "id": "components/dyte-spinner",
       "title": "DyteSpinner",
-      "description": "Learn how to use and customize the DyteSpinner component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSpinner component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-spotlight-grid": {
       "id": "components/dyte-spotlight-grid",
       "title": "DyteSpotlightGrid",
-      "description": "Learn how to use and customize the DyteSpotlightGrid component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSpotlightGrid component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-stage": {
       "id": "components/dyte-stage",
       "title": "DyteStage",
-      "description": "Learn how to use and customize the DyteStage component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteStage component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-switch": {
       "id": "components/dyte-switch",
       "title": "DyteSwitch",
-      "description": "Learn how to use and customize the DyteSwitch component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteSwitch component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-text-field": {
       "id": "components/dyte-text-field",
       "title": "DyteTextField",
-      "description": "Learn how to use and customize the DyteTextField component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteTextField component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-text-message": {
       "id": "components/dyte-text-message",
       "title": "DyteTextMessage",
-      "description": "Learn how to use and customize the DyteTextMessage component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteTextMessage component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-tooltip": {
       "id": "components/dyte-tooltip",
       "title": "DyteTooltip",
-      "description": "Learn how to use and customize the DyteTooltip component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteTooltip component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/dyte-viewer-count": {
       "id": "components/dyte-viewer-count",
       "title": "DyteViewerCount",
-      "description": "Learn how to use and customize the DyteViewerCount component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the DyteViewerCount component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "components/gallery": {
       "id": "components/gallery",
       "title": "Gallery",
-      "description": "Learn how to use and customize the Gallery component in Dyte's React UI Kit with our detailed documentation.",
+      "description": "Learn how to use and customize the Gallery component in ProductDB's React UI Kit with our detailed documentation.",
       "sidebar": "tutorialSidebar"
     },
     "customizations/custom-iconpack": {
       "id": "customizations/custom-iconpack",
       "title": "Customize Meeting Icons",
-      "description": "Dyte's UI Kit provides all the necessary UI components to allow complete customization of all its UI Kit components. You can customize your meeting icons such as chat, clock, leave meeting, mic on and off, and more.",
+      "description": "ProductDB's UI Kit provides all the necessary UI components to allow complete customization of all its UI Kit components. You can customize your meeting icons such as chat, clock, leave meeting, mic on and off, and more.",
       "sidebar": "tutorialSidebar"
     },
     "customizations/custom-locale": {
       "id": "customizations/custom-locale",
       "title": "Customize Meeting Locale",
-      "description": "Dyte's UI Kit allows you to customize all the text within the video call interface. You can personalize the text to align with your specific locale needs.",
+      "description": "ProductDB's UI Kit allows you to customize all the text within the video call interface. You can personalize the text to align with your specific locale needs.",
       "sidebar": "tutorialSidebar"
     },
     "design-system": {
       "id": "design-system",
       "title": "Design System",
-      "description": "Details about the Design System in Dyte's UI Kit.",
+      "description": "Details about the Design System in ProductDB's UI Kit.",
       "sidebar": "tutorialSidebar"
     },
     "display-videos": {
@@ -1369,13 +1369,13 @@
     "introduction": {
       "id": "introduction",
       "title": "Introduction",
-      "description": "Dyte's React UI Kit is a prebuilt design library of UI components that makes it",
+      "description": "ProductDB's React UI Kit is a prebuilt design library of UI components that makes it",
       "sidebar": "tutorialSidebar"
     },
     "quickstart": {
       "id": "quickstart",
       "title": "Quickstart",
-      "description": "This quickstart shows how to use Dyte's UI Kit prebuilt components to add live",
+      "description": "This quickstart shows how to use ProductDB's UI Kit prebuilt components to add live",
       "sidebar": "tutorialSidebar"
     },
     "reference/classes/DyteNotificationsAudio": {
@@ -1429,7 +1429,7 @@
     "using-hooks": {
       "id": "using-hooks",
       "title": "Use Web Core Hooks",
-      "description": "Dyte's React UI Kit provides multiple",
+      "description": "ProductDB's React UI Kit provides multiple",
       "sidebar": "tutorialSidebar"
     }
   }

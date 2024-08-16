@@ -31,7 +31,7 @@
     "fixes": [
       "Improvements in settings screen for camera device selector",
       "Support added for Settings button in meeting screen in landscape orientation",
-      "UI fixes in name-tag inside ProductDBParticipantTileView"
+      "UI fixes in name-tag inside DyteParticipantTileView"
     ],
     "breaking-changes": []
   },

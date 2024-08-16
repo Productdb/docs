@@ -29,11 +29,11 @@ cd <your-project-directory>
 ```
 
 ```bash
-productdb plugins create
+dyte plugins create
 ```
 
 This command asks you a bunch of questions and then generates a
-`productdb-config.json` for you. This file must always stay in the root of your
+`dyte-config.json` for you. This file must always stay in the root of your
 folder.
 
 ## Configure your plugin
@@ -56,8 +56,8 @@ Here's what a basic config file would look like:
   "version": "1.x.x",
   "description": "Add a short description for your plugin here",
   "pluginId": "79936149-758e-4d8d-8366-23deaxxxxxxx",
-  "picture": "https://productdb-uploads.s3.ap-south-1.amazonaws.com/productdb.png",
-  "url": "https://79936149-758e-4d8d-8366-23deaxxxxxxx-latest.plugins.productdb.app",
+  "picture": "https://dyte-uploads.s3.ap-south-1.amazonaws.com/dyte.png",
+  "url": "https://79936149-758e-4d8d-8366-23deaxxxxxxx-latest.plugins.dyte.app",
   "files": {
     "include": ["index.html", "**/*"],
     "exclude": ["**/*.ts", "*.md"]
@@ -78,11 +78,11 @@ The code snippet below shows how you can use it:
 
 ```js
 <body>
- <productdb-meeting id="my-meeting"></productdb-meeting>
+ <dyte-meeting id="my-meeting"></dyte-meeting>
 
   <script>
     const init = async () => {
-      const meeting = await ProductDBClient.init({
+      const meeting = await DyteClient.init({
         authToken: '',
         roomName: '',
         defaults: {
@@ -152,9 +152,9 @@ yarn add @dytesdk/plugin-sdk
 This is a simple plugin that greets every new person who joins the meeting.
 
 ```ts
-import ProductDBPlugin from '@dytesdk/plugin-sdk';
+import DytePlugin from '@dytesdk/plugin-sdk';
 
-const plugin = ProductDBPlugin.init();
+const plugin = DytePlugin.init();
 await plugin.stores.populate('storeName');
 
 plugin.room.on('peerJoined', async (p) => {

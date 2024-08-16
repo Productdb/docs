@@ -17,9 +17,9 @@ import {
 </span>
 
 You can also checkout our
-[sample code](https://github.com/productdb-io/angular-samples#samples) for Angular. You can clone
+[sample code](https://github.com/dyte-io/angular-samples#samples) for Angular. You can clone
 and run a sample application from the
-[Angular Samples GitHub repository](https://github.com/productdb-io/angular-samples).
+[Angular Samples GitHub repository](https://github.com/dyte-io/angular-samples).
 
 ## Before getting started
 
@@ -50,7 +50,7 @@ npm install @dytesdk/angular-ui-kit @dytesdk/web-core
 Here's a series of steps that you need to perform:
 
 1. Fetch the `authToken` from your server-side.
-2. Call the `ProductDBClient.init()` method from the `web-core` package and pass the `authToken`.
+2. Call the `DyteClient.init()` method from the `web-core` package and pass the `authToken`.
 
 ```ts
 class AppComponent {
@@ -75,9 +75,9 @@ ProductDB offers a UI Kit that is highly customizatble and uses the `meeting` in
 
 ### UI Kit
 
-A single `<productdb-meeting />` component that is feature rich renders a complete meeting UI and handles all events.
+A single `<dyte-meeting />` component that is feature rich renders a complete meeting UI and handles all events.
 
-#### Load the `ProductDBComponentsModule` into your App Module
+#### Load the `DyteComponentsModule` into your App Module
 
 This is how typically the `app.module.ts` file looks like. This allows you to use ProductDB's UI components in your component HTML files. For
 more information on the components, see
@@ -116,7 +116,7 @@ If you are using TypeScript, perform the following steps:
 2. Add the ProductDB meeting component to your template file (`component.html`).
 
 ```html
-<productdb-meeting #myid></productdb-meeting>
+<dyte-meeting #myid></dyte-meeting>
 ```
 
 3. Get a reference to the meeting component using `@ViewChild()`.
@@ -151,7 +151,7 @@ Load the ProductDB component to your template file (`component.html`).
 
 ```html {5}
 <div>
-  <productdb-grid class="productdb-el"></productdb-grid>
+  <dyte-grid class="dyte-el"></dyte-grid>
   <div class="controlbar">
     <!-- Your own components -->
     <button #mic (click)="onMicToggle">Toggle Mic</button>
@@ -174,7 +174,7 @@ class AppComponent {
 
     meeting.join();
     this.dyteMeeting = meeting;
-    const elements = document.getElementsByClassName('productdb-el');
+    const elements = document.getElementsByClassName('dyte-el');
     for (i = 0; i < elements.length; i++) {
       elements[i].meeting = meeting;
     }

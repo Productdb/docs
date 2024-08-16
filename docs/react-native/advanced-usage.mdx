@@ -11,7 +11,7 @@ getting into the meeting is turned off by default. You can set `showSetupScreen`
 in `meetingConfig` to `true` to turn it on (default value is `false`).
 
 ```jsx {7}
-<ProductDBMeeting
+<DyteMeeting
   onInit={(meeting) => { }}
   clientId=`yourClientID`
   meetingConfig={{
@@ -30,7 +30,7 @@ support it. If you set `autoTune` in `meetingConfig` to `false`, ProductDB will 
 VP8 only for all participants (default value is `true`).
 
 ```jsx {7}
-<ProductDBMeeting
+<DyteMeeting
   onInit={(meeting) => { }}
   clientId=`yourClientID`
   meetingConfig={{
@@ -45,11 +45,11 @@ VP8 only for all participants (default value is `true`).
 
 You can optionally choose to subscribe to the error details, in case an error
 occurs while joining a meeting from the client app, by passing an `onError` prop
-to `ProductDBMeeting`. `onError` expects a function which has a single param of type
+to `DyteMeeting`. `onError` expects a function which has a single param of type
 `Error` and is not expected to return anything.
 
 ```jsx {8}
-<ProductDBMeeting
+<DyteMeeting
   onInit={(meeting) => { }}
   clientId=`yourClientID`
   meetingConfig={{
@@ -147,7 +147,7 @@ let plugins = meeting.plugins;
 ```
 
 sets the value of `plugins` to an array of with elements that are instances of
-type `ProductDBPlugin`, whose prototype is defined below in the reference section and
+type `DytePlugin`, whose prototype is defined below in the reference section and
 can be directly used as a type if you prefer using TypeScript bindings.
 
 <!-- ## Add (and remove) a custom button on the bottom control bar
@@ -328,9 +328,9 @@ let participantList = meeting.participants;
 ```
 
 sets the `participantList` to an array whose elements are instances of type
-`ProductDBParticipant`, whose prototype is defined below in the reference section and
+`DyteParticipant`, whose prototype is defined below in the reference section and
 can be directly used as a type if you prefer using TypeScript bindings. There
-will be exactly one element of type `ProductDBSelfParticipant`, which refers to the
+will be exactly one element of type `DyteSelfParticipant`, which refers to the
 current participant.
 
 ## Controlling individual participants and actions
@@ -352,9 +352,9 @@ for the participant who intends to use these.
 ### Get participant list
 
 To get a list of all participants, use `meeting.participants`: it returns
-`Array[ProductDBParticipant|ProductDBSelfParticipant]` where all meeting participants are
-[`ProductDBParticipant`](./reference/participant) and the current participant is
-[`ProductDBSelfParticipant`](./reference/self-participant).
+`Array[DyteParticipant|DyteSelfParticipant]` where all meeting participants are
+[`DyteParticipant`](./reference/participant) and the current participant is
+[`DyteSelfParticipant`](./reference/self-participant).
 
 ### Participant info and actions
 
@@ -569,8 +569,8 @@ p.sendMessage(message);
 
 You can check if the participant is the current participant by checking the
 `isMe` boolean property of the participant. If found to be `true`, you can treat
-that participant as an instance of type `ProductDBSelfParticipant`, which is a
-subclass of type `ProductDBParticipant`. This unlocks a few additional actions that
+that participant as an instance of type `DyteSelfParticipant`, which is a
+subclass of type `DyteParticipant`. This unlocks a few additional actions that
 you can take with that participant.
 
 ```javascript
@@ -584,11 +584,11 @@ can be called on `currentParticipant`.
 ## Errors
 
 There are 3 types of errors emitted when a meeting cannot be initialized. Read
-more about these on the [`ProductDBErrors`](./reference/productdb-errors) page in the
+more about these on the [`DyteErrors`](./reference/dyte-errors) page in the
 reference section.
 
 ```tsx
-enum ProductDBErrors {
+enum DyteErrors {
   CLIENTID_INVALID,
   MEETING_UNAUTHORIZED,
   MEETING_NOTFOUND,
@@ -598,12 +598,12 @@ enum ProductDBErrors {
 An example of handling such errors:
 
 ```tsx
-import { ProductDBMeeting, ProductDBErrors } from "@productdb/client";
+import { DyteMeeting, DyteErrors } from "@dyte/client";
 
 // ...
 // ...
 
-<ProductDBMeeting
+<DyteMeeting
     onInit={(meeting) => { }}
     clientId=`yourClientID`
     meetingConfig={{
@@ -611,7 +611,7 @@ import { ProductDBMeeting, ProductDBErrors } from "@productdb/client";
         authToken: `authToken`
     }}
     onError={(error) => {
-        if (error = ProductDBErrors.CLIENTID_INVALID) {
+        if (error = DyteErrors.CLIENTID_INVALID) {
             // take appropriate action
         }
     }}

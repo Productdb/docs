@@ -1,7 +1,7 @@
 {
   "id": "using-hooks",
   "title": "Use Web Core Hooks",
-  "description": "Dyte's React UI Kit provides multiple",
+  "description": "ProductDB's React UI Kit provides multiple",
   "source": "@site/docs/react-ui-kit/using-hooks.mdx",
   "sourceDirName": ".",
   "slug": "/using-hooks",

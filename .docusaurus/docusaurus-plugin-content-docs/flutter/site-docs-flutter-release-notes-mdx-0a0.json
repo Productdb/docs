@@ -29,7 +29,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ProductDBSetupScreen",
-    "permalink": "/flutter/Components/productdb-setup-screen-component"
+    "title": "DyteSetupScreen",
+    "permalink": "/flutter/Components/dyte-setup-screen-component"
   }
 }

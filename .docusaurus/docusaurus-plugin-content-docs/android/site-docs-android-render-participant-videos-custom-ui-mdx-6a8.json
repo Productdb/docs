@@ -20,8 +20,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Using ProductDBGridView",
-    "permalink": "/android/render-participant-videos/using-productdbgrid"
+    "title": "Using DyteGridView",
+    "permalink": "/android/render-participant-videos/using-dytegrid"
   },
   "next": {
     "title": "Prebuilt Chat Screen",

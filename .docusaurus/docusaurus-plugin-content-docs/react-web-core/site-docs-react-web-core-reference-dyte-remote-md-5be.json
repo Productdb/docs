@@ -1,0 +1,30 @@
+{
+  "id": "reference/DyteRemote",
+  "title": "DyteRemote",
+  "description": "This module provides the ability to control a remotely shared screen using mouse and keyboard.",
+  "source": "@site/docs/react-web-core/reference/DyteRemote.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteRemote",
+  "permalink": "/react-web-core/reference/DyteRemote",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/reference/DyteRemote.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteAi",
+    "permalink": "/react-web-core/reference/DyteAi"
+  },
+  "next": {
+    "title": "DyteConnectedMeetings",
+    "permalink": "/react-web-core/reference/DyteConnectedMeetings"
+  }
+}

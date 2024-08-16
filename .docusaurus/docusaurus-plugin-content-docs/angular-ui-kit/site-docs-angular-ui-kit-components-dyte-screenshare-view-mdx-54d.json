@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-screenshare-view",
+  "title": "dyte-screenshare-view",
+  "description": "Learn how to use and customize the dyte-screenshare-view component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-screenshare-view.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-screenshare-view",
+  "permalink": "/angular-ui-kit/components/dyte-screenshare-view",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/dyte-screenshare-view.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-screenshare-view.svg",
+    "description": "Learn how to use and customize the dyte-screenshare-view component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-screen-share-toggle",
+    "permalink": "/angular-ui-kit/components/dyte-screen-share-toggle"
+  },
+  "next": {
+    "title": "dyte-settings-audio",
+    "permalink": "/angular-ui-kit/components/dyte-settings-audio"
+  }
+}

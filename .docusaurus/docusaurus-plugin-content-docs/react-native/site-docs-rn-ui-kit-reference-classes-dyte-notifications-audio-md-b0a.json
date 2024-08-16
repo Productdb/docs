@@ -1,0 +1,26 @@
+{
+  "id": "reference/classes/DyteNotificationsAudio",
+  "title": "Class: DyteNotificationsAudio",
+  "description": "Handles notification sounds in a meeting",
+  "source": "@site/docs/rn-ui-kit/reference/classes/DyteNotificationsAudio.md",
+  "sourceDirName": "reference/classes",
+  "slug": "/reference/classes/DyteNotificationsAudio",
+  "permalink": "/react-native/reference/classes/DyteNotificationsAudio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723756727,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "id": "DyteNotificationsAudio",
+    "title": "Class: DyteNotificationsAudio",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interface: UserPreferences",
+    "permalink": "/react-native/reference/interfaces/UserPreferences"
+  }
+}

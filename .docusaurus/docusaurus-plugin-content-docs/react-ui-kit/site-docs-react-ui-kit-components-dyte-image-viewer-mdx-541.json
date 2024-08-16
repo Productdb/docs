@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-image-viewer",
   "title": "DyteImageViewer",
-  "description": "Learn how to use and customize the DyteImageViewer component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteImageViewer component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-image-viewer.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-image-viewer",
@@ -15,7 +15,7 @@
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-image-viewer.svg",
-    "description": "Learn how to use and customize the DyteImageViewer component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteImageViewer component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

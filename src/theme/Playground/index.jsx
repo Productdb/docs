@@ -7,8 +7,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import { usePrismTheme } from '@docusaurus/theme-common';
 import styles from './styles.module.css';
-import { ProductDBProvider, useDyteClient } from '@dytesdk/react-web-core';
-import { provideProductDBDesignSystem } from '@dytesdk/react-ui-kit';
+import { DyteProvider, useDyteClient } from '@dytesdk/react-web-core';
+import { provideDyteDesignSystem } from '@dytesdk/react-ui-kit';
 import { useColorMode } from '@docusaurus/theme-common';
 
 function Header({ children }) {
@@ -136,7 +136,7 @@ export default function Playground({ children, transformCode, ...props }) {
       m.participants.setMockParticipantCount(5, 5);
       // m.recording.recordingState = 'RECORDING';
       const theme = document.getElementsByTagName('html')[0].dataset['theme'];
-      provideProductDBDesignSystem(document.body, {
+      provideDyteDesignSystem(document.body, {
         theme,
       });
       initInProgress.value = false;
@@ -144,7 +144,7 @@ export default function Playground({ children, transformCode, ...props }) {
   }, []);
 
   useEffect(() => {
-    provideProductDBDesignSystem(document.body, {
+    provideDyteDesignSystem(document.body, {
       theme: colorMode,
     });
   }, [colorMode]);
@@ -153,7 +153,7 @@ export default function Playground({ children, transformCode, ...props }) {
     <div
       className={clsx(styles.playgroundContainer, '!rounded-none !shadow-none')}
     >
-      <ProductDBProvider value={meeting}>
+      <DyteProvider value={meeting}>
         {/* @ts-expect-error: type incompatibility with refs */}
         <LiveProvider
           code={children.replace(/\n$/, '')}
@@ -173,7 +173,7 @@ export default function Playground({ children, transformCode, ...props }) {
             </>
           )}
         </LiveProvider>
-      </ProductDBProvider>
+      </DyteProvider>
     </div>
   );
 }

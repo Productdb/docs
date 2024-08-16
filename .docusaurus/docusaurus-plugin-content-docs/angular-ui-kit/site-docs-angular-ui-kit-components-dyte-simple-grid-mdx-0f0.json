@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-simple-grid",
+  "title": "dyte-simple-grid",
+  "description": "Learn how to use and customize the dyte-simple-grid component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-simple-grid.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-simple-grid",
+  "permalink": "/angular-ui-kit/components/dyte-simple-grid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/dyte-simple-grid.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-simple-grid.svg",
+    "description": "Learn how to use and customize the dyte-simple-grid component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-sidebar",
+    "permalink": "/angular-ui-kit/components/dyte-sidebar"
+  },
+  "next": {
+    "title": "dyte-spinner",
+    "permalink": "/angular-ui-kit/components/dyte-spinner"
+  }
+}

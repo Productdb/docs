@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkproductdb_docs=self.webpackChunkproductdb_docs||[]).push([[37100],{3752:e=>{e.exports=JSON.parse('[{"label":"android-ui-kit","permalink":"/android/tags/android-ui-kit","count":2},{"label":"plugins","permalink":"/android/tags/plugins","count":2},{"label":"releasenotes","permalink":"/android/tags/releasenotes","count":1}]')}}]);

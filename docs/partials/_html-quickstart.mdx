@@ -16,8 +16,8 @@ import {
 </span>
 
 
-For getting started quickly, you can use our [sample code](https://github.com/productdb-io/html-samples#samples). You can clone
-and run a sample application from the [HTML UI Kit GitHub repository](https://github.com/productdb-io/html-samples).
+For getting started quickly, you can use our [sample code](https://github.com/dyte-io/html-samples#samples). You can clone
+and run a sample application from the [HTML UI Kit GitHub repository](https://github.com/dyte-io/html-samples).
 
 
 ## Before getting started
@@ -88,7 +88,7 @@ Here's a series of steps that you need to perform:
 </body>
 ```
 
-2. Call the `ProductDBClient.init()` method from the `web-core` package and pass the `authToken`. This will establish the connection with the ProductDB server. You should keep the returned `meeting` object.
+2. Call the `DyteClient.init()` method from the `web-core` package and pass the `authToken`. This will establish the connection with the ProductDB server. You should keep the returned `meeting` object.
 
 ```html {12-18}
 <body>
@@ -126,11 +126,11 @@ ProductDB offers a UI Kit that is highly customizatble and uses the `meeting` in
 
 ### UI Kit
 
-A single `<productdb-meeting />` component that is feature rich and renders a complete meeting UI and handles all events.
+A single `<dyte-meeting />` component that is feature rich and renders a complete meeting UI and handles all events.
 
 ```html {2,21}
 <body>
-  <productdb-meeting id="my-meeting"></productdb-meeting>
+  <dyte-meeting id="my-meeting"></dyte-meeting>
   <script>
     const get_auth_token = async () => {
       // fetch('https://your-server/path-to-token');
@@ -164,7 +164,7 @@ If you want more customizations, pick the components that are needed and build t
 ```html {2,21}
 <body>
   <div>
-    <productdb-grid id="my-grid"></productdb-grid>
+    <dyte-grid id="my-grid"></dyte-grid>
     <!--your own UI -->
     <div class="controlbar">
       <!-- Your own components -->

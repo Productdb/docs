@@ -13,7 +13,7 @@ tags:
 # Introduction - Participants
 
 The data regarding all meeting participants is stored under `participants`
-objects of `ProductDBMobileClient()` instance. To get all the objects and methods
+objects of `DyteMobileClient()` instance. To get all the objects and methods
 related to participants:
 
 ```dart
@@ -31,26 +31,26 @@ final joinedParticipants = dyteClient.participants.joined;
 The `dyteClient.participants` object has the following properties.
 
 - `waitlisted`: A list that contains all the participants waiting to join the
-  meeting. All elements of this array are of type _ProductDBWaitlistedParticipant_.
+  meeting. All elements of this array are of type _DyteWaitlistedParticipant_.
 - `joined`: A list that contains all the participants who have joined the
-  meeting. All elements of this array are of type _ProductDBJoinedMeetingParticipant_.
+  meeting. All elements of this array are of type _DyteJoinedMeetingParticipant_.
 - `active`: A list that contains all the participants except the local user who
-  are supposed to be on the screen at the moment. All elements of this array are of type _ProductDBJoinedMeetingParticipant_.
+  are supposed to be on the screen at the moment. All elements of this array are of type _DyteJoinedMeetingParticipant_.
 - `screenshares`: A list that contains all the participants who have shared
-  screen in the meeting. All elements of this array are of type _ProductDBJoinedMeetingParticipant_.
-- `pinned`: Pinned participant of the meeting. It can be nullable as well. This is of type _ProductDBJoinedMeetingParticipant_.
+  screen in the meeting. All elements of this array are of type _DyteJoinedMeetingParticipant_.
+- `pinned`: Pinned participant of the meeting. It can be nullable as well. This is of type _DyteJoinedMeetingParticipant_.
 
 Therefore, if you were to make a grid of participants, you'd use the `active`
 list, but to display all participants in the meeting you'd use the `joined`
 list.
 
-- `dyteClient.pinned` is of type `ProductDBJoinedMeetingParticipant`.
+- `dyteClient.pinned` is of type `DyteJoinedMeetingParticipant`.
 - All participant in each of the `joined`, `waitlisted`, `active`, and
-  `screenshares` list is of type `ProductDBJoinedMeetingParticipant`.
+  `screenshares` list is of type `DyteJoinedMeetingParticipant`.
 
 ## Grid info for the room
 
-`ProductDBGridPagesInfo` object is designed to help you with pagination decisions. It
+`DyteGridPagesInfo` object is designed to help you with pagination decisions. It
 is returned with `onGridUpdated` event. It contains the following properties:
 
 - `currentPageNumber`: Int, returns the current page number (currently displayed
@@ -97,13 +97,13 @@ dyteClient.broadcastMessage("type", payload);
 Triggered when any participant of the meeting enable/disable it's video. It also passes the participant details who has updated it's video status.
 
 ```dart
-class ParticipantNotifier implements ProductDBParticipantEventsListener{
+class ParticipantNotifier implements DyteParticipantEventsListener{
 
   ...
   @override
   void onVideoUpdate(
     bool videoEnabled,
-    ProductDBJoinedMeetingParticipant participant,
+    DyteJoinedMeetingParticipant participant,
   ) {
     //
   }
@@ -119,13 +119,13 @@ Triggered when any participant of the meeting enable/disable it's audio. It also
 
 ```dart
 
-class ParticipantNotifier implements ProductDBParticipantEventsListener{
+class ParticipantNotifier implements DyteParticipantEventsListener{
 
   ...
   @override
   void onAudioUpdate(
     bool audioEnabled,
-    ProductDBJoinedMeetingParticipant participant,
+    DyteJoinedMeetingParticipant participant,
   ) {
     //
   }

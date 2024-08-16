@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-participants",
   "title": "DyteParticipants",
-  "description": "Learn how to use and customize the DyteParticipants component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteParticipants component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-participants.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-participants",
@@ -15,7 +15,7 @@
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-participants.svg",
-    "description": "Learn how to use and customize the DyteParticipants component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteParticipants component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

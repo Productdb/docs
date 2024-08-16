@@ -1,7 +1,7 @@
 {
   "id": "Pre-Built-Plugins_Guides/load-plugin",
   "title": "Load Plugins",
-  "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
   "source": "@site/docs/ios/Pre-Built-Plugins_Guides/load-plugin.mdx",
   "sourceDirName": "Pre-Built-Plugins_Guides",
   "slug": "/Pre-Built-Plugins_Guides/load-plugin",
@@ -14,7 +14,7 @@
   "lastUpdatedAt": 1723755734,
   "formattedLastUpdatedAt": "Aug 15, 2024",
   "frontMatter": {
-    "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteAvatarView component in ProductDB's iOS UiKit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

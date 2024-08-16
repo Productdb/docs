@@ -1,7 +1,7 @@
 {
   "id": "build-in-call-ui/default-meeting-ui",
   "title": "DyteMeeting",
-  "description": "Dyte provides, DyteMeeting an all encompassing component that internally handles everything from showing a pre-call UI to in-call UI and post-call screen.",
+  "description": "ProductDB provides, DyteMeeting an all encompassing component that internally handles everything from showing a pre-call UI to in-call UI and post-call screen.",
   "source": "@site/docs/react-ui-kit/build-in-call-ui/default-meeting-ui.mdx",
   "sourceDirName": "build-in-call-ui",
   "slug": "/build-in-call-ui/default-meeting-ui",

@@ -25,7 +25,7 @@
     "permalink": "/android/polls/prebuilt-create-poll"
   },
   "next": {
-    "title": "ProductDBAudioDeviceSelector",
-    "permalink": "/android/components/productdb-audio-selector"
+    "title": "DyteAudioDeviceSelector",
+    "permalink": "/android/components/dyte-audio-selector"
   }
 }

@@ -15,7 +15,7 @@ the `ready` event signifies that the plugin is now ready for event/data
 exchange.
 
 ```tsx
-const plugin = await ProductDBPlugin.init();
+const plugin = await DytePlugin.init();
 ```
 
 ### Initialize without data exchange
@@ -25,7 +25,7 @@ SDK. The user can choose to manually emit this later when the plugin is ready to
 start event/data exchange with client SDK.
 
 ```tsx
-const plugin = await ProductDBPlugin.init({ ready: false });
+const plugin = await DytePlugin.init({ ready: false });
 // do something ...
 plugin.ready();
 ```

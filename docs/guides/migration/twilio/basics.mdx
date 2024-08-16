@@ -18,7 +18,7 @@ The equivalent of “Rooms” from Twilio in ProductDB is “Meetings”.
 - In Twilio you create a room by calling the REST API https://www.twilio.com/docs/video/api/rooms-resource (or using a client library)
 
 - In ProductDB you create a meeting by calling a similar REST API
-  https://docs.productdb.io/api#/operations/create_meeting
+  https://docs.dyte.io/api#/operations/create_meeting
 
 **Request**
 
@@ -66,7 +66,7 @@ npm install @dytesdk/web-core
 If you are using CDN / script tags install using
 
 ```html
-<script src="https://cdn.productdb.in/core/productdb.js" />
+<script src="https://cdn.dyte.in/core/dyte.js" />
 ```
 
 Now you can remove the Twilio SDK from your project by uninstalling the package.
@@ -95,9 +95,9 @@ twilioRoom = await TwilioVideo.connect(TOKEN, {
 ProductDB
 
 ```js
-import ProductDBClient from '@dytesdk/web-core';
+import DyteClient from '@dytesdk/web-core';
 
-meeting = await ProductDBClient.init({ authToken: TOKEN });
+meeting = await DyteClient.init({ authToken: TOKEN });
 await meeting.join();
 ```
 

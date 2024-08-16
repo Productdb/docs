@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-simple-grid",
+  "title": "DyteSimpleGrid",
+  "description": "Learn how to use and customize the DyteSimpleGrid component in ProductDB's React Native UI Kit with our detailed documentation.",
+  "source": "@site/docs/rn-ui-kit/components/dyte-simple-grid.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-simple-grid",
+  "permalink": "/react-native/components/dyte-simple-grid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/components/dyte-simple-grid.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-simple-grid.svg",
+    "description": "Learn how to use and customize the DyteSimpleGrid component in ProductDB's React Native UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteSidebar",
+    "permalink": "/react-native/components/dyte-sidebar"
+  },
+  "next": {
+    "title": "DyteSpinner",
+    "permalink": "/react-native/components/dyte-spinner"
+  }
+}

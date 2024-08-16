@@ -1,7 +1,7 @@
 {
   "id": "build-pre-call-ui/default-setup-screen",
   "title": "DyteSetupScreen",
-  "description": "Dyte provides a default pre-call preview UI, also known as setup screen as part of our UI components.",
+  "description": "ProductDB provides a default pre-call preview UI, also known as setup screen as part of our UI components.",
   "source": "@site/docs/react-ui-kit/build-pre-call-ui/default-setup-screen.mdx",
   "sourceDirName": "build-pre-call-ui",
   "slug": "/build-pre-call-ui/default-setup-screen",

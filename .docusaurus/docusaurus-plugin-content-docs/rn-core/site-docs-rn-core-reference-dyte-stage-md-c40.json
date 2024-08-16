@@ -1,0 +1,30 @@
+{
+  "id": "reference/DyteStage",
+  "title": "DyteStage",
+  "description": "The DyteStage module represents a class to mange the Stage of the meeting",
+  "source": "@site/docs/rn-core/reference/DyteStage.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteStage",
+  "permalink": "/rn-core/reference/DyteStage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/reference/DyteStage.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DytePlugins",
+    "permalink": "/rn-core/reference/DytePlugins"
+  },
+  "next": {
+    "title": "DyteLivestream",
+    "permalink": "/rn-core/reference/DyteLivestream"
+  }
+}

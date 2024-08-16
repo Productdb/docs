@@ -1,7 +1,7 @@
 {
   "id": "chat/pre-built-chat-screen",
   "title": "Pre-built Chat Screen",
-  "description": "Learn how to use and customize the ProductDBChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
   "source": "@site/docs/ios/chat/pre-built-chat-screen.mdx",
   "sourceDirName": "chat",
   "slug": "/chat/pre-built-chat-screen",
@@ -15,9 +15,9 @@
   "formattedLastUpdatedAt": "Aug 15, 2024",
   "sidebarPosition": 1,
   "frontMatter": {
-    "image": "/static/ui-kit/1.x.x/components/productdb-chat.svg",
+    "image": "/static/ui-kit/1.x.x/components/dyte-chat.svg",
     "sidebar_position": 1,
-    "description": "Learn how to use and customize the ProductDBChatViewController component in ProductDB's iOS UiKit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteChatViewController component in ProductDB's iOS UiKit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

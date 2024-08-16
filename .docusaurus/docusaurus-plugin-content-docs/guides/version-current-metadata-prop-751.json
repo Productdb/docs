@@ -444,7 +444,7 @@
                   {
                     "type": "link",
                     "label": "Disable upload to ProductDB's bucket",
-                    "href": "/guides/capabilities/recording/configure-productdb-bucket-config",
+                    "href": "/guides/capabilities/recording/configure-dyte-bucket-config",
                     "docId": "capabilities/recording/advanced/configure-dyte-bucket-config",
                     "unlisted": false
                   },
@@ -714,8 +714,8 @@
           {
             "type": "link",
             "label": "Live Stream APIs",
-            "href": "/guides/rest-apis/livestream-productdb-meeting",
-            "docId": "rest-apis/livestream-productdb-meeting",
+            "href": "/guides/rest-apis/livestream-dyte-meeting",
+            "docId": "rest-apis/livestream-dyte-meeting",
             "unlisted": false
           },
           {
@@ -742,7 +742,7 @@
               {
                 "type": "link",
                 "label": "💡 Concepts",
-                "href": "/guides/migration/twilio/concepts-twilio-vs-productdb",
+                "href": "/guides/migration/twilio/concepts-twilio-vs-dyte",
                 "docId": "migration/twilio/concepts-twilio-vs-dyte",
                 "unlisted": false
               },
@@ -783,7 +783,7 @@
                   {
                     "type": "link",
                     "label": "Introduction",
-                    "href": "/guides/migration/twilio/twilio-shim-by-productdb",
+                    "href": "/guides/migration/twilio/twilio-shim-by-dyte",
                     "docId": "migration/twilio/shim-library/twilio-shim-by-dyte",
                     "unlisted": false
                   },
@@ -1287,7 +1287,7 @@
     "commerce/build-voice-app": {
       "id": "commerce/build-voice-app",
       "title": "Server Integration",
-      "description": "<IntegrateProductDB",
+      "description": "<IntegrateDyte",
       "sidebar": "tutorialSidebar"
     },
     "commerce/client-setup/android": {
@@ -1548,8 +1548,8 @@
       "description": "The Twilio Shim by ProductDB is a package that allows you to migrate your video calling applications from Twilio to ProductDB infrastructure.",
       "sidebar": "tutorialSidebar"
     },
-    "rest-apis/livestream-productdb-meeting": {
-      "id": "rest-apis/livestream-productdb-meeting",
+    "rest-apis/livestream-dyte-meeting": {
+      "id": "rest-apis/livestream-dyte-meeting",
       "title": "Live Stream APIs",
       "description": "Explore ProductDB's REST APIs for livestreaming ProductDB meetings. Follow our guide for effective integration and management of REST APIs.",
       "sidebar": "tutorialSidebar"

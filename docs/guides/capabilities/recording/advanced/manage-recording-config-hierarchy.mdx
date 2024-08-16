@@ -11,7 +11,7 @@ This document provides an overview of the precedence structure for managing reco
 
 - [Start recording a meeting API](/api#/operations/start_recording)
 - [Create a meeting API](/api#/operations/create_meeting) and
-- [Organization level](https://dev.productdb.io/recordings) specified via developer portal
+- [Organization level](https://dev.dyte.io/recordings) specified via developer portal
 
 ## Understand Recording Configuration Precedence
 
@@ -21,7 +21,7 @@ To comprehend the precedence of recording configurations, it is important to del
 | ---------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1          | [Start recording API](/api#/operations/start_recording) configs                     | Highest priority in the system. Any settings defined here will take precedence over other configurations.                                             |
 | 2          | [Create a meeting API](/api#/operations/create_meeting) configs                     | Second level of priority in the system. Settings here will supersede Org level config but not Start recording a meeting API configs.                  |
-| 3          | [Organization level](https://dev.productdb.io/recordings) specified via developer portal | Lowest priority in the system. Settings defined here will be overridden by both Start recording a meeting API config and Create a meeting API config. |
+| 3          | [Organization level](https://dev.dyte.io/recordings) specified via developer portal | Lowest priority in the system. Settings defined here will be overridden by both Start recording a meeting API config and Create a meeting API config. |
 
 ## Example Scenario
 

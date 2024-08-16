@@ -1,7 +1,7 @@
 {
   "id": "commerce/build-voice-app",
   "title": "Server Integration",
-  "description": "<IntegrateProductDB",
+  "description": "<IntegrateDyte",
   "source": "@site/docs/guides/commerce/build-voice-app.mdx",
   "sourceDirName": "commerce",
   "slug": "/commerce/build-voice-app",

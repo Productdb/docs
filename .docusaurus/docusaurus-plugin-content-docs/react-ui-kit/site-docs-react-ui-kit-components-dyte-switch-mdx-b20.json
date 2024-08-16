@@ -1,7 +1,7 @@
 {
   "id": "components/dyte-switch",
   "title": "DyteSwitch",
-  "description": "Learn how to use and customize the DyteSwitch component in Dyte's React UI Kit with our detailed documentation.",
+  "description": "Learn how to use and customize the DyteSwitch component in ProductDB's React UI Kit with our detailed documentation.",
   "source": "@site/docs/react-ui-kit/components/dyte-switch.mdx",
   "sourceDirName": "components",
   "slug": "/components/dyte-switch",
@@ -15,7 +15,7 @@
   "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-switch.svg",
-    "description": "Learn how to use and customize the DyteSwitch component in Dyte's React UI Kit with our detailed documentation."
+    "description": "Learn how to use and customize the DyteSwitch component in ProductDB's React UI Kit with our detailed documentation."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

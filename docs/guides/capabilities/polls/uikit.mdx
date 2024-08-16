@@ -15,9 +15,9 @@ If a user has the right set of permissions, the first thing they woulds want to 
 <TabItem value="web-components" label="Web Components">
 
 ```jsx
-  <productdb-poll-form id="productdb-el"></productdb-poll-form>
+  <dyte-poll-form id="dyte-el"></dyte-poll-form>
     <script>
-      document.getElementById('productdb-el').addEventListener('dyteCreatePoll', (e) => {
+      document.getElementById('dyte-el').addEventListener('dyteCreatePoll', (e) => {
       console.log('create poll', e.detail)
       });
     </script>
@@ -27,19 +27,19 @@ If a user has the right set of permissions, the first thing they woulds want to 
 <TabItem value="react" label="React">
 
 ```jsx
-<ProductDBPollForm onProductDBCreatePoll={(e) => console.log('create poll', e.detail)} />
+<DytePollForm onDyteCreatePoll={(e) => console.log('create poll', e.detail)} />
 ```
 
-You can control what happens after a poll is creating by using `onProductDBCreatePoll` prop.
+You can control what happens after a poll is creating by using `onDyteCreatePoll` prop.
 
 </TabItem>
 <TabItem value="angular" label="Angular">
 
 ```jsx
-    <productdb-poll-form id="productdb-el"></productdb-poll-form>
+    <dyte-poll-form id="dyte-el"></dyte-poll-form>
 
     <script>
-      document.getElementById('productdb-el').addEventListener('dyteCreatePoll', (e) => {
+      document.getElementById('dyte-el').addEventListener('dyteCreatePoll', (e) => {
         console.log('create poll', e.detail);
       });
     </script>
@@ -58,7 +58,7 @@ This component is not yet available on Flutter.
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-<ProductDBPollForm onProductDBCreatePoll={(e) => console.log('create poll', e.detail)} />
+<DytePollForm onDyteCreatePoll={(e) => console.log('create poll', e.detail)} />
 ```
 
 </TabItem>
@@ -90,14 +90,14 @@ After a user is done creating a poll, they can see all the polls available in a 
 <TabItem value="web-components" label="Web Components">
 
 ```jsx
-      <productdb-polls id="productdb-el"></productdb-polls>
+      <dyte-polls id="dyte-el"></dyte-polls>
 
       <script>
-        document.getElementById('productdb-el').meeting = meeting;
+        document.getElementById('dyte-el').meeting = meeting;
       </script>
 
       <style>
-        productdb-polls {
+        dyte-polls {
           height: 480px;
           width: 100%;
           max-width: 320px;
@@ -110,7 +110,7 @@ After a user is done creating a poll, they can see all the polls available in a 
 <TabItem value="react" label="React">
 
 ```jsx
-<ProductDBPolls
+<DytePolls
   meeting={meeting}
   style={{ height: '480px', maxWidth: '320px', backgroundColor: '#000' }}
 />
@@ -120,13 +120,13 @@ After a user is done creating a poll, they can see all the polls available in a 
 <TabItem value="angular" label="Angular">
 
 ```jsx
-    <productdb-polls id="productdb-el"></productdb-polls>
+    <dyte-polls id="dyte-el"></dyte-polls>
     <script>
-      document.getElementById('productdb-el').meeting = meeting;
+      document.getElementById('dyte-el').meeting = meeting;
     </script>
 
     <style>
-      productdb-polls {
+      dyte-polls {
         height: 480px;
         width: 100%;
         max-width: 320px;
@@ -148,7 +148,7 @@ This component is not yet available on Flutter.
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-<ProductDBPolls
+<DytePolls
   meeting={meeting}
   style={{ height: '480px', maxWidth: '320px', backgroundColor: '#000' }}
 />
@@ -183,10 +183,10 @@ The `ProductDB Poll` component lets the users view a given poll. It requires a p
 <TabItem value="web-components" label="Web Components">
 
 ```jsx
-      <productdb-poll id="productdb-el"></productdb-poll>
+      <dyte-poll id="dyte-el"></dyte-poll>
 
       <script>
-        const el = document.getElementById('productdb-el');
+        const el = document.getElementById('dyte-el');
 
         el.addEventListener('dyteVotePoll', (e) => {
           console.log('Voted', e.detail);
@@ -194,7 +194,7 @@ The `ProductDB Poll` component lets the users view a given poll. It requires a p
 
         el.poll = {
           id: 'poll-id',
-          question: 'Have you started using productdb yet?',
+          question: 'Have you started using dyte yet?',
           options: [
             {
               text: 'Yes',
@@ -220,10 +220,10 @@ The `ProductDB Poll` component lets the users view a given poll. It requires a p
 <TabItem value="react" label="React">
 
 ```jsx
-<ProductDBPoll
+<DytePoll
   poll={{
     id: 'poll-id',
-    question: 'Have you started using productdb yet?',
+    question: 'Have you started using dyte yet?',
     options: [
       {
         text: 'Yes',
@@ -242,7 +242,7 @@ The `ProductDB Poll` component lets the users view a given poll. It requires a p
     createdByUserId: 'vaibhavs-user-id',
     voted: [],
   }}
-  onProductDBVotePoll={(e) => {
+  onDyteVotePoll={(e) => {
     console.log('Voted', e.detail);
   }}
 />
@@ -252,10 +252,10 @@ The `ProductDB Poll` component lets the users view a given poll. It requires a p
 <TabItem value="angular" label="Angular">
 
 ```jsx
-      <productdb-poll id="productdb-el"></productdb-poll>
+      <dyte-poll id="dyte-el"></dyte-poll>
 
       <script>
-        const el = document.getElementById('productdb-el');
+        const el = document.getElementById('dyte-el');
 
         el.addEventListener('dyteVotePoll', (e) => {
           console.log('Voted', e.detail);
@@ -263,7 +263,7 @@ The `ProductDB Poll` component lets the users view a given poll. It requires a p
 
         el.poll = {
           id: 'poll-id',
-          question: 'Have you started using productdb yet?',
+          question: 'Have you started using dyte yet?',
           options: [
             {
               text: 'Yes',
@@ -298,10 +298,10 @@ This component is not yet available on Flutter.
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-<ProductDBPoll
+<DytePoll
   poll={{
     id: 'poll-id',
-    question: 'Have you started using productdb yet?',
+    question: 'Have you started using dyte yet?',
     options: [
       {
         text: 'Yes',
@@ -320,7 +320,7 @@ This component is not yet available on Flutter.
     createdByUserId: 'vaibhavs-user-id',
     voted: [],
   }}
-  onProductDBVotePoll={(e) => {
+  onDyteVotePoll={(e) => {
     console.log('Voted', e.detail);
   }}
 />
@@ -355,9 +355,9 @@ Using the `ProductDB Polls Toggle`, one can easily change the visibility of a po
 <TabItem value="web-components" label="Web Components">
 
 ```jsx
-        <productdb-polls-toggle variant="horizontal" class="productdb-el"></productdb-polls-toggle>
+        <dyte-polls-toggle variant="horizontal" class="dyte-el"></dyte-polls-toggle>
         <script>
-          const elements = document.getElementsByClassName('productdb-el');
+          const elements = document.getElementsByClassName('dyte-el');
           for (const el of elements) {
             el.meeting = meeting;
           }
@@ -368,17 +368,17 @@ Using the `ProductDB Polls Toggle`, one can easily change the visibility of a po
 <TabItem value="react" label="React">
 
 ```jsx
-<ProductDBPollsToggle variant="horizontal" size="sm" meeting={meeting} />
+<DytePollsToggle variant="horizontal" size="sm" meeting={meeting} />
 ```
 
 </TabItem>
 <TabItem value="angular" label="Angular">
 
 ```jsx
-      <productdb-polls-toggle variant="horizontal" class="productdb-el"></productdb-polls-toggle>
+      <dyte-polls-toggle variant="horizontal" class="dyte-el"></dyte-polls-toggle>
 
       <script>
-        const elements = document.getElementsByClassName('productdb-el');
+        const elements = document.getElementsByClassName('dyte-el');
         for (const el of elements) {
           el.meeting = meeting;
         }
@@ -398,7 +398,7 @@ This component is not yet available on Flutter.
 <TabItem value="react-native" label="React Native">
 
 ```jsx
-<ProductDBPollsToggle variant="horizontal" size="sm" meeting={meeting} />
+<DytePollsToggle variant="horizontal" size="sm" meeting={meeting} />
 ```
 
 </TabItem>

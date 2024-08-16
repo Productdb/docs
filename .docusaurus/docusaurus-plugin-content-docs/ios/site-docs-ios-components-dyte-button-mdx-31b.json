@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-button",
+  "title": "DyteButton",
+  "description": "Learn how to use and customize the DyteButton component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/dyte-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-button",
+  "permalink": "/ios/components/dyte-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/dyte-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-button.svg",
+    "description": "Learn how to use and customize the DyteButton component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteAvatarView",
+    "permalink": "/ios/components/dyte-avatar"
+  },
+  "next": {
+    "title": "DyteSwitchCameraButtonControlBar",
+    "permalink": "/ios/components/dyte-camera-toggle"
+  }
+}

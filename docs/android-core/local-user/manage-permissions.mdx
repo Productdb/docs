@@ -26,7 +26,7 @@ Similarly to listen to callbacks regarding media permissions once user joins
 the meeting
 
 ```kotlin
-meeting.addSelfEventsListener(object : ProductDBSelfEventsListener {
+meeting.addSelfEventsListener(object : DyteSelfEventsListener {
     override fun onMeetingRoomJoinedWithoutCameraPermission() {
       // when meeting room is joined without camera permission
     }

@@ -1,0 +1,26 @@
+{
+  "id": "Components/dyte-polls-screen",
+  "title": "DytePollsScreen",
+  "description": "A widget that provides a well-built polls screen using molecular components. This widget integrates with the ProductDB UI Kit and return our polls page as a widget.",
+  "source": "@site/docs/flutter/Components/dyte-polls-screen.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/dyte-polls-screen",
+  "permalink": "/flutter/Components/dyte-polls-screen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/dyte-polls-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DytePluginsScreen",
+    "permalink": "/flutter/Components/dyte-plugins-screen"
+  },
+  "next": {
+    "title": "DyteProvider",
+    "permalink": "/flutter/Components/dyte-provider"
+  }
+}
