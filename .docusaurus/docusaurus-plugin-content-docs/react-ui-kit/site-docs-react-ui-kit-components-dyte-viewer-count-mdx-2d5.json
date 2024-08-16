@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-viewer-count",
+  "title": "DyteViewerCount",
+  "description": "Learn how to use and customize the DyteViewerCount component in Dyte's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/dyte-viewer-count.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-viewer-count",
+  "permalink": "/react-ui-kit/components/dyte-viewer-count",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/dyte-viewer-count.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the DyteViewerCount component in Dyte's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteTooltip",
+    "permalink": "/react-ui-kit/components/dyte-tooltip"
+  },
+  "next": {
+    "title": "Customize Meeting Icons",
+    "permalink": "/react-ui-kit/customizations/custom-iconpack"
+  }
+}

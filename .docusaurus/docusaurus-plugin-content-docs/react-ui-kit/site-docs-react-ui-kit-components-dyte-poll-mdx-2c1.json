@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-poll",
+  "title": "DytePoll",
+  "description": "Learn how to use and customize the DytePoll component in Dyte's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/dyte-poll.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-poll",
+  "permalink": "/react-ui-kit/components/dyte-poll",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/dyte-poll.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the DytePoll component in Dyte's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DytePollForm",
+    "permalink": "/react-ui-kit/components/dyte-poll-form"
+  },
+  "next": {
+    "title": "DytePollsToggle",
+    "permalink": "/react-ui-kit/components/dyte-polls-toggle"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "build-pre-call-ui/default-setup-screen",
-  "title": "ProductDBSetupScreen",
-  "description": "ProductDB provides a default pre-call preview UI, also known as setup screen as part of our UI components.",
+  "title": "DyteSetupScreen",
+  "description": "Dyte provides a default pre-call preview UI, also known as setup screen as part of our UI components.",
   "source": "@site/docs/react-ui-kit/build-pre-call-ui/default-setup-screen.mdx",
   "sourceDirName": "build-pre-call-ui",
   "slug": "/build-pre-call-ui/default-setup-screen",
@@ -11,11 +11,11 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-pre-call-ui/default-setup-screen.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723758501,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 4,
   "frontMatter": {
-    "title": "ProductDBSetupScreen",
+    "title": "DyteSetupScreen",
     "sidebar_position": 4
   },
   "sidebar": "tutorialSidebar",

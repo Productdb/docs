@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { ProductDBComponentsModule } from '@dytesdk/angular-ui-kit';
+import { DyteComponentsModule } from '@dytesdk/angular-ui-kit';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, ProductDBComponentsModule],
+  imports: [BrowserModule, DyteComponentsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

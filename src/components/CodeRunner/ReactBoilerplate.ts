@@ -1,6 +1,6 @@
 const APP = (colorMode: string) => `import React, { useEffect } from 'react';
-import { ProductDBProvider, useDyteClient } from '@dytesdk/react-web-core';
-import { provideProductDBDesignSystem } from '@dytesdk/react-ui-kit';
+import { DyteProvider, useDyteClient } from '@dytesdk/react-web-core';
+import { provideDyteDesignSystem } from '@dytesdk/react-ui-kit';
 import Custom from './meeting.tsx';
 
 const initInProgress = {
@@ -30,7 +30,7 @@ export default function App() {
       // m.recording.recordingState = 'RECORDING';
       const theme = document.getElementsByTagName('html')[0].dataset['theme'];
       initInProgress.value = false;
-      provideProductDBDesignSystem(document.body, {
+      provideDyteDesignSystem(document.body, {
         theme: "${colorMode}",
       });
       document.getElementsByTagName("html")[0].classList.remove("dark");
@@ -44,7 +44,7 @@ export default function App() {
 
 
   return (<div className="bg-white dark:bg-black flex justify-center items-center w-full h-screen">
-    <ProductDBProvider value={meeting}><Custom /></ProductDBProvider>
+    <DyteProvider value={meeting}><Custom /></DyteProvider>
     </div>
   );
 }`;

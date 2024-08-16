@@ -3792,11 +3792,11 @@ export default [
   },
   {
     path: '/react-ui-kit',
-    component: ComponentCreator('/react-ui-kit', 'b70'),
+    component: ComponentCreator('/react-ui-kit', 'e85'),
     routes: [
       {
         path: '/react-ui-kit',
-        component: ComponentCreator('/react-ui-kit', 'fd9'),
+        component: ComponentCreator('/react-ui-kit', 'd05'),
         routes: [
           {
             path: '/react-ui-kit/tags',
@@ -3810,7 +3810,7 @@ export default [
           },
           {
             path: '/react-ui-kit',
-            component: ComponentCreator('/react-ui-kit', '8d8'),
+            component: ComponentCreator('/react-ui-kit', 'c6e'),
             routes: [
               {
                 path: '/react-ui-kit',
@@ -3915,446 +3915,446 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-audio-visualizer',
-                component: ComponentCreator('/react-ui-kit/components/productdb-audio-visualizer', '65a'),
+                path: '/react-ui-kit/components/dyte-audio-visualizer',
+                component: ComponentCreator('/react-ui-kit/components/dyte-audio-visualizer', 'bac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-avatar',
-                component: ComponentCreator('/react-ui-kit/components/productdb-avatar', 'd8a'),
+                path: '/react-ui-kit/components/dyte-avatar',
+                component: ComponentCreator('/react-ui-kit/components/dyte-avatar', '667'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-button',
-                component: ComponentCreator('/react-ui-kit/components/productdb-button', '66f'),
+                path: '/react-ui-kit/components/dyte-button',
+                component: ComponentCreator('/react-ui-kit/components/dyte-button', 'f31'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-camera-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-camera-toggle', '72b'),
+                path: '/react-ui-kit/components/dyte-camera-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-camera-toggle', '4c7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-chat',
-                component: ComponentCreator('/react-ui-kit/components/productdb-chat', 'f3e'),
+                path: '/react-ui-kit/components/dyte-chat',
+                component: ComponentCreator('/react-ui-kit/components/dyte-chat', '131'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-chat-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-chat-toggle', '735'),
+                path: '/react-ui-kit/components/dyte-chat-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-chat-toggle', '043'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-clock',
-                component: ComponentCreator('/react-ui-kit/components/productdb-clock', 'b9f'),
+                path: '/react-ui-kit/components/dyte-clock',
+                component: ComponentCreator('/react-ui-kit/components/dyte-clock', '560'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-confirmation-modal',
-                component: ComponentCreator('/react-ui-kit/components/productdb-confirmation-modal', 'e12'),
+                path: '/react-ui-kit/components/dyte-confirmation-modal',
+                component: ComponentCreator('/react-ui-kit/components/dyte-confirmation-modal', '9c5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-controlbar',
-                component: ComponentCreator('/react-ui-kit/components/productdb-controlbar', '12d'),
+                path: '/react-ui-kit/components/dyte-controlbar',
+                component: ComponentCreator('/react-ui-kit/components/dyte-controlbar', 'adf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-controlbar-button',
-                component: ComponentCreator('/react-ui-kit/components/productdb-controlbar-button', '0ea'),
+                path: '/react-ui-kit/components/dyte-controlbar-button',
+                component: ComponentCreator('/react-ui-kit/components/dyte-controlbar-button', 'a95'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-dialog',
-                component: ComponentCreator('/react-ui-kit/components/productdb-dialog', 'c17'),
+                path: '/react-ui-kit/components/dyte-dialog',
+                component: ComponentCreator('/react-ui-kit/components/dyte-dialog', 'cc9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-dialog-manager',
-                component: ComponentCreator('/react-ui-kit/components/productdb-dialog-manager', 'ae1'),
+                path: '/react-ui-kit/components/dyte-dialog-manager',
+                component: ComponentCreator('/react-ui-kit/components/dyte-dialog-manager', 'c87'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-emoji-picker',
-                component: ComponentCreator('/react-ui-kit/components/productdb-emoji-picker', '784'),
+                path: '/react-ui-kit/components/dyte-emoji-picker',
+                component: ComponentCreator('/react-ui-kit/components/dyte-emoji-picker', 'dca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-ended-screen',
-                component: ComponentCreator('/react-ui-kit/components/productdb-ended-screen', 'e3d'),
+                path: '/react-ui-kit/components/dyte-ended-screen',
+                component: ComponentCreator('/react-ui-kit/components/dyte-ended-screen', '638'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-file-message',
-                component: ComponentCreator('/react-ui-kit/components/productdb-file-message', 'b4f'),
+                path: '/react-ui-kit/components/dyte-file-message',
+                component: ComponentCreator('/react-ui-kit/components/dyte-file-message', 'a17'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-fullscreen-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-fullscreen-toggle', '7e6'),
+                path: '/react-ui-kit/components/dyte-fullscreen-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-fullscreen-toggle', '670'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-grid',
-                component: ComponentCreator('/react-ui-kit/components/productdb-grid', '9ec'),
+                path: '/react-ui-kit/components/dyte-grid',
+                component: ComponentCreator('/react-ui-kit/components/dyte-grid', 'fd8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-grid-pagination',
-                component: ComponentCreator('/react-ui-kit/components/productdb-grid-pagination', '6c2'),
+                path: '/react-ui-kit/components/dyte-grid-pagination',
+                component: ComponentCreator('/react-ui-kit/components/dyte-grid-pagination', '064'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-header',
-                component: ComponentCreator('/react-ui-kit/components/productdb-header', 'e6e'),
+                path: '/react-ui-kit/components/dyte-header',
+                component: ComponentCreator('/react-ui-kit/components/dyte-header', '76c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-icon',
-                component: ComponentCreator('/react-ui-kit/components/productdb-icon', '87d'),
+                path: '/react-ui-kit/components/dyte-icon',
+                component: ComponentCreator('/react-ui-kit/components/dyte-icon', 'e84'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-idle-screen',
-                component: ComponentCreator('/react-ui-kit/components/productdb-idle-screen', '960'),
+                path: '/react-ui-kit/components/dyte-idle-screen',
+                component: ComponentCreator('/react-ui-kit/components/dyte-idle-screen', '87a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-image-message',
-                component: ComponentCreator('/react-ui-kit/components/productdb-image-message', '7d2'),
+                path: '/react-ui-kit/components/dyte-image-message',
+                component: ComponentCreator('/react-ui-kit/components/dyte-image-message', '7e6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-image-viewer',
-                component: ComponentCreator('/react-ui-kit/components/productdb-image-viewer', 'b52'),
+                path: '/react-ui-kit/components/dyte-image-viewer',
+                component: ComponentCreator('/react-ui-kit/components/dyte-image-viewer', 'b2f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-leave-button',
-                component: ComponentCreator('/react-ui-kit/components/productdb-leave-button', '752'),
+                path: '/react-ui-kit/components/dyte-leave-button',
+                component: ComponentCreator('/react-ui-kit/components/dyte-leave-button', 'aa0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-leave-meeting',
-                component: ComponentCreator('/react-ui-kit/components/productdb-leave-meeting', '09d'),
+                path: '/react-ui-kit/components/dyte-leave-meeting',
+                component: ComponentCreator('/react-ui-kit/components/dyte-leave-meeting', 'eff'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-logo',
-                component: ComponentCreator('/react-ui-kit/components/productdb-logo', '3b7'),
+                path: '/react-ui-kit/components/dyte-logo',
+                component: ComponentCreator('/react-ui-kit/components/dyte-logo', '5d2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-meeting',
-                component: ComponentCreator('/react-ui-kit/components/productdb-meeting', 'dd5'),
+                path: '/react-ui-kit/components/dyte-meeting',
+                component: ComponentCreator('/react-ui-kit/components/dyte-meeting', '6ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-meeting-title',
-                component: ComponentCreator('/react-ui-kit/components/productdb-meeting-title', '63e'),
+                path: '/react-ui-kit/components/dyte-meeting-title',
+                component: ComponentCreator('/react-ui-kit/components/dyte-meeting-title', 'a36'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-menu',
-                component: ComponentCreator('/react-ui-kit/components/productdb-menu', '92c'),
+                path: '/react-ui-kit/components/dyte-menu',
+                component: ComponentCreator('/react-ui-kit/components/dyte-menu', 'd2b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-menu-item',
-                component: ComponentCreator('/react-ui-kit/components/productdb-menu-item', '97b'),
+                path: '/react-ui-kit/components/dyte-menu-item',
+                component: ComponentCreator('/react-ui-kit/components/dyte-menu-item', '5d8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-menu-list',
-                component: ComponentCreator('/react-ui-kit/components/productdb-menu-list', 'ca8'),
+                path: '/react-ui-kit/components/dyte-menu-list',
+                component: ComponentCreator('/react-ui-kit/components/dyte-menu-list', 'a38'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-mic-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-mic-toggle', 'e53'),
+                path: '/react-ui-kit/components/dyte-mic-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-mic-toggle', '335'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-mixed-grid',
-                component: ComponentCreator('/react-ui-kit/components/productdb-mixed-grid', '928'),
+                path: '/react-ui-kit/components/dyte-mixed-grid',
+                component: ComponentCreator('/react-ui-kit/components/dyte-mixed-grid', 'c54'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-more-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-more-toggle', 'de5'),
+                path: '/react-ui-kit/components/dyte-more-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-more-toggle', 'ab5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-name-tag',
-                component: ComponentCreator('/react-ui-kit/components/productdb-name-tag', 'a01'),
+                path: '/react-ui-kit/components/dyte-name-tag',
+                component: ComponentCreator('/react-ui-kit/components/dyte-name-tag', 'd32'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-network-indicator',
-                component: ComponentCreator('/react-ui-kit/components/productdb-network-indicator', 'b4c'),
+                path: '/react-ui-kit/components/dyte-network-indicator',
+                component: ComponentCreator('/react-ui-kit/components/dyte-network-indicator', '9b8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-notification',
-                component: ComponentCreator('/react-ui-kit/components/productdb-notification', '281'),
+                path: '/react-ui-kit/components/dyte-notification',
+                component: ComponentCreator('/react-ui-kit/components/dyte-notification', 'cab'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-notifications',
-                component: ComponentCreator('/react-ui-kit/components/productdb-notifications', '347'),
+                path: '/react-ui-kit/components/dyte-notifications',
+                component: ComponentCreator('/react-ui-kit/components/dyte-notifications', '442'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-overlay-modal',
-                component: ComponentCreator('/react-ui-kit/components/productdb-overlay-modal', '193'),
+                path: '/react-ui-kit/components/dyte-overlay-modal',
+                component: ComponentCreator('/react-ui-kit/components/dyte-overlay-modal', 'f74'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-participant',
-                component: ComponentCreator('/react-ui-kit/components/productdb-participant', '788'),
+                path: '/react-ui-kit/components/dyte-participant',
+                component: ComponentCreator('/react-ui-kit/components/dyte-participant', '6e1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-participant-count',
-                component: ComponentCreator('/react-ui-kit/components/productdb-participant-count', '10b'),
+                path: '/react-ui-kit/components/dyte-participant-count',
+                component: ComponentCreator('/react-ui-kit/components/dyte-participant-count', '73a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-participant-tile',
-                component: ComponentCreator('/react-ui-kit/components/productdb-participant-tile', '237'),
+                path: '/react-ui-kit/components/dyte-participant-tile',
+                component: ComponentCreator('/react-ui-kit/components/dyte-participant-tile', '200'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-participants',
-                component: ComponentCreator('/react-ui-kit/components/productdb-participants', '32c'),
+                path: '/react-ui-kit/components/dyte-participants',
+                component: ComponentCreator('/react-ui-kit/components/dyte-participants', '74c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-participants-audio',
-                component: ComponentCreator('/react-ui-kit/components/productdb-participants-audio', '3e9'),
+                path: '/react-ui-kit/components/dyte-participants-audio',
+                component: ComponentCreator('/react-ui-kit/components/dyte-participants-audio', '10a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-participants-stage-list',
-                component: ComponentCreator('/react-ui-kit/components/productdb-participants-stage-list', '232'),
+                path: '/react-ui-kit/components/dyte-participants-stage-list',
+                component: ComponentCreator('/react-ui-kit/components/dyte-participants-stage-list', 'd59'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-participants-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-participants-toggle', 'b41'),
+                path: '/react-ui-kit/components/dyte-participants-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-participants-toggle', '8fd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-permissions-message',
-                component: ComponentCreator('/react-ui-kit/components/productdb-permissions-message', '48f'),
+                path: '/react-ui-kit/components/dyte-permissions-message',
+                component: ComponentCreator('/react-ui-kit/components/dyte-permissions-message', '181'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-plugin-main',
-                component: ComponentCreator('/react-ui-kit/components/productdb-plugin-main', 'e1f'),
+                path: '/react-ui-kit/components/dyte-plugin-main',
+                component: ComponentCreator('/react-ui-kit/components/dyte-plugin-main', 'b6f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-plugins',
-                component: ComponentCreator('/react-ui-kit/components/productdb-plugins', 'f91'),
+                path: '/react-ui-kit/components/dyte-plugins',
+                component: ComponentCreator('/react-ui-kit/components/dyte-plugins', 'c97'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-plugins-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-plugins-toggle', '1f8'),
+                path: '/react-ui-kit/components/dyte-plugins-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-plugins-toggle', 'ca2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-poll',
-                component: ComponentCreator('/react-ui-kit/components/productdb-poll', '929'),
+                path: '/react-ui-kit/components/dyte-poll',
+                component: ComponentCreator('/react-ui-kit/components/dyte-poll', '68e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-poll-form',
-                component: ComponentCreator('/react-ui-kit/components/productdb-poll-form', 'cfb'),
+                path: '/react-ui-kit/components/dyte-poll-form',
+                component: ComponentCreator('/react-ui-kit/components/dyte-poll-form', '3b1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-polls',
-                component: ComponentCreator('/react-ui-kit/components/productdb-polls', 'e37'),
+                path: '/react-ui-kit/components/dyte-polls',
+                component: ComponentCreator('/react-ui-kit/components/dyte-polls', '983'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-polls-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-polls-toggle', '3e0'),
+                path: '/react-ui-kit/components/dyte-polls-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-polls-toggle', '947'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-recording-indicator',
-                component: ComponentCreator('/react-ui-kit/components/productdb-recording-indicator', 'ba7'),
+                path: '/react-ui-kit/components/dyte-recording-indicator',
+                component: ComponentCreator('/react-ui-kit/components/dyte-recording-indicator', '4c5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-recording-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-recording-toggle', '7e0'),
+                path: '/react-ui-kit/components/dyte-recording-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-recording-toggle', '76a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-remote-access-manager',
-                component: ComponentCreator('/react-ui-kit/components/productdb-remote-access-manager', '12a'),
+                path: '/react-ui-kit/components/dyte-remote-access-manager',
+                component: ComponentCreator('/react-ui-kit/components/dyte-remote-access-manager', 'fde'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-screen-share-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-screen-share-toggle', '0d9'),
+                path: '/react-ui-kit/components/dyte-screen-share-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-screen-share-toggle', 'aaa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-screenshare-view',
-                component: ComponentCreator('/react-ui-kit/components/productdb-screenshare-view', '753'),
+                path: '/react-ui-kit/components/dyte-screenshare-view',
+                component: ComponentCreator('/react-ui-kit/components/dyte-screenshare-view', '345'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-settings',
-                component: ComponentCreator('/react-ui-kit/components/productdb-settings', '851'),
+                path: '/react-ui-kit/components/dyte-settings',
+                component: ComponentCreator('/react-ui-kit/components/dyte-settings', '05d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-settings-audio',
-                component: ComponentCreator('/react-ui-kit/components/productdb-settings-audio', '51b'),
+                path: '/react-ui-kit/components/dyte-settings-audio',
+                component: ComponentCreator('/react-ui-kit/components/dyte-settings-audio', '66a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-settings-toggle',
-                component: ComponentCreator('/react-ui-kit/components/productdb-settings-toggle', '46a'),
+                path: '/react-ui-kit/components/dyte-settings-toggle',
+                component: ComponentCreator('/react-ui-kit/components/dyte-settings-toggle', '0c7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-settings-video',
-                component: ComponentCreator('/react-ui-kit/components/productdb-settings-video', '1c1'),
+                path: '/react-ui-kit/components/dyte-settings-video',
+                component: ComponentCreator('/react-ui-kit/components/dyte-settings-video', 'c6d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-setup-screen',
-                component: ComponentCreator('/react-ui-kit/components/productdb-setup-screen', '659'),
+                path: '/react-ui-kit/components/dyte-setup-screen',
+                component: ComponentCreator('/react-ui-kit/components/dyte-setup-screen', '1d1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-sidebar',
-                component: ComponentCreator('/react-ui-kit/components/productdb-sidebar', '3c2'),
+                path: '/react-ui-kit/components/dyte-sidebar',
+                component: ComponentCreator('/react-ui-kit/components/dyte-sidebar', '071'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-simple-grid',
-                component: ComponentCreator('/react-ui-kit/components/productdb-simple-grid', 'c21'),
+                path: '/react-ui-kit/components/dyte-simple-grid',
+                component: ComponentCreator('/react-ui-kit/components/dyte-simple-grid', '538'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-spinner',
-                component: ComponentCreator('/react-ui-kit/components/productdb-spinner', '0ed'),
+                path: '/react-ui-kit/components/dyte-spinner',
+                component: ComponentCreator('/react-ui-kit/components/dyte-spinner', '3b9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-spotlight-grid',
-                component: ComponentCreator('/react-ui-kit/components/productdb-spotlight-grid', '304'),
+                path: '/react-ui-kit/components/dyte-spotlight-grid',
+                component: ComponentCreator('/react-ui-kit/components/dyte-spotlight-grid', '0dd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-stage',
-                component: ComponentCreator('/react-ui-kit/components/productdb-stage', '8a4'),
+                path: '/react-ui-kit/components/dyte-stage',
+                component: ComponentCreator('/react-ui-kit/components/dyte-stage', '763'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-switch',
-                component: ComponentCreator('/react-ui-kit/components/productdb-switch', 'ed0'),
+                path: '/react-ui-kit/components/dyte-switch',
+                component: ComponentCreator('/react-ui-kit/components/dyte-switch', 'c0c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-text-field',
-                component: ComponentCreator('/react-ui-kit/components/productdb-text-field', 'ec9'),
+                path: '/react-ui-kit/components/dyte-text-field',
+                component: ComponentCreator('/react-ui-kit/components/dyte-text-field', '3bf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-text-message',
-                component: ComponentCreator('/react-ui-kit/components/productdb-text-message', '7cb'),
+                path: '/react-ui-kit/components/dyte-text-message',
+                component: ComponentCreator('/react-ui-kit/components/dyte-text-message', '62c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-tooltip',
-                component: ComponentCreator('/react-ui-kit/components/productdb-tooltip', 'ac0'),
+                path: '/react-ui-kit/components/dyte-tooltip',
+                component: ComponentCreator('/react-ui-kit/components/dyte-tooltip', 'dc0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/react-ui-kit/components/productdb-viewer-count',
-                component: ComponentCreator('/react-ui-kit/components/productdb-viewer-count', '521'),
+                path: '/react-ui-kit/components/dyte-viewer-count',
+                component: ComponentCreator('/react-ui-kit/components/dyte-viewer-count', '6d9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

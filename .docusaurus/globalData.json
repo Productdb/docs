@@ -550,6 +550,60 @@
       ],
       "breadcrumbs": true
     },
+    "cli": {
+      "path": "/cli",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/cli",
+          "mainDocId": "installation",
+          "docs": [
+            {
+              "id": "getting-started",
+              "path": "/cli/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation",
+              "path": "/cli/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "meetings",
+              "path": "/cli/meetings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins",
+              "path": "/cli/plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/cli/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks",
+              "path": "/cli/webhooks",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/cli/",
+                "label": "installation"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
     "plugin-sdk": {
       "path": "/plugin-sdk",
       "versions": [
@@ -664,159 +718,534 @@
       ],
       "breadcrumbs": true
     },
-    "flutter-core": {
-      "path": "/flutter-core",
+    "react-ui-kit": {
+      "path": "/react-ui-kit",
       "versions": [
         {
           "name": "current",
           "label": "1.x.x",
           "isLast": true,
-          "path": "/flutter-core",
-          "mainDocId": "quickstart",
+          "path": "/react-ui-kit",
+          "mainDocId": "introduction",
           "docs": [
             {
-              "id": "chat/introduction",
-              "path": "/flutter-core/chat/introduction",
+              "id": "build-in-call-ui/build-your-own/add-custom-sidebar",
+              "path": "/react-ui-kit/build-in-call-ui/build-your-own/add-custom-sidebar",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "chat/receiving-chat-messages",
-              "path": "/flutter-core/chat/receiving-chat-messages",
+              "id": "build-in-call-ui/build-your-own/customize-control-bar",
+              "path": "/react-ui-kit/build-in-call-ui/build-your-own/customize-control-bar",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "chat/sending-a-chat-message",
-              "path": "/flutter-core/chat/sending-a-chat-message",
+              "id": "build-in-call-ui/build-your-own/customize-header",
+              "path": "/react-ui-kit/build-in-call-ui/build-your-own/customize-header",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "host-actions",
-              "path": "/flutter-core/host-actions",
+              "id": "build-in-call-ui/build-your-own/handling-states-and-configs",
+              "path": "/react-ui-kit/build-in-call-ui/build-your-own/handling-states-and-configs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-in-call-ui/build-your-own/stage-ui-using-dyte-grid",
+              "path": "/react-ui-kit/build-in-call-ui/build-your-own/stage-ui-using-dyte-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-in-call-ui/build-your-own/states based UI Split",
+              "path": "/react-ui-kit/build-in-call-ui/build-your-own/states based UI Split",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-in-call-ui/default-meeting-ui",
+              "path": "/react-ui-kit/build-in-call-ui/default-meeting-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/add-audio-video-device",
+              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/add-audio-video-device",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/add-audio-video-preview",
+              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/add-audio-video-preview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/add-middleware",
+              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/add-middleware",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/edit-user-name",
+              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/edit-user-name",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
+              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/initial-code-skeleton",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/default-setup-screen",
+              "path": "/react-ui-kit/build-pre-call-ui/default-setup-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-audio-visualizer",
+              "path": "/react-ui-kit/components/dyte-audio-visualizer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-avatar",
+              "path": "/react-ui-kit/components/dyte-avatar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-button",
+              "path": "/react-ui-kit/components/dyte-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-camera-toggle",
+              "path": "/react-ui-kit/components/dyte-camera-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat",
+              "path": "/react-ui-kit/components/dyte-chat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat-toggle",
+              "path": "/react-ui-kit/components/dyte-chat-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-clock",
+              "path": "/react-ui-kit/components/dyte-clock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-confirmation-modal",
+              "path": "/react-ui-kit/components/dyte-confirmation-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-controlbar",
+              "path": "/react-ui-kit/components/dyte-controlbar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-controlbar-button",
+              "path": "/react-ui-kit/components/dyte-controlbar-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-dialog",
+              "path": "/react-ui-kit/components/dyte-dialog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-dialog-manager",
+              "path": "/react-ui-kit/components/dyte-dialog-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-emoji-picker",
+              "path": "/react-ui-kit/components/dyte-emoji-picker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-ended-screen",
+              "path": "/react-ui-kit/components/dyte-ended-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-file-message",
+              "path": "/react-ui-kit/components/dyte-file-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-fullscreen-toggle",
+              "path": "/react-ui-kit/components/dyte-fullscreen-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-grid",
+              "path": "/react-ui-kit/components/dyte-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-grid-pagination",
+              "path": "/react-ui-kit/components/dyte-grid-pagination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-header",
+              "path": "/react-ui-kit/components/dyte-header",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-icon",
+              "path": "/react-ui-kit/components/dyte-icon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-idle-screen",
+              "path": "/react-ui-kit/components/dyte-idle-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-image-message",
+              "path": "/react-ui-kit/components/dyte-image-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-image-viewer",
+              "path": "/react-ui-kit/components/dyte-image-viewer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-leave-button",
+              "path": "/react-ui-kit/components/dyte-leave-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-leave-meeting",
+              "path": "/react-ui-kit/components/dyte-leave-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-logo",
+              "path": "/react-ui-kit/components/dyte-logo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-meeting",
+              "path": "/react-ui-kit/components/dyte-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-meeting-title",
+              "path": "/react-ui-kit/components/dyte-meeting-title",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu",
+              "path": "/react-ui-kit/components/dyte-menu",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu-item",
+              "path": "/react-ui-kit/components/dyte-menu-item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu-list",
+              "path": "/react-ui-kit/components/dyte-menu-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mic-toggle",
+              "path": "/react-ui-kit/components/dyte-mic-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mixed-grid",
+              "path": "/react-ui-kit/components/dyte-mixed-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-more-toggle",
+              "path": "/react-ui-kit/components/dyte-more-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-name-tag",
+              "path": "/react-ui-kit/components/dyte-name-tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-network-indicator",
+              "path": "/react-ui-kit/components/dyte-network-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-notification",
+              "path": "/react-ui-kit/components/dyte-notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-notifications",
+              "path": "/react-ui-kit/components/dyte-notifications",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-overlay-modal",
+              "path": "/react-ui-kit/components/dyte-overlay-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant",
+              "path": "/react-ui-kit/components/dyte-participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-count",
+              "path": "/react-ui-kit/components/dyte-participant-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-tile",
+              "path": "/react-ui-kit/components/dyte-participant-tile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants",
+              "path": "/react-ui-kit/components/dyte-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-audio",
+              "path": "/react-ui-kit/components/dyte-participants-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-stage-list",
+              "path": "/react-ui-kit/components/dyte-participants-stage-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-toggle",
+              "path": "/react-ui-kit/components/dyte-participants-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-permissions-message",
+              "path": "/react-ui-kit/components/dyte-permissions-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugin-main",
+              "path": "/react-ui-kit/components/dyte-plugin-main",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugins",
+              "path": "/react-ui-kit/components/dyte-plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugins-toggle",
+              "path": "/react-ui-kit/components/dyte-plugins-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-poll",
+              "path": "/react-ui-kit/components/dyte-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-poll-form",
+              "path": "/react-ui-kit/components/dyte-poll-form",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-polls",
+              "path": "/react-ui-kit/components/dyte-polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-polls-toggle",
+              "path": "/react-ui-kit/components/dyte-polls-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-recording-indicator",
+              "path": "/react-ui-kit/components/dyte-recording-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-recording-toggle",
+              "path": "/react-ui-kit/components/dyte-recording-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-remote-access-manager",
+              "path": "/react-ui-kit/components/dyte-remote-access-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-screen-share-toggle",
+              "path": "/react-ui-kit/components/dyte-screen-share-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-screenshare-view",
+              "path": "/react-ui-kit/components/dyte-screenshare-view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings",
+              "path": "/react-ui-kit/components/dyte-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-audio",
+              "path": "/react-ui-kit/components/dyte-settings-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-toggle",
+              "path": "/react-ui-kit/components/dyte-settings-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-video",
+              "path": "/react-ui-kit/components/dyte-settings-video",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-setup-screen",
+              "path": "/react-ui-kit/components/dyte-setup-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-sidebar",
+              "path": "/react-ui-kit/components/dyte-sidebar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-simple-grid",
+              "path": "/react-ui-kit/components/dyte-simple-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spinner",
+              "path": "/react-ui-kit/components/dyte-spinner",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spotlight-grid",
+              "path": "/react-ui-kit/components/dyte-spotlight-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-stage",
+              "path": "/react-ui-kit/components/dyte-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-switch",
+              "path": "/react-ui-kit/components/dyte-switch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-text-field",
+              "path": "/react-ui-kit/components/dyte-text-field",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-text-message",
+              "path": "/react-ui-kit/components/dyte-text-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-tooltip",
+              "path": "/react-ui-kit/components/dyte-tooltip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-viewer-count",
+              "path": "/react-ui-kit/components/dyte-viewer-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/gallery",
+              "path": "/react-ui-kit/components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "customizations/custom-iconpack",
+              "path": "/react-ui-kit/customizations/custom-iconpack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "customizations/custom-locale",
+              "path": "/react-ui-kit/customizations/custom-locale",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-system",
+              "path": "/react-ui-kit/design-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "display-videos",
+              "path": "/react-ui-kit/basics/display-videos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrate",
+              "path": "/react-ui-kit/basics/integrate",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction",
-              "path": "/flutter-core/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "livestream",
-              "path": "/flutter-core/livestream",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "local-user/events",
-              "path": "/flutter-core/local-user/events",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "local-user/introduction",
-              "path": "/flutter-core/local-user/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "local-user/manage-media-devices",
-              "path": "/flutter-core/local-user/manage-media-devices",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "local-user/manage-permissions",
-              "path": "/flutter-core/local-user/manage-permissions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "local-user/screen-share-iOS-guide",
-              "path": "/flutter-core/local-user/screen-share-iOS-guide",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/events",
-              "path": "/flutter-core/participants/events",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/introduction",
-              "path": "/flutter-core/participants/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/participant-object",
-              "path": "/flutter-core/participants/participant-object",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/remote-participants",
-              "path": "/flutter-core/participants/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/waitlisted-participants",
-              "path": "/flutter-core/participants/waitlisted-participants",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/creating-a-poll",
-              "path": "/flutter-core/polls/creating-a-poll",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/introduction",
-              "path": "/flutter-core/polls/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/voting-on-a-poll",
-              "path": "/flutter-core/polls/voting-on-a-poll",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/media-preview",
-              "path": "/flutter-core/pre-call/media-preview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/meeting-meta",
-              "path": "/flutter-core/pre-call/meeting-meta",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/waiting-room",
-              "path": "/flutter-core/pre-call/waiting-room",
+              "path": "/react-ui-kit/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "quickstart",
-              "path": "/flutter-core/",
+              "path": "/react-ui-kit/quickstart",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "recording",
-              "path": "/flutter-core/recording",
+              "id": "reference/classes/DyteNotificationsAudio",
+              "path": "/react-ui-kit/reference/classes/DyteNotificationsAudio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/Notification",
+              "path": "/react-ui-kit/reference/interfaces/Notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/PollObject",
+              "path": "/react-ui-kit/reference/interfaces/PollObject",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/States",
+              "path": "/react-ui-kit/reference/interfaces/States",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UIConfig",
+              "path": "/react-ui-kit/reference/interfaces/UIConfig",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UserPreferences",
+              "path": "/react-ui-kit/reference/interfaces/UserPreferences",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/reference",
+              "path": "/react-ui-kit/reference/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "release-notes",
-              "path": "/flutter-core/release-notes",
+              "path": "/react-ui-kit/release-notes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "room-metadata",
-              "path": "/flutter-core/room-metadata",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "stage-management/host-controls",
-              "path": "/flutter-core/stage-management/host-controls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "stage-management/introduction",
-              "path": "/flutter-core/stage-management/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "stage-management/viewer-participants",
-              "path": "/flutter-core/stage-management/viewer-participants",
+              "id": "using-hooks",
+              "path": "/react-ui-kit/using-hooks",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -824,8 +1253,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/flutter-core/",
-                "label": "quickstart"
+                "path": "/react-ui-kit/",
+                "label": "introduction"
               }
             }
           }
@@ -880,425 +1309,6 @@
               "link": {
                 "path": "/community-packages/",
                 "label": "index"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "react-native": {
-      "path": "/react-native",
-      "versions": [
-        {
-          "name": "current",
-          "label": "1.x.x",
-          "isLast": true,
-          "path": "/react-native",
-          "mainDocId": "introduction",
-          "docs": [
-            {
-              "id": "basics/components-basics",
-              "path": "/react-native/basics/components-basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "basics/display-videos",
-              "path": "/react-native/basics/display-videos",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/gallery",
-              "path": "/react-native/components",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-avatar",
-              "path": "/react-native/components/productdb-avatar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-button",
-              "path": "/react-native/components/productdb-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-camera-toggle",
-              "path": "/react-native/components/productdb-camera-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-chat",
-              "path": "/react-native/components/productdb-chat",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-chat-toggle",
-              "path": "/react-native/components/productdb-chat-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-clock",
-              "path": "/react-native/components/productdb-clock",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-controlbar",
-              "path": "/react-native/components/productdb-controlbar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-controlbar-button",
-              "path": "/react-native/components/productdb-controlbar-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-dialog",
-              "path": "/react-native/components/productdb-dialog",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-dialog-manager",
-              "path": "/react-native/components/productdb-dialog-manager",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-ended-screen",
-              "path": "/react-native/components/productdb-ended-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-file-message",
-              "path": "/react-native/components/productdb-file-message",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-grid",
-              "path": "/react-native/components/productdb-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-grid-pagination",
-              "path": "/react-native/components/productdb-grid-pagination",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-header",
-              "path": "/react-native/components/productdb-header",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-icon",
-              "path": "/react-native/components/productdb-icon",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-idle-screen",
-              "path": "/react-native/components/productdb-idle-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-image-message",
-              "path": "/react-native/components/productdb-image-message",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-image-viewer",
-              "path": "/react-native/components/productdb-image-viewer",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-join-stage",
-              "path": "/react-native/components/productdb-join-stage",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-leave-button",
-              "path": "/react-native/components/productdb-leave-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-leave-meeting",
-              "path": "/react-native/components/productdb-leave-meeting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-logo",
-              "path": "/react-native/components/productdb-logo",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-meeting",
-              "path": "/react-native/components/productdb-meeting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-meeting-title",
-              "path": "/react-native/components/productdb-meeting-title",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-menu",
-              "path": "/react-native/components/productdb-menu",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-menu-item",
-              "path": "/react-native/components/productdb-menu-item",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-menu-list",
-              "path": "/react-native/components/productdb-menu-list",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-mic-toggle",
-              "path": "/react-native/components/productdb-mic-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-more-toggle",
-              "path": "/react-native/components/productdb-more-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-mute-all-button",
-              "path": "/react-native/components/productdb-mute-all-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-name-tag",
-              "path": "/react-native/components/productdb-name-tag",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-notification",
-              "path": "/react-native/components/productdb-notification",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-notifications",
-              "path": "/react-native/components/productdb-notifications",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participant",
-              "path": "/react-native/components/productdb-participant",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participant-count",
-              "path": "/react-native/components/productdb-participant-count",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participant-tile",
-              "path": "/react-native/components/productdb-participant-tile",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participants",
-              "path": "/react-native/components/productdb-participants",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participants-toggle",
-              "path": "/react-native/components/productdb-participants-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-permissions-message",
-              "path": "/react-native/components/productdb-permissions-message",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-plugin-main",
-              "path": "/react-native/components/productdb-plugin-main",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-plugins",
-              "path": "/react-native/components/productdb-plugins",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-plugins-toggle",
-              "path": "/react-native/components/productdb-plugins-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-poll",
-              "path": "/react-native/components/productdb-poll",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-poll-form",
-              "path": "/react-native/components/productdb-poll-form",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-polls",
-              "path": "/react-native/components/productdb-polls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-polls-toggle",
-              "path": "/react-native/components/productdb-polls-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-recording-indicator",
-              "path": "/react-native/components/productdb-recording-indicator",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-recording-toggle",
-              "path": "/react-native/components/productdb-recording-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-screen-share-toggle",
-              "path": "/react-native/components/productdb-screen-share-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-screenshare-view",
-              "path": "/react-native/components/productdb-screenshare-view",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings",
-              "path": "/react-native/components/productdb-settings",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings-audio",
-              "path": "/react-native/components/productdb-settings-audio",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings-toggle",
-              "path": "/react-native/components/productdb-settings-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings-video",
-              "path": "/react-native/components/productdb-settings-video",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-setup-screen",
-              "path": "/react-native/components/productdb-setup-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-sidebar",
-              "path": "/react-native/components/productdb-sidebar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-simple-grid",
-              "path": "/react-native/components/productdb-simple-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-spinner",
-              "path": "/react-native/components/productdb-spinner",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-spotlight-grid",
-              "path": "/react-native/components/productdb-spotlight-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-text",
-              "path": "/react-native/components/productdb-text",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-text-field",
-              "path": "/react-native/components/productdb-text-field",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-waiting-screen",
-              "path": "/react-native/components/productdb-waiting-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-webinar-stage-toggle",
-              "path": "/react-native/components/productdb-webinar-stage-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "design-system",
-              "path": "/react-native/design-system",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "introduction",
-              "path": "/react-native/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "quickstart",
-              "path": "/react-native/quickstart",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/classes/ProductDBNotificationsAudio",
-              "path": "/react-native/reference/classes/ProductDBNotificationsAudio",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/Notification",
-              "path": "/react-native/reference/interfaces/Notification",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/PollObject",
-              "path": "/react-native/reference/interfaces/PollObject",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/States",
-              "path": "/react-native/reference/interfaces/States",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/UIConfig",
-              "path": "/react-native/reference/interfaces/UIConfig",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/UserPreferences",
-              "path": "/react-native/reference/interfaces/UserPreferences",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/reference",
-              "path": "/react-native/reference/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "release-notes",
-              "path": "/react-native/release-notes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "using-hooks",
-              "path": "/react-native/using-hooks",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/react-native/",
-                "label": "introduction"
               }
             }
           }
@@ -1780,179 +1790,159 @@
       ],
       "breadcrumbs": true
     },
-    "ios-core": {
-      "path": "/ios-core",
+    "flutter-core": {
+      "path": "/flutter-core",
       "versions": [
         {
           "name": "current",
           "label": "1.x.x",
           "isLast": true,
-          "path": "/ios-core",
+          "path": "/flutter-core",
           "mainDocId": "quickstart",
           "docs": [
             {
               "id": "chat/introduction",
-              "path": "/ios-core/chat/introduction",
+              "path": "/flutter-core/chat/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "chat/receiving-chat-messages",
-              "path": "/ios-core/chat/receiving-chat-messages",
+              "path": "/flutter-core/chat/receiving-chat-messages",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "chat/sending-a-chat-message",
-              "path": "/ios-core/chat/sending-a-chat-message",
+              "path": "/flutter-core/chat/sending-a-chat-message",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "error-codes",
-              "path": "/ios-core/error-codes",
+              "id": "host-actions",
+              "path": "/flutter-core/host-actions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction",
-              "path": "/ios-core/Introduction",
+              "id": "introduction",
+              "path": "/flutter-core/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "livestreaming",
-              "path": "/ios-core/livestreaming",
+              "id": "livestream",
+              "path": "/flutter-core/livestream",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "local-user/events",
-              "path": "/ios-core/local-user/events",
+              "path": "/flutter-core/local-user/events",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "local-user/introduction",
-              "path": "/ios-core/local-user/introduction",
+              "path": "/flutter-core/local-user/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "local-user/manage-media-devices",
-              "path": "/ios-core/local-user/manage-media-devices",
+              "path": "/flutter-core/local-user/manage-media-devices",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "local-user/manage-permissions",
-              "path": "/ios-core/local-user/manage-permissions",
+              "path": "/flutter-core/local-user/manage-permissions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "local-user/screen-share-guide",
-              "path": "/ios-core/local-user/screen-share-guide",
+              "id": "local-user/screen-share-iOS-guide",
+              "path": "/flutter-core/local-user/screen-share-iOS-guide",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "participants/events",
-              "path": "/ios-core/participants/events",
+              "path": "/flutter-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/introduction",
+              "path": "/flutter-core/participants/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "participants/participant-object",
-              "path": "/ios-core/participants/participant-object",
+              "path": "/flutter-core/participants/participant-object",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "participants/remote-participants",
-              "path": "/ios-core/participants/",
+              "path": "/flutter-core/participants/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "participants/waitlisted-participants",
-              "path": "/ios-core/participants/waitlisted-participants",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/disable-plugin",
-              "path": "/ios-core/plugins/disable-plugin",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/enable-plugin",
-              "path": "/ios-core/plugins/enable-plugin",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/extra",
-              "path": "/ios-core/plugins/extra",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/introduction",
-              "path": "/ios-core/plugins/introduction",
+              "path": "/flutter-core/participants/waitlisted-participants",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "polls/creating-a-poll",
-              "path": "/ios-core/polls/creating-a-poll",
+              "path": "/flutter-core/polls/creating-a-poll",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "polls/introduction",
-              "path": "/ios-core/polls/introduction",
+              "path": "/flutter-core/polls/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "polls/voting-on-a-poll",
-              "path": "/ios-core/polls/voting-on-a-poll",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/handling-permissions",
-              "path": "/ios-core/pre-call/handling-permissions",
+              "path": "/flutter-core/polls/voting-on-a-poll",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pre-call/media-preview",
-              "path": "/ios-core/pre-call/media-preview",
+              "path": "/flutter-core/pre-call/media-preview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pre-call/meeting-meta",
-              "path": "/ios-core/pre-call/meeting-meta",
+              "path": "/flutter-core/pre-call/meeting-meta",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pre-call/waiting-room",
-              "path": "/ios-core/pre-call/waiting-room",
+              "path": "/flutter-core/pre-call/waiting-room",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "quickstart",
-              "path": "/ios-core/",
+              "path": "/flutter-core/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "recording",
-              "path": "/ios-core/recording",
+              "path": "/flutter-core/recording",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "release-notes",
-              "path": "/ios-core/release-notes",
+              "path": "/flutter-core/release-notes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "room-metadata",
-              "path": "/ios-core/room-metadata",
+              "path": "/flutter-core/room-metadata",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "stage-management/host-controls",
-              "path": "/ios-core/stage-management/host-controls",
+              "path": "/flutter-core/stage-management/host-controls",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "stage-management/introduction",
-              "path": "/ios-core/stage-management/introduction",
+              "path": "/flutter-core/stage-management/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "stage-management/viewer-participants",
-              "path": "/ios-core/stage-management/viewer-participants",
+              "path": "/flutter-core/stage-management/viewer-participants",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -1960,7 +1950,465 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/ios-core/",
+                "path": "/flutter-core/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "android": {
+      "path": "/android",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/android",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "advanced-usage",
+              "path": "/android/advanced-usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/add-audio-video-device",
+              "path": "/android/build-pre-call-ui/build-your-own/add-audio-video-device",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/add-audio-video-preview",
+              "path": "/android/build-pre-call-ui/build-your-own/add-audio-video-preview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/edit-user-name",
+              "path": "/android/build-pre-call-ui/build-your-own/edit-user-name",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
+              "path": "/android/build-pre-call-ui/build-your-own/initial-code-skeleton",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-pre-call-ui/default-setup-screen",
+              "path": "/android/build-pre-call-ui/default-setup-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/prebuilt-screen",
+              "path": "/android/chat/prebuilt-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/gallery",
+              "path": "/android/components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-audio-selector",
+              "path": "/android/components/productdb-audio-selector",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-audio-visualizer",
+              "path": "/android/components/productdb-audio-visualizer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-avatar",
+              "path": "/android/components/productdb-avatar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-button",
+              "path": "/android/components/productdb-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-camera-toggle",
+              "path": "/android/components/productdb-camera-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-chat",
+              "path": "/android/components/productdb-chat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-clock",
+              "path": "/android/components/productdb-clock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-controlbar-button",
+              "path": "/android/components/productdb-controlbar-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-grid",
+              "path": "/android/components/productdb-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-grid-pagination",
+              "path": "/android/components/productdb-grid-pagination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-idle-screen",
+              "path": "/android/components/productdb-idle-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-join-stage",
+              "path": "/android/components/productdb-join-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-leave-button",
+              "path": "/android/components/productdb-leave-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-leave-meeting",
+              "path": "/android/components/productdb-leave-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-meeting",
+              "path": "/android/components/productdb-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-meeting-title",
+              "path": "/android/components/productdb-meeting-title",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-mic-toggle",
+              "path": "/android/components/productdb-mic-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-more-toggle",
+              "path": "/android/components/productdb-more-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-name-tag",
+              "path": "/android/components/productdb-name-tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-participant-count",
+              "path": "/android/components/productdb-participant-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-participants",
+              "path": "/android/components/productdb-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-plugins",
+              "path": "/android/components/productdb-plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-poll-form",
+              "path": "/android/components/productdb-poll-form",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-polls",
+              "path": "/android/components/productdb-polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-recording-indicator",
+              "path": "/android/components/productdb-recording-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-settings",
+              "path": "/android/components/productdb-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-setup-screen",
+              "path": "/android/components/productdb-setup-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-video-selector",
+              "path": "/android/components/productdb-video-selector",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-webinar-stage-toggle",
+              "path": "/android/components/productdb-webinar-stage-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "customize-meeting-ui",
+              "path": "/android/customize-meeting-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/introduction",
+              "path": "/android/participants/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/prebuilt",
+              "path": "/android/participants/prebuilt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/introduction",
+              "path": "/android/plugins/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/prebuilt",
+              "path": "/android/plugins/prebuilt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/prebuilt-create-poll",
+              "path": "/android/polls/prebuilt-create-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/prebuilt-polls-screen",
+              "path": "/android/polls/prebuilt-polls-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/android/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes",
+              "path": "/android/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "render-participant-videos/custom-ui",
+              "path": "/android/render-participant-videos/custom-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "render-participant-videos/using-productdbgrid",
+              "path": "/android/render-participant-videos/using-productdbgrid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-app",
+              "path": "/android/sample-app",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/android/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "android-core": {
+      "path": "/android-core",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/android-core",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "chat/introduction",
+              "path": "/android-core/chat/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/receiving-chat-messages",
+              "path": "/android-core/chat/receiving-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/sending-a-chat-message",
+              "path": "/android-core/chat/sending-a-chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "error-codes",
+              "path": "/android-core/error-codes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction",
+              "path": "/android-core/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/introduction",
+              "path": "/android-core/livestream/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/productdb-livestream-listener",
+              "path": "/android-core/livestream/productdb-livestream-listener",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/productdb-livestream-object",
+              "path": "/android-core/livestream/productdb-livestream-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/events",
+              "path": "/android-core/local-user/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/introduction",
+              "path": "/android-core/local-user/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-media-devices",
+              "path": "/android-core/local-user/manage-media-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-permissions",
+              "path": "/android-core/local-user/manage-permissions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/events",
+              "path": "/android-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participant-object",
+              "path": "/android-core/participants/participant-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/remote-participants",
+              "path": "/android-core/participants/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/waitlisted-participants",
+              "path": "/android-core/participants/waitlisted-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/enable-disable-plugin",
+              "path": "/android-core/plugins/enable-disable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/extra",
+              "path": "/android-core/plugins/extra",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/introduction",
+              "path": "/android-core/plugins/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/creating-a-poll",
+              "path": "/android-core/polls/creating-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/introduction",
+              "path": "/android-core/polls/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/voting-on-a-poll",
+              "path": "/android-core/polls/voting-on-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/handling-permissions",
+              "path": "/android-core/pre-call/handling-permissions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/media-preview",
+              "path": "/android-core/pre-call/media-preview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/meeting-meta",
+              "path": "/android-core/pre-call/meeting-meta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/waiting-room",
+              "path": "/android-core/pre-call/waiting-room",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/android-core/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/android-core/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes",
+              "path": "/android-core/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "room-metadata",
+              "path": "/android-core/room-metadata",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "stage-management/host-controls",
+              "path": "/android-core/stage-management/host-controls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "stage-management/introduction",
+              "path": "/android-core/stage-management/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "stage-management/viewer-participants",
+              "path": "/android-core/stage-management/viewer-participants",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/android-core/",
                 "label": "quickstart"
               }
             }
@@ -2443,723 +2891,179 @@
       ],
       "breadcrumbs": true
     },
-    "react-ui-kit": {
-      "path": "/react-ui-kit",
+    "ios-core": {
+      "path": "/ios-core",
       "versions": [
         {
           "name": "current",
           "label": "1.x.x",
           "isLast": true,
-          "path": "/react-ui-kit",
-          "mainDocId": "introduction",
-          "docs": [
-            {
-              "id": "build-in-call-ui/build-your-own/add-custom-sidebar",
-              "path": "/react-ui-kit/build-in-call-ui/build-your-own/add-custom-sidebar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-in-call-ui/build-your-own/customize-control-bar",
-              "path": "/react-ui-kit/build-in-call-ui/build-your-own/customize-control-bar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-in-call-ui/build-your-own/customize-header",
-              "path": "/react-ui-kit/build-in-call-ui/build-your-own/customize-header",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-in-call-ui/build-your-own/handling-states-and-configs",
-              "path": "/react-ui-kit/build-in-call-ui/build-your-own/handling-states-and-configs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-in-call-ui/build-your-own/stage-ui-using-dyte-grid",
-              "path": "/react-ui-kit/build-in-call-ui/build-your-own/stage-ui-using-dyte-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-in-call-ui/build-your-own/states based UI Split",
-              "path": "/react-ui-kit/build-in-call-ui/build-your-own/states based UI Split",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-in-call-ui/default-meeting-ui",
-              "path": "/react-ui-kit/build-in-call-ui/default-meeting-ui",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/add-audio-video-device",
-              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/add-audio-video-device",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/add-audio-video-preview",
-              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/add-audio-video-preview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/add-middleware",
-              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/add-middleware",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/edit-user-name",
-              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/edit-user-name",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
-              "path": "/react-ui-kit/build-pre-call-ui/build-your-own/initial-code-skeleton",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/default-setup-screen",
-              "path": "/react-ui-kit/build-pre-call-ui/default-setup-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/gallery",
-              "path": "/react-ui-kit/components",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-audio-visualizer",
-              "path": "/react-ui-kit/components/productdb-audio-visualizer",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-avatar",
-              "path": "/react-ui-kit/components/productdb-avatar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-button",
-              "path": "/react-ui-kit/components/productdb-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-camera-toggle",
-              "path": "/react-ui-kit/components/productdb-camera-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-chat",
-              "path": "/react-ui-kit/components/productdb-chat",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-chat-toggle",
-              "path": "/react-ui-kit/components/productdb-chat-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-clock",
-              "path": "/react-ui-kit/components/productdb-clock",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-confirmation-modal",
-              "path": "/react-ui-kit/components/productdb-confirmation-modal",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-controlbar",
-              "path": "/react-ui-kit/components/productdb-controlbar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-controlbar-button",
-              "path": "/react-ui-kit/components/productdb-controlbar-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-dialog",
-              "path": "/react-ui-kit/components/productdb-dialog",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-dialog-manager",
-              "path": "/react-ui-kit/components/productdb-dialog-manager",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-emoji-picker",
-              "path": "/react-ui-kit/components/productdb-emoji-picker",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-ended-screen",
-              "path": "/react-ui-kit/components/productdb-ended-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-file-message",
-              "path": "/react-ui-kit/components/productdb-file-message",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-fullscreen-toggle",
-              "path": "/react-ui-kit/components/productdb-fullscreen-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-grid",
-              "path": "/react-ui-kit/components/productdb-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-grid-pagination",
-              "path": "/react-ui-kit/components/productdb-grid-pagination",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-header",
-              "path": "/react-ui-kit/components/productdb-header",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-icon",
-              "path": "/react-ui-kit/components/productdb-icon",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-idle-screen",
-              "path": "/react-ui-kit/components/productdb-idle-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-image-message",
-              "path": "/react-ui-kit/components/productdb-image-message",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-image-viewer",
-              "path": "/react-ui-kit/components/productdb-image-viewer",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-leave-button",
-              "path": "/react-ui-kit/components/productdb-leave-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-leave-meeting",
-              "path": "/react-ui-kit/components/productdb-leave-meeting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-logo",
-              "path": "/react-ui-kit/components/productdb-logo",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-meeting",
-              "path": "/react-ui-kit/components/productdb-meeting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-meeting-title",
-              "path": "/react-ui-kit/components/productdb-meeting-title",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-menu",
-              "path": "/react-ui-kit/components/productdb-menu",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-menu-item",
-              "path": "/react-ui-kit/components/productdb-menu-item",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-menu-list",
-              "path": "/react-ui-kit/components/productdb-menu-list",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-mic-toggle",
-              "path": "/react-ui-kit/components/productdb-mic-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-mixed-grid",
-              "path": "/react-ui-kit/components/productdb-mixed-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-more-toggle",
-              "path": "/react-ui-kit/components/productdb-more-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-name-tag",
-              "path": "/react-ui-kit/components/productdb-name-tag",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-network-indicator",
-              "path": "/react-ui-kit/components/productdb-network-indicator",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-notification",
-              "path": "/react-ui-kit/components/productdb-notification",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-notifications",
-              "path": "/react-ui-kit/components/productdb-notifications",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-overlay-modal",
-              "path": "/react-ui-kit/components/productdb-overlay-modal",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participant",
-              "path": "/react-ui-kit/components/productdb-participant",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participant-count",
-              "path": "/react-ui-kit/components/productdb-participant-count",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participant-tile",
-              "path": "/react-ui-kit/components/productdb-participant-tile",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participants",
-              "path": "/react-ui-kit/components/productdb-participants",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participants-audio",
-              "path": "/react-ui-kit/components/productdb-participants-audio",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participants-stage-list",
-              "path": "/react-ui-kit/components/productdb-participants-stage-list",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participants-toggle",
-              "path": "/react-ui-kit/components/productdb-participants-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-permissions-message",
-              "path": "/react-ui-kit/components/productdb-permissions-message",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-plugin-main",
-              "path": "/react-ui-kit/components/productdb-plugin-main",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-plugins",
-              "path": "/react-ui-kit/components/productdb-plugins",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-plugins-toggle",
-              "path": "/react-ui-kit/components/productdb-plugins-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-poll",
-              "path": "/react-ui-kit/components/productdb-poll",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-poll-form",
-              "path": "/react-ui-kit/components/productdb-poll-form",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-polls",
-              "path": "/react-ui-kit/components/productdb-polls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-polls-toggle",
-              "path": "/react-ui-kit/components/productdb-polls-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-recording-indicator",
-              "path": "/react-ui-kit/components/productdb-recording-indicator",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-recording-toggle",
-              "path": "/react-ui-kit/components/productdb-recording-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-remote-access-manager",
-              "path": "/react-ui-kit/components/productdb-remote-access-manager",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-screen-share-toggle",
-              "path": "/react-ui-kit/components/productdb-screen-share-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-screenshare-view",
-              "path": "/react-ui-kit/components/productdb-screenshare-view",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings",
-              "path": "/react-ui-kit/components/productdb-settings",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings-audio",
-              "path": "/react-ui-kit/components/productdb-settings-audio",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings-toggle",
-              "path": "/react-ui-kit/components/productdb-settings-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings-video",
-              "path": "/react-ui-kit/components/productdb-settings-video",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-setup-screen",
-              "path": "/react-ui-kit/components/productdb-setup-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-sidebar",
-              "path": "/react-ui-kit/components/productdb-sidebar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-simple-grid",
-              "path": "/react-ui-kit/components/productdb-simple-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-spinner",
-              "path": "/react-ui-kit/components/productdb-spinner",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-spotlight-grid",
-              "path": "/react-ui-kit/components/productdb-spotlight-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-stage",
-              "path": "/react-ui-kit/components/productdb-stage",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-switch",
-              "path": "/react-ui-kit/components/productdb-switch",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-text-field",
-              "path": "/react-ui-kit/components/productdb-text-field",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-text-message",
-              "path": "/react-ui-kit/components/productdb-text-message",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-tooltip",
-              "path": "/react-ui-kit/components/productdb-tooltip",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-viewer-count",
-              "path": "/react-ui-kit/components/productdb-viewer-count",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "customizations/custom-iconpack",
-              "path": "/react-ui-kit/customizations/custom-iconpack",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "customizations/custom-locale",
-              "path": "/react-ui-kit/customizations/custom-locale",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "design-system",
-              "path": "/react-ui-kit/design-system",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "display-videos",
-              "path": "/react-ui-kit/basics/display-videos",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "integrate",
-              "path": "/react-ui-kit/basics/integrate",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "introduction",
-              "path": "/react-ui-kit/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "quickstart",
-              "path": "/react-ui-kit/quickstart",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/classes/DyteNotificationsAudio",
-              "path": "/react-ui-kit/reference/classes/DyteNotificationsAudio",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/Notification",
-              "path": "/react-ui-kit/reference/interfaces/Notification",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/PollObject",
-              "path": "/react-ui-kit/reference/interfaces/PollObject",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/States",
-              "path": "/react-ui-kit/reference/interfaces/States",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/UIConfig",
-              "path": "/react-ui-kit/reference/interfaces/UIConfig",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/interfaces/UserPreferences",
-              "path": "/react-ui-kit/reference/interfaces/UserPreferences",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/reference",
-              "path": "/react-ui-kit/reference/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "release-notes",
-              "path": "/react-ui-kit/release-notes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "using-hooks",
-              "path": "/react-ui-kit/using-hooks",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/react-ui-kit/",
-                "label": "introduction"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "android-core": {
-      "path": "/android-core",
-      "versions": [
-        {
-          "name": "current",
-          "label": "1.x.x",
-          "isLast": true,
-          "path": "/android-core",
+          "path": "/ios-core",
           "mainDocId": "quickstart",
           "docs": [
             {
               "id": "chat/introduction",
-              "path": "/android-core/chat/introduction",
+              "path": "/ios-core/chat/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "chat/receiving-chat-messages",
-              "path": "/android-core/chat/receiving-chat-messages",
+              "path": "/ios-core/chat/receiving-chat-messages",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "chat/sending-a-chat-message",
-              "path": "/android-core/chat/sending-a-chat-message",
+              "path": "/ios-core/chat/sending-a-chat-message",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "error-codes",
-              "path": "/android-core/error-codes",
+              "path": "/ios-core/error-codes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Introduction",
-              "path": "/android-core/Introduction",
+              "path": "/ios-core/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "livestream/introduction",
-              "path": "/android-core/livestream/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "livestream/productdb-livestream-listener",
-              "path": "/android-core/livestream/productdb-livestream-listener",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "livestream/productdb-livestream-object",
-              "path": "/android-core/livestream/productdb-livestream-object",
+              "id": "livestreaming",
+              "path": "/ios-core/livestreaming",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "local-user/events",
-              "path": "/android-core/local-user/events",
+              "path": "/ios-core/local-user/events",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "local-user/introduction",
-              "path": "/android-core/local-user/introduction",
+              "path": "/ios-core/local-user/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "local-user/manage-media-devices",
-              "path": "/android-core/local-user/manage-media-devices",
+              "path": "/ios-core/local-user/manage-media-devices",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "local-user/manage-permissions",
-              "path": "/android-core/local-user/manage-permissions",
+              "path": "/ios-core/local-user/manage-permissions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/screen-share-guide",
+              "path": "/ios-core/local-user/screen-share-guide",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "participants/events",
-              "path": "/android-core/participants/events",
+              "path": "/ios-core/participants/events",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "participants/participant-object",
-              "path": "/android-core/participants/participant-object",
+              "path": "/ios-core/participants/participant-object",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "participants/remote-participants",
-              "path": "/android-core/participants/",
+              "path": "/ios-core/participants/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "participants/waitlisted-participants",
-              "path": "/android-core/participants/waitlisted-participants",
+              "path": "/ios-core/participants/waitlisted-participants",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "plugins/enable-disable-plugin",
-              "path": "/android-core/plugins/enable-disable-plugin",
+              "id": "plugins/disable-plugin",
+              "path": "/ios-core/plugins/disable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/enable-plugin",
+              "path": "/ios-core/plugins/enable-plugin",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plugins/extra",
-              "path": "/android-core/plugins/extra",
+              "path": "/ios-core/plugins/extra",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plugins/introduction",
-              "path": "/android-core/plugins/introduction",
+              "path": "/ios-core/plugins/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "polls/creating-a-poll",
-              "path": "/android-core/polls/creating-a-poll",
+              "path": "/ios-core/polls/creating-a-poll",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "polls/introduction",
-              "path": "/android-core/polls/introduction",
+              "path": "/ios-core/polls/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "polls/voting-on-a-poll",
-              "path": "/android-core/polls/voting-on-a-poll",
+              "path": "/ios-core/polls/voting-on-a-poll",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pre-call/handling-permissions",
-              "path": "/android-core/pre-call/handling-permissions",
+              "path": "/ios-core/pre-call/handling-permissions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pre-call/media-preview",
-              "path": "/android-core/pre-call/media-preview",
+              "path": "/ios-core/pre-call/media-preview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pre-call/meeting-meta",
-              "path": "/android-core/pre-call/meeting-meta",
+              "path": "/ios-core/pre-call/meeting-meta",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pre-call/waiting-room",
-              "path": "/android-core/pre-call/waiting-room",
+              "path": "/ios-core/pre-call/waiting-room",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "quickstart",
-              "path": "/android-core/",
+              "path": "/ios-core/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "recording",
-              "path": "/android-core/recording",
+              "path": "/ios-core/recording",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "release-notes",
-              "path": "/android-core/release-notes",
+              "path": "/ios-core/release-notes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "room-metadata",
-              "path": "/android-core/room-metadata",
+              "path": "/ios-core/room-metadata",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "stage-management/host-controls",
-              "path": "/android-core/stage-management/host-controls",
+              "path": "/ios-core/stage-management/host-controls",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "stage-management/introduction",
-              "path": "/android-core/stage-management/introduction",
+              "path": "/ios-core/stage-management/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "stage-management/viewer-participants",
-              "path": "/android-core/stage-management/viewer-participants",
+              "path": "/ios-core/stage-management/viewer-participants",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -3167,7 +3071,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/android-core/",
+                "path": "/ios-core/",
                 "label": "quickstart"
               }
             }
@@ -3475,304 +3379,109 @@
       ],
       "breadcrumbs": true
     },
-    "web-core": {
-      "path": "/web-core",
+    "flutter": {
+      "path": "/flutter",
       "versions": [
         {
           "name": "current",
-          "label": "1.x.x",
+          "label": "0.7.x",
           "isLast": true,
-          "path": "/web-core",
-          "mainDocId": "quickstart",
+          "path": "/flutter",
+          "mainDocId": "introduction",
           "docs": [
             {
-              "id": "advanced/advance",
-              "path": "/web-core/advanced/advance",
+              "id": "Components/productdb-audio-indicator-icon-widget",
+              "path": "/flutter/Components/productdb-audio-indicator-icon-widget",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "chat/edit-chat-messages",
-              "path": "/web-core/chat/edit-chat-messages",
+              "id": "Components/productdb-chat-icon-widget",
+              "path": "/flutter/Components/productdb-chat-icon-widget",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "chat/introduction",
-              "path": "/web-core/chat/introduction",
+              "id": "Components/productdb-join-button",
+              "path": "/flutter/Components/productdb-join-button",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "chat/other-chat-functions",
-              "path": "/web-core/chat/other-chat-functions",
+              "id": "Components/productdb-leave-button",
+              "path": "/flutter/Components/productdb-leave-button",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "chat/receiving-chat-messages",
-              "path": "/web-core/chat/receiving-chat-messages",
+              "id": "Components/productdb-leave-meeting-dialog",
+              "path": "/flutter/Components/productdb-leave-meeting-dialog",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "chat/sending-a-chat-message",
-              "path": "/web-core/chat/sending-a-chat-message",
+              "id": "Components/productdb-meeting-title",
+              "path": "/flutter/Components/productdb-meeting-title",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "error-codes/error-code",
-              "path": "/web-core/error-codes/error-code",
+              "id": "Components/productdb-name-tag-widget",
+              "path": "/flutter/Components/productdb-name-tag-widget",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "error-codes/error-code-zero-ten",
-              "path": "/web-core/error-codes/error-code-zero-ten",
+              "id": "Components/productdb-participant-tile",
+              "path": "/flutter/Components/productdb-participant-tile",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction",
-              "path": "/web-core/Introduction",
+              "id": "Components/productdb-participants-icon-widget",
+              "path": "/flutter/Components/productdb-participants-icon-widget",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "livestreaming",
-              "path": "/web-core/livestreaming",
+              "id": "Components/productdb-plugins-screen",
+              "path": "/flutter/Components/productdb-plugins-screen",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "local-user/events",
-              "path": "/web-core/local-user/events",
+              "id": "Components/productdb-polls-screen",
+              "path": "/flutter/Components/productdb-polls-screen",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "local-user/extras",
-              "path": "/web-core/local-user/extras",
+              "id": "Components/productdb-provider",
+              "path": "/flutter/Components/productdb-provider",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "local-user/introduction",
-              "path": "/web-core/local-user/introduction",
+              "id": "Components/productdb-self-audio-toggle",
+              "path": "/flutter/Components/productdb-self-audio-toggle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "local-user/manage-media-devices",
-              "path": "/web-core/local-user/manage-media-devices",
+              "id": "Components/productdb-self-video-toggle",
+              "path": "/flutter/Components/productdb-self-video-toggle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "local-user/media-permission-errors",
-              "path": "/web-core/local-user/media-permission-errors",
+              "id": "Components/productdb-setup-screen-component",
+              "path": "/flutter/Components/productdb-setup-screen-component",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "participants/events",
-              "path": "/web-core/participants/events",
+              "id": "design-token",
+              "path": "/flutter/design-token",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "participants/participant-object",
-              "path": "/web-core/participants/participant-object",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/permissions",
-              "path": "/web-core/participants/permissions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/pip",
-              "path": "/web-core/participants/pip",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/remote-participants",
-              "path": "/web-core/participants/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/disable-plugin",
-              "path": "/web-core/plugins/disable-plugin",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/enable-plugin",
-              "path": "/web-core/plugins/enable-plugin",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/extra",
-              "path": "/web-core/plugins/extra",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/introduction",
-              "path": "/web-core/plugins/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/creating-a-poll",
-              "path": "/web-core/polls/creating-a-poll",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/introduction",
-              "path": "/web-core/polls/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/other-poll-functions",
-              "path": "/web-core/polls/other-poll-functions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/voting-on-a-poll",
-              "path": "/web-core/polls/voting-on-a-poll",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/handling-permissions",
-              "path": "/web-core/pre-call/handling-permissions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/media-preview",
-              "path": "/web-core/pre-call/media-preview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/meeting-meta",
-              "path": "/web-core/pre-call/meeting-meta",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/virtual-bg",
-              "path": "/web-core/pre-call/virtual-bg",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "pre-call/waiting-room",
-              "path": "/web-core/pre-call/waiting-room",
+              "id": "introduction",
+              "path": "/flutter/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "quickstart",
-              "path": "/web-core/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "recording",
-              "path": "/web-core/recording",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBAi",
-              "path": "/web-core/reference/ProductDBAi",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBChat",
-              "path": "/web-core/reference/ProductDBChat",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBClient",
-              "path": "/web-core/reference/ProductDBClient",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBConnectedMeetings",
-              "path": "/web-core/reference/ProductDBConnectedMeetings",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBLivestream",
-              "path": "/web-core/reference/ProductDBLivestream",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBMeta",
-              "path": "/web-core/reference/ProductDBMeta",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBParticipant",
-              "path": "/web-core/reference/ProductDBParticipant",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBParticipantMap",
-              "path": "/web-core/reference/ProductDBParticipantMap",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBParticipants",
-              "path": "/web-core/reference/ProductDBParticipants",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBPermissionsPreset",
-              "path": "/web-core/reference/ProductDBPermissionsPreset",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBPlugin",
-              "path": "/web-core/reference/ProductDBPlugin",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBPluginMap",
-              "path": "/web-core/reference/ProductDBPluginMap",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBPlugins",
-              "path": "/web-core/reference/ProductDBPlugins",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBPolls",
-              "path": "/web-core/reference/ProductDBPolls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBRecording",
-              "path": "/web-core/reference/ProductDBRecording",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBRemote",
-              "path": "/web-core/reference/ProductDBRemote",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBSelf",
-              "path": "/web-core/reference/ProductDBSelf",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBSelfMedia",
-              "path": "/web-core/reference/ProductDBSelfMedia",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBStage",
-              "path": "/web-core/reference/ProductDBStage",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "reference/ProductDBThemePreset",
-              "path": "/web-core/reference/ProductDBThemePreset",
+              "path": "/flutter/quickstart",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "release-notes",
-              "path": "/web-core/release-notes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "room-metadata",
-              "path": "/web-core/room-metadata",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "stage",
-              "path": "/web-core/stage",
+              "path": "/flutter/release-notes",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -3780,8 +3489,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/web-core/",
-                "label": "quickstart"
+                "path": "/flutter/",
+                "label": "introduction"
               }
             }
           }
@@ -3789,563 +3498,409 @@
       ],
       "breadcrumbs": true
     },
-    "ios": {
-      "path": "/ios",
+    "react-native": {
+      "path": "/react-native",
       "versions": [
         {
           "name": "current",
           "label": "1.x.x",
           "isLast": true,
-          "path": "/ios",
-          "mainDocId": "intro-ios-uikit",
+          "path": "/react-native",
+          "mainDocId": "introduction",
           "docs": [
             {
-              "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
-              "path": "/ios/build-pre-call-ui/build-your-own/initial-code-skeleton",
+              "id": "basics/components-basics",
+              "path": "/react-native/basics/components-basics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "build-pre-call-ui/build-your-own/productdb-setting",
-              "path": "/ios/build-pre-call-ui/build-your-own/productdb-setting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/default-setup-screen",
-              "path": "/ios/build-pre-call-ui/default-setup-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "chat/attachments-in-chat",
-              "path": "/ios/chat/attachments-in-chat",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "chat/components-in-chat",
-              "path": "/ios/chat/components-in-chat",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "chat/pre-built-chat-screen",
-              "path": "/ios/chat/pre-built-chat-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-active-tab-selector-view",
-              "path": "/ios/components/productdb-active-tab-selector-view",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-avatar",
-              "path": "/ios/components/productdb-avatar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-button",
-              "path": "/ios/components/productdb-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-camera-toggle",
-              "path": "/ios/components/productdb-camera-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-chat",
-              "path": "/ios/components/productdb-chat",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-clock",
-              "path": "/ios/components/productdb-clock",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-configure-alertview-protocol",
-              "path": "/ios/components/productdb-configure-alertview-protocol",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-controlbar-button",
-              "path": "/ios/components/productdb-controlbar-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-end-meeting",
-              "path": "/ios/components/productdb-end-meeting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-grid",
-              "path": "/ios/components/productdb-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-grid-pagination",
-              "path": "/ios/components/productdb-grid-pagination",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-join-stage",
-              "path": "/ios/components/productdb-join-stage",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-leave-alert-actions",
-              "path": "/ios/components/productdb-leave-alert-actions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-leave-meeting-alert",
-              "path": "/ios/components/productdb-leave-meeting-alert",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-meeting",
-              "path": "/ios/components/productdb-meeting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-meeting-titlelabel",
-              "path": "/ios/components/productdb-meeting-titlelabel",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-mic-toggle",
-              "path": "/ios/components/productdb-mic-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-more-toggle",
-              "path": "/ios/components/productdb-more-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-name-tag",
-              "path": "/ios/components/productdb-name-tag",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-navigationbar",
-              "path": "/ios/components/productdb-navigationbar",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participant-count",
-              "path": "/ios/components/productdb-participant-count",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participant-tile-view",
-              "path": "/ios/components/productdb-participant-tile-view",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-participants",
-              "path": "/ios/components/productdb-participants",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-plugin-view",
-              "path": "/ios/components/productdb-plugin-view",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-plugins",
-              "path": "/ios/components/productdb-plugins",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-pluginScreenShareTab-button",
-              "path": "/ios/components/productdb-pluginScreenShareTab-button",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-poll-form",
-              "path": "/ios/components/productdb-poll-form",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-polls",
-              "path": "/ios/components/productdb-polls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-recording-indicator",
-              "path": "/ios/components/productdb-recording-indicator",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-settings",
-              "path": "/ios/components/productdb-settings",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-setup-screen",
-              "path": "/ios/components/productdb-setup-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-setup-screen-delegate",
-              "path": "/ios/components/productdb-setup-screen-delegate",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-webinar-stage-toggle",
-              "path": "/ios/components/productdb-webinar-stage-toggle",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "design-system",
-              "path": "/ios/design-system",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "events",
-              "path": "/ios/events",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "helper-classes/productdb-plugin-view-model",
-              "path": "/ios/helper-classes/productdb-plugin-view-model",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "intro-ios-uikit",
-              "path": "/ios/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/host-controls",
-              "path": "/ios/participants/host-controls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/introduction",
-              "path": "/ios/participants/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/pre-built-participants-screen",
-              "path": "/ios/participants/pre-built-participants-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/type-of-participants",
-              "path": "/ios/participants/type-of-participants",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Pre-Built-Plugins_Guides/load-plugin",
-              "path": "/ios/Pre-Built-Plugins_Guides/load-plugin",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Pre-Built-Plugins_Guides/Plugins",
-              "path": "/ios/Pre-Built-Plugins_Guides/Plugins",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Pre-Built-Polls_Guides/Polls",
-              "path": "/ios/Pre-Built-Polls_Guides/Polls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Pre-Built-Polls_Guides/prebuilt_polls",
-              "path": "/ios/Pre-Built-Polls_Guides/prebuilt_polls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Pre-Built-Settings_Guides/Settings",
-              "path": "/ios/Pre-Built-Settings_Guides/Settings",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "quickstart",
-              "path": "/ios/quickstart",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "release-notes",
-              "path": "/ios/release-notes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rendering-participant-video/build-your-own-grid",
-              "path": "/ios/rendering-participant-video/build-your-own-grid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rendering-participant-video/using-productdbGrid",
-              "path": "/ios/rendering-participant-video/using-productdbGrid",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/ios/",
-                "label": "intro-ios-uikit"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "android": {
-      "path": "/android",
-      "versions": [
-        {
-          "name": "current",
-          "label": "1.x.x",
-          "isLast": true,
-          "path": "/android",
-          "mainDocId": "quickstart",
-          "docs": [
-            {
-              "id": "advanced-usage",
-              "path": "/android/advanced-usage",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/add-audio-video-device",
-              "path": "/android/build-pre-call-ui/build-your-own/add-audio-video-device",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/add-audio-video-preview",
-              "path": "/android/build-pre-call-ui/build-your-own/add-audio-video-preview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/edit-user-name",
-              "path": "/android/build-pre-call-ui/build-your-own/edit-user-name",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
-              "path": "/android/build-pre-call-ui/build-your-own/initial-code-skeleton",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "build-pre-call-ui/default-setup-screen",
-              "path": "/android/build-pre-call-ui/default-setup-screen",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "chat/prebuilt-screen",
-              "path": "/android/chat/prebuilt-screen",
+              "id": "basics/display-videos",
+              "path": "/react-native/basics/display-videos",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/gallery",
-              "path": "/android/components",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-audio-selector",
-              "path": "/android/components/productdb-audio-selector",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "components/productdb-audio-visualizer",
-              "path": "/android/components/productdb-audio-visualizer",
+              "path": "/react-native/components",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-avatar",
-              "path": "/android/components/productdb-avatar",
+              "path": "/react-native/components/productdb-avatar",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-button",
-              "path": "/android/components/productdb-button",
+              "path": "/react-native/components/productdb-button",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-camera-toggle",
-              "path": "/android/components/productdb-camera-toggle",
+              "path": "/react-native/components/productdb-camera-toggle",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-chat",
-              "path": "/android/components/productdb-chat",
+              "path": "/react-native/components/productdb-chat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-chat-toggle",
+              "path": "/react-native/components/productdb-chat-toggle",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-clock",
-              "path": "/android/components/productdb-clock",
+              "path": "/react-native/components/productdb-clock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-controlbar",
+              "path": "/react-native/components/productdb-controlbar",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-controlbar-button",
-              "path": "/android/components/productdb-controlbar-button",
+              "path": "/react-native/components/productdb-controlbar-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-dialog",
+              "path": "/react-native/components/productdb-dialog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-dialog-manager",
+              "path": "/react-native/components/productdb-dialog-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-ended-screen",
+              "path": "/react-native/components/productdb-ended-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-file-message",
+              "path": "/react-native/components/productdb-file-message",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-grid",
-              "path": "/android/components/productdb-grid",
+              "path": "/react-native/components/productdb-grid",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-grid-pagination",
-              "path": "/android/components/productdb-grid-pagination",
+              "path": "/react-native/components/productdb-grid-pagination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-header",
+              "path": "/react-native/components/productdb-header",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-icon",
+              "path": "/react-native/components/productdb-icon",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-idle-screen",
-              "path": "/android/components/productdb-idle-screen",
+              "path": "/react-native/components/productdb-idle-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-image-message",
+              "path": "/react-native/components/productdb-image-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-image-viewer",
+              "path": "/react-native/components/productdb-image-viewer",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-join-stage",
-              "path": "/android/components/productdb-join-stage",
+              "path": "/react-native/components/productdb-join-stage",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-leave-button",
-              "path": "/android/components/productdb-leave-button",
+              "path": "/react-native/components/productdb-leave-button",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-leave-meeting",
-              "path": "/android/components/productdb-leave-meeting",
+              "path": "/react-native/components/productdb-leave-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-logo",
+              "path": "/react-native/components/productdb-logo",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-meeting",
-              "path": "/android/components/productdb-meeting",
+              "path": "/react-native/components/productdb-meeting",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-meeting-title",
-              "path": "/android/components/productdb-meeting-title",
+              "path": "/react-native/components/productdb-meeting-title",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-menu",
+              "path": "/react-native/components/productdb-menu",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-menu-item",
+              "path": "/react-native/components/productdb-menu-item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-menu-list",
+              "path": "/react-native/components/productdb-menu-list",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-mic-toggle",
-              "path": "/android/components/productdb-mic-toggle",
+              "path": "/react-native/components/productdb-mic-toggle",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-more-toggle",
-              "path": "/android/components/productdb-more-toggle",
+              "path": "/react-native/components/productdb-more-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-mute-all-button",
+              "path": "/react-native/components/productdb-mute-all-button",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-name-tag",
-              "path": "/android/components/productdb-name-tag",
+              "path": "/react-native/components/productdb-name-tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-notification",
+              "path": "/react-native/components/productdb-notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-notifications",
+              "path": "/react-native/components/productdb-notifications",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-participant",
+              "path": "/react-native/components/productdb-participant",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-participant-count",
-              "path": "/android/components/productdb-participant-count",
+              "path": "/react-native/components/productdb-participant-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-participant-tile",
+              "path": "/react-native/components/productdb-participant-tile",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-participants",
-              "path": "/android/components/productdb-participants",
+              "path": "/react-native/components/productdb-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-participants-toggle",
+              "path": "/react-native/components/productdb-participants-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-permissions-message",
+              "path": "/react-native/components/productdb-permissions-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-plugin-main",
+              "path": "/react-native/components/productdb-plugin-main",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-plugins",
-              "path": "/android/components/productdb-plugins",
+              "path": "/react-native/components/productdb-plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-plugins-toggle",
+              "path": "/react-native/components/productdb-plugins-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-poll",
+              "path": "/react-native/components/productdb-poll",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-poll-form",
-              "path": "/android/components/productdb-poll-form",
+              "path": "/react-native/components/productdb-poll-form",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-polls",
-              "path": "/android/components/productdb-polls",
+              "path": "/react-native/components/productdb-polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-polls-toggle",
+              "path": "/react-native/components/productdb-polls-toggle",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-recording-indicator",
-              "path": "/android/components/productdb-recording-indicator",
+              "path": "/react-native/components/productdb-recording-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-recording-toggle",
+              "path": "/react-native/components/productdb-recording-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-screen-share-toggle",
+              "path": "/react-native/components/productdb-screen-share-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-screenshare-view",
+              "path": "/react-native/components/productdb-screenshare-view",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-settings",
-              "path": "/android/components/productdb-settings",
+              "path": "/react-native/components/productdb-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-settings-audio",
+              "path": "/react-native/components/productdb-settings-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-settings-toggle",
+              "path": "/react-native/components/productdb-settings-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-settings-video",
+              "path": "/react-native/components/productdb-settings-video",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-setup-screen",
-              "path": "/android/components/productdb-setup-screen",
+              "path": "/react-native/components/productdb-setup-screen",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "components/productdb-video-selector",
-              "path": "/android/components/productdb-video-selector",
+              "id": "components/productdb-sidebar",
+              "path": "/react-native/components/productdb-sidebar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-simple-grid",
+              "path": "/react-native/components/productdb-simple-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-spinner",
+              "path": "/react-native/components/productdb-spinner",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-spotlight-grid",
+              "path": "/react-native/components/productdb-spotlight-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-text",
+              "path": "/react-native/components/productdb-text",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-text-field",
+              "path": "/react-native/components/productdb-text-field",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-waiting-screen",
+              "path": "/react-native/components/productdb-waiting-screen",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "components/productdb-webinar-stage-toggle",
-              "path": "/android/components/productdb-webinar-stage-toggle",
+              "path": "/react-native/components/productdb-webinar-stage-toggle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "customize-meeting-ui",
-              "path": "/android/customize-meeting-ui",
+              "id": "design-system",
+              "path": "/react-native/design-system",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "participants/introduction",
-              "path": "/android/participants/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "participants/prebuilt",
-              "path": "/android/participants/prebuilt",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/introduction",
-              "path": "/android/plugins/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins/prebuilt",
-              "path": "/android/plugins/prebuilt",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/prebuilt-create-poll",
-              "path": "/android/polls/prebuilt-create-poll",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "polls/prebuilt-polls-screen",
-              "path": "/android/polls/prebuilt-polls-screen",
+              "id": "introduction",
+              "path": "/react-native/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "quickstart",
-              "path": "/android/",
+              "path": "/react-native/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/classes/ProductDBNotificationsAudio",
+              "path": "/react-native/reference/classes/ProductDBNotificationsAudio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/Notification",
+              "path": "/react-native/reference/interfaces/Notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/PollObject",
+              "path": "/react-native/reference/interfaces/PollObject",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/States",
+              "path": "/react-native/reference/interfaces/States",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UIConfig",
+              "path": "/react-native/reference/interfaces/UIConfig",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UserPreferences",
+              "path": "/react-native/reference/interfaces/UserPreferences",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/reference",
+              "path": "/react-native/reference/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "release-notes",
-              "path": "/android/release-notes",
+              "path": "/react-native/release-notes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "render-participant-videos/custom-ui",
-              "path": "/android/render-participant-videos/custom-ui",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "render-participant-videos/using-productdbgrid",
-              "path": "/android/render-participant-videos/using-productdbgrid",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "sample-app",
-              "path": "/android/sample-app",
+              "id": "using-hooks",
+              "path": "/react-native/using-hooks",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -4353,62 +3908,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/android/",
-                "label": "quickstart"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "cli": {
-      "path": "/cli",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/cli",
-          "mainDocId": "installation",
-          "docs": [
-            {
-              "id": "getting-started",
-              "path": "/cli/getting-started",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "installation",
-              "path": "/cli/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "meetings",
-              "path": "/cli/meetings",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "plugins",
-              "path": "/cli/plugins",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "recording",
-              "path": "/cli/recording",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "webhooks",
-              "path": "/cli/webhooks",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/cli/",
-                "label": "installation"
+                "path": "/react-native/",
+                "label": "introduction"
               }
             }
           }
@@ -4730,109 +4231,294 @@
       ],
       "breadcrumbs": true
     },
-    "flutter": {
-      "path": "/flutter",
+    "ios": {
+      "path": "/ios",
       "versions": [
         {
           "name": "current",
-          "label": "0.7.x",
+          "label": "1.x.x",
           "isLast": true,
-          "path": "/flutter",
-          "mainDocId": "introduction",
+          "path": "/ios",
+          "mainDocId": "intro-ios-uikit",
           "docs": [
             {
-              "id": "Components/productdb-audio-indicator-icon-widget",
-              "path": "/flutter/Components/productdb-audio-indicator-icon-widget",
+              "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
+              "path": "/ios/build-pre-call-ui/build-your-own/initial-code-skeleton",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-chat-icon-widget",
-              "path": "/flutter/Components/productdb-chat-icon-widget",
+              "id": "build-pre-call-ui/build-your-own/productdb-setting",
+              "path": "/ios/build-pre-call-ui/build-your-own/productdb-setting",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-join-button",
-              "path": "/flutter/Components/productdb-join-button",
+              "id": "build-pre-call-ui/default-setup-screen",
+              "path": "/ios/build-pre-call-ui/default-setup-screen",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-leave-button",
-              "path": "/flutter/Components/productdb-leave-button",
+              "id": "chat/attachments-in-chat",
+              "path": "/ios/chat/attachments-in-chat",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-leave-meeting-dialog",
-              "path": "/flutter/Components/productdb-leave-meeting-dialog",
+              "id": "chat/components-in-chat",
+              "path": "/ios/chat/components-in-chat",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-meeting-title",
-              "path": "/flutter/Components/productdb-meeting-title",
+              "id": "chat/pre-built-chat-screen",
+              "path": "/ios/chat/pre-built-chat-screen",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-name-tag-widget",
-              "path": "/flutter/Components/productdb-name-tag-widget",
+              "id": "components/productdb-active-tab-selector-view",
+              "path": "/ios/components/productdb-active-tab-selector-view",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-participant-tile",
-              "path": "/flutter/Components/productdb-participant-tile",
+              "id": "components/productdb-avatar",
+              "path": "/ios/components/productdb-avatar",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-participants-icon-widget",
-              "path": "/flutter/Components/productdb-participants-icon-widget",
+              "id": "components/productdb-button",
+              "path": "/ios/components/productdb-button",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-plugins-screen",
-              "path": "/flutter/Components/productdb-plugins-screen",
+              "id": "components/productdb-camera-toggle",
+              "path": "/ios/components/productdb-camera-toggle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-polls-screen",
-              "path": "/flutter/Components/productdb-polls-screen",
+              "id": "components/productdb-chat",
+              "path": "/ios/components/productdb-chat",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-provider",
-              "path": "/flutter/Components/productdb-provider",
+              "id": "components/productdb-clock",
+              "path": "/ios/components/productdb-clock",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-self-audio-toggle",
-              "path": "/flutter/Components/productdb-self-audio-toggle",
+              "id": "components/productdb-configure-alertview-protocol",
+              "path": "/ios/components/productdb-configure-alertview-protocol",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-self-video-toggle",
-              "path": "/flutter/Components/productdb-self-video-toggle",
+              "id": "components/productdb-controlbar-button",
+              "path": "/ios/components/productdb-controlbar-button",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Components/productdb-setup-screen-component",
-              "path": "/flutter/Components/productdb-setup-screen-component",
+              "id": "components/productdb-end-meeting",
+              "path": "/ios/components/productdb-end-meeting",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "design-token",
-              "path": "/flutter/design-token",
+              "id": "components/productdb-grid",
+              "path": "/ios/components/productdb-grid",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "introduction",
-              "path": "/flutter/",
+              "id": "components/productdb-grid-pagination",
+              "path": "/ios/components/productdb-grid-pagination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-join-stage",
+              "path": "/ios/components/productdb-join-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-leave-alert-actions",
+              "path": "/ios/components/productdb-leave-alert-actions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-leave-meeting-alert",
+              "path": "/ios/components/productdb-leave-meeting-alert",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-meeting",
+              "path": "/ios/components/productdb-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-meeting-titlelabel",
+              "path": "/ios/components/productdb-meeting-titlelabel",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-mic-toggle",
+              "path": "/ios/components/productdb-mic-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-more-toggle",
+              "path": "/ios/components/productdb-more-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-name-tag",
+              "path": "/ios/components/productdb-name-tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-navigationbar",
+              "path": "/ios/components/productdb-navigationbar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-participant-count",
+              "path": "/ios/components/productdb-participant-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-participant-tile-view",
+              "path": "/ios/components/productdb-participant-tile-view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-participants",
+              "path": "/ios/components/productdb-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-plugin-view",
+              "path": "/ios/components/productdb-plugin-view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-plugins",
+              "path": "/ios/components/productdb-plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-pluginScreenShareTab-button",
+              "path": "/ios/components/productdb-pluginScreenShareTab-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-poll-form",
+              "path": "/ios/components/productdb-poll-form",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-polls",
+              "path": "/ios/components/productdb-polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-recording-indicator",
+              "path": "/ios/components/productdb-recording-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-settings",
+              "path": "/ios/components/productdb-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-setup-screen",
+              "path": "/ios/components/productdb-setup-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-setup-screen-delegate",
+              "path": "/ios/components/productdb-setup-screen-delegate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/productdb-webinar-stage-toggle",
+              "path": "/ios/components/productdb-webinar-stage-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-system",
+              "path": "/ios/design-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events",
+              "path": "/ios/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "helper-classes/productdb-plugin-view-model",
+              "path": "/ios/helper-classes/productdb-plugin-view-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro-ios-uikit",
+              "path": "/ios/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/host-controls",
+              "path": "/ios/participants/host-controls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/introduction",
+              "path": "/ios/participants/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/pre-built-participants-screen",
+              "path": "/ios/participants/pre-built-participants-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/type-of-participants",
+              "path": "/ios/participants/type-of-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Pre-Built-Plugins_Guides/load-plugin",
+              "path": "/ios/Pre-Built-Plugins_Guides/load-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Pre-Built-Plugins_Guides/Plugins",
+              "path": "/ios/Pre-Built-Plugins_Guides/Plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Pre-Built-Polls_Guides/Polls",
+              "path": "/ios/Pre-Built-Polls_Guides/Polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Pre-Built-Polls_Guides/prebuilt_polls",
+              "path": "/ios/Pre-Built-Polls_Guides/prebuilt_polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Pre-Built-Settings_Guides/Settings",
+              "path": "/ios/Pre-Built-Settings_Guides/Settings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "quickstart",
-              "path": "/flutter/quickstart",
+              "path": "/ios/quickstart",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "release-notes",
-              "path": "/flutter/release-notes",
+              "path": "/ios/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-participant-video/build-your-own-grid",
+              "path": "/ios/rendering-participant-video/build-your-own-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rendering-participant-video/using-productdbGrid",
+              "path": "/ios/rendering-participant-video/using-productdbGrid",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -4840,8 +4526,322 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/flutter/",
-                "label": "introduction"
+                "path": "/ios/",
+                "label": "intro-ios-uikit"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "web-core": {
+      "path": "/web-core",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/web-core",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "advanced/advance",
+              "path": "/web-core/advanced/advance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/edit-chat-messages",
+              "path": "/web-core/chat/edit-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/introduction",
+              "path": "/web-core/chat/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/other-chat-functions",
+              "path": "/web-core/chat/other-chat-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/receiving-chat-messages",
+              "path": "/web-core/chat/receiving-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/sending-a-chat-message",
+              "path": "/web-core/chat/sending-a-chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "error-codes/error-code",
+              "path": "/web-core/error-codes/error-code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "error-codes/error-code-zero-ten",
+              "path": "/web-core/error-codes/error-code-zero-ten",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction",
+              "path": "/web-core/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestreaming",
+              "path": "/web-core/livestreaming",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/events",
+              "path": "/web-core/local-user/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/extras",
+              "path": "/web-core/local-user/extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/introduction",
+              "path": "/web-core/local-user/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-media-devices",
+              "path": "/web-core/local-user/manage-media-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/media-permission-errors",
+              "path": "/web-core/local-user/media-permission-errors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/events",
+              "path": "/web-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participant-object",
+              "path": "/web-core/participants/participant-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/permissions",
+              "path": "/web-core/participants/permissions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/pip",
+              "path": "/web-core/participants/pip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/remote-participants",
+              "path": "/web-core/participants/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/disable-plugin",
+              "path": "/web-core/plugins/disable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/enable-plugin",
+              "path": "/web-core/plugins/enable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/extra",
+              "path": "/web-core/plugins/extra",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/introduction",
+              "path": "/web-core/plugins/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/creating-a-poll",
+              "path": "/web-core/polls/creating-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/introduction",
+              "path": "/web-core/polls/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/other-poll-functions",
+              "path": "/web-core/polls/other-poll-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/voting-on-a-poll",
+              "path": "/web-core/polls/voting-on-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/handling-permissions",
+              "path": "/web-core/pre-call/handling-permissions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/media-preview",
+              "path": "/web-core/pre-call/media-preview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/meeting-meta",
+              "path": "/web-core/pre-call/meeting-meta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/virtual-bg",
+              "path": "/web-core/pre-call/virtual-bg",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pre-call/waiting-room",
+              "path": "/web-core/pre-call/waiting-room",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/web-core/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/web-core/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBAi",
+              "path": "/web-core/reference/ProductDBAi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBChat",
+              "path": "/web-core/reference/ProductDBChat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBClient",
+              "path": "/web-core/reference/ProductDBClient",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBConnectedMeetings",
+              "path": "/web-core/reference/ProductDBConnectedMeetings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBLivestream",
+              "path": "/web-core/reference/ProductDBLivestream",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBMeta",
+              "path": "/web-core/reference/ProductDBMeta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBParticipant",
+              "path": "/web-core/reference/ProductDBParticipant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBParticipantMap",
+              "path": "/web-core/reference/ProductDBParticipantMap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBParticipants",
+              "path": "/web-core/reference/ProductDBParticipants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBPermissionsPreset",
+              "path": "/web-core/reference/ProductDBPermissionsPreset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBPlugin",
+              "path": "/web-core/reference/ProductDBPlugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBPluginMap",
+              "path": "/web-core/reference/ProductDBPluginMap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBPlugins",
+              "path": "/web-core/reference/ProductDBPlugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBPolls",
+              "path": "/web-core/reference/ProductDBPolls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBRecording",
+              "path": "/web-core/reference/ProductDBRecording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBRemote",
+              "path": "/web-core/reference/ProductDBRemote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBSelf",
+              "path": "/web-core/reference/ProductDBSelf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBSelfMedia",
+              "path": "/web-core/reference/ProductDBSelfMedia",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBStage",
+              "path": "/web-core/reference/ProductDBStage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/ProductDBThemePreset",
+              "path": "/web-core/reference/ProductDBThemePreset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes",
+              "path": "/web-core/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "room-metadata",
+              "path": "/web-core/room-metadata",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "stage",
+              "path": "/web-core/stage",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/web-core/",
+                "label": "quickstart"
               }
             }
           }

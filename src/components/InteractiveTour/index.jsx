@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Background, BackgroundVariant, Controls, ReactFlow } from 'reactflow';
 import 'reactflow/dist/style.css';
 import {
-  provideProductDBDesignSystem,
+  provideDyteDesignSystem,
 } from '@dytesdk/react-ui-kit';
 import { useDyteClient } from '@dytesdk/react-web-core';
 
@@ -40,7 +40,7 @@ export const InteractiveTour = ({ href }: { href: string }) => {
       },
     });
 
-    provideProductDBDesignSystem(document.body, {
+    provideDyteDesignSystem(document.body, {
       theme: 'light',
     });
   }, []);

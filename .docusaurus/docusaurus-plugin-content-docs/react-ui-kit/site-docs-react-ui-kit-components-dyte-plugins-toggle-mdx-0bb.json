@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-plugins-toggle",
+  "title": "DytePluginsToggle",
+  "description": "Learn how to use and customize the DytePluginsToggle component in Dyte's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/dyte-plugins-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-plugins-toggle",
+  "permalink": "/react-ui-kit/components/dyte-plugins-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/dyte-plugins-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the DytePluginsToggle component in Dyte's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DytePluginMain",
+    "permalink": "/react-ui-kit/components/dyte-plugin-main"
+  },
+  "next": {
+    "title": "DytePlugins",
+    "permalink": "/react-ui-kit/components/dyte-plugins"
+  }
+}

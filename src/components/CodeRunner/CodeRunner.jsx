@@ -48,7 +48,7 @@ const getFiles = (framework: FrameworkType, colorMode: string, customFile: strin
   if(framework == 'angular'){
     return {
       files: { 
-        '/src/app/app.component.html': `<productdb-meeting #meeting show-setup-screen="true"></productdb-meeting>`,
+        '/src/app/app.component.html': `<dyte-meeting #meeting show-setup-screen="true"></dyte-meeting>`,
         '/src/app/app.component.ts': customFile,
         '/src/app/app.module.ts': AngularBoilerplate,
       },
@@ -65,7 +65,7 @@ const getFiles = (framework: FrameworkType, colorMode: string, customFile: strin
     },
     scripts: [
       'https://cdn.jsdelivr.net/npm/@dytesdk/web-core@1.31.0-stripped.2/dist/index.iife.js',
-      'https://assets.productdb.io/docs/web.js'
+      'https://assets.dyte.io/docs/web.js'
     ]
   }
 };
@@ -151,7 +151,7 @@ export default function CodeRunner({
       options={{
         activeFile: filesObj.activeFile,
         visibleFiles: filesObj.visibleFiles,
-        externalResources: ['https://assets.productdb.io/docs/tailwind.js', ...filesObj.scripts],
+        externalResources: ['https://assets.dyte.io/docs/tailwind.js', ...filesObj.scripts],
       }}
       files={filesObj.files}
     >

@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-notification",
+  "title": "DyteNotification",
+  "description": "Learn how to use and customize the DyteNotification component in Dyte's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/dyte-notification.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-notification",
+  "permalink": "/react-ui-kit/components/dyte-notification",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/dyte-notification.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-notification.svg",
+    "description": "Learn how to use and customize the DyteNotification component in Dyte's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteNetworkIndicator",
+    "permalink": "/react-ui-kit/components/dyte-network-indicator"
+  },
+  "next": {
+    "title": "DyteNotifications",
+    "permalink": "/react-ui-kit/components/dyte-notifications"
+  }
+}

@@ -1,6 +1,6 @@
 import {
-  ProductDBMeeting,
-  ProductDBSpinner,
+  DyteMeeting,
+  DyteSpinner,
 } from '@dytesdk/react-ui-kit';
 import React from 'react';
 import { PhoneGeneric } from './nodes/Phone';
@@ -31,7 +31,7 @@ useEffect(() => {
 // meeting is 'undefined'
         
 return (
-  <ProductDBSetupScreen meeting={meeting} mode="fill" />
+  <DyteSetupScreen meeting={meeting} mode="fill" />
 )
     `,
     buttonText: 'Execute',
@@ -59,7 +59,7 @@ useEffect(() => {
 // meeting is defined
 
 return (
-  <ProductDBSetupScreen meeting={meeting} mode="fill" />
+  <DyteSetupScreen meeting={meeting} mode="fill" />
 )
     `,
     buttonText: 'Next',
@@ -120,11 +120,11 @@ export default function OnboardingPartTwo({ step, store, meeting }) {
       <div>
         <PhoneGeneric>
           <div className="flex h-full w-full items-center justify-center bg-secondary-1000">
-            {store.currentStep === 8 && <ProductDBSpinner />}
+            {store.currentStep === 8 && <DyteSpinner />}
             {(store.currentStep === 9 || store.currentStep === 10) &&
-              meeting && <ProductDBMeeting meeting={meeting} mode="fill" />}
+              meeting && <DyteMeeting meeting={meeting} mode="fill" />}
             {store.currentStep > 10 && meeting && (
-              <ProductDBMeeting
+              <DyteMeeting
                 meeting={meeting}
                 showSetupScreen={false}
                 mode="fill"

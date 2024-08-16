@@ -1,7 +1,7 @@
 {
   "id": "customizations/custom-iconpack",
   "title": "Customize Meeting Icons",
-  "description": "ProductDB's UI Kit provides all the necessary UI components to allow complete customization of all its UI Kit components. You can customize your meeting icons such as chat, clock, leave meeting, mic on and off, and more.",
+  "description": "Dyte's UI Kit provides all the necessary UI components to allow complete customization of all its UI Kit components. You can customize your meeting icons such as chat, clock, leave meeting, mic on and off, and more.",
   "source": "@site/docs/react-ui-kit/customizations/custom-iconpack.mdx",
   "sourceDirName": "customizations",
   "slug": "/customizations/custom-iconpack",
@@ -11,16 +11,16 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/customizations/custom-iconpack.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723758000,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 6,
   "frontMatter": {
     "sidebar_position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ProductDBViewerCount",
-    "permalink": "/react-ui-kit/components/productdb-viewer-count"
+    "title": "DyteViewerCount",
+    "permalink": "/react-ui-kit/components/dyte-viewer-count"
   },
   "next": {
     "title": "Customize Meeting Locale",

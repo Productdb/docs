@@ -11,8 +11,8 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-pre-call-ui/build-your-own/add-middleware.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723758501,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 5,
   "frontMatter": {
     "title": "Virtual background",
@@ -24,7 +24,7 @@
     "permalink": "/react-ui-kit/build-pre-call-ui/build-your-own/add-audio-video-device"
   },
   "next": {
-    "title": "ProductDBMeeting",
+    "title": "DyteMeeting",
     "permalink": "/react-ui-kit/build-in-call-ui/default-meeting-ui"
   }
 }

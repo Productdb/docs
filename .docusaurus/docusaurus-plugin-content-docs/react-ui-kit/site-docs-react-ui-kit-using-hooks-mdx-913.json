@@ -1,7 +1,7 @@
 {
   "id": "using-hooks",
   "title": "Use Web Core Hooks",
-  "description": "ProductDB's React UI Kit provides multiple",
+  "description": "Dyte's React UI Kit provides multiple",
   "source": "@site/docs/react-ui-kit/using-hooks.mdx",
   "sourceDirName": ".",
   "slug": "/using-hooks",
@@ -11,8 +11,8 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/using-hooks.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723758501,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5
@@ -23,7 +23,7 @@
     "permalink": "/react-ui-kit/basics/integrate"
   },
   "next": {
-    "title": "ProductDBSetupScreen",
+    "title": "DyteSetupScreen",
     "permalink": "/react-ui-kit/build-pre-call-ui/default-setup-screen"
   }
 }

@@ -2615,13 +2615,13 @@
     "__comp": "17896441",
     "content": "f0374016"
   },
-  "/react-ui-kit-b70": {
+  "/react-ui-kit-e85": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "bd8afcb3"
     }
   },
-  "/react-ui-kit-fd9": {
+  "/react-ui-kit-d05": {
     "__comp": "a7bd4aaa",
     "version": "62f9a35a"
   },
@@ -2633,7 +2633,7 @@
     "__comp": "df203c0f",
     "tag": "81887d0e"
   },
-  "/react-ui-kit-8d8": {
+  "/react-ui-kit-c6e": {
     "__comp": "a94703ab"
   },
   "/react-ui-kit-5e4": {
@@ -2704,301 +2704,301 @@
     "__comp": "17896441",
     "content": "87885d65"
   },
-  "/react-ui-kit/components/productdb-audio-visualizer-65a": {
+  "/react-ui-kit/components/dyte-audio-visualizer-bac": {
     "__comp": "17896441",
-    "content": "b7512f3f"
+    "content": "5ddf697c"
   },
-  "/react-ui-kit/components/productdb-avatar-d8a": {
+  "/react-ui-kit/components/dyte-avatar-667": {
     "__comp": "17896441",
-    "content": "ee6a455b"
+    "content": "d87bca4a"
   },
-  "/react-ui-kit/components/productdb-button-66f": {
+  "/react-ui-kit/components/dyte-button-f31": {
     "__comp": "17896441",
-    "content": "237978d3"
+    "content": "49257544"
   },
-  "/react-ui-kit/components/productdb-camera-toggle-72b": {
+  "/react-ui-kit/components/dyte-camera-toggle-4c7": {
     "__comp": "17896441",
-    "content": "23212315"
+    "content": "a36d5c77"
   },
-  "/react-ui-kit/components/productdb-chat-f3e": {
+  "/react-ui-kit/components/dyte-chat-131": {
     "__comp": "17896441",
-    "content": "06516c6c"
+    "content": "4f971ffc"
   },
-  "/react-ui-kit/components/productdb-chat-toggle-735": {
+  "/react-ui-kit/components/dyte-chat-toggle-043": {
     "__comp": "17896441",
-    "content": "9a85c59c"
+    "content": "27e6c8ee"
   },
-  "/react-ui-kit/components/productdb-clock-b9f": {
+  "/react-ui-kit/components/dyte-clock-560": {
     "__comp": "17896441",
-    "content": "c7fbe054"
+    "content": "f1a68e2d"
   },
-  "/react-ui-kit/components/productdb-confirmation-modal-e12": {
+  "/react-ui-kit/components/dyte-confirmation-modal-9c5": {
     "__comp": "17896441",
-    "content": "b638f47e"
+    "content": "4a7d9a7e"
   },
-  "/react-ui-kit/components/productdb-controlbar-12d": {
+  "/react-ui-kit/components/dyte-controlbar-adf": {
     "__comp": "17896441",
-    "content": "51eddbbf"
+    "content": "5d3d3240"
   },
-  "/react-ui-kit/components/productdb-controlbar-button-0ea": {
+  "/react-ui-kit/components/dyte-controlbar-button-a95": {
     "__comp": "17896441",
-    "content": "c08b323a"
+    "content": "d271a014"
   },
-  "/react-ui-kit/components/productdb-dialog-c17": {
+  "/react-ui-kit/components/dyte-dialog-cc9": {
     "__comp": "17896441",
-    "content": "ac2c96fe"
+    "content": "c7c31771"
   },
-  "/react-ui-kit/components/productdb-dialog-manager-ae1": {
+  "/react-ui-kit/components/dyte-dialog-manager-c87": {
     "__comp": "17896441",
-    "content": "0bc86193"
+    "content": "7cbe5f0c"
   },
-  "/react-ui-kit/components/productdb-emoji-picker-784": {
+  "/react-ui-kit/components/dyte-emoji-picker-dca": {
     "__comp": "17896441",
-    "content": "fc9ff9ea"
+    "content": "bf627f76"
   },
-  "/react-ui-kit/components/productdb-ended-screen-e3d": {
+  "/react-ui-kit/components/dyte-ended-screen-638": {
     "__comp": "17896441",
-    "content": "d92e410d"
+    "content": "5cadb975"
   },
-  "/react-ui-kit/components/productdb-file-message-b4f": {
+  "/react-ui-kit/components/dyte-file-message-a17": {
     "__comp": "17896441",
-    "content": "b6cb9ab7"
+    "content": "96ce1157"
   },
-  "/react-ui-kit/components/productdb-fullscreen-toggle-7e6": {
+  "/react-ui-kit/components/dyte-fullscreen-toggle-670": {
     "__comp": "17896441",
-    "content": "67ff563c"
+    "content": "0cc69bd6"
   },
-  "/react-ui-kit/components/productdb-grid-9ec": {
+  "/react-ui-kit/components/dyte-grid-fd8": {
     "__comp": "17896441",
-    "content": "8e23ce7e"
+    "content": "3055c72d"
   },
-  "/react-ui-kit/components/productdb-grid-pagination-6c2": {
+  "/react-ui-kit/components/dyte-grid-pagination-064": {
     "__comp": "17896441",
-    "content": "81a0364e"
+    "content": "ac75ef3e"
   },
-  "/react-ui-kit/components/productdb-header-e6e": {
+  "/react-ui-kit/components/dyte-header-76c": {
     "__comp": "17896441",
-    "content": "13f97d69"
+    "content": "b7bb746d"
   },
-  "/react-ui-kit/components/productdb-icon-87d": {
+  "/react-ui-kit/components/dyte-icon-e84": {
     "__comp": "17896441",
-    "content": "458fc857"
+    "content": "7a17bd83"
   },
-  "/react-ui-kit/components/productdb-idle-screen-960": {
+  "/react-ui-kit/components/dyte-idle-screen-87a": {
     "__comp": "17896441",
-    "content": "68f56932"
+    "content": "845f7ebf"
   },
-  "/react-ui-kit/components/productdb-image-message-7d2": {
+  "/react-ui-kit/components/dyte-image-message-7e6": {
     "__comp": "17896441",
-    "content": "d79f64b1"
+    "content": "8600743e"
   },
-  "/react-ui-kit/components/productdb-image-viewer-b52": {
+  "/react-ui-kit/components/dyte-image-viewer-b2f": {
     "__comp": "17896441",
-    "content": "eeabe932"
+    "content": "541588fd"
   },
-  "/react-ui-kit/components/productdb-leave-button-752": {
+  "/react-ui-kit/components/dyte-leave-button-aa0": {
     "__comp": "17896441",
-    "content": "49d5daba"
+    "content": "0bd5163c"
   },
-  "/react-ui-kit/components/productdb-leave-meeting-09d": {
+  "/react-ui-kit/components/dyte-leave-meeting-eff": {
     "__comp": "17896441",
-    "content": "555d2c03"
+    "content": "f71770b6"
   },
-  "/react-ui-kit/components/productdb-logo-3b7": {
+  "/react-ui-kit/components/dyte-logo-5d2": {
     "__comp": "17896441",
-    "content": "df78c664"
+    "content": "3140f2bf"
   },
-  "/react-ui-kit/components/productdb-meeting-dd5": {
+  "/react-ui-kit/components/dyte-meeting-6ae": {
     "__comp": "17896441",
-    "content": "09ad53fd"
+    "content": "848c7921"
   },
-  "/react-ui-kit/components/productdb-meeting-title-63e": {
+  "/react-ui-kit/components/dyte-meeting-title-a36": {
     "__comp": "17896441",
-    "content": "73d8ffec"
+    "content": "506b155a"
   },
-  "/react-ui-kit/components/productdb-menu-92c": {
+  "/react-ui-kit/components/dyte-menu-d2b": {
     "__comp": "17896441",
-    "content": "0526ec62"
+    "content": "66763a11"
   },
-  "/react-ui-kit/components/productdb-menu-item-97b": {
+  "/react-ui-kit/components/dyte-menu-item-5d8": {
     "__comp": "17896441",
-    "content": "22a7901e"
+    "content": "f60dbbcd"
   },
-  "/react-ui-kit/components/productdb-menu-list-ca8": {
+  "/react-ui-kit/components/dyte-menu-list-a38": {
     "__comp": "17896441",
-    "content": "56fbb8fb"
+    "content": "c77cbd9a"
   },
-  "/react-ui-kit/components/productdb-mic-toggle-e53": {
+  "/react-ui-kit/components/dyte-mic-toggle-335": {
     "__comp": "17896441",
-    "content": "755eb1bc"
+    "content": "a4d101ce"
   },
-  "/react-ui-kit/components/productdb-mixed-grid-928": {
+  "/react-ui-kit/components/dyte-mixed-grid-c54": {
     "__comp": "17896441",
-    "content": "3690a24e"
+    "content": "4112b32d"
   },
-  "/react-ui-kit/components/productdb-more-toggle-de5": {
+  "/react-ui-kit/components/dyte-more-toggle-ab5": {
     "__comp": "17896441",
-    "content": "bb15a536"
+    "content": "809ac2cb"
   },
-  "/react-ui-kit/components/productdb-name-tag-a01": {
+  "/react-ui-kit/components/dyte-name-tag-d32": {
     "__comp": "17896441",
-    "content": "fb21e124"
+    "content": "3eb409b4"
   },
-  "/react-ui-kit/components/productdb-network-indicator-b4c": {
+  "/react-ui-kit/components/dyte-network-indicator-9b8": {
     "__comp": "17896441",
-    "content": "340dda43"
+    "content": "aff91438"
   },
-  "/react-ui-kit/components/productdb-notification-281": {
+  "/react-ui-kit/components/dyte-notification-cab": {
     "__comp": "17896441",
-    "content": "e5a643f5"
+    "content": "f0e056bb"
   },
-  "/react-ui-kit/components/productdb-notifications-347": {
+  "/react-ui-kit/components/dyte-notifications-442": {
     "__comp": "17896441",
-    "content": "5600cadc"
+    "content": "4ba57841"
   },
-  "/react-ui-kit/components/productdb-overlay-modal-193": {
+  "/react-ui-kit/components/dyte-overlay-modal-f74": {
     "__comp": "17896441",
-    "content": "93c2739d"
+    "content": "5ffcc3e4"
   },
-  "/react-ui-kit/components/productdb-participant-788": {
+  "/react-ui-kit/components/dyte-participant-6e1": {
     "__comp": "17896441",
-    "content": "a17c9834"
+    "content": "860627c9"
   },
-  "/react-ui-kit/components/productdb-participant-count-10b": {
+  "/react-ui-kit/components/dyte-participant-count-73a": {
     "__comp": "17896441",
-    "content": "59e3ffe3"
+    "content": "d1eed3c0"
   },
-  "/react-ui-kit/components/productdb-participant-tile-237": {
+  "/react-ui-kit/components/dyte-participant-tile-200": {
     "__comp": "17896441",
-    "content": "2312ae24"
+    "content": "a5748189"
   },
-  "/react-ui-kit/components/productdb-participants-32c": {
+  "/react-ui-kit/components/dyte-participants-74c": {
     "__comp": "17896441",
-    "content": "abde2ad5"
+    "content": "7b875516"
   },
-  "/react-ui-kit/components/productdb-participants-audio-3e9": {
+  "/react-ui-kit/components/dyte-participants-audio-10a": {
     "__comp": "17896441",
-    "content": "b1de76b9"
+    "content": "0a88539c"
   },
-  "/react-ui-kit/components/productdb-participants-stage-list-232": {
+  "/react-ui-kit/components/dyte-participants-stage-list-d59": {
     "__comp": "17896441",
-    "content": "7cc36da6"
+    "content": "6fb853df"
   },
-  "/react-ui-kit/components/productdb-participants-toggle-b41": {
+  "/react-ui-kit/components/dyte-participants-toggle-8fd": {
     "__comp": "17896441",
-    "content": "0a6d3e54"
+    "content": "ca2d56b7"
   },
-  "/react-ui-kit/components/productdb-permissions-message-48f": {
+  "/react-ui-kit/components/dyte-permissions-message-181": {
     "__comp": "17896441",
-    "content": "09ba262f"
+    "content": "45e06ffc"
   },
-  "/react-ui-kit/components/productdb-plugin-main-e1f": {
+  "/react-ui-kit/components/dyte-plugin-main-b6f": {
     "__comp": "17896441",
-    "content": "697cff50"
+    "content": "bcea1151"
   },
-  "/react-ui-kit/components/productdb-plugins-f91": {
+  "/react-ui-kit/components/dyte-plugins-c97": {
     "__comp": "17896441",
-    "content": "a77599fe"
+    "content": "30a1a093"
   },
-  "/react-ui-kit/components/productdb-plugins-toggle-1f8": {
+  "/react-ui-kit/components/dyte-plugins-toggle-ca2": {
     "__comp": "17896441",
-    "content": "88da3c06"
+    "content": "0bb2808c"
   },
-  "/react-ui-kit/components/productdb-poll-929": {
+  "/react-ui-kit/components/dyte-poll-68e": {
     "__comp": "17896441",
-    "content": "36c145c3"
+    "content": "2c16801d"
   },
-  "/react-ui-kit/components/productdb-poll-form-cfb": {
+  "/react-ui-kit/components/dyte-poll-form-3b1": {
     "__comp": "17896441",
-    "content": "fda86cda"
+    "content": "1b4d6a2c"
   },
-  "/react-ui-kit/components/productdb-polls-e37": {
+  "/react-ui-kit/components/dyte-polls-983": {
     "__comp": "17896441",
-    "content": "bbcc24c0"
+    "content": "95f87a5c"
   },
-  "/react-ui-kit/components/productdb-polls-toggle-3e0": {
+  "/react-ui-kit/components/dyte-polls-toggle-947": {
     "__comp": "17896441",
-    "content": "18d3c17e"
+    "content": "9c9419d3"
   },
-  "/react-ui-kit/components/productdb-recording-indicator-ba7": {
+  "/react-ui-kit/components/dyte-recording-indicator-4c5": {
     "__comp": "17896441",
-    "content": "ccffd271"
+    "content": "f43bb851"
   },
-  "/react-ui-kit/components/productdb-recording-toggle-7e0": {
+  "/react-ui-kit/components/dyte-recording-toggle-76a": {
     "__comp": "17896441",
-    "content": "f9c5f283"
+    "content": "534f3dc6"
   },
-  "/react-ui-kit/components/productdb-remote-access-manager-12a": {
+  "/react-ui-kit/components/dyte-remote-access-manager-fde": {
     "__comp": "17896441",
-    "content": "ed25ebc5"
+    "content": "78d87264"
   },
-  "/react-ui-kit/components/productdb-screen-share-toggle-0d9": {
+  "/react-ui-kit/components/dyte-screen-share-toggle-aaa": {
     "__comp": "17896441",
-    "content": "27eb100c"
+    "content": "dee96974"
   },
-  "/react-ui-kit/components/productdb-screenshare-view-753": {
+  "/react-ui-kit/components/dyte-screenshare-view-345": {
     "__comp": "17896441",
-    "content": "e6975f9b"
+    "content": "cdd43d53"
   },
-  "/react-ui-kit/components/productdb-settings-851": {
+  "/react-ui-kit/components/dyte-settings-05d": {
     "__comp": "17896441",
-    "content": "acafdec4"
+    "content": "6e3c5ad2"
   },
-  "/react-ui-kit/components/productdb-settings-audio-51b": {
+  "/react-ui-kit/components/dyte-settings-audio-66a": {
     "__comp": "17896441",
-    "content": "3a0a5f46"
+    "content": "1c9c5255"
   },
-  "/react-ui-kit/components/productdb-settings-toggle-46a": {
+  "/react-ui-kit/components/dyte-settings-toggle-0c7": {
     "__comp": "17896441",
-    "content": "260c6c12"
+    "content": "aebb7e3b"
   },
-  "/react-ui-kit/components/productdb-settings-video-1c1": {
+  "/react-ui-kit/components/dyte-settings-video-c6d": {
     "__comp": "17896441",
-    "content": "f9b56354"
+    "content": "ef546bfc"
   },
-  "/react-ui-kit/components/productdb-setup-screen-659": {
+  "/react-ui-kit/components/dyte-setup-screen-1d1": {
     "__comp": "17896441",
-    "content": "18d92454"
+    "content": "a00ca671"
   },
-  "/react-ui-kit/components/productdb-sidebar-3c2": {
+  "/react-ui-kit/components/dyte-sidebar-071": {
     "__comp": "17896441",
-    "content": "acb8d39b"
+    "content": "323d6899"
   },
-  "/react-ui-kit/components/productdb-simple-grid-c21": {
+  "/react-ui-kit/components/dyte-simple-grid-538": {
     "__comp": "17896441",
-    "content": "0c84d7a4"
+    "content": "5953f82e"
   },
-  "/react-ui-kit/components/productdb-spinner-0ed": {
+  "/react-ui-kit/components/dyte-spinner-3b9": {
     "__comp": "17896441",
-    "content": "75528791"
+    "content": "4383251f"
   },
-  "/react-ui-kit/components/productdb-spotlight-grid-304": {
+  "/react-ui-kit/components/dyte-spotlight-grid-0dd": {
     "__comp": "17896441",
-    "content": "9755a50c"
+    "content": "d6000d78"
   },
-  "/react-ui-kit/components/productdb-stage-8a4": {
+  "/react-ui-kit/components/dyte-stage-763": {
     "__comp": "17896441",
-    "content": "06ff8efe"
+    "content": "e379c81d"
   },
-  "/react-ui-kit/components/productdb-switch-ed0": {
+  "/react-ui-kit/components/dyte-switch-c0c": {
     "__comp": "17896441",
-    "content": "411176c7"
+    "content": "b208183a"
   },
-  "/react-ui-kit/components/productdb-text-field-ec9": {
+  "/react-ui-kit/components/dyte-text-field-3bf": {
     "__comp": "17896441",
-    "content": "34a37873"
+    "content": "0c4bbd22"
   },
-  "/react-ui-kit/components/productdb-text-message-7cb": {
+  "/react-ui-kit/components/dyte-text-message-62c": {
     "__comp": "17896441",
-    "content": "13266e01"
+    "content": "b925be10"
   },
-  "/react-ui-kit/components/productdb-tooltip-ac0": {
+  "/react-ui-kit/components/dyte-tooltip-dc0": {
     "__comp": "17896441",
-    "content": "cf2fdcf8"
+    "content": "22fee864"
   },
-  "/react-ui-kit/components/productdb-viewer-count-521": {
+  "/react-ui-kit/components/dyte-viewer-count-6d9": {
     "__comp": "17896441",
-    "content": "0e7d1b56"
+    "content": "2d5403df"
   },
   "/react-ui-kit/customizations/custom-iconpack-04a": {
     "__comp": "17896441",

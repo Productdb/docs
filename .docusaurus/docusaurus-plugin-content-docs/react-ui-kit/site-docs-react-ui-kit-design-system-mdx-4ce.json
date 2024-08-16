@@ -1,7 +1,7 @@
 {
   "id": "design-system",
   "title": "Design System",
-  "description": "Details about the Design System in ProductDB's UI Kit.",
+  "description": "Details about the Design System in Dyte's UI Kit.",
   "source": "@site/docs/react-ui-kit/design-system.mdx",
   "sourceDirName": ".",
   "slug": "/design-system",
@@ -11,12 +11,12 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/design-system.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723765939,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
-    "description": "Details about the Design System in ProductDB's UI Kit."
+    "description": "Details about the Design System in Dyte's UI Kit."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

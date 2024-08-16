@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-spotlight-grid",
+  "title": "DyteSpotlightGrid",
+  "description": "Learn how to use and customize the DyteSpotlightGrid component in Dyte's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/dyte-spotlight-grid.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-spotlight-grid",
+  "permalink": "/react-ui-kit/components/dyte-spotlight-grid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/dyte-spotlight-grid.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-spotlight-grid.svg",
+    "description": "Learn how to use and customize the DyteSpotlightGrid component in Dyte's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteSpinner",
+    "permalink": "/react-ui-kit/components/dyte-spinner"
+  },
+  "next": {
+    "title": "DyteStage",
+    "permalink": "/react-ui-kit/components/dyte-stage"
+  }
+}

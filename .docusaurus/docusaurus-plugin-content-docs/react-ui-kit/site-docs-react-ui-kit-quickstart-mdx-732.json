@@ -1,7 +1,7 @@
 {
   "id": "quickstart",
   "title": "Quickstart",
-  "description": "This quickstart shows how to use ProductDB's UI Kit prebuilt components to add live",
+  "description": "This quickstart shows how to use Dyte's UI Kit prebuilt components to add live",
   "source": "@site/docs/react-ui-kit/quickstart.mdx",
   "sourceDirName": ".",
   "slug": "/quickstart",
@@ -11,8 +11,8 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/quickstart.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723758501,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2

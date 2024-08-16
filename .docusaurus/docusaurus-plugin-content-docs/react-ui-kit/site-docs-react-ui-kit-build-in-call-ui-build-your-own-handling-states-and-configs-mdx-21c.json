@@ -1,7 +1,7 @@
 {
   "id": "build-in-call-ui/build-your-own/handling-states-and-configs",
   "title": "Handling States and Configs",
-  "description": "Source Code//github.com/productdb-io/react-samples/tree/main/samples/create-your-own-ui",
+  "description": "Source Code//github.com/dyte-io/react-samples/tree/main/samples/create-your-own-ui",
   "source": "@site/docs/react-ui-kit/build-in-call-ui/build-your-own/handling-states-and-configs.mdx",
   "sourceDirName": "build-in-call-ui/build-your-own",
   "slug": "/build-in-call-ui/build-your-own/handling-states-and-configs",
@@ -11,8 +11,8 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-in-call-ui/build-your-own/handling-states-and-configs.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723758501,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 1,
   "frontMatter": {
     "title": "Handling States and Configs",
@@ -20,7 +20,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ProductDBMeeting",
+    "title": "DyteMeeting",
     "permalink": "/react-ui-kit/build-in-call-ui/default-meeting-ui"
   },
   "next": {

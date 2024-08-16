@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-fullscreen-toggle",
+  "title": "DyteFullscreenToggle",
+  "description": "Learn how to use and customize the DyteFullscreenToggle component in Dyte's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/dyte-fullscreen-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-fullscreen-toggle",
+  "permalink": "/react-ui-kit/components/dyte-fullscreen-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/dyte-fullscreen-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the DyteFullscreenToggle component in Dyte's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteFileMessage",
+    "permalink": "/react-ui-kit/components/dyte-file-message"
+  },
+  "next": {
+    "title": "DyteGridPagination",
+    "permalink": "/react-ui-kit/components/dyte-grid-pagination"
+  }
+}

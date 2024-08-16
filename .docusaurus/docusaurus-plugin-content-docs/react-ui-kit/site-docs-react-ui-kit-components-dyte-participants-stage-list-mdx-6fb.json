@@ -1,0 +1,28 @@
+{
+  "id": "components/dyte-participants-stage-list",
+  "title": "DyteParticipantsStageList",
+  "description": "Learn how to use and customize the DyteParticipantsStageList component in Dyte's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/dyte-participants-stage-list.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participants-stage-list",
+  "permalink": "/react-ui-kit/components/dyte-participants-stage-list",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/dyte-participants-stage-list.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the DyteParticipantsStageList component in Dyte's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteParticipantsAudio",
+    "permalink": "/react-ui-kit/components/dyte-participants-audio"
+  },
+  "next": {
+    "title": "DyteParticipantsToggle",
+    "permalink": "/react-ui-kit/components/dyte-participants-toggle"
+  }
+}

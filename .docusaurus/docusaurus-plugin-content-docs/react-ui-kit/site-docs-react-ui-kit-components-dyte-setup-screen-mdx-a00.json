@@ -1,0 +1,29 @@
+{
+  "id": "components/dyte-setup-screen",
+  "title": "DyteSetupScreen",
+  "description": "Learn how to use and customize the DyteSetupScreen component in Dyte's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/dyte-setup-screen.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-setup-screen",
+  "permalink": "/react-ui-kit/components/dyte-setup-screen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/dyte-setup-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-setup-screen.svg",
+    "description": "Learn how to use and customize the DyteSetupScreen component in Dyte's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteSettings",
+    "permalink": "/react-ui-kit/components/dyte-settings"
+  },
+  "next": {
+    "title": "DyteSidebar",
+    "permalink": "/react-ui-kit/components/dyte-sidebar"
+  }
+}

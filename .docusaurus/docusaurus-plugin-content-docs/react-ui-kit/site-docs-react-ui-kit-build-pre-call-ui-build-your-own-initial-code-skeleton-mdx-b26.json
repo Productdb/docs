@@ -11,8 +11,8 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-pre-call-ui/build-your-own/initial-code-skeleton.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723758501,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 1,
   "frontMatter": {
     "title": "Basic structure",
@@ -20,7 +20,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ProductDBSetupScreen",
+    "title": "DyteSetupScreen",
     "permalink": "/react-ui-kit/build-pre-call-ui/default-setup-screen"
   },
   "next": {

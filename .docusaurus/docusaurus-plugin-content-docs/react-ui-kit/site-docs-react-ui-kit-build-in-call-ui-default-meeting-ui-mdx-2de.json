@@ -1,7 +1,7 @@
 {
   "id": "build-in-call-ui/default-meeting-ui",
-  "title": "ProductDBMeeting",
-  "description": "ProductDB provides, ProductDBMeeting an all encompassing component that internally handles everything from showing a pre-call UI to in-call UI and post-call screen.",
+  "title": "DyteMeeting",
+  "description": "Dyte provides, DyteMeeting an all encompassing component that internally handles everything from showing a pre-call UI to in-call UI and post-call screen.",
   "source": "@site/docs/react-ui-kit/build-in-call-ui/default-meeting-ui.mdx",
   "sourceDirName": "build-in-call-ui",
   "slug": "/build-in-call-ui/default-meeting-ui",
@@ -11,11 +11,11 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-in-call-ui/default-meeting-ui.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723758501,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723767138,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": "ProductDBMeeting",
+    "title": "DyteMeeting",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
