@@ -51,7 +51,7 @@
 		"createdAt": 1710496544,
 		"breaking-changes": [],
 		"features": [
-			"Added Java friendly api's for Dyte meetings"
+			"Added Java friendly api's for ProductDB meetings"
 		],
 		"fixes": []
 	},

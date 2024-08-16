@@ -1,6 +1,6 @@
 {
-  "position": 4,
-  "label": "Realtime Chat",
+  "position": 3,
+  "label": "content",
   "collapsible": true,
-  "className": "chat_sidebar_header"
+  "className": "content_sidebar_header"
 }

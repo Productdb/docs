@@ -5,6 +5,10 @@ import {
   LiveRegular,
   MicRegular,
   VideoRegular,
+CartRegular,
+ClassificationRegular,
+ContentViewRegular,
+CubeTreeRegular,
 } from '@fluentui/react-icons';
 import ThemedImage from '@theme/ThemedImage';
 import clsx from 'clsx';
@@ -12,32 +16,32 @@ import clsx from 'clsx';
 const PRODUCTS = [
   {
     title: 'Classification',
-    link: '/guides/classification/intro-video-conf',
-    icon: VideoRegular,
+    link: '/guides/classification/intro-classification',
+    icon: CubeTreeRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
     text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
   },
   {
-    title: 'Apps',
-    link: '/guides/apps/intro-apps',
-    icon: MicRegular,
+    title: 'Commerce',
+    link: '/guides/commerce/intro-commerce',
+    icon: CartRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
     darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
     text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
   },
   {
-    title: 'Themes',
-    link: '/guides/themes/themes-overview',
-    icon: LiveRegular,
+    title: 'Content',
+    link: '/guides/content/intro-content',
+    icon: ContentViewRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
     text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
   },
   {
-    title: 'Content',
+    title: 'Communication',
     beta: true,
-    link: '/guides/content/intro-content',
+    link: '/guides/communication/intro-communication',
     icon: ChatMultipleRegular,
     lightImage: '/static/landing-page/hero/chat-graphic.png',
     darkImage: '/static/landing-page/hero/chat-graphic-dark.png',
@@ -93,11 +97,11 @@ export default function HeroSection() {
       <section className="noise-bg no-underline-links px-4 pt-16 lg:py-0">
         <div className="flex flex-col items-center justify-between py-14">
           <h2 className="mb-4 font-jakarta text-5xl font-bold">
-            Build with Dyte
+            Build with ProductDB
           </h2>
           <p className="max-w-xl text-center text-text-400">
-            At ProductDB, we're building the future of real-time product information.
-            Integrate programmable, and easily customizable productdata
+            At ProductDB, we're building the future of real-time stock communication.
+            Integrate programmable, and easily customizable product information
             into your web, mobile, and desktop applications with just a few
             lines of code.
           </p>

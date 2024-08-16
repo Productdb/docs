@@ -12,15 +12,15 @@ const products = [
     href: 'https://productdb.io/product/classification',
   },
   {
-    name: 'Marketing',
+    name: 'Commerce',
     href: 'https://dyte.io/voice-sdk',
   },
   {
-    name: 'Live Streaming',
+    name: 'Content',
     href: 'https://dyte.io/live-streaming-sdk',
   },
   {
-    name: 'Chat SDK',
+    name: 'Communication',
     href: 'https://dyte.io/chat-sdk',
   },
   {
@@ -82,7 +82,7 @@ const developers = [
   },
   {
     name: 'Documentation',
-    href: 'https://docs.dyte.io',
+    href: 'https://productdb.dev',
   },
   {
     name: 'Showcase',
@@ -140,23 +140,22 @@ const usecases = [
 ];
 
 const company = [
-  { name: 'About Us', href: 'https://dyte.io/about' },
-  { name: 'Customers', href: 'https://dyte.io/customers' },
-  { name: 'Blog', href: 'https://dyte.io/blog' },
-  { name: 'Careers', href: 'https://jobs.lever.co/dyte-io' },
+  { name: 'About Us', href: 'https://productdb.io/about' },
+  { name: 'Customers', href: 'https://productdb.io/customers' },
+  { name: 'Blog', href: 'https://productdb.io/blog' },
+  { name: 'Careers', href: 'https://productdb.io/careers' },
   { name: 'Community', href: 'https://dyte.io/community' },
   { name: 'Startup Program', href: 'https://dyte.io/startups' },
   { name: 'Contact Us', href: 'https://dyte.io/contact' },
   { name: 'FAQ', href: '/faq' },
-  { name: 'Guide on Video SDK', href: 'https://dyte.io/blog/video-sdk/' },
 ];
 
 const comparisons = [
-  { name: 'Dyte vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
-  { name: 'Dyte vs Agora', href: 'https://dyte.io/agora-competitor' },
-  { name: 'Dyte vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
-  { name: 'Dyte vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
-  { name: 'Dyte vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
+  { name: 'ProductDB vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
+  { name: 'ProductDB vs Agora', href: 'https://dyte.io/agora-competitor' },
+  { name: 'ProductDB vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
+  { name: 'ProductDB vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
+  { name: 'ProductDB vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
   {
     name: 'View 14 more',
     isAccordion: true,
@@ -227,6 +226,10 @@ const comparisons = [
 
 function Safety({ className }) {
   return (
+<Link
+      href="https://productdb.io/safety"
+      target="_blank"
+    >
     <div
       className={clsx(
         'flex max-w-[418px] flex-row overflow-clip rounded-2xl bg-white dark:bg-[#474747] sm:flex-col sm:pr-0 sm:pb-8 lg:flex-row lg:pr-16 lg:pb-0',
@@ -248,6 +251,7 @@ function Safety({ className }) {
         />
       </div>
     </div>
+</Link>
   );
 }
 
@@ -260,7 +264,7 @@ function Status({ className }) {
   useEffect(() => {
     if (typeof StatusPage !== 'undefined') {
       // eslint-disable-next-line no-undef
-      var sp = new StatusPage.page({ page: 'wjlxrzb5h09l' });
+      var sp = new StatusPage.page({ page: 'hsx6f1r97yvq' });
       sp.status({
         success: function (data) {
           setStatus({
@@ -274,7 +278,7 @@ function Status({ className }) {
 
   return (
     <Link
-      href="https://status.productdb.io"
+      href="https://productdb.statuspage.io/"
       className={clsx(
         'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-gray-500 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline dark:hover:bg-[#474747]',
         className
@@ -342,7 +346,7 @@ export default function Footer() {
       <div className="mx-auto flex w-full max-w-[1080px] flex-col px-6 py-12">
         <div className="mb-12 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <ThemedImage
-            alt="Dyte"
+            alt="ProductDB"
             className="h-9 w-fit lg:h-12"
             sources={{
               light: '/logo/dyte.svg',
@@ -378,17 +382,10 @@ export default function Footer() {
 
           <div className="flex flex-wrap gap-2 text-sm text-gray-500">
             <Link
-              href="https://productdb.io/legal/privacy-policy"
+              href="https://productdb.io/legal/"
               className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
             >
-              Privacy Policy
-            </Link>
-            &bull;
-            <Link
-              href="https://productdb.io/legal/terms-of-service"
-              className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
-            >
-              Terms of Service
+              Legal
             </Link>
             &bull;
             <span className="text-inherit dark:text-[#999]">
@@ -398,23 +395,23 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/Productdb"
+              href="https://github.com/productdb"
               aria-label="ProductDB's GitHub Organization"
             >
               <Github className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://linkedin.com/company/Productdb"
+              href="https://linkedin.com/company/productdb"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link href="https://twitter.com/dyte_io" aria-label="Twitter">
+            <Link href="https://x.com/ProductDB_io" aria-label="Twitter">
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
-              href="https://youtube.com/company/productDB"
-              aria-label="Productdb's YouTube Channel"
+              href="https://www.youtube.com/@productdb"
+              aria-label="ProductDB's YouTube Channel"
             >
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
