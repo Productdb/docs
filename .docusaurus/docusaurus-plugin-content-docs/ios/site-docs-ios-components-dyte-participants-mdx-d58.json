@@ -11,8 +11,8 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/dyte-participants.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723755734,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723814318,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-participants.svg",
     "description": "Learn how to use and customize the ParticipantViewController component in ProductDB's iOS UiKit with our detailed documentation."

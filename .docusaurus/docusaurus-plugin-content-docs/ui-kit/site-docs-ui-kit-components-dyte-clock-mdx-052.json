@@ -11,8 +11,8 @@
   "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/dyte-clock.mdx",
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1723755734,
-  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "lastUpdatedAt": 1723814318,
+  "formattedLastUpdatedAt": "Aug 16, 2024",
   "frontMatter": {
     "image": "/static/ui-kit/1.x.x/components/dyte-clock.svg",
     "description": "Learn how to use and customize the dyte-clock component in ProductDB's UI Kit with our detailed documentation."
