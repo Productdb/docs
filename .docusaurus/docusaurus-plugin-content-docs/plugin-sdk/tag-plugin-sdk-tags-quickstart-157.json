@@ -1,0 +1,15 @@
+{
+  "label": "quickstart",
+  "permalink": "/plugin-sdk/tags/quickstart",
+  "allTagsPath": "/plugin-sdk/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "Quickly start integrating your plugin with ProductDB using our Plugin SDK Quickstart guide. Streamline the development process for your custom plugins.",
+      "permalink": "/plugin-sdk/quickstart"
+    }
+  ],
+  "unlisted": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "build-in-call-ui/build-your-own/handling-states-and-configs",
+  "title": "Handling States and Configs",
+  "description": "Source Code//github.com/productdb-io/react-samples/tree/main/samples/create-your-own-ui",
+  "source": "@site/docs/react-ui-kit/build-in-call-ui/build-your-own/handling-states-and-configs.mdx",
+  "sourceDirName": "build-in-call-ui/build-your-own",
+  "slug": "/build-in-call-ui/build-your-own/handling-states-and-configs",
+  "permalink": "/react-ui-kit/build-in-call-ui/build-your-own/handling-states-and-configs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-in-call-ui/build-your-own/handling-states-and-configs.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Handling States and Configs",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBMeeting",
+    "permalink": "/react-ui-kit/build-in-call-ui/default-meeting-ui"
+  },
+  "next": {
+    "title": "States Based UI Split",
+    "permalink": "/react-ui-kit/build-in-call-ui/build-your-own/states based UI Split"
+  }
+}

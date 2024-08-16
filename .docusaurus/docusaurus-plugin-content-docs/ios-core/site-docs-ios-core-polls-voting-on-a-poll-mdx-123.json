@@ -1,0 +1,49 @@
+{
+  "id": "polls/voting-on-a-poll",
+  "title": "Voting on a poll",
+  "description": "Understand the process of voting on polls within your iOS app using ProductDB's documentation on Polls Voting.",
+  "source": "@site/docs/ios-core/polls/voting-on-a-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/voting-on-a-poll",
+  "permalink": "/ios-core/polls/voting-on-a-poll",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios-core/polls/voting-on-a-poll.mdx",
+  "tags": [
+    {
+      "label": "ios-core",
+      "permalink": "/ios-core/tags/ios-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/ios-core/tags/polls"
+    },
+    {
+      "label": "votes",
+      "permalink": "/ios-core/tags/votes"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Voting on a poll",
+    "description": "Understand the process of voting on polls within your iOS app using ProductDB's documentation on Polls Voting.",
+    "sidebar_position": 3,
+    "tags": [
+      "ios-core",
+      "polls",
+      "votes"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating a poll",
+    "permalink": "/ios-core/polls/creating-a-poll"
+  },
+  "next": {
+    "title": "System Error Codes",
+    "permalink": "/ios-core/error-codes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-grid-pagination",
+  "title": "productdb-grid-pagination",
+  "description": "Learn how to use and customize the productdb-grid-pagination component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/productdb-grid-pagination.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-grid-pagination",
+  "permalink": "/ui-kit/components/productdb-grid-pagination",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/productdb-grid-pagination.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-grid-pagination.svg",
+    "description": "Learn how to use and customize the productdb-grid-pagination component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-fullscreen-toggle",
+    "permalink": "/ui-kit/components/productdb-fullscreen-toggle"
+  },
+  "next": {
+    "title": "productdb-grid",
+    "permalink": "/ui-kit/components/productdb-grid"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "installation",
+  "title": "Installation",
+  "description": "Install rn-core.",
+  "source": "@site/docs/rn-core/installation.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/rn-core/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/installation.mdx",
+  "tags": [
+    {
+      "label": "rn-core",
+      "permalink": "/rn-core/tags/rn-core"
+    },
+    {
+      "label": "installation",
+      "permalink": "/rn-core/tags/installation"
+    },
+    {
+      "label": "setup",
+      "permalink": "/rn-core/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Installation",
+    "description": "Install rn-core.",
+    "sidebar_position": 1,
+    "slug": "/",
+    "tags": [
+      "rn-core",
+      "installation",
+      "setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Quickstart",
+    "permalink": "/rn-core/quickstart"
+  }
+}

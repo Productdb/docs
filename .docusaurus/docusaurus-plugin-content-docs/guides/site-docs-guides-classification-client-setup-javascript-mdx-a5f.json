@@ -1,0 +1,29 @@
+{
+  "id": "classification/client-setup/javascript",
+  "title": "Web (Other)",
+  "description": "Explore the setup of the client for live video in JavaScript with ProductDB's features. Follow our guide for effective JavaScript client setup.",
+  "source": "@site/docs/guides/classification/client-setup/javascript.mdx",
+  "sourceDirName": "classification/client-setup",
+  "slug": "/classification/client-setup/javascript",
+  "permalink": "/guides/classification/client-setup/javascript",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/classification/client-setup/javascript.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Web (Other)",
+    "sidebar_position": 3,
+    "pagination_prev": null,
+    "pagination_next": "classification/next-steps",
+    "description": "Explore the setup of the client for live video in JavaScript with ProductDB's features. Follow our guide for effective JavaScript client setup."
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Next Steps",
+    "permalink": "/guides/classification/next-steps"
+  }
+}

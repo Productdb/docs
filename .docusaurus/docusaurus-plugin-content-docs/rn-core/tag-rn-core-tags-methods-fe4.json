@@ -1,0 +1,15 @@
+{
+  "label": "methods",
+  "permalink": "/rn-core/tags/methods",
+  "allTagsPath": "/rn-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "local-user/extras",
+      "title": "Other Methods",
+      "description": "Methods to manage the local user.",
+      "permalink": "/rn-core/local-user/extras"
+    }
+  ],
+  "unlisted": false
+}

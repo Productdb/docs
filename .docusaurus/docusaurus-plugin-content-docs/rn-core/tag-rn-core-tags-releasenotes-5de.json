@@ -1,0 +1,15 @@
+{
+  "label": "releasenotes",
+  "permalink": "/rn-core/tags/releasenotes",
+  "allTagsPath": "/rn-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "release-notes",
+      "title": "Release Notes",
+      "description": "React Native Core Release Notes",
+      "permalink": "/rn-core/release-notes"
+    }
+  ],
+  "unlisted": false
+}

@@ -1,0 +1,44 @@
+{
+  "id": "chat/sending-a-chat-message",
+  "title": "Sending a chat message",
+  "description": "Send a chat message in a meeting.",
+  "source": "@site/docs/web-core/chat/sending-a-chat-message.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/sending-a-chat-message",
+  "permalink": "/web-core/chat/sending-a-chat-message",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/chat/sending-a-chat-message.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/web-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Sending a chat message",
+    "description": "Send a chat message in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "web-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introducing chat",
+    "permalink": "/web-core/chat/introduction"
+  },
+  "next": {
+    "title": "Receiving chat messages",
+    "permalink": "/web-core/chat/receiving-chat-messages"
+  }
+}

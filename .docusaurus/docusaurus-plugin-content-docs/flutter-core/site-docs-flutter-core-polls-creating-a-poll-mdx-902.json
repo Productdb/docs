@@ -1,0 +1,49 @@
+{
+  "id": "polls/creating-a-poll",
+  "title": "Creating a poll",
+  "description": "Learn how to create polls in Flutter using ProductDB's features. Follow our documentation for seamless integration and effective poll creation.",
+  "source": "@site/docs/flutter-core/polls/creating-a-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/creating-a-poll",
+  "permalink": "/flutter-core/polls/creating-a-poll",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/polls/creating-a-poll.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/flutter-core/tags/polls"
+    },
+    {
+      "label": "create",
+      "permalink": "/flutter-core/tags/create"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Creating a poll",
+    "description": "Learn how to create polls in Flutter using ProductDB's features. Follow our documentation for seamless integration and effective poll creation.",
+    "sidebar_position": 2,
+    "tags": [
+      "flutter-core",
+      "polls",
+      "create"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/flutter-core/polls/introduction"
+  },
+  "next": {
+    "title": "Voting on a poll",
+    "permalink": "/flutter-core/polls/voting-on-a-poll"
+  }
+}

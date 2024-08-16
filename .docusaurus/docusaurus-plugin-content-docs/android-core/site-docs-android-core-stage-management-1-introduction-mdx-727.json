@@ -1,0 +1,44 @@
+{
+  "id": "stage-management/introduction",
+  "title": "Introduction",
+  "description": "Stage management in ProductDB meetings.",
+  "source": "@site/docs/android-core/stage-management/1-introduction.mdx",
+  "sourceDirName": "stage-management",
+  "slug": "/stage-management/introduction",
+  "permalink": "/android-core/stage-management/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/stage-management/1-introduction.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "stage",
+      "permalink": "/android-core/tags/stage"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Stage management in ProductDB meetings.",
+    "sidebar_position": 1,
+    "tags": [
+      "android-core",
+      "stage"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recording",
+    "permalink": "/android-core/recording"
+  },
+  "next": {
+    "title": "Stage Host Controls",
+    "permalink": "/android-core/stage-management/host-controls"
+  }
+}

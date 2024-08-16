@@ -1,0 +1,27 @@
+{
+  "id": "pre-call/media-preview",
+  "title": "Media Preview",
+  "description": "Before joining a meeting, users may want to preview and configure their media devices like camera, microphone, and audio output.",
+  "source": "@site/docs/flutter-core/pre-call/1-media-preview.mdx",
+  "sourceDirName": "pre-call",
+  "slug": "/pre-call/media-preview",
+  "permalink": "/flutter-core/pre-call/media-preview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/pre-call/1-media-preview.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/flutter-core/"
+  },
+  "next": {
+    "title": "Meeting Metadata",
+    "permalink": "/flutter-core/pre-call/meeting-meta"
+  }
+}

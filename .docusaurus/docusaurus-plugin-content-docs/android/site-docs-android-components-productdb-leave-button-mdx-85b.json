@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-leave-button",
+  "title": "ProductDBLeaveButton",
+  "description": "Learn how to use and customize the ProductDBLeaveButton component in ProductDB's Android with our detailed documentation.",
+  "source": "@site/docs/android/components/productdb-leave-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-leave-button",
+  "permalink": "/android/components/productdb-leave-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/productdb-leave-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBLeaveButton component in ProductDB's Android with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBJoinStage",
+    "permalink": "/android/components/productdb-join-stage"
+  },
+  "next": {
+    "title": "ProductDBLeaveMeetingView",
+    "permalink": "/android/components/productdb-leave-meeting"
+  }
+}

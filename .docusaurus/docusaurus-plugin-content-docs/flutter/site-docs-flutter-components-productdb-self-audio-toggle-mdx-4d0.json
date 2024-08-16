@@ -1,0 +1,26 @@
+{
+  "id": "Components/productdb-self-audio-toggle",
+  "title": "ProductDBSelfAudioToggleButton",
+  "description": "A toggle button widget designed for controlling the audio state in the ProductDB video conference environment. This widget integrates with the ProductDB UI Kit and allows users to enable or disable their microphone audio during a meeting.",
+  "source": "@site/docs/flutter/Components/productdb-self-audio-toggle.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/productdb-self-audio-toggle",
+  "permalink": "/flutter/Components/productdb-self-audio-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/productdb-self-audio-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBProvider",
+    "permalink": "/flutter/Components/productdb-provider"
+  },
+  "next": {
+    "title": "ProductDBSelfVideoToggleButton",
+    "permalink": "/flutter/Components/productdb-self-video-toggle"
+  }
+}

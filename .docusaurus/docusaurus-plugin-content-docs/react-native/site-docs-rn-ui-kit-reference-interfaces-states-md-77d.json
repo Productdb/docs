@@ -1,0 +1,30 @@
+{
+  "id": "reference/interfaces/States",
+  "title": "Interface: States",
+  "description": "Global States object which are shared among components",
+  "source": "@site/docs/rn-ui-kit/reference/interfaces/States.md",
+  "sourceDirName": "reference/interfaces",
+  "slug": "/reference/interfaces/States",
+  "permalink": "/react-native/reference/interfaces/States",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "id": "States",
+    "title": "Interface: States",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interface: PollObject",
+    "permalink": "/react-native/reference/interfaces/PollObject"
+  },
+  "next": {
+    "title": "Interface: UIConfig",
+    "permalink": "/react-native/reference/interfaces/UIConfig"
+  }
+}

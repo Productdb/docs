@@ -1,0 +1,30 @@
+{
+  "id": "recording",
+  "title": "Recordings",
+  "description": "Understand how to enable and configure recording features using ProductDB CLI. Capture and review meeting content seamlessly.",
+  "source": "@site/docs/cli/recording.mdx",
+  "sourceDirName": ".",
+  "slug": "/recording",
+  "permalink": "/cli/recording",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/cli/recording.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "description": "Understand how to enable and configure recording features using ProductDB CLI. Capture and review meeting content seamlessly."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Meetings",
+    "permalink": "/cli/meetings"
+  },
+  "next": {
+    "title": "Plugins",
+    "permalink": "/cli/plugins"
+  }
+}

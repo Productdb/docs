@@ -1,0 +1,40 @@
+{
+  "id": "release-notes",
+  "title": "Release Notes",
+  "description": "\"Stay updated with the latest features",
+  "source": "@site/docs/angular-ui-kit/release-notes.mdx",
+  "sourceDirName": ".",
+  "slug": "/release-notes",
+  "permalink": "/angular-ui-kit/release-notes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/release-notes.mdx",
+  "tags": [
+    {
+      "label": "releasenotes",
+      "permalink": "/angular-ui-kit/tags/releasenotes"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 101,
+  "frontMatter": {
+    "title": "Release Notes",
+    "sidebar_position": 101,
+    "sidebar_class_name": "releaseSidebarHeading",
+    "tags": [
+      "releasenotes"
+    ],
+    "description": "\"Stay updated with the latest features"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customize Meeting Locale",
+    "permalink": "/angular-ui-kit/customizations/custom-locale"
+  },
+  "next": {
+    "title": "Reference",
+    "permalink": "/angular-ui-kit/reference/"
+  }
+}

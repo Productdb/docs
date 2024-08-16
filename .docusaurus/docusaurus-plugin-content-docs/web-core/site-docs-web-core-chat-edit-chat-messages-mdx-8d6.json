@@ -1,0 +1,44 @@
+{
+  "id": "chat/edit-chat-messages",
+  "title": "Editing Chat Messages",
+  "description": "Edit chat messages that you have sent in a meeting.",
+  "source": "@site/docs/web-core/chat/edit-chat-messages.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/edit-chat-messages",
+  "permalink": "/web-core/chat/edit-chat-messages",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/chat/edit-chat-messages.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/web-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Editing Chat Messages",
+    "description": "Edit chat messages that you have sent in a meeting.",
+    "sidebar_position": 4,
+    "tags": [
+      "web-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receiving chat messages",
+    "permalink": "/web-core/chat/receiving-chat-messages"
+  },
+  "next": {
+    "title": "Other chat functions",
+    "permalink": "/web-core/chat/other-chat-functions"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-button",
+  "title": "ProductDBButton",
+  "description": "Learn how to use and customize the ProductDBButton component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-button",
+  "permalink": "/ios/components/productdb-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-button.svg",
+    "description": "Learn how to use and customize the ProductDBButton component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBAvatarView",
+    "permalink": "/ios/components/productdb-avatar"
+  },
+  "next": {
+    "title": "ProductDBSwitchCameraButtonControlBar",
+    "permalink": "/ios/components/productdb-camera-toggle"
+  }
+}

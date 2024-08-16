@@ -1,0 +1,28 @@
+{
+  "id": "capabilities/plugins/whiteboard",
+  "title": "Plugin: Whiteboard",
+  "description": "Whiteboard allows you to write, draw and ideate collaboratively. Built on top of tldraw",
+  "source": "@site/docs/guides/capabilities/plugins/whiteboard.mdx",
+  "sourceDirName": "capabilities/plugins",
+  "slug": "/capabilities/plugins/whiteboard",
+  "permalink": "/guides/capabilities/plugins/whiteboard",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/plugins/whiteboard.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "frontMatter": {
+    "title": "Plugin: Whiteboard"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plugin: Streamer",
+    "permalink": "/guides/capabilities/plugins/streamer"
+  },
+  "next": {
+    "title": "Polls",
+    "permalink": "/guides/capabilities/polls/"
+  }
+}

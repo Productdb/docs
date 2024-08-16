@@ -1,0 +1,28 @@
+{
+  "id": "commerce/client-setup/flutter",
+  "title": "Flutter",
+  "description": "Flutter Guide",
+  "source": "@site/docs/guides/commerce/client-setup/flutter.mdx",
+  "sourceDirName": "commerce/client-setup",
+  "slug": "/commerce/client-setup/flutter",
+  "permalink": "/guides/commerce/client-setup/flutter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/commerce/client-setup/flutter.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Flutter",
+    "sidebar_position": 6,
+    "pagination_prev": null,
+    "ppagination_next": "commerce/next-steps"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Next Steps",
+    "permalink": "/guides/commerce/next-steps"
+  }
+}

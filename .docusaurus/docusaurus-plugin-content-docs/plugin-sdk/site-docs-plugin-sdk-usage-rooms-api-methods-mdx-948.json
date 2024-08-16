@@ -1,0 +1,31 @@
+{
+  "id": "usage/rooms-api/methods",
+  "title": "Methods",
+  "description": "Explore the usage of Rooms API methods with ProductDB Plugin SDK. Optimize your app's functionality by integrating powerful room management methods.",
+  "source": "@site/docs/plugin-sdk/usage/rooms-api/methods.mdx",
+  "sourceDirName": "usage/rooms-api",
+  "slug": "/usage/rooms-api/methods",
+  "permalink": "/plugin-sdk/usage/rooms-api/methods",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/plugin-sdk/usage/rooms-api/methods.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Methods",
+    "sidebar_position": 1,
+    "description": "Explore the usage of Rooms API methods with ProductDB Plugin SDK. Optimize your app's functionality by integrating powerful room management methods."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/plugin-sdk/usage/basic/events"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/plugin-sdk/usage/rooms-api/events"
+  }
+}

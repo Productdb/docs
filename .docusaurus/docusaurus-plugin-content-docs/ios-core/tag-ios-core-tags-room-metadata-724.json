@@ -1,0 +1,15 @@
+{
+  "label": "room-metadata",
+  "permalink": "/ios-core/tags/room-metadata",
+  "allTagsPath": "/ios-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "room-metadata",
+      "title": "Room Metadata",
+      "description": "Learn about managing room metadata in your iOS application using ProductDB Docs.",
+      "permalink": "/ios-core/room-metadata"
+    }
+  ],
+  "unlisted": false
+}

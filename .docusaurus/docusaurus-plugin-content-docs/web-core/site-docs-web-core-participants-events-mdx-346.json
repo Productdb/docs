@@ -1,0 +1,49 @@
+{
+  "id": "participants/events",
+  "title": "Events",
+  "description": "Event handling for participants.",
+  "source": "@site/docs/web-core/participants/events.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/events",
+  "permalink": "/web-core/participants/events",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/participants/events.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/web-core/tags/participants"
+    },
+    {
+      "label": "self",
+      "permalink": "/web-core/tags/self"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Events",
+    "description": "Event handling for participants.",
+    "sidebar_position": 3,
+    "tags": [
+      "web-core",
+      "participants",
+      "self"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participant Object",
+    "permalink": "/web-core/participants/participant-object"
+  },
+  "next": {
+    "title": "Picture-in-Picture",
+    "permalink": "/web-core/participants/pip"
+  }
+}

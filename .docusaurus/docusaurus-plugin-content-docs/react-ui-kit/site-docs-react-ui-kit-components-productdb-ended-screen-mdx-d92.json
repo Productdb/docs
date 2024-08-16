@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-ended-screen",
+  "title": "ProductDBEndedScreen",
+  "description": "Learn how to use and customize the ProductDBEndedScreen component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-ended-screen.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-ended-screen",
+  "permalink": "/react-ui-kit/components/productdb-ended-screen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-ended-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-ended-screen.svg",
+    "description": "Learn how to use and customize the ProductDBEndedScreen component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBEmojiPicker",
+    "permalink": "/react-ui-kit/components/productdb-emoji-picker"
+  },
+  "next": {
+    "title": "ProductDBFileMessage",
+    "permalink": "/react-ui-kit/components/productdb-file-message"
+  }
+}

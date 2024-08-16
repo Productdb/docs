@@ -1,0 +1,31 @@
+{
+  "id": "livestream/build-livestream-app",
+  "title": "Server Integration",
+  "description": "Explore how to build a livestreaming app with ProductDB's capabilities. Follow our guide for effective app development and integration.",
+  "source": "@site/docs/guides/livestream/build-livestream-app.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/build-livestream-app",
+  "permalink": "/guides/livestream/build-livestream-app",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/livestream/build-livestream-app.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Server Integration",
+    "sidebar_position": 4,
+    "description": "Explore how to build a livestreaming app with ProductDB's capabilities. Follow our guide for effective app development and integration."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/guides/livestream/get-started"
+  },
+  "next": {
+    "title": "Client Setup",
+    "permalink": "/guides/livestream/client-setup/"
+  }
+}

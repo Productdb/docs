@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-mic-toggle",
+  "title": "ProductDBMicToggleButton",
+  "description": "Learn how to use and customize the ProductDBMicToggleButton component in ProductDB's Android with our detailed documentation.",
+  "source": "@site/docs/android/components/productdb-mic-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-mic-toggle",
+  "permalink": "/android/components/productdb-mic-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/productdb-mic-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBMicToggleButton component in ProductDB's Android with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBUIKit",
+    "permalink": "/android/components/productdb-meeting"
+  },
+  "next": {
+    "title": "ProductDBMoreToggleButton",
+    "permalink": "/android/components/productdb-more-toggle"
+  }
+}

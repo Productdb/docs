@@ -1,0 +1,33 @@
+{
+  "id": "device-emulator/examples",
+  "title": "Examples",
+  "description": "Explore examples and use cases for ProductDB's community package device emulator. Learn how to effectively use device emulation for testing and development.",
+  "source": "@site/docs/community-packages/device-emulator/examples.mdx",
+  "sourceDirName": "device-emulator",
+  "slug": "/device-emulator/examples",
+  "permalink": "/community-packages/device-emulator/examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/community-packages/device-emulator/examples.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "keywords": [
+      "opensource"
+    ],
+    "description": "Explore examples and use cases for ProductDB's community package device emulator. Learn how to effectively use device emulation for testing and development."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/community-packages/device-emulator"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/community-packages/socketio-client/"
+  }
+}

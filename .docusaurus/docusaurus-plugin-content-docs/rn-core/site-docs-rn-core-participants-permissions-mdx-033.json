@@ -1,0 +1,26 @@
+{
+  "id": "participants/permissions",
+  "title": "Permissions",
+  "description": "Permissions for a participant are defined by the preset. However they can updated in meeting by calling updatePermissions for remote participants",
+  "source": "@site/docs/rn-core/participants/permissions.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/permissions",
+  "permalink": "/rn-core/participants/permissions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/participants/permissions.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/rn-core/participants/events"
+  },
+  "next": {
+    "title": "Introducing chat",
+    "permalink": "/rn-core/chat/introduction"
+  }
+}

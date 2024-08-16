@@ -1,0 +1,27 @@
+{
+  "id": "pre-call/media-preview",
+  "title": "Media Preview",
+  "description": "This section focuses on pre-call functionality, providing developers with the tools needed to prepare the media environment before joining the meeting. If you are using our UI Kits, this will be handled by ProductDBSetupScreen or could be built with ProductDBParticipantTile and other components.",
+  "source": "@site/docs/rn-core/pre-call/1-media-preview.mdx",
+  "sourceDirName": "pre-call",
+  "slug": "/pre-call/media-preview",
+  "permalink": "/rn-core/pre-call/media-preview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/pre-call/1-media-preview.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/rn-core/quickstart"
+  },
+  "next": {
+    "title": "Handling Permissions",
+    "permalink": "/rn-core/pre-call/handling-permissions"
+  }
+}

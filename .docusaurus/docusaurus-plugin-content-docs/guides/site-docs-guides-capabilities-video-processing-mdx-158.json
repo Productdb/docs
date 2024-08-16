@@ -1,0 +1,31 @@
+{
+  "id": "capabilities/video/processing",
+  "title": "Processing - Middlewares",
+  "description": "ProductDB's SDK supports middlewares which are pluggable functions that can be applied to both audio and video streams in a meeting. This lets you tap in the media to either observe or modify. This guide covers the following.",
+  "source": "@site/docs/guides/capabilities/video/processing.mdx",
+  "sourceDirName": "capabilities/video",
+  "slug": "/capabilities/video/processing",
+  "permalink": "/guides/capabilities/video/processing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/video/processing.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Processing - Middlewares",
+    "sidebar_position": 1,
+    "sidebar_slug": "video-processing-middlewares"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transcriptions - Google STT",
+    "permalink": "/guides/capabilities/audio/transcriptionGoogle"
+  },
+  "next": {
+    "title": "Virtual Background",
+    "permalink": "/guides/capabilities/video/add-virtual-background"
+  }
+}

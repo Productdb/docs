@@ -1,0 +1,30 @@
+{
+  "id": "reference/ProductDBConnectedMeetings",
+  "title": "ProductDBConnectedMeetings",
+  "description": "This consists of the methods to faciliate connected meetings",
+  "source": "@site/docs/react-web-core/reference/ProductDBConnectedMeetings.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/ProductDBConnectedMeetings",
+  "permalink": "/react-web-core/reference/ProductDBConnectedMeetings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/reference/ProductDBConnectedMeetings.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBRemote",
+    "permalink": "/react-web-core/reference/ProductDBRemote"
+  },
+  "next": {
+    "title": "ProductDBRecording",
+    "permalink": "/react-web-core/reference/ProductDBRecording"
+  }
+}

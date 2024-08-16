@@ -1,0 +1,44 @@
+{
+  "id": "design-token",
+  "title": "Design System",
+  "description": "Explore design token integration in Flutter with ProductDB's documentation. Follow our guide for effective design token implementation in your app.",
+  "source": "@site/docs/flutter/design-token.mdx",
+  "sourceDirName": ".",
+  "slug": "/design-token",
+  "permalink": "/flutter/design-token",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/design-token.mdx",
+  "tags": [
+    {
+      "label": "Flutter UI Kit",
+      "permalink": "/flutter/tags/flutter-ui-kit"
+    },
+    {
+      "label": "Design System",
+      "permalink": "/flutter/tags/design-system"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Design System",
+    "description": "Explore design token integration in Flutter with ProductDB's documentation. Follow our guide for effective design token implementation in your app.",
+    "sidebar_position": 3,
+    "tags": [
+      "Flutter UI Kit",
+      "Design System"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/flutter/quickstart"
+  },
+  "next": {
+    "title": "ProductDBAudioIndicatorIconWidget",
+    "permalink": "/flutter/Components/productdb-audio-indicator-icon-widget"
+  }
+}

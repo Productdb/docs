@@ -1,0 +1,30 @@
+{
+  "id": "advanced/advance",
+  "title": "Advance",
+  "description": "Defaults Configuration",
+  "source": "@site/docs/react-web-core/advanced/advance.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/advance",
+  "permalink": "/react-web-core/advanced/advance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/advanced/advance.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Advance",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/react-web-core/introduction"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/react-web-core/local-user/introduction"
+  }
+}

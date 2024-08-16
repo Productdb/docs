@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-name-tag",
+  "title": "ProductDBMeetingNameTag",
+  "description": "Learn how to use and customize the ProductDBMeetingNameTag component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-name-tag.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-name-tag",
+  "permalink": "/ios/components/productdb-name-tag",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-name-tag.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-name-tag.svg",
+    "description": "Learn how to use and customize the ProductDBMeetingNameTag component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBMoreButtonControlBar",
+    "permalink": "/ios/components/productdb-more-toggle"
+  },
+  "next": {
+    "title": "ProductDBNavigationBar",
+    "permalink": "/ios/components/productdb-navigationbar"
+  }
+}

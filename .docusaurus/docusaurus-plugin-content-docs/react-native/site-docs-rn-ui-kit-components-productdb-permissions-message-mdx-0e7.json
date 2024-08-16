@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-permissions-message",
+  "title": "ProductDBPermissionsMessage",
+  "description": "Learn how to use and customize the ProductDBPermissionsMessage component in ProductDB's React Native UI Kit with our detailed documentation.",
+  "source": "@site/docs/rn-ui-kit/components/productdb-permissions-message.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-permissions-message",
+  "permalink": "/react-native/components/productdb-permissions-message",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/components/productdb-permissions-message.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBPermissionsMessage component in ProductDB's React Native UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBParticipants",
+    "permalink": "/react-native/components/productdb-participants"
+  },
+  "next": {
+    "title": "ProductDBPluginMain",
+    "permalink": "/react-native/components/productdb-plugin-main"
+  }
+}

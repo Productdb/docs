@@ -1,0 +1,32 @@
+{
+  "id": "capabilities/recording/advanced/add-watermark",
+  "title": "Add Watermark to your Recording",
+  "description": "Learn how to add watermarks to your recordings with ProductDB's features. Follow our guide for effective watermarking and customization.",
+  "source": "@site/docs/guides/capabilities/recording/advanced/add-watermark.mdx",
+  "sourceDirName": "capabilities/recording/advanced",
+  "slug": "/capabilities/recording/add-watermark",
+  "permalink": "/guides/capabilities/recording/add-watermark",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/recording/advanced/add-watermark.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Add Watermark to your Recording",
+    "sidebar_position": 4,
+    "slug": "/capabilities/recording/add-watermark",
+    "description": "Learn how to add watermarks to your recordings with ProductDB's features. Follow our guide for effective watermarking and customization."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Set Audio Configurations",
+    "permalink": "/guides/capabilities/recording/configure-audio-codec"
+  },
+  "next": {
+    "title": "Manage Recording Config Precedence Order",
+    "permalink": "/guides/capabilities/recording/manage-recording-config-hierarchy"
+  }
+}

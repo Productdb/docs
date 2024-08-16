@@ -1,0 +1,28 @@
+{
+  "id": "commerce/client-setup/react",
+  "title": "React",
+  "description": "React Guide",
+  "source": "@site/docs/guides/commerce/client-setup/react.mdx",
+  "sourceDirName": "commerce/client-setup",
+  "slug": "/commerce/client-setup/react",
+  "permalink": "/guides/commerce/client-setup/react",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/commerce/client-setup/react.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "React",
+    "sidebar_position": 1,
+    "pagination_prev": null,
+    "pagination_next": "commerce/next-steps"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Next Steps",
+    "permalink": "/guides/commerce/next-steps"
+  }
+}

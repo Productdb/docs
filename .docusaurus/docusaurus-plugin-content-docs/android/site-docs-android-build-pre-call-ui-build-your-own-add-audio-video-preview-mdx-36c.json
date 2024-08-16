@@ -1,0 +1,30 @@
+{
+  "id": "build-pre-call-ui/build-your-own/add-audio-video-preview",
+  "title": "Audio/video - Preview",
+  "description": "For building audio/video preview",
+  "source": "@site/docs/android/build-pre-call-ui/build-your-own/add-audio-video-preview.mdx",
+  "sourceDirName": "build-pre-call-ui/build-your-own",
+  "slug": "/build-pre-call-ui/build-your-own/add-audio-video-preview",
+  "permalink": "/android/build-pre-call-ui/build-your-own/add-audio-video-preview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/build-pre-call-ui/build-your-own/add-audio-video-preview.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Audio/video - Preview",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Edit user name",
+    "permalink": "/android/build-pre-call-ui/build-your-own/edit-user-name"
+  },
+  "next": {
+    "title": "Audio/video - Device Selection",
+    "permalink": "/android/build-pre-call-ui/build-your-own/add-audio-video-device"
+  }
+}

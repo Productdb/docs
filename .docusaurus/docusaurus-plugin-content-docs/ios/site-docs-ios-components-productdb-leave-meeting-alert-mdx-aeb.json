@@ -1,0 +1,26 @@
+{
+  "id": "components/productdb-leave-meeting-alert",
+  "title": "ProductDBLeaveDialog",
+  "description": "Overview",
+  "source": "@site/docs/ios/components/productdb-leave-meeting-alert.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-leave-meeting-alert",
+  "permalink": "/ios/components/productdb-leave-meeting-alert",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-leave-meeting-alert.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBLeaveDialogAlertButtonType",
+    "permalink": "/ios/components/productdb-leave-alert-actions"
+  },
+  "next": {
+    "title": "ProductDBMeetingTitleLabel",
+    "permalink": "/ios/components/productdb-meeting-titlelabel"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-setup-screen-delegate",
+  "title": "SetupViewControllerDelegate",
+  "description": "Learn how to use and customize the SetupViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-setup-screen-delegate.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-setup-screen-delegate",
+  "permalink": "/ios/components/productdb-setup-screen-delegate",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-setup-screen-delegate.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-setup-screen.svg",
+    "description": "Learn how to use and customize the SetupViewController component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBSettingViewController",
+    "permalink": "/ios/components/productdb-settings"
+  },
+  "next": {
+    "title": "ProductDBSetupViewController",
+    "permalink": "/ios/components/productdb-setup-screen"
+  }
+}

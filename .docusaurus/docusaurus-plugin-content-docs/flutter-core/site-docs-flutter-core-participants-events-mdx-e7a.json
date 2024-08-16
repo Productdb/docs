@@ -1,0 +1,49 @@
+{
+  "id": "participants/events",
+  "title": "Participant Events",
+  "description": "Explore events related to participants in Flutter. Follow our documentation for effective handling of participant events in your Flutter app.",
+  "source": "@site/docs/flutter-core/participants/events.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/events",
+  "permalink": "/flutter-core/participants/events",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/participants/events.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/flutter-core/tags/participants"
+    },
+    {
+      "label": "self",
+      "permalink": "/flutter-core/tags/self"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Participant Events",
+    "description": "Explore events related to participants in Flutter. Follow our documentation for effective handling of participant events in your Flutter app.",
+    "sidebar_position": 3,
+    "tags": [
+      "flutter-core",
+      "participants",
+      "self"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participant Object",
+    "permalink": "/flutter-core/participants/participant-object"
+  },
+  "next": {
+    "title": "Waitlisted Participants",
+    "permalink": "/flutter-core/participants/waitlisted-participants"
+  }
+}

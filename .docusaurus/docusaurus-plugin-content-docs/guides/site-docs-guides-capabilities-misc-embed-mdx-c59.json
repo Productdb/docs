@@ -1,0 +1,30 @@
+{
+  "id": "capabilities/misc/embed",
+  "title": "No code Integration",
+  "description": "You can easily integrate ProductDB into your project without any SDK using an iFrame. An iFrame is a quick and easy way to embed a live video solution into your own website or application without modifying the underlying code.",
+  "source": "@site/docs/guides/capabilities/misc/embed.mdx",
+  "sourceDirName": "capabilities/misc",
+  "slug": "/capabilities/misc/embed",
+  "permalink": "/guides/capabilities/misc/embed",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/misc/embed.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "No code Integration",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SIP Interconnect",
+    "permalink": "/guides/capabilities/sip"
+  },
+  "next": {
+    "title": "Restream to Social Platforms",
+    "permalink": "/guides/capabilities/misc/livestreaming-other-platforms"
+  }
+}

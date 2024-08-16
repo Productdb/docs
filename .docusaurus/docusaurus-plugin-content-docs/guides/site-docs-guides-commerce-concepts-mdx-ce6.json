@@ -1,0 +1,30 @@
+{
+  "id": "commerce/concepts",
+  "title": "Concepts",
+  "description": "Basic Concepts",
+  "source": "@site/docs/guides/commerce/concepts.mdx",
+  "sourceDirName": "commerce",
+  "slug": "/commerce/concepts",
+  "permalink": "/guides/commerce/concepts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/commerce/concepts.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Concepts",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/guides/commerce/get-started"
+  },
+  "next": {
+    "title": "Server Integration",
+    "permalink": "/guides/commerce/build-voice-app"
+  }
+}

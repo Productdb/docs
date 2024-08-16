@@ -1,0 +1,30 @@
+{
+  "id": "livestreaming",
+  "title": "Livestreaming",
+  "description": "- Livestreaming is often used for events, such as concerts, conferences, and sports games, as well as for online classes, gaming, and social media platforms.",
+  "source": "@site/docs/rn-core/livestreaming.mdx",
+  "sourceDirName": ".",
+  "slug": "/livestreaming",
+  "permalink": "/rn-core/livestreaming",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/livestreaming.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "Livestreaming",
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stage Management",
+    "permalink": "/rn-core/stage"
+  },
+  "next": {
+    "title": "Debug System Error Codes",
+    "permalink": "/rn-core/error-codes/error-code"
+  }
+}

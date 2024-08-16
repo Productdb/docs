@@ -1,0 +1,32 @@
+{
+  "id": "capabilities/recording/advanced/create-record-app-using-sdks",
+  "title": "Create Custom Recording App Using Recording SDKs",
+  "description": "Learn how to create a recording app using ProductDB's SDKs. Follow our guide for effective app creation and integration.",
+  "source": "@site/docs/guides/capabilities/recording/advanced/create-record-app-using-sdks.mdx",
+  "sourceDirName": "capabilities/recording/advanced",
+  "slug": "/capabilities/recording/create-record-app-using-sdks",
+  "permalink": "/guides/capabilities/recording/create-record-app-using-sdks",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/recording/advanced/create-record-app-using-sdks.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "title": "Create Custom Recording App Using Recording SDKs",
+    "sidebar_position": 12,
+    "slug": "/capabilities/recording/create-record-app-using-sdks",
+    "description": "Learn how to create a recording app using ProductDB's SDKs. Follow our guide for effective app creation and integration."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interactive Recordings with Timed Metadata",
+    "permalink": "/guides/capabilities/recording/interactive-recording"
+  },
+  "next": {
+    "title": "Enable/Disable Screenshare",
+    "permalink": "/guides/capabilities/screensharing/basics"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-recording-toggle",
+  "title": "ProductDBRecordingToggle",
+  "description": "Learn how to use and customize the ProductDBRecordingToggle component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-recording-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-recording-toggle",
+  "permalink": "/react-ui-kit/components/productdb-recording-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-recording-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBRecordingToggle component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBRecordingIndicator",
+    "permalink": "/react-ui-kit/components/productdb-recording-indicator"
+  },
+  "next": {
+    "title": "ProductDBRemoteAccessManager",
+    "permalink": "/react-ui-kit/components/productdb-remote-access-manager"
+  }
+}

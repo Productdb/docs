@@ -1,0 +1,29 @@
+{
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "This quickstart shows how to use ProductDB's UI Kit prebuilt components to add live",
+  "source": "@site/docs/react-ui-kit/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/react-ui-kit/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/quickstart.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/react-ui-kit/"
+  },
+  "next": {
+    "title": "Design System",
+    "permalink": "/react-ui-kit/design-system"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-settings",
+  "title": "ProductDBSettings",
+  "description": "Learn how to use and customize the ProductDBSettings component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-settings.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-settings",
+  "permalink": "/react-ui-kit/components/productdb-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-settings.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-settings.svg",
+    "description": "Learn how to use and customize the ProductDBSettings component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBSettingsVideo",
+    "permalink": "/react-ui-kit/components/productdb-settings-video"
+  },
+  "next": {
+    "title": "DyteSetupScreen",
+    "permalink": "/react-ui-kit/components/productdb-setup-screen"
+  }
+}

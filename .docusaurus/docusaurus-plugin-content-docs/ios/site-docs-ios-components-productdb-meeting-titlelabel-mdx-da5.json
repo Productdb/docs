@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-meeting-titlelabel",
+  "title": "ProductDBMeetingTitleLabel",
+  "description": "Learn how to use and customize the ProductDBMeetingTitleView component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-meeting-titlelabel.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-meeting-titlelabel",
+  "permalink": "/ios/components/productdb-meeting-titlelabel",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-meeting-titlelabel.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-meeting-title.svg",
+    "description": "Learn how to use and customize the ProductDBMeetingTitleView component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBLeaveDialog",
+    "permalink": "/ios/components/productdb-leave-meeting-alert"
+  },
+  "next": {
+    "title": "ProductDBUIKit",
+    "permalink": "/ios/components/productdb-meeting"
+  }
+}

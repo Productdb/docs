@@ -1,0 +1,49 @@
+{
+  "id": "participants/pip",
+  "title": "Picture-in-Picture",
+  "description": "Events, methods and data pertaining to browser picture in picture mode",
+  "source": "@site/docs/web-core/participants/pip.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/pip",
+  "permalink": "/web-core/participants/pip",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/participants/pip.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/web-core/tags/participants"
+    },
+    {
+      "label": "participant",
+      "permalink": "/web-core/tags/participant"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Picture-in-Picture",
+    "description": "Events, methods and data pertaining to browser picture in picture mode",
+    "sidebar_position": 3,
+    "tags": [
+      "web-core",
+      "participants",
+      "participant"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/web-core/participants/events"
+  },
+  "next": {
+    "title": "Permissions",
+    "permalink": "/web-core/participants/permissions"
+  }
+}

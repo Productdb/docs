@@ -1,0 +1,27 @@
+{
+  "id": "pre-call/handling-permissions",
+  "title": "Handling Device Permissions",
+  "description": "Before allowing users to interact with their camera and microphone, it's important to check if the necessary permissions are",
+  "source": "@site/docs/ios-core/pre-call/2-handling-permissions.mdx",
+  "sourceDirName": "pre-call",
+  "slug": "/pre-call/handling-permissions",
+  "permalink": "/ios-core/pre-call/handling-permissions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios-core/pre-call/2-handling-permissions.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Preview",
+    "permalink": "/ios-core/pre-call/media-preview"
+  },
+  "next": {
+    "title": "Meeting Metadata",
+    "permalink": "/ios-core/pre-call/meeting-meta"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "capabilities/plugins/streamer",
+  "title": "Plugin: Streamer",
+  "description": "Streamer allows you to share & watch your favorite videos together. The plugin exposes a few APIs to control the video playback",
+  "source": "@site/docs/guides/capabilities/plugins/streamer.mdx",
+  "sourceDirName": "capabilities/plugins",
+  "slug": "/capabilities/plugins/streamer",
+  "permalink": "/guides/capabilities/plugins/streamer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/plugins/streamer.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "frontMatter": {
+    "title": "Plugin: Streamer"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plugin: Document Sharing",
+    "permalink": "/guides/capabilities/plugins/docshare"
+  },
+  "next": {
+    "title": "Plugin: Whiteboard",
+    "permalink": "/guides/capabilities/plugins/whiteboard"
+  }
+}

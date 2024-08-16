@@ -1,0 +1,33 @@
+{
+  "id": "socketio-client/intro",
+  "title": "Overview",
+  "description": "This is a Socket.IO Client Library for Kotlin (Multiplatform), which is ported from the official socket.io-client-java It is compatible with Socket.IO server 3.x / 4.x",
+  "source": "@site/docs/community-packages/socketio-client/intro.mdx",
+  "sourceDirName": "socketio-client",
+  "slug": "/socketio-client/",
+  "permalink": "/community-packages/socketio-client/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/community-packages/socketio-client/intro.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "slug": "./",
+    "sidebar_position": 1,
+    "keywords": [
+      "opensource"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Examples",
+    "permalink": "/community-packages/device-emulator/examples"
+  },
+  "next": {
+    "title": "Initialization",
+    "permalink": "/community-packages/socketio-client/initialization"
+  }
+}

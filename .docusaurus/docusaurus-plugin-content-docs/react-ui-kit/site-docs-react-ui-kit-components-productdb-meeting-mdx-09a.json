@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-meeting",
+  "title": "ProductDBMeeting",
+  "description": "Learn how to use and customize the ProductDBMeeting component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-meeting.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-meeting",
+  "permalink": "/react-ui-kit/components/productdb-meeting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-meeting.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-meeting.svg",
+    "description": "Learn how to use and customize the ProductDBMeeting component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBMeetingTitle",
+    "permalink": "/react-ui-kit/components/productdb-meeting-title"
+  },
+  "next": {
+    "title": "ProductDBMenuItem",
+    "permalink": "/react-ui-kit/components/productdb-menu-item"
+  }
+}

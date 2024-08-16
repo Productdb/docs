@@ -1,0 +1,30 @@
+{
+  "id": "design-system",
+  "title": "Design System",
+  "description": "Details about the Design System in ProductDB's React Native UI Kit.",
+  "source": "@site/docs/rn-ui-kit/design-system.mdx",
+  "sourceDirName": ".",
+  "slug": "/design-system",
+  "permalink": "/react-native/design-system",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/design-system.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "description": "Details about the Design System in ProductDB's React Native UI Kit."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/react-native/quickstart"
+  },
+  "next": {
+    "title": "Use React Native Core Hooks",
+    "permalink": "/react-native/using-hooks"
+  }
+}

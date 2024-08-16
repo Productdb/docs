@@ -1,0 +1,49 @@
+{
+  "id": "polls/creating-a-poll",
+  "title": "Creating a poll",
+  "description": "Create and manage polls in your Android app using ProductDB's documentation on Polls Creation.",
+  "source": "@site/docs/android-core/polls/creating-a-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/creating-a-poll",
+  "permalink": "/android-core/polls/creating-a-poll",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/polls/creating-a-poll.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/android-core/tags/polls"
+    },
+    {
+      "label": "create",
+      "permalink": "/android-core/tags/create"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Creating a poll",
+    "description": "Create and manage polls in your Android app using ProductDB's documentation on Polls Creation.",
+    "sidebar_position": 2,
+    "tags": [
+      "android-core",
+      "polls",
+      "create"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/android-core/polls/introduction"
+  },
+  "next": {
+    "title": "Voting on a poll",
+    "permalink": "/android-core/polls/voting-on-a-poll"
+  }
+}

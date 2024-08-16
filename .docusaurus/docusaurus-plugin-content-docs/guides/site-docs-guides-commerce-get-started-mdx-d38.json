@@ -1,0 +1,30 @@
+{
+  "id": "commerce/get-started",
+  "title": "Setup",
+  "description": "To get started with creating live video calls from ProductDB, make sure to finish these steps and then move on to integrating ProductDB in your application.",
+  "source": "@site/docs/guides/commerce/get-started.mdx",
+  "sourceDirName": "commerce",
+  "slug": "/commerce/get-started",
+  "permalink": "/guides/commerce/get-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/commerce/get-started.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Setup",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/guides/commerce/intro-commerce"
+  },
+  "next": {
+    "title": "Concepts",
+    "permalink": "/guides/commerce/concepts"
+  }
+}

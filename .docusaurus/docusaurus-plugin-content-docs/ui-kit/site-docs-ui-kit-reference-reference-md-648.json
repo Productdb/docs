@@ -1,0 +1,31 @@
+{
+  "id": "reference/reference",
+  "title": "Reference",
+  "description": "Interfaces",
+  "source": "@site/docs/ui-kit/reference/reference.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/",
+  "permalink": "/ui-kit/reference/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "id": "reference",
+    "title": "Reference",
+    "custom_edit_url": null,
+    "sidebar_class_name": "hideReferenceSidebarLink"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Release Notes",
+    "permalink": "/ui-kit/release-notes"
+  },
+  "next": {
+    "title": "Interface: Notification",
+    "permalink": "/ui-kit/reference/interfaces/Notification"
+  }
+}

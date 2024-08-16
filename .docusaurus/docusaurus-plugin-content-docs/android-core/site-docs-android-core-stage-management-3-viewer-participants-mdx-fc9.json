@@ -1,0 +1,44 @@
+{
+  "id": "stage-management/viewer-participants",
+  "title": "Stage Access for Viewers",
+  "description": "Stage APIs for Viewers in ProductDB meetings.",
+  "source": "@site/docs/android-core/stage-management/3-viewer-participants.mdx",
+  "sourceDirName": "stage-management",
+  "slug": "/stage-management/viewer-participants",
+  "permalink": "/android-core/stage-management/viewer-participants",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/stage-management/3-viewer-participants.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "stage",
+      "permalink": "/android-core/tags/stage"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Stage Access for Viewers",
+    "description": "Stage APIs for Viewers in ProductDB meetings.",
+    "sidebar_position": 3,
+    "tags": [
+      "android-core",
+      "stage"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stage Host Controls",
+    "permalink": "/android-core/stage-management/host-controls"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/android-core/livestream/introduction"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "reference/classes/ProductDBNotificationsAudio",
+  "title": "Class: ProductDBNotificationsAudio",
+  "description": "Handles notification sounds in a meeting",
+  "source": "@site/docs/angular-ui-kit/reference/classes/ProductDBNotificationsAudio.md",
+  "sourceDirName": "reference/classes",
+  "slug": "/reference/classes/ProductDBNotificationsAudio",
+  "permalink": "/angular-ui-kit/reference/classes/ProductDBNotificationsAudio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723756942,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "id": "ProductDBNotificationsAudio",
+    "title": "Class: ProductDBNotificationsAudio",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interface: UserPreferences",
+    "permalink": "/angular-ui-kit/reference/interfaces/UserPreferences"
+  }
+}

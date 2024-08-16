@@ -1,0 +1,38 @@
+{
+  "id": "local-user/screen-share-iOS-guide",
+  "title": "Sharing screen on iOS",
+  "description": "This document explains how to setup screen sharing on a Flutter iOS App using ProductDB SDK",
+  "source": "@site/docs/flutter-core/local-user/screen-share-iOS-guide.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/screen-share-iOS-guide",
+  "permalink": "/flutter-core/local-user/screen-share-iOS-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/local-user/screen-share-iOS-guide.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "title": "Sharing screen on iOS",
+    "sidebar_position": 12,
+    "tags": [
+      "flutter-core"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Permissions",
+    "permalink": "/flutter-core/local-user/manage-permissions"
+  },
+  "next": {
+    "title": "Room Metadata",
+    "permalink": "/flutter-core/room-metadata"
+  }
+}

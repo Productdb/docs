@@ -1,0 +1,44 @@
+{
+  "id": "polls/introduction",
+  "title": "Introduction",
+  "description": "Get started with ProductDB's polling features in Flutter. Follow our documentation for an introduction to polling capabilities in your app.",
+  "source": "@site/docs/flutter-core/polls/introduction.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/introduction",
+  "permalink": "/flutter-core/polls/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/polls/introduction.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/flutter-core/tags/polls"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Get started with ProductDB's polling features in Flutter. Follow our documentation for an introduction to polling capabilities in your app.",
+    "sidebar_position": 1,
+    "tags": [
+      "flutter-core",
+      "polls"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Waitlisted Participants",
+    "permalink": "/flutter-core/participants/waitlisted-participants"
+  },
+  "next": {
+    "title": "Creating a poll",
+    "permalink": "/flutter-core/polls/creating-a-poll"
+  }
+}

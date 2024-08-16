@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-polls",
+  "title": "productdb-polls",
+  "description": "Learn how to use and customize the productdb-polls component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/productdb-polls.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-polls",
+  "permalink": "/angular-ui-kit/components/productdb-polls",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/productdb-polls.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-polls.svg",
+    "description": "Learn how to use and customize the productdb-polls component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-polls-toggle",
+    "permalink": "/angular-ui-kit/components/productdb-polls-toggle"
+  },
+  "next": {
+    "title": "productdb-recording-indicator",
+    "permalink": "/angular-ui-kit/components/productdb-recording-indicator"
+  }
+}

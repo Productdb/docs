@@ -1,0 +1,30 @@
+{
+  "id": "design-system",
+  "title": "Design System",
+  "description": "Let's look at how you can customize and brand your UI with ProductDB's UI Kit.",
+  "source": "@site/docs/ios/design-system.mdx",
+  "sourceDirName": ".",
+  "slug": "/design-system",
+  "permalink": "/ios/design-system",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/design-system.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Design System"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/ios/quickstart"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/ios/events"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "participants/pre-built-participants-screen",
+  "title": "Pre-built Participants Screen",
+  "description": "Learn how to use and customize the ParticipantViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/participants/pre-built-participants-screen.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/pre-built-participants-screen",
+  "permalink": "/ios/participants/pre-built-participants-screen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/participants/pre-built-participants-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-participants.svg",
+    "sidebar_position": 2,
+    "description": "Learn how to use and customize the ParticipantViewController component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/ios/participants/introduction"
+  },
+  "next": {
+    "title": "Participant Types",
+    "permalink": "/ios/participants/type-of-participants"
+  }
+}

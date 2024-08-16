@@ -1,0 +1,27 @@
+{
+  "id": "pre-call/meeting-meta",
+  "title": "Meeting Metadata",
+  "description": "Change the name of the user",
+  "source": "@site/docs/web-core/pre-call/4-meeting-meta.mdx",
+  "sourceDirName": "pre-call",
+  "slug": "/pre-call/meeting-meta",
+  "permalink": "/web-core/pre-call/meeting-meta",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/pre-call/4-meeting-meta.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Virtual BG and Noise Cancellation",
+    "permalink": "/web-core/pre-call/virtual-bg"
+  },
+  "next": {
+    "title": "Waiting Room",
+    "permalink": "/web-core/pre-call/waiting-room"
+  }
+}

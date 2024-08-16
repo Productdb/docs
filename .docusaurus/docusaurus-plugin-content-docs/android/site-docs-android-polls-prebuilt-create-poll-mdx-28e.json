@@ -1,0 +1,30 @@
+{
+  "id": "polls/prebuilt-create-poll",
+  "title": "Prebuilt Create Poll Screen",
+  "description": "In ProductDB meetings, participants can create polls to gather opinions or make decisions collectively.",
+  "source": "@site/docs/android/polls/prebuilt-create-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/prebuilt-create-poll",
+  "permalink": "/android/polls/prebuilt-create-poll",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/polls/prebuilt-create-poll.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Prebuilt Create Poll Screen"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prebuilt Polls Screen",
+    "permalink": "/android/polls/prebuilt-polls-screen"
+  },
+  "next": {
+    "title": "Gallery",
+    "permalink": "/android/components"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "index",
+  "title": "Community packages",
+  "description": "Explore ProductDB's community packages and their documentation. Discover additional functionalities contributed by the community.",
+  "source": "@site/docs/community-packages/index.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/community-packages/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/community-packages/index.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "slug": "/",
+    "sidebar_position": 1,
+    "sidebar_class_name": "community_packages_sidebar_index",
+    "description": "Explore ProductDB's community packages and their documentation. Discover additional functionalities contributed by the community."
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction",
+    "permalink": "/community-packages/device-emulator"
+  }
+}

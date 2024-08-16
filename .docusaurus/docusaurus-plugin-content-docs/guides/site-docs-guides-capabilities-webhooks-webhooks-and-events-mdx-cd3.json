@@ -1,0 +1,31 @@
+{
+  "id": "capabilities/webhooks/webhooks-and-events",
+  "title": "Set Up Webhooks to Receive Real-time Updates",
+  "description": "Learn about the relationship between webhooks and events in ProductDB. Follow our guide for effective integration and management.",
+  "source": "@site/docs/guides/capabilities/webhooks/webhooks-and-events.mdx",
+  "sourceDirName": "capabilities/webhooks",
+  "slug": "/capabilities/webhooks/webhooks-and-events",
+  "permalink": "/guides/capabilities/webhooks/webhooks-and-events",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/webhooks/webhooks-and-events.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Set Up Webhooks to Receive Real-time Updates",
+    "sidebar_position": 2,
+    "description": "Learn about the relationship between webhooks and events in ProductDB. Follow our guide for effective integration and management."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks Overview",
+    "permalink": "/guides/capabilities/webhooks/webhooks-overview"
+  },
+  "next": {
+    "title": "Webhook Events List",
+    "permalink": "/guides/capabilities/webhooks/webhook-events"
+  }
+}

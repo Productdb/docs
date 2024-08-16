@@ -1,0 +1,30 @@
+{
+  "id": "build-pre-call-ui/build-your-own/edit-user-name",
+  "title": "Edit user name",
+  "description": "A common use case of pre-call UI is to give the user a option to set / edit their name.",
+  "source": "@site/docs/react-ui-kit/build-pre-call-ui/build-your-own/edit-user-name.mdx",
+  "sourceDirName": "build-pre-call-ui/build-your-own",
+  "slug": "/build-pre-call-ui/build-your-own/edit-user-name",
+  "permalink": "/react-ui-kit/build-pre-call-ui/build-your-own/edit-user-name",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-pre-call-ui/build-your-own/edit-user-name.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Edit user name",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic structure",
+    "permalink": "/react-ui-kit/build-pre-call-ui/build-your-own/initial-code-skeleton"
+  },
+  "next": {
+    "title": "Audio/video - Preview",
+    "permalink": "/react-ui-kit/build-pre-call-ui/build-your-own/add-audio-video-preview"
+  }
+}

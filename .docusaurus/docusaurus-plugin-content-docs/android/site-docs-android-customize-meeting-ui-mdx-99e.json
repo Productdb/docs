@@ -1,0 +1,30 @@
+{
+  "id": "customize-meeting-ui",
+  "title": "Customize your Meeting UI",
+  "description": "Customize the meeting UI of your Android application using ProductDB Docs as your guide.",
+  "source": "@site/docs/android/customize-meeting-ui.mdx",
+  "sourceDirName": ".",
+  "slug": "/customize-meeting-ui",
+  "permalink": "/android/customize-meeting-ui",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/customize-meeting-ui.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "description": "Customize the meeting UI of your Android application using ProductDB Docs as your guide."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/android/"
+  },
+  "next": {
+    "title": "Advanced usage",
+    "permalink": "/android/advanced-usage"
+  }
+}

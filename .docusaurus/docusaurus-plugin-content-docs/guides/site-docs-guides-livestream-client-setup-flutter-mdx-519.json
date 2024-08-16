@@ -1,0 +1,31 @@
+{
+  "id": "livestream/client-setup/flutter",
+  "title": "Flutter",
+  "description": "Learn how to set up the Livestream client in Flutter with ProductDB. Follow our guide for effective Flutter client setup.",
+  "source": "@site/docs/guides/livestream/client-setup/flutter.mdx",
+  "sourceDirName": "livestream/client-setup",
+  "slug": "/livestream/client-setup/flutter",
+  "permalink": "/guides/livestream/client-setup/flutter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/livestream/client-setup/flutter.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Flutter",
+    "sidebar_position": 6,
+    "description": "Learn how to set up the Livestream client in Flutter with ProductDB. Follow our guide for effective Flutter client setup."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "iOS",
+    "permalink": "/guides/livestream/client-setup/ios"
+  },
+  "next": {
+    "title": "Configure Permissions",
+    "permalink": "/guides/livestream/advanced/configuring-permissions"
+  }
+}

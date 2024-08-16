@@ -1,0 +1,45 @@
+{
+  "id": "participants/participant-object",
+  "title": "Participant Object",
+  "description": "The object corresponding to a particular participant.",
+  "source": "@site/docs/ios-core/participants/participant-object.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/participant-object",
+  "permalink": "/ios-core/participants/participant-object",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios-core/participants/participant-object.mdx",
+  "tags": [
+    {
+      "label": "ios-core",
+      "permalink": "/ios-core/tags/ios-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/ios-core/tags/participants"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Participant Object",
+    "description": "The object corresponding to a particular participant.",
+    "sidebar_position": 2,
+    "slug": "/participants/participant-object",
+    "tags": [
+      "ios-core",
+      "participants"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participant Types",
+    "permalink": "/ios-core/participants/"
+  },
+  "next": {
+    "title": "Participant Events",
+    "permalink": "/ios-core/participants/events"
+  }
+}

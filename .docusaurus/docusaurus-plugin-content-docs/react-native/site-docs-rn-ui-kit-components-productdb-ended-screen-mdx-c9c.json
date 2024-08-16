@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-ended-screen",
+  "title": "ProductDBEndedScreen",
+  "description": "Learn how to use and customize the ProductDBEndedScreen component in ProductDB's React Native UI Kit with our detailed documentation.",
+  "source": "@site/docs/rn-ui-kit/components/productdb-ended-screen.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-ended-screen",
+  "permalink": "/react-native/components/productdb-ended-screen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/components/productdb-ended-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-ended-screen.svg",
+    "description": "Learn how to use and customize the ProductDBEndedScreen component in ProductDB's React Native UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBDialog",
+    "permalink": "/react-native/components/productdb-dialog"
+  },
+  "next": {
+    "title": "ProductDBFileMessage",
+    "permalink": "/react-native/components/productdb-file-message"
+  }
+}

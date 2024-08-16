@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-file-message",
+  "title": "productdb-file-message",
+  "description": "Learn how to use and customize the productdb-file-message component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/productdb-file-message.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-file-message",
+  "permalink": "/ui-kit/components/productdb-file-message",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/productdb-file-message.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the productdb-file-message component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-ended-screen",
+    "permalink": "/ui-kit/components/productdb-ended-screen"
+  },
+  "next": {
+    "title": "productdb-fullscreen-toggle",
+    "permalink": "/ui-kit/components/productdb-fullscreen-toggle"
+  }
+}

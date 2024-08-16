@@ -1,0 +1,29 @@
+{
+  "id": "classification/client-setup/flutter",
+  "title": "Flutter",
+  "description": "Learn how to set up the client for live video in Flutter with ProductDB's features. Follow our guide for effective Flutter client setup.",
+  "source": "@site/docs/guides/classification/client-setup/flutter.mdx",
+  "sourceDirName": "classification/client-setup",
+  "slug": "/classification/client-setup/flutter",
+  "permalink": "/guides/classification/client-setup/flutter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/classification/client-setup/flutter.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Flutter",
+    "pagination_prev": null,
+    "pagination_next": "classification/next-steps",
+    "sidebar_position": 6,
+    "description": "Learn how to set up the client for live video in Flutter with ProductDB's features. Follow our guide for effective Flutter client setup."
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Next Steps",
+    "permalink": "/guides/classification/next-steps"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-controlbar-button",
+  "title": "ProductDBControlBarButton",
+  "description": "Learn how to use and customize the ProductDBControlBarButton component in ProductDB's Android with our detailed documentation.",
+  "source": "@site/docs/android/components/productdb-controlbar-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-controlbar-button",
+  "permalink": "/android/components/productdb-controlbar-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/productdb-controlbar-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-controlbar-button.svg",
+    "description": "Learn how to use and customize the ProductDBControlBarButton component in ProductDB's Android with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBClockView",
+    "permalink": "/android/components/productdb-clock"
+  },
+  "next": {
+    "title": "ProductDBGridPaginatorView",
+    "permalink": "/android/components/productdb-grid-pagination"
+  }
+}

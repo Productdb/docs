@@ -4,22 +4,22 @@ sidebar_position: 2
 
 # Quickstart
 
-This quickstart shows how to use ProductDB's UI Kit prebuilt components to add live
+This quickstart shows how to use Dyte's UI Kit prebuilt components to add live
 video and audio to your React application with minimal coding and a variety of
 meeting UI customization options.
 
 For getting started quickly, you can use our
-[sample code](https://github.com/productdb-io/react-samples). You can clone and run a
+[sample code](https://github.com/dyte-io/react-samples). You can clone and run a
 sample application from the
-[React UI Kit GitHub repository](https://github.com/productdb-io/react-samples).
+[React UI Kit GitHub repository](https://github.com/dyte-io/react-samples).
 
 ## Before Getting Started
 
-- Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
+- Make sure you've read the [Getting Started with Dyte](/getting-started) topic
   and completed the following steps:
 
-  - Create a [ProductDB Developer Account](https://dev.productdb.io/)
-  - Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
+  - Create a [Dyte Developer Account](https://dev.dyte.io/)
+  - Create a [Dyte Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
 ## Step 1: Install the SDK
@@ -55,10 +55,10 @@ packages, try installing them separately.
 
 Here's a series of steps that you need to perform:
 
-1. Set up `ProductDBProvider`. You need it to import the `ProductDBProvider` from the
-   `dytesdk/react-web-core`. ProductDBProvider basically is a hook wrapper on
+1. Set up `DyteProvider`. You need it to import the `DyteProvider` from the
+   `dytesdk/react-web-core`. DyteProvider basically is a hook wrapper on
    dytesdk/web-core. This provides a meeting object to child components.
-2. Initialize the ProductDB client. Use the `useDyteClient()` hook and `initMeeting`
+2. Initialize the Dyte client. Use the `useDyteClient()` hook and `initMeeting`
    to initialize a client.
 3. Call the `init()` method and pass the `authToken`:
 
@@ -76,7 +76,7 @@ Here's a series of steps that you need to perform:
 ```jsx
 import { useEffect } from 'react';
 import { useDyteClient } from '@dytesdk/react-web-core';
-import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
+import { DyteMeeting } from '@dytesdk/react-ui-kit';
 
 export default function App() {
   const [meeting, initMeeting] = useDyteClient();
@@ -92,25 +92,25 @@ export default function App() {
   }, []);
 
   return (
-    <ProductDBProvider value={meeting}>
+    <DyteProvider value={meeting}>
       <MyMeetingUI />
-    </ProductDBProvider>
+    </DyteProvider>
   );
 }
 ```
 
-## Step 3: Use `ProductDBMeeting` component
+## Step 3: Use `DyteMeeting` component
 
 In the following example, a meeting is created using the `useDyteMeeting`
 component. `useDyteMeeting` essentially returns the meeting object you passed to
-the `ProductDBProvider`.
+the `DyteProvider`.
 
-`ProductDBMeeting` renders the entire meeting UI. It loads your preset and renders
+`DyteMeeting` renders the entire meeting UI. It loads your preset and renders
 the UI based on it. With this component, you don't have to handle all the
 states, dialogs, and other smaller bits of managing the application.
 
-For more information on the other props of `ProductDBMeeting`, see
-[ProductDBMeeting](/react-ui-kit/components/productdb-meeting).
+For more information on the other props of `DyteMeeting`, see
+[DyteMeeting](/react-ui-kit/components/dyte-meeting).
 
 import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 
@@ -118,14 +118,14 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 highlight={[{start: 9, end: 9}]}
 hide={[{start:1, end: 3}]}
 file={`
-import { ProductDBMeeting } from '@dytesdk/react-ui-kit';
+import { DyteMeeting } from '@dytesdk/react-ui-kit';
 import { useDyteMeeting } from '@dytesdk/react-web-core';
 
 export default function MyMeetingUI() {
   const { meeting } = useDyteMeeting();
 
 return (
-<ProductDBMeeting mode="fill" meeting={meeting} showSetupScreen={false} />
+<DyteMeeting mode="fill" meeting={meeting} showSetupScreen={false} />
 );
 }
 `} />

@@ -1,0 +1,30 @@
+{
+  "id": "reference/interfaces/Notification",
+  "title": "Interface: Notification",
+  "description": "Notification object type, which is used in ``.",
+  "source": "@site/docs/rn-ui-kit/reference/interfaces/Notification.md",
+  "sourceDirName": "reference/interfaces",
+  "slug": "/reference/interfaces/Notification",
+  "permalink": "/react-native/reference/interfaces/Notification",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "id": "Notification",
+    "title": "Interface: Notification",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reference",
+    "permalink": "/react-native/reference/"
+  },
+  "next": {
+    "title": "Interface: PollObject",
+    "permalink": "/react-native/reference/interfaces/PollObject"
+  }
+}

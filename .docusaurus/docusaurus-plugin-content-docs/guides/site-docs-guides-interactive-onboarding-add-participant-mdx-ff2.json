@@ -1,0 +1,31 @@
+{
+  "id": "interactive-onboarding/add-participant",
+  "title": "Add Participant",
+  "description": "",
+  "source": "@site/docs/guides/interactive-onboarding/add-participant.mdx",
+  "sourceDirName": "interactive-onboarding",
+  "slug": "/interactive-onboarding/add-participant",
+  "permalink": "/guides/interactive-onboarding/add-participant",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/interactive-onboarding/add-participant.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Add Participant",
+    "sidebar_position": 2,
+    "sidebar_class_name": "interactive-tour add-participant"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Meeting",
+    "permalink": "/guides/interactive-onboarding/create-meeting"
+  },
+  "next": {
+    "title": "Init SDK",
+    "permalink": "/guides/interactive-onboarding/init-sdk"
+  }
+}

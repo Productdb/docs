@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-notifications",
+  "title": "ProductDBNotifications",
+  "description": "Learn how to use and customize the ProductDBNotifications component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-notifications.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-notifications",
+  "permalink": "/react-ui-kit/components/productdb-notifications",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-notifications.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBNotifications component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBNotification",
+    "permalink": "/react-ui-kit/components/productdb-notification"
+  },
+  "next": {
+    "title": "ProductDBOverlayModal",
+    "permalink": "/react-ui-kit/components/productdb-overlay-modal"
+  }
+}

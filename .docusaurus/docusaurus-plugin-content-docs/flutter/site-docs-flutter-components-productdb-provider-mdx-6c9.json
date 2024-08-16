@@ -1,0 +1,26 @@
+{
+  "id": "Components/productdb-provider",
+  "title": "ProductDBProvider",
+  "description": "A foundational widget designed to initialize and provide the necessary ProductDB environment for a Flutter application. The ProductDBProvider acts as a context wrapper that sets up design tokens, client configurations, and UI Kit information required for ProductDB components. It ensures that ProductDB functionalities are available and properly initialized throughout the widget tree where it's used.",
+  "source": "@site/docs/flutter/Components/productdb-provider.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/productdb-provider",
+  "permalink": "/flutter/Components/productdb-provider",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/productdb-provider.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBPollsScreen",
+    "permalink": "/flutter/Components/productdb-polls-screen"
+  },
+  "next": {
+    "title": "ProductDBSelfAudioToggleButton",
+    "permalink": "/flutter/Components/productdb-self-audio-toggle"
+  }
+}

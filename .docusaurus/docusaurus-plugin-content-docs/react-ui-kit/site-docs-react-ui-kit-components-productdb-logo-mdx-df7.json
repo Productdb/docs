@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-logo",
+  "title": "ProductDBLogo",
+  "description": "Learn how to use and customize the ProductDBLogo component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-logo.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-logo",
+  "permalink": "/react-ui-kit/components/productdb-logo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-logo.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-logo.svg",
+    "description": "Learn how to use and customize the ProductDBLogo component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBLeaveMeeting",
+    "permalink": "/react-ui-kit/components/productdb-leave-meeting"
+  },
+  "next": {
+    "title": "ProductDBMeetingTitle",
+    "permalink": "/react-ui-kit/components/productdb-meeting-title"
+  }
+}

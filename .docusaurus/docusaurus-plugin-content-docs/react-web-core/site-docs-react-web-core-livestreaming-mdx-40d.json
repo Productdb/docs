@@ -1,0 +1,30 @@
+{
+  "id": "livestreaming",
+  "title": "Livestreaming",
+  "description": "- Livestreaming is often used for events, such as concerts, conferences, and sports games, as well as for online classes, gaming, and social media platforms.",
+  "source": "@site/docs/react-web-core/livestreaming.mdx",
+  "sourceDirName": ".",
+  "slug": "/livestreaming",
+  "permalink": "/react-web-core/livestreaming",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/livestreaming.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "Livestreaming",
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stage Management",
+    "permalink": "/react-web-core/stage"
+  },
+  "next": {
+    "title": "Room Metadata",
+    "permalink": "/react-web-core/room-metadata"
+  }
+}

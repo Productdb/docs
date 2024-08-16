@@ -1,0 +1,15 @@
+{
+  "label": "releasenotes",
+  "permalink": "/android-core/tags/releasenotes",
+  "allTagsPath": "/android-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "release-notes",
+      "title": "Release Notes",
+      "description": "Android Core Release Notes",
+      "permalink": "/android-core/release-notes"
+    }
+  ],
+  "unlisted": false
+}

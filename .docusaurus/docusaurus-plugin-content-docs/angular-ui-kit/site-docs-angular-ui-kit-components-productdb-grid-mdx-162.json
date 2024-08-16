@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-grid",
+  "title": "productdb-grid",
+  "description": "Learn how to use and customize the productdb-grid component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/productdb-grid.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-grid",
+  "permalink": "/angular-ui-kit/components/productdb-grid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/productdb-grid.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-grid.svg",
+    "description": "Learn how to use and customize the productdb-grid component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-grid-pagination",
+    "permalink": "/angular-ui-kit/components/productdb-grid-pagination"
+  },
+  "next": {
+    "title": "productdb-header",
+    "permalink": "/angular-ui-kit/components/productdb-header"
+  }
+}

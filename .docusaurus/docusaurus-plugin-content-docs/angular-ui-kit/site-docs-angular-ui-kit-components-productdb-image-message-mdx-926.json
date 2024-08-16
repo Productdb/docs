@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-image-message",
+  "title": "productdb-image-message",
+  "description": "Learn how to use and customize the productdb-image-message component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/productdb-image-message.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-image-message",
+  "permalink": "/angular-ui-kit/components/productdb-image-message",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/productdb-image-message.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the productdb-image-message component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-idle-screen",
+    "permalink": "/angular-ui-kit/components/productdb-idle-screen"
+  },
+  "next": {
+    "title": "productdb-image-viewer",
+    "permalink": "/angular-ui-kit/components/productdb-image-viewer"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-configure-alertview-protocol",
+  "title": "ConfigureWebinerAlertView",
+  "description": "Learn how to use and customize the ConfigureWebinerAlertView component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-configure-alertview-protocol.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-configure-alertview-protocol",
+  "permalink": "/ios/components/productdb-configure-alertview-protocol",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-configure-alertview-protocol.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ConfigureWebinerAlertView component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBClockView",
+    "permalink": "/ios/components/productdb-clock"
+  },
+  "next": {
+    "title": "ProductDBControlBarButton",
+    "permalink": "/ios/components/productdb-controlbar-button"
+  }
+}

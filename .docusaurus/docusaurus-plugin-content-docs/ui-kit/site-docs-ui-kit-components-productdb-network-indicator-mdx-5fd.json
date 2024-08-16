@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-network-indicator",
+  "title": "productdb-network-indicator",
+  "description": "Learn how to use and customize the productdb-network-indicator component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/productdb-network-indicator.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-network-indicator",
+  "permalink": "/ui-kit/components/productdb-network-indicator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/productdb-network-indicator.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the productdb-network-indicator component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-name-tag",
+    "permalink": "/ui-kit/components/productdb-name-tag"
+  },
+  "next": {
+    "title": "productdb-notification",
+    "permalink": "/ui-kit/components/productdb-notification"
+  }
+}

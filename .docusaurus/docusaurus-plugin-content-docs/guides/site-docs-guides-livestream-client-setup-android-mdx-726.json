@@ -1,0 +1,31 @@
+{
+  "id": "livestream/client-setup/android",
+  "title": "Android",
+  "description": "Learn how to set up the Livestream client on Android with ProductDB. Follow our guide for effective Android client setup.",
+  "source": "@site/docs/guides/livestream/client-setup/android.mdx",
+  "sourceDirName": "livestream/client-setup",
+  "slug": "/livestream/client-setup/android",
+  "permalink": "/guides/livestream/client-setup/android",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/livestream/client-setup/android.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Android",
+    "sidebar_position": 4,
+    "description": "Learn how to set up the Livestream client on Android with ProductDB. Follow our guide for effective Android client setup."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React",
+    "permalink": "/guides/livestream/client-setup/react"
+  },
+  "next": {
+    "title": "iOS",
+    "permalink": "/guides/livestream/client-setup/ios"
+  }
+}

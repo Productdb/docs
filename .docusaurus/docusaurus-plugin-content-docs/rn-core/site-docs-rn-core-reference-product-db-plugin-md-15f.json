@@ -1,0 +1,30 @@
+{
+  "id": "reference/ProductDBPlugin",
+  "title": "ProductDBPlugin",
+  "description": "The ProductDBPlugin module represents a single plugin in the meeting.",
+  "source": "@site/docs/rn-core/reference/ProductDBPlugin.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/ProductDBPlugin",
+  "permalink": "/rn-core/reference/ProductDBPlugin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/reference/ProductDBPlugin.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBSelfMedia",
+    "permalink": "/rn-core/reference/ProductDBSelfMedia"
+  },
+  "next": {
+    "title": "ProductDBThemePreset",
+    "permalink": "/rn-core/reference/ProductDBThemePreset"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkproductdb_docs=self.webpackChunkproductdb_docs||[]).push([[63151],{87845:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"web-core"}')}}]);

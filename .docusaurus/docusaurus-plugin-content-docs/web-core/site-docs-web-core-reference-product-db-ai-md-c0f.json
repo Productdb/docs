@@ -1,0 +1,30 @@
+{
+  "id": "reference/ProductDBAi",
+  "title": "ProductDBAi",
+  "description": "This module consists of the ai object which is used to interface with ProductDB's AI features.",
+  "source": "@site/docs/web-core/reference/ProductDBAi.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/ProductDBAi",
+  "permalink": "/web-core/reference/ProductDBAi",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/reference/ProductDBAi.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBThemePreset",
+    "permalink": "/web-core/reference/ProductDBThemePreset"
+  },
+  "next": {
+    "title": "ProductDBRemote",
+    "permalink": "/web-core/reference/ProductDBRemote"
+  }
+}

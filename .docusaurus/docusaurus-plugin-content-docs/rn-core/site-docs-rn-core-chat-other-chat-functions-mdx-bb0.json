@@ -1,0 +1,44 @@
+{
+  "id": "chat/other-chat-functions",
+  "title": "Other chat functions",
+  "description": "Other functionality associated with chat.",
+  "source": "@site/docs/rn-core/chat/other-chat-functions.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/other-chat-functions",
+  "permalink": "/rn-core/chat/other-chat-functions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/chat/other-chat-functions.mdx",
+  "tags": [
+    {
+      "label": "rn-core",
+      "permalink": "/rn-core/tags/rn-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/rn-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Other chat functions",
+    "description": "Other functionality associated with chat.",
+    "sidebar_position": 5,
+    "tags": [
+      "rn-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Editing Chat Messages",
+    "permalink": "/rn-core/chat/edit-chat-messages"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/rn-core/polls/introduction"
+  }
+}

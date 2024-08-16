@@ -1,0 +1,30 @@
+{
+  "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
+  "title": "Basic structure",
+  "description": "What are we building?",
+  "source": "@site/docs/android/build-pre-call-ui/build-your-own/initial-code-skeleton.mdx",
+  "sourceDirName": "build-pre-call-ui/build-your-own",
+  "slug": "/build-pre-call-ui/build-your-own/initial-code-skeleton",
+  "permalink": "/android/build-pre-call-ui/build-your-own/initial-code-skeleton",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/build-pre-call-ui/build-your-own/initial-code-skeleton.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Basic structure",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBSetupScreen",
+    "permalink": "/android/build-pre-call-ui/default-setup-screen"
+  },
+  "next": {
+    "title": "Edit user name",
+    "permalink": "/android/build-pre-call-ui/build-your-own/edit-user-name"
+  }
+}

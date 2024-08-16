@@ -1,0 +1,26 @@
+{
+  "id": "reference/classes/ProductDBNotificationsAudio",
+  "title": "Class: ProductDBNotificationsAudio",
+  "description": "Handles notification sounds in a meeting",
+  "source": "@site/docs/rn-ui-kit/reference/classes/ProductDBNotificationsAudio.md",
+  "sourceDirName": "reference/classes",
+  "slug": "/reference/classes/ProductDBNotificationsAudio",
+  "permalink": "/react-native/reference/classes/ProductDBNotificationsAudio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723756727,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "id": "ProductDBNotificationsAudio",
+    "title": "Class: ProductDBNotificationsAudio",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interface: UserPreferences",
+    "permalink": "/react-native/reference/interfaces/UserPreferences"
+  }
+}

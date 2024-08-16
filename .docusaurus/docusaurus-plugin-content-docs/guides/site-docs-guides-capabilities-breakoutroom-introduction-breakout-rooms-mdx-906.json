@@ -1,0 +1,31 @@
+{
+  "id": "capabilities/breakoutroom/introduction-breakout-rooms",
+  "title": "Introduction to ProductDB's Breakout Rooms",
+  "description": "Get an introduction to breakout rooms with ProductDB's capabilities. Follow our guide for a smooth understanding and integration.",
+  "source": "@site/docs/guides/capabilities/breakoutroom/introduction-breakout-rooms.mdx",
+  "sourceDirName": "capabilities/breakoutroom",
+  "slug": "/capabilities/breakoutroom/introduction-breakout-rooms",
+  "permalink": "/guides/capabilities/breakoutroom/introduction-breakout-rooms",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/breakoutroom/introduction-breakout-rooms.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction to ProductDB's Breakout Rooms",
+    "sidebar_position": 1,
+    "description": "Get an introduction to breakout rooms with ProductDB's capabilities. Follow our guide for a smooth understanding and integration."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Verify Webhooks Using ProductDB's Signature and Webhook ID",
+    "permalink": "/guides/capabilities/webhooks/signatures"
+  },
+  "next": {
+    "title": "Create a Breakout Room",
+    "permalink": "/guides/capabilities/breakoutroom/create-breakout-rooms"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "capabilities/recording/configure-audio-codec",
+  "title": "Set Audio Configurations",
+  "description": "Explore how to configure audio codecs in ProductDB's recording capabilities. Follow our guide for effective codec configuration.",
+  "source": "@site/docs/guides/capabilities/recording/configure-audio-codec.mdx",
+  "sourceDirName": "capabilities/recording",
+  "slug": "/capabilities/recording/configure-audio-codec",
+  "permalink": "/guides/capabilities/recording/configure-audio-codec",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/recording/configure-audio-codec.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Set Audio Configurations",
+    "sidebar_position": 7,
+    "description": "Explore how to configure audio codecs in ProductDB's recording capabilities. Follow our guide for effective codec configuration."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configure Video Settings",
+    "permalink": "/guides/capabilities/recording/configure-codecs"
+  },
+  "next": {
+    "title": "Add Watermark to your Recording",
+    "permalink": "/guides/capabilities/recording/add-watermark"
+  }
+}

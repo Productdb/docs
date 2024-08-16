@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-controlbar",
+  "title": "productdb-controlbar",
+  "description": "Learn how to use and customize the productdb-controlbar component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/productdb-controlbar.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-controlbar",
+  "permalink": "/ui-kit/components/productdb-controlbar",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/productdb-controlbar.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the productdb-controlbar component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-controlbar-button",
+    "permalink": "/ui-kit/components/productdb-controlbar-button"
+  },
+  "next": {
+    "title": "productdb-dialog-manager",
+    "permalink": "/ui-kit/components/productdb-dialog-manager"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "classification/intro-classification",
+  "title": "Overview",
+  "description": "Get started with ProductDB's video conferencing capabilities. Follow our guide for an introduction to video conferencing and its features.",
+  "source": "@site/docs/guides/classification/intro-classification.mdx",
+  "sourceDirName": "classification",
+  "slug": "/classification/intro-classification",
+  "permalink": "/guides/classification/intro-classification",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/classification/intro-classification.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Overview",
+    "sidebar_position": 1,
+    "description": "Get started with ProductDB's video conferencing capabilities. Follow our guide for an introduction to video conferencing and its features."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guides",
+    "permalink": "/guides/"
+  },
+  "next": {
+    "title": "Get your keys",
+    "permalink": "/guides/classification/get-started"
+  }
+}

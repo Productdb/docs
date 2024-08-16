@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-polls-toggle",
+  "title": "ProductDBPollsToggle",
+  "description": "Learn how to use and customize the ProductDBPollsToggle component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-polls-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-polls-toggle",
+  "permalink": "/react-ui-kit/components/productdb-polls-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-polls-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBPollsToggle component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBPoll",
+    "permalink": "/react-ui-kit/components/productdb-poll"
+  },
+  "next": {
+    "title": "ProductDBPolls",
+    "permalink": "/react-ui-kit/components/productdb-polls"
+  }
+}

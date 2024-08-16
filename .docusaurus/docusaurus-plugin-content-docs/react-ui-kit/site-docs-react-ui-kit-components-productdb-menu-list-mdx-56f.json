@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-menu-list",
+  "title": "ProductDBMenuList",
+  "description": "Learn how to use and customize the ProductDBMenuList component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-menu-list.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-menu-list",
+  "permalink": "/react-ui-kit/components/productdb-menu-list",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-menu-list.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBMenuList component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBMenuItem",
+    "permalink": "/react-ui-kit/components/productdb-menu-item"
+  },
+  "next": {
+    "title": "ProductDBMenu",
+    "permalink": "/react-ui-kit/components/productdb-menu"
+  }
+}

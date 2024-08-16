@@ -1,0 +1,40 @@
+{
+  "id": "release-notes",
+  "title": "Release Notes",
+  "description": "Android Core Release Notes",
+  "source": "@site/docs/android-core/release-notes.mdx",
+  "sourceDirName": ".",
+  "slug": "/release-notes",
+  "permalink": "/android-core/release-notes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/release-notes.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "releasenotes",
+      "permalink": "/android-core/tags/releasenotes"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134098,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 101,
+  "frontMatter": {
+    "title": "Release Notes",
+    "sidebar_position": 101,
+    "sidebar_class_name": "releaseSidebarHeading",
+    "tags": [
+      "android-core",
+      "releasenotes"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Error Codes",
+    "permalink": "/android-core/error-codes"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "capabilities/recording/configure-codecs",
+  "title": "Configure Video Settings",
+  "description": "Learn how to configure codecs for recording in ProductDB's capabilities. Follow our guide for effective codec configuration.",
+  "source": "@site/docs/guides/capabilities/recording/configure-codecs.mdx",
+  "sourceDirName": "capabilities/recording",
+  "slug": "/capabilities/recording/configure-codecs",
+  "permalink": "/guides/capabilities/recording/configure-codecs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/recording/configure-codecs.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Configure Video Settings",
+    "sidebar_position": 6,
+    "description": "Learn how to configure codecs for recording in ProductDB's capabilities. Follow our guide for effective codec configuration."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Monitor Recording Status",
+    "permalink": "/guides/capabilities/recording/monitor-status"
+  },
+  "next": {
+    "title": "Set Audio Configurations",
+    "permalink": "/guides/capabilities/recording/configure-audio-codec"
+  }
+}

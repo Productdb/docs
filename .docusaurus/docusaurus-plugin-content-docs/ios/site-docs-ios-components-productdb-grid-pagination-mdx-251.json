@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-grid-pagination",
+  "title": "ProductDBMeetingHeaderView",
+  "description": "Learn how to use and customize the ProductDBMeetingHeaderView component in  ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-grid-pagination.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-grid-pagination",
+  "permalink": "/ios/components/productdb-grid-pagination",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-grid-pagination.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-grid-pagination.svg",
+    "description": "Learn how to use and customize the ProductDBMeetingHeaderView component in  ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBEndMeetingControlBarButton",
+    "permalink": "/ios/components/productdb-end-meeting"
+  },
+  "next": {
+    "title": "GridView",
+    "permalink": "/ios/components/productdb-grid"
+  }
+}

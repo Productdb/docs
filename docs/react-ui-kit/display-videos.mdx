@@ -20,17 +20,17 @@ function Meeting() {
 
   function ParticipantTile({ participant, meeting }) {
     return (
-      <ProductDBParticipantTile
+      <DyteParticipantTile
         participant={participant}
         style={{
           maxWidth: '240px',
         }}
       >
-        <ProductDBNameTag participant={participant} meeting={meeting}>
-          <ProductDBAudioVisualizer participant={participant} />
-        </ProductDBNameTag>
-        <ProductDBAvatar size="sm" participant={participant} />
-      </ProductDBParticipantTile>
+        <DyteNameTag participant={participant} meeting={meeting}>
+          <DyteAudioVisualizer participant={participant} />
+        </DyteNameTag>
+        <DyteAvatar size="sm" participant={participant} />
+      </DyteParticipantTile>
     );
   }
 
@@ -57,20 +57,20 @@ But in the real world, a video tile grid is more complex, it is responsive, tile
 sizes are dynamic, there are different layouts, the grid handles screensharing
 etc.
 
-ProductDB has ready to use grid components, that you can use out of the box
+Dyte has ready to use grid components, that you can use out of the box
 
 ## Grid Components
 
 There are two types of grid components, so that the grid can be easily extended
 and modularized.
 
-- Parent Grid component - `ProductDBGrid`
-- Child Grid components each having a different layour - `ProductDBSimpleGrid`,
-  `ProductDBMixedGrid`, `ProductDBSpotlightGrid`
+- Parent Grid component - `DyteGrid`
+- Child Grid components each having a different layour - `DyteSimpleGrid`,
+  `DyteMixedGrid`, `DyteSpotlightGrid`
 
 #### Parent Grid Component
 
-The `ProductDBGrid` component is a monolith component which handles all grid related
+The `DyteGrid` component is a monolith component which handles all grid related
 events and data on it's own and passes the following props to it's children.
 
 | Prop                        | Description                         |
@@ -95,7 +95,7 @@ function Example() {
 
   return (
     <div style={{ width: '100%', height: '400px' }}>
-      <ProductDBGrid meeting={meeting} aspectRatio="16:9" gap="8" size="sm" />
+      <DyteGrid meeting={meeting} aspectRatio="16:9" gap="8" size="sm" />
     </div>
   );
 }
@@ -107,14 +107,14 @@ These components just accept the props mentioned above and render the UI.
 
 Read more about them in their Reference pages.
 
-##### ProductDBSimpleGrid
+##### DyteSimpleGrid
 
 Accepts: `participants`, `pinnedParticipants`.
 
 This grid renders just the ParticipantTiles of the participants you pass to it.
 It also brings `pinnedParticipants` to the start of the grid.
 
-##### ProductDBSimpleGrid
+##### DyteSimpleGrid
 
 Accepts: `participants`, `pinnedParticipants`.
 
@@ -123,7 +123,7 @@ pinnedParticipants in separate grids.
 
 Pinned participants are in spotlight area, i.e; larger grid.
 
-##### ProductDBMixedGrid
+##### DyteMixedGrid
 
 Accepts: `participants`, `pinnedParticipants`, `screenShareParticipants`,
 `plugins`.
@@ -158,13 +158,13 @@ function Example() {
           gap: '12px',
         }}
       >
-        <ProductDBButton onClick={add}>Add</ProductDBButton>
-        <ProductDBButton variant="danger" onClick={remove}>
+        <DyteButton onClick={add}>Add</DyteButton>
+        <DyteButton variant="danger" onClick={remove}>
           Remove
-        </ProductDBButton>
+        </DyteButton>
       </div>
       <div style={{ width: '100%', height: '400px' }}>
-        <ProductDBSimpleGrid
+        <DyteSimpleGrid
           aspectRatio="16:9"
           gap="8"
           participants={participants}

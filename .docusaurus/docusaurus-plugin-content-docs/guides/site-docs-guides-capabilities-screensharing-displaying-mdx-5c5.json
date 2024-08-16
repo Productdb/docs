@@ -1,0 +1,26 @@
+{
+  "id": "capabilities/screensharing/displaying",
+  "title": "Displaying Screenshare",
+  "description": "Usage",
+  "source": "@site/docs/guides/capabilities/screensharing/displaying.mdx",
+  "sourceDirName": "capabilities/screensharing",
+  "slug": "/capabilities/screensharing/displaying",
+  "permalink": "/guides/capabilities/screensharing/displaying",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/screensharing/displaying.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Enable/Disable Screenshare",
+    "permalink": "/guides/capabilities/screensharing/basics"
+  },
+  "next": {
+    "title": "Meeting AI",
+    "permalink": "/guides/capabilities/ai/"
+  }
+}

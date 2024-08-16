@@ -1,0 +1,44 @@
+{
+  "id": "chat/receiving-chat-messages",
+  "title": "Receiving chat messages",
+  "description": "Receive chat messages that have been sent in a meeting.",
+  "source": "@site/docs/react-web-core/chat/receiving-chat-messages.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/receiving-chat-messages",
+  "permalink": "/react-web-core/chat/receiving-chat-messages",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/chat/receiving-chat-messages.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/react-web-core/tags/web-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/react-web-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Receiving chat messages",
+    "description": "Receive chat messages that have been sent in a meeting.",
+    "sidebar_position": 3,
+    "tags": [
+      "web-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sending a chat message",
+    "permalink": "/react-web-core/chat/sending-a-chat-message"
+  },
+  "next": {
+    "title": "Editing Chat Messages",
+    "permalink": "/react-web-core/chat/edit-chat-messages"
+  }
+}

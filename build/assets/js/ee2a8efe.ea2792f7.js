@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkproductdb_docs=self.webpackChunkproductdb_docs||[]).push([[83584],{1748:e=>{e.exports=JSON.parse('[{"label":"releasenotes","permalink":"/ui-kit/tags/releasenotes","count":1}]')}}]);

@@ -1,0 +1,26 @@
+{
+  "id": "Components/productdb-setup-screen-component",
+  "title": "ProductDBSetupScreen",
+  "description": "A widget that provides a well-built setup screen using our exportable components itself. This widget integrates with the ProductDB UI Kit and gives our setup page as a widget.",
+  "source": "@site/docs/flutter/Components/productdb-setup-screen-component.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/productdb-setup-screen-component",
+  "permalink": "/flutter/Components/productdb-setup-screen-component",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/productdb-setup-screen-component.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBSelfVideoToggleButton",
+    "permalink": "/flutter/Components/productdb-self-video-toggle"
+  },
+  "next": {
+    "title": "Release Notes",
+    "permalink": "/flutter/release-notes"
+  }
+}

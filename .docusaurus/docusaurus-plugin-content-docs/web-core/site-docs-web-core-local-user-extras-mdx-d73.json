@@ -1,0 +1,54 @@
+{
+  "id": "local-user/extras",
+  "title": "Other Methods",
+  "description": "Methods to manage the local user.",
+  "source": "@site/docs/web-core/local-user/extras.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/extras",
+  "permalink": "/web-core/local-user/extras",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/local-user/extras.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "local-user",
+      "permalink": "/web-core/tags/local-user"
+    },
+    {
+      "label": "self",
+      "permalink": "/web-core/tags/self"
+    },
+    {
+      "label": "methods",
+      "permalink": "/web-core/tags/methods"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Other Methods",
+    "description": "Methods to manage the local user.",
+    "sidebar_position": 5,
+    "tags": [
+      "web-core",
+      "local-user",
+      "self",
+      "methods"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Permission Errors",
+    "permalink": "/web-core/local-user/media-permission-errors"
+  },
+  "next": {
+    "title": "Participant Maps",
+    "permalink": "/web-core/participants/"
+  }
+}

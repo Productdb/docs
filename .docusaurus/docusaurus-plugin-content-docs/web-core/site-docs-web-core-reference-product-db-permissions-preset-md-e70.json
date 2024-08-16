@@ -1,0 +1,30 @@
+{
+  "id": "reference/ProductDBPermissionsPreset",
+  "title": "ProductDBPermissionsPreset",
+  "description": "The ProductDBPermissionsPreset class represents the meeting permissions for the current participant",
+  "source": "@site/docs/web-core/reference/ProductDBPermissionsPreset.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/ProductDBPermissionsPreset",
+  "permalink": "/web-core/reference/ProductDBPermissionsPreset",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/reference/ProductDBPermissionsPreset.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBParticipant",
+    "permalink": "/web-core/reference/ProductDBParticipant"
+  },
+  "next": {
+    "title": "ProductDBMeta",
+    "permalink": "/web-core/reference/ProductDBMeta"
+  }
+}

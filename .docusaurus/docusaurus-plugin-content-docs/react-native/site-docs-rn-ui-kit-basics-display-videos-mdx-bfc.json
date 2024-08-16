@@ -1,0 +1,29 @@
+{
+  "id": "basics/display-videos",
+  "title": "Render participant videos",
+  "description": "To display the videos of all participants you need to show on the screen, you",
+  "source": "@site/docs/rn-ui-kit/basics/display-videos.mdx",
+  "sourceDirName": "basics",
+  "slug": "/basics/display-videos",
+  "permalink": "/react-native/basics/display-videos",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/basics/display-videos.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Components Basics",
+    "permalink": "/react-native/basics/components-basics"
+  },
+  "next": {
+    "title": "Gallery",
+    "permalink": "/react-native/components"
+  }
+}

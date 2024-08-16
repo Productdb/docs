@@ -1,0 +1,54 @@
+{
+  "id": "local-user/extras",
+  "title": "Other Methods",
+  "description": "Methods to manage the local user.",
+  "source": "@site/docs/rn-core/local-user/extras.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/extras",
+  "permalink": "/rn-core/local-user/extras",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/local-user/extras.mdx",
+  "tags": [
+    {
+      "label": "rn-core",
+      "permalink": "/rn-core/tags/rn-core"
+    },
+    {
+      "label": "local-user",
+      "permalink": "/rn-core/tags/local-user"
+    },
+    {
+      "label": "self",
+      "permalink": "/rn-core/tags/self"
+    },
+    {
+      "label": "methods",
+      "permalink": "/rn-core/tags/methods"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Other Methods",
+    "description": "Methods to manage the local user.",
+    "sidebar_position": 5,
+    "tags": [
+      "rn-core",
+      "local-user",
+      "self",
+      "methods"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Permission Errors",
+    "permalink": "/rn-core/local-user/media-permission-errors"
+  },
+  "next": {
+    "title": "Room Metadata",
+    "permalink": "/rn-core/room-metadata"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "livestream/concepts",
+  "title": "Concepts",
+  "description": "This topic covers essential concepts related to ProductDB's interactive live streaming (ILS). For the concepts related to live video applications, see Video Conferencing concepts.",
+  "source": "@site/docs/guides/livestream/concepts.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/concepts",
+  "permalink": "/guides/livestream/concepts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/livestream/concepts.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Concepts",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/guides/livestream/livestream-overview"
+  },
+  "next": {
+    "title": "Setup",
+    "permalink": "/guides/livestream/get-started"
+  }
+}

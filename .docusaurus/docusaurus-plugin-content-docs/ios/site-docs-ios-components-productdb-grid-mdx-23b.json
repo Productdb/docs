@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-grid",
+  "title": "GridView",
+  "description": "Learn how to use and customize the GridView component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-grid.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-grid",
+  "permalink": "/ios/components/productdb-grid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-grid.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-grid.svg",
+    "description": "Learn how to use and customize the GridView component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBMeetingHeaderView",
+    "permalink": "/ios/components/productdb-grid-pagination"
+  },
+  "next": {
+    "title": "ProductDBWebinarAlertView",
+    "permalink": "/ios/components/productdb-join-stage"
+  }
+}

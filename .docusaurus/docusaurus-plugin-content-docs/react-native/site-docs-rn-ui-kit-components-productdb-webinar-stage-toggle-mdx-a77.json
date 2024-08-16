@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-webinar-stage-toggle",
+  "title": "ProductDBWebinarStageToggle",
+  "description": "Learn how to use and customize the ProductDBWebinarStageToggle component in ProductDB's React Native UI Kit with our detailed documentation.",
+  "source": "@site/docs/rn-ui-kit/components/productdb-webinar-stage-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-webinar-stage-toggle",
+  "permalink": "/react-native/components/productdb-webinar-stage-toggle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/components/productdb-webinar-stage-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBWebinarStageToggle component in ProductDB's React Native UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBWaitingScreen",
+    "permalink": "/react-native/components/productdb-waiting-screen"
+  },
+  "next": {
+    "title": "Release Notes",
+    "permalink": "/react-native/release-notes"
+  }
+}

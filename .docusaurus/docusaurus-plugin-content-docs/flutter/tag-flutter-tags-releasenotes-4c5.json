@@ -1,0 +1,15 @@
+{
+  "label": "releasenotes",
+  "permalink": "/flutter/tags/releasenotes",
+  "allTagsPath": "/flutter/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "release-notes",
+      "title": "Release Notes",
+      "description": "Flutter Release Notes",
+      "permalink": "/flutter/release-notes"
+    }
+  ],
+  "unlisted": false
+}

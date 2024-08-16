@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-menu-item",
+  "title": "productdb-menu-item",
+  "description": "Learn how to use and customize the productdb-menu-item component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/productdb-menu-item.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-menu-item",
+  "permalink": "/ui-kit/components/productdb-menu-item",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/productdb-menu-item.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the productdb-menu-item component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-meeting",
+    "permalink": "/ui-kit/components/productdb-meeting"
+  },
+  "next": {
+    "title": "productdb-menu-list",
+    "permalink": "/ui-kit/components/productdb-menu-list"
+  }
+}

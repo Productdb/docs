@@ -1,0 +1,40 @@
+{
+  "id": "release-notes",
+  "title": "Release Notes",
+  "description": "The release notes lists all new features, resolved issues, and known issues of iOS Core in chronological order.",
+  "source": "@site/docs/ios-core/release-notes.mdx",
+  "sourceDirName": ".",
+  "slug": "/release-notes",
+  "permalink": "/ios-core/release-notes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios-core/release-notes.mdx",
+  "tags": [
+    {
+      "label": "ios-core",
+      "permalink": "/ios-core/tags/ios-core"
+    },
+    {
+      "label": "releasenotes",
+      "permalink": "/ios-core/tags/releasenotes"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 101,
+  "frontMatter": {
+    "title": "Release Notes",
+    "sidebar_position": 101,
+    "sidebar_class_name": "releaseSidebarHeading",
+    "tags": [
+      "ios-core",
+      "releasenotes"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Error Codes",
+    "permalink": "/ios-core/error-codes"
+  }
+}

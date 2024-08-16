@@ -1,0 +1,44 @@
+{
+  "id": "plugins/enable-plugin",
+  "title": "Functions to enable plugins",
+  "description": "Methods on a plugin in a meeting.",
+  "source": "@site/docs/react-web-core/plugins/enable-plugin.mdx",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/enable-plugin",
+  "permalink": "/react-web-core/plugins/enable-plugin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/plugins/enable-plugin.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/react-web-core/tags/web-core"
+    },
+    {
+      "label": "plugins",
+      "permalink": "/react-web-core/tags/plugins"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Functions to enable plugins",
+    "description": "Methods on a plugin in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "web-core",
+      "plugins"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/react-web-core/plugins/introduction"
+  },
+  "next": {
+    "title": "Functions to disable plugins",
+    "permalink": "/react-web-core/plugins/disable-plugin"
+  }
+}

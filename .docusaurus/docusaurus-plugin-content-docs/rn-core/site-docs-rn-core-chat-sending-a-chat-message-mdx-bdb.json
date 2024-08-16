@@ -1,0 +1,44 @@
+{
+  "id": "chat/sending-a-chat-message",
+  "title": "Sending a chat message",
+  "description": "Send a chat message in a meeting.",
+  "source": "@site/docs/rn-core/chat/sending-a-chat-message.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/sending-a-chat-message",
+  "permalink": "/rn-core/chat/sending-a-chat-message",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/chat/sending-a-chat-message.mdx",
+  "tags": [
+    {
+      "label": "rn-core",
+      "permalink": "/rn-core/tags/rn-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/rn-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Sending a chat message",
+    "description": "Send a chat message in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "rn-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introducing chat",
+    "permalink": "/rn-core/chat/introduction"
+  },
+  "next": {
+    "title": "Receiving chat messages",
+    "permalink": "/rn-core/chat/receiving-chat-messages"
+  }
+}

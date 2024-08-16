@@ -1,0 +1,28 @@
+{
+  "id": "commerce/client-setup/index",
+  "title": "Client Setup",
+  "description": "Client Setup Guide",
+  "source": "@site/docs/guides/commerce/client-setup/index.mdx",
+  "sourceDirName": "commerce/client-setup",
+  "slug": "/commerce/client-setup/",
+  "permalink": "/guides/commerce/client-setup/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/commerce/client-setup/index.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "title": "Client Setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Server Integration",
+    "permalink": "/guides/commerce/build-voice-app"
+  },
+  "next": {
+    "title": "React",
+    "permalink": "/guides/commerce/client-setup/react"
+  }
+}

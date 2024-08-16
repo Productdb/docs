@@ -1,0 +1,27 @@
+{
+  "id": "pre-call/waiting-room",
+  "title": "Waiting Room",
+  "description": "After you call .join() on meeting, you either get a roomJoined event if you are allowed to join or a waitlisted event.",
+  "source": "@site/docs/web-core/pre-call/5-waiting-room.mdx",
+  "sourceDirName": "pre-call",
+  "slug": "/pre-call/waiting-room",
+  "permalink": "/web-core/pre-call/waiting-room",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/pre-call/5-waiting-room.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Meeting Metadata",
+    "permalink": "/web-core/pre-call/meeting-meta"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/web-core/Introduction"
+  }
+}

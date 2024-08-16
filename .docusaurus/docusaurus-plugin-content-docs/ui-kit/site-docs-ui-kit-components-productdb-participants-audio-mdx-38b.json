@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-participants-audio",
+  "title": "productdb-participants-audio",
+  "description": "Learn how to use and customize the productdb-participants-audio component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/productdb-participants-audio.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-participants-audio",
+  "permalink": "/ui-kit/components/productdb-participants-audio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/productdb-participants-audio.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-participants-audio.svg",
+    "description": "Learn how to use and customize the productdb-participants-audio component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-participant",
+    "permalink": "/ui-kit/components/productdb-participant"
+  },
+  "next": {
+    "title": "productdb-participants-stage-list",
+    "permalink": "/ui-kit/components/productdb-participants-stage-list"
+  }
+}

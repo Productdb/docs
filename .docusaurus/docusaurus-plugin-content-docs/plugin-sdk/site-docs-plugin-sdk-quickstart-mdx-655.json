@@ -1,0 +1,49 @@
+{
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "Quickly start integrating your plugin with ProductDB using our Plugin SDK Quickstart guide. Streamline the development process for your custom plugins.",
+  "source": "@site/docs/plugin-sdk/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/plugin-sdk/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/plugin-sdk/quickstart.mdx",
+  "tags": [
+    {
+      "label": "plugin-sdk",
+      "permalink": "/plugin-sdk/tags/plugin-sdk"
+    },
+    {
+      "label": "quickstart",
+      "permalink": "/plugin-sdk/tags/quickstart"
+    },
+    {
+      "label": "setup",
+      "permalink": "/plugin-sdk/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Quickstart",
+    "sidebar_position": 2,
+    "tags": [
+      "plugin-sdk",
+      "quickstart",
+      "setup"
+    ],
+    "description": "Quickly start integrating your plugin with ProductDB using our Plugin SDK Quickstart guide. Streamline the development process for your custom plugins."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/plugin-sdk/"
+  },
+  "next": {
+    "title": "Create a Plugin",
+    "permalink": "/plugin-sdk/setup/create"
+  }
+}

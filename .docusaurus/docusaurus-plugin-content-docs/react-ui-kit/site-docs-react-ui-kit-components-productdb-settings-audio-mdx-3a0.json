@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-settings-audio",
+  "title": "ProductDBSettingsAudio",
+  "description": "Learn how to use and customize the ProductDBSettingsAudio component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-settings-audio.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-settings-audio",
+  "permalink": "/react-ui-kit/components/productdb-settings-audio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-settings-audio.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBSettingsAudio component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBScreenshareView",
+    "permalink": "/react-ui-kit/components/productdb-screenshare-view"
+  },
+  "next": {
+    "title": "ProductDBSettingsToggle",
+    "permalink": "/react-ui-kit/components/productdb-settings-toggle"
+  }
+}

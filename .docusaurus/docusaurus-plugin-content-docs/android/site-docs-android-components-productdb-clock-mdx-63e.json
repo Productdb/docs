@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-clock",
+  "title": "ProductDBClockView",
+  "description": "Learn how to use and customize the ProductDBClockView component in ProductDB's Android with our detailed documentation.",
+  "source": "@site/docs/android/components/productdb-clock.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-clock",
+  "permalink": "/android/components/productdb-clock",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/productdb-clock.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-clock.svg",
+    "description": "Learn how to use and customize the ProductDBClockView component in ProductDB's Android with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBChat",
+    "permalink": "/android/components/productdb-chat"
+  },
+  "next": {
+    "title": "ProductDBControlBarButton",
+    "permalink": "/android/components/productdb-controlbar-button"
+  }
+}

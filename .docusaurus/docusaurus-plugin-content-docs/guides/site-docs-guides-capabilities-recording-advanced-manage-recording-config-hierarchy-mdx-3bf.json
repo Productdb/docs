@@ -1,0 +1,32 @@
+{
+  "id": "capabilities/recording/advanced/manage-recording-config-hierarchy",
+  "title": "Manage Recording Config Precedence Order",
+  "description": "Learn how to manage recording configuration hierarchy with ProductDB's capabilities. Follow our guide for effective hierarchy management.",
+  "source": "@site/docs/guides/capabilities/recording/advanced/manage-recording-config-hierarchy.mdx",
+  "sourceDirName": "capabilities/recording/advanced",
+  "slug": "/capabilities/recording/manage-recording-config-hierarchy",
+  "permalink": "/guides/capabilities/recording/manage-recording-config-hierarchy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/recording/advanced/manage-recording-config-hierarchy.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Manage Recording Config Precedence Order",
+    "sidebar_position": 5,
+    "slug": "/capabilities/recording/manage-recording-config-hierarchy",
+    "description": "Learn how to manage recording configuration hierarchy with ProductDB's capabilities. Follow our guide for effective hierarchy management."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Watermark to your Recording",
+    "permalink": "/guides/capabilities/recording/add-watermark"
+  },
+  "next": {
+    "title": "Disable upload to ProductDB's bucket",
+    "permalink": "/guides/capabilities/recording/configure-productdb-bucket-config"
+  }
+}

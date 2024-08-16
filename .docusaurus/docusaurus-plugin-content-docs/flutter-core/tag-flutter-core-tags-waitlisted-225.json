@@ -1,0 +1,15 @@
+{
+  "label": "waitlisted",
+  "permalink": "/flutter-core/tags/waitlisted",
+  "allTagsPath": "/flutter-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "participants/waitlisted-participants",
+      "title": "Waitlisted Participants",
+      "description": "Events, methods and data to manage waiting room participants.",
+      "permalink": "/flutter-core/participants/waitlisted-participants"
+    }
+  ],
+  "unlisted": false
+}

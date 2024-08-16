@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-meeting-title",
+  "title": "ProductDBMeetingTitleView",
+  "description": "Learn how to use and customize the ProductDBMeetingTitleView component in ProductDB's Android with our detailed documentation.",
+  "source": "@site/docs/android/components/productdb-meeting-title.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-meeting-title",
+  "permalink": "/android/components/productdb-meeting-title",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/productdb-meeting-title.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-meeting-title.svg",
+    "description": "Learn how to use and customize the ProductDBMeetingTitleView component in ProductDB's Android with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBLeaveMeetingView",
+    "permalink": "/android/components/productdb-leave-meeting"
+  },
+  "next": {
+    "title": "ProductDBUIKit",
+    "permalink": "/android/components/productdb-meeting"
+  }
+}

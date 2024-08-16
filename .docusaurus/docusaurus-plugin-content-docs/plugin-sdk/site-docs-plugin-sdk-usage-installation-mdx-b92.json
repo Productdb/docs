@@ -1,0 +1,49 @@
+{
+  "id": "usage/installation",
+  "title": "Installation",
+  "description": "Comprehensive guide on installing and configuring the ProductDB Plugin SDK. Ensure a hassle-free installation process for your users.",
+  "source": "@site/docs/plugin-sdk/usage/installation.mdx",
+  "sourceDirName": "usage",
+  "slug": "/usage/installation",
+  "permalink": "/plugin-sdk/usage/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/plugin-sdk/usage/installation.mdx",
+  "tags": [
+    {
+      "label": "plugin-sdk",
+      "permalink": "/plugin-sdk/tags/plugin-sdk"
+    },
+    {
+      "label": "installation",
+      "permalink": "/plugin-sdk/tags/installation"
+    },
+    {
+      "label": "setup",
+      "permalink": "/plugin-sdk/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Installation",
+    "description": "Comprehensive guide on installing and configuring the ProductDB Plugin SDK. Ensure a hassle-free installation process for your users.",
+    "sidebar_position": 1,
+    "tags": [
+      "plugin-sdk",
+      "installation",
+      "setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage your Plugin",
+    "permalink": "/plugin-sdk/setup/manage"
+  },
+  "next": {
+    "title": "Initialize Plugin",
+    "permalink": "/plugin-sdk/usage/basic/initialize"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "migration/opentok/concepts-opentok-vs-dyte",
+  "title": "Concepts: Basics",
+  "description": "Understand the concepts of OpenTok versus ProductDB for effective migration. Follow our guide for a comprehensive comparison and migration strategy.",
+  "source": "@site/docs/guides/migration/opentok/concepts-opentok-vs-dyte.mdx",
+  "sourceDirName": "migration/opentok",
+  "slug": "/migration/opentok/concepts-opentok-vs-dyte",
+  "permalink": "/guides/migration/opentok/concepts-opentok-vs-dyte",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/migration/opentok/concepts-opentok-vs-dyte.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Concepts: Basics",
+    "sidebar_position": 1,
+    "description": "Understand the concepts of OpenTok versus ProductDB for effective migration. Follow our guide for a comprehensive comparison and migration strategy."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Supported Features",
+    "permalink": "/guides/migration/twilio/compatibility-shim-twilio"
+  },
+  "next": {
+    "title": "Concepts: Media",
+    "permalink": "/guides/migration/opentok/concept-media-opentok"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pre-call/meeting-meta",
+  "title": "Meeting Metadata",
+  "description": "Change the name of the user",
+  "source": "@site/docs/flutter-core/pre-call/3-meeting-meta.mdx",
+  "sourceDirName": "pre-call",
+  "slug": "/pre-call/meeting-meta",
+  "permalink": "/flutter-core/pre-call/meeting-meta",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/pre-call/3-meeting-meta.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Preview",
+    "permalink": "/flutter-core/pre-call/media-preview"
+  },
+  "next": {
+    "title": "Waiting Room",
+    "permalink": "/flutter-core/pre-call/waiting-room"
+  }
+}

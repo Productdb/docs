@@ -1,0 +1,44 @@
+{
+  "id": "chat/sending-a-chat-message",
+  "title": "Sending a chat message",
+  "description": "\"Master the process of sending chat messages within your iOS application with ProductDB",
+  "source": "@site/docs/ios-core/chat/sending-a-chat-message.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/sending-a-chat-message",
+  "permalink": "/ios-core/chat/sending-a-chat-message",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios-core/chat/sending-a-chat-message.mdx",
+  "tags": [
+    {
+      "label": "ios-core",
+      "permalink": "/ios-core/tags/ios-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/ios-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Sending a chat message",
+    "description": "\"Master the process of sending chat messages within your iOS application with ProductDB",
+    "sidebar_position": 2,
+    "tags": [
+      "ios-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introducing chat",
+    "permalink": "/ios-core/chat/introduction"
+  },
+  "next": {
+    "title": "Receiving chat messages",
+    "permalink": "/ios-core/chat/receiving-chat-messages"
+  }
+}

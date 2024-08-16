@@ -1,0 +1,31 @@
+{
+  "id": "capabilities/video/picture-in-picture",
+  "title": "Picture in Picture",
+  "description": "Picture-in-Picture API allows you to render participant's video as a floating tile outside of the current page/app's context.",
+  "source": "@site/docs/guides/capabilities/video/picture-in-picture.mdx",
+  "sourceDirName": "capabilities/video",
+  "slug": "/capabilities/video/picture-in-picture",
+  "permalink": "/guides/capabilities/video/picture-in-picture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/video/picture-in-picture.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Picture in Picture",
+    "sidebar_position": 3,
+    "sidebar_slug": "picture-in-picture-pip"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Virtual Background",
+    "permalink": "/guides/capabilities/video/add-virtual-background"
+  },
+  "next": {
+    "title": "Recording",
+    "permalink": "/guides/capabilities/recording/"
+  }
+}

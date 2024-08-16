@@ -1,0 +1,44 @@
+{
+  "id": "plugins/introduction",
+  "title": "Introduction",
+  "description": "Manage plugins in a meeting.",
+  "source": "@site/docs/android-core/plugins/introduction.mdx",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/introduction",
+  "permalink": "/android-core/plugins/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/plugins/introduction.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "plugins",
+      "permalink": "/android-core/tags/plugins"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Manage plugins in a meeting.",
+    "sidebar_position": 1,
+    "tags": [
+      "android-core",
+      "plugins"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receiving chat messages",
+    "permalink": "/android-core/chat/receiving-chat-messages"
+  },
+  "next": {
+    "title": "Functions to enable plugins",
+    "permalink": "/android-core/plugins/enable-disable-plugin"
+  }
+}

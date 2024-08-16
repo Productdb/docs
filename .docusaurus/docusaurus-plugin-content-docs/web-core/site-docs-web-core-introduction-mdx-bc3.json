@@ -1,0 +1,31 @@
+{
+  "id": "Introduction",
+  "title": "Introduction",
+  "description": "The ProductDB Core SDK is designed to provide you with an easy way to incorporate live video, voice, livestream and chat capabilities into your apps and websites. The Core SDK acts as a data-only layer. It provides simple APIs offering high-level primitives and abstracting away complex media and networking optimizations.",
+  "source": "@site/docs/web-core/Introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/Introduction",
+  "permalink": "/web-core/Introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/Introduction.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Introduction",
+    "sidebar_position": 3,
+    "sidebar_class_name": "module-seperation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Waiting Room",
+    "permalink": "/web-core/pre-call/waiting-room"
+  },
+  "next": {
+    "title": "Advance",
+    "permalink": "/web-core/advanced/advance"
+  }
+}

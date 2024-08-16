@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/getting-started",
+  "source": "@site/src/pages/getting-started.mdx",
+  "title": "Introduction to ProductDB",
+  "description": "A short guide on how to integrate productdb and how productdb works with your application",
+  "frontMatter": {
+    "description": "A short guide on how to integrate productdb and how productdb works with your application"
+  },
+  "unlisted": false
+}

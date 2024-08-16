@@ -1,0 +1,31 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "The ProductDB Core SDK is designed to provide developers with an easy way to incorporate real-time communication (RTC) solutions into their apps and websites. With full customization and branding options, you can build your own user interface from the ground up without dealing with complicated media layers.",
+  "source": "@site/docs/react-web-core/introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/react-web-core/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/introduction.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Introduction",
+    "sidebar_position": 3,
+    "sidebar_class_name": "module-seperation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Waiting Room",
+    "permalink": "/react-web-core/pre-call/waiting-room"
+  },
+  "next": {
+    "title": "Advance",
+    "permalink": "/react-web-core/advanced/advance"
+  }
+}

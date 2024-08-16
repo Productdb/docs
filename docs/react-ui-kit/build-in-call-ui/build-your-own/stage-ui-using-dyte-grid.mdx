@@ -1,9 +1,9 @@
 ---
-title: Build Stage UI using ProductDBGrid
+title: Build Stage UI using DyteGrid
 sidebar_position: 5
 ---
 
-Source Code: https://github.com/productdb-io/react-samples/tree/main/samples/create-your-own-ui
+Source Code: https://github.com/dyte-io/react-samples/tree/main/samples/create-your-own-ui
 
 Following code shows you can customise or build the stage UI of a meeting as per your use case.
 
@@ -13,30 +13,30 @@ import CodeRunner from '@site/src/components/CodeRunner/CodeRunner';
 hide={[{start:1, end: 5}, {start:29, end: 199}]}
 highlight={[{start:6, end: 27}]}
 file={`
-import { ProductDBStage, ProductDBGrid, ProductDBNotifications, ProductDBSidebar, ProductDBControlbar, ProductDBParticipantsAudio, ProductDBDialogManager, defaultConfig, generateConfig } from '@dytesdk/react-ui-kit';
+import { DyteStage, DyteGrid, DyteNotifications, DyteSidebar, DyteControlbar, DyteParticipantsAudio, DyteDialogManager, defaultConfig, generateConfig } from '@dytesdk/react-ui-kit';
 import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
 import { useEffect, useState } from 'react';
 
-function MeetingStage({ meeting, config, states, setStates }: { meeting: ProductDBClient, config: UIConfig, states: CustomStates, setStates: SetStates}) {
+function MeetingStage({ meeting, config, states, setStates }: { meeting: DyteClient, config: UIConfig, states: CustomStates, setStates: SetStates}) {
 
 return (
 
 <div className="flex h-full w-full flex-col">
-  <ProductDBStage className="flex h-full w-full flex-1 p-2">
-    <ProductDBGrid meeting={meeting} config={config} states={states} />
-    <ProductDBNotifications meeting={meeting} config={config} states={states} />
+  <DyteStage className="flex h-full w-full flex-1 p-2">
+    <DyteGrid meeting={meeting} config={config} states={states} />
+    <DyteNotifications meeting={meeting} config={config} states={states} />
     {states.activeSidebar && (
-      <ProductDBSidebar
+      <DyteSidebar
         meeting={meeting}
         config={config}
         states={states}
         setStates={setStates}
       />
     )}
-  </ProductDBStage>
-  <ProductDBParticipantsAudio meeting={meeting} />
-  <ProductDBDialogManager meeting={meeting} config={config} states={states} />
-  <ProductDBControlbar meeting={meeting} config={config} states={states} />
+  </DyteStage>
+  <DyteParticipantsAudio meeting={meeting} />
+  <DyteDialogManager meeting={meeting} config={config} states={states} />
+  <DyteControlbar meeting={meeting} config={config} states={states} />
 </div>
 ); }
 
@@ -54,9 +54,9 @@ const theme = meeting!.self.config;
 const { config } = generateConfig(theme, meeting!);
 
       /**
-       * Full screen by default requests productdb-meeting/ProductDBMeeting element to be in full screen.
-       * Since ProductDBMeeting element is not here,
-       *  we need to pass productdb-fullscreen-toggle, an targetElementId through config.
+       * Full screen by default requests dyte-meeting/DyteMeeting element to be in full screen.
+       * Since DyteMeeting element is not here,
+       *  we need to pass dyte-fullscreen-toggle, an targetElementId through config.
        */
       // setFullScreenToggleTargetElement({config, targetElementId: 'root'});
 
@@ -64,10 +64,10 @@ const { config } = generateConfig(theme, meeting!);
 
     /**
      * Add listeners on meeting & self to monitor leave meeting, join meeting and so on.
-     * This work was earlier done by ProductDBMeeting component internally.
+     * This work was earlier done by DyteMeeting component internally.
      */
-      const stateListenersUtils = new ProductDBStateListenersUtils(() => meeting, () => states, () => setStates);
-      stateListenersUtils.addProductDBEventListeners();
+      const stateListenersUtils = new DyteStateListenersUtils(() => meeting, () => states, () => setStates);
+      stateListenersUtils.addDyteEventListeners();
 
       try{
         await meeting.join();
@@ -107,13 +107,13 @@ return (
 
 }
 
-export class ProductDBStateListenersUtils{
+export class DyteStateListenersUtils{
     
     getStates: () => CustomStates;
 
     getStateSetter: () => (newState: CustomStates) => void;
 
-    getMeeting: () => ProductDBClient;
+    getMeeting: () => DyteClient;
 
     get states(){
         return this.getStates();
@@ -127,7 +127,7 @@ export class ProductDBStateListenersUtils{
         return this.getMeeting();
     }
 
-    constructor(getMeeting: () => ProductDBClient, getGlobalStates: () => CustomStates, getGlobalStateSetter: () => (newState: CustomStates) => void){
+    constructor(getMeeting: () => DyteClient, getGlobalStates: () => CustomStates, getGlobalStateSetter: () => (newState: CustomStates) => void){
         this.getMeeting = getMeeting;
         this.getStates = getGlobalStates;
         this.getStateSetter = getGlobalStateSetter;
@@ -190,7 +190,7 @@ export class ProductDBStateListenersUtils{
         });
     }
 
-    addProductDBEventListeners(){
+    addDyteEventListeners(){
         if (this.meeting.meta.viewType === 'LIVESTREAM') {
             this.meeting.self.addListener('socketServiceRoomJoined', this.socketServiceRoomJoinedListener);
           }
@@ -206,7 +206,7 @@ export class ProductDBStateListenersUtils{
           }
 
     }
-    cleanupProductDBEventListeners(){
+    cleanupDyteEventListeners(){
 
     }
 
@@ -214,13 +214,13 @@ export class ProductDBStateListenersUtils{
 ` } />
 
 Few of the crucial components that we added here are:
-1. `ProductDBNotifications` to show notifications related to device plug/unplug and peer join/leave.
-2. `ProductDBParticipantsAudio` to play other participant audio.
-3. `ProductDBSidebar` to show sidebars for Chat, Plugins and polls.
-4. `ProductDBDialogManager` contails all modals such as settings, breakout rooms, and leave action.
+1. `DyteNotifications` to show notifications related to device plug/unplug and peer join/leave.
+2. `DyteParticipantsAudio` to play other participant audio.
+3. `DyteSidebar` to show sidebars for Chat, Plugins and polls.
+4. `DyteDialogManager` contails all modals such as settings, breakout rooms, and leave action.
 
-`ProductDBGrid` is the most crucial component here. It internally changes the UI based on the shared screens, pinned participants, spotlight, multi-user call.
+`DyteGrid` is the most crucial component here. It internally changes the UI based on the shared screens, pinned participants, spotlight, multi-user call.
 
-In upcoming guides we will discuss how we can build ProductDBGrid from scratch as well. But before that, let's discuss how we can build a custom sidebar next.
+In upcoming guides we will discuss how we can build DyteGrid from scratch as well. But before that, let's discuss how we can build a custom sidebar next.
 
 

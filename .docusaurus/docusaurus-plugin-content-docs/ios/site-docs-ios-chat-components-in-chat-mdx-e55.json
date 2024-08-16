@@ -1,0 +1,31 @@
+{
+  "id": "chat/components-in-chat",
+  "title": "Chat Components",
+  "description": "Learn how to use and customize the CustomChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/chat/components-in-chat.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/components-in-chat",
+  "permalink": "/ios/chat/components-in-chat",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/chat/components-in-chat.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-chat.svg",
+    "sidebar_position": 2,
+    "description": "Learn how to use and customize the CustomChatViewController component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pre-built Chat Screen",
+    "permalink": "/ios/chat/pre-built-chat-screen"
+  },
+  "next": {
+    "title": "Attachments in Chat",
+    "permalink": "/ios/chat/attachments-in-chat"
+  }
+}

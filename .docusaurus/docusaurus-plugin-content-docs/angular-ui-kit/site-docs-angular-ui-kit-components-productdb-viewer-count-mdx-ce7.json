@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-viewer-count",
+  "title": "productdb-viewer-count",
+  "description": "Learn how to use and customize the productdb-viewer-count component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/productdb-viewer-count.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-viewer-count",
+  "permalink": "/angular-ui-kit/components/productdb-viewer-count",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/productdb-viewer-count.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the productdb-viewer-count component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-tooltip",
+    "permalink": "/angular-ui-kit/components/productdb-tooltip"
+  },
+  "next": {
+    "title": "Customize Meeting Icons",
+    "permalink": "/angular-ui-kit/customizations/custom-iconpack"
+  }
+}

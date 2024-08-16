@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-tooltip",
+  "title": "productdb-tooltip",
+  "description": "Learn how to use and customize the productdb-tooltip component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/productdb-tooltip.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-tooltip",
+  "permalink": "/angular-ui-kit/components/productdb-tooltip",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/productdb-tooltip.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-tooltip.svg",
+    "description": "Learn how to use and customize the productdb-tooltip component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-text-message",
+    "permalink": "/angular-ui-kit/components/productdb-text-message"
+  },
+  "next": {
+    "title": "productdb-viewer-count",
+    "permalink": "/angular-ui-kit/components/productdb-viewer-count"
+  }
+}

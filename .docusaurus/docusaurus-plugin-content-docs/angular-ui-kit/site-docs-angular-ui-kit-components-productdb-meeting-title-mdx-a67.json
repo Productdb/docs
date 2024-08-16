@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-meeting-title",
+  "title": "productdb-meeting-title",
+  "description": "Learn how to use and customize the productdb-meeting-title component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/productdb-meeting-title.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-meeting-title",
+  "permalink": "/angular-ui-kit/components/productdb-meeting-title",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/productdb-meeting-title.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-meeting-title.svg",
+    "description": "Learn how to use and customize the productdb-meeting-title component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-logo",
+    "permalink": "/angular-ui-kit/components/productdb-logo"
+  },
+  "next": {
+    "title": "productdb-meeting",
+    "permalink": "/angular-ui-kit/components/productdb-meeting"
+  }
+}

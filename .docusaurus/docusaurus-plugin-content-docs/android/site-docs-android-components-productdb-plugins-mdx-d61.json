@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-plugins",
+  "title": "ProductDBPluginsBottomSheet",
+  "description": "Learn how to use and customize the ProductDBPluginsBottomSheet component in ProductDB's Android with our detailed documentation.",
+  "source": "@site/docs/android/components/productdb-plugins.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-plugins",
+  "permalink": "/android/components/productdb-plugins",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/productdb-plugins.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-plugins.svg",
+    "description": "Learn how to use and customize the ProductDBPluginsBottomSheet component in ProductDB's Android with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBParticipantsFragment",
+    "permalink": "/android/components/productdb-participants"
+  },
+  "next": {
+    "title": "ProductDBCreatePollBottomSheet",
+    "permalink": "/android/components/productdb-poll-form"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "capabilities/recording/advanced/interactive-recording",
+  "title": "Interactive Recordings with Timed Metadata",
+  "description": "Learn how to enable interactive recording with ProductDB's capabilities. Follow our guide for effective configuration and management.",
+  "source": "@site/docs/guides/capabilities/recording/advanced/interactive-recording.mdx",
+  "sourceDirName": "capabilities/recording/advanced",
+  "slug": "/capabilities/recording/interactive-recording",
+  "permalink": "/guides/capabilities/recording/interactive-recording",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/recording/advanced/interactive-recording.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "Interactive Recordings with Timed Metadata",
+    "sidebar_position": 11,
+    "slug": "/capabilities/recording/interactive-recording",
+    "description": "Learn how to enable interactive recording with ProductDB's capabilities. Follow our guide for effective configuration and management."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disable upload to ProductDB's bucket",
+    "permalink": "/guides/capabilities/recording/configure-productdb-bucket-config"
+  },
+  "next": {
+    "title": "Create Custom Recording App Using Recording SDKs",
+    "permalink": "/guides/capabilities/recording/create-record-app-using-sdks"
+  }
+}

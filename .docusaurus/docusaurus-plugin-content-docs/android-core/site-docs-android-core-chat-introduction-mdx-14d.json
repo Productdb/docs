@@ -1,0 +1,44 @@
+{
+  "id": "chat/introduction",
+  "title": "Introducing chat",
+  "description": "Learn the basics of integrating ProductDB's chat functionality into your Android application – a step towards immersive real-time communication.",
+  "source": "@site/docs/android-core/chat/introduction.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/introduction",
+  "permalink": "/android-core/chat/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/chat/introduction.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/android-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introducing chat",
+    "description": "Learn the basics of integrating ProductDB's chat functionality into your Android application – a step towards immersive real-time communication.",
+    "sidebar_position": 1,
+    "tags": [
+      "android-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Waitlisted Participants",
+    "permalink": "/android-core/participants/waitlisted-participants"
+  },
+  "next": {
+    "title": "Sending a chat message",
+    "permalink": "/android-core/chat/sending-a-chat-message"
+  }
+}

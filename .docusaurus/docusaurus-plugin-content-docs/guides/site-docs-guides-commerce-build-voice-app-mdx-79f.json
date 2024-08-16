@@ -1,0 +1,30 @@
+{
+  "id": "commerce/build-voice-app",
+  "title": "Server Integration",
+  "description": "<IntegrateProductDB",
+  "source": "@site/docs/guides/commerce/build-voice-app.mdx",
+  "sourceDirName": "commerce",
+  "slug": "/commerce/build-voice-app",
+  "permalink": "/guides/commerce/build-voice-app",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/commerce/build-voice-app.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Server Integration",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Concepts",
+    "permalink": "/guides/commerce/concepts"
+  },
+  "next": {
+    "title": "Client Setup",
+    "permalink": "/guides/commerce/client-setup/"
+  }
+}

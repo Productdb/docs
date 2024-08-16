@@ -1,0 +1,30 @@
+{
+  "id": "participants/prebuilt",
+  "title": "Prebuilt",
+  "description": "This section explains how to list and manage participants in your ProductDB app.",
+  "source": "@site/docs/android/participants/prebuilt.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/prebuilt",
+  "permalink": "/android/participants/prebuilt",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/participants/prebuilt.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Prebuilt",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Types",
+    "permalink": "/android/participants/introduction"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/android/plugins/introduction"
+  }
+}

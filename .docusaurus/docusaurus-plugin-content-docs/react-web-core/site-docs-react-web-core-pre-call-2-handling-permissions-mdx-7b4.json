@@ -1,0 +1,27 @@
+{
+  "id": "pre-call/handling-permissions",
+  "title": "Handling Browser Permissions",
+  "description": "Properties",
+  "source": "@site/docs/react-web-core/pre-call/2-handling-permissions.mdx",
+  "sourceDirName": "pre-call",
+  "slug": "/pre-call/handling-permissions",
+  "permalink": "/react-web-core/pre-call/handling-permissions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/pre-call/2-handling-permissions.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Preview",
+    "permalink": "/react-web-core/pre-call/media-preview"
+  },
+  "next": {
+    "title": "Virtual BG and Noise Cancellation",
+    "permalink": "/react-web-core/pre-call/virtual-bg"
+  }
+}

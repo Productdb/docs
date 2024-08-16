@@ -24,8 +24,8 @@ Let's put a basic skeleton and the initial boilerplate code.
 ### File: Meeting.tsx
 
 ```tsx
-import { ProductDBSetupScreen } from '@dytesdk/react-ui-kit';
-import type ProductDBClient from '@dytesdk/web-core';
+import { DyteSetupScreen } from '@dytesdk/react-ui-kit';
+import type DyteClient from '@dytesdk/web-core';
 import { useEffect, useState } from 'react';
 import { CustomStates, SetState } from './types';
 import CustomMeetingPreview from './CustomMeetingPreview';
@@ -40,9 +40,9 @@ function MyMeeting() {
       {roomState === 'init' && <CustomMeetingPreview />}
 
       {/* Essential components to play audio, show notifications etc */}
-      <ProductDBParticipantsAudio meeting={meeting} />
-      <ProductDBNotifications meeting={meeting} />
-      <ProductDBDialogManager meeting={meeting} />
+      <DyteParticipantsAudio meeting={meeting} />
+      <DyteNotifications meeting={meeting} />
+      <DyteDialogManager meeting={meeting} />
 
       {/* 
 
@@ -65,7 +65,7 @@ highlight={[{start: 12, end: 12}, {start: 18, end: 18}]}
 hide={[{start: 1, end: 3}]}
 file={`
 import { useDyteMeeting } from "@dytesdk/react-web-core";
-import { ProductDBButton } from "@dytesdk/react-ui-kit";
+import { DyteButton } from "@dytesdk/react-ui-kit";
 
 export default function CustomMeetingPreview() {
   const { meeting } = useDyteMeeting();
@@ -76,7 +76,7 @@ export default function CustomMeetingPreview() {
       <div className="flex flex-col items-center">
         <p>Joining as {meeting.self.name}</p>
       </div>
-      <ProductDBButton
+      <DyteButton
         size="lg"
         onClick={async () => {
           // Call join() to enter the meeting
@@ -84,7 +84,7 @@ export default function CustomMeetingPreview() {
         }}
       >
         Join
-      </ProductDBButton>
+      </DyteButton>
     </div>
   );
 }

@@ -1,0 +1,30 @@
+{
+  "id": "capabilities/misc/livestreaming-other-platforms",
+  "title": "Restream to Social Platforms",
+  "description": "ProductDB can restream your meeting to any platform that supports an RTMP",
+  "source": "@site/docs/guides/capabilities/misc/livestreaming-other-platforms.mdx",
+  "sourceDirName": "capabilities/misc",
+  "slug": "/capabilities/misc/livestreaming-other-platforms",
+  "permalink": "/guides/capabilities/misc/livestreaming-other-platforms",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/misc/livestreaming-other-platforms.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Restream to Social Platforms",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "No code Integration",
+    "permalink": "/guides/capabilities/misc/embed"
+  },
+  "next": {
+    "title": "Quickstart",
+    "permalink": "/guides/rest-apis/quickstart"
+  }
+}

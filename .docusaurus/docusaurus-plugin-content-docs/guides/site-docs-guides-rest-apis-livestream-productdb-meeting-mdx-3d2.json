@@ -1,0 +1,31 @@
+{
+  "id": "rest-apis/livestream-productdb-meeting",
+  "title": "Live Stream APIs",
+  "description": "Explore ProductDB's REST APIs for livestreaming ProductDB meetings. Follow our guide for effective integration and management of REST APIs.",
+  "source": "@site/docs/guides/rest-apis/livestream-productdb-meeting.mdx",
+  "sourceDirName": "rest-apis",
+  "slug": "/rest-apis/livestream-productdb-meeting",
+  "permalink": "/guides/rest-apis/livestream-productdb-meeting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/rest-apis/livestream-productdb-meeting.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723756942,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Live Stream APIs",
+    "sidebar_position": 6,
+    "description": "Explore ProductDB's REST APIs for livestreaming ProductDB meetings. Follow our guide for effective integration and management of REST APIs."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/guides/rest-apis/quickstart"
+  },
+  "next": {
+    "title": "Migrate to v2 REST API",
+    "permalink": "/guides/v2-migration-guide"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "participants/permissions",
+  "title": "Permissions",
+  "description": "Permissions for a participant are defined by the preset. However they can updated in meeting by calling updatePermissions for remote participants",
+  "source": "@site/docs/web-core/participants/permissions.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/permissions",
+  "permalink": "/web-core/participants/permissions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/participants/permissions.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Picture-in-Picture",
+    "permalink": "/web-core/participants/pip"
+  },
+  "next": {
+    "title": "Introducing chat",
+    "permalink": "/web-core/chat/introduction"
+  }
+}

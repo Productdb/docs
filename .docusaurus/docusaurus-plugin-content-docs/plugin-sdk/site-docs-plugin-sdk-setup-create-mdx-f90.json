@@ -1,0 +1,31 @@
+{
+  "id": "setup/create",
+  "title": "Create a Plugin",
+  "description": "Step-by-step guide on how to create a setup for your plugin using the ProductDB Plugin SDK. Ensure a smooth setup process for your users.",
+  "source": "@site/docs/plugin-sdk/setup/create.mdx",
+  "sourceDirName": "setup",
+  "slug": "/setup/create",
+  "permalink": "/plugin-sdk/setup/create",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/plugin-sdk/setup/create.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Create a Plugin",
+    "sidebar_position": 1,
+    "description": "Step-by-step guide on how to create a setup for your plugin using the ProductDB Plugin SDK. Ensure a smooth setup process for your users."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/plugin-sdk/quickstart"
+  },
+  "next": {
+    "title": "Configure Plugin Properties",
+    "permalink": "/plugin-sdk/setup/customize"
+  }
+}

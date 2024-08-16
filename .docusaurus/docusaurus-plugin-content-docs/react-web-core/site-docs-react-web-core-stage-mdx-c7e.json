@@ -1,0 +1,30 @@
+{
+  "id": "stage",
+  "title": "Stage Management",
+  "description": "Below documentation relevant for Interactive Livestream(LHLS) and Webinar(WebRTC) use cases",
+  "source": "@site/docs/react-web-core/stage.mdx",
+  "sourceDirName": ".",
+  "slug": "/stage",
+  "permalink": "/react-web-core/stage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/stage.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Stage Management",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recording",
+    "permalink": "/react-web-core/recording"
+  },
+  "next": {
+    "title": "Livestreaming",
+    "permalink": "/react-web-core/livestreaming"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "build-in-call-ui/build-your-own/customize-header",
+  "title": "Customize Header",
+  "description": "Source Code//github.com/productdb-io/react-samples/tree/main/samples/create-your-own-ui",
+  "source": "@site/docs/react-ui-kit/build-in-call-ui/build-your-own/customize-header.mdx",
+  "sourceDirName": "build-in-call-ui/build-your-own",
+  "slug": "/build-in-call-ui/build-your-own/customize-header",
+  "permalink": "/react-ui-kit/build-in-call-ui/build-your-own/customize-header",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-in-call-ui/build-your-own/customize-header.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Customize Header",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "States Based UI Split",
+    "permalink": "/react-ui-kit/build-in-call-ui/build-your-own/states based UI Split"
+  },
+  "next": {
+    "title": "Customize Control Bar",
+    "permalink": "/react-ui-kit/build-in-call-ui/build-your-own/customize-control-bar"
+  }
+}

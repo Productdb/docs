@@ -1,0 +1,26 @@
+{
+  "id": "capabilities/webhooks/index",
+  "title": "Webhooks and Events",
+  "description": "Learn how ProductDB uses webhooks to push real-time updates to your applications.",
+  "source": "@site/docs/guides/capabilities/webhooks/index.mdx",
+  "sourceDirName": "capabilities/webhooks",
+  "slug": "/capabilities/webhooks/",
+  "permalink": "/guides/capabilities/webhooks/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/webhooks/index.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to ProductDB's Webinar",
+    "permalink": "/guides/capabilities/webinar/intro-webinar"
+  },
+  "next": {
+    "title": "Webhooks Overview",
+    "permalink": "/guides/capabilities/webhooks/webhooks-overview"
+  }
+}

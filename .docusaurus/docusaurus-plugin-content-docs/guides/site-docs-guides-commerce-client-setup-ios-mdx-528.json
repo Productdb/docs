@@ -1,0 +1,28 @@
+{
+  "id": "commerce/client-setup/ios",
+  "title": "iOS",
+  "description": "iOS Guide",
+  "source": "@site/docs/guides/commerce/client-setup/ios.mdx",
+  "sourceDirName": "commerce/client-setup",
+  "slug": "/commerce/client-setup/ios",
+  "permalink": "/guides/commerce/client-setup/ios",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/commerce/client-setup/ios.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "iOS",
+    "sidebar_position": 5,
+    "pagination_prev": null,
+    "pagination_next": "commerce/next-steps"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Next Steps",
+    "permalink": "/guides/commerce/next-steps"
+  }
+}

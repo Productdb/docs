@@ -4,21 +4,21 @@ sidebar_position: 5
 
 # Use Web Core Hooks
 
-ProductDB's React UI Kit provides multiple
+Dyte's React UI Kit provides multiple
 [Hooks](https://beta.reactjs.org/reference/react). Hooks let you use different
 React features from your components.
 
-This provides seamless developer experience when integrating ProductDB's UI Kit in
+This provides seamless developer experience when integrating Dyte's UI Kit in
 your React project. You can simply import the package from
 `dytesdk/react-web-core`, which is a hooks wrapper on `dytesdk/web-core`.
 
-This page lists all the built-in Hooks in ProductDB.
+This page lists all the built-in Hooks in Dyte.
 
-- `<ProductDBProvider />`
+- `<DyteProvider />`
 - `useDyteMeeting()`
 - `useDyteSelector()`
 
-## `<ProductDBProvider />`
+## `<DyteProvider />`
 
 It is a simple context provider providing the meeting object to child
 components.
@@ -41,9 +41,9 @@ function App() {
   }, []);
 
   return (
-    <ProductDBProvider value={meeting}>
+    <DyteProvider value={meeting}>
       <Meeting />
-    </ProductDBProvider>
+    </DyteProvider>
   );
 }
 ```
@@ -59,7 +59,7 @@ These are:
 ## `useDyteMeeting()`
 
 This hook essentially returns the `meeting` object you passed to the
-`ProductDBProvider`.
+`DyteProvider`.
 
 The value returned doesn't re-render always whenever properties inside the
 object change.
@@ -78,8 +78,8 @@ function Meeting() {
     meeting.join();
   }, [meeting]);
 
-  // show ProductDBMeeting
-  return <ProductDBMeeting meeting={meeting} />;
+  // show DyteMeeting
+  return <DyteMeeting meeting={meeting} />;
 }
 ```
 
@@ -103,7 +103,7 @@ const joinedParticipants = useDyteSelector(
 );
 ```
 
-Refer to core [documentation for reference](/web-core/reference/ProductDBClient) on
+Refer to core [documentation for reference](/web-core/reference/DyteClient) on
 the various properties of the `meeting` object.
 
 ### Example
@@ -111,7 +111,7 @@ the various properties of the `meeting` object.
 ```jsx
 import React from 'react';
 import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';
-import { ProductDBGrid, ProductDBButton } from '@dytesdk/react-ui-kit';
+import { DyteGrid, DyteButton } from '@dytesdk/react-ui-kit';
 
 function Meeting() {
   const { meeting } = useDyteMeeting();
@@ -121,14 +121,14 @@ function Meeting() {
     return (
       <div>
         <p>You haven't joined the room yet.</p>
-        <ProductDBButton onClick={() => meeting.joinRoom()}>Join Room</ProductDBButton>
+        <DyteButton onClick={() => meeting.joinRoom()}>Join Room</DyteButton>
       </div>
     );
   }
 
   return (
     <div style={{ height: '100vh', width: '100vw' }}>
-      <ProductDBGrid meeting={meeting} />
+      <DyteGrid meeting={meeting} />
     </div>
   );
 }

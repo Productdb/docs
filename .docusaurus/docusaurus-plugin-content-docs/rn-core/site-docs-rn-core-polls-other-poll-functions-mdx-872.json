@@ -1,0 +1,54 @@
+{
+  "id": "polls/other-poll-functions",
+  "title": "Other poll functions",
+  "description": "Other poll functions",
+  "source": "@site/docs/rn-core/polls/other-poll-functions.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/other-poll-functions",
+  "permalink": "/rn-core/polls/other-poll-functions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/polls/other-poll-functions.mdx",
+  "tags": [
+    {
+      "label": "rn-core",
+      "permalink": "/rn-core/tags/rn-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/rn-core/tags/polls"
+    },
+    {
+      "label": "results",
+      "permalink": "/rn-core/tags/results"
+    },
+    {
+      "label": "updates",
+      "permalink": "/rn-core/tags/updates"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Other poll functions",
+    "description": "Other poll functions",
+    "sidebar_position": 4,
+    "tags": [
+      "rn-core",
+      "polls",
+      "results",
+      "updates"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Voting on a poll",
+    "permalink": "/rn-core/polls/voting-on-a-poll"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/rn-core/plugins/introduction"
+  }
+}

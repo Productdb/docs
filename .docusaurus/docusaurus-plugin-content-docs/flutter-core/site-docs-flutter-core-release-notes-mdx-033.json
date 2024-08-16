@@ -1,0 +1,40 @@
+{
+  "id": "release-notes",
+  "title": "Release Notes",
+  "description": "Flutter Core Release Notes",
+  "source": "@site/docs/flutter-core/release-notes.mdx",
+  "sourceDirName": ".",
+  "slug": "/release-notes",
+  "permalink": "/flutter-core/release-notes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/release-notes.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/flutter-core/tags/mobile-core"
+    },
+    {
+      "label": "releasenotes",
+      "permalink": "/flutter-core/tags/releasenotes"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 101,
+  "frontMatter": {
+    "title": "Release Notes",
+    "sidebar_position": 101,
+    "sidebar_class_name": "releaseSidebarHeading",
+    "tags": [
+      "mobile-core",
+      "releasenotes"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Host Actions & Permissions",
+    "permalink": "/flutter-core/host-actions"
+  }
+}

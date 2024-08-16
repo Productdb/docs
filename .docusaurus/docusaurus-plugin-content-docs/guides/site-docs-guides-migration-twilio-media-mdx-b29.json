@@ -1,0 +1,30 @@
+{
+  "id": "migration/twilio/media",
+  "title": "🎬 Media",
+  "description": "Publish-Subscribe Model",
+  "source": "@site/docs/guides/migration/twilio/media.mdx",
+  "sourceDirName": "migration/twilio",
+  "slug": "/migration/twilio/media",
+  "permalink": "/guides/migration/twilio/media",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/migration/twilio/media.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "🎬 Media",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🔤 Basics",
+    "permalink": "/guides/migration/twilio/basics"
+  },
+  "next": {
+    "title": "🏗️ Misc",
+    "permalink": "/guides/migration/twilio/misc"
+  }
+}

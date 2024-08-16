@@ -1,0 +1,30 @@
+{
+  "id": "reference/ProductDBClient",
+  "title": "ProductDBClient",
+  "description": "The ProductDBClient class is the main class of the web core library.",
+  "source": "@site/docs/web-core/reference/ProductDBClient.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/ProductDBClient",
+  "permalink": "/web-core/reference/ProductDBClient",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/web-core/reference/ProductDBClient.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Error Codes (0-16)",
+    "permalink": "/web-core/error-codes/error-code-zero-ten"
+  },
+  "next": {
+    "title": "ProductDBSelf",
+    "permalink": "/web-core/reference/ProductDBSelf"
+  }
+}

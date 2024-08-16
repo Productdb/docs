@@ -1,0 +1,15 @@
+{
+  "label": "releasenotes",
+  "permalink": "/react-native/tags/releasenotes",
+  "allTagsPath": "/react-native/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "release-notes",
+      "title": "Release Notes",
+      "description": "React Native UI Kit Release Notes",
+      "permalink": "/react-native/release-notes"
+    }
+  ],
+  "unlisted": false
+}

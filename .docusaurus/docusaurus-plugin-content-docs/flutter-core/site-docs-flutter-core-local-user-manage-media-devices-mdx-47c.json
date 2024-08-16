@@ -1,0 +1,54 @@
+{
+  "id": "local-user/manage-media-devices",
+  "title": "Manage Media Devices",
+  "description": "Understand how to manage media devices for local users in Flutter. Follow ProductDB's documentation for effective management of media devices.",
+  "source": "@site/docs/flutter-core/local-user/manage-media-devices.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/manage-media-devices",
+  "permalink": "/flutter-core/local-user/manage-media-devices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/local-user/manage-media-devices.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "local-user",
+      "permalink": "/flutter-core/tags/local-user"
+    },
+    {
+      "label": "self",
+      "permalink": "/flutter-core/tags/self"
+    },
+    {
+      "label": "self events",
+      "permalink": "/flutter-core/tags/self-events"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Manage Media Devices",
+    "description": "Understand how to manage media devices for local users in Flutter. Follow ProductDB's documentation for effective management of media devices.",
+    "sidebar_position": 3,
+    "tags": [
+      "flutter-core",
+      "local-user",
+      "self",
+      "self events"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/flutter-core/local-user/events"
+  },
+  "next": {
+    "title": "Media Permissions",
+    "permalink": "/flutter-core/local-user/manage-permissions"
+  }
+}

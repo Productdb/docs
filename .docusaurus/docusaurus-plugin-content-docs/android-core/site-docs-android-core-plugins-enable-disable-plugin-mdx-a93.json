@@ -1,0 +1,44 @@
+{
+  "id": "plugins/enable-disable-plugin",
+  "title": "Functions to enable plugins",
+  "description": "Methods on a plugin in a meeting.",
+  "source": "@site/docs/android-core/plugins/enable-disable-plugin.mdx",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/enable-disable-plugin",
+  "permalink": "/android-core/plugins/enable-disable-plugin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/plugins/enable-disable-plugin.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "plugins",
+      "permalink": "/android-core/tags/plugins"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Functions to enable plugins",
+    "description": "Methods on a plugin in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "android-core",
+      "plugins"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/android-core/plugins/introduction"
+  },
+  "next": {
+    "title": "Other methods",
+    "permalink": "/android-core/plugins/extra"
+  }
+}

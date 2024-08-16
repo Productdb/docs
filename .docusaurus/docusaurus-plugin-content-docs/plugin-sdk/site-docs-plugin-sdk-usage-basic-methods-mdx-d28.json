@@ -1,0 +1,31 @@
+{
+  "id": "usage/basic/methods",
+  "title": "Methods",
+  "description": "Learn the basic methods of using ProductDB Plugin SDK for efficient integration. Enhance your app's functionality with powerful plugin methods.",
+  "source": "@site/docs/plugin-sdk/usage/basic/methods.mdx",
+  "sourceDirName": "usage/basic",
+  "slug": "/usage/basic/methods",
+  "permalink": "/plugin-sdk/usage/basic/methods",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/plugin-sdk/usage/basic/methods.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Methods",
+    "sidebar_position": 1,
+    "description": "Learn the basic methods of using ProductDB Plugin SDK for efficient integration. Enhance your app's functionality with powerful plugin methods."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Initialize Plugin",
+    "permalink": "/plugin-sdk/usage/basic/initialize"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/plugin-sdk/usage/basic/events"
+  }
+}

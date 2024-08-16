@@ -1,0 +1,30 @@
+{
+  "id": "livestream/get-started",
+  "title": "Setup",
+  "description": "To get started with creating live video calls from ProductDB, make sure to finish these steps and then move on to integrating ProductDB in your application.",
+  "source": "@site/docs/guides/livestream/get-started.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/get-started",
+  "permalink": "/guides/livestream/get-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/livestream/get-started.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Setup",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Concepts",
+    "permalink": "/guides/livestream/concepts"
+  },
+  "next": {
+    "title": "Server Integration",
+    "permalink": "/guides/livestream/build-livestream-app"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "chat/receiving-chat-messages",
+  "title": "Receiving chat messages",
+  "description": "Receive chat messages that have been sent in a meeting.",
+  "source": "@site/docs/rn-core/chat/receiving-chat-messages.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/receiving-chat-messages",
+  "permalink": "/rn-core/chat/receiving-chat-messages",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/chat/receiving-chat-messages.mdx",
+  "tags": [
+    {
+      "label": "rn-core",
+      "permalink": "/rn-core/tags/rn-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/rn-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Receiving chat messages",
+    "description": "Receive chat messages that have been sent in a meeting.",
+    "sidebar_position": 3,
+    "tags": [
+      "rn-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sending a chat message",
+    "permalink": "/rn-core/chat/sending-a-chat-message"
+  },
+  "next": {
+    "title": "Editing Chat Messages",
+    "permalink": "/rn-core/chat/edit-chat-messages"
+  }
+}

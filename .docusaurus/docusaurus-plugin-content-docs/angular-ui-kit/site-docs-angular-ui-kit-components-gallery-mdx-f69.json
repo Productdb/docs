@@ -1,0 +1,31 @@
+{
+  "id": "components/gallery",
+  "title": "Gallery",
+  "description": "Learn how to use and customize the Gallery component in ProductDB's Angular UI Kit with our detailed documentation.",
+  "source": "@site/docs/angular-ui-kit/components/gallery.mdx",
+  "sourceDirName": "components",
+  "slug": "/components",
+  "permalink": "/angular-ui-kit/components",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/angular-ui-kit/components/gallery.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/components",
+    "description": "Learn how to use and customize the Gallery component in ProductDB's Angular UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prerequisite",
+    "permalink": "/angular-ui-kit/basics/pre-requisite"
+  },
+  "next": {
+    "title": "productdb-audio-visualizer",
+    "permalink": "/angular-ui-kit/components/productdb-audio-visualizer"
+  }
+}

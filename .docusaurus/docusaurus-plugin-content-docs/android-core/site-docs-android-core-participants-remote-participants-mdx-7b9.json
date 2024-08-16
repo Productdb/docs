@@ -1,0 +1,45 @@
+{
+  "id": "participants/remote-participants",
+  "title": "Participant Types",
+  "description": "Events, methods and data pertaining to meeting participants.",
+  "source": "@site/docs/android-core/participants/remote-participants.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/",
+  "permalink": "/android-core/participants/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/participants/remote-participants.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/android-core/tags/participants"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Participant Types",
+    "description": "Events, methods and data pertaining to meeting participants.",
+    "sidebar_position": 1,
+    "slug": "/participants/",
+    "tags": [
+      "android-core",
+      "participants"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Permissions",
+    "permalink": "/android-core/local-user/manage-permissions"
+  },
+  "next": {
+    "title": "Participant Object",
+    "permalink": "/android-core/participants/participant-object"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Components/productdb-leave-meeting-dialog",
+  "title": "ProductDBLeaveMeetingDialog",
+  "description": "A dialog widget designed for confirming the action of leaving a ProductDB meeting. This widget is part of the ProductDB UI Kit and is intended to provide a clear and concise user interface for confirming the exit process from a meeting environment.",
+  "source": "@site/docs/flutter/Components/productdb-leave-meeting-dialog.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/productdb-leave-meeting-dialog",
+  "permalink": "/flutter/Components/productdb-leave-meeting-dialog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/productdb-leave-meeting-dialog.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBLeaveButton",
+    "permalink": "/flutter/Components/productdb-leave-button"
+  },
+  "next": {
+    "title": "ProductDBMeetingTitle",
+    "permalink": "/flutter/Components/productdb-meeting-title"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "using-hooks",
+  "title": "Use React Native Core Hooks",
+  "description": "ProductDB's React Native UI Kit provides multiple",
+  "source": "@site/docs/rn-ui-kit/using-hooks.mdx",
+  "sourceDirName": ".",
+  "slug": "/using-hooks",
+  "permalink": "/react-native/using-hooks",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/using-hooks.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Design System",
+    "permalink": "/react-native/design-system"
+  },
+  "next": {
+    "title": "Components Basics",
+    "permalink": "/react-native/basics/components-basics"
+  }
+}

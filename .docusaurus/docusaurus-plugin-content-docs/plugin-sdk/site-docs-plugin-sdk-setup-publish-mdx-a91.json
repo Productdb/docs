@@ -1,0 +1,31 @@
+{
+  "id": "setup/publish",
+  "title": "Publish your Plugin",
+  "description": "Guide on how to publish your plugin setup using the ProductDB Plugin SDK. Ensure a seamless deployment and distribution process for your plugins.",
+  "source": "@site/docs/plugin-sdk/setup/publish.mdx",
+  "sourceDirName": "setup",
+  "slug": "/setup/publish",
+  "permalink": "/plugin-sdk/setup/publish",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/plugin-sdk/setup/publish.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Publish your Plugin",
+    "sidebar_position": 3,
+    "description": "Guide on how to publish your plugin setup using the ProductDB Plugin SDK. Ensure a seamless deployment and distribution process for your plugins."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configure Plugin Properties",
+    "permalink": "/plugin-sdk/setup/customize"
+  },
+  "next": {
+    "title": "Set Up Development Environment",
+    "permalink": "/plugin-sdk/setup/develop"
+  }
+}

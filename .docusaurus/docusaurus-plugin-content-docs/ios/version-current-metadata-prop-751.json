@@ -1,0 +1,825 @@
+{
+  "pluginId": "ios",
+  "version": "current",
+  "label": "1.x.x",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/ios/",
+        "docId": "intro-ios-uikit",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Quickstart",
+        "href": "/ios/quickstart",
+        "docId": "quickstart",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Design System",
+        "href": "/ios/design-system",
+        "docId": "design-system",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Events",
+        "href": "/ios/events",
+        "docId": "events",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Pre-call preview UI",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "ProductDBSetupScreen",
+            "href": "/ios/build-pre-call-ui/default-setup-screen",
+            "docId": "build-pre-call-ui/default-setup-screen",
+            "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "Build your own",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Basic structure",
+                "href": "/ios/build-pre-call-ui/build-your-own/initial-code-skeleton",
+                "docId": "build-pre-call-ui/build-your-own/initial-code-skeleton",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Setting Screen",
+                "href": "/ios/build-pre-call-ui/build-your-own/productdb-setting",
+                "docId": "build-pre-call-ui/build-your-own/productdb-setting",
+                "unlisted": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Rendering participant video",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Using ProductDB GridView",
+            "href": "/ios/rendering-participant-video/using-productdbGrid",
+            "docId": "rendering-participant-video/using-productdbGrid",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Custom Grid View",
+            "href": "/ios/rendering-participant-video/build-your-own-grid",
+            "docId": "rendering-participant-video/build-your-own-grid",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Settings",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Pre-built Settings screen",
+            "href": "/ios/Pre-Built-Settings_Guides/Settings",
+            "docId": "Pre-Built-Settings_Guides/Settings",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Chat",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Pre-built Chat Screen",
+            "href": "/ios/chat/pre-built-chat-screen",
+            "docId": "chat/pre-built-chat-screen",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chat Components",
+            "href": "/ios/chat/components-in-chat",
+            "docId": "chat/components-in-chat",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Attachments in Chat",
+            "href": "/ios/chat/attachments-in-chat",
+            "docId": "chat/attachments-in-chat",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Plugins",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Pre-built Plugin screen",
+            "href": "/ios/Pre-Built-Plugins_Guides/Plugins",
+            "docId": "Pre-Built-Plugins_Guides/Plugins",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Load Plugins",
+            "href": "/ios/Pre-Built-Plugins_Guides/load-plugin",
+            "docId": "Pre-Built-Plugins_Guides/load-plugin",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Participants",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/ios/participants/introduction",
+            "docId": "participants/introduction",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Pre-built Participants Screen",
+            "href": "/ios/participants/pre-built-participants-screen",
+            "docId": "participants/pre-built-participants-screen",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Participant Types",
+            "href": "/ios/participants/type-of-participants",
+            "docId": "participants/type-of-participants",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Host Controls",
+            "href": "/ios/participants/host-controls",
+            "docId": "participants/host-controls",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Polls",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Pre-built create poll Scren",
+            "href": "/ios/Pre-Built-Polls_Guides/Polls",
+            "docId": "Pre-Built-Polls_Guides/Polls",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Pre-built Polls Screen",
+            "href": "/ios/Pre-Built-Polls_Guides/prebuilt_polls",
+            "docId": "Pre-Built-Polls_Guides/prebuilt_polls",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Components",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "ProductDBActiveTabSelectorView",
+            "href": "/ios/components/productdb-active-tab-selector-view",
+            "docId": "components/productdb-active-tab-selector-view",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBAvatarView",
+            "href": "/ios/components/productdb-avatar",
+            "docId": "components/productdb-avatar",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBButton",
+            "href": "/ios/components/productdb-button",
+            "docId": "components/productdb-button",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBSwitchCameraButtonControlBar",
+            "href": "/ios/components/productdb-camera-toggle",
+            "docId": "components/productdb-camera-toggle",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBChatViewController",
+            "href": "/ios/components/productdb-chat",
+            "docId": "components/productdb-chat",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBClockView",
+            "href": "/ios/components/productdb-clock",
+            "docId": "components/productdb-clock",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ConfigureWebinerAlertView",
+            "href": "/ios/components/productdb-configure-alertview-protocol",
+            "docId": "components/productdb-configure-alertview-protocol",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBControlBarButton",
+            "href": "/ios/components/productdb-controlbar-button",
+            "docId": "components/productdb-controlbar-button",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBEndMeetingControlBarButton",
+            "href": "/ios/components/productdb-end-meeting",
+            "docId": "components/productdb-end-meeting",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBMeetingHeaderView",
+            "href": "/ios/components/productdb-grid-pagination",
+            "docId": "components/productdb-grid-pagination",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "GridView",
+            "href": "/ios/components/productdb-grid",
+            "docId": "components/productdb-grid",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBWebinarAlertView",
+            "href": "/ios/components/productdb-join-stage",
+            "docId": "components/productdb-join-stage",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBLeaveDialogAlertButtonType",
+            "href": "/ios/components/productdb-leave-alert-actions",
+            "docId": "components/productdb-leave-alert-actions",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBLeaveDialog",
+            "href": "/ios/components/productdb-leave-meeting-alert",
+            "docId": "components/productdb-leave-meeting-alert",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBMeetingTitleLabel",
+            "href": "/ios/components/productdb-meeting-titlelabel",
+            "docId": "components/productdb-meeting-titlelabel",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBUIKit",
+            "href": "/ios/components/productdb-meeting",
+            "docId": "components/productdb-meeting",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBAudioButtonControlBar",
+            "href": "/ios/components/productdb-mic-toggle",
+            "docId": "components/productdb-mic-toggle",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBMoreButtonControlBar",
+            "href": "/ios/components/productdb-more-toggle",
+            "docId": "components/productdb-more-toggle",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBMeetingNameTag",
+            "href": "/ios/components/productdb-name-tag",
+            "docId": "components/productdb-name-tag",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBNavigationBar",
+            "href": "/ios/components/productdb-navigationbar",
+            "docId": "components/productdb-navigationbar",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBParticipantCountView",
+            "href": "/ios/components/productdb-participant-count",
+            "docId": "components/productdb-participant-count",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBParticipantTileView",
+            "href": "/ios/components/productdb-participant-tile-view",
+            "docId": "components/productdb-participant-tile-view",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ParticipantViewController",
+            "href": "/ios/components/productdb-participants",
+            "docId": "components/productdb-participants",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBPluginsView",
+            "href": "/ios/components/productdb-plugin-view",
+            "docId": "components/productdb-plugin-view",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBPluginScreenShareTabButton",
+            "href": "/ios/components/productdb-pluginScreenShareTab-button",
+            "docId": "components/productdb-pluginScreenShareTab-button",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBPluginViewController",
+            "href": "/ios/components/productdb-plugins",
+            "docId": "components/productdb-plugins",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBCreatePollsViewController",
+            "href": "/ios/components/productdb-poll-form",
+            "docId": "components/productdb-poll-form",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBShowPollsViewController",
+            "href": "/ios/components/productdb-polls",
+            "docId": "components/productdb-polls",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBRecordingView",
+            "href": "/ios/components/productdb-recording-indicator",
+            "docId": "components/productdb-recording-indicator",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBSettingViewController",
+            "href": "/ios/components/productdb-settings",
+            "docId": "components/productdb-settings",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "SetupViewControllerDelegate",
+            "href": "/ios/components/productdb-setup-screen-delegate",
+            "docId": "components/productdb-setup-screen-delegate",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBSetupViewController",
+            "href": "/ios/components/productdb-setup-screen",
+            "docId": "components/productdb-setup-screen",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ProductDBStageActionButtonControlBar",
+            "href": "/ios/components/productdb-webinar-stage-toggle",
+            "docId": "components/productdb-webinar-stage-toggle",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Helper-Classes",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "VideoPeerViewModel",
+            "href": "/ios/helper-classes/productdb-plugin-view-model",
+            "docId": "helper-classes/productdb-plugin-view-model",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Release Notes",
+        "href": "/ios/release-notes",
+        "className": "releaseSidebarHeading",
+        "docId": "release-notes",
+        "unlisted": false
+      }
+    ]
+  },
+  "docs": {
+    "build-pre-call-ui/build-your-own/initial-code-skeleton": {
+      "id": "build-pre-call-ui/build-your-own/initial-code-skeleton",
+      "title": "Basic structure",
+      "description": "What are we building?",
+      "sidebar": "tutorialSidebar"
+    },
+    "build-pre-call-ui/build-your-own/productdb-setting": {
+      "id": "build-pre-call-ui/build-your-own/productdb-setting",
+      "title": "Setting Screen",
+      "description": "Learn how to use and customize the ProductDBSettingViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "build-pre-call-ui/default-setup-screen": {
+      "id": "build-pre-call-ui/default-setup-screen",
+      "title": "ProductDBSetupScreen",
+      "description": "ProductDB provides a default pre-call preview UI, also known as setup screen as part of our UI components.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chat/attachments-in-chat": {
+      "id": "chat/attachments-in-chat",
+      "title": "Attachments in Chat",
+      "description": "Learn how to use and customize the CustomChatViewController component in ProductDB's iOS UiKit with send file and image documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chat/components-in-chat": {
+      "id": "chat/components-in-chat",
+      "title": "Chat Components",
+      "description": "Learn how to use and customize the CustomChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chat/pre-built-chat-screen": {
+      "id": "chat/pre-built-chat-screen",
+      "title": "Pre-built Chat Screen",
+      "description": "Learn how to use and customize the ProductDBChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-active-tab-selector-view": {
+      "id": "components/productdb-active-tab-selector-view",
+      "title": "ProductDBActiveTabSelectorView",
+      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-avatar": {
+      "id": "components/productdb-avatar",
+      "title": "ProductDBAvatarView",
+      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-button": {
+      "id": "components/productdb-button",
+      "title": "ProductDBButton",
+      "description": "Learn how to use and customize the ProductDBButton component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-camera-toggle": {
+      "id": "components/productdb-camera-toggle",
+      "title": "ProductDBSwitchCameraButtonControlBar",
+      "description": "Learn how to use and customize the ProductDBSwitchCameraButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-chat": {
+      "id": "components/productdb-chat",
+      "title": "ProductDBChatViewController",
+      "description": "Learn how to use and customize the ProductDBChatViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-clock": {
+      "id": "components/productdb-clock",
+      "title": "ProductDBClockView",
+      "description": "Learn how to use and customize the ProductDBClockView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-configure-alertview-protocol": {
+      "id": "components/productdb-configure-alertview-protocol",
+      "title": "ConfigureWebinerAlertView",
+      "description": "Learn how to use and customize the ConfigureWebinerAlertView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-controlbar-button": {
+      "id": "components/productdb-controlbar-button",
+      "title": "ProductDBControlBarButton",
+      "description": "Learn how to use and customize the ProductDBControlBarButton component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-end-meeting": {
+      "id": "components/productdb-end-meeting",
+      "title": "ProductDBEndMeetingControlBarButton",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-grid": {
+      "id": "components/productdb-grid",
+      "title": "GridView",
+      "description": "Learn how to use and customize the GridView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-grid-pagination": {
+      "id": "components/productdb-grid-pagination",
+      "title": "ProductDBMeetingHeaderView",
+      "description": "Learn how to use and customize the ProductDBMeetingHeaderView component in  ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-join-stage": {
+      "id": "components/productdb-join-stage",
+      "title": "ProductDBWebinarAlertView",
+      "description": "Learn how to use and customize the ProductDBWebinarAlertView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-leave-alert-actions": {
+      "id": "components/productdb-leave-alert-actions",
+      "title": "ProductDBLeaveDialogAlertButtonType",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-leave-meeting-alert": {
+      "id": "components/productdb-leave-meeting-alert",
+      "title": "ProductDBLeaveDialog",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-meeting": {
+      "id": "components/productdb-meeting",
+      "title": "ProductDBUIKit",
+      "description": "Learn how to use and customize the ProductDBUIKit component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-meeting-titlelabel": {
+      "id": "components/productdb-meeting-titlelabel",
+      "title": "ProductDBMeetingTitleLabel",
+      "description": "Learn how to use and customize the ProductDBMeetingTitleView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-mic-toggle": {
+      "id": "components/productdb-mic-toggle",
+      "title": "ProductDBAudioButtonControlBar",
+      "description": "Learn how to use and customize the ProductDBAudioButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-more-toggle": {
+      "id": "components/productdb-more-toggle",
+      "title": "ProductDBMoreButtonControlBar",
+      "description": "Learn how to use and customize the ProductDBMoreToggleButton component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-name-tag": {
+      "id": "components/productdb-name-tag",
+      "title": "ProductDBMeetingNameTag",
+      "description": "Learn how to use and customize the ProductDBMeetingNameTag component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-navigationbar": {
+      "id": "components/productdb-navigationbar",
+      "title": "ProductDBNavigationBar",
+      "description": "Learn how to use and customize the ProductDBNavigationBar component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-participant-count": {
+      "id": "components/productdb-participant-count",
+      "title": "ProductDBParticipantCountView",
+      "description": "Learn how to use and customize the ProductDBParticipantCountView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-participant-tile-view": {
+      "id": "components/productdb-participant-tile-view",
+      "title": "ProductDBParticipantTileView",
+      "description": "Learn how to use and customize the ProductDBStageActionButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-participants": {
+      "id": "components/productdb-participants",
+      "title": "ParticipantViewController",
+      "description": "Learn how to use and customize the ParticipantViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-plugin-view": {
+      "id": "components/productdb-plugin-view",
+      "title": "ProductDBPluginsView",
+      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-plugins": {
+      "id": "components/productdb-plugins",
+      "title": "ProductDBPluginViewController",
+      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-pluginScreenShareTab-button": {
+      "id": "components/productdb-pluginScreenShareTab-button",
+      "title": "ProductDBPluginScreenShareTabButton",
+      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-poll-form": {
+      "id": "components/productdb-poll-form",
+      "title": "ProductDBCreatePollsViewController",
+      "description": "Learn how to use and customize the ProductDBCreatePollsViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-polls": {
+      "id": "components/productdb-polls",
+      "title": "ProductDBShowPollsViewController",
+      "description": "Learn how to use and customize the ProductDBShowPollsViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-recording-indicator": {
+      "id": "components/productdb-recording-indicator",
+      "title": "ProductDBRecordingView",
+      "description": "Learn how to use and customize the ProductDBRecordingView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-settings": {
+      "id": "components/productdb-settings",
+      "title": "ProductDBSettingViewController",
+      "description": "Learn how to use and customize the ProductDBSettingViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-setup-screen": {
+      "id": "components/productdb-setup-screen",
+      "title": "ProductDBSetupViewController",
+      "description": "Learn how to use and customize the SetupViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-setup-screen-delegate": {
+      "id": "components/productdb-setup-screen-delegate",
+      "title": "SetupViewControllerDelegate",
+      "description": "Learn how to use and customize the SetupViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/productdb-webinar-stage-toggle": {
+      "id": "components/productdb-webinar-stage-toggle",
+      "title": "ProductDBStageActionButtonControlBar",
+      "description": "Learn how to use and customize the ProductDBStageActionButtonControlBar component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "design-system": {
+      "id": "design-system",
+      "title": "Design System",
+      "description": "Let's look at how you can customize and brand your UI with ProductDB's UI Kit.",
+      "sidebar": "tutorialSidebar"
+    },
+    "events": {
+      "id": "events",
+      "title": "Events",
+      "description": "Access comprehensive documentation on iOS events with ProductDB Docs. Stay informed and integrate events seamlessly into your app.",
+      "sidebar": "tutorialSidebar"
+    },
+    "helper-classes/productdb-plugin-view-model": {
+      "id": "helper-classes/productdb-plugin-view-model",
+      "title": "VideoPeerViewModel",
+      "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro-ios-uikit": {
+      "id": "intro-ios-uikit",
+      "title": "Introduction",
+      "description": "Beginner's guide to ProductDB's iOS UI Kit.",
+      "sidebar": "tutorialSidebar"
+    },
+    "participants/host-controls": {
+      "id": "participants/host-controls",
+      "title": "Host Controls",
+      "description": "Learn how to create and use a \"More\" menu for host control in your iOS app with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "participants/introduction": {
+      "id": "participants/introduction",
+      "title": "Introduction",
+      "description": "the data regarding all meeting participants is stored under meeting.participants. These does not include the local user. Use the methods and events to consume the participants data. For example, to get all the participants who joined the meeting:",
+      "sidebar": "tutorialSidebar"
+    },
+    "participants/pre-built-participants-screen": {
+      "id": "participants/pre-built-participants-screen",
+      "title": "Pre-built Participants Screen",
+      "description": "Learn how to use and customize the ParticipantViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "participants/type-of-participants": {
+      "id": "participants/type-of-participants",
+      "title": "Participant Types",
+      "description": "Learn how to handle various types of participants in your iOS app using ProductDB's participant view controllers with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Pre-Built-Plugins_Guides/load-plugin": {
+      "id": "Pre-Built-Plugins_Guides/load-plugin",
+      "title": "Load Plugins",
+      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Pre-Built-Plugins_Guides/Plugins": {
+      "id": "Pre-Built-Plugins_Guides/Plugins",
+      "title": "Pre-built Plugin screen",
+      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Pre-Built-Polls_Guides/Polls": {
+      "id": "Pre-Built-Polls_Guides/Polls",
+      "title": "Pre-built create poll Scren",
+      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Pre-Built-Polls_Guides/prebuilt_polls": {
+      "id": "Pre-Built-Polls_Guides/prebuilt_polls",
+      "title": "Pre-built Polls Screen",
+      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Pre-Built-Settings_Guides/Settings": {
+      "id": "Pre-Built-Settings_Guides/Settings",
+      "title": "Pre-built Settings screen",
+      "description": "Learn how to use and customize the ProductDBAvatarView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart": {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "Quickstart your iOS app integration with ProductDB Docs. Follow step-by-step guides for a smooth and efficient setup.",
+      "sidebar": "tutorialSidebar"
+    },
+    "release-notes": {
+      "id": "release-notes",
+      "title": "Release Notes",
+      "description": "iOS Release Notes",
+      "sidebar": "tutorialSidebar"
+    },
+    "rendering-participant-video/build-your-own-grid": {
+      "id": "rendering-participant-video/build-your-own-grid",
+      "title": "Custom Grid View",
+      "description": "Learn how to create a custom grid view component in ProductDB's iOS UIKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "rendering-participant-video/using-productdbGrid": {
+      "id": "rendering-participant-video/using-productdbGrid",
+      "title": "Using ProductDB GridView",
+      "description": "Learn how to use and customize the GridView component in ProductDB's iOS UiKit with our detailed documentation.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

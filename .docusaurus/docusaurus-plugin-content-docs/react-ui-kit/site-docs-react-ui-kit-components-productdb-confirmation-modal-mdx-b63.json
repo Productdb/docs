@@ -1,0 +1,28 @@
+{
+  "id": "components/productdb-confirmation-modal",
+  "title": "ProductDBConfirmationModal",
+  "description": "Learn how to use and customize the ProductDBConfirmationModal component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-confirmation-modal.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-confirmation-modal",
+  "permalink": "/react-ui-kit/components/productdb-confirmation-modal",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-confirmation-modal.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "description": "Learn how to use and customize the ProductDBConfirmationModal component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBClock",
+    "permalink": "/react-ui-kit/components/productdb-clock"
+  },
+  "next": {
+    "title": "DyteControlbarButton",
+    "permalink": "/react-ui-kit/components/productdb-controlbar-button"
+  }
+}

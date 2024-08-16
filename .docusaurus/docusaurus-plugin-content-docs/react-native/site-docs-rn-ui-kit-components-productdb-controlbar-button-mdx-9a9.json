@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-controlbar-button",
+  "title": "ProductDBControlbarButton",
+  "description": "Learn how to use and customize the ProductDBControlbarButton component in ProductDB's React Native UI Kit with our detailed documentation.",
+  "source": "@site/docs/rn-ui-kit/components/productdb-controlbar-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-controlbar-button",
+  "permalink": "/react-native/components/productdb-controlbar-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-ui-kit/components/productdb-controlbar-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-controlbar-button.svg",
+    "description": "Learn how to use and customize the ProductDBControlbarButton component in ProductDB's React Native UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBClock",
+    "permalink": "/react-native/components/productdb-clock"
+  },
+  "next": {
+    "title": "ProductDBControlbar",
+    "permalink": "/react-native/components/productdb-controlbar"
+  }
+}

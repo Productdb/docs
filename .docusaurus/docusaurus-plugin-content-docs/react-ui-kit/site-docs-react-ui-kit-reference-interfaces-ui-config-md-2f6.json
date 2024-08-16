@@ -1,0 +1,30 @@
+{
+  "id": "reference/interfaces/UIConfig",
+  "title": "Interface: UIConfig",
+  "description": "A UI Config object defines the UI of the meeting",
+  "source": "@site/docs/react-ui-kit/reference/interfaces/UIConfig.md",
+  "sourceDirName": "reference/interfaces",
+  "slug": "/reference/interfaces/UIConfig",
+  "permalink": "/react-ui-kit/reference/interfaces/UIConfig",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "frontMatter": {
+    "id": "UIConfig",
+    "title": "Interface: UIConfig",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interface: States",
+    "permalink": "/react-ui-kit/reference/interfaces/States"
+  },
+  "next": {
+    "title": "Interface: UserPreferences",
+    "permalink": "/react-ui-kit/reference/interfaces/UserPreferences"
+  }
+}

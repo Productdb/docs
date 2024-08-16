@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-plugin-view",
+  "title": "ProductDBPluginsView",
+  "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-plugin-view.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-plugin-view",
+  "permalink": "/ios/components/productdb-plugin-view",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-plugin-view.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-plugins.svg",
+    "description": "Learn how to use and customize the ProductDBPluginViewController component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ParticipantViewController",
+    "permalink": "/ios/components/productdb-participants"
+  },
+  "next": {
+    "title": "ProductDBPluginScreenShareTabButton",
+    "permalink": "/ios/components/productdb-pluginScreenShareTab-button"
+  }
+}

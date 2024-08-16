@@ -1,0 +1,49 @@
+{
+  "id": "host-actions",
+  "title": "Host Actions & Permissions",
+  "description": "Understand the host actions you can perform as per preset permissions set in Developer Portal & integration in ProductDB's Flutter SDK.",
+  "source": "@site/docs/flutter-core/host-actions.mdx",
+  "sourceDirName": ".",
+  "slug": "/host-actions",
+  "permalink": "/flutter-core/host-actions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/host-actions.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "permissions",
+      "permalink": "/flutter-core/tags/permissions"
+    },
+    {
+      "label": "host actions",
+      "permalink": "/flutter-core/tags/host-actions"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "title": "Host Actions & Permissions",
+    "description": "Understand the host actions you can perform as per preset permissions set in Developer Portal & integration in ProductDB's Flutter SDK.",
+    "sidebar_position": 13,
+    "tags": [
+      "flutter-core",
+      "permissions",
+      "host actions"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recording",
+    "permalink": "/flutter-core/recording"
+  },
+  "next": {
+    "title": "Release Notes",
+    "permalink": "/flutter-core/release-notes"
+  }
+}

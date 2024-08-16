@@ -1,0 +1,31 @@
+{
+  "id": "livestream/advanced/configuring-permissions",
+  "title": "Configure Permissions",
+  "description": "Dive into advanced livestream configuration with ProductDB. Follow our guide for effective permission setup and management.",
+  "source": "@site/docs/guides/livestream/advanced/configuring-permissions.mdx",
+  "sourceDirName": "livestream/advanced",
+  "slug": "/livestream/advanced/configuring-permissions",
+  "permalink": "/guides/livestream/advanced/configuring-permissions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/livestream/advanced/configuring-permissions.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Configure Permissions",
+    "sidebar_position": 1,
+    "description": "Dive into advanced livestream configuration with ProductDB. Follow our guide for effective permission setup and management."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flutter",
+    "permalink": "/guides/livestream/client-setup/flutter"
+  },
+  "next": {
+    "title": "Custom / RTMP Video Input",
+    "permalink": "/guides/livestream/advanced/livestream-any-rtmp"
+  }
+}

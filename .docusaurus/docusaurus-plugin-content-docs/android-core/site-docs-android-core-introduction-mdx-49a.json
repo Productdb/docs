@@ -1,0 +1,31 @@
+{
+  "id": "Introduction",
+  "title": "Introduction",
+  "description": "The ProductDB Core SDK is designed to provide you with an easy way to incorporate live video, voice, livestream and chat capabilities",
+  "source": "@site/docs/android-core/Introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/Introduction",
+  "permalink": "/android-core/Introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/Introduction.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Introduction",
+    "sidebar_position": 3,
+    "sidebar_class_name": "module-seperation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Waiting Room",
+    "permalink": "/android-core/pre-call/waiting-room"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/android-core/local-user/introduction"
+  }
+}

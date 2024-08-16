@@ -1,0 +1,29 @@
+{
+  "id": "capabilities/plugins/rendering",
+  "title": "Rendering",
+  "description": "Usage",
+  "source": "@site/docs/guides/capabilities/plugins/rendering.mdx",
+  "sourceDirName": "capabilities/plugins",
+  "slug": "/capabilities/plugins/rendering",
+  "permalink": "/guides/capabilities/plugins/rendering",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/plugins/rendering.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basics",
+    "permalink": "/guides/capabilities/plugins"
+  },
+  "next": {
+    "title": "Plugin: Document Sharing",
+    "permalink": "/guides/capabilities/plugins/docshare"
+  }
+}

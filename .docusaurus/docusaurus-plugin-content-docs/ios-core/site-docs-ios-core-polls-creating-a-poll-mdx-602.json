@@ -1,0 +1,49 @@
+{
+  "id": "polls/creating-a-poll",
+  "title": "Creating a poll",
+  "description": "Create and manage polls in your iOS app using ProductDB's documentation on Polls Creation.",
+  "source": "@site/docs/ios-core/polls/creating-a-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/creating-a-poll",
+  "permalink": "/ios-core/polls/creating-a-poll",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios-core/polls/creating-a-poll.mdx",
+  "tags": [
+    {
+      "label": "ios-core",
+      "permalink": "/ios-core/tags/ios-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/ios-core/tags/polls"
+    },
+    {
+      "label": "create",
+      "permalink": "/ios-core/tags/create"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Creating a poll",
+    "description": "Create and manage polls in your iOS app using ProductDB's documentation on Polls Creation.",
+    "sidebar_position": 2,
+    "tags": [
+      "ios-core",
+      "polls",
+      "create"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/ios-core/polls/introduction"
+  },
+  "next": {
+    "title": "Voting on a poll",
+    "permalink": "/ios-core/polls/voting-on-a-poll"
+  }
+}

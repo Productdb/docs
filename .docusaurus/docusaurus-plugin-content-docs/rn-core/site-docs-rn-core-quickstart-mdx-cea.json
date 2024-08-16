@@ -1,0 +1,49 @@
+{
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "Quickstart guide for web-core.",
+  "source": "@site/docs/rn-core/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/rn-core/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/quickstart.mdx",
+  "tags": [
+    {
+      "label": "rn-core",
+      "permalink": "/rn-core/tags/rn-core"
+    },
+    {
+      "label": "quickstart",
+      "permalink": "/rn-core/tags/quickstart"
+    },
+    {
+      "label": "setup",
+      "permalink": "/rn-core/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723758000,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Quickstart",
+    "description": "Quickstart guide for web-core.",
+    "sidebar_position": 2,
+    "tags": [
+      "rn-core",
+      "quickstart",
+      "setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/rn-core/"
+  },
+  "next": {
+    "title": "Media Preview",
+    "permalink": "/rn-core/pre-call/media-preview"
+  }
+}

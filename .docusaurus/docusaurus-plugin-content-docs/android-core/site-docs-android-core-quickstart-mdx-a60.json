@@ -1,0 +1,44 @@
+{
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "This quickstart shows how to use ProductDB's core SDKs to add live video and audio to",
+  "source": "@site/docs/android-core/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/android-core/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/quickstart.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "quickstart",
+      "permalink": "/android-core/tags/quickstart"
+    },
+    {
+      "label": "setup",
+      "permalink": "/android-core/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "tags": [
+      "android-core",
+      "quickstart",
+      "setup"
+    ],
+    "slug": "/",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Media Preview",
+    "permalink": "/android-core/pre-call/media-preview"
+  }
+}

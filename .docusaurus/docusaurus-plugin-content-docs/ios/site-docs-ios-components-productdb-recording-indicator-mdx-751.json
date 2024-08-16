@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-recording-indicator",
+  "title": "ProductDBRecordingView",
+  "description": "Learn how to use and customize the ProductDBRecordingView component in ProductDB's iOS UiKit with our detailed documentation.",
+  "source": "@site/docs/ios/components/productdb-recording-indicator.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-recording-indicator",
+  "permalink": "/ios/components/productdb-recording-indicator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/components/productdb-recording-indicator.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-recording-indicator.svg",
+    "description": "Learn how to use and customize the ProductDBRecordingView component in ProductDB's iOS UiKit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBShowPollsViewController",
+    "permalink": "/ios/components/productdb-polls"
+  },
+  "next": {
+    "title": "ProductDBSettingViewController",
+    "permalink": "/ios/components/productdb-settings"
+  }
+}

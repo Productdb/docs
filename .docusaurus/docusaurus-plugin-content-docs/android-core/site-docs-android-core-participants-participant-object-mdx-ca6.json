@@ -1,0 +1,45 @@
+{
+  "id": "participants/participant-object",
+  "title": "Participant Object",
+  "description": "The object corresponding to a particular participant.",
+  "source": "@site/docs/android-core/participants/participant-object.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/participant-object",
+  "permalink": "/android-core/participants/participant-object",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/participants/participant-object.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/android-core/tags/participants"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134098,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Participant Object",
+    "description": "The object corresponding to a particular participant.",
+    "sidebar_position": 2,
+    "slug": "/participants/participant-object",
+    "tags": [
+      "android-core",
+      "participants"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participant Types",
+    "permalink": "/android-core/participants/"
+  },
+  "next": {
+    "title": "Participant Events",
+    "permalink": "/android-core/participants/events"
+  }
+}

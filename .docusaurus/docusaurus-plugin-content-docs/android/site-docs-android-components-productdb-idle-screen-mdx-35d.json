@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-idle-screen",
+  "title": "ProductDBLoaderView",
+  "description": "Learn how to use and customize the ProductDBLoaderView component in ProductDB's Android with our detailed documentation.",
+  "source": "@site/docs/android/components/productdb-idle-screen.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-idle-screen",
+  "permalink": "/android/components/productdb-idle-screen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/productdb-idle-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-idle-screen.svg",
+    "description": "Learn how to use and customize the ProductDBLoaderView component in ProductDB's Android with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBGridViewV2",
+    "permalink": "/android/components/productdb-grid"
+  },
+  "next": {
+    "title": "ProductDBJoinStage",
+    "permalink": "/android/components/productdb-join-stage"
+  }
+}

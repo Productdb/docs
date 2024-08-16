@@ -1,0 +1,31 @@
+{
+  "id": "livestream/client-setup/angular",
+  "title": "Angular",
+  "description": "Explore the setup of the Livestream client in Angular with ProductDB. Follow our guide for effective Angular client setup.",
+  "source": "@site/docs/guides/livestream/client-setup/angular.mdx",
+  "sourceDirName": "livestream/client-setup",
+  "slug": "/livestream/client-setup/angular",
+  "permalink": "/guides/livestream/client-setup/angular",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/livestream/client-setup/angular.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Angular",
+    "sidebar_position": 1,
+    "description": "Explore the setup of the Livestream client in Angular with ProductDB. Follow our guide for effective Angular client setup."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Client Setup",
+    "permalink": "/guides/livestream/client-setup/"
+  },
+  "next": {
+    "title": "HTML",
+    "permalink": "/guides/livestream/client-setup/javascript"
+  }
+}

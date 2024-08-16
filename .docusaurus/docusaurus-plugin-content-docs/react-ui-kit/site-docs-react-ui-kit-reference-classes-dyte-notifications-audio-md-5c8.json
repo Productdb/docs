@@ -1,0 +1,26 @@
+{
+  "id": "reference/classes/DyteNotificationsAudio",
+  "title": "Class: ProductDBNotificationsAudio",
+  "description": "Handles notification sounds in a meeting",
+  "source": "@site/docs/react-ui-kit/reference/classes/DyteNotificationsAudio.md",
+  "sourceDirName": "reference/classes",
+  "slug": "/reference/classes/DyteNotificationsAudio",
+  "permalink": "/react-ui-kit/reference/classes/DyteNotificationsAudio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723765593,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "id": "DyteNotificationsAudio",
+    "title": "Class: ProductDBNotificationsAudio",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interface: UserPreferences",
+    "permalink": "/react-ui-kit/reference/interfaces/UserPreferences"
+  }
+}

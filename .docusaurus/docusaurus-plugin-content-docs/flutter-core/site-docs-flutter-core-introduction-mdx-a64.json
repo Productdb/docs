@@ -1,0 +1,31 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "The ProductDB Core SDK is designed to provide you with an easy way to incorporate live video, voice, livestream and chat capabilities into your Android apps. The Core SDK acts as a data-only layer. It provides simple APIs offering high-level primitives and abstracting away complex media and networking optimizations.",
+  "source": "@site/docs/flutter-core/introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/flutter-core/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter-core/introduction.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Introduction",
+    "sidebar_position": 3,
+    "sidebar_class_name": "module-seperation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Waiting Room",
+    "permalink": "/flutter-core/pre-call/waiting-room"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/flutter-core/local-user/introduction"
+  }
+}

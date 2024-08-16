@@ -1,0 +1,31 @@
+{
+  "id": "interactive-onboarding/init-sdk",
+  "title": "Init SDK",
+  "description": "",
+  "source": "@site/docs/guides/interactive-onboarding/init-sdk.mdx",
+  "sourceDirName": "interactive-onboarding",
+  "slug": "/interactive-onboarding/init-sdk",
+  "permalink": "/guides/interactive-onboarding/init-sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/interactive-onboarding/init-sdk.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Init SDK",
+    "sidebar_position": 3,
+    "sidebar_class_name": "interactive-tour init-sdk"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Participant",
+    "permalink": "/guides/interactive-onboarding/add-participant"
+  },
+  "next": {
+    "title": "Join Meeting",
+    "permalink": "/guides/interactive-onboarding/join-meeting"
+  }
+}

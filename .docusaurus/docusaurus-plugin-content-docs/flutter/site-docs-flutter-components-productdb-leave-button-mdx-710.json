@@ -1,0 +1,26 @@
+{
+  "id": "Components/productdb-leave-button",
+  "title": "ProductDBLeaveButton",
+  "description": "A specialized button widget for leaving a ProductDB meeting. This widget is designed in accordance with the ProductDB UI Kit and facilitates a seamless exit process from a meeting environment.",
+  "source": "@site/docs/flutter/Components/productdb-leave-button.mdx",
+  "sourceDirName": "Components",
+  "slug": "/Components/productdb-leave-button",
+  "permalink": "/flutter/Components/productdb-leave-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/flutter/Components/productdb-leave-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBJoinButton",
+    "permalink": "/flutter/Components/productdb-join-button"
+  },
+  "next": {
+    "title": "ProductDBLeaveMeetingDialog",
+    "permalink": "/flutter/Components/productdb-leave-meeting-dialog"
+  }
+}

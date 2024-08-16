@@ -1,0 +1,46 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "Explore the ProductDB Plugin SDK documentation for seamless integration. Enhance your app's capabilities with powerful plugin functionalities.",
+  "source": "@site/docs/plugin-sdk/introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/plugin-sdk/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/plugin-sdk/introduction.mdx",
+  "tags": [
+    {
+      "label": "plugin-sdk",
+      "permalink": "/plugin-sdk/tags/plugin-sdk"
+    },
+    {
+      "label": "installation",
+      "permalink": "/plugin-sdk/tags/installation"
+    },
+    {
+      "label": "setup",
+      "permalink": "/plugin-sdk/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "sidebar_position": 1,
+    "slug": "/",
+    "tags": [
+      "plugin-sdk",
+      "installation",
+      "setup"
+    ],
+    "description": "Explore the ProductDB Plugin SDK documentation for seamless integration. Enhance your app's capabilities with powerful plugin functionalities."
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Quickstart",
+    "permalink": "/plugin-sdk/quickstart"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "label": "stage",
+  "permalink": "/android-core/tags/stage",
+  "allTagsPath": "/android-core/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "stage-management/introduction",
+      "title": "Introduction",
+      "description": "Stage management in ProductDB meetings.",
+      "permalink": "/android-core/stage-management/introduction"
+    },
+    {
+      "id": "stage-management/viewer-participants",
+      "title": "Stage Access for Viewers",
+      "description": "Stage APIs for Viewers in ProductDB meetings.",
+      "permalink": "/android-core/stage-management/viewer-participants"
+    },
+    {
+      "id": "stage-management/host-controls",
+      "title": "Stage Host Controls",
+      "description": "Stage management APIs for Host in ProductDB meetings.",
+      "permalink": "/android-core/stage-management/host-controls"
+    }
+  ],
+  "unlisted": false
+}

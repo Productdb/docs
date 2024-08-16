@@ -1,6 +1,6 @@
 ---
 id: DyteNotificationsAudio
-title: 'Class: ProductDBNotificationsAudio'
+title: 'Class: DyteNotificationsAudio'
 custom_edit_url: null
 ---
 
@@ -10,7 +10,7 @@ Handles notification sounds in a meeting
 
 ### constructor
 
-• **new ProductDBNotificationsAudio**()
+• **new DyteNotificationsAudio**()
 
 ## Properties
 
@@ -59,6 +59,6 @@ ___
 
 
 <head>
-	<title>React UI Kit Class: ProductDBNotificationsAudio</title>
+	<title>React UI Kit Class: DyteNotificationsAudio</title>
 	
 </head>

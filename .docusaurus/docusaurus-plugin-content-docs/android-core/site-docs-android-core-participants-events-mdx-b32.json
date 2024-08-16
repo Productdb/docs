@@ -1,0 +1,49 @@
+{
+  "id": "participants/events",
+  "title": "Participant Events",
+  "description": "Dive into the details of handling participant events in your Android application using ProductDB's comprehensive documentation.",
+  "source": "@site/docs/android-core/participants/events.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/events",
+  "permalink": "/android-core/participants/events",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/participants/events.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/android-core/tags/participants"
+    },
+    {
+      "label": "self",
+      "permalink": "/android-core/tags/self"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Participant Events",
+    "description": "Dive into the details of handling participant events in your Android application using ProductDB's comprehensive documentation.",
+    "sidebar_position": 3,
+    "tags": [
+      "android-core",
+      "participants",
+      "self"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participant Object",
+    "permalink": "/android-core/participants/participant-object"
+  },
+  "next": {
+    "title": "Waitlisted Participants",
+    "permalink": "/android-core/participants/waitlisted-participants"
+  }
+}

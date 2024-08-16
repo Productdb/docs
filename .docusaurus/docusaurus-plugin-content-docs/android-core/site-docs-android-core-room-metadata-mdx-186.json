@@ -1,0 +1,44 @@
+{
+  "id": "room-metadata",
+  "title": "Room Metadata",
+  "description": "All metadata pertaining to a meeting.",
+  "source": "@site/docs/android-core/room-metadata.mdx",
+  "sourceDirName": ".",
+  "slug": "/room-metadata",
+  "permalink": "/android-core/room-metadata",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android-core/room-metadata.mdx",
+  "tags": [
+    {
+      "label": "android-core",
+      "permalink": "/android-core/tags/android-core"
+    },
+    {
+      "label": "room-metadata",
+      "permalink": "/android-core/tags/room-metadata"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "Room Metadata",
+    "description": "All metadata pertaining to a meeting.",
+    "sidebar_position": 11,
+    "tags": [
+      "android-core",
+      "room-metadata"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Voting on a poll",
+    "permalink": "/android-core/polls/voting-on-a-poll"
+  },
+  "next": {
+    "title": "System Error Codes",
+    "permalink": "/android-core/error-codes"
+  }
+}

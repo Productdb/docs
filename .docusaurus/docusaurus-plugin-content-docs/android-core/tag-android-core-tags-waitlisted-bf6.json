@@ -1,0 +1,15 @@
+{
+  "label": "waitlisted",
+  "permalink": "/android-core/tags/waitlisted",
+  "allTagsPath": "/android-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "participants/waitlisted-participants",
+      "title": "Waitlisted Participants",
+      "description": "Events, methods and data to manage waiting room participants.",
+      "permalink": "/android-core/participants/waitlisted-participants"
+    }
+  ],
+  "unlisted": false
+}

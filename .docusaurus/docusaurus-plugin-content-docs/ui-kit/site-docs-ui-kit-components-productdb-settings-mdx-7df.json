@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-settings",
+  "title": "productdb-settings",
+  "description": "Learn how to use and customize the productdb-settings component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/productdb-settings.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-settings",
+  "permalink": "/ui-kit/components/productdb-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/productdb-settings.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-settings.svg",
+    "description": "Learn how to use and customize the productdb-settings component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-settings-video",
+    "permalink": "/ui-kit/components/productdb-settings-video"
+  },
+  "next": {
+    "title": "productdb-setup-screen",
+    "permalink": "/ui-kit/components/productdb-setup-screen"
+  }
+}

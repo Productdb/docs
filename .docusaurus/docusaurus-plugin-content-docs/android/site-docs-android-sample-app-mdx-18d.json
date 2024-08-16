@@ -1,0 +1,30 @@
+{
+  "id": "sample-app",
+  "title": "Sample app",
+  "description": "Explore and learn from the Android sample app provided in ProductDB's documentation.",
+  "source": "@site/docs/android/sample-app.mdx",
+  "sourceDirName": ".",
+  "slug": "/sample-app",
+  "permalink": "/android/sample-app",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/sample-app.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "description": "Explore and learn from the Android sample app provided in ProductDB's documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBWebinarStageToggleButton",
+    "permalink": "/android/components/productdb-webinar-stage-toggle"
+  },
+  "next": {
+    "title": "Release Notes",
+    "permalink": "/android/release-notes"
+  }
+}

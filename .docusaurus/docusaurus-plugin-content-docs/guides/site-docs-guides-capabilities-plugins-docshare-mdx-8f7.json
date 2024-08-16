@@ -1,0 +1,28 @@
+{
+  "id": "capabilities/plugins/docshare",
+  "title": "Plugin: Document Sharing",
+  "description": "DocShare allows you to share, view documents and annotate the documents collaboratively.",
+  "source": "@site/docs/guides/capabilities/plugins/docshare.mdx",
+  "sourceDirName": "capabilities/plugins",
+  "slug": "/capabilities/plugins/docshare",
+  "permalink": "/guides/capabilities/plugins/docshare",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/capabilities/plugins/docshare.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "frontMatter": {
+    "title": "Plugin: Document Sharing"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rendering",
+    "permalink": "/guides/capabilities/plugins/rendering"
+  },
+  "next": {
+    "title": "Plugin: Streamer",
+    "permalink": "/guides/capabilities/plugins/streamer"
+  }
+}

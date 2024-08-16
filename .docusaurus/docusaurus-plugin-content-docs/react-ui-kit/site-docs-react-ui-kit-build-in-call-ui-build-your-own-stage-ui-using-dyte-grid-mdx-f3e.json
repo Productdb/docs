@@ -1,0 +1,30 @@
+{
+  "id": "build-in-call-ui/build-your-own/stage-ui-using-dyte-grid",
+  "title": "Build Stage UI using ProductDBGrid",
+  "description": "Source Code//github.com/productdb-io/react-samples/tree/main/samples/create-your-own-ui",
+  "source": "@site/docs/react-ui-kit/build-in-call-ui/build-your-own/stage-ui-using-dyte-grid.mdx",
+  "sourceDirName": "build-in-call-ui/build-your-own",
+  "slug": "/build-in-call-ui/build-your-own/stage-ui-using-dyte-grid",
+  "permalink": "/react-ui-kit/build-in-call-ui/build-your-own/stage-ui-using-dyte-grid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/build-in-call-ui/build-your-own/stage-ui-using-dyte-grid.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723758501,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Build Stage UI using ProductDBGrid",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customize Control Bar",
+    "permalink": "/react-ui-kit/build-in-call-ui/build-your-own/customize-control-bar"
+  },
+  "next": {
+    "title": "Add custom sidebar",
+    "permalink": "/react-ui-kit/build-in-call-ui/build-your-own/add-custom-sidebar"
+  }
+}

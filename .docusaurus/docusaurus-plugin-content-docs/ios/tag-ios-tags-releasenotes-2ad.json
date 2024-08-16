@@ -1,0 +1,15 @@
+{
+  "label": "releasenotes",
+  "permalink": "/ios/tags/releasenotes",
+  "allTagsPath": "/ios/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "release-notes",
+      "title": "Release Notes",
+      "description": "iOS Release Notes",
+      "permalink": "/ios/release-notes"
+    }
+  ],
+  "unlisted": false
+}

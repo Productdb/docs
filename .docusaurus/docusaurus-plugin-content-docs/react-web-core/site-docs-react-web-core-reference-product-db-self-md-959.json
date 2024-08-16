@@ -1,0 +1,30 @@
+{
+  "id": "reference/ProductDBSelf",
+  "title": "ProductDBSelf",
+  "description": "The ProductDBSelf module represents the current user, and allows to modify the state",
+  "source": "@site/docs/react-web-core/reference/ProductDBSelf.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/ProductDBSelf",
+  "permalink": "/react-web-core/reference/ProductDBSelf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-web-core/reference/ProductDBSelf.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "web_core_version": "1.32.1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBClient",
+    "permalink": "/react-web-core/reference/ProductDBClient"
+  },
+  "next": {
+    "title": "ProductDBParticipants",
+    "permalink": "/react-web-core/reference/ProductDBParticipants"
+  }
+}

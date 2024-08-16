@@ -1,0 +1,31 @@
+{
+  "id": "interactive-onboarding/join-meeting",
+  "title": "Join Meeting",
+  "description": "",
+  "source": "@site/docs/guides/interactive-onboarding/join-meeting.mdx",
+  "sourceDirName": "interactive-onboarding",
+  "slug": "/interactive-onboarding/join-meeting",
+  "permalink": "/guides/interactive-onboarding/join-meeting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/interactive-onboarding/join-meeting.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Join Meeting",
+    "sidebar_position": 4,
+    "sidebar_class_name": "interactive-tour init-sdk"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Init SDK",
+    "permalink": "/guides/interactive-onboarding/init-sdk"
+  },
+  "next": {
+    "title": "Processing - Middlewares",
+    "permalink": "/guides/capabilities/audio/processing"
+  }
+}

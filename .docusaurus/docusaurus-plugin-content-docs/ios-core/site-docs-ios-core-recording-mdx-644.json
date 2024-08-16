@@ -1,0 +1,44 @@
+{
+  "id": "recording",
+  "title": "Recording",
+  "description": "Control recordings in a meeting.",
+  "source": "@site/docs/ios-core/recording.mdx",
+  "sourceDirName": ".",
+  "slug": "/recording",
+  "permalink": "/ios-core/recording",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios-core/recording.mdx",
+  "tags": [
+    {
+      "label": "ios-core",
+      "permalink": "/ios-core/tags/ios-core"
+    },
+    {
+      "label": "recording",
+      "permalink": "/ios-core/tags/recording"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Recording",
+    "description": "Control recordings in a meeting.",
+    "sidebar_position": 8,
+    "tags": [
+      "ios-core",
+      "recording"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Other methods",
+    "permalink": "/ios-core/plugins/extra"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/ios-core/stage-management/introduction"
+  }
+}

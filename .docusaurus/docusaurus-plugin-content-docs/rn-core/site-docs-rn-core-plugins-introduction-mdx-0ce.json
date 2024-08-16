@@ -1,0 +1,44 @@
+{
+  "id": "plugins/introduction",
+  "title": "Introduction",
+  "description": "Manage plugins in a meeting.",
+  "source": "@site/docs/rn-core/plugins/introduction.mdx",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/introduction",
+  "permalink": "/rn-core/plugins/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/rn-core/plugins/introduction.mdx",
+  "tags": [
+    {
+      "label": "rn-core",
+      "permalink": "/rn-core/tags/rn-core"
+    },
+    {
+      "label": "plugins",
+      "permalink": "/rn-core/tags/plugins"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Manage plugins in a meeting.",
+    "sidebar_position": 1,
+    "tags": [
+      "rn-core",
+      "plugins"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Other poll functions",
+    "permalink": "/rn-core/polls/other-poll-functions"
+  },
+  "next": {
+    "title": "Functions to enable plugins",
+    "permalink": "/rn-core/plugins/enable-plugin"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-menu",
+  "title": "ProductDBMenu",
+  "description": "Learn how to use and customize the ProductDBMenu component in ProductDB's React UI Kit with our detailed documentation.",
+  "source": "@site/docs/react-ui-kit/components/productdb-menu.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-menu",
+  "permalink": "/react-ui-kit/components/productdb-menu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/react-ui-kit/components/productdb-menu.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-menu.svg",
+    "description": "Learn how to use and customize the ProductDBMenu component in ProductDB's React UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBMenuList",
+    "permalink": "/react-ui-kit/components/productdb-menu-list"
+  },
+  "next": {
+    "title": "ProductDBMicToggle",
+    "permalink": "/react-ui-kit/components/productdb-mic-toggle"
+  }
+}

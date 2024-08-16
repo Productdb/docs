@@ -1,0 +1,31 @@
+{
+  "id": "guides/how-to-work-with-plugin-stores",
+  "title": "How to work with Plugin Stores",
+  "description": "Discover how to effectively work with plugin stores using the ProductDB Plugin SDK. Customize and distribute your plugins seamlessly.",
+  "source": "@site/docs/plugin-sdk/guides/how-to-work-with-plugin-stores.mdx",
+  "sourceDirName": "guides",
+  "slug": "/guides/how-to-work-with-plugin-stores",
+  "permalink": "/plugin-sdk/guides/how-to-work-with-plugin-stores",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/plugin-sdk/guides/how-to-work-with-plugin-stores.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723750666,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "How to work with Plugin Stores",
+    "sidebar_position": 1,
+    "description": "Discover how to effectively work with plugin stores using the ProductDB Plugin SDK. Customize and distribute your plugins seamlessly."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Operations on Store",
+    "permalink": "/plugin-sdk/usage/stores-api/manage-stores"
+  },
+  "next": {
+    "title": "Exchange data between plugin and meeting",
+    "permalink": "/plugin-sdk/guides/exchange-data-between-plugin-and-meeting"
+  }
+}

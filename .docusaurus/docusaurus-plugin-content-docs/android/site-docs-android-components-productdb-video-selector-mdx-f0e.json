@@ -1,0 +1,26 @@
+{
+  "id": "components/productdb-video-selector",
+  "title": "ProductDBVideoDeviceSelector",
+  "description": "A video device selector component which can be used to select video devices.",
+  "source": "@site/docs/android/components/productdb-video-selector.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-video-selector",
+  "permalink": "/android/components/productdb-video-selector",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/android/components/productdb-video-selector.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723760454,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductDBSetupFragment",
+    "permalink": "/android/components/productdb-setup-screen"
+  },
+  "next": {
+    "title": "ProductDBWebinarStageToggleButton",
+    "permalink": "/android/components/productdb-webinar-stage-toggle"
+  }
+}

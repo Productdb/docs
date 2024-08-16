@@ -1,0 +1,35 @@
+{
+  "id": "release-notes",
+  "title": "Release Notes",
+  "description": "iOS Release Notes",
+  "source": "@site/docs/ios/release-notes.mdx",
+  "sourceDirName": ".",
+  "slug": "/release-notes",
+  "permalink": "/ios/release-notes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/release-notes.mdx",
+  "tags": [
+    {
+      "label": "releasenotes",
+      "permalink": "/ios/tags/releasenotes"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1721134929,
+  "formattedLastUpdatedAt": "Jul 16, 2024",
+  "sidebarPosition": 101,
+  "frontMatter": {
+    "title": "Release Notes",
+    "sidebar_position": 101,
+    "sidebar_class_name": "releaseSidebarHeading",
+    "tags": [
+      "releasenotes"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VideoPeerViewModel",
+    "permalink": "/ios/helper-classes/productdb-plugin-view-model"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "events",
+  "title": "Events",
+  "description": "Access comprehensive documentation on iOS events with ProductDB Docs. Stay informed and integrate events seamlessly into your app.",
+  "source": "@site/docs/ios/events.mdx",
+  "sourceDirName": ".",
+  "slug": "/events",
+  "permalink": "/ios/events",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ios/events.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "description": "Access comprehensive documentation on iOS events with ProductDB Docs. Stay informed and integrate events seamlessly into your app."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Design System",
+    "permalink": "/ios/design-system"
+  },
+  "next": {
+    "title": "ProductDBSetupScreen",
+    "permalink": "/ios/build-pre-call-ui/default-setup-screen"
+  }
+}

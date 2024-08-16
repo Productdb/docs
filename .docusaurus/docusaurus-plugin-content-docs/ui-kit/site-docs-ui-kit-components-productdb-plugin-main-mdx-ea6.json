@@ -1,0 +1,29 @@
+{
+  "id": "components/productdb-plugin-main",
+  "title": "productdb-plugin-main",
+  "description": "Learn how to use and customize the productdb-plugin-main component in ProductDB's UI Kit with our detailed documentation.",
+  "source": "@site/docs/ui-kit/components/productdb-plugin-main.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/productdb-plugin-main",
+  "permalink": "/ui-kit/components/productdb-plugin-main",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/ui-kit/components/productdb-plugin-main.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/productdb-plugin-main.svg",
+    "description": "Learn how to use and customize the productdb-plugin-main component in ProductDB's UI Kit with our detailed documentation."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "productdb-permissions-message",
+    "permalink": "/ui-kit/components/productdb-permissions-message"
+  },
+  "next": {
+    "title": "productdb-plugins-toggle",
+    "permalink": "/ui-kit/components/productdb-plugins-toggle"
+  }
+}

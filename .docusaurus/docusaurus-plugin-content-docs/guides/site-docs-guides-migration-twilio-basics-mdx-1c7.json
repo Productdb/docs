@@ -1,0 +1,30 @@
+{
+  "id": "migration/twilio/basics",
+  "title": "🔤 Basics",
+  "description": "Here is a look at how the migration process would look for you if you choose to migrate from Twilio to ProductDB",
+  "source": "@site/docs/guides/migration/twilio/basics.mdx",
+  "sourceDirName": "migration/twilio",
+  "slug": "/migration/twilio/basics",
+  "permalink": "/guides/migration/twilio/basics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/productdb/docs/tree/main/docs/guides/migration/twilio/basics.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1723755734,
+  "formattedLastUpdatedAt": "Aug 15, 2024",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "🔤 Basics",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "💡 Concepts",
+    "permalink": "/guides/migration/twilio/concepts-twilio-vs-productdb"
+  },
+  "next": {
+    "title": "🎬 Media",
+    "permalink": "/guides/migration/twilio/media"
+  }
+}
